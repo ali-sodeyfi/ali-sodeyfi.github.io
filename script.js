@@ -9,15 +9,15 @@ const html = document.documentElement;
 
 const translations = {
   fa: {
-    documentTitle: "علی صدیفی | Venture Builder",
+    documentTitle: "علی سدیفی | Venture Builder",
     metaDescription:
-      "علی صدیفی، Venture Builder و اپراتور اجرایی با تمرکز بر ساخت شرکت، مقیاس‌دهی عملیاتی و توسعه اکوسیستم.",
+      "علی سدیفی، Venture Builder و اپراتور اجرایی با تمرکز بر ساخت شرکت، مقیاس‌دهی عملیاتی و توسعه اکوسیستم.",
     brandRole: "Venture Builder",
     navWork: "کارنامه",
     navThesis: "تمرکز",
     navArticles: "مقالات",
     navContact: "تماس",
-    eyebrow: "علی صدیفی / Ali Sodeyfi",
+    eyebrow: "علی سدیفی / Ali Sodeyfi",
     heroTitle: "ساختن شرکت، کار ایده نیست. کار سیستم است.",
     heroLead:
       "Venture builder و اپراتور اجرایی با بیش از 10 سال تجربه در ساخت، سرمایه‌گذاری و مقیاس‌دهی کسب‌وکارها در فین‌تک، ادتک و اکوسیستم استارتاپی.",
@@ -63,12 +63,16 @@ const translations = {
     articlesLabel: "مطالعه",
     articlesTitle: "مقاله امروز برای ساختن بهتر",
     articlesIntro:
-      "یک انتخاب روزانه از نوشته‌های معتبر کارآفرینی، رشد و ساخت شرکت؛ با خلاصه کوتاه و لینک منبع اصلی.",
+      "یک انتخاب روزانه از نوشته‌های معتبر کارآفرینی، رشد و ساخت شرکت؛ با متن تحلیلی داخل سایت و لینک منبع اصلی.",
     articleTodayLabel: "مقاله امروز",
     articleArchiveLabel: "آرشیو منتخب",
     articleSourceLabel: "منبع",
     articleDateLabel: "به‌روزرسانی روزانه",
-    articleReadLabel: "خواندن مقاله",
+    articleReadLabel: "منبع اصلی",
+    articleOnSiteLabel: "متن مقاله روی سایت",
+    articleTakeawaysLabel: "نکات اجرایی",
+    articleCopyrightNote:
+      "این متن، بازنشر مقاله اصلی نیست؛ یک خوانش تحلیلی و بازنویسی‌شده برای مطالعه داخل سایت است.",
     contactLabel: "تماس",
     contactTitle:
       "برای همکاری در رشد، سرمایه‌گذاری یا ساختاردهی سازمانی.",
@@ -134,12 +138,16 @@ const translations = {
     articlesLabel: "Reading",
     articlesTitle: "Today's article for better company building",
     articlesIntro:
-      "A daily pick from credible essays on entrepreneurship, growth, and company building, with a short note and a link to the original source.",
+      "A daily pick from credible essays on entrepreneurship, growth, and company building, with an on-site analytical note and a link to the original source.",
     articleTodayLabel: "Today's article",
     articleArchiveLabel: "Selected archive",
     articleSourceLabel: "Source",
     articleDateLabel: "Daily rotation",
-    articleReadLabel: "Read article",
+    articleReadLabel: "Original source",
+    articleOnSiteLabel: "On-site article",
+    articleTakeawaysLabel: "Operating takeaways",
+    articleCopyrightNote:
+      "This is not a republication of the original article; it is an original analytical reading for this site.",
     contactLabel: "Contact",
     contactTitle:
       "For growth, investment, or organizational structuring conversations.",
@@ -151,15 +159,15 @@ const translations = {
     footerText: "Venture builder. Executive operator. Ecosystem development leader.",
   },
   ar: {
-    documentTitle: "علي صدیفي | Venture Builder",
+    documentTitle: "علي سدیفي | Venture Builder",
     metaDescription:
-      "علي صدیفي، بنّاء شركات ومشغّل تنفيذي يركّز على بناء الشركات، توسيع العمليات، وتطوير المنظومات.",
+      "علي سدیفي، بنّاء شركات ومشغّل تنفيذي يركّز على بناء الشركات، توسيع العمليات، وتطوير المنظومات.",
     brandRole: "بناء الشركات",
     navWork: "الأعمال",
     navThesis: "التركيز",
     navArticles: "مقالات",
     navContact: "التواصل",
-    eyebrow: "علي صدیفي / Ali Sodeyfi",
+    eyebrow: "علي سدیفي / Ali Sodeyfi",
     heroTitle: "بناء الشركات ليس مشكلة أفكار. إنه مشكلة أنظمة.",
     heroLead:
       "بنّاء شركات ومشغّل تنفيذي بخبرة تزيد عن 10 سنوات في بناء الشركات والاستثمار فيها وتوسيعها عبر الفنتك، التعليم التقني، ومنظومات الشركات الناشئة.",
@@ -205,12 +213,16 @@ const translations = {
     articlesLabel: "قراءة",
     articlesTitle: "مقال اليوم لبناء أفضل",
     articlesIntro:
-      "اختيار يومي من مقالات موثوقة عن ريادة الأعمال والنمو وبناء الشركات، مع ملخص قصير ورابط المصدر الأصلي.",
+      "اختيار يومي من مقالات موثوقة عن ريادة الأعمال والنمو وبناء الشركات، مع قراءة تحليلية داخل الموقع ورابط المصدر الأصلي.",
     articleTodayLabel: "مقال اليوم",
     articleArchiveLabel: "أرشيف مختار",
     articleSourceLabel: "المصدر",
     articleDateLabel: "تحديث يومي",
-    articleReadLabel: "قراءة المقال",
+    articleReadLabel: "المصدر الأصلي",
+    articleOnSiteLabel: "المقال داخل الموقع",
+    articleTakeawaysLabel: "نقاط تشغيلية",
+    articleCopyrightNote:
+      "هذا النص ليس إعادة نشر للمقال الأصلي؛ بل قراءة تحليلية أصلية لهذا الموقع.",
     contactLabel: "التواصل",
     contactTitle:
       "لحوارات النمو، الاستثمار، أو هيكلة المنظمات.",
@@ -430,6 +442,504 @@ const articleCatalog = [
   },
 ];
 
+const articleEssays = {
+  "Do Things that Don't Scale": {
+    fa: {
+      paragraphs: [
+        "در شروع یک شرکت، وسوسه طبیعی این است که همه‌چیز از روز اول scalable باشد: فرایندها، فروش، جذب کاربر، پشتیبانی و حتی فرهنگ. اما واقعیت شروع، بیشتر شبیه ساختن اعتماد با دست است تا ساختن ماشین رشد. بنیان‌گذار باید نزدیک کاربر بماند، خودش درد را بشنود و خودش بخشی از تجربه اولیه را بسازد.",
+        "کار غیرقابل‌مقیاس، اگر درست انتخاب شود، اتلاف وقت نیست؛ ابزار یادگیری است. وقتی founder خودش با کاربر صحبت می‌کند، خودش onboarding انجام می‌دهد یا خودش کیفیت اولین تجربه را نگه می‌دارد، چیزهایی می‌فهمد که هیچ داشبوردی در هفته‌های اول نشان نمی‌دهد. این کارها برای همیشه نمی‌مانند، اما DNA محصول و سازمان را شکل می‌دهند.",
+        "معیار مهم این است که کار دستی باید به یادگیری یا وفاداری تبدیل شود. اگر فقط founder را خسته کند و insight نسازد، دام است. اما اگر باعث شود کاربر حس کند با یک تیم جدی طرف است، یا تیم بفهمد ارزش واقعی کجا ساخته می‌شود، همان کار کوچک می‌تواند نقطه شروع رشد بزرگ باشد.",
+      ],
+      takeaways: [
+        "در فاز صفر و یک، با کاربرها مستقیم حرف بزن و تجربه را دستی کامل کن.",
+        "قبل از automation، بفهم کدام بخش تجربه واقعا ارزش می‌سازد.",
+        "کار غیرقابل‌مقیاس باید موقت، هدفمند و یادگیری‌ساز باشد.",
+      ],
+    },
+    en: {
+      paragraphs: [
+        "At the beginning of a company, it is tempting to make everything scalable from day one: acquisition, sales, onboarding, support, even culture. But the beginning is usually less like building a growth machine and more like earning trust by hand. The founder has to stay close to users, hear the pain directly, and help create the first version of the experience personally.",
+        "Unscalable work is not waste when it is chosen well. It is a learning instrument. When founders onboard users themselves, answer support, or protect quality manually, they learn things that early dashboards cannot reveal. These habits should not last forever, but they often shape the product and the organization.",
+        "The operating test is whether the manual work creates learning or loyalty. If it only exhausts the founder, it is a trap. If it helps users feel that a serious team is listening, or helps the team see where value is really created, a small manual act can become the root of large growth.",
+      ],
+      takeaways: [
+        "In the earliest stage, talk to users directly and complete the experience manually.",
+        "Before automating, learn which part of the experience creates real value.",
+        "Unscalable work should be temporary, intentional, and insight-generating.",
+      ],
+    },
+    ar: {
+      paragraphs: [
+        "في بداية الشركة، من السهل أن يرغب المؤسس في جعل كل شيء قابلا للتوسع منذ اليوم الأول: الاكتساب، البيع، الانضمام، الدعم وحتى الثقافة. لكن البداية غالبا لا تشبه آلة نمو جاهزة؛ إنها أقرب إلى بناء الثقة باليد. على المؤسس أن يبقى قريبا من المستخدم، يسمع الألم مباشرة، ويساهم بنفسه في تشكيل التجربة الأولى.",
+        "العمل غير القابل للتوسع ليس هدرا إذا تم اختياره بعناية؛ إنه أداة تعلم. عندما يقوم المؤسس بإدخال المستخدمين بنفسه، أو يجيب عن الدعم، أو يحافظ على الجودة يدويا، يرى أشياء لا تكشفها لوحات البيانات في البداية. هذه الأعمال لا يجب أن تبقى إلى الأبد، لكنها تصنع ملامح المنتج والمنظمة.",
+        "السؤال التشغيلي هو: هل هذا العمل اليدوي يصنع تعلما أو ولاء؟ إذا كان يستهلك المؤسس فقط فهو فخ. أما إذا جعل المستخدم يشعر أن فريقا جادا يستمع إليه، أو جعل الفريق يفهم أين تولد القيمة، فقد يصبح الفعل الصغير أساس نمو كبير.",
+      ],
+      takeaways: [
+        "في المرحلة الأولى، تحدث مع المستخدمين مباشرة وأكمل التجربة يدويا.",
+        "قبل الأتمتة، افهم أي جزء من التجربة يخلق القيمة الحقيقية.",
+        "العمل غير القابل للتوسع يجب أن يكون مؤقتا ومقصودا ومولدا للتعلم.",
+      ],
+    },
+  },
+  "Startup = Growth": {
+    fa: {
+      paragraphs: [
+        "همه کسب‌وکارهای کوچک استارتاپ نیستند. تفاوت اصلی، ظرفیت رشد سریع است. یک مغازه خوب، یک شرکت خدماتی سودده یا یک محصول niche می‌تواند ارزشمند باشد، اما اگر منطق اصلی آن رشد سریع و بزرگ شدن تکرارپذیر نباشد، با تعریف venture-scale هم‌خوان نیست.",
+        "این نگاه برای تصمیم‌گیری سرمایه‌گذاری و استراتژی مهم است. اگر شرکت واقعا استارتاپ است، باید بازار، محصول و مدل توزیع آن توان رشد نمایی داشته باشند. در غیر این صورت، فشار دادن آن به قالب استارتاپ فقط تیم را خسته و انتظارات را نادرست می‌کند.",
+        "رشد، فقط عدد درآمد یا نصب نیست. کیفیت رشد مهم است: آیا هر موج رشد، یادگیری و قدرت توزیع بیشتری می‌سازد؟ آیا محصول با بزرگ شدن بهتر می‌شود یا شکننده‌تر؟ استارتاپی که رشد را می‌فهمد، growth را نتیجه سیستم می‌بیند نه یک کمپین موقت.",
+      ],
+      takeaways: [
+        "قبل از جذب سرمایه، روشن کن آیا کسب‌وکار واقعا ظرفیت رشد سریع دارد یا نه.",
+        "رشد سالم باید از محصول، بازار و توزیع با هم بیاید.",
+        "هر metric رشد را با کیفیت، تکرارپذیری و هزینه آن بسنج.",
+      ],
+    },
+    en: {
+      paragraphs: [
+        "Not every small business is a startup. The core distinction is the capacity for fast growth. A good shop, a profitable services firm, or a niche product can be valuable, but if it is not designed for repeatable rapid expansion, it is not the same kind of company as a venture-scale startup.",
+        "This matters for strategy and investment. If a company is truly a startup, its market, product, and distribution model must be capable of compounding growth. Otherwise, forcing it into the startup frame creates exhaustion and distorted expectations.",
+        "Growth is not just revenue or installs. The quality of growth matters. Does each wave of growth create more learning and distribution power? Does the product improve as it scales, or become fragile? A growth-aware startup treats growth as a system outcome, not a temporary campaign.",
+      ],
+      takeaways: [
+        "Before fundraising, clarify whether the business truly has rapid-growth potential.",
+        "Healthy growth comes from product, market, and distribution working together.",
+        "Measure every growth metric by quality, repeatability, and cost.",
+      ],
+    },
+    ar: {
+      paragraphs: [
+        "ليست كل شركة صغيرة شركة ناشئة. الفارق الأساسي هو القدرة على النمو السريع. قد يكون المتجر الجيد أو شركة الخدمات المربحة أو المنتج المتخصص أعمالا قيمة، لكنها ليست بالضرورة شركة قابلة للنمو الجريء إذا لم يكن منطقها قائما على توسع سريع ومتكرر.",
+        "هذا مهم للاستراتيجية والاستثمار. إذا كانت الشركة ناشئة فعلا، فيجب أن يكون السوق والمنتج ونموذج التوزيع قادرين على خلق نمو تراكمي. أما إذا لم يكن ذلك موجودا، فإن دفعها إلى قالب الشركات الناشئة يخلق إرهاقا وتوقعات خاطئة.",
+        "النمو ليس مجرد إيراد أو تحميلات. جودة النمو مهمة. هل تخلق كل موجة نمو تعلما وقوة توزيع أكبر؟ هل يصبح المنتج أفضل عندما يكبر أم أكثر هشاشة؟ الشركة التي تفهم النمو تراه نتيجة نظام، لا حملة مؤقتة.",
+      ],
+      takeaways: [
+        "قبل جمع الاستثمار، وضح هل لدى العمل قدرة حقيقية على النمو السريع.",
+        "النمو الصحي يأتي من تفاعل المنتج والسوق والتوزيع معا.",
+        "قيّم كل رقم نمو من حيث الجودة والتكرار والتكلفة.",
+      ],
+    },
+  },
+  "How to Get Startup Ideas": {
+    fa: {
+      paragraphs: [
+        "ایده استارتاپی معمولا با نشستن و فشار آوردن به ذهن ساخته نمی‌شود. ایده خوب بیشتر از دل زندگی در یک مسئله بیرون می‌آید. وقتی کسی در لبه یک صنعت، تکنولوژی یا رفتار جدید زندگی می‌کند، کمبودهایی را می‌بیند که برای دیگران هنوز نامرئی است.",
+        "راه عملی‌تر این است که به جای دنبال کردن «ایده بزرگ»، دنبال مسئله واقعی باشی. مسئله واقعی نشانه دارد: آدم‌ها همین امروز برایش هزینه می‌دهند، با راه‌حل‌های بد کنار آمده‌اند، یا خودت بارها با آن برخورد کرده‌ای. بهترین ایده‌ها اغلب در ابتدا شبیه چیزهای کوچک و حتی نامرتب‌اند، نه pitchهای براق.",
+        "برای founder، کیفیت مشاهده مهم‌تر از تعداد ایده‌هاست. اگر با کاربر، بازار و تغییرات تکنولوژی نزدیک باشی، ایده‌ها به جای اینکه ساخته شوند، کشف می‌شوند. سپس کار اصلی شروع می‌شود: فهمیدن اینکه کدام مسئله آن‌قدر دردناک، تکرارشونده و بزرگ است که ارزش ساختن شرکت داشته باشد.",
+      ],
+      takeaways: [
+        "در محیط‌هایی زندگی و کار کن که آینده زودتر خودش را نشان می‌دهد.",
+        "به مسئله‌هایی توجه کن که خودت یا کاربران بارها تجربه کرده‌اید.",
+        "ایده را با شدت درد، تکرارپذیری و امکان توزیع بسنج.",
+      ],
+    },
+    en: {
+      paragraphs: [
+        "Startup ideas rarely come from forcing the mind to invent something impressive. Good ideas usually come from living inside a problem. When someone is close to the edge of a new industry, technology, or behavior, they notice missing pieces that remain invisible to others.",
+        "The more practical path is to look for real problems rather than big ideas. Real problems leave evidence: people already pay to solve them, tolerate bad workarounds, or repeatedly experience the pain themselves. Many strong ideas look small or messy at first, not like polished pitches.",
+        "For a founder, the quality of observation matters more than the number of ideas. If you stay close to users, markets, and technical change, ideas are discovered more than invented. Then the real work begins: deciding which problem is painful, repeated, and large enough to deserve a company.",
+      ],
+      takeaways: [
+        "Live and work where the future becomes visible earlier.",
+        "Pay attention to problems you or users experience repeatedly.",
+        "Judge ideas by pain intensity, repeatability, and distribution potential.",
+      ],
+    },
+    ar: {
+      paragraphs: [
+        "نادرا ما تأتي أفكار الشركات الناشئة من الضغط على الذهن لاختراع شيء مبهر. الأفكار الجيدة تأتي غالبا من العيش داخل مشكلة. عندما يكون الشخص قريبا من حافة صناعة أو تقنية أو سلوك جديد، يرى النواقص التي لا تزال غير مرئية للآخرين.",
+        "الطريق العملي هو البحث عن مشكلة حقيقية لا عن فكرة كبيرة. المشكلة الحقيقية لها أدلة: الناس يدفعون لحلها، أو يتحملون حلولا سيئة، أو يختبرون الألم مرارا. كثير من الأفكار القوية تبدو صغيرة أو غير مرتبة في البداية، وليست عروضا براقة.",
+        "بالنسبة للمؤسس، جودة الملاحظة أهم من عدد الأفكار. إذا بقيت قريبا من المستخدمين والسوق والتغير التقني، فالأفكار تكتشف أكثر مما تخترع. ثم يبدأ العمل الحقيقي: تحديد أي مشكلة مؤلمة ومتكررة وكبيرة بما يكفي لبناء شركة حولها.",
+      ],
+      takeaways: [
+        "عش واعمل في أماكن يظهر فيها المستقبل مبكرا.",
+        "انتبه للمشكلات التي تختبرها أنت أو المستخدمون بشكل متكرر.",
+        "قيّم الفكرة من حيث شدة الألم والتكرار وإمكان التوزيع.",
+      ],
+    },
+  },
+  "Maker's Schedule, Manager's Schedule": {
+    fa: {
+      paragraphs: [
+        "تقویم یک founder معمولا بین دو ریتم پاره می‌شود: ریتم ساختن و ریتم مدیریت. کار maker به بلوک‌های عمیق زمان نیاز دارد؛ کار manager با جلسه، تصمیم سریع و context switching جلو می‌رود. مشکل وقتی شروع می‌شود که این دو ریتم بدون مرز با هم مخلوط شوند.",
+        "یک جلسه کوتاه در میانه روز ممکن است برای manager کم‌هزینه به نظر برسد، اما برای maker می‌تواند کل بلوک تمرکز را نابود کند. برای تیم‌های محصول و تکنولوژی، این هزینه پنهان بسیار واقعی است. اگر سازمان این تفاوت را نفهمد، سرعت ظاهری ارتباط زیاد می‌شود ولی عمق خروجی پایین می‌آید.",
+        "راه‌حل، ضدجلسه بودن نیست؛ طراحی آگاهانه ریتم است. باید زمان‌های تصمیم‌گیری، sync و مدیریت مشخص باشد و کنار آن بلوک‌های محافظت‌شده برای ساختن وجود داشته باشد. founder خوب می‌فهمد چه زمانی باید manager باشد و چه زمانی باید از فضای maker تیم دفاع کند.",
+      ],
+      takeaways: [
+        "تقویم تیم را براساس نوع کار طراحی کن، نه فقط دسترسی افراد.",
+        "جلسه‌های کوتاه هم می‌توانند هزینه تمرکز بالایی داشته باشند.",
+        "برای کار عمیق، بلوک‌های محافظت‌شده و بدون وقفه بساز.",
+      ],
+    },
+    en: {
+      paragraphs: [
+        "A founder's calendar is often split between two rhythms: making and managing. Maker work needs deep blocks of time. Manager work moves through meetings, quick decisions, and context switching. The problem begins when the two rhythms are mixed without boundaries.",
+        "A short meeting in the middle of the day may look cheap to a manager, but it can destroy an entire focus block for a maker. For product and engineering teams, that hidden cost is very real. If the organization misses this distinction, communication may look faster while output becomes shallower.",
+        "The answer is not to hate meetings. It is to design rhythm deliberately. Decision time, sync time, and management time should be clear, while protected blocks exist for building. A strong founder knows when to operate as a manager and when to defend the team's maker space.",
+      ],
+      takeaways: [
+        "Design calendars around the type of work, not just people's availability.",
+        "Short meetings can still carry high focus costs.",
+        "Create protected blocks for deep work without interruption.",
+      ],
+    },
+    ar: {
+      paragraphs: [
+        "ينقسم تقويم المؤسس غالبا بين إيقاعين: البناء والإدارة. عمل الصانع يحتاج إلى كتل عميقة من الوقت، بينما يتحرك عمل المدير عبر الاجتماعات والقرارات السريعة وتغيير السياق. تبدأ المشكلة عندما يختلط الإيقاعان بلا حدود.",
+        "قد يبدو اجتماع قصير في منتصف اليوم منخفض التكلفة للمدير، لكنه قد يدمر كتلة تركيز كاملة للصانع. بالنسبة لفرق المنتج والهندسة، هذه الكلفة الخفية حقيقية. إذا لم تفهم المنظمة هذا الفرق، قد تبدو الاتصالات أسرع بينما يصبح الناتج أقل عمقا.",
+        "الحل ليس كراهية الاجتماعات، بل تصميم الإيقاع بوعي. يجب أن يكون وقت القرار والتنسيق والإدارة واضحا، وأن توجد بجانبه كتل محمية للبناء. المؤسس الجيد يعرف متى يعمل كمدير ومتى يدافع عن مساحة الصانع داخل الفريق.",
+      ],
+      takeaways: [
+        "صمم التقويم حسب نوع العمل، لا حسب توفر الأشخاص فقط.",
+        "الاجتماعات القصيرة قد تحمل كلفة تركيز عالية.",
+        "أنشئ كتل وقت محمية للعمل العميق بلا مقاطعة.",
+      ],
+    },
+  },
+  "1,000 True Fans": {
+    fa: {
+      paragraphs: [
+        "همه مسیرهای رشد از جذب میلیون‌ها کاربر شروع نمی‌شوند. بعضی کسب‌وکارها با تعداد محدودی مشتری یا طرفدار عمیق ساخته می‌شوند؛ کسانی که ارزش را می‌فهمند، تکرار خرید دارند و حاضرند رابطه بلندمدت بسازند.",
+        "برای creatorها، جامعه‌ها و بعضی محصولات تخصصی، عمق رابطه می‌تواند از اندازه خام مخاطب مهم‌تر باشد. هزار نفر که واقعا به محصول باور دارند، بازخورد می‌دهند و هزینه می‌کنند، از صد هزار نفر مخاطب بی‌تفاوت ارزشمندترند. این نگاه مخصوصا برای برند شخصی و کسب‌وکارهای اعتمادمحور مهم است.",
+        "اما این ایده به معنی کوچک فکر کردن نیست. نقطه اصلی این است که پیش از وسواس روی scale، باید هسته‌ای از وفاداری واقعی ساخت. وقتی ارزش برای گروه کوچک روشن شد، توسعه بازار سالم‌تر و ارزان‌تر می‌شود.",
+      ],
+      takeaways: [
+        "قبل از بزرگ کردن audience، کیفیت رابطه با کاربران اصلی را بسنج.",
+        "طرفدار واقعی کسی است که خرید، معرفی یا مشارکت تکرارشونده دارد.",
+        "وفاداری عمیق می‌تواند پایه توزیع و برند باشد.",
+      ],
+    },
+    en: {
+      paragraphs: [
+        "Not every growth path begins with millions of users. Some businesses are built on a smaller number of deeply committed customers or fans: people who understand the value, buy repeatedly, and are willing to form a long-term relationship.",
+        "For creators, communities, and specialized products, relationship depth can matter more than raw audience size. A thousand people who believe in the product, give feedback, and pay are often more valuable than a hundred thousand indifferent viewers. This is especially relevant for personal brands and trust-based businesses.",
+        "The idea does not mean thinking small. The point is to build a core of real loyalty before obsessing over scale. Once value is clear for a small group, market expansion becomes healthier and cheaper.",
+      ],
+      takeaways: [
+        "Before growing the audience, measure the quality of relationships with core users.",
+        "A true fan buys, refers, or participates repeatedly.",
+        "Deep loyalty can become the foundation of distribution and brand.",
+      ],
+    },
+    ar: {
+      paragraphs: [
+        "ليست كل مسارات النمو تبدأ بملايين المستخدمين. بعض الأعمال تبنى على عدد أقل من العملاء أو المعجبين شديدي الالتزام: أشخاص يفهمون القيمة، يشترون بشكل متكرر، ويرغبون في علاقة طويلة الأمد.",
+        "بالنسبة لصناع المحتوى والمجتمعات والمنتجات المتخصصة، قد يكون عمق العلاقة أهم من حجم الجمهور الخام. ألف شخص يؤمنون بالمنتج ويقدمون ملاحظات ويدفعون المال أكثر قيمة من مئة ألف مشاهد غير مبال. هذا مهم خصوصا للعلامات الشخصية والأعمال المبنية على الثقة.",
+        "الفكرة لا تعني التفكير الصغير. النقطة هي بناء نواة من الولاء الحقيقي قبل الهوس بالتوسع. عندما تصبح القيمة واضحة لمجموعة صغيرة، يصبح توسيع السوق أكثر صحة وأقل تكلفة.",
+      ],
+      takeaways: [
+        "قبل تكبير الجمهور، قس جودة العلاقة مع المستخدمين الأساسيين.",
+        "المعجب الحقيقي يشتري أو يوصي أو يشارك بشكل متكرر.",
+        "الولاء العميق يمكن أن يكون أساس التوزيع والعلامة.",
+      ],
+    },
+  },
+  "The Only Thing that Matters": {
+    fa: {
+      paragraphs: [
+        "در بسیاری از روایت‌های استارتاپی، تیم و محصول بیشترین توجه را می‌گیرند. اما بازار می‌تواند از هر دو قوی‌تر باشد. اگر بازار تشنه راه‌حل باشد، محصول متوسط هم فرصت یادگیری و اصلاح پیدا می‌کند؛ اگر بازار کشش نداشته باشد، حتی محصول خوب هم ممکن است بی‌صدا بماند.",
+        "product-market fit یعنی بازار محصول را به جلو بکشد، نه اینکه تیم با فشار دائم آن را هل بدهد. نشانه‌هایش معمولا در رفتار واقعی دیده می‌شود: کاربران برمی‌گردند، معرفی می‌کنند، حاضرند پول بدهند، و نبود محصول برایشان دردناک می‌شود.",
+        "این نگاه برای founderها یک هشدار جدی است: عاشق محصول شدن کافی نیست. باید بی‌رحمانه بررسی کرد که آیا بازار واقعا بیدار است یا نه. گاهی بهترین تصمیم، تغییر segment، تغییر مسئله یا حتی توقف ساخت چیزی است که بازار آن را نمی‌کشد.",
+      ],
+      takeaways: [
+        "کشش بازار را با رفتار واقعی کاربران بسنج، نه تعریف و تمجید.",
+        "اگر بازار نمی‌کشد، فقط polish محصول مسئله را حل نمی‌کند.",
+        "PMF بیشتر کشف می‌شود تا اعلام.",
+      ],
+    },
+    en: {
+      paragraphs: [
+        "In many startup stories, team and product get most of the attention. But the market can be stronger than both. If the market is hungry, an imperfect product gets room to learn and improve. If the market lacks pull, even a good product can remain quiet.",
+        "Product-market fit means the market pulls the product forward instead of the team constantly pushing it. The signs usually appear in behavior: users return, refer others, pay, and feel real pain when the product is absent.",
+        "For founders, this is a serious warning: loving the product is not enough. You have to test whether the market is truly awake. Sometimes the best decision is to change the segment, change the problem, or stop building something the market does not pull.",
+      ],
+      takeaways: [
+        "Measure market pull through behavior, not compliments.",
+        "If the market does not pull, polishing the product will not solve the core problem.",
+        "PMF is discovered more than declared.",
+      ],
+    },
+    ar: {
+      paragraphs: [
+        "في كثير من قصص الشركات الناشئة، يحصل الفريق والمنتج على معظم الاهتمام. لكن السوق قد يكون أقوى من الاثنين. إذا كان السوق متعطشا، يحصل المنتج غير الكامل على فرصة للتعلم والتحسن. وإذا لم يكن هناك جذب من السوق، فقد يبقى المنتج الجيد صامتا.",
+        "ملاءمة المنتج للسوق تعني أن السوق يسحب المنتج إلى الأمام، لا أن الفريق يدفعه باستمرار. تظهر العلامات في السلوك: يعود المستخدمون، يوصون به، يدفعون المال، ويشعرون بألم حقيقي عند غياب المنتج.",
+        "هذه رسالة مهمة للمؤسسين: حب المنتج لا يكفي. يجب اختبار ما إذا كان السوق مستيقظا فعلا. أحيانا يكون القرار الأفضل تغيير الشريحة أو المشكلة أو إيقاف بناء شيء لا يسحبه السوق.",
+      ],
+      takeaways: [
+        "قس جذب السوق من خلال السلوك، لا المجاملات.",
+        "إذا لم يسحب السوق المنتج، فلن يحل التلميع المشكلة الأساسية.",
+        "ملاءمة المنتج للسوق تكتشف أكثر مما تعلن.",
+      ],
+    },
+  },
+  "Good Product Manager/Bad Product Manager": {
+    fa: {
+      paragraphs: [
+        "مدیر محصول خوب فقط هماهنگ‌کننده جلسه‌ها یا نویسنده backlog نیست. او مالک مسئله است. بازار را می‌فهمد، کاربر را می‌شناسد، محدودیت‌های تیم را می‌بیند و در نهایت مسئول نتیجه محصول می‌ماند.",
+        "تفاوت اصلی در سطح ownership است. مدیر محصول ضعیف مسئولیت را بین تیم فنی، فروش، طراحی یا مدیرعامل پخش می‌کند. مدیر محصول قوی ابهام را جمع می‌کند، تصمیم را شفاف می‌کند و کمک می‌کند تیم روی مهم‌ترین مسئله متمرکز بماند.",
+        "برای founderها، این متن یادآوری می‌کند که product management یک نقش اجرایی جدی است، نه یک لایه اداری. محصول خوب از ترکیب قضاوت، داده، حساسیت به کاربر و استاندارد بالا ساخته می‌شود.",
+      ],
+      takeaways: [
+        "مدیر محصول باید مالک outcome باشد، نه فقط owner تسک‌ها.",
+        "ابهام بازار و کاربر را به تصمیم‌های روشن برای تیم تبدیل کن.",
+        "استاندارد محصول را با رفتار کاربر و نتیجه کسب‌وکار بسنج.",
+      ],
+    },
+    en: {
+      paragraphs: [
+        "A good product manager is not just a meeting coordinator or backlog writer. They own the problem. They understand the market, know the user, see team constraints, and remain responsible for the product outcome.",
+        "The main difference is ownership. A weak PM spreads responsibility across engineering, sales, design, or the CEO. A strong PM absorbs ambiguity, clarifies decisions, and helps the team stay focused on the most important problem.",
+        "For founders, the lesson is that product management is a serious operating role, not an administrative layer. Good products come from judgment, data, user sensitivity, and high standards working together.",
+      ],
+      takeaways: [
+        "The PM should own outcomes, not just tasks.",
+        "Turn market and user ambiguity into clear decisions for the team.",
+        "Judge product standards by user behavior and business results.",
+      ],
+    },
+    ar: {
+      paragraphs: [
+        "مدير المنتج الجيد ليس منسق اجتماعات أو كاتب قائمة مهام فقط. إنه يملك المشكلة. يفهم السوق، يعرف المستخدم، يرى قيود الفريق، ويبقى مسؤولا عن نتيجة المنتج.",
+        "الفارق الأساسي هو الملكية. مدير المنتج الضعيف يوزع المسؤولية على الهندسة أو المبيعات أو التصميم أو المدير التنفيذي. مدير المنتج القوي يمتص الغموض، يوضح القرارات، ويساعد الفريق على التركيز على المشكلة الأهم.",
+        "بالنسبة للمؤسسين، الدرس هو أن إدارة المنتج دور تشغيلي جاد، لا طبقة إدارية. المنتجات الجيدة تأتي من تفاعل الحكم الجيد والبيانات والحساسية للمستخدم والمعايير العالية.",
+      ],
+      takeaways: [
+        "يجب أن يملك مدير المنتج النتائج، لا المهام فقط.",
+        "حوّل غموض السوق والمستخدم إلى قرارات واضحة للفريق.",
+        "قيّم معايير المنتج من خلال سلوك المستخدم ونتائج العمل.",
+      ],
+    },
+  },
+  "How Superhuman Built an Engine to Find Product Market Fit": {
+    fa: {
+      paragraphs: [
+        "product-market fit وقتی مفید می‌شود که از حس مبهم به یک سیستم قابل مشاهده تبدیل شود. روایت Superhuman مهم است چون نشان می‌دهد PMF فقط یک لحظه جادویی نیست؛ می‌توان آن را با سؤال درست، segment دقیق و حلقه یادگیری منظم بهتر فهمید.",
+        "ایده کلیدی این است که از کاربران بپرسی اگر محصول دیگر در دسترس نباشد چه احساسی دارند. پاسخ کسانی که «خیلی ناراحت می‌شوم» می‌گویند، یک signal جدی است. اما خود عدد کافی نیست؛ باید فهمید این کاربران چه کسانی‌اند، چرا محصول برایشان مهم است و چه چیزی بقیه را عقب نگه می‌دارد.",
+        "برای تیم‌های در حال رشد، این مقاله یادآوری می‌کند که PMF یک داشبورد ثابت نیست. باید segmentهای پرکشش را پیدا کرد، محصول را برای آن‌ها تیزتر کرد و بعد به تدریج دایره را بزرگ‌تر کرد. رشد خوب از تمرکز شروع می‌شود.",
+      ],
+      takeaways: [
+        "PMF را با رفتار و شدت نیاز segmentهای مشخص بسنج.",
+        "کاربرانی را که نبود محصول برایشان دردناک است جدا تحلیل کن.",
+        "قبل از گسترش بازار، محصول را برای گروه پرکشش‌تر دقیق‌تر کن.",
+      ],
+    },
+    en: {
+      paragraphs: [
+        "Product-market fit becomes useful when it moves from vague feeling to observable system. The Superhuman story matters because it shows that PMF is not only a magical moment; it can be understood through better questions, precise segments, and disciplined learning loops.",
+        "The central move is asking users how they would feel if the product were no longer available. People who answer that they would be very disappointed are a serious signal. But the number alone is not enough. The team must understand who those users are, why the product matters to them, and what holds others back.",
+        "For scaling teams, the lesson is that PMF is not a static dashboard. Find the segments with strongest pull, sharpen the product for them, and then expand the circle gradually. Good growth begins with focus.",
+      ],
+      takeaways: [
+        "Measure PMF through behavior and need intensity inside specific segments.",
+        "Study users who would feel real pain if the product disappeared.",
+        "Before expanding the market, sharpen the product for the strongest segment.",
+      ],
+    },
+    ar: {
+      paragraphs: [
+        "تصبح ملاءمة المنتج للسوق مفيدة عندما تنتقل من إحساس غامض إلى نظام قابل للملاحظة. قصة Superhuman مهمة لأنها توضح أن الملاءمة ليست لحظة سحرية فقط؛ يمكن فهمها عبر أسئلة أفضل وشرائح أدق وحلقات تعلم منتظمة.",
+        "الحركة الأساسية هي سؤال المستخدمين عن شعورهم إذا لم يعد المنتج متاحا. من يقولون إنهم سيشعرون بخيبة كبيرة يمثلون إشارة قوية. لكن الرقم وحده لا يكفي. يجب فهم من هم هؤلاء المستخدمون، ولماذا يهمهم المنتج، وما الذي يمنع الآخرين.",
+        "للفرق التي تنمو، الدرس أن ملاءمة المنتج للسوق ليست لوحة ثابتة. ابحث عن الشرائح ذات الجذب الأقوى، اجعل المنتج أدق لها، ثم وسّع الدائرة تدريجيا. النمو الجيد يبدأ بالتركيز.",
+      ],
+      takeaways: [
+        "قس الملاءمة من خلال السلوك وشدة الحاجة داخل شرائح محددة.",
+        "حلل المستخدمين الذين سيتألمون فعلا إذا اختفى المنتج.",
+        "قبل توسيع السوق، اجعل المنتج أدق للشريحة الأقوى.",
+      ],
+    },
+  },
+  "The Minimum Viable Testing Process for Evaluating Startup Ideas": {
+    fa: {
+      paragraphs: [
+        "بسیاری از تیم‌ها MVP را با نسخه کوچک محصول اشتباه می‌گیرند. اما تست حداقلی یعنی کم‌هزینه‌ترین راه برای سنجیدن یک فرضیه مهم. گاهی این تست محصول نیست؛ یک landing page، مصاحبه، pre-order، prototype یا حتی فروش دستی است.",
+        "ارزش این رویکرد در کاهش غرور ساختن است. تیم قبل از اینکه ماه‌ها درگیر توسعه شود، می‌فهمد کدام فرضیه واقعا ریسک دارد: آیا مسئله دردناک است؟ آیا مشتری حاضر است پول بدهد؟ آیا کانال دسترسی وجود دارد؟ آیا پیام محصول فهمیده می‌شود؟",
+        "فرایند خوب تست، تیم را از debate ذهنی به evidence می‌برد. البته evidence همیشه کامل نیست، اما بهتر از ساختن در تاریکی است. founder باید یاد بگیرد هر ایده را به فرضیه‌های کوچک‌تر و قابل آزمون بشکند.",
+      ],
+      takeaways: [
+        "برای هر ایده، سه فرضیه پرریسک را جدا کن.",
+        "قبل از ساخت محصول، ارزان‌ترین تست معتبر را طراحی کن.",
+        "نتیجه تست باید تصمیم بسازد: ادامه، تغییر یا توقف.",
+      ],
+    },
+    en: {
+      paragraphs: [
+        "Many teams confuse an MVP with a smaller version of the product. Minimum viable testing is different: it is the cheapest credible way to test an important hypothesis. Sometimes the test is not a product at all; it may be a landing page, interview, pre-order, prototype, or manual sale.",
+        "The value of this approach is that it reduces the pride of building. Before spending months in development, the team learns which assumption is truly risky: is the problem painful, will the customer pay, does a channel exist, does the message make sense?",
+        "A good testing process moves the team from internal debate to evidence. The evidence will not always be perfect, but it is better than building in the dark. Founders need to break each idea into smaller hypotheses that can be tested.",
+      ],
+      takeaways: [
+        "Separate the three riskiest assumptions behind each idea.",
+        "Design the cheapest credible test before building the product.",
+        "A test should create a decision: continue, change, or stop.",
+      ],
+    },
+    ar: {
+      paragraphs: [
+        "تخلط فرق كثيرة بين MVP ونسخة صغيرة من المنتج. الاختبار الأدنى القابل للتنفيذ مختلف: إنه أرخص طريقة موثوقة لاختبار فرضية مهمة. أحيانا لا يكون الاختبار منتجا أصلا؛ قد يكون صفحة هبوط أو مقابلة أو طلبا مسبقا أو نموذجا أو بيعا يدويا.",
+        "قيمة هذا الأسلوب أنه يقلل غرور البناء. قبل قضاء أشهر في التطوير، يتعلم الفريق أي افتراض يحمل الخطر الحقيقي: هل المشكلة مؤلمة؟ هل سيدفع العميل؟ هل توجد قناة وصول؟ هل تفهم الرسالة؟",
+        "فرایند الاختبار الجيد ينقل الفريق من الجدل الداخلي إلى الدليل. الدليل لن يكون كاملا دائما، لكنه أفضل من البناء في الظلام. على المؤسس أن يكسر كل فكرة إلى فرضيات أصغر قابلة للاختبار.",
+      ],
+      takeaways: [
+        "افصل أخطر ثلاث فرضيات خلف كل فكرة.",
+        "صمم أرخص اختبار موثوق قبل بناء المنتج.",
+        "يجب أن ينتج الاختبار قرارا: الاستمرار أو التغيير أو التوقف.",
+      ],
+    },
+  },
+  "How to Talk to Users": {
+    fa: {
+      paragraphs: [
+        "صحبت با کاربر ساده به نظر می‌رسد، اما بسیاری از founderها با سؤال‌های اشتباه داده خراب تولید می‌کنند. اگر از کاربر بپرسی «آیا این را دوست داری؟» معمولا جواب مودبانه می‌گیری. سؤال خوب باید به رفتار گذشته، درد واقعی و تصمیم‌های خرج‌کردن وصل شود.",
+        "مصاحبه کاربر جای pitch نیست. founder باید کمتر توضیح بدهد و بیشتر گوش کند. هدف این نیست که کاربر را قانع کنی ایده تو خوب است؛ هدف این است که بفهمی زندگی واقعی او چگونه کار می‌کند و مسئله کجا آن‌قدر دردناک می‌شود که تغییر رفتار ارزش داشته باشد.",
+        "کیفیت کشف مسئله، کیفیت محصول را تعیین می‌کند. اگر مسئله را سطحی بفهمی، محصول هم سطحی می‌شود. مصاحبه خوب به تیم کمک می‌کند زبان کاربر، trigger خرید، workaroundهای فعلی و شدت نیاز را دقیق‌تر ببیند.",
+      ],
+      takeaways: [
+        "درباره رفتار گذشته بپرس، نه نظر فرضی درباره آینده.",
+        "در مصاحبه pitch نکن؛ کشف کن.",
+        "به workaroundهای فعلی کاربر به چشم signal نگاه کن.",
+      ],
+    },
+    en: {
+      paragraphs: [
+        "Talking to users sounds simple, but many founders create bad data with bad questions. If you ask whether someone likes your idea, you often get politeness. A better question connects to past behavior, real pain, and decisions that involved time or money.",
+        "A user interview is not a pitch. The founder should explain less and listen more. The goal is not to convince the user that the idea is good; it is to understand how their real life works and where the problem becomes painful enough to justify behavior change.",
+        "The quality of problem discovery shapes the quality of the product. If the problem is understood shallowly, the product will be shallow too. Good interviews reveal the user's language, buying triggers, current workarounds, and intensity of need.",
+      ],
+      takeaways: [
+        "Ask about past behavior, not hypothetical future opinions.",
+        "Do not pitch during discovery; listen.",
+        "Treat current workarounds as strong signals.",
+      ],
+    },
+    ar: {
+      paragraphs: [
+        "يبدو الحديث مع المستخدمين بسيطا، لكن كثيرا من المؤسسين ينتجون بيانات سيئة بأسئلة سيئة. إذا سألت المستخدم هل يحب فكرتك، فغالبا تحصل على مجاملة. السؤال الأفضل يرتبط بسلوك سابق وألم حقيقي وقرارات تضمنت وقتا أو مالا.",
+        "مقابلة المستخدم ليست عرضا للبيع. يجب أن يشرح المؤسس أقل ويستمع أكثر. الهدف ليس إقناع المستخدم بأن الفكرة جيدة، بل فهم كيف تعمل حياته فعلا وأين تصبح المشكلة مؤلمة بما يكفي لتغيير السلوك.",
+        "جودة اكتشاف المشكلة تصنع جودة المنتج. إذا فهمت المشكلة بسطحية، سيكون المنتج سطحيا. المقابلات الجيدة تكشف لغة المستخدم ومحفزات الشراء والحلول البديلة الحالية وشدة الحاجة.",
+      ],
+      takeaways: [
+        "اسأل عن السلوك السابق، لا الآراء الافتراضية عن المستقبل.",
+        "لا تقدم عرضا أثناء الاكتشاف؛ استمع.",
+        "اعتبر الحلول البديلة الحالية إشارات قوية.",
+      ],
+    },
+  },
+  "The 30 Best Pieces of Advice for Entrepreneurs in 2023": {
+    fa: {
+      paragraphs: [
+        "مجموعه‌های توصیه وقتی مفیدند که مثل چک‌لیست مصرف نشوند. برای founder، ارزش چنین متن‌هایی در پیدا کردن یک یا دو توصیه‌ای است که دقیقا به مرحله فعلی شرکت می‌خورد؛ نه در تلاش برای اجرای همه چیز.",
+        "شرکت‌سازی پر از تنش‌های هم‌زمان است: سرعت و کیفیت، تمرکز و فرصت، استخدام و فرهنگ، رشد و پایداری. توصیه‌های خوب معمولا کمک می‌کنند این trade-offها روشن‌تر شوند و تصمیم‌های سخت با زبان دقیق‌تری گرفته شوند.",
+        "بهترین روش استفاده از چنین مقاله‌ای این است که بعد از خواندن، آن را به audit عملیاتی تبدیل کنی. کدام توصیه اگر همین هفته اجرا شود، بیشترین اثر را دارد؟ کدام عادت مدیریتی باید حذف شود؟ کدام metric باید جدی‌تر دیده شود؟",
+      ],
+      takeaways: [
+        "از بین توصیه‌ها فقط یک یا دو مورد مناسب مرحله فعلی را انتخاب کن.",
+        "هر توصیه را به یک اقدام هفتگی تبدیل کن.",
+        "از مقاله برای audit سیستم مدیریتی استفاده کن، نه مصرف الهام لحظه‌ای.",
+      ],
+    },
+    en: {
+      paragraphs: [
+        "Advice collections are useful only when they are not consumed as checklists. For a founder, the value is in finding one or two pieces of advice that match the current stage of the company, not trying to apply everything.",
+        "Company building is full of simultaneous tensions: speed and quality, focus and opportunity, hiring and culture, growth and durability. Good advice helps make those tradeoffs clearer and gives better language for hard decisions.",
+        "The best way to use an article like this is to turn it into an operating audit. Which piece of advice would matter most if applied this week? Which management habit should be removed? Which metric deserves more seriousness?",
+      ],
+      takeaways: [
+        "Choose only one or two pieces of advice that fit the current stage.",
+        "Turn each chosen idea into a weekly action.",
+        "Use the article as an audit tool, not a burst of inspiration.",
+      ],
+    },
+    ar: {
+      paragraphs: [
+        "تكون مجموعات النصائح مفيدة عندما لا تستهلك كقوائم كاملة. بالنسبة للمؤسس، القيمة في العثور على نصيحة أو نصيحتين تناسبان مرحلة الشركة الحالية، لا في محاولة تطبيق كل شيء.",
+        "بناء الشركات مليء بتوترات متزامنة: السرعة والجودة، التركيز والفرصة، التوظيف والثقافة، النمو والمتانة. النصائح الجيدة تساعد على توضيح هذه المفاضلات وتمنح لغة أفضل للقرارات الصعبة.",
+        "أفضل طريقة لاستخدام مقال كهذا هي تحويله إلى مراجعة تشغيلية. أي نصيحة سيكون لها أكبر أثر إذا طبقت هذا الأسبوع؟ أي عادة إدارية يجب حذفها؟ أي مقياس يستحق جدية أكبر؟",
+      ],
+      takeaways: [
+        "اختر نصيحة أو نصيحتين فقط تناسبان المرحلة الحالية.",
+        "حوّل كل فكرة مختارة إلى فعل أسبوعي.",
+        "استخدم المقال كأداة مراجعة، لا كمصدر إلهام عابر.",
+      ],
+    },
+  },
+  "Product-User Fit Comes Before Product-Market Fit": {
+    fa: {
+      paragraphs: [
+        "قبل از اینکه یک تیم درباره بازار بزرگ حرف بزند، باید بفهمد کدام کاربر مشخص واقعا محصول را می‌خواهد. product-user fit یعنی یک گروه قابل تعریف از کاربران وجود دارد که مسئله را جدی حس می‌کنند و راه‌حل برایشان معنی‌دار است.",
+        "این مرحله جلوی خطای رایج را می‌گیرد: ساخت محصول برای یک بازار خیالی. وقتی user fit روشن نیست، تیم پیام محصول، featureها و کانال توزیع را برای همه طراحی می‌کند و در نتیجه برای هیچ‌کس تیز نیست. تمرکز روی user fit باعث می‌شود محصول زبان دقیق‌تری پیدا کند.",
+        "بعد از user fit، صحبت از market fit واقعی‌تر می‌شود. ابتدا باید فهمید چه کسی عاشق محصول می‌شود، چرا، و در چه موقعیتی. سپس می‌توان پرسید آیا تعداد بیشتری از همان نوع کاربر وجود دارد و آیا دسترسی به آن‌ها اقتصادی است یا نه.",
+      ],
+      takeaways: [
+        "قبل از بازار بزرگ، کاربر عاشق کوچک اما مشخص را پیدا کن.",
+        "پیام، feature و کانال را برای همان user segment تیز کن.",
+        "بعد از user fit، اندازه و اقتصاد بازار را بسنج.",
+      ],
+    },
+    en: {
+      paragraphs: [
+        "Before a team talks about a large market, it has to understand which specific user truly wants the product. Product-user fit means there is a definable group of users who feel the problem seriously and find the solution meaningful.",
+        "This prevents a common mistake: building for an imaginary market. When user fit is unclear, the team designs messaging, features, and distribution for everyone, which means the product is sharp for no one. User fit gives the product a more precise language.",
+        "After user fit, market fit becomes a more realistic conversation. First learn who loves the product, why, and in what situation. Then ask whether more people like that exist and whether reaching them is economically sensible.",
+      ],
+      takeaways: [
+        "Before the big market, find the small specific user who loves the product.",
+        "Sharpen messaging, features, and channels for that user segment.",
+        "After user fit, evaluate market size and economics.",
+      ],
+    },
+    ar: {
+      paragraphs: [
+        "قبل أن يتحدث الفريق عن سوق كبير، عليه أن يفهم أي مستخدم محدد يريد المنتج فعلا. ملاءمة المنتج للمستخدم تعني وجود مجموعة واضحة من المستخدمين تشعر بالمشكلة بجدية وترى أن الحل ذو معنى.",
+        "هذا يمنع خطأ شائعا: البناء لسوق خيالي. عندما لا تكون ملاءمة المستخدم واضحة، يصمم الفريق الرسالة والميزات والتوزيع للجميع، فيصبح المنتج غير حاد لأي أحد. التركيز على المستخدم يعطي المنتج لغة أدق.",
+        "بعد ملاءمة المستخدم، يصبح الحديث عن ملاءمة السوق أكثر واقعية. أولا افهم من يحب المنتج ولماذا وفي أي موقف. ثم اسأل هل يوجد المزيد من هذا النوع من المستخدمين وهل الوصول إليهم اقتصادي.",
+      ],
+      takeaways: [
+        "قبل السوق الكبير، ابحث عن مستخدم صغير ومحدد يحب المنتج.",
+        "اجعل الرسالة والميزات والقنوات دقيقة لهذه الشريحة.",
+        "بعد ملاءمة المستخدم، قيّم حجم السوق واقتصادياته.",
+      ],
+    },
+  },
+};
+
+const defaultArticleEssay = {
+  fa: {
+    paragraphs: [
+      "این مقاله از آن دسته متن‌هایی است که برای founderها ارزش عملی دارد، چون یک مفهوم را از حالت شعار خارج می‌کند و به تصمیم‌های روزمره وصل می‌کند. نکته اصلی این است که ساخت شرکت، مجموعه‌ای از انتخاب‌های کوچک و پیوسته است: انتخاب مسئله، انتخاب کاربر، انتخاب ریتم اجرا و انتخاب معیار.",
+      "برای خواندن مؤثر، نباید فقط با متن موافق یا مخالف شد. بهتر است آن را به چند سؤال اجرایی تبدیل کرد: امروز کدام فرضیه باید تست شود؟ کدام رفتار کاربر شاهد واقعی است؟ کدام کار تیمی فقط حس پیشرفت می‌دهد اما نتیجه نمی‌سازد؟",
+      "ارزش چنین مقاله‌هایی وقتی بیشتر می‌شود که بعد از خواندن، یک تغییر کوچک در سیستم کاری ایجاد شود. یک مصاحبه بهتر، یک metric دقیق‌تر، یک تصمیم سخت‌تر یا حذف یک کار کم‌اثر می‌تواند خروجی واقعی مطالعه باشد.",
+    ],
+    takeaways: [
+      "بعد از خواندن، یک تصمیم اجرایی مشخص از متن استخراج کن.",
+      "مقاله را با وضعیت فعلی شرکت مقایسه کن، نه با فضای ایده‌آل.",
+      "یک رفتار قابل مشاهده برای سنجش ایده اصلی پیدا کن.",
+    ],
+  },
+  en: {
+    paragraphs: [
+      "This article is useful for founders because it turns an abstract idea into operating choices. Company building is a chain of small repeated decisions: choosing the problem, choosing the user, choosing the rhythm of execution, and choosing the metric.",
+      "The most useful way to read it is not simply to agree or disagree. Turn it into operating questions: which hypothesis should be tested today? Which user behavior is real evidence? Which team activity feels like progress but does not create an outcome?",
+      "The value of reading appears when it changes the system of work. A better interview, a clearer metric, a harder decision, or the removal of low-impact work can become the real output of the article.",
+    ],
+    takeaways: [
+      "Extract one concrete operating decision after reading.",
+      "Compare the article with the current company reality, not an ideal version.",
+      "Find one observable behavior that would validate the core idea.",
+    ],
+  },
+  ar: {
+    paragraphs: [
+      "هذا المقال مفيد للمؤسسين لأنه يحول الفكرة المجردة إلى اختيارات تشغيلية. بناء الشركة سلسلة من قرارات صغيرة متكررة: اختيار المشكلة، اختيار المستخدم، اختيار إيقاع التنفيذ، واختيار المقياس.",
+      "أفضل طريقة لقراءته ليست الموافقة أو الرفض فقط. حوّله إلى أسئلة تشغيلية: أي فرضية يجب اختبارها اليوم؟ أي سلوك مستخدم يمثل دليلا حقيقيا؟ أي نشاط داخل الفريق يعطي شعورا بالتقدم لكنه لا يصنع نتيجة؟",
+      "تظهر قيمة القراءة عندما تغير نظام العمل. مقابلة أفضل، مقياس أوضح، قرار أصعب، أو حذف عمل منخفض الأثر قد يكون الناتج الحقيقي من المقال.",
+    ],
+    takeaways: [
+      "استخرج قرارا تشغيليا واحدا بعد القراءة.",
+      "قارن المقال بواقع الشركة الحالي، لا بصورة مثالية.",
+      "ابحث عن سلوك قابل للملاحظة يختبر الفكرة الأساسية.",
+    ],
+  },
+};
+
 function getDailyArticleIndex() {
   const tehranOffsetMs = 3.5 * 60 * 60 * 1000;
   const tehranNow = new Date(Date.now() + tehranOffsetMs);
@@ -486,6 +996,22 @@ function getArticleCredit(article) {
   return parts.join(" · ");
 }
 
+function getArticleEssay(article, language) {
+  return articleEssays[article.title]?.[language] ?? defaultArticleEssay[language] ?? defaultArticleEssay.en;
+}
+
+function renderParagraphs(paragraphs) {
+  return paragraphs
+    .map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`)
+    .join("");
+}
+
+function renderTakeaways(takeaways) {
+  return takeaways
+    .map((takeaway) => `<li>${escapeHtml(takeaway)}</li>`)
+    .join("");
+}
+
 function renderArticles(language) {
   if (!dailyArticleContainer || !articleListContainer) {
     return;
@@ -495,6 +1021,7 @@ function renderArticles(language) {
   const dailyIndex = getDailyArticleIndex();
   const dailyArticle = articleCatalog[dailyIndex];
   const dailySummary = dailyArticle.summary[language] ?? dailyArticle.summary.en;
+  const dailyEssay = getArticleEssay(dailyArticle, language);
   const archiveArticles = Array.from({ length: 6 }, (_, index) => {
     return articleCatalog[(dailyIndex + index + 1) % articleCatalog.length];
   });
@@ -507,6 +1034,15 @@ function renderArticles(language) {
       </h3>
       <p class="article-summary">${escapeHtml(dailySummary)}</p>
       <div class="article-tags">${renderArticleTags(dailyArticle, language)}</div>
+      <div class="article-body">
+        <p class="article-section-label">${escapeHtml(dictionary.articleOnSiteLabel)}</p>
+        ${renderParagraphs(dailyEssay.paragraphs)}
+        <div class="article-takeaways">
+          <p class="article-section-label">${escapeHtml(dictionary.articleTakeawaysLabel)}</p>
+          <ul>${renderTakeaways(dailyEssay.takeaways)}</ul>
+        </div>
+        <p class="article-note">${escapeHtml(dictionary.articleCopyrightNote)}</p>
+      </div>
     </div>
     <div class="daily-article-meta">
       <div>
