@@ -1143,7 +1143,7 @@ function getArticleShareUrl(article, language) {
   url.searchParams.delete("v");
   url.searchParams.set("article", getArticleSlug(article));
   url.searchParams.set("lang", translations[language] ? language : "fa");
-  url.hash = "daily-article-body";
+  url.hash = "daily-article-reader";
 
   return url.toString();
 }
@@ -1158,7 +1158,7 @@ function updateArticleUrl(article, language, mode = "push") {
   url.searchParams.delete("v");
   url.searchParams.set("article", getArticleSlug(article));
   url.searchParams.set("lang", translations[language] ? language : "fa");
-  url.hash = "daily-article-body";
+  url.hash = "daily-article-reader";
   window.history[`${mode}State`](null, "", url);
 }
 
@@ -1230,7 +1230,11 @@ function renderArticles(language) {
   dailyArticleContainer.innerHTML = `
     <div class="daily-article-main">
       <p class="article-kicker">${escapeHtml(articleKicker)}</p>
-      <h3 class="article-title" dir="ltr">${escapeHtml(dailyArticle.title)}</h3>
+      <div class="article-title-row" id="daily-article-reader">
+        <h3 class="article-title" dir="ltr">${escapeHtml(dailyArticle.title)}</h3>
+        <button class="article-share-button" type="button" data-article-share="${featuredIndex}" data-share-url="${escapeHtml(shareUrl)}">${escapeHtml(dictionary.articleShareLabel)}</button>
+      </div>
+      <p class="share-status" data-article-share-status aria-live="polite"></p>
       <p class="article-summary">${escapeHtml(dailySummary)}</p>
       <div class="article-tags">${renderArticleTags(dailyArticle, language)}</div>
       <div class="article-body" id="daily-article-body">
@@ -1271,10 +1275,8 @@ function renderArticles(language) {
       </div>
       <div class="article-actions">
         <a class="button primary" href="#daily-article-body">${escapeHtml(dictionary.articleReadOnSiteLabel)}</a>
-        <button class="button" type="button" data-article-share="${featuredIndex}" data-share-url="${escapeHtml(shareUrl)}">${escapeHtml(dictionary.articleShareLabel)}</button>
         <a class="button" href="#daily-original-article">${escapeHtml(dictionary.articleReadOriginalOnSiteLabel)}</a>
         <a class="button" href="${escapeHtml(dailyArticle.url)}" target="_blank" rel="noreferrer">${escapeHtml(dictionary.articleReadLabel)}</a>
-        <p class="share-status" data-article-share-status aria-live="polite"></p>
       </div>
     </div>
   `;
@@ -1302,6 +1304,21 @@ function renderArticles(language) {
     .join("");
 }
 
+function scrollToArticleStart(behavior = "smooth") {
+  document
+    .querySelector("#daily-article-reader")
+    ?.scrollIntoView({ behavior, block: "start" });
+}
+
+function settleArticleStartScroll() {
+  scrollToArticleStart("auto");
+  requestAnimationFrame(() => scrollToArticleStart("auto"));
+  [160, 500, 1000].forEach((delay) => {
+    setTimeout(() => scrollToArticleStart("auto"), delay);
+  });
+  window.addEventListener("load", () => scrollToArticleStart("auto"), { once: true });
+}
+
 function showArticle(index, options = {}) {
   if (!Number.isInteger(index) || !articleCatalog[index]) {
     return;
@@ -1317,9 +1334,7 @@ function showArticle(index, options = {}) {
   }
 
   if (options.scroll) {
-    document
-      .querySelector("#daily-article-body")
-      ?.scrollIntoView({ behavior: "smooth", block: "start" });
+    scrollToArticleStart();
   }
 }
 
@@ -1470,8 +1485,9 @@ if (articleIndexFromUrl !== null) {
 
 applyLanguage(getInitialLanguage());
 
-if (articleIndexFromUrl !== null && window.location.hash === "#daily-article-body") {
-  requestAnimationFrame(() => {
-    document.querySelector("#daily-article-body")?.scrollIntoView({ block: "start" });
-  });
+if (
+  articleIndexFromUrl !== null &&
+  ["#daily-article-reader", "#daily-article-body"].includes(window.location.hash)
+) {
+  settleArticleStartScroll();
 }

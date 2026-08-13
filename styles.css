@@ -436,7 +436,7 @@ h2 {
 
 .article-title {
   max-width: 780px;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
   font-size: 2.35rem;
   font-weight: 900;
   line-height: 1.15;
@@ -444,6 +444,43 @@ h2 {
 
 [dir="ltr"] .article-title {
   line-height: 1.05;
+}
+
+.article-title-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  max-width: 900px;
+  margin-bottom: 1rem;
+  scroll-margin-top: 6.5rem;
+}
+
+.article-title-row .article-title {
+  min-width: 0;
+}
+
+.article-share-button {
+  flex: 0 0 auto;
+  min-height: 2.35rem;
+  margin-top: 0.2rem;
+  padding: 0.45rem 0.8rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: color-mix(in srgb, var(--paper) 88%, var(--accent-soft));
+  color: var(--ink);
+  cursor: pointer;
+  font-size: 0.82rem;
+  font-weight: 900;
+  white-space: nowrap;
+  transition: transform 160ms ease, border-color 160ms ease, background 160ms ease;
+}
+
+.article-share-button:hover,
+.article-share-button:focus-visible {
+  transform: translateY(-1px);
+  border-color: var(--ink);
+  outline: none;
 }
 
 .article-summary {
@@ -560,11 +597,15 @@ h2 {
 
 .share-status {
   min-height: 1.25rem;
-  margin: 0;
+  margin: -0.35rem 0 0.9rem;
   color: var(--accent);
   font-size: 0.82rem;
   font-weight: 800;
   line-height: 1.5;
+}
+
+.share-status:empty {
+  display: none;
 }
 
 .article-tags {
@@ -821,6 +862,15 @@ h2 {
 
   .article-title {
     font-size: 1.72rem;
+  }
+
+  .article-title-row {
+    flex-direction: column;
+    gap: 0.7rem;
+  }
+
+  .article-share-button {
+    width: 100%;
   }
 
   .daily-article-main,
