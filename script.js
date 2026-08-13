@@ -81,11 +81,6 @@ const translations = {
     articleShareText: "ترجمه فارسی این مقاله را اینجا بخوان:",
     articleTranslationNote:
       "این بخش ترجمه آزاد، کامل‌تر و خواندنی از ایده‌های اصلی مقاله است؛ برای مطالعه فارسی داخل سایت، بدون نیاز به خروج از صفحه.",
-    articleOriginalEmbedLabel: "اصل انگلیسی مقاله",
-    articleReadOriginalOnSiteLabel: "نمایش اصل انگلیسی",
-    articleOpenOriginalLabel: "باز کردن منبع",
-    articleEmbedNote:
-      "اصل مقاله از سایت منبع نمایش داده می‌شود. اگر نویسنده یا ناشر نمایش داخلی را بسته باشد، از دکمه منبع استفاده کن.",
     articleTakeawaysLabel: "نکات اجرایی",
     articleCopyrightNote:
       "این متن ترجمه آزاد و بازنویسی‌شده است، نه بازنشر کلمه‌به‌کلمه مقاله اصلی.",
@@ -170,11 +165,6 @@ const translations = {
     articleShareText: "Read this on-site article adaptation here:",
     articleTranslationNote:
       "This section is a readable adaptation of the article's core ideas for quick on-site reading.",
-    articleOriginalEmbedLabel: "Original English article",
-    articleReadOriginalOnSiteLabel: "Show original English",
-    articleOpenOriginalLabel: "Open source",
-    articleEmbedNote:
-      "The original article is displayed from the source site. If the author or publisher blocks embedded viewing, use the source button.",
     articleTakeawaysLabel: "Operating takeaways",
     articleCopyrightNote:
       "This is a free adaptation, not a word-for-word republication of the original article.",
@@ -259,11 +249,6 @@ const translations = {
     articleShareText: "اقرأ ترجمة هذا المقال داخل الموقع هنا:",
     articleTranslationNote:
       "هذا القسم ترجمة حرة ومقروءة لأفكار المقال الأساسية، لقراءتها داخل الموقع بسرعة.",
-    articleOriginalEmbedLabel: "المقال الأصلي بالإنجليزية",
-    articleReadOriginalOnSiteLabel: "عرض الأصل الإنجليزي",
-    articleOpenOriginalLabel: "فتح المصدر",
-    articleEmbedNote:
-      "يتم عرض المقال الأصلي من موقع المصدر. إذا منع الكاتب أو الناشر العرض المضمن، استخدم زر المصدر.",
     articleTakeawaysLabel: "نقاط تشغيلية",
     articleCopyrightNote:
       "هذا النص ترجمة حرة وإعادة صياغة، وليس إعادة نشر حرفية للمقال الأصلي.",
@@ -1255,22 +1240,6 @@ function renderArticles(language) {
         </div>
         <p class="article-note">${escapeHtml(dictionary.articleCopyrightNote)}</p>
       </div>
-      <div class="original-article-reader" id="daily-original-article">
-        <div class="original-reader-head">
-          <div>
-            <p class="article-section-label">${escapeHtml(dictionary.articleOriginalEmbedLabel)}</p>
-            <p>${escapeHtml(dictionary.articleEmbedNote)}</p>
-          </div>
-          <a class="article-link" href="${escapeHtml(dailyArticle.url)}" target="_blank" rel="noreferrer">${escapeHtml(dictionary.articleOpenOriginalLabel)}</a>
-        </div>
-        <iframe
-          class="original-article-frame"
-          src="${escapeHtml(dailyArticle.url)}"
-          title="${escapeHtml(`${dictionary.articleOriginalEmbedLabel}: ${dailyArticle.title}`)}"
-          loading="eager"
-          referrerpolicy="no-referrer"
-        ></iframe>
-      </div>
     </div>
     <div class="daily-article-meta">
       <div>
@@ -1283,7 +1252,6 @@ function renderArticles(language) {
       </div>
       <div class="article-actions">
         <a class="button primary" href="#daily-article-body">${escapeHtml(dictionary.articleReadOnSiteLabel)}</a>
-        <a class="button" href="#daily-original-article">${escapeHtml(dictionary.articleReadOriginalOnSiteLabel)}</a>
         <a class="button" href="${escapeHtml(dailyArticle.url)}" target="_blank" rel="noreferrer">${escapeHtml(dictionary.articleReadLabel)}</a>
       </div>
     </div>
