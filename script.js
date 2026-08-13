@@ -16,24 +16,40 @@ const translations = {
       "علی سدیفی، Venture Builder و اپراتور اجرایی با تمرکز بر ساخت شرکت، مقیاس‌دهی عملیاتی و توسعه اکوسیستم.",
     brandRole: "Venture Builder",
     navWork: "کارنامه",
-    navThesis: "تمرکز",
+    navThesis: "روش کار",
     navArticles: "مقالات",
     navContact: "تماس",
     eyebrow: "علی سدیفی / Ali Sodeyfi",
-    heroTitle: "ساختن شرکت، کار ایده نیست. کار سیستم است.",
+    heroTitle: "علی سدیفی",
     heroLead:
-      "Venture builder و اپراتور اجرایی با بیش از 10 سال تجربه در ساخت، سرمایه‌گذاری و مقیاس‌دهی کسب‌وکارها در فین‌تک، ادتک و اکوسیستم استارتاپی.",
+      "Venture builder و اپراتور اجرایی؛ نزدیک به مسئله‌های رشد، سرمایه‌گذاری و ساخت سیستم برای کسب‌وکارهای اکوسیستمی.",
+    heroThesis:
+      "کار اصلی من تبدیل فرصت‌های مبهم به سیستم‌های قابل اجراست: انتخاب مسئله، طراحی سرمایه، ساخت تیم و رساندن عملیات به مقیاس.",
     heroPrimary: "دیدن کارنامه",
+    profileCaptionLabel: "تمرکز فعلی",
+    profileCaption:
+      "توسعه اکوسیستم و رشد پلتفرمی؛ جایی که سرمایه، عملیات و جامعه باید هم‌زمان طراحی شوند.",
     metricOne: "سال تجربه اجرایی",
     metricTwo: "استارتاپ در پورتفو",
     metricThree: "درآمد بین‌المللی در Tekanesh",
     positioningLabel: "جایگاه",
     positioningTitle:
-      "علی در نقطه اتصال سرمایه، عملیات و توسعه اکوسیستم کار می‌کند.",
+      "از ایده تا سازمان؛ جایی که سرمایه، عملیات و اکوسیستم هم‌زمان طراحی می‌شوند.",
     positioningBody:
-      "تمرکز او تبدیل فرصت‌های مبهم به ساختار اجرایی قابل تکرار است: از طراحی پلتفرم سرمایه‌گذاری و شتاب‌دهی تا ساخت زیرساخت مالی، عملیاتی و سازمانی برای رشد.",
+      "در سال‌های اخیر روی ساخت و اداره پلتفرم‌های سرمایه‌گذاری، شتاب‌دهی، فین‌تک، ادتک و توسعه اکوسیستم کار کرده‌ام؛ نقش‌هایی که خروجی‌شان باید در رشد، حکمرانی و توان تکرارپذیر سازمان دیده شود.",
+    briefOneLabel: "ساخته‌ام",
+    briefOne:
+      "پلتفرم‌های سرمایه‌گذاری، شتاب‌دهی و زیرساخت مالی برای رشد کسب‌وکار.",
+    briefTwoLabel: "مقیاس دیده‌ام",
+    briefTwo:
+      "پورتفوی 140+ استارتاپ، گردش وام ساختاریافته، و عملیات درآمد بین‌المللی.",
+    briefThreeLabel: "اکنون",
+    briefThree:
+      "روی توسعه اکوسیستم و سیستم‌های رشد پلتفرمی در باسلام کار می‌کنم.",
     trackLabel: "کارنامه",
-    trackTitle: "کارنامه منتخب",
+    trackTitle: "رد پای اجرایی",
+    trackIntro:
+      "چند موقعیت که در آن‌ها نقش اصلی، ساختن سیستم اجرایی و رساندن ایده به مقیاس بوده است.",
     workOneYear: "2025 - اکنون",
     workOneTitle: "باسلام - توسعه اکوسیستم",
     workOneBody:
@@ -52,7 +68,9 @@ const translations = {
     workFiveBody:
       "تاسیس شتاب‌دهنده تخصصی edtech، سرمایه‌گذاری و منتورینگ بیش از 10 استارتاپ و طراحی مدل incubation.",
     thesisLabel: "تز اجرایی",
-    thesisTitle: "سه محور اصلی",
+    thesisTitle: "روش کار",
+    thesisIntro:
+      "ترکیبی از سرمایه‌گذاری، طراحی عملیات و ساختن زبان مشترک بین بازیگران اکوسیستم.",
     focusOneTitle: "Venture Building",
     focusOneBody:
       "طراحی مسیر سرمایه‌گذاری، ارزیابی بنیان‌گذار، شتاب‌دهی و تبدیل ایده به سازمان قابل رشد.",
@@ -99,24 +117,40 @@ const translations = {
       "Ali Sodeyfi is a venture builder and executive operator focused on company building, operational scaling, and ecosystem development.",
     brandRole: "Venture Builder",
     navWork: "Work",
-    navThesis: "Focus",
+    navThesis: "Method",
     navArticles: "Articles",
     navContact: "Contact",
     eyebrow: "Ali Sodeyfi",
-    heroTitle: "Company building is not an idea problem. It is a systems problem.",
+    heroTitle: "Ali Sodeyfi",
     heroLead:
-      "Venture builder and executive operator with 10+ years building, investing in, and scaling companies across fintech, edtech, and startup ecosystems.",
+      "Venture builder and executive operator close to growth, investment, and systems work for ecosystem businesses.",
+    heroThesis:
+      "My work is turning ambiguous opportunities into executable systems: problem selection, capital design, team building, and operating scale.",
     heroPrimary: "View track record",
+    profileCaptionLabel: "Current focus",
+    profileCaption:
+      "Ecosystem development and platform growth, where capital, operations, and community have to be designed together.",
     metricOne: "years of operating experience",
     metricTwo: "startups in portfolio",
     metricThree: "annual international revenue at Tekanesh",
     positioningLabel: "Positioning",
     positioningTitle:
-      "Ali works at the intersection of capital, operations, and ecosystem development.",
+      "From idea to organization, where capital, operations, and ecosystem design have to move together.",
     positioningBody:
-      "His focus is turning ambiguous opportunities into repeatable operating structures: from investment and acceleration platforms to the financial, operational, and organizational infrastructure required for growth.",
+      "In recent years I have worked on building and operating investment platforms, acceleration programs, fintech and edtech systems, and ecosystem development work whose output has to show up in growth, governance, and repeatable organizational capability.",
+    briefOneLabel: "Built",
+    briefOne:
+      "Investment platforms, acceleration programs, and financial operating systems for company growth.",
+    briefTwoLabel: "Scaled",
+    briefTwo:
+      "A 140+ startup portfolio, structured lending flows, and international revenue operations.",
+    briefThreeLabel: "Now",
+    briefThree:
+      "Working on ecosystem development and platform growth systems at Basalam.",
     trackLabel: "Track Record",
-    trackTitle: "Selected work",
+    trackTitle: "Operating record",
+    trackIntro:
+      "Selected roles where the work was to build operating systems and carry ideas into scale.",
     workOneYear: "2025 - Present",
     workOneTitle: "Basalam - Ecosystem Development",
     workOneBody:
@@ -135,7 +169,9 @@ const translations = {
     workFiveBody:
       "Founded a specialized edtech accelerator, invested in and mentored 10+ startups, and designed its incubation model.",
     thesisLabel: "Operating Thesis",
-    thesisTitle: "Three core lanes",
+    thesisTitle: "Method",
+    thesisIntro:
+      "A working mix of investment thinking, operating design, and shared language across ecosystem players.",
     focusOneTitle: "Venture Building",
     focusOneBody:
       "Investment path design, founder evaluation, acceleration, and turning ideas into organizations that can grow.",
@@ -182,24 +218,40 @@ const translations = {
       "علي سدیفي، بنّاء شركات ومشغّل تنفيذي يركّز على بناء الشركات، توسيع العمليات، وتطوير المنظومات.",
     brandRole: "بناء الشركات",
     navWork: "الأعمال",
-    navThesis: "التركيز",
+    navThesis: "المنهج",
     navArticles: "مقالات",
     navContact: "التواصل",
     eyebrow: "علي سدیفي / Ali Sodeyfi",
-    heroTitle: "بناء الشركات ليس مشكلة أفكار. إنه مشكلة أنظمة.",
+    heroTitle: "علي سدیفي",
     heroLead:
-      "بنّاء شركات ومشغّل تنفيذي بخبرة تزيد عن 10 سنوات في بناء الشركات والاستثمار فيها وتوسيعها عبر الفنتك، التعليم التقني، ومنظومات الشركات الناشئة.",
+      "بنّاء شركات ومشغّل تنفيذي قريب من مسائل النمو والاستثمار وبناء الأنظمة للأعمال المنظومية.",
+    heroThesis:
+      "عملي هو تحويل الفرص الغامضة إلى أنظمة قابلة للتنفيذ: اختيار المشكلة، تصميم رأس المال، بناء الفريق، وتوسيع العمليات.",
     heroPrimary: "عرض السجل",
+    profileCaptionLabel: "التركيز الحالي",
+    profileCaption:
+      "تطوير المنظومات ونمو المنصات، حيث يجب تصميم رأس المال والعمليات والمجتمع معا.",
     metricOne: "سنوات خبرة تنفيذية",
     metricTwo: "شركة ناشئة في المحفظة",
     metricThree: "إيراد دولي سنوي في Tekanesh",
     positioningLabel: "الموقع",
     positioningTitle:
-      "يعمل علي عند تقاطع رأس المال، العمليات، وتطوير المنظومات.",
+      "من الفكرة إلى المنظمة، حيث يتحرك تصميم رأس المال والعمليات والمنظومة معا.",
     positioningBody:
-      "يركّز على تحويل الفرص الغامضة إلى بنى تشغيلية قابلة للتكرار: من منصات الاستثمار والتسريع إلى البنية المالية والتشغيلية والتنظيمية اللازمة للنمو.",
+      "عملت في السنوات الأخيرة على بناء وتشغيل منصات استثمار وبرامج تسريع وأنظمة فنتك وتعليم تقني وتطوير منظومات، حيث يجب أن يظهر الأثر في النمو والحوكمة والقدرة التنظيمية القابلة للتكرار.",
+    briefOneLabel: "بنيت",
+    briefOne:
+      "منصات استثمار وبرامج تسريع وأنظمة تشغيل مالية لنمو الشركات.",
+    briefTwoLabel: "وسّعت",
+    briefTwo:
+      "محفظة تضم أكثر من 140 شركة ناشئة، وتدفقات تمويل منظمة، وعمليات إيراد دولية.",
+    briefThreeLabel: "الآن",
+    briefThree:
+      "أعمل على تطوير المنظومة وأنظمة نمو المنصات في Basalam.",
     trackLabel: "السجل",
-    trackTitle: "أعمال مختارة",
+    trackTitle: "السجل التشغيلي",
+    trackIntro:
+      "أدوار مختارة كان جوهرها بناء أنظمة تشغيلية ونقل الأفكار إلى مرحلة التوسع.",
     workOneYear: "2025 - الآن",
     workOneTitle: "Basalam - تطوير المنظومة",
     workOneBody:
@@ -218,7 +270,9 @@ const translations = {
     workFiveBody:
       "تأسيس مسرّعة متخصصة في التعليم التقني، الاستثمار في أكثر من 10 شركات ناشئة وإرشادها، وتصميم نموذج الاحتضان.",
     thesisLabel: "الأطروحة التشغيلية",
-    thesisTitle: "ثلاثة محاور",
+    thesisTitle: "المنهج",
+    thesisIntro:
+      "مزيج عملي من التفكير الاستثماري، تصميم العمليات، وبناء لغة مشتركة بين لاعبي المنظومة.",
     focusOneTitle: "بناء الشركات",
     focusOneBody:
       "تصميم مسار الاستثمار، تقييم المؤسسين، التسريع، وتحويل الأفكار إلى منظمات قابلة للنمو.",
