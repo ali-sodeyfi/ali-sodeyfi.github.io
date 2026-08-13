@@ -1232,7 +1232,15 @@ function renderArticles(language) {
       <p class="article-kicker">${escapeHtml(articleKicker)}</p>
       <div class="article-title-row" id="daily-article-reader">
         <h3 class="article-title" dir="ltr">${escapeHtml(dailyArticle.title)}</h3>
-        <button class="article-share-button" type="button" data-article-share="${featuredIndex}" data-share-url="${escapeHtml(shareUrl)}">${escapeHtml(dictionary.articleShareLabel)}</button>
+        <button class="article-share-button" type="button" aria-label="${escapeHtml(dictionary.articleShareLabel)}" title="${escapeHtml(dictionary.articleShareLabel)}" data-article-share="${featuredIndex}" data-share-url="${escapeHtml(shareUrl)}">
+          <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24">
+            <circle cx="18" cy="5" r="3"></circle>
+            <circle cx="6" cy="12" r="3"></circle>
+            <circle cx="18" cy="19" r="3"></circle>
+            <path d="m8.59 13.51 6.83 3.98"></path>
+            <path d="m15.41 6.51-6.82 3.98"></path>
+          </svg>
+        </button>
       </div>
       <p class="share-status" data-article-share-status aria-live="polite"></p>
       <p class="article-summary">${escapeHtml(dailySummary)}</p>
@@ -1305,9 +1313,20 @@ function renderArticles(language) {
 }
 
 function scrollToArticleStart(behavior = "smooth") {
-  document
-    .querySelector("#daily-article-reader")
-    ?.scrollIntoView({ behavior, block: "start" });
+  const target = document.querySelector("#daily-article-reader");
+  const header = document.querySelector(".site-header");
+
+  if (!target) {
+    return;
+  }
+
+  const headerOffset = header ? header.getBoundingClientRect().height + 18 : 104;
+  const top = target.getBoundingClientRect().top + window.scrollY - headerOffset;
+
+  window.scrollTo({
+    top: Math.max(0, top),
+    behavior,
+  });
 }
 
 function settleArticleStartScroll() {

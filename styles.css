@@ -462,18 +462,29 @@ h2 {
 
 .article-share-button {
   flex: 0 0 auto;
-  min-height: 2.35rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.45rem;
+  height: 2.45rem;
   margin-top: 0.2rem;
-  padding: 0.45rem 0.8rem;
+  padding: 0;
   border: 1px solid var(--line);
   border-radius: var(--radius);
   background: color-mix(in srgb, var(--paper) 88%, var(--accent-soft));
   color: var(--ink);
   cursor: pointer;
-  font-size: 0.82rem;
-  font-weight: 900;
-  white-space: nowrap;
   transition: transform 160ms ease, border-color 160ms ease, background 160ms ease;
+}
+
+.article-share-button svg {
+  width: 1.08rem;
+  height: 1.08rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2;
 }
 
 .article-share-button:hover,
@@ -862,15 +873,6 @@ h2 {
 
   .article-title {
     font-size: 1.72rem;
-  }
-
-  .article-title-row {
-    flex-direction: column;
-    gap: 0.7rem;
-  }
-
-  .article-share-button {
-    width: 100%;
   }
 
   .daily-article-main,
