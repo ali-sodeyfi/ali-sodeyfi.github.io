@@ -507,6 +507,15 @@ h2 {
   font-size: 0.82rem !important;
 }
 
+.article-actions {
+  display: grid;
+  gap: 0.55rem;
+}
+
+.article-actions .button {
+  width: 100%;
+}
+
 .article-tags {
   display: flex;
   flex-wrap: wrap;

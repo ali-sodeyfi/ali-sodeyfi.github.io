@@ -70,6 +70,7 @@ const translations = {
     articleDateLabel: "به‌روزرسانی روزانه",
     articleReadLabel: "منبع اصلی",
     articleOnSiteLabel: "متن مقاله روی سایت",
+    articleReadOnSiteLabel: "خواندن در همین سایت",
     articleTakeawaysLabel: "نکات اجرایی",
     articleCopyrightNote:
       "این متن، بازنشر مقاله اصلی نیست؛ یک خوانش تحلیلی و بازنویسی‌شده برای مطالعه داخل سایت است.",
@@ -145,6 +146,7 @@ const translations = {
     articleDateLabel: "Daily rotation",
     articleReadLabel: "Original source",
     articleOnSiteLabel: "On-site article",
+    articleReadOnSiteLabel: "Read on this site",
     articleTakeawaysLabel: "Operating takeaways",
     articleCopyrightNote:
       "This is not a republication of the original article; it is an original analytical reading for this site.",
@@ -220,6 +222,7 @@ const translations = {
     articleDateLabel: "تحديث يومي",
     articleReadLabel: "المصدر الأصلي",
     articleOnSiteLabel: "المقال داخل الموقع",
+    articleReadOnSiteLabel: "القراءة داخل الموقع",
     articleTakeawaysLabel: "نقاط تشغيلية",
     articleCopyrightNote:
       "هذا النص ليس إعادة نشر للمقال الأصلي؛ بل قراءة تحليلية أصلية لهذا الموقع.",
@@ -1029,12 +1032,10 @@ function renderArticles(language) {
   dailyArticleContainer.innerHTML = `
     <div class="daily-article-main">
       <p class="article-kicker">${escapeHtml(dictionary.articleTodayLabel)}</p>
-      <h3 class="article-title" dir="ltr">
-        <a href="${escapeHtml(dailyArticle.url)}" target="_blank" rel="noreferrer">${escapeHtml(dailyArticle.title)}</a>
-      </h3>
+      <h3 class="article-title" dir="ltr">${escapeHtml(dailyArticle.title)}</h3>
       <p class="article-summary">${escapeHtml(dailySummary)}</p>
       <div class="article-tags">${renderArticleTags(dailyArticle, language)}</div>
-      <div class="article-body">
+      <div class="article-body" id="daily-article-body">
         <p class="article-section-label">${escapeHtml(dictionary.articleOnSiteLabel)}</p>
         ${renderParagraphs(dailyEssay.paragraphs)}
         <div class="article-takeaways">
@@ -1053,7 +1054,10 @@ function renderArticles(language) {
         <p class="article-date">${escapeHtml(dictionary.articleDateLabel)}</p>
         <p>${escapeHtml(getTehranDate(language))}</p>
       </div>
-      <a class="button primary" href="${escapeHtml(dailyArticle.url)}" target="_blank" rel="noreferrer">${escapeHtml(dictionary.articleReadLabel)}</a>
+      <div class="article-actions">
+        <a class="button primary" href="#daily-article-body">${escapeHtml(dictionary.articleReadOnSiteLabel)}</a>
+        <a class="button" href="${escapeHtml(dailyArticle.url)}" target="_blank" rel="noreferrer">${escapeHtml(dictionary.articleReadLabel)}</a>
+      </div>
     </div>
   `;
 
