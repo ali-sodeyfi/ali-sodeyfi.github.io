@@ -6,6 +6,7 @@ const translatableNodes = document.querySelectorAll("[data-i18n]");
 const dailyArticleContainer = document.querySelector("[data-daily-article]");
 const articleListContainer = document.querySelector("[data-article-list]");
 const html = document.documentElement;
+let selectedArticleIndex = null;
 
 const translations = {
   fa: {
@@ -65,12 +66,14 @@ const translations = {
     articlesIntro:
       "یک انتخاب روزانه از نوشته‌های معتبر کارآفرینی، رشد و ساخت شرکت؛ با ترجمه آزاد فارسی داخل سایت و لینک منبع اصلی.",
     articleTodayLabel: "مقاله امروز",
+    articleSelectedLabel: "ترجمه منتخب",
     articleArchiveLabel: "آرشیو منتخب",
     articleSourceLabel: "منبع",
     articleDateLabel: "به‌روزرسانی روزانه",
     articleReadLabel: "منبع اصلی",
     articleOnSiteLabel: "ترجمه آزاد مقاله",
     articleReadOnSiteLabel: "خواندن ترجمه",
+    articleArchiveReadOnSiteLabel: "ترجمه داخل سایت",
     articleTranslationNote:
       "این بخش ترجمه آزاد و خواندنی از ایده‌های اصلی مقاله است؛ برای مطالعه سریع فارسی، بدون نیاز به خروج از سایت.",
     articleOriginalEmbedLabel: "اصل انگلیسی مقاله",
@@ -148,12 +151,14 @@ const translations = {
     articlesIntro:
       "A daily pick from credible essays on entrepreneurship, growth, and company building, with a readable on-site adaptation and a link to the original source.",
     articleTodayLabel: "Today's article",
+    articleSelectedLabel: "Selected translation",
     articleArchiveLabel: "Selected archive",
     articleSourceLabel: "Source",
     articleDateLabel: "Daily rotation",
     articleReadLabel: "Original source",
     articleOnSiteLabel: "Readable adaptation",
     articleReadOnSiteLabel: "Read adaptation",
+    articleArchiveReadOnSiteLabel: "Read on site",
     articleTranslationNote:
       "This section is a readable adaptation of the article's core ideas for quick on-site reading.",
     articleOriginalEmbedLabel: "Original English article",
@@ -231,12 +236,14 @@ const translations = {
     articlesIntro:
       "اختيار يومي من مقالات موثوقة عن ريادة الأعمال والنمو وبناء الشركات، مع ترجمة عربية حرة داخل الموقع ورابط المصدر الأصلي.",
     articleTodayLabel: "مقال اليوم",
+    articleSelectedLabel: "ترجمة مختارة",
     articleArchiveLabel: "أرشيف مختار",
     articleSourceLabel: "المصدر",
     articleDateLabel: "تحديث يومي",
     articleReadLabel: "المصدر الأصلي",
     articleOnSiteLabel: "ترجمة حرة للمقال",
     articleReadOnSiteLabel: "قراءة الترجمة",
+    articleArchiveReadOnSiteLabel: "قراءة داخل الموقع",
     articleTranslationNote:
       "هذا القسم ترجمة حرة ومقروءة لأفكار المقال الأساسية، لقراءتها داخل الموقع بسرعة.",
     articleOriginalEmbedLabel: "المقال الأصلي بالإنجليزية",
@@ -464,6 +471,23 @@ const articleCatalog = [
       ar: "قبل الحديث عن السوق الكبير، يركز على المستخدمين الذين يريدون المنتج فعلا، وهذا مفيد للتركيز في البداية.",
     },
   },
+  {
+    title: "Nail the Customer Development Manifesto to the Wall",
+    author: "Steve Blank",
+    source: "Steve Blank",
+    year: "2012",
+    url: "https://steveblank.com/2012/03/29/nail-the-customer-development-manifesto/",
+    tags: {
+      fa: ["کشف مشتری", "اعتبارسنجی", "مدل کسب‌وکار"],
+      en: ["customer development", "validation", "business model"],
+      ar: ["تطوير العملاء", "التحقق", "نموذج العمل"],
+    },
+    summary: {
+      fa: "یک متن کلاسیک درباره اینکه استارتاپ نباید از داخل اتاق مدیریت ساخته شود؛ حقیقت مدل کسب‌وکار بیرون از ساختمان و نزد مشتری پیدا می‌شود.",
+      en: "A classic reminder that startups are not built from inside the conference room; the truth about the business model lives outside the building.",
+      ar: "تذكير كلاسيكي بأن الشركة الناشئة لا تبنى من داخل غرفة الاجتماعات؛ حقيقة نموذج العمل توجد خارج المبنى، عند العملاء.",
+    },
+  },
 ];
 
 const articleEssays = {
@@ -589,14 +613,20 @@ const articleEssays = {
   "Maker's Schedule, Manager's Schedule": {
     fa: {
       paragraphs: [
-        "تقویم یک founder معمولا بین دو ریتم پاره می‌شود: ریتم ساختن و ریتم مدیریت. کار maker به بلوک‌های عمیق زمان نیاز دارد؛ کار manager با جلسه، تصمیم سریع و context switching جلو می‌رود. مشکل وقتی شروع می‌شود که این دو ریتم بدون مرز با هم مخلوط شوند.",
-        "یک جلسه کوتاه در میانه روز ممکن است برای manager کم‌هزینه به نظر برسد، اما برای maker می‌تواند کل بلوک تمرکز را نابود کند. برای تیم‌های محصول و تکنولوژی، این هزینه پنهان بسیار واقعی است. اگر سازمان این تفاوت را نفهمد، سرعت ظاهری ارتباط زیاد می‌شود ولی عمق خروجی پایین می‌آید.",
-        "راه‌حل، ضدجلسه بودن نیست؛ طراحی آگاهانه ریتم است. باید زمان‌های تصمیم‌گیری، sync و مدیریت مشخص باشد و کنار آن بلوک‌های محافظت‌شده برای ساختن وجود داشته باشد. founder خوب می‌فهمد چه زمانی باید manager باشد و چه زمانی باید از فضای maker تیم دفاع کند.",
+        "ایده اصلی مقاله Paul Graham این است که همه آدم‌ها زمان را به یک شکل تجربه نمی‌کنند. کسی که کارش مدیریت است، روزش با بلوک‌های کوتاه، جلسه‌های پشت سر هم، تصمیم‌های سریع و جابه‌جایی مداوم بین موضوع‌ها پیش می‌رود. اما کسی که می‌سازد، می‌نویسد، طراحی می‌کند یا کد می‌زند، برای رسیدن به خروجی خوب به زمان پیوسته و عمیق احتیاج دارد.",
+        "در تقویم مدیر، یک جلسه نیم‌ساعته ممکن است فقط یک خانه کوچک باشد. ولی همان جلسه برای maker می‌تواند تمام نیم‌روز را بشکند. چون کار عمیق معمولا با روشن کردن موتور ذهن شروع می‌شود: باید مسئله را دوباره در ذهن نگه داری، جزئیات را به خاطر بیاوری، چند مسیر را امتحان کنی و کم‌کم وارد ریتم شوی. یک وقفه کوتاه می‌تواند این ریتم را از بین ببرد.",
+        "این تفاوت برای founderها خیلی مهم است، چون founder معمولا هم باید بسازد و هم باید مدیریت کند. صبح ممکن است درگیر محصول، محتوا، معماری، hiring یا فروش باشد و ظهر ناگهان وارد جلسه سرمایه‌گذار، جلسه تیم یا تصمیم اجرایی شود. اگر این دو حالت بدون طراحی کنار هم قرار بگیرند، روز پر از کار به نظر می‌رسد اما خروجی عمیق کمی تولید می‌شود.",
+        "پیام مقاله ضدجلسه بودن نیست. جلسه بد نیست؛ جلسه بدون توجه به نوع کار بد است. بعضی تصمیم‌ها بدون هماهنگی سریع جلو نمی‌روند و تیم به sync نیاز دارد. مسئله این است که نباید هزینه جلسه را فقط با زمان خود جلسه حساب کرد. هزینه واقعی جلسه برای کار عمیق، زمانی است که قبل و بعدش از دست می‌رود و تمرکزی است که دوباره باید ساخته شود.",
+        "برای تیم‌های محصول، تکنولوژی، محتوا و استراتژی، طراحی تقویم باید مثل طراحی سیستم باشد. اگر هر روز با وقفه‌های کوچک سوراخ شود، آدم‌ها فرصت ساختن چیزهای سخت را از دست می‌دهند. در مقابل، وقتی بلوک‌های روشن برای کار عمیق وجود دارد و جلسه‌ها در پنجره‌های مشخص جمع می‌شوند، تیم هم ارتباط دارد و هم فضای ساختن.",
+        "Founder حرفه‌ای باید دو مهارت را هم‌زمان یاد بگیرد: وقتی نقش manager دارد، تصمیم‌ها را سریع، واضح و کم‌اصطکاک کند؛ وقتی نقش maker یا حامی makerها را دارد، از تمرکز دفاع کند. این دفاع از تمرکز یک رفتار لوکس نیست، بخشی از کیفیت عملیات شرکت است.",
+        "برداشت اجرایی مقاله برای علی سدیفی و مخاطب سایت این است: اگر قرار است شرکت بسازی، تقویم فقط ابزار برنامه‌ریزی نیست؛ نقشه انرژی سازمان است. شکل تقویم تعیین می‌کند که تیم بیشتر مشغول به نظر برسد یا واقعا چیزهای مهم بسازد.",
       ],
       takeaways: [
-        "تقویم تیم را براساس نوع کار طراحی کن، نه فقط دسترسی افراد.",
-        "جلسه‌های کوتاه هم می‌توانند هزینه تمرکز بالایی داشته باشند.",
+        "تقویم تیم را براساس نوع کار طراحی کن، نه فقط براساس خالی بودن ساعت‌ها.",
+        "هزینه جلسه را با اثر آن بر تمرکز قبل و بعد جلسه بسنج.",
+        "جلسه‌ها را تا جای ممکن در پنجره‌های مشخص جمع کن.",
         "برای کار عمیق، بلوک‌های محافظت‌شده و بدون وقفه بساز.",
+        "به عنوان founder، بین نقش manager و maker آگاهانه جابه‌جا شو.",
       ],
     },
     en: {
@@ -779,14 +809,19 @@ const articleEssays = {
   "The Minimum Viable Testing Process for Evaluating Startup Ideas": {
     fa: {
       paragraphs: [
-        "بسیاری از تیم‌ها MVP را با نسخه کوچک محصول اشتباه می‌گیرند. اما تست حداقلی یعنی کم‌هزینه‌ترین راه برای سنجیدن یک فرضیه مهم. گاهی این تست محصول نیست؛ یک landing page، مصاحبه، pre-order، prototype یا حتی فروش دستی است.",
-        "ارزش این رویکرد در کاهش غرور ساختن است. تیم قبل از اینکه ماه‌ها درگیر توسعه شود، می‌فهمد کدام فرضیه واقعا ریسک دارد: آیا مسئله دردناک است؟ آیا مشتری حاضر است پول بدهد؟ آیا کانال دسترسی وجود دارد؟ آیا پیام محصول فهمیده می‌شود؟",
-        "فرایند خوب تست، تیم را از debate ذهنی به evidence می‌برد. البته evidence همیشه کامل نیست، اما بهتر از ساختن در تاریکی است. founder باید یاد بگیرد هر ایده را به فرضیه‌های کوچک‌تر و قابل آزمون بشکند.",
+        "بسیاری از تیم‌ها وقتی از MVP حرف می‌زنند، ناخودآگاه به «نسخه کوچک محصول» فکر می‌کنند؛ چیزی با چند feature کمتر، طراحی ساده‌تر و زمان توسعه کوتاه‌تر. اما تست حداقلی همیشه محصول نیست. گاهی بهترین تست، یک صفحه ساده، یک گفت‌وگوی فروش، یک prototype نمایشی، یک pre-order یا حتی یک فرایند کاملا دستی است که فقط یک فرضیه مهم را می‌سنجد.",
+        "نکته اصلی این رویکرد این است که قبل از ساختن سنگین، باید بفهمی کدام بخش ایده واقعاً پرریسک است. شاید ریسک اصلی این نباشد که تیم می‌تواند محصول را بسازد یا نه؛ شاید ریسک این باشد که مشتری اصلا مسئله را اولویت نمی‌داند، حاضر نیست پول بدهد، کانال دسترسی به او گران است، یا پیام محصول برایش واضح نیست. MVP خوب به جای نمایش محصول، ریسک را روشن می‌کند.",
+        "برای ارزیابی یک ایده، باید آن را به فرضیه‌های کوچک‌تر بشکنی. مثلا فرضیه اول: گروه مشخصی از مشتریان این درد را دارند. فرضیه دوم: این درد برایشان آن‌قدر مهم است که برای حلش زمان یا پول بدهند. فرضیه سوم: می‌توان با یک کانال مشخص به آن‌ها رسید. فرضیه چهارم: راه‌حل پیشنهادی برایشان قابل فهم و قابل اعتماد است. تا وقتی این فرضیه‌ها جدا نشوند، تیم فقط درباره یک ایده کلی بحث می‌کند.",
+        "تست حداقلی خوب باید به رفتار واقعی نزدیک شود. تعریف و تمجید کاربر کافی نیست؛ رفتار مهم‌تر است. آیا کاربر ایمیل می‌دهد؟ جلسه بعدی می‌گذارد؟ پول پیش می‌دهد؟ حاضر می‌شود داده واقعی بدهد؟ محصول ناقص را امتحان می‌کند؟ این رفتارها از جواب‌های مودبانه معتبرترند، چون هزینه‌ای هرچند کوچک از کاربر می‌گیرند.",
+        "مزیت این روش این است که غرور ساختن را کم می‌کند. تیم قبل از اینکه ماه‌ها برای محصول وقت بگذارد، با واقعیت بازار تماس می‌گیرد. اگر فرضیه غلط باشد، شکست کوچک و زودهنگام اتفاق می‌افتد؛ شکستی که ارزان است و مسیر را روشن می‌کند. اگر فرضیه درست باشد، تیم با اعتماد بیشتری وارد ساخت می‌شود، چون چیزی بیشتر از حدس در دست دارد.",
+        "در نهایت، تست کردن ایده به معنی کند شدن نیست؛ اتفاقا راهی برای سریع‌تر حرکت کردن است. تیمی که بی‌مدرک می‌سازد، ممکن است سریع به نظر برسد اما ماه‌ها در مسیر اشتباه جلو برود. تیمی که فرضیه‌ها را کوچک و سریع تست می‌کند، زودتر می‌فهمد چه چیزی ارزش ساختن دارد، چه چیزی باید تغییر کند و چه چیزی باید متوقف شود.",
       ],
       takeaways: [
         "برای هر ایده، سه فرضیه پرریسک را جدا کن.",
         "قبل از ساخت محصول، ارزان‌ترین تست معتبر را طراحی کن.",
         "نتیجه تست باید تصمیم بسازد: ادامه، تغییر یا توقف.",
+        "رفتار واقعی کاربر را جدی‌تر از تعریف و نظر مثبت بگیر.",
+        "MVP را ابزار کاهش ریسک بدان، نه نسخه کوچک محصول نهایی.",
       ],
     },
     en: {
@@ -928,6 +963,56 @@ const articleEssays = {
       ],
     },
   },
+  "Nail the Customer Development Manifesto to the Wall": {
+    fa: {
+      paragraphs: [
+        "این متن Steve Blank یک یادآوری سخت اما حیاتی برای هر founder است: هیچ حقیقتی درباره مشتری، بازار و مدل کسب‌وکار داخل اتاق جلسه پیدا نمی‌شود. داخل شرکت فقط فرضیه داریم؛ بیرون از ساختمان است که معلوم می‌شود کدام فرضیه زنده می‌ماند و کدام فقط یک خیال خوش‌ساخت بوده است.",
+        "بسیاری از تیم‌ها با یک vision شروع می‌کنند و خیلی زود آن را با واقعیت اشتباه می‌گیرند. برنامه مالی، pitch deck، roadmap و حتی طراحی محصول می‌توانند ظاهر اعتمادبه‌نفس بسازند، اما تا وقتی مشتری واقعی دیده نشده و رفتار واقعی سنجیده نشده، همه این‌ها بیشتر شبیه نقشه‌اند تا زمین. Customer Development یعنی پذیرفتن همین فاصله بین نقشه و زمین.",
+        "اصل مهم این است که استارتاپ نسخه کوچک یک شرکت بزرگ نیست. شرکت بزرگ معمولا در حال اجرای یک مدل شناخته‌شده است؛ اما استارتاپ در حال جست‌وجوی مدل تکرارپذیر و مقیاس‌پذیر است. بنابراین metricها، جلسات، ساختار تصمیم‌گیری و حتی تحمل شکست در استارتاپ باید با منطق جست‌وجو طراحی شوند، نه با منطق اجرای مطمئن.",
+        "وقتی تیم از ساختمان بیرون می‌رود، هدفش فروش اجباری ایده نیست. هدف این است که فرضیه‌ها را با واقعیت تماس بدهد: آیا مشتری درد را جدی حس می‌کند؟ آیا مسئله اولویت دارد؟ آیا راه‌حل فعلی کافی نیست؟ آیا کسی حاضر است برای راه‌حل بهتر هزینه، زمان یا تغییر رفتار بدهد؟ جواب این سؤال‌ها با نظر مدیران، مشاوران یا دوستان به دست نمی‌آید؛ باید از بازار و مشتری گرفته شود.",
+        "Customer Development همچنین به founder یاد می‌دهد شکست کوچک را زود و ارزان بپذیرد. اگر فرضیه‌ای غلط است، بهتر است در یک مصاحبه، تست فروش یا آزمایش کوچک بفهمی تا بعد از چند ماه توسعه محصول. این رویکرد شکست را رمانتیک نمی‌کند؛ آن را به ابزار کاهش ریسک تبدیل می‌کند. شکست مفید، شکستی است که فرضیه را روشن‌تر کند.",
+        "برای اپراتوری، پیام متن روشن است: یادگیری باید در سیستم کار شرکت طراحی شود. هر هفته باید فرضیه مشخص، تماس واقعی با مشتری، evidence قابل ثبت و تصمیم بعدی وجود داشته باشد. اگر تیم فقط می‌سازد اما یاد نمی‌گیرد، احتمال دارد با سرعت زیاد در مسیر اشتباه حرکت کند.",
+        "در نهایت، این متن درباره فروتنی عملیاتی است. founder باید آن‌قدر به vision خود باور داشته باشد که شروع کند، اما آن‌قدر هم فروتن باشد که اجازه دهد مشتری، بازار و داده‌های واقعی شکل دقیق آن vision را اصلاح کنند. شرکت خوب از ترکیب ایمان اولیه و یادگیری بی‌رحمانه ساخته می‌شود.",
+      ],
+      takeaways: [
+        "هر ایده را به فرضیه‌های قابل تست درباره مشتری، مسئله، کانال و درآمد تبدیل کن.",
+        "هفته‌ای چند گفت‌وگوی واقعی با مشتری داشته باش؛ نه فقط جلسه داخلی.",
+        "استارتاپ را مثل سازمان جست‌وجو مدیریت کن، نه نسخه کوچک شرکت بزرگ.",
+        "شکست کوچک و زودهنگام را به‌عنوان ابزار کاهش ریسک بپذیر.",
+        "بعد از هر تست، تصمیم روشن بگیر: ادامه، تغییر فرضیه یا توقف.",
+      ],
+    },
+    en: {
+      paragraphs: [
+        "Steve Blank's customer development message is blunt: there are no facts about customers, markets, or business models inside the building. Inside the company, founders mostly have hypotheses. Outside the building, those hypotheses meet reality.",
+        "A startup is not a smaller version of a large company. A large company usually executes a known model; a startup searches for a repeatable and scalable one. That means the operating system of a startup should be designed around learning, testing, and iteration rather than confident execution.",
+        "Getting outside the building is not about pitching harder. It is about testing assumptions: does the customer feel the pain, is it a priority, are current alternatives weak, and will someone pay or change behavior for a better solution? These answers come from customers and markets, not from internal meetings.",
+        "The discipline also changes the meaning of failure. A small failed test is not a tragedy if it saves months of building the wrong thing. Useful failure clarifies the model, lowers risk, and helps the team decide whether to continue, change direction, or stop.",
+      ],
+      takeaways: [
+        "Convert ideas into testable hypotheses about customers, problems, channels, and revenue.",
+        "Schedule real customer contact every week, not only internal discussion.",
+        "Manage the startup as a search system, not a miniature large company.",
+        "Use small early failures to reduce risk before heavy product investment.",
+        "After each test, make a decision: continue, pivot the hypothesis, or stop.",
+      ],
+    },
+    ar: {
+      paragraphs: [
+        "رسالة Steve Blank في تطوير العملاء واضحة وحادة: لا توجد حقائق عن العملاء أو السوق أو نموذج العمل داخل المبنى. داخل الشركة توجد فرضيات، أما خارجها فتلتقي هذه الفرضيات بالواقع.",
+        "الشركة الناشئة ليست نسخة صغيرة من شركة كبيرة. الشركة الكبيرة تنفذ غالبا نموذجا معروفا، أما الشركة الناشئة فتبحث عن نموذج قابل للتكرار والتوسع. لذلك يجب أن يعمل نظامها حول التعلم والاختبار والتكرار، لا حول التنفيذ الواثق فقط.",
+        "الخروج من المبنى لا يعني بيع الفكرة بقوة أكبر. معناه اختبار الافتراضات: هل يشعر العميل بالألم؟ هل المشكلة أولوية؟ هل البدائل الحالية ضعيفة؟ هل سيدفع العميل أو يغير سلوكه من أجل حل أفضل؟ هذه الإجابات تأتي من العملاء والسوق لا من الاجتماعات الداخلية.",
+        "هذا الانضباط يغير معنى الفشل. الاختبار الصغير الفاشل ليس كارثة إذا وفر على الفريق أشهرا من بناء الشيء الخطأ. الفشل المفيد يوضح النموذج، يقلل المخاطر، ويساعد الفريق على قرار الاستمرار أو تغيير الفرضية أو التوقف.",
+      ],
+      takeaways: [
+        "حوّل الأفكار إلى فرضيات قابلة للاختبار عن العميل والمشكلة والقناة والإيراد.",
+        "اجعل التواصل الحقيقي مع العملاء عادة أسبوعية، لا تعتمد على النقاش الداخلي فقط.",
+        "أدر الشركة الناشئة كنظام بحث، لا كشركة كبيرة مصغرة.",
+        "استخدم الفشل الصغير المبكر لتقليل المخاطر قبل الاستثمار الكبير في المنتج.",
+        "بعد كل اختبار، اتخذ قرارا واضحا: الاستمرار أو تعديل الفرضية أو التوقف.",
+      ],
+    },
+  },
 };
 
 const defaultArticleEssay = {
@@ -1048,16 +1133,19 @@ function renderArticles(language) {
 
   const dictionary = translations[language] ?? translations.fa;
   const dailyIndex = getDailyArticleIndex();
-  const dailyArticle = articleCatalog[dailyIndex];
+  const featuredIndex = selectedArticleIndex ?? dailyIndex;
+  const dailyArticle = articleCatalog[featuredIndex];
   const dailySummary = dailyArticle.summary[language] ?? dailyArticle.summary.en;
   const dailyEssay = getArticleEssay(dailyArticle, language);
-  const archiveArticles = Array.from({ length: 6 }, (_, index) => {
-    return articleCatalog[(dailyIndex + index + 1) % articleCatalog.length];
-  });
+  const archiveArticles = articleCatalog
+    .map((article, index) => ({ article, index }))
+    .filter(({ index }) => index !== featuredIndex);
+  const articleKicker =
+    featuredIndex === dailyIndex ? dictionary.articleTodayLabel : dictionary.articleSelectedLabel;
 
   dailyArticleContainer.innerHTML = `
     <div class="daily-article-main">
-      <p class="article-kicker">${escapeHtml(dictionary.articleTodayLabel)}</p>
+      <p class="article-kicker">${escapeHtml(articleKicker)}</p>
       <h3 class="article-title" dir="ltr">${escapeHtml(dailyArticle.title)}</h3>
       <p class="article-summary">${escapeHtml(dailySummary)}</p>
       <div class="article-tags">${renderArticleTags(dailyArticle, language)}</div>
@@ -1106,7 +1194,7 @@ function renderArticles(language) {
   `;
 
   articleListContainer.innerHTML = archiveArticles
-    .map((article) => {
+    .map(({ article, index }) => {
       const summary = article.summary[language] ?? article.summary.en;
 
       return `
@@ -1117,7 +1205,10 @@ function renderArticles(language) {
           </div>
           <div class="article-card-footer">
             <span class="article-source">${escapeHtml(article.source)}</span>
-            <a class="article-link" href="${escapeHtml(article.url)}" target="_blank" rel="noreferrer">${escapeHtml(dictionary.articleReadLabel)}</a>
+            <div class="article-card-links">
+              <button class="article-link article-select-button" type="button" data-article-select="${index}">${escapeHtml(dictionary.articleArchiveReadOnSiteLabel)}</button>
+              <a class="article-link" href="${escapeHtml(article.url)}" target="_blank" rel="noreferrer">${escapeHtml(dictionary.articleReadLabel)}</a>
+            </div>
           </div>
         </article>
       `;
@@ -1185,6 +1276,28 @@ languageButtons.forEach((button) => {
   button.addEventListener("click", () => {
     applyLanguage(button.dataset.lang);
   });
+});
+
+articleListContainer?.addEventListener("click", (event) => {
+  const target = event.target instanceof Element ? event.target : null;
+  const selectButton = target?.closest("[data-article-select]");
+
+  if (!selectButton) {
+    return;
+  }
+
+  const index = Number(selectButton.dataset.articleSelect);
+
+  if (!Number.isInteger(index) || !articleCatalog[index]) {
+    return;
+  }
+
+  selectedArticleIndex = index;
+  renderArticles(html.lang || "fa");
+
+  document
+    .querySelector("#daily-article-body")
+    ?.scrollIntoView({ behavior: "smooth", block: "start" });
 });
 
 applyLanguage(localStorage.getItem("site-language") ?? "fa");
