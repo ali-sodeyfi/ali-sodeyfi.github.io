@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>داشبورد مدیریت | Ali Sodeyfi</title>
+    <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./admin.css" />
+  </head>
+  <body>
+    <main class="admin-shell">
+      <section class="admin-hero" aria-labelledby="admin-title">
+        <div>
+          <p class="eyebrow">Admin dashboard</p>
+          <h1 id="admin-title">ویرایش سایت شخصی</h1>
+          <p>
+            ورود با کد پیامکی انجام می‌شود و ذخیره تغییرات از مسیر backend امن، فایل محتوای سایت را در GitHub commit می‌کند.
+          </p>
+        </div>
+        <a class="site-link" href="../">دیدن سایت</a>
+      </section>
+
+      <section class="panel setup-panel" data-setup-panel hidden>
+        <h2>اتصال backend لازم است</h2>
+        <p>
+          داشبورد آماده است، اما برای ارسال پیامک و ذخیره واقعی باید آدرس API در
+          <code>admin/admin-config.js</code>
+          تنظیم شود.
+        </p>
+      </section>
+
+      <section class="panel auth-panel" data-auth-panel>
+        <div>
+          <p class="eyebrow">Secure login</p>
+          <h2>ورود مدیر</h2>
+          <p>فقط شماره مالک سایت در backend اجازه دریافت کد دارد. شماره کامل داخل فایل‌های عمومی منتشر نشده است.</p>
+        </div>
+        <form class="auth-form" data-auth-form>
+          <label>
+            شماره موبایل
+            <input
+              autocomplete="tel"
+              data-phone-input
+              inputmode="tel"
+              placeholder="09*********"
+              type="tel"
+            />
+          </label>
+          <button class="button primary" type="button" data-request-code>ارسال کد ورود</button>
+          <label>
+            کد پیامکی
+            <input autocomplete="one-time-code" data-code-input inputmode="numeric" maxlength="6" placeholder="123456" />
+          </label>
+          <button class="button" type="submit">ورود به داشبورد</button>
+          <p class="status" data-auth-status aria-live="polite"></p>
+        </form>
+      </section>
+
+      <section class="editor-shell" data-editor-shell hidden>
+        <div class="editor-topbar">
+          <div>
+            <p class="eyebrow">Content editor</p>
+            <h2>متن‌های برند شخصی</h2>
+          </div>
+          <div class="editor-actions">
+            <button class="button" type="button" data-reload-content>بارگذاری دوباره</button>
+            <button class="button primary" type="button" data-save-content>ذخیره روی سایت</button>
+          </div>
+        </div>
+
+        <div class="language-tabs" role="tablist" aria-label="زبان محتوا">
+          <button type="button" data-editor-lang="fa" aria-pressed="true">فارسی</button>
+          <button type="button" data-editor-lang="en" aria-pressed="false">English</button>
+          <button type="button" data-editor-lang="ar" aria-pressed="false">العربية</button>
+        </div>
+
+        <form class="content-form" data-content-form></form>
+
+        <details class="raw-panel">
+          <summary>ویرایش JSON خام</summary>
+          <textarea data-raw-json spellcheck="false"></textarea>
+          <button class="button" type="button" data-apply-raw>اعمال JSON روی فرم</button>
+        </details>
+
+        <p class="status" data-editor-status aria-live="polite"></p>
+      </section>
+    </main>
+
+    <script src="./admin-config.js"></script>
+    <script src="./admin.js"></script>
+  </body>
+</html>

@@ -7,6 +7,7 @@ const dailyArticleContainer = document.querySelector("[data-daily-article]");
 const articleListContainer = document.querySelector("[data-article-list]");
 const html = document.documentElement;
 const liveSiteUrl = "https://ali-sodeyfi.github.io/";
+const contentOverrideUrl = "./content-overrides.json";
 let selectedArticleIndex = null;
 
 const translations = {
@@ -1170,6 +1171,47 @@ function getInitialLanguage() {
   return localStorage.getItem("site-language") ?? "fa";
 }
 
+function isPlainObject(value) {
+  return Boolean(value) && typeof value === "object" && !Array.isArray(value);
+}
+
+function mergeDeep(target, source) {
+  if (!isPlainObject(target) || !isPlainObject(source)) {
+    return target;
+  }
+
+  Object.entries(source).forEach(([key, value]) => {
+    if (isPlainObject(value) && isPlainObject(target[key])) {
+      mergeDeep(target[key], value);
+      return;
+    }
+
+    target[key] = value;
+  });
+
+  return target;
+}
+
+async function loadContentOverrides() {
+  try {
+    const response = await fetch(`${contentOverrideUrl}?v=${Date.now()}`, {
+      cache: "no-store",
+    });
+
+    if (!response.ok) {
+      return;
+    }
+
+    const overrides = await response.json();
+
+    if (isPlainObject(overrides?.translations)) {
+      mergeDeep(translations, overrides.translations);
+    }
+  } catch {
+    // The public site keeps its bundled copy if the editable content file is unavailable.
+  }
+}
+
 function getArticleShareUrl(article, language) {
   const baseUrl = window.location.protocol.startsWith("http")
     ? window.location.href
@@ -1514,17 +1556,23 @@ articleListContainer?.addEventListener("click", (event) => {
   showArticle(index, { scroll: true, updateUrl: true });
 });
 
-const articleIndexFromUrl = getArticleIndexFromUrl();
+async function initializeSite() {
+  await loadContentOverrides();
 
-if (articleIndexFromUrl !== null) {
-  selectedArticleIndex = articleIndexFromUrl;
+  const articleIndexFromUrl = getArticleIndexFromUrl();
+
+  if (articleIndexFromUrl !== null) {
+    selectedArticleIndex = articleIndexFromUrl;
+  }
+
+  applyLanguage(getInitialLanguage());
+
+  if (
+    articleIndexFromUrl !== null &&
+    ["#daily-article-reader", "#daily-article-body"].includes(window.location.hash)
+  ) {
+    settleArticleStartScroll();
+  }
 }
 
-applyLanguage(getInitialLanguage());
-
-if (
-  articleIndexFromUrl !== null &&
-  ["#daily-article-reader", "#daily-article-body"].includes(window.location.hash)
-) {
-  settleArticleStartScroll();
-}
+initializeSite();
