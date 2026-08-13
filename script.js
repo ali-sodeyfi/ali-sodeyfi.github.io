@@ -63,22 +63,24 @@ const translations = {
     articlesLabel: "مطالعه",
     articlesTitle: "مقاله امروز برای ساختن بهتر",
     articlesIntro:
-      "یک انتخاب روزانه از نوشته‌های معتبر کارآفرینی، رشد و ساخت شرکت؛ با متن تحلیلی داخل سایت و لینک منبع اصلی.",
+      "یک انتخاب روزانه از نوشته‌های معتبر کارآفرینی، رشد و ساخت شرکت؛ با ترجمه آزاد فارسی داخل سایت و لینک منبع اصلی.",
     articleTodayLabel: "مقاله امروز",
     articleArchiveLabel: "آرشیو منتخب",
     articleSourceLabel: "منبع",
     articleDateLabel: "به‌روزرسانی روزانه",
     articleReadLabel: "منبع اصلی",
-    articleOnSiteLabel: "متن مقاله روی سایت",
-    articleReadOnSiteLabel: "خواندن در همین سایت",
-    articleOriginalEmbedLabel: "اصل مقاله داخل سایت",
-    articleReadOriginalOnSiteLabel: "نمایش اصل مقاله",
+    articleOnSiteLabel: "ترجمه آزاد مقاله",
+    articleReadOnSiteLabel: "خواندن ترجمه",
+    articleTranslationNote:
+      "این بخش ترجمه آزاد و خواندنی از ایده‌های اصلی مقاله است؛ برای مطالعه سریع فارسی، بدون نیاز به خروج از سایت.",
+    articleOriginalEmbedLabel: "اصل انگلیسی مقاله",
+    articleReadOriginalOnSiteLabel: "نمایش اصل انگلیسی",
     articleOpenOriginalLabel: "باز کردن منبع",
     articleEmbedNote:
       "اصل مقاله از سایت منبع نمایش داده می‌شود. اگر نویسنده یا ناشر نمایش داخلی را بسته باشد، از دکمه منبع استفاده کن.",
     articleTakeawaysLabel: "نکات اجرایی",
     articleCopyrightNote:
-      "این متن، بازنشر مقاله اصلی نیست؛ یک خوانش تحلیلی و بازنویسی‌شده برای مطالعه داخل سایت است.",
+      "این متن ترجمه آزاد و بازنویسی‌شده است، نه بازنشر کلمه‌به‌کلمه مقاله اصلی.",
     contactLabel: "تماس",
     contactTitle:
       "برای همکاری در رشد، سرمایه‌گذاری یا ساختاردهی سازمانی.",
@@ -144,22 +146,24 @@ const translations = {
     articlesLabel: "Reading",
     articlesTitle: "Today's article for better company building",
     articlesIntro:
-      "A daily pick from credible essays on entrepreneurship, growth, and company building, with an on-site analytical note and a link to the original source.",
+      "A daily pick from credible essays on entrepreneurship, growth, and company building, with a readable on-site adaptation and a link to the original source.",
     articleTodayLabel: "Today's article",
     articleArchiveLabel: "Selected archive",
     articleSourceLabel: "Source",
     articleDateLabel: "Daily rotation",
     articleReadLabel: "Original source",
-    articleOnSiteLabel: "On-site article",
-    articleReadOnSiteLabel: "Read on this site",
-    articleOriginalEmbedLabel: "Original article on this site",
-    articleReadOriginalOnSiteLabel: "Show original article",
+    articleOnSiteLabel: "Readable adaptation",
+    articleReadOnSiteLabel: "Read adaptation",
+    articleTranslationNote:
+      "This section is a readable adaptation of the article's core ideas for quick on-site reading.",
+    articleOriginalEmbedLabel: "Original English article",
+    articleReadOriginalOnSiteLabel: "Show original English",
     articleOpenOriginalLabel: "Open source",
     articleEmbedNote:
       "The original article is displayed from the source site. If the author or publisher blocks embedded viewing, use the source button.",
     articleTakeawaysLabel: "Operating takeaways",
     articleCopyrightNote:
-      "This is not a republication of the original article; it is an original analytical reading for this site.",
+      "This is a free adaptation, not a word-for-word republication of the original article.",
     contactLabel: "Contact",
     contactTitle:
       "For growth, investment, or organizational structuring conversations.",
@@ -225,22 +229,24 @@ const translations = {
     articlesLabel: "قراءة",
     articlesTitle: "مقال اليوم لبناء أفضل",
     articlesIntro:
-      "اختيار يومي من مقالات موثوقة عن ريادة الأعمال والنمو وبناء الشركات، مع قراءة تحليلية داخل الموقع ورابط المصدر الأصلي.",
+      "اختيار يومي من مقالات موثوقة عن ريادة الأعمال والنمو وبناء الشركات، مع ترجمة عربية حرة داخل الموقع ورابط المصدر الأصلي.",
     articleTodayLabel: "مقال اليوم",
     articleArchiveLabel: "أرشيف مختار",
     articleSourceLabel: "المصدر",
     articleDateLabel: "تحديث يومي",
     articleReadLabel: "المصدر الأصلي",
-    articleOnSiteLabel: "المقال داخل الموقع",
-    articleReadOnSiteLabel: "القراءة داخل الموقع",
-    articleOriginalEmbedLabel: "المقال الأصلي داخل الموقع",
-    articleReadOriginalOnSiteLabel: "عرض المقال الأصلي",
+    articleOnSiteLabel: "ترجمة حرة للمقال",
+    articleReadOnSiteLabel: "قراءة الترجمة",
+    articleTranslationNote:
+      "هذا القسم ترجمة حرة ومقروءة لأفكار المقال الأساسية، لقراءتها داخل الموقع بسرعة.",
+    articleOriginalEmbedLabel: "المقال الأصلي بالإنجليزية",
+    articleReadOriginalOnSiteLabel: "عرض الأصل الإنجليزي",
     articleOpenOriginalLabel: "فتح المصدر",
     articleEmbedNote:
       "يتم عرض المقال الأصلي من موقع المصدر. إذا منع الكاتب أو الناشر العرض المضمن، استخدم زر المصدر.",
     articleTakeawaysLabel: "نقاط تشغيلية",
     articleCopyrightNote:
-      "هذا النص ليس إعادة نشر للمقال الأصلي؛ بل قراءة تحليلية أصلية لهذا الموقع.",
+      "هذا النص ترجمة حرة وإعادة صياغة، وليس إعادة نشر حرفية للمقال الأصلي.",
     contactLabel: "التواصل",
     contactTitle:
       "لحوارات النمو، الاستثمار، أو هيكلة المنظمات.",
@@ -540,14 +546,19 @@ const articleEssays = {
   "How to Get Startup Ideas": {
     fa: {
       paragraphs: [
-        "ایده استارتاپی معمولا با نشستن و فشار آوردن به ذهن ساخته نمی‌شود. ایده خوب بیشتر از دل زندگی در یک مسئله بیرون می‌آید. وقتی کسی در لبه یک صنعت، تکنولوژی یا رفتار جدید زندگی می‌کند، کمبودهایی را می‌بیند که برای دیگران هنوز نامرئی است.",
-        "راه عملی‌تر این است که به جای دنبال کردن «ایده بزرگ»، دنبال مسئله واقعی باشی. مسئله واقعی نشانه دارد: آدم‌ها همین امروز برایش هزینه می‌دهند، با راه‌حل‌های بد کنار آمده‌اند، یا خودت بارها با آن برخورد کرده‌ای. بهترین ایده‌ها اغلب در ابتدا شبیه چیزهای کوچک و حتی نامرتب‌اند، نه pitchهای براق.",
-        "برای founder، کیفیت مشاهده مهم‌تر از تعداد ایده‌هاست. اگر با کاربر، بازار و تغییرات تکنولوژی نزدیک باشی، ایده‌ها به جای اینکه ساخته شوند، کشف می‌شوند. سپس کار اصلی شروع می‌شود: فهمیدن اینکه کدام مسئله آن‌قدر دردناک، تکرارشونده و بزرگ است که ارزش ساختن شرکت داشته باشد.",
+        "ایده استارتاپی معمولا با نشستن پشت میز و فشار آوردن به ذهن ساخته نمی‌شود. اگر قرار باشد فقط با «فکر کردن به ایده» به نتیجه برسی، احتمال زیادی هست که به چیزهایی برسی که در ظاهر جذاب‌اند اما ریشه واقعی در زندگی مردم ندارند. ایده خوب اغلب از جایی می‌آید که کسی با یک مسئله زندگی کرده، آن را از نزدیک لمس کرده و زودتر از دیگران دیده که چیزی در دنیا کم است.",
+        "راه بهتر این است که به جای شکار ایده بزرگ، دنبال مسئله واقعی بگردی. مسئله واقعی معمولا نشانه دارد: آدم‌ها برای حلش پول، زمان یا انرژی خرج می‌کنند؛ با راه‌حل‌های بد کنار آمده‌اند؛ یا آن‌قدر تکرار می‌شود که دیگر نمی‌توان نادیده‌اش گرفت. خیلی از ایده‌های قوی در شروع شبیه pitchهای درخشان نیستند. بیشتر شبیه یک ناراحتی کوچک، یک فرایند کُند، یک ابزار ناکافی یا یک نیاز تکراری‌اند.",
+        "یکی از نکته‌های اصلی این نگاه این است که باید در آینده زندگی کنی. یعنی خودت را در معرض تکنولوژی، رفتار یا بازاری قرار بدهی که هنوز برای همه عادی نشده است. کسی که زودتر در چنین محیطی زندگی می‌کند، کمبودهایی را می‌بیند که بقیه بعدا خواهند دید. برای همین خیلی از founderهای خوب، ایده را اختراع نمی‌کنند؛ آن را از دل تجربه روزمره کشف می‌کنند.",
+        "مسئله‌ای که برای خودت هم واقعی باشد معمولا بهتر از مسئله‌ای است که فقط از بیرون جذاب به نظر می‌رسد. وقتی خودت درد را تجربه کرده باشی، درباره جزئیاتش حساس‌تر می‌شوی، زبان کاربر را بهتر می‌فهمی و کمتر فریب پاسخ‌های سطحی را می‌خوری. البته این کافی نیست؛ باید ببینی آیا افراد دیگری هم همان درد را دارند و آیا حاضرند برای حلش رفتارشان را تغییر دهند یا نه.",
+        "ایده خوب لزوما از روز اول بزرگ به نظر نمی‌رسد. گاهی بهترین ایده‌ها ابتدا کوچک، تخصصی یا حتی عجیب‌اند، چون فقط گروه کوچکی از آدم‌ها هنوز شدت مسئله را حس کرده‌اند. اما اگر آن گروه کوچک واقعا مسئله را جدی بگیرد، همان نقطه می‌تواند شروع یک بازار بزرگ‌تر باشد. مهم این است که از یک نیاز واقعی شروع کنی، نه از یک شعار بزرگ.",
+        "پس کار founder فقط ایده‌پردازی نیست؛ مشاهده دقیق است. باید ببینی چه چیزی بارها تکرار می‌شود، چه چیزی مردم را مجبور به workaround می‌کند، کجا ابزارهای موجود جواب نمی‌دهند و کدام تغییر تازه، امکان راه‌حل جدید را باز کرده است. بعد از آن، ایده باید با کاربر، رفتار واقعی و شواهد بازار تست شود. ایده‌ای که نتوان آن را با واقعیت تماس داد، فقط یک جمله خوب است.",
       ],
       takeaways: [
         "در محیط‌هایی زندگی و کار کن که آینده زودتر خودش را نشان می‌دهد.",
         "به مسئله‌هایی توجه کن که خودت یا کاربران بارها تجربه کرده‌اید.",
         "ایده را با شدت درد، تکرارپذیری و امکان توزیع بسنج.",
+        "از نیاز واقعی شروع کن، نه از pitch جذاب.",
+        "قبل از ساخت، دنبال شواهد رفتار واقعی کاربر بگرد.",
       ],
     },
     en: {
@@ -1052,6 +1063,7 @@ function renderArticles(language) {
       <div class="article-tags">${renderArticleTags(dailyArticle, language)}</div>
       <div class="article-body" id="daily-article-body">
         <p class="article-section-label">${escapeHtml(dictionary.articleOnSiteLabel)}</p>
+        <p class="article-translation-note">${escapeHtml(dictionary.articleTranslationNote)}</p>
         ${renderParagraphs(dailyEssay.paragraphs)}
         <div class="article-takeaways">
           <p class="article-section-label">${escapeHtml(dictionary.articleTakeawaysLabel)}</p>
