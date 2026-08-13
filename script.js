@@ -71,6 +71,11 @@ const translations = {
     articleReadLabel: "منبع اصلی",
     articleOnSiteLabel: "متن مقاله روی سایت",
     articleReadOnSiteLabel: "خواندن در همین سایت",
+    articleOriginalEmbedLabel: "اصل مقاله داخل سایت",
+    articleReadOriginalOnSiteLabel: "نمایش اصل مقاله",
+    articleOpenOriginalLabel: "باز کردن منبع",
+    articleEmbedNote:
+      "اصل مقاله از سایت منبع نمایش داده می‌شود. اگر نویسنده یا ناشر نمایش داخلی را بسته باشد، از دکمه منبع استفاده کن.",
     articleTakeawaysLabel: "نکات اجرایی",
     articleCopyrightNote:
       "این متن، بازنشر مقاله اصلی نیست؛ یک خوانش تحلیلی و بازنویسی‌شده برای مطالعه داخل سایت است.",
@@ -147,6 +152,11 @@ const translations = {
     articleReadLabel: "Original source",
     articleOnSiteLabel: "On-site article",
     articleReadOnSiteLabel: "Read on this site",
+    articleOriginalEmbedLabel: "Original article on this site",
+    articleReadOriginalOnSiteLabel: "Show original article",
+    articleOpenOriginalLabel: "Open source",
+    articleEmbedNote:
+      "The original article is displayed from the source site. If the author or publisher blocks embedded viewing, use the source button.",
     articleTakeawaysLabel: "Operating takeaways",
     articleCopyrightNote:
       "This is not a republication of the original article; it is an original analytical reading for this site.",
@@ -223,6 +233,11 @@ const translations = {
     articleReadLabel: "المصدر الأصلي",
     articleOnSiteLabel: "المقال داخل الموقع",
     articleReadOnSiteLabel: "القراءة داخل الموقع",
+    articleOriginalEmbedLabel: "المقال الأصلي داخل الموقع",
+    articleReadOriginalOnSiteLabel: "عرض المقال الأصلي",
+    articleOpenOriginalLabel: "فتح المصدر",
+    articleEmbedNote:
+      "يتم عرض المقال الأصلي من موقع المصدر. إذا منع الكاتب أو الناشر العرض المضمن، استخدم زر المصدر.",
     articleTakeawaysLabel: "نقاط تشغيلية",
     articleCopyrightNote:
       "هذا النص ليس إعادة نشر للمقال الأصلي؛ بل قراءة تحليلية أصلية لهذا الموقع.",
@@ -1044,6 +1059,22 @@ function renderArticles(language) {
         </div>
         <p class="article-note">${escapeHtml(dictionary.articleCopyrightNote)}</p>
       </div>
+      <div class="original-article-reader" id="daily-original-article">
+        <div class="original-reader-head">
+          <div>
+            <p class="article-section-label">${escapeHtml(dictionary.articleOriginalEmbedLabel)}</p>
+            <p>${escapeHtml(dictionary.articleEmbedNote)}</p>
+          </div>
+          <a class="article-link" href="${escapeHtml(dailyArticle.url)}" target="_blank" rel="noreferrer">${escapeHtml(dictionary.articleOpenOriginalLabel)}</a>
+        </div>
+        <iframe
+          class="original-article-frame"
+          src="${escapeHtml(dailyArticle.url)}"
+          title="${escapeHtml(`${dictionary.articleOriginalEmbedLabel}: ${dailyArticle.title}`)}"
+          loading="eager"
+          referrerpolicy="no-referrer"
+        ></iframe>
+      </div>
     </div>
     <div class="daily-article-meta">
       <div>
@@ -1056,6 +1087,7 @@ function renderArticles(language) {
       </div>
       <div class="article-actions">
         <a class="button primary" href="#daily-article-body">${escapeHtml(dictionary.articleReadOnSiteLabel)}</a>
+        <a class="button" href="#daily-original-article">${escapeHtml(dictionary.articleReadOriginalOnSiteLabel)}</a>
         <a class="button" href="${escapeHtml(dailyArticle.url)}" target="_blank" rel="noreferrer">${escapeHtml(dictionary.articleReadLabel)}</a>
       </div>
     </div>
