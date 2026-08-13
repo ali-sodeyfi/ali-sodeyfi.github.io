@@ -73,7 +73,6 @@ const translations = {
     articleDateLabel: "به‌روزرسانی روزانه",
     articleReadLabel: "منبع اصلی",
     articleOnSiteLabel: "ترجمه آزاد کامل‌تر مقاله",
-    articleReadOnSiteLabel: "خواندن ترجمه",
     articleArchiveReadOnSiteLabel: "ترجمه داخل سایت",
     articleShareLabel: "اشتراک‌گذاری",
     articleShareSuccess: "لینک مستقیم مقاله کپی شد.",
@@ -157,7 +156,6 @@ const translations = {
     articleDateLabel: "Daily rotation",
     articleReadLabel: "Original source",
     articleOnSiteLabel: "Readable adaptation",
-    articleReadOnSiteLabel: "Read adaptation",
     articleArchiveReadOnSiteLabel: "Read on site",
     articleShareLabel: "Share",
     articleShareSuccess: "Direct article link copied.",
@@ -241,7 +239,6 @@ const translations = {
     articleDateLabel: "تحديث يومي",
     articleReadLabel: "المصدر الأصلي",
     articleOnSiteLabel: "ترجمة حرة للمقال",
-    articleReadOnSiteLabel: "قراءة الترجمة",
     articleArchiveReadOnSiteLabel: "قراءة داخل الموقع",
     articleShareLabel: "مشاركة",
     articleShareSuccess: "تم نسخ رابط المقال المباشر.",
@@ -1251,8 +1248,7 @@ function renderArticles(language) {
         <p>${escapeHtml(getTehranDate(language))}</p>
       </div>
       <div class="article-actions">
-        <a class="button primary" href="#daily-article-body">${escapeHtml(dictionary.articleReadOnSiteLabel)}</a>
-        <a class="button" href="${escapeHtml(dailyArticle.url)}" target="_blank" rel="noreferrer">${escapeHtml(dictionary.articleReadLabel)}</a>
+        <a class="button primary" href="${escapeHtml(dailyArticle.url)}" target="_blank" rel="noreferrer">${escapeHtml(dictionary.articleReadLabel)}</a>
       </div>
     </div>
   `;
