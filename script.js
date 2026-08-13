@@ -6,6 +6,7 @@ const translatableNodes = document.querySelectorAll("[data-i18n]");
 const dailyArticleContainer = document.querySelector("[data-daily-article]");
 const articleListContainer = document.querySelector("[data-article-list]");
 const html = document.documentElement;
+const liveSiteUrl = "https://ali-sodeyfi.github.io/";
 let selectedArticleIndex = null;
 
 const translations = {
@@ -74,6 +75,10 @@ const translations = {
     articleOnSiteLabel: "ترجمه آزاد کامل‌تر مقاله",
     articleReadOnSiteLabel: "خواندن ترجمه",
     articleArchiveReadOnSiteLabel: "ترجمه داخل سایت",
+    articleShareLabel: "اشتراک‌گذاری",
+    articleShareSuccess: "لینک مستقیم مقاله کپی شد.",
+    articleShareManualLabel: "لینک مستقیم مقاله:",
+    articleShareText: "ترجمه فارسی این مقاله را اینجا بخوان:",
     articleTranslationNote:
       "این بخش ترجمه آزاد، کامل‌تر و خواندنی از ایده‌های اصلی مقاله است؛ برای مطالعه فارسی داخل سایت، بدون نیاز به خروج از صفحه.",
     articleOriginalEmbedLabel: "اصل انگلیسی مقاله",
@@ -159,6 +164,10 @@ const translations = {
     articleOnSiteLabel: "Readable adaptation",
     articleReadOnSiteLabel: "Read adaptation",
     articleArchiveReadOnSiteLabel: "Read on site",
+    articleShareLabel: "Share",
+    articleShareSuccess: "Direct article link copied.",
+    articleShareManualLabel: "Direct article link:",
+    articleShareText: "Read this on-site article adaptation here:",
     articleTranslationNote:
       "This section is a readable adaptation of the article's core ideas for quick on-site reading.",
     articleOriginalEmbedLabel: "Original English article",
@@ -244,6 +253,10 @@ const translations = {
     articleOnSiteLabel: "ترجمة حرة للمقال",
     articleReadOnSiteLabel: "قراءة الترجمة",
     articleArchiveReadOnSiteLabel: "قراءة داخل الموقع",
+    articleShareLabel: "مشاركة",
+    articleShareSuccess: "تم نسخ رابط المقال المباشر.",
+    articleShareManualLabel: "رابط المقال المباشر:",
+    articleShareText: "اقرأ ترجمة هذا المقال داخل الموقع هنا:",
     articleTranslationNote:
       "هذا القسم ترجمة حرة ومقروءة لأفكار المقال الأساسية، لقراءتها داخل الموقع بسرعة.",
     articleOriginalEmbedLabel: "المقال الأصلي بالإنجليزية",
@@ -1088,6 +1101,67 @@ function getTehranDate(language) {
   }).format(new Date());
 }
 
+function getArticleSlug(article) {
+  return article.title
+    .toLowerCase()
+    .replace(/['’]/g, "")
+    .replace(/&/g, " and ")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+function getArticleIndexFromUrl() {
+  const params = new URLSearchParams(window.location.search);
+  const requestedSlug = params.get("article");
+
+  if (!requestedSlug) {
+    return null;
+  }
+
+  const index = articleCatalog.findIndex((article) => getArticleSlug(article) === requestedSlug);
+
+  return index >= 0 ? index : null;
+}
+
+function getInitialLanguage() {
+  const params = new URLSearchParams(window.location.search);
+  const requestedLanguage = params.get("lang");
+
+  if (requestedLanguage && translations[requestedLanguage]) {
+    return requestedLanguage;
+  }
+
+  return localStorage.getItem("site-language") ?? "fa";
+}
+
+function getArticleShareUrl(article, language) {
+  const baseUrl = window.location.protocol.startsWith("http")
+    ? window.location.href
+    : liveSiteUrl;
+  const url = new URL(baseUrl);
+
+  url.searchParams.delete("v");
+  url.searchParams.set("article", getArticleSlug(article));
+  url.searchParams.set("lang", translations[language] ? language : "fa");
+  url.hash = "daily-article-body";
+
+  return url.toString();
+}
+
+function updateArticleUrl(article, language, mode = "push") {
+  if (!window.history?.[`${mode}State`]) {
+    return;
+  }
+
+  const url = new URL(window.location.href);
+
+  url.searchParams.delete("v");
+  url.searchParams.set("article", getArticleSlug(article));
+  url.searchParams.set("lang", translations[language] ? language : "fa");
+  url.hash = "daily-article-body";
+  window.history[`${mode}State`](null, "", url);
+}
+
 function escapeHtml(value) {
   return String(value).replace(/[&<>"']/g, (character) => {
     const entities = {
@@ -1146,6 +1220,7 @@ function renderArticles(language) {
   const dailyArticle = articleCatalog[featuredIndex];
   const dailySummary = dailyArticle.summary[language] ?? dailyArticle.summary.en;
   const dailyEssay = getArticleEssay(dailyArticle, language);
+  const shareUrl = getArticleShareUrl(dailyArticle, language);
   const archiveArticles = articleCatalog
     .map((article, index) => ({ article, index }))
     .filter(({ index }) => index !== featuredIndex);
@@ -1196,8 +1271,10 @@ function renderArticles(language) {
       </div>
       <div class="article-actions">
         <a class="button primary" href="#daily-article-body">${escapeHtml(dictionary.articleReadOnSiteLabel)}</a>
+        <button class="button" type="button" data-article-share="${featuredIndex}" data-share-url="${escapeHtml(shareUrl)}">${escapeHtml(dictionary.articleShareLabel)}</button>
         <a class="button" href="#daily-original-article">${escapeHtml(dictionary.articleReadOriginalOnSiteLabel)}</a>
         <a class="button" href="${escapeHtml(dailyArticle.url)}" target="_blank" rel="noreferrer">${escapeHtml(dictionary.articleReadLabel)}</a>
+        <p class="share-status" data-article-share-status aria-live="polite"></p>
       </div>
     </div>
   `;
@@ -1223,6 +1300,27 @@ function renderArticles(language) {
       `;
     })
     .join("");
+}
+
+function showArticle(index, options = {}) {
+  if (!Number.isInteger(index) || !articleCatalog[index]) {
+    return;
+  }
+
+  const language = html.lang || getInitialLanguage();
+
+  selectedArticleIndex = index;
+  renderArticles(language);
+
+  if (options.updateUrl) {
+    updateArticleUrl(articleCatalog[index], language);
+  }
+
+  if (options.scroll) {
+    document
+      .querySelector("#daily-article-body")
+      ?.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
 }
 
 function applyLanguage(language) {
@@ -1263,7 +1361,56 @@ function applyLanguage(language) {
 
   renderArticles(selectedLanguage);
 
+  if (selectedArticleIndex !== null) {
+    updateArticleUrl(articleCatalog[selectedArticleIndex], selectedLanguage, "replace");
+  }
+
   localStorage.setItem("site-language", selectedLanguage);
+}
+
+async function shareArticle(index) {
+  const article = articleCatalog[index];
+
+  if (!article) {
+    return;
+  }
+
+  const language = html.lang || "fa";
+  const dictionary = translations[language] ?? translations.fa;
+  const shareUrl = getArticleShareUrl(article, language);
+  const shareStatus = dailyArticleContainer?.querySelector("[data-article-share-status]");
+  const shareData = {
+    title: article.title,
+    text: `${dictionary.articleShareText} ${article.title}`,
+    url: shareUrl,
+  };
+
+  try {
+    if (navigator.share) {
+      await navigator.share(shareData);
+    } else {
+      await navigator.clipboard.writeText(shareUrl);
+    }
+
+    if (shareStatus) {
+      shareStatus.textContent = dictionary.articleShareSuccess;
+    }
+  } catch (error) {
+    if (error?.name === "AbortError") {
+      return;
+    }
+
+    try {
+      await navigator.clipboard.writeText(shareUrl);
+      if (shareStatus) {
+        shareStatus.textContent = dictionary.articleShareSuccess;
+      }
+    } catch {
+      if (shareStatus) {
+        shareStatus.textContent = `${dictionary.articleShareManualLabel} ${shareUrl}`;
+      }
+    }
+  }
 }
 
 copyEmailButton?.addEventListener("click", async () => {
@@ -1287,6 +1434,17 @@ languageButtons.forEach((button) => {
   });
 });
 
+dailyArticleContainer?.addEventListener("click", (event) => {
+  const target = event.target instanceof Element ? event.target : null;
+  const shareButton = target?.closest("[data-article-share]");
+
+  if (!shareButton) {
+    return;
+  }
+
+  shareArticle(Number(shareButton.dataset.articleShare));
+});
+
 articleListContainer?.addEventListener("click", (event) => {
   const target = event.target instanceof Element ? event.target : null;
   const selectButton = target?.closest("[data-article-select]");
@@ -1301,12 +1459,19 @@ articleListContainer?.addEventListener("click", (event) => {
     return;
   }
 
-  selectedArticleIndex = index;
-  renderArticles(html.lang || "fa");
-
-  document
-    .querySelector("#daily-article-body")
-    ?.scrollIntoView({ behavior: "smooth", block: "start" });
+  showArticle(index, { scroll: true, updateUrl: true });
 });
 
-applyLanguage(localStorage.getItem("site-language") ?? "fa");
+const articleIndexFromUrl = getArticleIndexFromUrl();
+
+if (articleIndexFromUrl !== null) {
+  selectedArticleIndex = articleIndexFromUrl;
+}
+
+applyLanguage(getInitialLanguage());
+
+if (articleIndexFromUrl !== null && window.location.hash === "#daily-article-body") {
+  requestAnimationFrame(() => {
+    document.querySelector("#daily-article-body")?.scrollIntoView({ block: "start" });
+  });
+}
