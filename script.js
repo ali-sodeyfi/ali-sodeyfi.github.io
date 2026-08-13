@@ -1266,8 +1266,8 @@ function renderArticles(language) {
           <div class="article-card-footer">
             <span class="article-source">${escapeHtml(article.source)}</span>
             <div class="article-card-links">
-              <button class="article-link article-select-button" type="button" data-article-select="${index}">${escapeHtml(dictionary.articleArchiveReadOnSiteLabel)}</button>
-              <a class="article-link" href="${escapeHtml(article.url)}" target="_blank" rel="noreferrer">${escapeHtml(dictionary.articleReadLabel)}</a>
+              <button class="article-card-action article-card-action-primary" type="button" data-article-select="${index}">${escapeHtml(dictionary.articleArchiveReadOnSiteLabel)}</button>
+              <a class="article-card-action article-card-action-secondary" href="${escapeHtml(article.url)}" target="_blank" rel="noreferrer">${escapeHtml(dictionary.articleReadLabel)}</a>
             </div>
           </div>
         </article>
