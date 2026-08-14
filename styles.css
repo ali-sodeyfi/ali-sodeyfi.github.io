@@ -151,11 +151,11 @@ button {
 
 .hero {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(190px, 0.26fr);
+  grid-template-columns: minmax(0, 0.74fr) minmax(190px, 0.26fr);
   gap: clamp(2rem, 6vw, 4.5rem);
   align-items: start;
   min-height: auto;
-  padding: 4.9rem 0 4.4rem;
+  padding: 4.35rem 0 4.1rem;
   border-bottom: 1px solid var(--line);
 }
 
@@ -178,7 +178,7 @@ p {
 h1 {
   max-width: 700px;
   margin-bottom: 1.25rem;
-  font-size: clamp(2.8rem, 6.5vw, 4.35rem);
+  font-size: clamp(2.65rem, 6vw, 4rem);
   font-weight: 900;
   line-height: 1.06;
   letter-spacing: 0;
@@ -191,17 +191,19 @@ h1 {
 
 .lead {
   max-width: 650px;
-  margin-bottom: 1rem;
-  color: var(--muted);
-  font-size: 1.04rem;
+  margin-bottom: 0.9rem;
+  color: var(--ink);
+  font-size: clamp(1.06rem, 2vw, 1.22rem);
+  font-weight: 650;
+  line-height: 1.85;
 }
 
 .hero-thesis {
-  max-width: 690px;
-  margin-bottom: 1.8rem;
-  color: var(--ink);
-  font-size: clamp(1.05rem, 2vw, 1.24rem);
-  font-weight: 650;
+  max-width: 620px;
+  margin-bottom: 1.65rem;
+  color: var(--muted);
+  font-size: 0.98rem;
+  font-weight: 500;
   line-height: 1.9;
 }
 
@@ -285,7 +287,7 @@ h1 {
 .profile-caption p {
   margin-bottom: 0;
   color: var(--muted);
-  font-size: 0.9rem;
+  font-size: 0.88rem;
   line-height: 1.75;
 }
 
@@ -334,6 +336,15 @@ h1 {
   grid-template-columns: minmax(130px, 0.22fr) minmax(0, 1fr);
   gap: clamp(1.5rem, 5vw, 3.5rem);
   align-items: start;
+}
+
+.contact {
+  grid-template-columns: minmax(240px, 0.42fr) minmax(0, 0.58fr);
+  gap: clamp(2rem, 6vw, 4.5rem);
+}
+
+.contact h2 {
+  max-width: 520px;
 }
 
 .section-index {
@@ -403,8 +414,8 @@ h2 {
 
 .brief-list strong {
   color: var(--ink);
-  font-size: 1rem;
-  font-weight: 650;
+  font-size: 0.98rem;
+  font-weight: 600;
   line-height: 1.75;
 }
 
@@ -433,24 +444,24 @@ h2 {
 
 .timeline article {
   display: grid;
-  grid-template-columns: 8rem minmax(0, 1fr);
+  grid-template-columns: 10rem minmax(0, 1fr);
   gap: clamp(1rem, 4vw, 3rem);
-  padding: 1.55rem 0;
+  padding: 1.65rem 0;
   border-bottom: 1px solid var(--line);
 }
 
 .timeline span {
-  color: var(--accent);
+  color: var(--muted);
   direction: ltr;
-  font-size: 0.86rem;
-  font-weight: 900;
+  font-size: 0.78rem;
+  font-weight: 850;
   unicode-bidi: isolate;
 }
 
 .timeline h3,
 .focus-grid h3 {
-  margin-bottom: 0.55rem;
-  font-size: 1.08rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.03rem;
   line-height: 1.4;
 }
 
@@ -475,11 +486,11 @@ h2 {
 
 .focus-grid article {
   display: grid;
-  grid-template-columns: 4rem minmax(180px, 0.32fr) minmax(0, 1fr);
+  grid-template-columns: 3.5rem minmax(210px, 0.34fr) minmax(0, 1fr);
   gap: 2rem;
   align-items: start;
   min-height: auto;
-  padding: 1.45rem 0;
+  padding: 1.55rem 0;
   border-bottom: 1px solid var(--line);
   border-inline-end: 0;
   background: transparent;
@@ -488,8 +499,8 @@ h2 {
 .focus-grid span {
   display: inline-block;
   margin-bottom: 0;
-  color: var(--accent);
-  font-size: 0.82rem;
+  color: var(--muted);
+  font-size: 0.76rem;
   font-weight: 900;
 }
 
@@ -863,6 +874,7 @@ h2 {
 
 @media (max-width: 900px) {
   .site-header {
+    position: static;
     align-items: flex-start;
     flex-direction: column;
   }

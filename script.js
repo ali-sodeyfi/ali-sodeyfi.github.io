@@ -12,10 +12,10 @@ let selectedArticleIndex = null;
 
 const translations = {
   fa: {
-    documentTitle: "علی سدیفی | Venture Builder",
+    documentTitle: "علی سدیفی | یادداشت‌هایی درباره ساختن",
     metaDescription:
-      "علی سدیفی؛ یادداشت‌ها، تجربه‌ها و نوشته‌هایی درباره ساختن شرکت، کار با تیم‌ها و توسعه اکوسیستم.",
-    brandRole: "Venture Builder",
+      "علی سدیفی؛ یادداشت‌ها و تجربه‌هایی درباره ساختن شرکت، کار با تیم‌ها و فهمیدن مسئله‌های مبهم.",
+    brandRole: "یادداشت‌هایی درباره ساختن",
     navWork: "تجربه‌ها",
     navThesis: "روش کار",
     navArticles: "مقالات",
@@ -23,70 +23,73 @@ const translations = {
     eyebrow: "علی سدیفی / Ali Sodeyfi",
     heroTitle: "علی سدیفی",
     heroLead:
-      "آدمِ ساختن، یادگرفتن از میدان، و تبدیل مسئله‌های مبهم به کار قابل انجام.",
+      "یادداشت‌ها و تجربه‌هایی درباره ساختن شرکت، کار با تیم‌ها و فهمیدن مسئله‌های مبهم.",
     heroThesis:
-      "این صفحه دفترچه عمومی من است: چند تجربه کاری، روش فکر کردن درباره ساختن شرکت، و ترجمه/یادداشت‌هایی که برای بنیان‌گذارها و اپراتورها مفید می‌دانم.",
-    heroPrimary: "دیدن تجربه‌ها",
-    profileCaptionLabel: "تمرکز فعلی",
+      "بیشتر از عنوان‌ها، به سؤال‌هایی علاقه دارم که کار را روشن‌تر می‌کنند: مسئله چیست، چه چیزی واقعاً فهمیده‌ایم، و قدم بعدی کدام است؟",
+    heroPrimary: "خواندن یادداشت‌ها",
+    profileCaptionLabel: "اکنون",
     profileCaption:
-      "این روزها بیشتر درگیر ساختن فضاهایی هستم که در آن آدم‌ها، ایده‌ها و سازمان‌ها بهتر کنار هم کار کنند.",
-    positioningLabel: "جایگاه",
+      "درگیر اینم که پلتفرم‌ها چطور می‌توانند با اعتماد، یادگیری و عملیات ساده‌تر رشد کنند.",
+    positioningLabel: "چند سؤال",
     positioningTitle:
-      "کار من معمولا از جایی شروع می‌شود که مسئله هنوز کاملا مرتب و نام‌گذاری‌شده نیست.",
+      "کار وقتی برایم جدی می‌شود که هنوز جواب آماده‌ای وجود ندارد.",
     positioningBody:
-      "در سال‌های اخیر در نقش‌های مختلف کنار تیم‌ها، بنیان‌گذارها و سازمان‌ها بوده‌ام؛ گاهی برای ساختن یک مسیر سرمایه‌گذاری، گاهی برای مرتب‌کردن عملیات، گاهی برای کمک به رشد یک پلتفرم، و گاهی فقط برای اینکه یک مسئله پیچیده قابل گفت‌وگو و تصمیم‌گیری شود.",
-    briefOneLabel: "کار",
+      "معمولاً کنار تیم‌ها و بنیان‌گذارهایی بوده‌ام که باید بین ابهام و اجرا پل بزنند؛ جایی که لازم است مسئله دقیق‌تر دیده شود، تصمیم‌ها ساده‌تر شوند و آدم‌ها بتوانند با زبان مشترک جلو بروند.",
+    briefOneLabel: "مسئله",
     briefOne:
-      "ساختن سیستم‌های ساده‌تر برای مسئله‌های پیچیده؛ از سرمایه‌گذاری و عملیات تا یادگیری و رشد.",
-    briefTwoLabel: "لحن",
+      "چه چیزی را واقعاً می‌دانیم، و چه چیزی فقط در جلسه‌ها تکرار شده است؟",
+    briefTwoLabel: "ریتم",
     briefTwo:
-      "ترجیح می‌دهم کار با شواهد، تجربه و یادگیری توضیح داده شود؛ نه با بزرگ‌نمایی.",
-    briefThreeLabel: "اکنون",
+      "چطور می‌شود یادگیری از بازار را وارد ریتم واقعی کار کرد، نه فقط گزارش‌ها؟",
+    briefThreeLabel: "سیستم",
     briefThree:
-      "در باسلام روی توسعه اکوسیستم و بهتر کار کردن اجزای یک پلتفرم با هم تمرکز دارم.",
+      "کدام بخش باید مستقل از آدم‌ها شود و کدام بخش باید انسانی و قضاوت‌محور بماند؟",
     trackLabel: "مسیر کار",
-    trackTitle: "چند تجربه کاری",
+    trackTitle: "چند موقعیت که از آن‌ها یاد گرفته‌ام",
     trackIntro:
-      "نه برای نمایش، بلکه برای اینکه معلوم باشد نگاه من از چه جنس تجربه‌هایی آمده است.",
-    workOneYear: "2025 - اکنون",
+      "این‌ها بیشتر زمینه‌اند تا کارنامه؛ رد چیزهایی که نگاه کاری‌ام را ساخته‌اند.",
+    workOneYear: "اکوسیستم",
     workOneTitle: "باسلام - توسعه اکوسیستم",
     workOneBody:
-      "طراحی و اجرای زیرساخت‌های رشد اکوسیستمی، تحول عملیاتی و هم‌راستاسازی اجرا با اهداف بلندمدت پلتفرم.",
+      "جایی برای فهمیدن اینکه رشد یک پلتفرم فقط محصول و عدد نیست؛ هماهنگی، اعتماد و سازوکارهای کوچک هم بخشی از محصول‌اند.",
+    workTwoYear: "سرمایه‌گذاری اولیه",
     workTwoTitle: "100استارتاپ - هم‌بنیان‌گذار و مدیرعامل",
     workTwoBody:
-      "ساخت و اداره یک پلتفرم سرمایه‌گذاری و شتاب‌دهی در مرحله‌های ابتدایی؛ با تمرکز روی انتخاب، همراهی و یادگیری کنار بنیان‌گذارها.",
-    workThreeYear: "2021 - اکنون",
+      "کار نزدیک با تیم‌های اولیه یادم داد انتخاب بنیان‌گذار، همراهی و ساختن اعتماد، قبل از هر مدل مالی یا برنامه رشد معنا پیدا می‌کند.",
+    workThreeYear: "کار حرفه‌ای",
     workThreeTitle: "آکادمی تکانش - هم‌بنیان‌گذار و عضو هیئت‌مدیره",
     workThreeBody:
-      "همراهی در ساختن آموزش و فرایندهایی که کار حرفه‌ای فریلنسرها را منظم‌تر و قابل اتکاتر می‌کند.",
+      "آنجا مسئله اصلی فقط آموزش نبود؛ ساختن عادتی بود که کار مستقل را قابل اتکاتر، منظم‌تر و قابل گفت‌وگو کند.",
+    workFourYear: "اعتماد و فرایند",
     workFourTitle: "همیان - هم‌بنیان‌گذار و عضو هیئت‌مدیره",
     workFourBody:
-      "طراحی معماری مالی و عملیاتی برای سیستم‌های قرض‌الحسنه؛ جایی که اعتماد، شفافیت و فرایند از خود عدد مهم‌ترند.",
+      "در کار مالی اجتماعی، فهمیدم فرایند خوب وقتی ارزشمند است که اعتماد را سنگین نکند و شفافیت را به رفتار روزمره تبدیل کند.",
+    workFiveYear: "آموزش و محصول",
     workFiveTitle: "شتاب‌دهنده EduTech - بنیان‌گذار و مدیرعامل",
     workFiveBody:
-      "تجربه ساخت یک شتاب‌دهنده تخصصی در آموزش و کار کردن نزدیک با تیم‌هایی که هنوز زبان محصول و بازار خود را پیدا می‌کردند.",
-    thesisLabel: "تز اجرایی",
-    thesisTitle: "روش کار",
+      "کار با تیم‌های آموزشی نشان داد تا وقتی زبان محصول، یادگیری و بازار یکی نشود، بهترین نیت‌ها هم سخت به محصول زنده تبدیل می‌شوند.",
+    thesisLabel: "روش کار",
+    thesisTitle: "چند اصل ساده که معمولاً برمی‌گردند",
     thesisIntro:
-      "ترکیبی از سرمایه‌گذاری، طراحی عملیات و ساختن زبان مشترک بین بازیگران اکوسیستم.",
-    focusOneTitle: "Venture Building",
+      "در پروژه‌های مختلف، جواب‌ها عوض شده‌اند؛ اما این چند اصل زیاد برگشته‌اند.",
+    focusOneTitle: "از مسئله شروع کن",
     focusOneBody:
-      "طراحی مسیر سرمایه‌گذاری، ارزیابی بنیان‌گذار، شتاب‌دهی و تبدیل ایده به سازمان قابل رشد.",
-    focusTwoTitle: "مقیاس‌دهی عملیاتی",
+      "قبل از ساختن راه‌حل، باید معلوم شود درد واقعی کجاست، چه کسی آن را جدی حس می‌کند و چه شواهدی داریم.",
+    focusTwoTitle: "سیستم را زودتر از سازمان سنگین نکن",
     focusTwoBody:
-      "ساخت سیستم‌هایی که رشد را از وابستگی به افراد جدا می‌کنند: مالی، عملیاتی، فرایندی و حکمرانی.",
-    focusThreeTitle: "توسعه اکوسیستم",
+      "فرایند خوب باید ابهام را کم کند، نه اینکه سرعت یادگیری و قضاوت آدم‌ها را بگیرد.",
+    focusThreeTitle: "زبان مشترک بساز",
     focusThreeBody:
-      "ایجاد زبان مشترک میان بنیان‌گذار، سرمایه‌گذار، بازار و نهادهای اثرگذار در اکوسیستم.",
+      "خیلی از مسئله‌ها از نداشتن زبان مشترک بین تیم، بازار، سرمایه‌گذار و عملیات سخت می‌شوند.",
     articlesLabel: "مطالعه",
-    articlesTitle: "مقاله امروز برای ساختن بهتر",
+    articlesTitle: "کتابخانه کوچک برای ساختن بهتر",
     articlesIntro:
-      "یک انتخاب روزانه از نوشته‌های معتبر کارآفرینی، رشد و ساخت شرکت؛ با ترجمه آزاد فارسی داخل سایت و لینک منبع اصلی.",
-    articleTodayLabel: "مقاله امروز",
+      "هر بار یک متن معتبر درباره کارآفرینی، رشد یا ساخت شرکت؛ با ترجمه آزاد داخل سایت و لینک منبع اصلی.",
+    articleTodayLabel: "انتخاب امروز",
     articleSelectedLabel: "ترجمه منتخب",
     articleArchiveLabel: "آرشیو منتخب",
     articleSourceLabel: "منبع",
-    articleDateLabel: "به‌روزرسانی روزانه",
+    articleDateLabel: "به‌روزرسانی منظم",
     articleReadLabel: "منبع اصلی",
     articleOnSiteLabel: "ترجمه آزاد کامل‌تر مقاله",
     articleArchiveReadOnSiteLabel: "ترجمه داخل سایت",
@@ -101,19 +104,19 @@ const translations = {
       "این متن ترجمه آزاد و بازنویسی‌شده است، نه بازنشر کلمه‌به‌کلمه مقاله اصلی.",
     contactLabel: "تماس",
     contactTitle:
-      "برای همکاری در رشد، سرمایه‌گذاری یا ساختاردهی سازمانی.",
+      "اگر مسئله‌ای داری که هنوز خوب نام‌گذاری نشده، خوشحال می‌شوم بشنوم.",
     contactBody:
-      "برای شروع، یک پیام کوتاه با زمینه همکاری، مرحله کسب‌وکار و مسئله اصلی کافی است. شماره موبایل رزومه در سایت عمومی منتشر نشده است.",
+      "یک پیام کوتاه با زمینه مسئله، مرحله کار و چیزی که می‌خواهی روشن‌تر شود کافی است. اگر گفت‌وگو مفید بود، ادامه‌اش را پیدا می‌کنیم.",
     copyEmail: "کپی ایمیل",
     copySuccess: "ایمیل کپی شد.",
     copyFallback: "ایمیل: Sodeyfi.ali@gmail.com",
-    footerText: "Venture builder، اپراتور اجرایی، توسعه‌دهنده اکوسیستم",
+    footerText: "یادداشت‌ها، تجربه‌ها و نوشته‌هایی درباره ساختن.",
   },
   en: {
-    documentTitle: "Ali Sodeyfi | Venture Builder",
+    documentTitle: "Ali Sodeyfi | Notes on building",
     metaDescription:
-      "Ali Sodeyfi is a venture builder and executive operator focused on company building, operational scaling, and ecosystem development.",
-    brandRole: "Venture Builder",
+      "Ali Sodeyfi: notes and experiences on building companies, working with teams, and making ambiguous problems clearer.",
+    brandRole: "Notes on building",
     navWork: "Work",
     navThesis: "Method",
     navArticles: "Articles",
@@ -121,70 +124,73 @@ const translations = {
     eyebrow: "Ali Sodeyfi",
     heroTitle: "Ali Sodeyfi",
     heroLead:
-      "A builder of work, learning, and practical systems around ambiguous problems.",
+      "Notes and experiences on building companies, working with teams, and understanding ambiguous problems.",
     heroThesis:
-      "A public working notebook: selected work, a way of thinking about company building, and essays I keep close for founders and operators.",
-    heroPrimary: "View work",
-    profileCaptionLabel: "Current focus",
+      "I am more interested in the questions that make work clearer: what is the problem, what do we actually know, and what is the next useful step?",
+    heroPrimary: "Read notes",
+    profileCaptionLabel: "Now",
     profileCaption:
-      "These days I am mostly interested in the conditions that help people, ideas, and organizations work better together.",
-    positioningLabel: "Positioning",
+      "Thinking about how platforms can grow with more trust, learning, and simpler operations.",
+    positioningLabel: "Questions",
     positioningTitle:
-      "My work often starts where the problem is still messy and not fully named.",
+      "Work becomes interesting to me when there is no ready-made answer yet.",
     positioningBody:
-      "Over the past years I have worked beside teams, founders, and organizations in different roles: sometimes building an investment path, sometimes making operations clearer, sometimes helping a platform grow, and sometimes simply making a complicated problem easier to discuss and decide on.",
-    briefOneLabel: "Work",
+      "I have usually worked beside teams and founders who needed to build a bridge between ambiguity and execution: seeing the problem more clearly, simplifying decisions, and helping people move with a shared language.",
+    briefOneLabel: "Problem",
     briefOne:
-      "Making simpler systems for complex problems across investment, operations, learning, and growth.",
-    briefTwoLabel: "Tone",
+      "What do we actually know, and what has only been repeated in meetings?",
+    briefTwoLabel: "Rhythm",
     briefTwo:
-      "I prefer work to be explained through evidence, experience, and learning rather than amplification.",
-    briefThreeLabel: "Now",
+      "How can market learning enter the real rhythm of work, not just reports?",
+    briefThreeLabel: "System",
     briefThree:
-      "Working on ecosystem development at Basalam and on how different parts of a platform can work better together.",
+      "Which parts should become independent of people, and which parts should remain human and judgment-led?",
     trackLabel: "Work path",
-    trackTitle: "Selected work",
+    trackTitle: "A few situations I learned from",
     trackIntro:
-      "Not a scoreboard, just enough context to show where the point of view comes from.",
-    workOneYear: "2025 - Present",
+      "More context than scoreboard: traces of the work that shaped my point of view.",
+    workOneYear: "Ecosystem",
     workOneTitle: "Basalam - Ecosystem Development",
     workOneBody:
-      "Designing ecosystem growth infrastructure, operational transformation, and execution alignment with long-term platform objectives.",
+      "A place to learn that platform growth is not only product and numbers; coordination, trust, and small operating mechanisms are part of the product too.",
+    workTwoYear: "Early investment",
     workTwoTitle: "100Startups - Co-Founder & CEO",
     workTwoBody:
-      "Built and operated an early-stage investment and acceleration platform, focused on selection, founder support, and learning with teams.",
-    workThreeYear: "2021 - Present",
+      "Working closely with early teams taught me that founder selection, support, and trust come before any financial model or growth plan has meaning.",
+    workThreeYear: "Professional work",
     workThreeTitle: "Tekanesh Academy - Co-Founder & Board Member",
     workThreeBody:
-      "Helped shape learning and operating systems that make professional freelance work more reliable.",
+      "The main question was not only education; it was how independent work could become more reliable, more regular, and easier to discuss.",
+    workFourYear: "Trust and process",
     workFourTitle: "Hamyan - Co-Founder & Board Member",
     workFourBody:
-      "Worked on the financial and operating architecture for Qarz-al-Hasanah lending systems, where trust, transparency, and process matter more than the number itself.",
+      "In social finance, I learned that a good process matters when it does not make trust heavier and can turn transparency into everyday behavior.",
+    workFiveYear: "Learning and product",
     workFiveTitle: "EduTech Accelerator - Founder & CEO",
     workFiveBody:
-      "Built a specialized edtech accelerator and worked closely with teams still searching for the right language between product and market.",
-    thesisLabel: "Operating Thesis",
-    thesisTitle: "Method",
+      "Working with education teams showed me that until product, learning, and market share one language, even good intentions struggle to become a living product.",
+    thesisLabel: "Method",
+    thesisTitle: "A few simple principles I keep returning to",
     thesisIntro:
-      "A working mix of investment thinking, operating design, and shared language across ecosystem players.",
-    focusOneTitle: "Venture Building",
+      "Across different projects, the answers changed. These principles kept returning.",
+    focusOneTitle: "Start with the problem",
     focusOneBody:
-      "Investment path design, founder evaluation, acceleration, and turning ideas into organizations that can grow.",
-    focusTwoTitle: "Operational Scaling",
+      "Before building a solution, clarify where the pain is, who feels it seriously, and what evidence exists.",
+    focusTwoTitle: "Do not make the system heavy too early",
     focusTwoBody:
-      "Building systems that make growth less dependent on individuals: finance, operations, process, and governance.",
-    focusThreeTitle: "Ecosystem Development",
+      "A good process should reduce ambiguity, not slow down learning and human judgment.",
+    focusThreeTitle: "Build shared language",
     focusThreeBody:
-      "Creating shared language between founders, investors, markets, and the institutions that shape the ecosystem.",
+      "Many problems become harder because teams, markets, investors, and operations do not yet have the same language.",
     articlesLabel: "Reading",
-    articlesTitle: "Today's article for better company building",
+    articlesTitle: "A small library for building better",
     articlesIntro:
-      "A daily pick from credible essays on entrepreneurship, growth, and company building, with a readable on-site adaptation and a link to the original source.",
-    articleTodayLabel: "Today's article",
+      "One credible essay at a time on entrepreneurship, growth, or company building, with a readable on-site adaptation and a link to the original source.",
+    articleTodayLabel: "Today's pick",
     articleSelectedLabel: "Selected translation",
     articleArchiveLabel: "Selected archive",
     articleSourceLabel: "Source",
-    articleDateLabel: "Daily rotation",
+    articleDateLabel: "Regular update",
     articleReadLabel: "Original source",
     articleOnSiteLabel: "Readable adaptation",
     articleArchiveReadOnSiteLabel: "Read on site",
@@ -199,19 +205,19 @@ const translations = {
       "This is a free adaptation, not a word-for-word republication of the original article.",
     contactLabel: "Contact",
     contactTitle:
-      "For growth, investment, or organizational structuring conversations.",
+      "If you are carrying a problem that is not clearly named yet, I would be glad to hear it.",
     contactBody:
-      "A short note with the collaboration context, business stage, and main problem is enough to start. The mobile number from the resume is intentionally not published on the public site.",
+      "A short note with the problem context, the stage of work, and what you are trying to make clearer is enough. If the conversation is useful, it will find its next step.",
     copyEmail: "Copy email",
     copySuccess: "Email copied.",
     copyFallback: "Email: Sodeyfi.ali@gmail.com",
     footerText: "Notes, work, and essays on building.",
   },
   ar: {
-    documentTitle: "علي سدیفي | Venture Builder",
+    documentTitle: "علي سدیفي | ملاحظات عن البناء",
     metaDescription:
-      "علي سدیفي، بنّاء شركات ومشغّل تنفيذي يركّز على بناء الشركات، توسيع العمليات، وتطوير المنظومات.",
-    brandRole: "بناء الشركات",
+      "علي سدیفي: ملاحظات وتجارب عن بناء الشركات والعمل مع الفرق وفهم المشكلات الغامضة.",
+    brandRole: "ملاحظات عن البناء",
     navWork: "التجارب",
     navThesis: "المنهج",
     navArticles: "مقالات",
@@ -219,70 +225,73 @@ const translations = {
     eyebrow: "علي سدیفي / Ali Sodeyfi",
     heroTitle: "علي سدیفي",
     heroLead:
-      "شخص يعمل على البناء والتعلّم من الواقع وتحويل المشكلات الغامضة إلى عمل قابل للتنفيذ.",
+      "ملاحظات وتجارب عن بناء الشركات، والعمل مع الفرق، وفهم المشكلات الغامضة.",
     heroThesis:
-      "هذه الصفحة دفتر عمل عام: تجارب مختارة، طريقة تفكير في بناء الشركات، ومقالات أعود إليها لأنها مفيدة للمؤسسين والمشغلين.",
-    heroPrimary: "قراءة التجارب",
-    profileCaptionLabel: "التركيز الحالي",
+      "ما يهمني أكثر من العناوين هو الأسئلة التي تجعل العمل أوضح: ما المشكلة، ماذا نعرف فعلا، وما الخطوة المفيدة التالية؟",
+    heroPrimary: "قراءة الملاحظات",
+    profileCaptionLabel: "الآن",
     profileCaption:
-      "ما يشغلني هذه الأيام هو الظروف التي تجعل الناس والأفكار والمنظمات تعمل معا بشكل أفضل.",
-    positioningLabel: "الموقع",
+      "أفكر في كيفية نمو المنصات بثقة أكبر وتعلم أفضل وعمليات أبسط.",
+    positioningLabel: "أسئلة",
     positioningTitle:
-      "غالبا يبدأ عملي حين تكون المشكلة غير مرتبة ولم تحصل بعد على اسم واضح.",
+      "يصبح العمل جديا بالنسبة لي حين لا تكون هناك إجابة جاهزة بعد.",
     positioningBody:
-      "في السنوات الأخيرة عملت بجانب فرق ومؤسسين ومنظمات بأدوار مختلفة: أحيانا لبناء مسار استثمار، وأحيانا لترتيب العمليات، وأحيانا لمساعدة منصة على النمو، وأحيانا فقط لجعل مشكلة معقدة قابلة للنقاش واتخاذ القرار.",
-    briefOneLabel: "العمل",
+      "غالبا عملت بجانب فرق ومؤسسين يحتاجون إلى بناء جسر بين الغموض والتنفيذ: رؤية المشكلة بوضوح أكبر، تبسيط القرارات، ومساعدة الناس على التقدم بلغة مشتركة.",
+    briefOneLabel: "المشكلة",
     briefOne:
-      "بناء أنظمة أبسط لمشكلات معقدة في الاستثمار والعمليات والتعلم والنمو.",
-    briefTwoLabel: "النبرة",
+      "ما الذي نعرفه فعلا، وما الذي تكرر فقط في الاجتماعات؟",
+    briefTwoLabel: "الإيقاع",
     briefTwo:
-      "أفضل أن يشرح العمل بالشواهد والتجربة والتعلم، لا بالمبالغة.",
-    briefThreeLabel: "الآن",
+      "كيف يدخل التعلم من السوق في إيقاع العمل الحقيقي، لا في التقارير فقط؟",
+    briefThreeLabel: "النظام",
     briefThree:
-      "أعمل على تطوير المنظومة في Basalam وعلى جعل أجزاء المنصة تعمل معا بشكل أفضل.",
+      "أي أجزاء يجب أن تصبح أقل اعتمادا على الأشخاص، وأي أجزاء يجب أن تبقى إنسانية وقائمة على الحكم؟",
     trackLabel: "مسار العمل",
-    trackTitle: "بعض التجارب العملية",
+    trackTitle: "بعض المواقف التي تعلمت منها",
     trackIntro:
-      "ليس لوحة إنجازات؛ فقط سياق كاف ليتضح من أين تأتي وجهة النظر.",
-    workOneYear: "2025 - الآن",
+      "هذه أقرب إلى سياق من كونها سجل إنجازات؛ آثار من العمل الذي شكل وجهة نظري.",
+    workOneYear: "المنظومة",
     workOneTitle: "Basalam - تطوير المنظومة",
     workOneBody:
-      "تصميم بنية نمو المنظومة، التحول التشغيلي، ومواءمة التنفيذ مع أهداف المنصة طويلة المدى.",
+      "مكان لفهم أن نمو المنصة ليس منتجا وأرقاما فقط؛ التنسيق والثقة والآليات التشغيلية الصغيرة جزء من المنتج أيضا.",
+    workTwoYear: "استثمار مبكر",
     workTwoTitle: "100Startups - شريك مؤسس ومدير تنفيذي",
     workTwoBody:
-      "بناء وتشغيل منصة استثمار وتسريع في المراحل الأولى، مع تركيز على الاختيار ومرافقة المؤسسين والتعلم مع الفرق.",
-    workThreeYear: "2021 - الآن",
+      "العمل القريب مع الفرق الأولى علمني أن اختيار المؤسس والمرافقة وبناء الثقة تسبق معنى أي نموذج مالي أو خطة نمو.",
+    workThreeYear: "عمل مهني",
     workThreeTitle: "Tekanesh Academy - شريك مؤسس وعضو مجلس إدارة",
     workThreeBody:
-      "المساعدة في بناء تعلم وعمليات تجعل العمل المهني للمستقلين أكثر انتظاما واعتمادا.",
+      "لم تكن المسألة تعليما فقط؛ بل كيف يصبح العمل المستقل أكثر انتظاما واعتمادية وقابلية للنقاش.",
+    workFourYear: "ثقة وعملية",
     workFourTitle: "Hamyan - شريك مؤسس وعضو مجلس إدارة",
     workFourBody:
-      "العمل على البنية المالية والتشغيلية لأنظمة القرض الحسن، حيث تكون الثقة والشفافية والعملية أهم من الرقم نفسه.",
+      "في التمويل الاجتماعي تعلمت أن العملية الجيدة تكون نافعة حين لا تجعل الثقة أثقل، وتحول الشفافية إلى سلوك يومي.",
+    workFiveYear: "تعلم ومنتج",
     workFiveTitle: "EduTech Accelerator - مؤسس ومدير تنفيذي",
     workFiveBody:
-      "بناء مسرّعة متخصصة في التعليم التقني والعمل قريبا من فرق كانت لا تزال تبحث عن اللغة الصحيحة بين المنتج والسوق.",
-    thesisLabel: "الأطروحة التشغيلية",
-    thesisTitle: "المنهج",
+      "العمل مع فرق التعليم أظهر لي أنه ما لم تتشارك اللغة بين المنتج والتعلم والسوق، يصعب أن تتحول النوايا الجيدة إلى منتج حي.",
+    thesisLabel: "المنهج",
+    thesisTitle: "مبادئ بسيطة أعود إليها كثيرا",
     thesisIntro:
-      "مزيج عملي من التفكير الاستثماري، تصميم العمليات، وبناء لغة مشتركة بين لاعبي المنظومة.",
-    focusOneTitle: "بناء الشركات",
+      "في المشاريع المختلفة تغيرت الإجابات، لكن هذه المبادئ ظلت تعود.",
+    focusOneTitle: "ابدأ من المشكلة",
     focusOneBody:
-      "تصميم مسار الاستثمار، تقييم المؤسسين، التسريع، وتحويل الأفكار إلى منظمات قابلة للنمو.",
-    focusTwoTitle: "توسيع العمليات",
+      "قبل بناء الحل، يجب توضيح موضع الألم، ومن يشعر به بجدية، وما الأدلة الموجودة.",
+    focusTwoTitle: "لا تجعل النظام ثقيلا مبكرا",
     focusTwoBody:
-      "بناء أنظمة تجعل النمو أقل اعتمادا على الأفراد: المالية، العمليات، الإجراءات، والحوكمة.",
-    focusThreeTitle: "تطوير المنظومة",
+      "العملية الجيدة يجب أن تقلل الغموض، لا أن تبطئ التعلم وحكم الأشخاص.",
+    focusThreeTitle: "ابن لغة مشتركة",
     focusThreeBody:
-      "إيجاد لغة مشتركة بين المؤسسين، المستثمرين، السوق، والمؤسسات المؤثرة في المنظومة.",
+      "تصبح مشكلات كثيرة أصعب لأن الفريق والسوق والمستثمرين والعمليات لا يملكون اللغة نفسها بعد.",
     articlesLabel: "قراءة",
-    articlesTitle: "مقال اليوم لبناء أفضل",
+    articlesTitle: "مكتبة صغيرة للبناء بشكل أفضل",
     articlesIntro:
-      "اختيار يومي من مقالات موثوقة عن ريادة الأعمال والنمو وبناء الشركات، مع ترجمة عربية حرة داخل الموقع ورابط المصدر الأصلي.",
-    articleTodayLabel: "مقال اليوم",
+      "نص موثوق في كل مرة عن ريادة الأعمال أو النمو أو بناء الشركات، مع ترجمة حرة داخل الموقع ورابط المصدر الأصلي.",
+    articleTodayLabel: "اختيار اليوم",
     articleSelectedLabel: "ترجمة مختارة",
     articleArchiveLabel: "أرشيف مختار",
     articleSourceLabel: "المصدر",
-    articleDateLabel: "تحديث يومي",
+    articleDateLabel: "تحديث منتظم",
     articleReadLabel: "المصدر الأصلي",
     articleOnSiteLabel: "ترجمة حرة للمقال",
     articleArchiveReadOnSiteLabel: "قراءة داخل الموقع",
@@ -297,13 +306,13 @@ const translations = {
       "هذا النص ترجمة حرة وإعادة صياغة، وليس إعادة نشر حرفية للمقال الأصلي.",
     contactLabel: "التواصل",
     contactTitle:
-      "لحوارات النمو، الاستثمار، أو هيكلة المنظمات.",
+      "إذا كانت لديك مشكلة لم تحصل بعد على اسم واضح، يسعدني أن أسمعها.",
     contactBody:
-      "تكفي رسالة قصيرة تتضمن سياق التعاون، مرحلة العمل، والمشكلة الأساسية للبدء. رقم الهاتف الموجود في السيرة الذاتية لم ينشر في الموقع العام.",
+      "تكفي رسالة قصيرة عن سياق المشكلة ومرحلة العمل وما تريد جعله أوضح. إذا كان الحديث مفيدا، سيجد خطوته التالية.",
     copyEmail: "نسخ البريد",
     copySuccess: "تم نسخ البريد.",
     copyFallback: "البريد: Sodeyfi.ali@gmail.com",
-    footerText: "بناء شركات. تشغيل تنفيذي. تطوير منظومات.",
+    footerText: "ملاحظات وتجارب ومقالات عن البناء.",
   },
 };
 
@@ -1442,7 +1451,10 @@ function scrollToArticleStart(behavior = "smooth") {
     return;
   }
 
-  const headerOffset = header ? header.getBoundingClientRect().height + 18 : 104;
+  const headerOffset =
+    header && getComputedStyle(header).position === "sticky"
+      ? header.getBoundingClientRect().height + 18
+      : 18;
   const top = target.getBoundingClientRect().top + window.scrollY - headerOffset;
 
   window.scrollTo({
