@@ -34,11 +34,8 @@ const editableGroups = [
     ],
   },
   {
-    title: "آمار و جایگاه",
+    title: "جایگاه و لحن",
     fields: [
-      ["metricOne", "آمار اول"],
-      ["metricTwo", "آمار دوم"],
-      ["metricThree", "آمار سوم"],
       ["positioningLabel", "برچسب بخش جایگاه"],
       ["positioningTitle", "عنوان جایگاه"],
       ["positioningBody", "متن جایگاه"],
@@ -51,11 +48,11 @@ const editableGroups = [
     ],
   },
   {
-    title: "کارنامه",
+    title: "تجربه‌ها",
     fields: [
-      ["trackLabel", "برچسب کارنامه"],
-      ["trackTitle", "عنوان کارنامه"],
-      ["trackIntro", "مقدمه کارنامه"],
+      ["trackLabel", "برچسب تجربه‌ها"],
+      ["trackTitle", "عنوان تجربه‌ها"],
+      ["trackIntro", "مقدمه تجربه‌ها"],
       ["workOneYear", "زمان آیتم اول"],
       ["workOneTitle", "عنوان آیتم اول"],
       ["workOneBody", "متن آیتم اول"],
