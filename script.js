@@ -385,6 +385,23 @@ const articleCatalog = [
     },
   },
   {
+    title: "Relentlessly Resourceful",
+    author: "Paul Graham",
+    source: "Paul Graham",
+    year: "2009",
+    url: "https://paulgraham.com/relres.html",
+    tags: {
+      fa: ["بنیان‌گذار", "منابع محدود", "حل مسئله"],
+      en: ["founders", "resourcefulness", "problem solving"],
+      ar: ["المؤسسون", "الحيلة العملية", "حل المشكلات"],
+    },
+    summary: {
+      fa: "یک تعریف کوتاه و ماندگار از کیفیت اصلی بنیان‌گذار خوب: کسی که منفعل نمی‌ماند، با مانع تازه روبه‌رو می‌شود و مدام راه تازه پیدا می‌کند.",
+      en: "A compact definition of a strong founder: someone who refuses passivity, meets new obstacles directly, and keeps finding a way forward.",
+      ar: "تعريف موجز لصفة المؤسس القوي: شخص لا يبقى سلبيا، يواجه العوائق الجديدة مباشرة، ويواصل إيجاد الطريق.",
+    },
+  },
+  {
     title: "How to Get Startup Ideas",
     author: "Paul Graham",
     source: "Paul Graham",
@@ -1168,6 +1185,56 @@ const articleEssays = {
         "أدر الشركة الناشئة كنظام بحث، لا كشركة كبيرة مصغرة.",
         "استخدم الفشل الصغير المبكر لتقليل المخاطر قبل الاستثمار الكبير في المنتج.",
         "بعد كل اختبار، اتخذ قرارا واضحا: الاستمرار أو تعديل الفرضية أو التوقف.",
+      ],
+    },
+  },
+  "Relentlessly Resourceful": {
+    fa: {
+      paragraphs: [
+        "Paul Graham در این مقاله تلاش می‌کند کیفیتی را نام‌گذاری کند که در بنیان‌گذارهای خوب بارها دیده است. او به جای فهرست بلندبالایی از ویژگی‌ها، به دو کلمه می‌رسد: relentlessly resourceful. ترجمه تحت‌اللفظی‌اش شاید چیزی شبیه «بی‌وقفه چاره‌جو» باشد، اما منظور فقط پشتکار یا فقط باهوش بودن نیست؛ ترکیبی است از حرکت نکردن به حالت قربانی، دیدن مانع، و پیدا کردن راه بعدی.",
+        "نقطه مقابل این کیفیت، در نگاه Graham، آدم یا تیمی است که منفعل می‌ماند. چنین تیمی شاید باهوش باشد، شاید ایده خوبی داشته باشد، اما وقتی دنیا طبق نقشه‌اش پیش نمی‌رود، بیشتر تماشا می‌کند تا عمل. در استارتاپ، این حالت خطرناک است، چون تقریباً هیچ چیز از ابتدا طبق برنامه پیش نمی‌رود: مشتری دیر جواب می‌دهد، کانال فروش کار نمی‌کند، محصول بد فهمیده می‌شود، شریک احتمالی عقب می‌کشد و منابع همیشه کمتر از چیزی است که دوست داری.",
+        "او تأکید می‌کند که «relentless» به‌تنهایی کافی نیست. صرفاً فشار آوردن، جلو رفتن و خسته نشدن در مسئله‌های پیچیده جواب نمی‌دهد، چون مانع‌ها همیشه از یک جنس نیستند. گاهی باید بیشتر تلاش کنی، گاهی مسیر را عوض کنی، گاهی راه کوچک‌تری پیدا کنی، گاهی با آدم تازه‌ای حرف بزنی و گاهی قبول کنی که مسئله را اشتباه فهمیده‌ای. بنیان‌گذار خوب فقط محکم نیست؛ منعطف هم هست.",
+        "از طرف دیگر، «resourceful» بدون استمرار هم کافی نیست. آدم‌های خلاق زیادند، اما اگر بعد از دو مانع اول انرژی‌شان بریزد، خلاقیت به شرکت تبدیل نمی‌شود. در ساخت شرکت، چاره‌جویی باید عادت روزانه باشد: هر بار که یک در بسته می‌شود، سؤال بعدی این نیست که چرا نشد؛ این است که حالا از کدام مسیر می‌شود به همان یادگیری، مشتری یا نتیجه نزدیک شد.",
+        "ارزش مقاله در همین ترکیب است. Graham نمی‌گوید بنیان‌گذار باید همیشه جواب را بداند. اتفاقاً می‌گوید در حوزه‌های جالب، مانع‌ها تازه‌اند و از اول معلوم نیست با سنگ طرفی یا با چیزی نرم‌تر. بنابراین نسخه درست این نیست که فقط با سر بروی داخل دیوار؛ باید آزمایش کنی، دور بزنی، از منابع اطرافت استفاده کنی، از آدم‌ها کمک بگیری و در عین حال ریتم حرکت را از دست ندهی.",
+        "این نگاه برای انتخاب هم‌بنیان‌گذار و تیم اولیه هم مهم است. رزومه، هوش خام، اعتمادبه‌نفس یا حتی تجربه قبلی کافی نیستند. باید دید فرد وقتی جواب آماده وجود ندارد چه می‌کند. آیا منتظر دستور می‌ماند؟ آیا با اولین مانع روایت شکست می‌سازد؟ یا مسئله را خرد می‌کند، چند راه را امتحان می‌کند، بازخورد می‌گیرد و دوباره جلو می‌رود؟ این رفتار در روزهای عادی شاید کم‌صدا باشد، اما در بحران تفاوت تیم‌ها را آشکار می‌کند.",
+        "برای کار روزمره، مقاله یک معیار ساده می‌دهد: آیا امروز نسبت به دیروز راه‌های بیشتری امتحان کرده‌ایم، یا فقط درباره سختی شرایط حرف زده‌ایم؟ بنیان‌گذار بی‌وقفه چاره‌جو قرار نیست همه چیز را کنترل کند؛ قرار است در برابر بی‌نظمی دنیا منفعل نشود. او مسئله را کوچک می‌کند، مسیرهای تازه می‌سازد و از محدودیت‌ها بهانه نمی‌سازد؛ از آن‌ها ورودی طراحی می‌سازد.",
+      ],
+      takeaways: [
+        "برای هر مانع، حداقل سه مسیر جایگزین بنویس: تلاش بیشتر، مسیر متفاوت، یا تعریف کوچک‌تر مسئله.",
+        "در انتخاب هم‌بنیان‌گذار، رفتار فرد در ابهام و مانع را جدی‌تر از حرف‌هایش ارزیابی کن.",
+        "جلسه‌های مرور کار را از گزارش مشکل به طراحی قدم بعدی تبدیل کن.",
+        "وقتی منبعی نداری، اول فهرست منابع پنهان را بساز: رابطه‌ها، دانش، توزیع، زمان، اعتماد و تجربه کاربر.",
+        "پشتکار را با انعطاف همراه کن؛ فشار بی‌جهت روی مسیر غلط، چاره‌جویی نیست.",
+      ],
+    },
+    en: {
+      paragraphs: [
+        "Paul Graham tries to name the quality he keeps seeing in strong founders and lands on two words: relentlessly resourceful. The phrase is useful because it combines two traits that are often separated. A founder needs persistence, but persistence alone is not enough. A founder also needs the ability to invent paths when the obvious path breaks.",
+        "The opposite is passivity. A passive team can be smart, talented, and even well-funded, but when reality refuses to follow the plan, it waits for conditions to improve. Startups punish that posture. Customers ignore you, distribution fails, partners disappear, and the product is misunderstood. The question is not whether obstacles will arrive, but whether the team keeps making moves.",
+        "Relentlessness without resourcefulness can become brute force. Resourcefulness without relentlessness can remain clever talk. The useful founder has both: enough drive to keep going and enough flexibility to change tactics. In hard domains, the founder often does not know whether the obstacle is foam or granite until they test it. So the work is to try, learn, route around, ask for help, and keep moving.",
+        "This idea is also a practical filter for cofounders and early hires. Credentials matter less than behavior under uncertainty. Does the person wait for instructions, narrate why things are impossible, or break the problem into smaller tests and look for leverage? The answer may not show up in a resume, but it becomes visible quickly in real work.",
+      ],
+      takeaways: [
+        "For every obstacle, write three possible moves: push, reroute, or reduce the problem.",
+        "Evaluate cofounders by how they behave when no answer is ready.",
+        "Turn status meetings from problem reporting into next-step design.",
+        "List hidden resources before declaring that resources are missing.",
+        "Pair persistence with flexibility; pushing the wrong path harder is not resourcefulness.",
+      ],
+    },
+    ar: {
+      paragraphs: [
+        "يحاول Paul Graham في هذا المقال تسمية الصفة التي يراها مرارا في المؤسسين الأقوياء، ويصل إلى عبارتين: الإصرار مع الحيلة العملية. قيمة العبارة أنها تجمع صفتين غالبا ما نفصل بينهما. يحتاج المؤسس إلى المثابرة، لكن المثابرة وحدها لا تكفي؛ يحتاج أيضا إلى القدرة على اختراع طريق عندما ينكسر الطريق الواضح.",
+        "العكس هو السلبية. قد يكون الفريق السلبي ذكيا وموهوبا وحتى ممولا جيدا، لكنه عندما لا يتبع الواقع الخطة ينتظر تحسن الظروف. الشركات الناشئة تعاقب هذا الموقف. العملاء لا يردون، قناة التوزيع لا تعمل، الشركاء يختفون، والمنتج يساء فهمه. السؤال ليس هل ستظهر العوائق، بل هل سيواصل الفريق صنع الحركة.",
+        "الإصرار بلا حيلة قد يتحول إلى قوة عمياء، والحيلة بلا إصرار قد تبقى كلاما ذكيا. المؤسس المفيد يملك الاثنين: دافعا كافيا للاستمرار ومرونة كافية لتغيير التكتيك. في المجالات الصعبة لا يعرف المؤسس منذ البداية هل العائق صلب أم قابل للاختراق، لذلك عليه أن يجرب ويتعلم ويدور حول المشكلة ويطلب المساعدة ويواصل الحركة.",
+        "هذه الفكرة تصلح أيضا كمرشح عملي لاختيار الشريك المؤسس والفريق الأول. الشهادات والخبرة مهمة، لكنها أقل أهمية من السلوك تحت الغموض. هل ينتظر الشخص التعليمات؟ هل يشرح لماذا كل شيء مستحيل؟ أم يقسم المشكلة إلى اختبارات أصغر ويبحث عن نقطة قوة؟ الجواب لا يظهر دائما في السيرة الذاتية، لكنه يظهر بسرعة في العمل الحقيقي.",
+      ],
+      takeaways: [
+        "لكل عائق، اكتب ثلاث حركات ممكنة: الدفع، تغيير الطريق، أو تصغير المشكلة.",
+        "قيّم الشريك المؤسس من سلوكه عندما لا تكون الإجابة جاهزة.",
+        "حوّل اجتماعات المتابعة من عرض المشكلات إلى تصميم الخطوة التالية.",
+        "اكتب قائمة الموارد الخفية قبل أن تقول إن الموارد غير موجودة.",
+        "اجمع المثابرة مع المرونة؛ الضغط أكثر على الطريق الخطأ ليس حيلة عملية.",
       ],
     },
   },
