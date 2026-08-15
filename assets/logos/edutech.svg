@@ -1,0 +1,13 @@
+<svg width="220" height="72" viewBox="0 0 220 72" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">EduTech Accelerator</title>
+  <desc id="desc">A simple EduTech Accelerator wordmark.</desc>
+  <rect x="1" y="1" width="218" height="70" rx="14" fill="#FAFAF7" stroke="#D9D5CA" stroke-width="2"/>
+  <path d="M35 22H62V29H43V34H60V41H43V50H35V22Z" fill="#18302D"/>
+  <path d="M72 22H80V43C80 47.5 83.2 50.5 88.1 50.5C93 50.5 96.2 47.5 96.2 43V22H104.2V43.1C104.2 52.1 97.9 58 88.1 58C78.3 58 72 52.1 72 43.1V22Z" fill="#18302D"/>
+  <path d="M117 22H144V29H125V35H142V42H125V51H144.5V58H117V22Z" fill="#18302D"/>
+  <path d="M157 22H183V29H174V58H166V29H157V22Z" fill="#18302D"/>
+  <path d="M38 61H181" stroke="#D47A3C" stroke-width="3" stroke-linecap="round"/>
+  <text x="36" y="19" fill="#6F756F" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" letter-spacing="2">EDUTECH</text>
+  <circle cx="190" cy="36" r="12" fill="#D47A3C"/>
+  <path d="M184 36H196M190 30V42" stroke="#FAFAF7" stroke-width="3" stroke-linecap="round"/>
+</svg>

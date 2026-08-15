@@ -460,35 +460,39 @@ h2 {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 4.6rem;
-  min-height: 2.55rem;
-  padding: 0.35rem 0.55rem;
+  width: 7.25rem;
+  height: 3.15rem;
+  padding: 0.42rem 0.58rem;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: color-mix(in srgb, var(--paper) 88%, var(--accent-soft));
-  color: var(--ink);
   direction: ltr;
-  font-size: 0.78rem;
-  font-weight: 950;
-  line-height: 1.1;
-  text-align: center;
-  unicode-bidi: isolate;
+  overflow: hidden;
 }
 
-.work-logo-basalam,
-.work-logo-tekanesh,
-.work-logo-hamyan {
-  direction: rtl;
-  font-size: 0.86rem;
+.work-logo-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
-.work-logo-startups {
-  color: var(--accent);
-  font-size: 1.1rem;
+.work-logo-basalam {
+  width: 3.15rem;
+  padding: 0.36rem;
 }
 
-.work-logo-edutech {
-  font-size: 0.72rem;
+.work-logo-hamyan .work-logo-image {
+  max-width: 5.9rem;
+}
+
+.work-logo-startups .work-logo-image,
+.work-logo-tekanesh .work-logo-image {
+  max-width: 6.9rem;
+}
+
+.work-logo-edutech .work-logo-image {
+  max-width: 6.15rem;
 }
 
 .work-type {
