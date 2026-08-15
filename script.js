@@ -6,7 +6,7 @@ const translatableNodes = document.querySelectorAll("[data-i18n]");
 const dailyArticleContainer = document.querySelector("[data-daily-article]");
 const articleListContainer = document.querySelector("[data-article-list]");
 const html = document.documentElement;
-const liveSiteUrl = "https://ali-sodeyfi.github.io/";
+const liveSiteUrl = "https://alisodeyfi.ir/";
 const contentOverrideUrl = "./content-overrides.json";
 let selectedArticleIndex = null;
 
