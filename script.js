@@ -50,22 +50,32 @@ const translations = {
       "این‌ها بیشتر زمینه‌اند تا کارنامه؛ رد چیزهایی که نگاه کاری‌ام را ساخته‌اند.",
     workOneYear: "اکوسیستم",
     workOneTitle: "باسلام - توسعه اکوسیستم",
+    workOneDescription:
+      "باسلام یک پلتفرم خرید و فروش اجتماعی است که فروشنده‌های کوچک و خریداران را در یک بازارگاه انسانی‌تر به هم وصل می‌کند.",
     workOneBody:
       "جایی برای فهمیدن اینکه رشد یک پلتفرم فقط محصول و عدد نیست؛ هماهنگی، اعتماد و سازوکارهای کوچک هم بخشی از محصول‌اند.",
     workTwoYear: "سرمایه‌گذاری اولیه",
     workTwoTitle: "100استارتاپ - هم‌بنیان‌گذار و مدیرعامل",
+    workTwoDescription:
+      "100استارتاپ پلتفرمی برای سرمایه‌گذاری و همراهی با تیم‌های نوپا در مرحله‌های اولیه شکل‌گیری کسب‌وکار بود.",
     workTwoBody:
       "کار نزدیک با تیم‌های اولیه یادم داد انتخاب بنیان‌گذار، همراهی و ساختن اعتماد، قبل از هر مدل مالی یا برنامه رشد معنا پیدا می‌کند.",
     workThreeYear: "کار حرفه‌ای",
     workThreeTitle: "آکادمی تکانش - هم‌بنیان‌گذار و عضو هیئت‌مدیره",
+    workThreeDescription:
+      "آکادمی تکانش روی آموزش و حرفه‌ای‌تر شدن مسیر کار مستقل و فریلنسری تمرکز داشت.",
     workThreeBody:
       "آنجا مسئله اصلی فقط آموزش نبود؛ ساختن عادتی بود که کار مستقل را قابل اتکاتر، منظم‌تر و قابل گفت‌وگو کند.",
     workFourYear: "اعتماد و فرایند",
     workFourTitle: "همیان - هم‌بنیان‌گذار و عضو هیئت‌مدیره",
+    workFourDescription:
+      "همیان تجربه‌ای در طراحی سازوکارهای مالی و قرض‌الحسنه بود؛ جایی که اعتماد و شفافیت بخش اصلی محصول محسوب می‌شد.",
     workFourBody:
       "در کار مالی اجتماعی، فهمیدم فرایند خوب وقتی ارزشمند است که اعتماد را سنگین نکند و شفافیت را به رفتار روزمره تبدیل کند.",
     workFiveYear: "آموزش و محصول",
     workFiveTitle: "شتاب‌دهنده EduTech - بنیان‌گذار و مدیرعامل",
+    workFiveDescription:
+      "شتاب‌دهنده EduTech برای کمک به تیم‌هایی شکل گرفت که می‌خواستند ایده‌های آموزشی را به محصول و کسب‌وکار تبدیل کنند.",
     workFiveBody:
       "کار با تیم‌های آموزشی نشان داد تا وقتی زبان محصول، یادگیری و بازار یکی نشود، بهترین نیت‌ها هم سخت به محصول زنده تبدیل می‌شوند.",
     thesisLabel: "روش کار",
@@ -91,14 +101,15 @@ const translations = {
     articleSourceLabel: "منبع",
     articleDateLabel: "به‌روزرسانی منظم",
     articleReadLabel: "منبع اصلی",
-    articleOnSiteLabel: "ترجمه آزاد کامل‌تر مقاله",
+    articleOnSiteLabel: "ترجمه و برداشت آزاد",
     articleArchiveReadOnSiteLabel: "ترجمه داخل سایت",
     articleShareLabel: "اشتراک‌گذاری",
     articleShareSuccess: "لینک مستقیم مقاله کپی شد.",
     articleShareManualLabel: "لینک مستقیم مقاله:",
     articleShareText: "ترجمه فارسی این مقاله را اینجا بخوان:",
     articleTranslationNote:
-      "این بخش ترجمه آزاد، کامل‌تر و خواندنی از ایده‌های اصلی مقاله است؛ برای مطالعه فارسی داخل سایت، بدون نیاز به خروج از صفحه.",
+      "بازنویسی خواندنی از ایده‌های اصلی مقاله، با حفظ ارجاع به منبع اصلی.",
+    articleAdviceLabel: "توصیه‌های منتخب از مقاله",
     articleTakeawaysLabel: "نکات اجرایی",
     articleCopyrightNote:
       "این متن ترجمه آزاد و بازنویسی‌شده است، نه بازنشر کلمه‌به‌کلمه مقاله اصلی.",
@@ -151,22 +162,32 @@ const translations = {
       "More context than scoreboard: traces of the work that shaped my point of view.",
     workOneYear: "Ecosystem",
     workOneTitle: "Basalam - Ecosystem Development",
+    workOneDescription:
+      "Basalam is a social commerce marketplace that connects small sellers and buyers in a more human shopping environment.",
     workOneBody:
       "A place to learn that platform growth is not only product and numbers; coordination, trust, and small operating mechanisms are part of the product too.",
     workTwoYear: "Early investment",
     workTwoTitle: "100Startups - Co-Founder & CEO",
+    workTwoDescription:
+      "100Startups was a platform for investing in and working with early-stage teams as their businesses were taking shape.",
     workTwoBody:
       "Working closely with early teams taught me that founder selection, support, and trust come before any financial model or growth plan has meaning.",
     workThreeYear: "Professional work",
     workThreeTitle: "Tekanesh Academy - Co-Founder & Board Member",
+    workThreeDescription:
+      "Tekanesh Academy focused on learning systems and the professionalization of independent and freelance work.",
     workThreeBody:
       "The main question was not only education; it was how independent work could become more reliable, more regular, and easier to discuss.",
     workFourYear: "Trust and process",
     workFourTitle: "Hamyan - Co-Founder & Board Member",
+    workFourDescription:
+      "Hamyan was an experience in designing financial and Qarz-al-Hasanah mechanisms where trust and transparency were core parts of the product.",
     workFourBody:
       "In social finance, I learned that a good process matters when it does not make trust heavier and can turn transparency into everyday behavior.",
     workFiveYear: "Learning and product",
     workFiveTitle: "EduTech Accelerator - Founder & CEO",
+    workFiveDescription:
+      "EduTech Accelerator helped teams turn education ideas into products and businesses.",
     workFiveBody:
       "Working with education teams showed me that until product, learning, and market share one language, even good intentions struggle to become a living product.",
     thesisLabel: "Method",
@@ -192,14 +213,15 @@ const translations = {
     articleSourceLabel: "Source",
     articleDateLabel: "Regular update",
     articleReadLabel: "Original source",
-    articleOnSiteLabel: "Readable adaptation",
+    articleOnSiteLabel: "Translation and notes",
     articleArchiveReadOnSiteLabel: "Read on site",
     articleShareLabel: "Share",
     articleShareSuccess: "Direct article link copied.",
     articleShareManualLabel: "Direct article link:",
     articleShareText: "Read this on-site article adaptation here:",
     articleTranslationNote:
-      "This section is a readable adaptation of the article's core ideas for quick on-site reading.",
+      "A readable adaptation of the article's core ideas, with the original source clearly credited.",
+    articleAdviceLabel: "Selected advice from the article",
     articleTakeawaysLabel: "Operating takeaways",
     articleCopyrightNote:
       "This is a free adaptation, not a word-for-word republication of the original article.",
@@ -252,22 +274,32 @@ const translations = {
       "هذه أقرب إلى سياق من كونها سجل إنجازات؛ آثار من العمل الذي شكل وجهة نظري.",
     workOneYear: "المنظومة",
     workOneTitle: "Basalam - تطوير المنظومة",
+    workOneDescription:
+      "Basalam سوق تجارة اجتماعية يربط البائعين الصغار بالمشترين في تجربة شراء أكثر إنسانية.",
     workOneBody:
       "مكان لفهم أن نمو المنصة ليس منتجا وأرقاما فقط؛ التنسيق والثقة والآليات التشغيلية الصغيرة جزء من المنتج أيضا.",
     workTwoYear: "استثمار مبكر",
     workTwoTitle: "100Startups - شريك مؤسس ومدير تنفيذي",
+    workTwoDescription:
+      "100Startups كانت منصة للاستثمار في الفرق الناشئة ومرافقتها في المراحل الأولى من تشكل العمل.",
     workTwoBody:
       "العمل القريب مع الفرق الأولى علمني أن اختيار المؤسس والمرافقة وبناء الثقة تسبق معنى أي نموذج مالي أو خطة نمو.",
     workThreeYear: "عمل مهني",
     workThreeTitle: "Tekanesh Academy - شريك مؤسس وعضو مجلس إدارة",
+    workThreeDescription:
+      "ركزت Tekanesh Academy على أنظمة التعلم وجعل العمل المستقل والحر أكثر مهنية.",
     workThreeBody:
       "لم تكن المسألة تعليما فقط؛ بل كيف يصبح العمل المستقل أكثر انتظاما واعتمادية وقابلية للنقاش.",
     workFourYear: "ثقة وعملية",
     workFourTitle: "Hamyan - شريك مؤسس وعضو مجلس إدارة",
+    workFourDescription:
+      "كانت Hamyan تجربة في تصميم آليات مالية وقرض حسن حيث تكون الثقة والشفافية جزءا أساسيا من المنتج.",
     workFourBody:
       "في التمويل الاجتماعي تعلمت أن العملية الجيدة تكون نافعة حين لا تجعل الثقة أثقل، وتحول الشفافية إلى سلوك يومي.",
     workFiveYear: "تعلم ومنتج",
     workFiveTitle: "EduTech Accelerator - مؤسس ومدير تنفيذي",
+    workFiveDescription:
+      "ساعدت EduTech Accelerator فرقا على تحويل أفكار التعليم إلى منتجات وأعمال.",
     workFiveBody:
       "العمل مع فرق التعليم أظهر لي أنه ما لم تتشارك اللغة بين المنتج والتعلم والسوق، يصعب أن تتحول النوايا الجيدة إلى منتج حي.",
     thesisLabel: "المنهج",
@@ -293,14 +325,15 @@ const translations = {
     articleSourceLabel: "المصدر",
     articleDateLabel: "تحديث منتظم",
     articleReadLabel: "المصدر الأصلي",
-    articleOnSiteLabel: "ترجمة حرة للمقال",
+    articleOnSiteLabel: "ترجمة وملاحظات حرة",
     articleArchiveReadOnSiteLabel: "قراءة داخل الموقع",
     articleShareLabel: "مشاركة",
     articleShareSuccess: "تم نسخ رابط المقال المباشر.",
     articleShareManualLabel: "رابط المقال المباشر:",
     articleShareText: "اقرأ ترجمة هذا المقال داخل الموقع هنا:",
     articleTranslationNote:
-      "هذا القسم ترجمة حرة ومقروءة لأفكار المقال الأساسية، لقراءتها داخل الموقع بسرعة.",
+      "إعادة صياغة مقروءة لأفكار المقال الأساسية، مع الإشارة الواضحة إلى المصدر الأصلي.",
+    articleAdviceLabel: "نصائح مختارة من المقال",
     articleTakeawaysLabel: "نقاط تشغيلية",
     articleCopyrightNote:
       "هذا النص ترجمة حرة وإعادة صياغة، وليس إعادة نشر حرفية للمقال الأصلي.",
@@ -963,38 +996,90 @@ const articleEssays = {
   "The 30 Best Pieces of Advice for Entrepreneurs in 2023": {
     fa: {
       paragraphs: [
-        "مجموعه‌های توصیه وقتی مفیدند که مثل چک‌لیست مصرف نشوند. برای بنیان‌گذار، ارزش چنین متن‌هایی در پیدا کردن یک یا دو توصیه‌ای است که دقیقا به مرحله فعلی شرکت می‌خورد؛ نه در تلاش برای اجرای همه چیز.",
-        "شرکت‌سازی پر از تنش‌های هم‌زمان است: سرعت و کیفیت، تمرکز و فرصت، استخدام و فرهنگ، رشد و پایداری. توصیه‌های خوب معمولا کمک می‌کنند این trade-offها روشن‌تر شوند و تصمیم‌های سخت با زبان دقیق‌تری گرفته شوند.",
-        "بهترین روش استفاده از چنین مقاله‌ای این است که بعد از خواندن، آن را به audit عملیاتی تبدیل کنی. کدام توصیه اگر همین هفته اجرا شود، بیشترین اثر را دارد؟ کدام عادت مدیریتی باید حذف شود؟ کدام metric باید جدی‌تر دیده شود؟",
+        "این مقاله First Round Review یک فهرست خطی از جمله‌های انگیزشی نیست؛ جمع‌بندی ۳۰ قطعه توصیه عملی از گفت‌وگوهای سالانه آن‌ها با بنیان‌گذارها، مدیران محصول، مدیران تیم و اپراتورهای شرکت‌ساز است. ارزشش در این است که هر توصیه به یک موقعیت واقعی وصل است: استخدام مدیر، هدف‌گذاری، تصمیم‌گیری محصول، فروش اولیه، نگهداشت مشتری، رابطه هم‌بنیان‌گذارها و ساخت MVP.",
+        "بهترین استفاده از چنین مقاله‌ای این نیست که همه توصیه‌ها را یک‌باره وارد شرکت کنیم. شرکت در هر مرحله فقط ظرفیت چند تغییر جدی دارد. اگر تیم درگیر پیدا کردن محصول/بازار است، توصیه‌های مربوط به گفت‌وگوی مشتری، فروش بنیان‌گذارمحور و MVP کوچک مهم‌ترند. اگر تیم در حال رشد است، توصیه‌های مربوط به مدیریت، بازخورد، استخدام و تصمیم‌های برگشت‌پذیر به درد می‌خورند.",
+        "یک نخ مشترک در مقاله دیده می‌شود: سرعت خوب از شتاب‌زدگی نمی‌آید؛ از وضوح می‌آید. وقتی هدف به شکل روایت روشن شود، وقتی مسئله مشتری دقیق فهمیده شود، وقتی تصمیم دوطرفه از تصمیم یک‌طرفه جدا شود، و وقتی MVP فقط برای اثبات فرضیه ساخته شود، تیم می‌تواند سریع‌تر حرکت کند بدون اینکه خودش را با کار اضافه خسته کند.",
+        "نکته مهم دیگر، فروتنی بنیان‌گذار است. مقاله چند بار به شکل‌های مختلف یادآوری می‌کند که نظر بنیان‌گذار هزینه دارد؛ فروش اولیه باید برای یادگیری باشد، نه فقط بستن قرارداد؛ و محصول نباید قبل از فهم مسئله ساخته شود. این‌ها توصیه‌های ضدنمایشی‌اند: کمتر ادعا کن، بیشتر گوش بده، و زودتر با واقعیت تماس بگیر.",
+        "برای خواندن عملی، می‌شود این مقاله را به یک جلسه بازنگری تبدیل کرد. هر نفر از تیم یک توصیه انتخاب کند، بگوید چرا الان مهم است، و آن را به یک رفتار کوچک این هفته تبدیل کند. خروجی خوب از این مقاله یک فهرست بلند نیست؛ یک تصمیم بهتر، یک سؤال دقیق‌تر، یا حذف یک کار کم‌اثر است.",
+      ],
+      advice: [
+        "برای استخدام مدیر، از سؤال‌های کلی درباره سبک مدیریت فاصله بگیر؛ از نمونه‌های واقعی بپرس: آخرین بار چه بازخوردی گرفتی و چه چیزی را در رفتار مدیریتی‌ات تغییر دادی؟",
+        "هدف‌گذاری را با روایت شروع کن. اول داستان سه ماه آینده را بگو، بعد آن را به فصل‌ها، خروجی‌ها و چند معیار محدود تبدیل کن.",
+        "قبل از اضافه کردن هر کار به برنامه، بپرس اگر این کار انجام نشود آیا محصول یا خروجی اصلی واقعاً زمین می‌ماند؟ اگر نه، احتمالاً باید حذف شود.",
+        "نظر بنیان‌گذار همیشه رایگان نیست. قبل از گفتن نظر، فرق بین «می‌دانم» و «فقط سلیقه دارم» را روشن کن و هزینه درست‌بودن خودت را بسنج.",
+        "بازخورد مدیریتی باید آن‌قدر واضح باشد که طرف مقابل بتواند بعد از جلسه دقیقاً به همان جمله اشاره کند.",
+        "تصمیم‌های دوطرفه را زیادی سنگین نکن. اگر تصمیم قابل برگشت است، بهتر است با ریسک کنترل‌شده حرکت کنی و یاد بگیری.",
+        "با مشتری آن‌قدر حرف بزن که بتوانی بخش بزرگی از حرف‌هایش را پیش‌بینی کنی؛ آن‌وقت احتمالاً مسئله را واقعاً فهمیده‌ای.",
+        "برای ایده‌های اولیه، همیشه لازم نیست demo بسازی. گاهی یک روایت فروش/اسلاید سبک که ارزش پیشنهادی را روشن کند، سریع‌تر علاقه بازار را نشان می‌دهد.",
+        "حتی در محصول‌های PLG، فروش اولیه توسط بنیان‌گذار می‌تواند حلقه یادگیری را کوتاه کند؛ چون هم زبان فروش را می‌سازد، هم محصول را دقیق‌تر می‌کند.",
+        "قبل از عاشق‌شدن به راه‌حل، ترمزهای تغییر را پیدا کن: چرا مشتری تا امروز رفتار فعلی‌اش را عوض نکرده است؟",
+        "جامعه و کاربران اولیه فقط کانال توزیع نیستند؛ اگر اعتماد وجود داشته باشد، می‌توانند آزمایشگاه محصول و تحقیق مشتری باشند.",
+        "MVP را لاغر کن. هدف نسخه اولیه اثبات فرضیه است، نه نمایش کامل آینده محصول.",
       ],
       takeaways: [
-        "از بین توصیه‌ها فقط یک یا دو مورد مناسب مرحله فعلی را انتخاب کن.",
-        "هر توصیه را به یک اقدام هفتگی تبدیل کن.",
-        "از مقاله برای audit سیستم مدیریتی استفاده کن، نه مصرف الهام لحظه‌ای.",
+        "یک توصیه را به یک آزمایش یک‌هفته‌ای تبدیل کن، نه یک پروژه بزرگ.",
+        "برای تصمیم‌های برگشت‌پذیر سرعت را بالا ببر و برای تصمیم‌های سخت‌برگشت مکث بیشتری بگذار.",
+        "هر هفته حداقل یک سؤال مشتری/محصول را با واقعیت بیرون از شرکت چک کن.",
+        "در برنامه تیم، کارهایی را پیدا کن که اگر حذف شوند خروجی اصلی همچنان جلو می‌رود.",
+        "بازخورد، هدف و مسئله را با جمله‌های قابل اشاره و قابل پیگیری بنویس.",
       ],
     },
     en: {
       paragraphs: [
-        "Advice collections are useful only when they are not consumed as checklists. For a founder, the value is in finding one or two pieces of advice that match the current stage of the company, not trying to apply everything.",
-        "Company building is full of simultaneous tensions: speed and quality, focus and opportunity, hiring and culture, growth and durability. Good advice helps make those tradeoffs clearer and gives better language for hard decisions.",
-        "The best way to use an article like this is to turn it into an operating audit. Which piece of advice would matter most if applied this week? Which management habit should be removed? Which metric deserves more seriousness?",
+        "This First Round Review piece is not a motivational list. It is a collection of thirty operating lessons from founders, product leaders, managers, and startup operators, covering hiring, goal-setting, product decisions, early sales, customer learning, co-founder rituals, and MVP design.",
+        "The useful way to read it is stage-by-stage. A team looking for product-market fit should pay attention to customer conversations, founder-led sales, lightweight validation, and skinny MVPs. A scaling team may get more value from the advice on management interviews, feedback, decision quality, and retention.",
+        "A common thread is that speed comes from clarity, not from rushing. A clear narrative for goals, a better model of the customer problem, a distinction between reversible and irreversible decisions, and a small MVP all help teams move faster without adding unnecessary work.",
+        "The article is also a reminder of founder humility. Founder opinions have a cost; early sales should create learning, not only revenue; and solutions should wait until the problem is understood. The best output is not a long checklist, but one sharper question or one better operating habit.",
+      ],
+      advice: [
+        "Refresh management interviews with real examples: ask what feedback changed the candidate's leadership behavior.",
+        "Set goals as a story first, then turn the next three months into a few concrete outcomes.",
+        "Before adding work, ask whether the core product or outcome would fail without it.",
+        "Treat founder opinions as costly; distinguish evidence from preference before speaking.",
+        "Make feedback explicit enough that the receiver can point to the exact sentence.",
+        "Move faster on reversible decisions, while giving irreversible decisions more care.",
+        "Keep talking to customers until you can predict a large share of what they will say.",
+        "Use lightweight marketing vignettes to test positioning before building a demo.",
+        "Use founder-led sales early to shorten the learning loop, even in PLG products.",
+        "Find the customer's parking brakes before prescribing a solution.",
+        "Use community as a trusted source for product discovery, not only distribution.",
+        "Make the MVP small enough to test the hypothesis, not to represent the whole vision.",
       ],
       takeaways: [
-        "Choose only one or two pieces of advice that fit the current stage.",
-        "Turn each chosen idea into a weekly action.",
-        "Use the article as an audit tool, not a burst of inspiration.",
+        "Turn one piece of advice into a one-week experiment.",
+        "Separate reversible decisions from hard-to-reverse decisions.",
+        "Check one product or customer question against reality every week.",
+        "Remove work that does not support the core outcome.",
+        "Write goals, feedback, and problems in language people can point back to.",
       ],
     },
     ar: {
       paragraphs: [
-        "تكون مجموعات النصائح مفيدة عندما لا تستهلك كقوائم كاملة. بالنسبة للمؤسس، القيمة في العثور على نصيحة أو نصيحتين تناسبان مرحلة الشركة الحالية، لا في محاولة تطبيق كل شيء.",
-        "بناء الشركات مليء بتوترات متزامنة: السرعة والجودة، التركيز والفرصة، التوظيف والثقافة، النمو والمتانة. النصائح الجيدة تساعد على توضيح هذه المفاضلات وتمنح لغة أفضل للقرارات الصعبة.",
-        "أفضل طريقة لاستخدام مقال كهذا هي تحويله إلى مراجعة تشغيلية. أي نصيحة سيكون لها أكبر أثر إذا طبقت هذا الأسبوع؟ أي عادة إدارية يجب حذفها؟ أي مقياس يستحق جدية أكبر؟",
+        "مقال First Round Review هذا ليس قائمة تحفيزية، بل تجميع لثلاثين درساً عملياً من مؤسسين وقادة منتج ومديرين ومشغلين في الشركات الناشئة. يدور حول التوظيف، وضع الأهداف، قرارات المنتج، البيع المبكر، التعلم من العملاء، علاقة الشركاء المؤسسين، وتصميم MVP.",
+        "القراءة المفيدة تكون بحسب مرحلة الشركة. إذا كان الفريق يبحث عن ملاءمة المنتج للسوق، فالنصائح المتعلقة بحديث العملاء، البيع بقيادة المؤسس، الاختبار الخفيف، وتصغير MVP ستكون أهم. أما الفريق الذي يتوسع فقد يستفيد أكثر من الإدارة، التغذية الراجعة، جودة القرار، والاحتفاظ بالعملاء.",
+        "الخيط المشترك هو أن السرعة تأتي من الوضوح لا من الاستعجال. عندما تتحول الأهداف إلى قصة مفهومة، وتصبح مشكلة العميل أوضح، ويفصل الفريق بين القرارات القابلة للرجوع وغير القابلة للرجوع، يمكنه أن يتحرك أسرع من دون إضافة عمل غير ضروري.",
+        "كما يذكّر المقال بتواضع المؤسس. رأي المؤسس له كلفة، والبيع المبكر يجب أن يصنع تعلماً لا إيراداً فقط، والحل لا ينبغي أن يسبق فهم المشكلة. الناتج الجيد من المقال ليس قائمة طويلة، بل سؤال أدق أو عادة تشغيلية أفضل.",
+      ],
+      advice: [
+        "حدّث أسئلة مقابلات المديرين واسأل عن أمثلة حقيقية لا عن أسلوب إدارة عام.",
+        "ابدأ الأهداف بقصة ثم حوّل الأشهر الثلاثة القادمة إلى مخرجات قليلة وواضحة.",
+        "قبل إضافة عمل جديد، اسأل هل سيفشل المنتج أو الناتج الأساسي من دونه؟",
+        "عامل رأي المؤسس كشيء له كلفة، وافصل بين الدليل والتفضيل الشخصي.",
+        "اجعل التغذية الراجعة صريحة بما يكفي ليشير المتلقي إلى الجملة المحددة.",
+        "تحرك أسرع في القرارات القابلة للرجوع، وتمهل أكثر في القرارات صعبة الرجوع.",
+        "واصل الحديث مع العملاء حتى تستطيع توقع جزء كبير مما سيقولونه.",
+        "اختبر التموضع برسالة بيع خفيفة قبل بناء عرض أو نموذج كامل.",
+        "استخدم البيع بقيادة المؤسس مبكراً لتقصير حلقة التعلم، حتى في منتجات PLG.",
+        "ابحث عن مكابح التغيير لدى العميل قبل وصف الحل.",
+        "استخدم المجتمع كمصدر موثوق لاكتشاف المنتج، لا كقناة توزيع فقط.",
+        "اجعل MVP صغيراً بما يكفي لاختبار الفرضية، لا لتمثيل الرؤية كلها.",
       ],
       takeaways: [
-        "اختر نصيحة أو نصيحتين فقط تناسبان المرحلة الحالية.",
-        "حوّل كل فكرة مختارة إلى فعل أسبوعي.",
-        "استخدم المقال كأداة مراجعة، لا كمصدر إلهام عابر.",
+        "حوّل نصيحة واحدة إلى تجربة لمدة أسبوع.",
+        "افصل بين القرارات القابلة للرجوع والقرارات صعبة الرجوع.",
+        "اختبر كل أسبوع سؤالاً واحداً عن المنتج أو العميل مع الواقع.",
+        "احذف العمل الذي لا يخدم الناتج الأساسي.",
+        "اكتب الأهداف والتغذية الراجعة والمشكلات بلغة يمكن الرجوع إليها.",
       ],
     },
   },
@@ -1333,6 +1418,7 @@ function getArticleEssay(article, language) {
 function expandArticleEssay(article, language, essay) {
   const paragraphs = [...(essay.paragraphs ?? [])];
   const takeaways = [...(essay.takeaways ?? [])];
+  const advice = [...(essay.advice ?? [])];
   const minimumParagraphs = language === "fa" ? 5 : 4;
   const minimumTakeaways = language === "fa" ? 5 : 4;
   const expansion = articleEssayExpansion[language] ?? articleEssayExpansion.en;
@@ -1347,7 +1433,7 @@ function expandArticleEssay(article, language, essay) {
     takeaways.push(template(article));
   }
 
-  return { paragraphs, takeaways };
+  return { paragraphs, takeaways, advice };
 }
 
 function renderParagraphs(paragraphs) {
@@ -1360,6 +1446,19 @@ function renderTakeaways(takeaways) {
   return takeaways
     .map((takeaway) => `<li>${escapeHtml(takeaway)}</li>`)
     .join("");
+}
+
+function renderArticleAdvice(advice, label) {
+  if (!advice?.length) {
+    return "";
+  }
+
+  return `
+    <div class="article-advice">
+      <p class="article-section-label">${escapeHtml(label)}</p>
+      <ol>${advice.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ol>
+    </div>
+  `;
 }
 
 function renderArticles(language) {
@@ -1411,6 +1510,7 @@ function renderArticles(language) {
         <p class="article-section-label">${escapeHtml(dictionary.articleOnSiteLabel)}</p>
         <p class="article-translation-note">${escapeHtml(dictionary.articleTranslationNote)}</p>
         ${renderParagraphs(dailyEssay.paragraphs)}
+        ${renderArticleAdvice(dailyEssay.advice, dictionary.articleAdviceLabel)}
         <div class="article-takeaways">
           <p class="article-section-label">${escapeHtml(dictionary.articleTakeawaysLabel)}</p>
           <ul>${renderTakeaways(dailyEssay.takeaways)}</ul>
