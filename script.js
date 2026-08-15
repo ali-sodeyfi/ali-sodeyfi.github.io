@@ -7,6 +7,7 @@ const dailyArticleContainer = document.querySelector("[data-daily-article]");
 const articleListContainer = document.querySelector("[data-article-list]");
 const html = document.documentElement;
 const liveSiteUrl = "https://alisodeyfi.ir/";
+const defaultShareImageUrl = `${liveSiteUrl}assets/ali-sodeyfi.jpg`;
 const contentOverrideUrl = "./content-overrides.json";
 let selectedArticleIndex = null;
 
@@ -1418,17 +1419,110 @@ async function loadContentOverrides() {
 }
 
 function getArticleShareUrl(article, language) {
-  const baseUrl = window.location.protocol.startsWith("http")
-    ? window.location.href
-    : liveSiteUrl;
-  const url = new URL(baseUrl);
+  const url = new URL(getArticlePageUrl(article, language));
+
+  url.hash = "daily-article-reader";
+
+  return url.toString();
+}
+
+function getArticlePageUrl(article, language) {
+  const url = new URL(liveSiteUrl);
 
   url.searchParams.delete("v");
   url.searchParams.set("article", getArticleSlug(article));
   url.searchParams.set("lang", translations[language] ? language : "fa");
-  url.hash = "daily-article-reader";
+  url.hash = "";
 
   return url.toString();
+}
+
+function getLanguagePageUrl(language, article = null) {
+  if (article) {
+    return getArticlePageUrl(article, language);
+  }
+
+  const url = new URL(liveSiteUrl);
+
+  if (language && language !== "fa") {
+    url.searchParams.set("lang", language);
+  }
+
+  return url.toString();
+}
+
+function setMetaContent(selector, content) {
+  document.querySelector(selector)?.setAttribute("content", content);
+}
+
+function setLinkHref(selector, href) {
+  document.querySelector(selector)?.setAttribute("href", href);
+}
+
+function upsertJsonLd(id, data) {
+  let script = document.getElementById(id);
+
+  if (!script) {
+    script = document.createElement("script");
+    script.type = "application/ld+json";
+    script.id = id;
+    document.head.appendChild(script);
+  }
+
+  script.textContent = JSON.stringify(data);
+}
+
+function updateSeoMetadata(language) {
+  const selectedLanguage = translations[language] ? language : "fa";
+  const dictionary = translations[selectedLanguage];
+  const article = selectedArticleIndex !== null ? articleCatalog[selectedArticleIndex] : null;
+  const canonicalUrl = getLanguagePageUrl(selectedLanguage, article);
+  const title = article
+    ? `${article.title} | Ali Sodeyfi`
+    : dictionary.documentTitle;
+  const description = article
+    ? article.summary[selectedLanguage] ?? article.summary.en
+    : dictionary.metaDescription;
+
+  document.title = title;
+
+  setMetaContent('meta[name="description"]', description);
+  setMetaContent('meta[property="og:title"]', title);
+  setMetaContent('meta[property="og:description"]', description);
+  setMetaContent('meta[property="og:type"]', article ? "article" : "website");
+  setMetaContent('meta[property="og:url"]', canonicalUrl);
+  setMetaContent('meta[property="og:image"]', defaultShareImageUrl);
+  setMetaContent('meta[name="twitter:title"]', title);
+  setMetaContent('meta[name="twitter:description"]', description);
+  setMetaContent('meta[name="twitter:image"]', defaultShareImageUrl);
+  setLinkHref('link[rel="canonical"]', canonicalUrl);
+  setLinkHref('link[rel="alternate"][hreflang="fa"]', getLanguagePageUrl("fa", article));
+  setLinkHref('link[rel="alternate"][hreflang="en"]', getLanguagePageUrl("en", article));
+  setLinkHref('link[rel="alternate"][hreflang="ar"]', getLanguagePageUrl("ar", article));
+  setLinkHref('link[rel="alternate"][hreflang="x-default"]', getLanguagePageUrl("fa", article));
+
+  if (article) {
+    upsertJsonLd("structured-data-current-article", {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      headline: article.title,
+      description,
+      author: {
+        "@type": "Person",
+        name: article.author,
+      },
+      publisher: {
+        "@type": "Person",
+        name: "Ali Sodeyfi",
+        url: liveSiteUrl,
+      },
+      isBasedOn: article.url,
+      mainEntityOfPage: canonicalUrl,
+      inLanguage: selectedLanguage,
+    });
+  } else {
+    document.getElementById("structured-data-current-article")?.remove();
+  }
 }
 
 function updateArticleUrl(article, language, mode = "push") {
@@ -1648,6 +1742,7 @@ function showArticle(index, options = {}) {
 
   selectedArticleIndex = index;
   renderArticles(language);
+  updateSeoMetadata(language);
 
   if (options.updateUrl) {
     updateArticleUrl(articleCatalog[index], language);
@@ -1664,17 +1759,6 @@ function applyLanguage(language) {
 
   html.lang = selectedLanguage;
   html.dir = selectedLanguage === "en" ? "ltr" : "rtl";
-  document.title = dictionary.documentTitle;
-
-  document
-    .querySelector('meta[name="description"]')
-    ?.setAttribute("content", dictionary.metaDescription);
-  document
-    .querySelector('meta[property="og:title"]')
-    ?.setAttribute("content", dictionary.documentTitle);
-  document
-    .querySelector('meta[property="og:description"]')
-    ?.setAttribute("content", dictionary.metaDescription);
 
   translatableNodes.forEach((node) => {
     const key = node.dataset.i18n;
@@ -1699,6 +1783,8 @@ function applyLanguage(language) {
   if (selectedArticleIndex !== null) {
     updateArticleUrl(articleCatalog[selectedArticleIndex], selectedLanguage, "replace");
   }
+
+  updateSeoMetadata(selectedLanguage);
 
   localStorage.setItem("site-language", selectedLanguage);
 }

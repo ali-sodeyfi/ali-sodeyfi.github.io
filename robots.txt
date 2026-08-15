@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /worker/
+
+Sitemap: https://alisodeyfi.ir/sitemap.xml
