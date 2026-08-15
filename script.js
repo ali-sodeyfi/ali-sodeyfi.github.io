@@ -108,7 +108,7 @@ const translations = {
     articleShareManualLabel: "لینک مستقیم مقاله:",
     articleShareText: "ترجمه فارسی این مقاله را اینجا بخوان:",
     articleTranslationNote:
-      "بازنویسی خواندنی از ایده‌های اصلی مقاله، با حفظ ارجاع به منبع اصلی.",
+      "ترجمه و برداشت آزاد از ایده‌های اصلی مقاله، با ارجاع به منبع اصلی.",
     articleAdviceLabel: "توصیه‌های منتخب از مقاله",
     articleTakeawaysLabel: "نکات اجرایی",
     articleCopyrightNote:
