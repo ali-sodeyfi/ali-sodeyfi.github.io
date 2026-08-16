@@ -539,6 +539,23 @@ const articleCatalog = [
     },
   },
   {
+    title: "Default Alive or Default Dead?",
+    author: "Paul Graham",
+    source: "Paul Graham",
+    year: "2015",
+    url: "https://paulgraham.com/aord.html",
+    tags: {
+      fa: ["بقا", "Runway", "فاندریزینگ"],
+      en: ["survival", "runway", "fundraising"],
+      ar: ["البقاء", "المدى المالي", "جمع التمويل"],
+    },
+    summary: {
+      fa: "یک چارچوب عملی برای اینکه تیم بداند با همین مسیر و منابع فعلی زنده می‌ماند یا برای ادامه حتما به سرمایه تازه وابسته است.",
+      en: "A practical frame for knowing whether a startup can survive on its current path or is dependent on raising more money.",
+      ar: "إطار عملي لمعرفة هل تستطيع الشركة الناشئة البقاء بمسارها ومواردها الحالية أم أنها تعتمد على تمويل جديد.",
+    },
+  },
+  {
     title: "The 30 Best Pieces of Advice for Entrepreneurs in 2023",
     author: "First Round Review",
     source: "First Round Review",
@@ -1008,6 +1025,56 @@ const articleEssays = {
         "اعتبر الحلول البديلة الحالية إشارات قوية.",
         "سجل كلمات المستخدم نفسها؛ فهي غالبا أدق من مصطلحات الفريق الداخلية.",
         "اجعل مقابلات المستخدمين عادة أسبوعية، لا مشروعا مؤقتا قبل الإطلاق.",
+      ],
+    },
+  },
+  "Default Alive or Default Dead?": {
+    fa: {
+      paragraphs: [
+        "در این مقاله، Paul Graham یک سؤال ساده اما تعیین‌کننده جلوی بنیان‌گذار می‌گذارد: اگر مسیر فعلی را ادامه بدهی، با همین پول، رشد، درآمد و هزینه‌ها زنده می‌مانی یا نه؟ پاسخ این سؤال باید قبل از امیدواری به جذب سرمایه بعدی روشن باشد. بسیاری از تیم‌ها وقتی runway دارند احساس امنیت می‌کنند، اما runway به‌تنهایی امنیت نیست؛ مهم این است که شرکت در انتهای آن مسیر به نقطه‌ای رسیده باشد که خودش بتواند ادامه بدهد.",
+        "مفهوم «default alive» یعنی اگر هیچ اتفاق معجزه‌آسایی نیفتد، شرکت با روند فعلی به وضعیتی می‌رسد که دخل و خرجش قابل دوام است. شاید هنوز کوچک باشد، شاید هنوز بسیار سریع رشد نکند، اما برای زنده‌ماندن وابسته به چک بعدی سرمایه‌گذار نیست. در مقابل، «default dead» یعنی اگر سرمایه تازه نرسد، شرکت تمام می‌شود؛ حتی اگر محصول خوب، تیم باهوش یا رشد ظاهری داشته باشد.",
+        "اهمیت این چارچوب در این است که توهم را کم می‌کند. بنیان‌گذار ممکن است بگوید «بعداً پول جذب می‌کنیم» یا «رشد حلش می‌کند»، اما این‌ها تا وقتی با عدد و روند فعلی پشتیبانی نشوند، فرضیه‌اند نه برنامه. سؤال اصلی این نیست که آیا می‌توانی سرمایه جذب کنی؛ سؤال اول این است که آیا کسب‌وکار در مسیر فعلی می‌تواند خودش را به نقطه بقا برساند یا نه.",
+        "اگر شرکت default dead است، مسئله لزوماً این نیست که شکست خورده؛ مسئله این است که زمان تصمیم‌گیری فرا رسیده است. تیم باید یا رشد درآمد را جدی‌تر کند، یا هزینه‌ها را پایین بیاورد، یا محصول و بازار را چنان دقیق‌تر کند که مسیر جذب سرمایه قابل دفاع شود. خطرناک‌ترین حالت، ادامه‌دادن با خوش‌بینی مبهم است؛ چون هر ماه هم پول کم می‌شود و هم گزینه‌های تصمیم‌گیری محدودتر می‌شوند.",
+        "این مقاله همچنین رابطه سالم‌تری با فاندریزینگ پیشنهاد می‌دهد. سرمایه‌گذاری می‌تواند شتاب بدهد، اما اگر تنها راه زنده‌ماندن باشد، قدرت تصمیم‌گیری از تیم دور می‌شود. شرکتی که به بقا نزدیک‌تر است، در مذاکره سرمایه هم بهتر می‌ایستد؛ چون سرمایه برای رشد می‌خواهد، نه برای نفس‌کشیدن. همین تفاوت، کیفیت تصمیم‌های بنیان‌گذار را تغییر می‌دهد.",
+        "برای کار عملی، بنیان‌گذار باید هر ماه یک مدل ساده و بی‌رحمانه بسازد: cash، burn، درآمد، رشد واقعی، نرخ تبدیل، هزینه جذب و زمانی که تا بقا باقی مانده است. این مدل لازم نیست پیچیده باشد؛ باید صادق باشد. اگر مدل نشان دهد مسیر فعلی زنده نمی‌ماند، بهتر است زودتر درد را ببینی و اقدام کنی تا اینکه چند ماه بعد با گزینه‌های کمتر به همان واقعیت برسی.",
+        "ارزش اصلی مقاله در نام‌گذاری یک وضعیت مدیریتی است. وقتی تیم بتواند صادقانه بگوید default alive است یا default dead، گفت‌وگو از امید و ترس به تصمیم تبدیل می‌شود. این سؤال ساده، فاندریزینگ، استخدام، هزینه، roadmap و حتی سرعت رشد را روی زمین واقعی می‌آورد.",
+      ],
+      takeaways: [
+        "هر ماه با عدد روشن کن شرکت در مسیر فعلی default alive است یا default dead.",
+        "runway را جدا از مسیر بقا تحلیل کن؛ داشتن پول موقت با دوام کسب‌وکار یکی نیست.",
+        "اگر default dead هستی، هم‌زمان روی رشد درآمد، کاهش burn و دفاع‌پذیری مسیر سرمایه کار کن.",
+        "سرمایه را برای شتاب بهتر ببین، نه تنها راه نفس‌کشیدن شرکت.",
+        "قبل از کم‌شدن گزینه‌ها، تصمیم سخت را زودتر بگیر: تمرکز، کاهش هزینه، تغییر مسیر یا فاندریزینگ جدی.",
+      ],
+    },
+    en: {
+      paragraphs: [
+        "Paul Graham's frame asks a direct operating question: if nothing unusually lucky happens, will the company survive on its current trajectory? Runway alone is not safety. A startup is safer when the current combination of revenue, growth, spending, and time points toward durability rather than dependence on the next financing round.",
+        "Being default alive means the company can reach a sustainable state if it keeps executing from here. It may still be small, and it may still want more capital, but survival is not entirely outsourced to investors. Being default dead means the company runs out of money unless something external changes, even if the team is talented and the product looks promising.",
+        "The value of the concept is that it replaces vague optimism with a decision. A founder can always say that fundraising will happen later, or that growth will solve the burn rate, but those statements need numbers behind them. If the current path does not lead to survival, the team has to change the path while it still has options.",
+        "The practical response is not panic. It is operating discipline. Increase revenue quality, reduce burn where it does not create learning or growth, sharpen the product and market story, and decide whether fundraising is a growth accelerant or a survival dependency. The earlier this is known, the more room the founder has to act.",
+      ],
+      takeaways: [
+        "Review monthly whether the company is default alive or default dead.",
+        "Separate runway from survivability; temporary cash is not the same as a durable business.",
+        "If the company is default dead, work on revenue, burn, and fundraising readiness together.",
+        "Prefer raising money for acceleration, not as the only way to keep breathing.",
+        "Make the hard decision while there are still options: focus, cut, pivot, or fundraise deliberately.",
+      ],
+    },
+    ar: {
+      paragraphs: [
+        "يطرح Paul Graham في هذا المقال سؤالا تشغيليا مباشرا: إذا لم يحدث شيء استثنائي، هل ستبقى الشركة حية بمسارها الحالي؟ وجود runway لا يعني الأمان وحده. تكون الشركة أكثر أمانا عندما تشير الإيرادات والنمو والمصاريف والوقت إلى قدرة حقيقية على الاستمرار، لا إلى اعتماد كامل على جولة تمويل جديدة.",
+        "أن تكون الشركة default alive يعني أنها تستطيع الوصول إلى وضع قابل للاستمرار إذا واصلت التنفيذ من هنا. قد تكون صغيرة، وقد ترغب في رأس مال إضافي، لكن البقاء ليس مرهونا تماما بالمستثمرين. أما default dead فيعني أن الشركة ستنفد أموالها ما لم يتغير شيء خارجي، حتى لو كان الفريق قويا والمنتج واعدا.",
+        "قيمة الفكرة أنها تستبدل التفاؤل الغامض بقرار واضح. يستطيع المؤسس دائما أن يقول إن التمويل سيأتي لاحقا أو إن النمو سيحل مشكلة الحرق المالي، لكن هذه الجمل تحتاج إلى أرقام. إذا لم يؤد المسار الحالي إلى البقاء، فعلى الفريق تغيير المسار بينما لا تزال لديه خيارات.",
+        "الاستجابة العملية ليست الذعر، بل الانضباط التشغيلي: تحسين جودة الإيراد، خفض المصاريف التي لا تصنع تعلما أو نموا، توضيح قصة المنتج والسوق، وتحديد هل التمويل وسيلة تسريع أم شرط للبقاء. كلما عرف المؤسس ذلك مبكرا، امتلك مساحة أكبر للحركة.",
+      ],
+      takeaways: [
+        "راجع شهريا هل الشركة default alive أم default dead.",
+        "افصل بين runway وبين القدرة على البقاء؛ المال المؤقت لا يعني عملا قابلا للاستمرار.",
+        "إذا كانت الشركة default dead، اعمل في الوقت نفسه على الإيراد والحرق والاستعداد للتمويل.",
+        "اجعل التمويل أداة تسريع قدر الإمكان، لا الطريقة الوحيدة للتنفس.",
+        "اتخذ القرار الصعب مبكرا: التركيز، خفض المصاريف، تغيير المسار، أو جمع التمويل بوضوح.",
       ],
     },
   },
