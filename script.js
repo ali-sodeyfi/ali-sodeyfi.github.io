@@ -15,8 +15,8 @@ const translations = {
   fa: {
     documentTitle: "علی سدیفی | یادداشت‌هایی درباره ساختن",
     metaDescription:
-      "علی سدیفی؛ یادداشت‌ها و تجربه‌هایی درباره ساختن شرکت، کار با تیم‌ها و فهمیدن مسئله‌های مبهم.",
-    brandRole: "یادداشت‌هایی درباره ساختن",
+      "علی سدیفی؛ یادداشت‌هایی درباره ساختن کسب‌وکار، محصول و تیم، و تبدیل ابهام به تصمیم‌های روشن.",
+    brandRole: "ساختن، محصول، تیم",
     navWork: "تجربه‌ها",
     navThesis: "روش کار",
     navArticles: "مقالات",
@@ -24,63 +24,63 @@ const translations = {
     eyebrow: "علی سدیفی / Ali Sodeyfi",
     heroTitle: "علی سدیفی",
     heroLead:
-      "یادداشت‌ها و تجربه‌هایی درباره ساختن شرکت، کار با تیم‌ها و فهمیدن مسئله‌های مبهم.",
+      "درباره ساختن کسب‌وکار، محصول و تیم؛ جایی که ابهام باید به تصمیم روشن و کار قابل اجرا تبدیل شود.",
     heroThesis:
-      "بیشتر از عنوان‌ها، به سؤال‌هایی علاقه دارم که کار را روشن‌تر می‌کنند: مسئله چیست، چه چیزی واقعاً فهمیده‌ایم، و قدم بعدی کدام است؟",
+      "برای من کار جدی از جایی شروع می‌شود که جواب آماده نداریم: باید مسئله را دقیق‌تر ببینیم، شواهد را از حدس جدا کنیم و قدم بعدی را کوچک اما واقعی انتخاب کنیم.",
     heroPrimary: "خواندن یادداشت‌ها",
     profileCaptionLabel: "اکنون",
     profileCaption:
-      "درگیر اینم که پلتفرم‌ها چطور می‌توانند با اعتماد، یادگیری و عملیات ساده‌تر رشد کنند.",
-    positioningLabel: "چند سؤال",
+      "این روزها بیشتر به رشد پلتفرم‌ها، اعتماد در مقیاس، یادگیری بازار و ساده‌سازی عملیات فکر می‌کنم.",
+    positioningLabel: "زاویه نگاه",
     positioningTitle:
-      "کار وقتی برایم جدی می‌شود که هنوز جواب آماده‌ای وجود ندارد.",
+      "ساختن برایم یعنی کم‌کردن ابهام، نه زیادکردن ادعا.",
     positioningBody:
-      "معمولاً کنار تیم‌ها و بنیان‌گذارهایی بوده‌ام که باید بین ابهام و اجرا پل بزنند؛ جایی که لازم است مسئله دقیق‌تر دیده شود، تصمیم‌ها ساده‌تر شوند و آدم‌ها بتوانند با زبان مشترک جلو بروند.",
+      "در پروژه‌های مختلف، مسئله اصلی معمولاً خود ایده نیست؛ فاصله بین چیزی است که تیم تصور می‌کند، چیزی که بازار نشان می‌دهد و تصمیمی که باید امروز گرفته شود.",
     briefOneLabel: "مسئله",
     briefOne:
-      "چه چیزی را واقعاً می‌دانیم، و چه چیزی فقط در جلسه‌ها تکرار شده است؟",
+      "کدام درد واقعی است و چه شاهدی داریم که فقط برداشت داخلی نیست؟",
     briefTwoLabel: "ریتم",
     briefTwo:
-      "چطور می‌شود یادگیری از بازار را وارد ریتم واقعی کار کرد، نه فقط گزارش‌ها؟",
+      "یادگیری از بازار دقیقاً کجای ریتم هفتگی تیم می‌نشیند؟",
     briefThreeLabel: "سیستم",
     briefThree:
-      "کدام بخش باید مستقل از آدم‌ها شود و کدام بخش باید انسانی و قضاوت‌محور بماند؟",
+      "کدام تصمیم‌ها باید تبدیل به سیستم شوند و کدام هنوز به قضاوت انسانی نیاز دارند؟",
     trackLabel: "مسیر کار",
-    trackTitle: "چند موقعیت که از آن‌ها یاد گرفته‌ام",
+    trackTitle: "تجربه‌هایی که زاویه نگاه را ساخته‌اند",
     trackIntro:
-      "این‌ها بیشتر زمینه‌اند تا کارنامه؛ رد چیزهایی که نگاه کاری‌ام را ساخته‌اند.",
+      "کوتاه و بی‌اغراق: چند زمینه کاری که از آن‌ها درباره محصول، بازار، سرمایه و اعتماد یاد گرفته‌ام.",
     workOneYear: "اکوسیستم",
     workOneTitle: "باسلام - توسعه اکوسیستم",
     workOneDescription:
       "باسلام یک پلتفرم خرید و فروش اجتماعی است که فروشنده‌های کوچک و خریداران را در یک بازارگاه انسانی‌تر به هم وصل می‌کند.",
     workOneBody:
-      "جایی برای فهمیدن اینکه رشد یک پلتفرم فقط محصول و عدد نیست؛ هماهنگی، اعتماد و سازوکارهای کوچک هم بخشی از محصول‌اند.",
+      "در باسلام، رشد پلتفرم را از زاویه اعتماد، هماهنگی و سازوکارهای کوچک عملیاتی دیدم؛ چیزهایی که بیرون از فهرست قابلیت‌ها هم محصول را می‌سازند.",
     workTwoYear: "سرمایه‌گذاری اولیه",
     workTwoTitle: "100استارتاپ - هم‌بنیان‌گذار و مدیرعامل",
     workTwoDescription:
       "100استارتاپ پلتفرمی برای سرمایه‌گذاری و همراهی با تیم‌های نوپا در مرحله‌های اولیه شکل‌گیری کسب‌وکار بود.",
     workTwoBody:
-      "کار نزدیک با تیم‌های اولیه یادم داد انتخاب بنیان‌گذار، همراهی و ساختن اعتماد، قبل از هر مدل مالی یا برنامه رشد معنا پیدا می‌کند.",
+      "کار نزدیک با تیم‌های نوپا نشان داد کیفیت بنیان‌گذار، ریتم همراهی و اعتماد عملی، قبل از هر مدل مالی یا برنامه رشد معنا پیدا می‌کند.",
     workThreeYear: "کار حرفه‌ای",
     workThreeTitle: "آکادمی تکانش - هم‌بنیان‌گذار و عضو هیئت‌مدیره",
     workThreeDescription:
       "آکادمی تکانش روی آموزش و حرفه‌ای‌تر شدن مسیر کار مستقل و فریلنسری تمرکز داشت.",
     workThreeBody:
-      "آنجا مسئله اصلی فقط آموزش نبود؛ ساختن عادتی بود که کار مستقل را قابل اتکاتر، منظم‌تر و قابل گفت‌وگو کند.",
+      "در تکانش، مسئله فقط آموزش نبود؛ تبدیل کار مستقل به مسیر حرفه‌ای‌تر، قابل اتکاتر و قابل گفت‌وگوتر بود.",
     workFourYear: "اعتماد و فرایند",
     workFourTitle: "همیان - هم‌بنیان‌گذار و عضو هیئت‌مدیره",
     workFourDescription:
       "همیان تجربه‌ای در طراحی سازوکارهای مالی و قرض‌الحسنه بود؛ جایی که اعتماد و شفافیت بخش اصلی محصول محسوب می‌شد.",
     workFourBody:
-      "در کار مالی اجتماعی، فهمیدم فرایند خوب وقتی ارزشمند است که اعتماد را سنگین نکند و شفافیت را به رفتار روزمره تبدیل کند.",
+      "در کار مالی اجتماعی، مسئله این بود که فرایند چطور می‌تواند اعتماد را سنگین نکند و شفافیت را به رفتار روزمره تبدیل کند.",
     workFiveYear: "آموزش و محصول",
     workFiveTitle: "شتاب‌دهنده EduTech - بنیان‌گذار و مدیرعامل",
     workFiveDescription:
       "شتاب‌دهنده EduTech برای کمک به تیم‌هایی شکل گرفت که می‌خواستند ایده‌های آموزشی را به محصول و کسب‌وکار تبدیل کنند.",
     workFiveBody:
-      "کار با تیم‌های آموزشی نشان داد تا وقتی زبان محصول، یادگیری و بازار یکی نشود، بهترین نیت‌ها هم سخت به محصول زنده تبدیل می‌شوند.",
+      "کار با تیم‌های آموزشی یادآوری کرد که ایده خوب وقتی محصول می‌شود که زبان آموزش، بازار و عملیات به هم نزدیک شود.",
     thesisLabel: "روش کار",
-    thesisTitle: "چند اصل ساده که معمولاً برمی‌گردند",
+    thesisTitle: "اصولی که در کار مدام برمی‌گردند",
     thesisIntro:
       "در پروژه‌های مختلف، جواب‌ها عوض شده‌اند؛ اما این چند اصل زیاد برگشته‌اند.",
     focusOneTitle: "از مسئله شروع کن",
@@ -93,9 +93,9 @@ const translations = {
     focusThreeBody:
       "خیلی از مسئله‌ها از نداشتن زبان مشترک بین تیم، بازار، سرمایه‌گذار و عملیات سخت می‌شوند.",
     articlesLabel: "مطالعه",
-    articlesTitle: "کتابخانه کوچک برای ساختن بهتر",
+    articlesTitle: "مطالعه برای ساختن بهتر",
     articlesIntro:
-      "هر بار یک متن معتبر درباره کارآفرینی، رشد یا ساخت شرکت؛ با ترجمه آزاد داخل سایت و لینک منبع اصلی.",
+      "متن‌های معتبر درباره کارآفرینی، رشد و ساخت شرکت؛ با ترجمه آزاد داخل سایت و ارجاع روشن به منبع اصلی.",
     articleTodayLabel: "انتخاب امروز",
     articleSelectedLabel: "ترجمه منتخب",
     articleArchiveLabel: "آرشیو منتخب",
@@ -127,8 +127,8 @@ const translations = {
   en: {
     documentTitle: "Ali Sodeyfi | Notes on building",
     metaDescription:
-      "Ali Sodeyfi: notes and experiences on building companies, working with teams, and making ambiguous problems clearer.",
-    brandRole: "Notes on building",
+      "Ali Sodeyfi: notes on building businesses, products, and teams, and turning ambiguity into clearer decisions.",
+    brandRole: "Building, product, teams",
     navWork: "Work",
     navThesis: "Method",
     navArticles: "Articles",
@@ -136,63 +136,63 @@ const translations = {
     eyebrow: "Ali Sodeyfi",
     heroTitle: "Ali Sodeyfi",
     heroLead:
-      "Notes and experiences on building companies, working with teams, and understanding ambiguous problems.",
+      "Notes on building businesses, products, and teams where ambiguity has to become clearer decisions and executable work.",
     heroThesis:
-      "I am more interested in the questions that make work clearer: what is the problem, what do we actually know, and what is the next useful step?",
+      "Serious work starts for me where there is no ready-made answer: see the problem more precisely, separate evidence from assumption, and choose the next small real step.",
     heroPrimary: "Read notes",
     profileCaptionLabel: "Now",
     profileCaption:
-      "Thinking about how platforms can grow with more trust, learning, and simpler operations.",
-    positioningLabel: "Questions",
+      "Thinking about platform growth, trust at scale, market learning, and simpler operations.",
+    positioningLabel: "Point of view",
     positioningTitle:
-      "Work becomes interesting to me when there is no ready-made answer yet.",
+      "Building, to me, means reducing ambiguity rather than adding claims.",
     positioningBody:
-      "I have usually worked beside teams and founders who needed to build a bridge between ambiguity and execution: seeing the problem more clearly, simplifying decisions, and helping people move with a shared language.",
+      "Across different projects, the hard part is rarely the idea alone. It is the gap between what the team believes, what the market is showing, and the decision that has to be made today.",
     briefOneLabel: "Problem",
     briefOne:
-      "What do we actually know, and what has only been repeated in meetings?",
+      "Which pain is real, and what evidence proves it is not only an internal belief?",
     briefTwoLabel: "Rhythm",
     briefTwo:
-      "How can market learning enter the real rhythm of work, not just reports?",
+      "Where exactly does market learning enter the team's weekly operating rhythm?",
     briefThreeLabel: "System",
     briefThree:
-      "Which parts should become independent of people, and which parts should remain human and judgment-led?",
+      "Which decisions should become systems, and which still need human judgment?",
     trackLabel: "Work path",
-    trackTitle: "A few situations I learned from",
+    trackTitle: "Experiences that shaped the point of view",
     trackIntro:
-      "More context than scoreboard: traces of the work that shaped my point of view.",
+      "Briefly and without theater: a few contexts that taught me about product, market, capital, and trust.",
     workOneYear: "Ecosystem",
     workOneTitle: "Basalam - Ecosystem Development",
     workOneDescription:
       "Basalam is a social commerce marketplace that connects small sellers and buyers in a more human shopping environment.",
     workOneBody:
-      "A place to learn that platform growth is not only product and numbers; coordination, trust, and small operating mechanisms are part of the product too.",
+      "At Basalam, platform growth became visible through trust, coordination, and small operating mechanisms, not only through features and numbers.",
     workTwoYear: "Early investment",
     workTwoTitle: "100Startups - Co-Founder & CEO",
     workTwoDescription:
       "100Startups was a platform for investing in and working with early-stage teams as their businesses were taking shape.",
     workTwoBody:
-      "Working closely with early teams taught me that founder selection, support, and trust come before any financial model or growth plan has meaning.",
+      "Working closely with early teams showed that founder quality, support rhythm, and practical trust come before any financial model or growth plan has meaning.",
     workThreeYear: "Professional work",
     workThreeTitle: "Tekanesh Academy - Co-Founder & Board Member",
     workThreeDescription:
       "Tekanesh Academy focused on learning systems and the professionalization of independent and freelance work.",
     workThreeBody:
-      "The main question was not only education; it was how independent work could become more reliable, more regular, and easier to discuss.",
+      "At Tekanesh, the question was not education alone; it was how independent work could become more professional, reliable, and easier to discuss.",
     workFourYear: "Trust and process",
     workFourTitle: "Hamyan - Co-Founder & Board Member",
     workFourDescription:
       "Hamyan was an experience in designing financial and Qarz-al-Hasanah mechanisms where trust and transparency were core parts of the product.",
     workFourBody:
-      "In social finance, I learned that a good process matters when it does not make trust heavier and can turn transparency into everyday behavior.",
+      "In social finance, the question was how process could avoid making trust heavier and turn transparency into everyday behavior.",
     workFiveYear: "Learning and product",
     workFiveTitle: "EduTech Accelerator - Founder & CEO",
     workFiveDescription:
       "EduTech Accelerator helped teams turn education ideas into products and businesses.",
     workFiveBody:
-      "Working with education teams showed me that until product, learning, and market share one language, even good intentions struggle to become a living product.",
+      "Working with education teams was a reminder that strong ideas become products only when learning, market, and operations start speaking closer languages.",
     thesisLabel: "Method",
-    thesisTitle: "A few simple principles I keep returning to",
+    thesisTitle: "Principles that keep returning in the work",
     thesisIntro:
       "Across different projects, the answers changed. These principles kept returning.",
     focusOneTitle: "Start with the problem",
@@ -205,9 +205,9 @@ const translations = {
     focusThreeBody:
       "Many problems become harder because teams, markets, investors, and operations do not yet have the same language.",
     articlesLabel: "Reading",
-    articlesTitle: "A small library for building better",
+    articlesTitle: "Reading for building better",
     articlesIntro:
-      "One credible essay at a time on entrepreneurship, growth, or company building, with a readable on-site adaptation and a link to the original source.",
+      "Credible writing on entrepreneurship, growth, and company building, with an on-site adaptation and a clear link to the original source.",
     articleTodayLabel: "Today's pick",
     articleSelectedLabel: "Selected translation",
     articleArchiveLabel: "Selected archive",
@@ -239,8 +239,8 @@ const translations = {
   ar: {
     documentTitle: "علي سدیفي | ملاحظات عن البناء",
     metaDescription:
-      "علي سدیفي: ملاحظات وتجارب عن بناء الشركات والعمل مع الفرق وفهم المشكلات الغامضة.",
-    brandRole: "ملاحظات عن البناء",
+      "علي سدیفي: ملاحظات عن بناء الأعمال والمنتجات والفرق، وتحويل الغموض إلى قرارات أوضح.",
+    brandRole: "البناء، المنتج، الفرق",
     navWork: "التجارب",
     navThesis: "المنهج",
     navArticles: "مقالات",
@@ -248,63 +248,63 @@ const translations = {
     eyebrow: "علي سدیفي / Ali Sodeyfi",
     heroTitle: "علي سدیفي",
     heroLead:
-      "ملاحظات وتجارب عن بناء الشركات، والعمل مع الفرق، وفهم المشكلات الغامضة.",
+      "ملاحظات عن بناء الأعمال والمنتجات والفرق، حيث يجب أن يتحول الغموض إلى قرارات أوضح وعمل قابل للتنفيذ.",
     heroThesis:
-      "ما يهمني أكثر من العناوين هو الأسئلة التي تجعل العمل أوضح: ما المشكلة، ماذا نعرف فعلا، وما الخطوة المفيدة التالية؟",
+      "يبدأ العمل الجاد بالنسبة لي عندما لا تكون هناك إجابة جاهزة: رؤية المشكلة بدقة أكبر، فصل الدليل عن الافتراض، واختيار خطوة صغيرة لكنها حقيقية.",
     heroPrimary: "قراءة الملاحظات",
     profileCaptionLabel: "الآن",
     profileCaption:
-      "أفكر في كيفية نمو المنصات بثقة أكبر وتعلم أفضل وعمليات أبسط.",
-    positioningLabel: "أسئلة",
+      "أفكر في نمو المنصات، والثقة على نطاق واسع، والتعلم من السوق، وتبسيط العمليات.",
+    positioningLabel: "زاوية نظر",
     positioningTitle:
-      "يصبح العمل جديا بالنسبة لي حين لا تكون هناك إجابة جاهزة بعد.",
+      "البناء بالنسبة لي يعني تقليل الغموض، لا زيادة الادعاءات.",
     positioningBody:
-      "غالبا عملت بجانب فرق ومؤسسين يحتاجون إلى بناء جسر بين الغموض والتنفيذ: رؤية المشكلة بوضوح أكبر، تبسيط القرارات، ومساعدة الناس على التقدم بلغة مشتركة.",
+      "في المشاريع المختلفة، لا تكون الصعوبة غالبا في الفكرة وحدها، بل في الفجوة بين ما يعتقده الفريق، وما يظهره السوق، والقرار الذي يجب اتخاذه اليوم.",
     briefOneLabel: "المشكلة",
     briefOne:
-      "ما الذي نعرفه فعلا، وما الذي تكرر فقط في الاجتماعات؟",
+      "أي ألم حقيقي، وما الدليل على أنه ليس مجرد اعتقاد داخلي؟",
     briefTwoLabel: "الإيقاع",
     briefTwo:
-      "كيف يدخل التعلم من السوق في إيقاع العمل الحقيقي، لا في التقارير فقط؟",
+      "أين يدخل التعلم من السوق تحديدا في إيقاع الفريق الأسبوعي؟",
     briefThreeLabel: "النظام",
     briefThree:
-      "أي أجزاء يجب أن تصبح أقل اعتمادا على الأشخاص، وأي أجزاء يجب أن تبقى إنسانية وقائمة على الحكم؟",
+      "أي قرارات يجب أن تتحول إلى أنظمة، وأيها ما زال يحتاج إلى حكم بشري؟",
     trackLabel: "مسار العمل",
-    trackTitle: "بعض المواقف التي تعلمت منها",
+    trackTitle: "تجارب شكلت زاوية النظر",
     trackIntro:
-      "هذه أقرب إلى سياق من كونها سجل إنجازات؛ آثار من العمل الذي شكل وجهة نظري.",
+      "بإيجاز ومن دون مبالغة: بعض السياقات التي علمتني عن المنتج والسوق ورأس المال والثقة.",
     workOneYear: "المنظومة",
     workOneTitle: "Basalam - تطوير المنظومة",
     workOneDescription:
       "Basalam سوق تجارة اجتماعية يربط البائعين الصغار بالمشترين في تجربة شراء أكثر إنسانية.",
     workOneBody:
-      "مكان لفهم أن نمو المنصة ليس منتجا وأرقاما فقط؛ التنسيق والثقة والآليات التشغيلية الصغيرة جزء من المنتج أيضا.",
+      "في Basalam، ظهر نمو المنصة من خلال الثقة والتنسيق والآليات التشغيلية الصغيرة، لا من خلال الميزات والأرقام فقط.",
     workTwoYear: "استثمار مبكر",
     workTwoTitle: "100Startups - شريك مؤسس ومدير تنفيذي",
     workTwoDescription:
       "100Startups كانت منصة للاستثمار في الفرق الناشئة ومرافقتها في المراحل الأولى من تشكل العمل.",
     workTwoBody:
-      "العمل القريب مع الفرق الأولى علمني أن اختيار المؤسس والمرافقة وبناء الثقة تسبق معنى أي نموذج مالي أو خطة نمو.",
+      "العمل القريب مع الفرق الأولى أظهر أن جودة المؤسس وإيقاع المرافقة والثقة العملية تسبق معنى أي نموذج مالي أو خطة نمو.",
     workThreeYear: "عمل مهني",
     workThreeTitle: "Tekanesh Academy - شريك مؤسس وعضو مجلس إدارة",
     workThreeDescription:
       "ركزت Tekanesh Academy على أنظمة التعلم وجعل العمل المستقل والحر أكثر مهنية.",
     workThreeBody:
-      "لم تكن المسألة تعليما فقط؛ بل كيف يصبح العمل المستقل أكثر انتظاما واعتمادية وقابلية للنقاش.",
+      "في Tekanesh، لم تكن المسألة تعليما فقط؛ بل كيف يصبح العمل المستقل أكثر مهنية واعتمادية وقابلية للنقاش.",
     workFourYear: "ثقة وعملية",
     workFourTitle: "Hamyan - شريك مؤسس وعضو مجلس إدارة",
     workFourDescription:
       "كانت Hamyan تجربة في تصميم آليات مالية وقرض حسن حيث تكون الثقة والشفافية جزءا أساسيا من المنتج.",
     workFourBody:
-      "في التمويل الاجتماعي تعلمت أن العملية الجيدة تكون نافعة حين لا تجعل الثقة أثقل، وتحول الشفافية إلى سلوك يومي.",
+      "في التمويل الاجتماعي، كان السؤال كيف يمكن للعملية ألا تجعل الثقة أثقل، وأن تحول الشفافية إلى سلوك يومي.",
     workFiveYear: "تعلم ومنتج",
     workFiveTitle: "EduTech Accelerator - مؤسس ومدير تنفيذي",
     workFiveDescription:
       "ساعدت EduTech Accelerator فرقا على تحويل أفكار التعليم إلى منتجات وأعمال.",
     workFiveBody:
-      "العمل مع فرق التعليم أظهر لي أنه ما لم تتشارك اللغة بين المنتج والتعلم والسوق، يصعب أن تتحول النوايا الجيدة إلى منتج حي.",
+      "العمل مع فرق التعليم كان تذكيرا بأن الأفكار الجيدة تصبح منتجات عندما تقترب لغة التعلم والسوق والعمليات من بعضها.",
     thesisLabel: "المنهج",
-    thesisTitle: "مبادئ بسيطة أعود إليها كثيرا",
+    thesisTitle: "مبادئ تعود باستمرار في العمل",
     thesisIntro:
       "في المشاريع المختلفة تغيرت الإجابات، لكن هذه المبادئ ظلت تعود.",
     focusOneTitle: "ابدأ من المشكلة",
@@ -317,9 +317,9 @@ const translations = {
     focusThreeBody:
       "تصبح مشكلات كثيرة أصعب لأن الفريق والسوق والمستثمرين والعمليات لا يملكون اللغة نفسها بعد.",
     articlesLabel: "قراءة",
-    articlesTitle: "مكتبة صغيرة للبناء بشكل أفضل",
+    articlesTitle: "قراءة للبناء بشكل أفضل",
     articlesIntro:
-      "نص موثوق في كل مرة عن ريادة الأعمال أو النمو أو بناء الشركات، مع ترجمة حرة داخل الموقع ورابط المصدر الأصلي.",
+      "كتابات موثوقة عن ريادة الأعمال والنمو وبناء الشركات، مع ترجمة حرة داخل الموقع وإشارة واضحة إلى المصدر الأصلي.",
     articleTodayLabel: "اختيار اليوم",
     articleSelectedLabel: "ترجمة مختارة",
     articleArchiveLabel: "أرشيف مختار",
