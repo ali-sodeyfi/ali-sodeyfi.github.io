@@ -917,6 +917,103 @@ h2 {
   color: var(--ink);
 }
 
+.content-calendar {
+  background: transparent;
+}
+
+.content-calendar-list {
+  border-top: 1px solid var(--line);
+}
+
+.content-calendar-item {
+  display: grid;
+  grid-template-columns: minmax(9rem, 0.24fr) minmax(0, 1fr);
+  gap: clamp(1rem, 4vw, 2.25rem);
+  padding: 1.15rem 0;
+  border-bottom: 1px solid var(--line);
+  background: transparent;
+}
+
+.content-calendar-meta {
+  display: grid;
+  align-content: start;
+  gap: 0.45rem;
+  padding-top: 0.1rem;
+}
+
+.content-calendar-date {
+  color: var(--accent);
+  font-size: 0.78rem;
+  font-weight: 900;
+  line-height: 1.4;
+}
+
+.content-calendar-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.content-calendar-channel,
+.content-calendar-status {
+  display: inline-flex;
+  align-items: center;
+  min-height: 1.7rem;
+  padding: 0.16rem 0.5rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  font-size: 0.74rem;
+  font-weight: 800;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+.content-calendar-channel {
+  color: var(--muted);
+}
+
+.content-calendar-status {
+  border-color: color-mix(in srgb, var(--accent) 30%, var(--line));
+  background: color-mix(in srgb, var(--accent-soft) 72%, var(--paper));
+  color: var(--accent);
+}
+
+.content-calendar-copy h3 {
+  margin-bottom: 0.45rem;
+  font-size: 1.04rem;
+  line-height: 1.45;
+}
+
+.content-calendar-copy p {
+  margin-bottom: 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.85;
+}
+
+.content-calendar-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 0.85rem;
+  padding-top: 0.8rem;
+  border-top: 1px solid var(--line);
+}
+
+.content-calendar-source {
+  color: var(--muted);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.content-calendar-link {
+  min-height: 2rem;
+  padding: 0.35rem 0.65rem;
+  font-size: 0.76rem;
+  white-space: nowrap;
+}
+
 .contact-card {
   padding: 0;
   border: 0;
@@ -1037,6 +1134,11 @@ h2 {
   .article-card {
     grid-template-columns: 1fr;
   }
+
+  .content-calendar-item {
+    grid-template-columns: 1fr;
+    gap: 0.7rem;
+  }
 }
 
 @media (max-width: 620px) {
@@ -1138,6 +1240,11 @@ h2 {
   }
 
   .article-meta-line {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .content-calendar-footer {
     align-items: flex-start;
     flex-direction: column;
   }

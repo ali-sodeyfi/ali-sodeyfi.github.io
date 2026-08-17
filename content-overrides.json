@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-16T09:10:00.000Z",
+  "updatedAt": "2026-08-17T21:01:47.671Z",
   "translations": {
     "fa": {
       "documentTitle": "علی سدیفی | یادداشت‌هایی درباره ساختن",
@@ -56,7 +56,10 @@
       "contactLabel": "تماس",
       "contactTitle": "اگر مسئله‌ای داری که هنوز خوب نام‌گذاری نشده، خوشحال می‌شوم بشنوم.",
       "contactBody": "یک پیام کوتاه با زمینه مسئله، مرحله کار و چیزی که می‌خواهی روشن‌تر شود کافی است. اگر گفت‌وگو مفید بود، ادامه‌اش را پیدا می‌کنیم.",
-      "footerText": "یادداشت‌ها، تجربه‌ها و نوشته‌هایی درباره ساختن."
+      "footerText": "یادداشت‌ها، تجربه‌ها و نوشته‌هایی درباره ساختن.",
+      "contentCalendarLabel": "تقویم محتوا",
+      "contentCalendarTitle": "چیزی که این هفته منتشر می‌شود",
+      "contentCalendarIntro": "خروجی‌های کوتاه و واقعی برای سایت، لینکدین و استوری؛ نه وعده‌های مبهم."
     },
     "en": {
       "documentTitle": "Ali Sodeyfi | Notes on building",
@@ -112,7 +115,10 @@
       "contactLabel": "Contact",
       "contactTitle": "If you are carrying a problem that is not clearly named yet, I would be glad to hear it.",
       "contactBody": "A short note with the problem context, the stage of work, and what you are trying to make clearer is enough. If the conversation is useful, it will find its next step.",
-      "footerText": "Notes, work, and essays on building."
+      "footerText": "Notes, work, and essays on building.",
+      "contentCalendarLabel": "Content calendar",
+      "contentCalendarTitle": "What gets published this week",
+      "contentCalendarIntro": "Short, real outputs for the site, LinkedIn, and stories - not vague promises."
     },
     "ar": {
       "documentTitle": "علي سدیفي | ملاحظات عن البناء",
@@ -168,7 +174,10 @@
       "contactLabel": "التواصل",
       "contactTitle": "إذا كانت لديك مشكلة لم تحصل بعد على اسم واضح، يسعدني أن أسمعها.",
       "contactBody": "تكفي رسالة قصيرة عن سياق المشكلة ومرحلة العمل وما تريد جعله أوضح. إذا كان الحديث مفيدا، سيجد خطوته التالية.",
-      "footerText": "ملاحظات وتجارب ومقالات عن البناء."
+      "footerText": "ملاحظات وتجارب ومقالات عن البناء.",
+      "contentCalendarLabel": "تقويم المحتوى",
+      "contentCalendarTitle": "ما الذي سيُنشر هذا الأسبوع",
+      "contentCalendarIntro": "مخرجات قصيرة وحقيقية للموقع ولينكدإن والستوري، لا وعودا مبهمة."
     }
   }
 }

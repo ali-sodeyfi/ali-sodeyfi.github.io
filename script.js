@@ -5,6 +5,7 @@ const languageButtons = document.querySelectorAll("[data-lang]");
 const translatableNodes = document.querySelectorAll("[data-i18n]");
 const dailyArticleContainer = document.querySelector("[data-daily-article]");
 const articleListContainer = document.querySelector("[data-article-list]");
+const contentCalendarContainer = document.querySelector("[data-content-calendar]");
 const html = document.documentElement;
 const liveSiteUrl = "https://alisodeyfi.ir/";
 const defaultShareImageUrl = `${liveSiteUrl}assets/ali-sodeyfi.jpg`;
@@ -114,6 +115,10 @@ const translations = {
     articleTakeawaysLabel: "نکات اجرایی",
     articleCopyrightNote:
       "این متن ترجمه آزاد و بازنویسی‌شده است، نه بازنشر کلمه‌به‌کلمه مقاله اصلی.",
+    contentCalendarLabel: "تقویم محتوا",
+    contentCalendarTitle: "چیزی که این هفته منتشر می‌شود",
+    contentCalendarIntro:
+      "خروجی‌های کوتاه و واقعی برای سایت، لینکدین و استوری؛ نه وعده‌های مبهم.",
     contactLabel: "تماس",
     contactTitle:
       "اگر مسئله‌ای داری که هنوز خوب نام‌گذاری نشده، خوشحال می‌شوم بشنوم.",
@@ -226,6 +231,10 @@ const translations = {
     articleTakeawaysLabel: "Operating takeaways",
     articleCopyrightNote:
       "This is a free adaptation, not a word-for-word republication of the original article.",
+    contentCalendarLabel: "Content calendar",
+    contentCalendarTitle: "What gets published this week",
+    contentCalendarIntro:
+      "Short, real outputs for the site, LinkedIn, and stories - not vague promises.",
     contactLabel: "Contact",
     contactTitle:
       "If you are carrying a problem that is not clearly named yet, I would be glad to hear it.",
@@ -338,6 +347,10 @@ const translations = {
     articleTakeawaysLabel: "نقاط تشغيلية",
     articleCopyrightNote:
       "هذا النص ترجمة حرة وإعادة صياغة، وليس إعادة نشر حرفية للمقال الأصلي.",
+    contentCalendarLabel: "تقويم المحتوى",
+    contentCalendarTitle: "ما الذي سيُنشر هذا الأسبوع",
+    contentCalendarIntro:
+      "مخرجات قصيرة وحقيقية للموقع ولينكدإن والستوري، لا وعودا مبهمة.",
     contactLabel: "التواصل",
     contactTitle:
       "إذا كانت لديك مشكلة لم تحصل بعد على اسم واضح، يسعدني أن أسمعها.",
@@ -1453,6 +1466,135 @@ const articleEssayExpansion = {
   },
 };
 
+const contentCalendarBlueprints = {
+  fa: [
+    {
+      offsetDays: 0,
+      channel: "سایت",
+      status: "آماده انتشار",
+      title: (article) => `ترجمه امروز: ${article.title}`,
+      body: (article) =>
+        `نسخه فارسی این مقاله با ترجمه خواندنی، ارجاع روشن به ${article.source} و چند نکته اجرایی منتشر می‌شود.`,
+    },
+    {
+      offsetDays: 1,
+      channel: "لینکدین",
+      status: "پیش‌نویس",
+      title: (article) => `پست لینکدین: ${article.title}`,
+      body: (article, essay, summary) =>
+        `محور این پست: ${pickEssayLine(essay, 0, summary)}. کوتاه، مستقیم و مناسب مخاطب حرفه‌ای.`,
+    },
+    {
+      offsetDays: 2,
+      channel: "استوری",
+      status: "آماده تصویر",
+      title: () => "استوری سه‌اسلایدی",
+      body: (article, essay, summary) =>
+        `اسلاید اول: عنوان و نام نویسنده. اسلاید دوم: ${pickEssayLine(essay, 1, summary)}. اسلاید سوم: لینک سایت و منبع اصلی.`,
+    },
+    {
+      offsetDays: 3,
+      channel: "یادداشت کوتاه",
+      status: "در حال نوشتن",
+      title: (article) => `سؤال از ${article.title}`,
+      body: (article, essay, summary) =>
+        `اگر قرار باشد فقط یک تصمیم کاری از این مقاله عوض شود، کدام تصمیم است؟ ${pickEssayLine(essay, 2, summary)}`,
+    },
+    {
+      offsetDays: 4,
+      channel: "جمع‌بندی",
+      status: "در صف",
+      title: () => "جمع‌بندی هفتگی",
+      body: () =>
+        "سه نکته از مقاله، یک تصمیم بعدی و یک لینک به منبع اصلی؛ خروجی‌ای که خواندن را به عمل وصل می‌کند.",
+    },
+  ],
+  en: [
+    {
+      offsetDays: 0,
+      channel: "Site",
+      status: "Ready to publish",
+      title: (article) => `Today on the site: ${article.title}`,
+      body: (article) =>
+        `A readable adaptation goes live with source credit to ${article.source} and operating takeaways, not just a thin summary.`,
+    },
+    {
+      offsetDays: 1,
+      channel: "LinkedIn",
+      status: "Draft",
+      title: (article) => `LinkedIn note: ${article.title}`,
+      body: (article, essay, summary) =>
+        `Post angle: ${pickEssayLine(essay, 0, summary)}. Short, direct, and grounded in ${article.author} / ${article.source}.`,
+    },
+    {
+      offsetDays: 2,
+      channel: "Story",
+      status: "Ready for creative",
+      title: () => "Three-slide story",
+      body: (article, essay, summary) =>
+        `Slide 1: title and author. Slide 2: ${pickEssayLine(essay, 1, summary)}. Slide 3: the site link and the original source.`,
+    },
+    {
+      offsetDays: 3,
+      channel: "Note",
+      status: "Writing",
+      title: (article) => `Question post: ${article.title}`,
+      body: (article, essay, summary) =>
+        `If you changed only one thing from this article, which decision would move this week? ${pickEssayLine(essay, 2, summary)}`,
+    },
+    {
+      offsetDays: 4,
+      channel: "Recap",
+      status: "Queued",
+      title: () => "Weekly recap",
+      body: () =>
+        "Three ideas, one next decision, and one original source link. The goal is to turn reading into operating output.",
+    },
+  ],
+  ar: [
+    {
+      offsetDays: 0,
+      channel: "الموقع",
+      status: "جاهز للنشر",
+      title: (article) => `ترجمة اليوم: ${article.title}`,
+      body: (article) =>
+        `تنشر النسخة العربية المبسطة من هذه المقالة مع إشارة واضحة إلى ${article.source} ونقاط تشغيلية قابلة للاستخدام.`,
+    },
+    {
+      offsetDays: 1,
+      channel: "لينكدإن",
+      status: "مسودة",
+      title: (article) => `منشور لينكدإن: ${article.title}`,
+      body: (article, essay, summary) =>
+        `زاوية المنشور: ${pickEssayLine(essay, 0, summary)}. قصير ومباشر ومرتبط بـ ${article.author} / ${article.source}.`,
+    },
+    {
+      offsetDays: 2,
+      channel: "الستوري",
+      status: "جاهز للتصميم",
+      title: () => "ستوري من ثلاث شرائح",
+      body: (article, essay, summary) =>
+        `الشريحة الأولى: العنوان واسم الكاتب. الشريحة الثانية: ${pickEssayLine(essay, 1, summary)}. الشريحة الثالثة: رابط الموقع والمصدر الأصلي.`,
+    },
+    {
+      offsetDays: 3,
+      channel: "ملاحظة قصيرة",
+      status: "قيد الكتابة",
+      title: (article) => `سؤال من ${article.title}`,
+      body: (article, essay, summary) =>
+        `إذا غيّرت قرارا واحدا فقط من هذا المقال، فأي قرار سيتحرك هذا الأسبوع؟ ${pickEssayLine(essay, 2, summary)}`,
+    },
+    {
+      offsetDays: 4,
+      channel: "ملخص أسبوعي",
+      status: "في الصف",
+      title: () => "ملخص أسبوعي",
+      body: () =>
+        "ثلاث أفكار، قرار واحد قادم، ورابط إلى المصدر الأصلي. الهدف أن يتحول القراءة إلى أثر تشغيلي.",
+    },
+  ],
+};
+
 function getDailyArticleIndex() {
   const tehranOffsetMs = 3.5 * 60 * 60 * 1000;
   const tehranNow = new Date(Date.now() + tehranOffsetMs);
@@ -1476,6 +1618,20 @@ function getTehranDate(language) {
     month: "long",
     day: "numeric",
   }).format(new Date());
+}
+
+function getContentCalendarDate(language, offsetDays = 0) {
+  const locale = language === "en" ? "en-US" : language === "ar" ? "ar" : "fa-IR";
+  const date = new Date();
+
+  date.setDate(date.getDate() + offsetDays);
+
+  return new Intl.DateTimeFormat(locale, {
+    timeZone: "Asia/Tehran",
+    weekday: "short",
+    month: "short",
+    day: "numeric",
+  }).format(date);
 }
 
 function getArticleSlug(article) {
@@ -1756,6 +1912,48 @@ function renderArticleAdvice(advice, label) {
   `;
 }
 
+function pickEssayLine(essay, index, fallback) {
+  return essay.advice?.[index] ?? essay.takeaways?.[index] ?? essay.paragraphs?.[index] ?? fallback;
+}
+
+function renderContentCalendar(language, article, essay) {
+  if (!contentCalendarContainer || !article) {
+    return;
+  }
+
+  const dictionary = translations[language] ?? translations.fa;
+  const blueprint = contentCalendarBlueprints[language] ?? contentCalendarBlueprints.fa;
+  const summary = article.summary[language] ?? article.summary.en;
+
+  contentCalendarContainer.innerHTML = blueprint
+    .map((item) => {
+      const title = item.title(article, essay, summary, dictionary);
+      const body = item.body(article, essay, summary, dictionary);
+      const dateLabel = getContentCalendarDate(language, item.offsetDays);
+
+      return `
+        <article class="content-calendar-item">
+          <div class="content-calendar-meta">
+            <span class="content-calendar-date">${escapeHtml(dateLabel)}</span>
+            <div class="content-calendar-badges">
+              <span class="content-calendar-channel">${escapeHtml(item.channel)}</span>
+              <span class="content-calendar-status">${escapeHtml(item.status)}</span>
+            </div>
+          </div>
+          <div class="content-calendar-copy">
+            <h3>${escapeHtml(title)}</h3>
+            <p>${escapeHtml(body)}</p>
+            <div class="content-calendar-footer">
+              <span class="content-calendar-source">${escapeHtml(dictionary.articleSourceLabel)} · ${escapeHtml(getArticleCredit(article))}</span>
+              <a class="article-card-action article-card-action-secondary content-calendar-link" href="${escapeHtml(article.url)}" target="_blank" rel="noreferrer">${escapeHtml(dictionary.articleReadLabel)}</a>
+            </div>
+          </div>
+        </article>
+      `;
+    })
+    .join("");
+}
+
 function renderArticles(language) {
   if (!dailyArticleContainer || !articleListContainer) {
     return;
@@ -1836,6 +2034,8 @@ function renderArticles(language) {
       `;
     })
     .join("");
+
+  renderContentCalendar(language, dailyArticle, dailyEssay);
 }
 
 function scrollToArticleStart(behavior = "smooth") {
