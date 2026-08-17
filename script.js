@@ -522,6 +522,23 @@ const articleCatalog = [
     },
   },
   {
+    title: "Ramen Profitable",
+    author: "Paul Graham",
+    source: "Paul Graham",
+    year: "2009",
+    url: "https://paulgraham.com/ramenprofitable.html",
+    tags: {
+      fa: ["بقا", "درآمد اولیه", "فاندریزینگ"],
+      en: ["survival", "early revenue", "fundraising"],
+      ar: ["البقاء", "الإيراد المبكر", "جمع التمويل"],
+    },
+    summary: {
+      fa: "یک متن کاربردی درباره اینکه درآمد کوچک اما واقعی چگونه به تیم زمان، تمرکز و قدرت تصمیم‌گیری بیشتری می‌دهد.",
+      en: "A practical essay on how small but real revenue can buy a startup time, focus, and better decision-making power.",
+      ar: "مقال عملي عن كيف يمكن للإيراد الصغير لكنه الحقيقي أن يمنح الشركة الناشئة وقتا وتركيزا وقوة قرار أفضل.",
+    },
+  },
+  {
     title: "How to Talk to Users",
     author: "Gustaf Alstromer",
     source: "Y Combinator",
@@ -973,6 +990,56 @@ const articleEssays = {
         "افصل أخطر ثلاث فرضيات خلف كل فكرة.",
         "صمم أرخص اختبار موثوق قبل بناء المنتج.",
         "يجب أن ينتج الاختبار قرارا: الاستمرار أو التغيير أو التوقف.",
+      ],
+    },
+  },
+  "Ramen Profitable": {
+    fa: {
+      paragraphs: [
+        "Paul Graham در این مقاله از یک وضعیت کوچک اما تعیین‌کننده حرف می‌زند: لحظه‌ای که درآمد شرکت آن‌قدر هست که هزینه زندگی بنیان‌گذارها را پوشش بدهد. این سودآوری به معنای موفقیت نهایی نیست و با سودآوری یک شرکت بالغ فرق دارد؛ اما یک چیز مهم می‌خرد: زمان. وقتی شرکت برای زنده‌ماندن کاملاً وابسته به سرمایه بعدی نیست، کیفیت تصمیم‌ها تغییر می‌کند.",
+        "درآمد کوچک واقعی، تیم را از حالت نظری بیرون می‌آورد. تا قبل از آن، شرکت ممکن است بیشتر شبیه ایده، pitch یا پروژه باشد. وقتی چند مشتری پول واقعی می‌دهند، حتی اگر عدد بزرگ نباشد، یک پیام جدی به تیم می‌رسد: کسی بیرون از ساختمان حاضر است برای این ارزش هزینه کند. این سیگنال از تعریف، تشویق و جلسه‌های خوب معتبرتر است.",
+        "نکته مهم مقاله این است که ramen profitable بودن مقصد نیست. قرار نیست شرکت در همان سطح کوچک بماند یا به یک کسب‌وکار خدماتی کم‌مقیاس تبدیل شود. این وضعیت بیشتر شبیه پلی است برای زنده‌ماندن در مسیر ساخت محصول بزرگ‌تر. اگر تیم این درآمد اولیه را با هدف نهایی اشتباه بگیرد، ممکن است در کارهای مشاوره‌ای یا فروش‌های غیرقابل‌تکرار گیر کند.",
+        "اما اگر درست استفاده شود، این درآمد کوچک چند مزیت عملی دارد. اول اینکه فشار فاندریزینگ را کم می‌کند؛ تیم مجبور نیست با هر شرایطی پول بگیرد. دوم اینکه برای سرمایه‌گذار هم نشانه جدی‌تری است: محصول فقط ایده نیست، کسی بابتش پول داده است. سوم اینکه روحیه تیم بهتر می‌شود، چون بقا از یک امید مبهم به یک واقعیت قابل مدیریت نزدیک‌تر می‌شود.",
+        "این نگاه برای بنیان‌گذارهایی مهم است که بین رشد، محصول و سرمایه سرگردان‌اند. اگر تمام ذهن تیم درگیر جذب سرمایه باشد، تمرکز از محصول و کاربر دور می‌شود. اما اگر شرکت بتواند بخشی از هزینه‌های پایه را با درآمد واقعی پوشش دهد، فاندریزینگ از اضطرار به انتخاب نزدیک‌تر می‌شود. آن وقت سرمایه می‌تواند برای شتاب گرفتن باشد، نه فقط برای نمردن.",
+        "البته هر نوع درآمدی مفید نیست. درآمدی که تیم را از مسیر محصول اصلی منحرف کند، می‌تواند خطرناک باشد. مسئله این است که درآمد اولیه باید یا از خود محصول بیاید، یا دست‌کم یادگیری معتبری برای محصول بسازد. اگر درآمد فقط با کار سفارشی و غیرقابل‌تکرار به دست بیاید، شاید runway را زیاد کند اما تمرکز استارتاپ را از بین ببرد.",
+        "برداشت عملی مقاله این است که پول کوچک را جدی بگیری، اما آن را با پیروزی اشتباه نگیری. هدف، ساختن یک ماشین درآمد بزرگ از روز اول نیست؛ هدف این است که یک سیگنال واقعی از بازار بگیری، هزینه بقا را پایین نگه داری و برای تصمیم‌های سخت زمان بخری. در استارتاپ، گاهی همین زمان اضافه، تفاوت بین ساختن و تمام‌شدن است.",
+      ],
+      takeaways: [
+        "یک عدد روشن برای هزینه بقا تعریف کن: حداقل درآمدی که هزینه زندگی بنیان‌گذارها و کار ضروری شرکت را پوشش می‌دهد.",
+        "درآمد اولیه را به‌عنوان سیگنال بازار بخوان، نه فقط پول نقد.",
+        "فاندریزینگ را تا حد ممکن از حالت اضطرار خارج کن؛ پول بهتر است شتاب بدهد، نه فقط شرکت را زنده نگه دارد.",
+        "مراقب درآمدهای خدماتی باش که تیم را از مسیر محصول اصلی منحرف می‌کنند.",
+        "هزینه‌ها را پایین نگه دار تا زمان بیشتری برای یادگیری، فروش و اصلاح محصول داشته باشی.",
+      ],
+    },
+    en: {
+      paragraphs: [
+        "Paul Graham describes a small but important state: the company earns enough to cover the founders' basic living costs. This is not final success, and it is not the profitability of a mature company. Its value is that it buys time. When survival is not fully dependent on the next financing round, the founder's choices become cleaner.",
+        "Small real revenue changes the company from a theory into something more concrete. Before that point, the startup may feel like an idea, a deck, or a project. When customers pay, even modestly, the team receives a stronger signal than praise: someone outside the building values the product enough to spend money.",
+        "Ramen profitability is not the destination. The danger is mistaking survival revenue for the final business model, especially if the money comes from custom work that does not scale. Used well, it is a bridge: it lowers fundraising pressure, improves morale, and gives the team more room to keep building the real product.",
+        "The practical discipline is to know the survival number, keep costs low, and make early revenue serve learning as well as cash. Fundraising can still be useful, but it becomes healthier when it accelerates a company rather than rescuing it from immediate death. That shift changes the negotiation and the founder's focus.",
+      ],
+      takeaways: [
+        "Define the survival number: the revenue needed to cover founder living costs and essential company work.",
+        "Treat early revenue as a market signal, not only cash.",
+        "Use revenue to reduce fundraising urgency and protect focus.",
+        "Avoid service revenue that pulls the team away from the product path.",
+        "Keep burn low enough to buy more time for learning, selling, and improving the product.",
+      ],
+    },
+    ar: {
+      paragraphs: [
+        "يتحدث Paul Graham عن حالة صغيرة لكنها مهمة: أن تحقق الشركة إيرادا يكفي لتغطية تكاليف معيشة المؤسسين الأساسية. هذا لا يعني النجاح النهائي، ولا يشبه ربحية شركة ناضجة. قيمته أنه يشتري الوقت. عندما لا يكون البقاء معتمدا كليا على جولة تمويل جديدة، تصبح قرارات المؤسس أوضح.",
+        "الإيراد الحقيقي ولو كان صغيرا يخرج الشركة من مرحلة النظرية. قبل ذلك قد تبدو الشركة كفكرة أو عرض أو مشروع. عندما يدفع العملاء، حتى بمبلغ متواضع، يحصل الفريق على إشارة أقوى من المجاملة: شخص خارج المبنى يرى قيمة كافية ليدفع مالا.",
+        "هذه الحالة ليست الوجهة النهائية. الخطر أن يخلط الفريق بين إيراد البقاء ونموذج العمل النهائي، خصوصا إذا جاء المال من أعمال مخصصة لا تتكرر. إذا استُخدمت جيدا، فهي جسر: تخفف ضغط جمع التمويل، ترفع المعنويات، وتمنح الفريق مساحة أكبر لبناء المنتج الحقيقي.",
+        "الانضباط العملي هو معرفة رقم البقاء، إبقاء التكاليف منخفضة، وجعل الإيراد المبكر يخدم التعلم كما يخدم النقد. لا يزال التمويل مفيدا، لكنه يصبح أصح عندما يسرع شركة موجودة لا عندما ينقذها من الموت الفوري. هذا التحول يغير التفاوض وتركيز المؤسس.",
+      ],
+      takeaways: [
+        "حدد رقم البقاء: الإيراد اللازم لتغطية معيشة المؤسسين والعمل الأساسي للشركة.",
+        "عامل الإيراد المبكر كإشارة من السوق، لا كنقد فقط.",
+        "استخدم الإيراد لتقليل استعجال التمويل وحماية التركيز.",
+        "تجنب إيرادات الخدمات التي تسحب الفريق بعيدا عن مسار المنتج.",
+        "أبق الحرق المالي منخفضا لتشتري وقتا أطول للتعلم والبيع وتحسين المنتج.",
       ],
     },
   },
