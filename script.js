@@ -1913,7 +1913,9 @@ function renderArticleAdvice(advice, label) {
 }
 
 function pickEssayLine(essay, index, fallback) {
-  return essay.advice?.[index] ?? essay.takeaways?.[index] ?? essay.paragraphs?.[index] ?? fallback;
+  const value = essay.advice?.[index] ?? essay.takeaways?.[index] ?? essay.paragraphs?.[index] ?? fallback;
+
+  return String(value).replace(/[.。.!！؟?،؛:]+$/u, "").trim();
 }
 
 function renderContentCalendar(language, article, essay) {
