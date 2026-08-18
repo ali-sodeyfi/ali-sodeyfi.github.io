@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-18T01:58:48.593Z",
+  "updatedAt": "2026-08-18T05:40:32.945Z",
   "translations": {
     "fa": {
       "documentTitle": "علی سدیفی | یادداشت‌هایی درباره ساختن",
@@ -189,7 +189,8 @@
         "target": "site",
         "articleSlug": "how-to-talk-to-users",
         "publishAt": "2026-08-18T09:00:00+03:30",
-        "status": "scheduled"
+        "status": "published",
+        "publishedAt": "2026-08-18T09:00:00+03:30"
       },
       {
         "id": "2026-08-18-linkedin-how-to-talk-to-users",
