@@ -40,12 +40,22 @@ export default {
         return saveContent(request, env, corsHeaders);
       }
 
+      if (route === "POST /publishing/run") {
+        await requireSession(request, env);
+        const result = await runScheduledPublishing(env);
+        return json({ ok: true, ...result }, 200, corsHeaders);
+      }
+
       throw new HttpError(404, "Not found");
     } catch (error) {
       const status = error instanceof HttpError ? error.status : 500;
       const message = error instanceof Error ? error.message : "Unexpected error";
       return json({ ok: false, error: message }, status, corsHeaders);
     }
+  },
+
+  async scheduled(event, env, ctx) {
+    ctx.waitUntil(runScheduledPublishing(env, new Date(event.scheduledTime)));
   },
 };
 
@@ -175,18 +185,12 @@ async function saveContent(request, env, corsHeaders) {
   const { content } = await readJson(request);
   const validatedContent = validateContent(content);
   const current = await readGitHubContent(env);
-  const path = env.CONTENT_PATH || DEFAULT_CONTENT_PATH;
-  const branch = env.GITHUB_BRANCH || DEFAULT_BRANCH;
-  const body = {
-    message: `Update site content from admin dashboard - ${new Date().toISOString()}`,
-    content: toBase64(JSON.stringify(validatedContent, null, 2) + "\n"),
-    sha: current.sha,
-    branch,
-  };
-  const result = await githubRequest(env, `/repos/${env.GITHUB_OWNER}/${env.GITHUB_REPO}/contents/${path}`, {
-    method: "PUT",
-    body: JSON.stringify(body),
-  });
+  const result = await writeGitHubContent(
+    env,
+    validatedContent,
+    current.sha,
+    `Update site content from admin dashboard - ${new Date().toISOString()}`,
+  );
 
   return json(
     {
@@ -212,6 +216,103 @@ async function readGitHubContent(env) {
     sha: result.sha,
     content: JSON.parse(text),
   };
+}
+
+async function writeGitHubContent(env, content, sha, message) {
+  const path = env.CONTENT_PATH || DEFAULT_CONTENT_PATH;
+  const branch = env.GITHUB_BRANCH || DEFAULT_BRANCH;
+  const body = {
+    message,
+    content: toBase64(JSON.stringify(content, null, 2) + "\n"),
+    sha,
+    branch,
+  };
+
+  return githubRequest(env, `/repos/${env.GITHUB_OWNER}/${env.GITHUB_REPO}/contents/${path}`, {
+    method: "PUT",
+    body: JSON.stringify(body),
+  });
+}
+
+async function runScheduledPublishing(env, now = new Date()) {
+  assertConfigured(env, ["GITHUB_TOKEN", "GITHUB_OWNER", "GITHUB_REPO"]);
+
+  const current = await readGitHubContent(env);
+  const content = validateContent(current.content);
+  const result = publishDueItems(content, now);
+
+  if (!result.changed) {
+    return {
+      published: 0,
+      ready: 0,
+      changed: false,
+    };
+  }
+
+  content.updatedAt = now.toISOString();
+  const writeResult = await writeGitHubContent(
+    env,
+    content,
+    current.sha,
+    `Run scheduled publishing - ${now.toISOString()}`,
+  );
+
+  return {
+    ...result,
+    changed: true,
+    commitUrl: writeResult.commit?.html_url ?? null,
+  };
+}
+
+function publishDueItems(content, now = new Date()) {
+  const queue = Array.isArray(content.publishing?.queue) ? content.publishing.queue : [];
+  let changed = false;
+  let published = 0;
+  let ready = 0;
+
+  queue.forEach((item) => {
+    if (!isDuePublishingItem(item, now)) {
+      return;
+    }
+
+    const nextStatus = getNextPublishingStatus(item);
+
+    item.status = nextStatus;
+
+    if (nextStatus === "published") {
+      item.publishedAt ??= item.publishAt;
+      published += 1;
+    }
+
+    if (nextStatus === "ready") {
+      item.readyAt ??= item.publishAt;
+      ready += 1;
+    }
+
+    changed = true;
+  });
+
+  return { published, ready, changed };
+}
+
+function isDuePublishingItem(item, now) {
+  if (!item || item.status !== "scheduled" || !item.publishAt) {
+    return false;
+  }
+
+  const publishTime = Date.parse(item.publishAt);
+
+  return !Number.isNaN(publishTime) && publishTime <= now.getTime();
+}
+
+function getNextPublishingStatus(item) {
+  const externalChannels = new Set(["linkedin", "instagram-post", "instagram-story"]);
+
+  if (item.target === "external" || externalChannels.has(item.channel)) {
+    return "ready";
+  }
+
+  return "published";
 }
 
 async function githubRequest(env, path, options = {}) {
@@ -263,10 +364,84 @@ function validateContent(content) {
       ar: content.translations?.ar ?? {},
     },
   };
+
+  if (content.publishing) {
+    normalized.publishing = normalizePublishing(content.publishing);
+  }
+
   const encodedLength = new TextEncoder().encode(JSON.stringify(normalized)).length;
 
   if (encodedLength > MAX_CONTENT_BYTES) {
     throw new HttpError(413, "فایل محتوا بیش از حد بزرگ است.");
+  }
+
+  return normalized;
+}
+
+function normalizePublishing(publishing) {
+  if (!publishing || typeof publishing !== "object" || Array.isArray(publishing)) {
+    return null;
+  }
+
+  const queue = Array.isArray(publishing.queue)
+    ? publishing.queue
+        .filter((item) => item && typeof item === "object" && !Array.isArray(item))
+        .map((item) => normalizePublishingItem(item))
+        .filter(Boolean)
+    : [];
+
+  const history = Array.isArray(publishing.history)
+    ? publishing.history
+        .filter((item) => item && typeof item === "object" && !Array.isArray(item))
+        .map((item) => normalizePublishingItem(item))
+        .filter(Boolean)
+    : [];
+
+  return {
+    timezone: typeof publishing.timezone === "string" ? publishing.timezone : "Asia/Tehran",
+    queue,
+    history,
+  };
+}
+
+function normalizePublishingItem(item) {
+  const publishAt = String(item.publishAt ?? "").trim();
+
+  if (!publishAt || Number.isNaN(Date.parse(publishAt))) {
+    return null;
+  }
+
+  const normalized = {
+    id: String(item.id ?? `${item.channel ?? "item"}-${publishAt}`),
+    channel: String(item.channel ?? "site"),
+    target: String(item.target ?? "site"),
+    articleSlug: String(item.articleSlug ?? ""),
+    publishAt,
+    status: String(item.status ?? "scheduled"),
+  };
+
+  if (item.publishedAt && !Number.isNaN(Date.parse(String(item.publishedAt)))) {
+    normalized.publishedAt = String(item.publishedAt);
+  }
+
+  if (item.readyAt && !Number.isNaN(Date.parse(String(item.readyAt)))) {
+    normalized.readyAt = String(item.readyAt);
+  }
+
+  if (item.title && typeof item.title === "object" && !Array.isArray(item.title)) {
+    normalized.title = {
+      fa: String(item.title.fa ?? ""),
+      en: String(item.title.en ?? ""),
+      ar: String(item.title.ar ?? ""),
+    };
+  }
+
+  if (item.body && typeof item.body === "object" && !Array.isArray(item.body)) {
+    normalized.body = {
+      fa: String(item.body.fa ?? ""),
+      en: String(item.body.en ?? ""),
+      ar: String(item.body.ar ?? ""),
+    };
   }
 
   return normalized;

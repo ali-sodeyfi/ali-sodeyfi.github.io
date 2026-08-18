@@ -13,3 +13,6 @@ KAVENEGAR_TEMPLATE = "LoginOtp"
 [[kv_namespaces]]
 binding = "ADMIN_AUTH"
 id = "replace-with-cloudflare-kv-namespace-id"
+
+[triggers]
+crons = ["*/5 * * * *"]

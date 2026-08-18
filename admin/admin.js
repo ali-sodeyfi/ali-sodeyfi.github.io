@@ -109,6 +109,11 @@ function createEmptyContent() {
       en: {},
       ar: {},
     },
+    publishing: {
+      timezone: "Asia/Tehran",
+      queue: [],
+      history: [],
+    },
   };
 }
 
@@ -132,6 +137,13 @@ function ensureContentShape(value) {
         ...(value.translations?.[language] ?? {}),
       };
     });
+    if (value.publishing && typeof value.publishing === "object" && !Array.isArray(value.publishing)) {
+      next.publishing = {
+        timezone: typeof value.publishing.timezone === "string" ? value.publishing.timezone : "Asia/Tehran",
+        queue: Array.isArray(value.publishing.queue) ? [...value.publishing.queue] : [],
+        history: Array.isArray(value.publishing.history) ? [...value.publishing.history] : [],
+      };
+    }
   }
 
   return next;

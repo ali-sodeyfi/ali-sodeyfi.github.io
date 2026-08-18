@@ -233,6 +233,14 @@ textarea:focus {
   border-bottom: 1px solid var(--line);
 }
 
+.editor-note {
+  max-width: 42rem;
+  margin-bottom: 0;
+  color: var(--muted);
+  font-size: 0.86rem;
+  line-height: 1.7;
+}
+
 .editor-actions,
 .language-tabs {
   display: flex;

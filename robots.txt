@@ -2,5 +2,8 @@ User-agent: *
 Allow: /
 Disallow: /admin/
 Disallow: /worker/
+Disallow: /scripts/
+Disallow: /CONTENT_AUTOMATION.md
+Disallow: /ADMIN_SETUP.md
 
 Sitemap: https://alisodeyfi.ir/sitemap.xml

@@ -15,6 +15,8 @@ GitHub Pages is static. SMS API keys, GitHub tokens, OTP codes, and the allowed 
 - Cloudflare Workers + KV for OTP/session storage.
 - Kavenegar OTP via `verify/lookup.json`.
 - GitHub Contents API for updating `content-overrides.json`.
+- Scheduled publishing notes live in `CONTENT_AUTOMATION.md`.
+- The server cron wrapper and the worker scheduled handler can both promote due publishing items, so the repo stays in sync even if the admin dashboard is idle.
 
 Kavenegar OTP docs:
 https://kavenegar.com/rest.html

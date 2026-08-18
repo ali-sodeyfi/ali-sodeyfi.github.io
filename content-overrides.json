@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-17T21:01:47.671Z",
+  "updatedAt": "2026-08-18T01:58:48.593Z",
   "translations": {
     "fa": {
       "documentTitle": "علی سدیفی | یادداشت‌هایی درباره ساختن",
@@ -179,5 +179,179 @@
       "contentCalendarTitle": "ما الذي سيُنشر هذا الأسبوع",
       "contentCalendarIntro": "مخرجات قصيرة وحقيقية للموقع ولينكدإن والستوري، لا وعودا مبهمة."
     }
+  },
+  "publishing": {
+    "timezone": "Asia/Tehran",
+    "queue": [
+      {
+        "id": "2026-08-18-site-how-to-talk-to-users",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "how-to-talk-to-users",
+        "publishAt": "2026-08-18T09:00:00+03:30",
+        "status": "scheduled"
+      },
+      {
+        "id": "2026-08-18-linkedin-how-to-talk-to-users",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "how-to-talk-to-users",
+        "publishAt": "2026-08-18T12:30:00+03:30",
+        "status": "scheduled"
+      },
+      {
+        "id": "2026-08-18-story-how-to-talk-to-users",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "how-to-talk-to-users",
+        "publishAt": "2026-08-18T20:30:00+03:30",
+        "status": "scheduled"
+      },
+      {
+        "id": "2026-08-19-site-default-alive",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "default-alive-or-default-dead",
+        "publishAt": "2026-08-19T09:00:00+03:30",
+        "status": "scheduled"
+      },
+      {
+        "id": "2026-08-19-linkedin-default-alive",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "default-alive-or-default-dead",
+        "publishAt": "2026-08-19T12:30:00+03:30",
+        "status": "scheduled"
+      },
+      {
+        "id": "2026-08-19-story-default-alive",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "default-alive-or-default-dead",
+        "publishAt": "2026-08-19T20:30:00+03:30",
+        "status": "scheduled"
+      },
+      {
+        "id": "2026-08-20-site-minimum-viable-testing",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "the-minimum-viable-testing-process-for-evaluating-startup-ideas",
+        "publishAt": "2026-08-20T09:00:00+03:30",
+        "status": "scheduled"
+      },
+      {
+        "id": "2026-08-20-linkedin-minimum-viable-testing",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "the-minimum-viable-testing-process-for-evaluating-startup-ideas",
+        "publishAt": "2026-08-20T12:30:00+03:30",
+        "status": "scheduled"
+      },
+      {
+        "id": "2026-08-20-story-minimum-viable-testing",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "the-minimum-viable-testing-process-for-evaluating-startup-ideas",
+        "publishAt": "2026-08-20T20:30:00+03:30",
+        "status": "scheduled"
+      },
+      {
+        "id": "2026-08-21-site-entrepreneur-advice",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "the-30-best-pieces-of-advice-for-entrepreneurs-in-2023",
+        "publishAt": "2026-08-21T09:00:00+03:30",
+        "status": "scheduled"
+      },
+      {
+        "id": "2026-08-21-linkedin-entrepreneur-advice",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "the-30-best-pieces-of-advice-for-entrepreneurs-in-2023",
+        "publishAt": "2026-08-21T12:30:00+03:30",
+        "status": "scheduled"
+      },
+      {
+        "id": "2026-08-21-story-entrepreneur-advice",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "the-30-best-pieces-of-advice-for-entrepreneurs-in-2023",
+        "publishAt": "2026-08-21T20:30:00+03:30",
+        "status": "scheduled"
+      },
+      {
+        "id": "2026-08-22-site-product-user-fit",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "product-user-fit-comes-before-product-market-fit",
+        "publishAt": "2026-08-22T09:00:00+03:30",
+        "status": "scheduled"
+      },
+      {
+        "id": "2026-08-22-linkedin-product-user-fit",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "product-user-fit-comes-before-product-market-fit",
+        "publishAt": "2026-08-22T12:30:00+03:30",
+        "status": "scheduled"
+      },
+      {
+        "id": "2026-08-22-story-product-user-fit",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "product-user-fit-comes-before-product-market-fit",
+        "publishAt": "2026-08-22T20:30:00+03:30",
+        "status": "scheduled"
+      },
+      {
+        "id": "2026-08-23-site-customer-development-manifesto",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "nail-the-customer-development-manifesto-to-the-wall",
+        "publishAt": "2026-08-23T09:00:00+03:30",
+        "status": "scheduled"
+      },
+      {
+        "id": "2026-08-23-linkedin-customer-development-manifesto",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "nail-the-customer-development-manifesto-to-the-wall",
+        "publishAt": "2026-08-23T12:30:00+03:30",
+        "status": "scheduled"
+      },
+      {
+        "id": "2026-08-23-story-customer-development-manifesto",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "nail-the-customer-development-manifesto-to-the-wall",
+        "publishAt": "2026-08-23T20:30:00+03:30",
+        "status": "scheduled"
+      },
+      {
+        "id": "2026-08-24-site-do-things-that-dont-scale",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "do-things-that-dont-scale",
+        "publishAt": "2026-08-24T09:00:00+03:30",
+        "status": "scheduled"
+      },
+      {
+        "id": "2026-08-24-linkedin-do-things-that-dont-scale",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "do-things-that-dont-scale",
+        "publishAt": "2026-08-24T12:30:00+03:30",
+        "status": "scheduled"
+      },
+      {
+        "id": "2026-08-24-story-do-things-that-dont-scale",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "do-things-that-dont-scale",
+        "publishAt": "2026-08-24T20:30:00+03:30",
+        "status": "scheduled"
+      }
+    ],
+    "history": []
   }
 }

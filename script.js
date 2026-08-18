@@ -10,6 +10,7 @@ const html = document.documentElement;
 const liveSiteUrl = "https://alisodeyfi.ir/";
 const defaultShareImageUrl = `${liveSiteUrl}assets/ali-sodeyfi.jpg`;
 const contentOverrideUrl = "./content-overrides.json";
+let publishingPlan = null;
 let selectedArticleIndex = null;
 
 const translations = {
@@ -1595,6 +1596,60 @@ const contentCalendarBlueprints = {
   ],
 };
 
+const publishingChannelLabels = {
+  fa: {
+    site: "سایت",
+    linkedin: "لینکدین",
+    "instagram-story": "استوری",
+    "instagram-post": "پست اینستاگرام",
+    note: "یادداشت کوتاه",
+    recap: "جمع‌بندی",
+  },
+  en: {
+    site: "Site",
+    linkedin: "LinkedIn",
+    "instagram-story": "Story",
+    "instagram-post": "Instagram post",
+    note: "Note",
+    recap: "Recap",
+  },
+  ar: {
+    site: "الموقع",
+    linkedin: "لينكدإن",
+    "instagram-story": "الستوري",
+    "instagram-post": "منشور إنستغرام",
+    note: "ملاحظة قصيرة",
+    recap: "ملخص",
+  },
+};
+
+const publishingStatusLabels = {
+  fa: {
+    scheduled: "زمان‌بندی‌شده",
+    due: "موعد اجرا",
+    ready: "آماده نشر",
+    published: "منتشر شده",
+    draft: "پیش‌نویس",
+    queued: "در صف",
+  },
+  en: {
+    scheduled: "Scheduled",
+    due: "Due",
+    ready: "Ready to post",
+    published: "Published",
+    draft: "Draft",
+    queued: "Queued",
+  },
+  ar: {
+    scheduled: "مجدول",
+    due: "حان وقت التنفيذ",
+    ready: "جاهز للنشر",
+    published: "منشور",
+    draft: "مسودة",
+    queued: "في الصف",
+  },
+};
+
 function getDailyArticleIndex() {
   const tehranOffsetMs = 3.5 * 60 * 60 * 1000;
   const tehranNow = new Date(Date.now() + tehranOffsetMs);
@@ -1634,6 +1689,24 @@ function getContentCalendarDate(language, offsetDays = 0) {
   }).format(date);
 }
 
+function formatPublicationDateTime(value, language) {
+  const locale = language === "en" ? "en-US" : language === "ar" ? "ar" : "fa-IR";
+  const date = new Date(value);
+
+  if (Number.isNaN(date.getTime())) {
+    return "";
+  }
+
+  return new Intl.DateTimeFormat(locale, {
+    timeZone: "Asia/Tehran",
+    weekday: "short",
+    month: "short",
+    day: "numeric",
+    hour: "2-digit",
+    minute: "2-digit",
+  }).format(date);
+}
+
 function getArticleSlug(article) {
   return article.title
     .toLowerCase()
@@ -1641,6 +1714,10 @@ function getArticleSlug(article) {
     .replace(/&/g, " and ")
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-+|-+$/g, "");
+}
+
+function getArticleBySlug(slug) {
+  return articleCatalog.find((article) => getArticleSlug(article) === slug) ?? null;
 }
 
 function getArticleIndexFromUrl() {
@@ -1688,6 +1765,50 @@ function mergeDeep(target, source) {
   return target;
 }
 
+function normalizePublishingPlan(value) {
+  if (!isPlainObject(value)) {
+    return null;
+  }
+
+  const queue = Array.isArray(value.queue)
+    ? value.queue
+        .filter(
+          (item) =>
+            isPlainObject(item) &&
+            item.publishAt &&
+            !Number.isNaN(Date.parse(item.publishAt)),
+        )
+        .map((item) => ({
+          ...item,
+          id: String(item.id ?? `${item.channel ?? "item"}-${item.publishAt}`),
+          channel: String(item.channel ?? "site"),
+          target: String(item.target ?? "site"),
+          status: String(item.status ?? "scheduled"),
+          articleSlug: item.articleSlug ? String(item.articleSlug) : "",
+          publishAt: String(item.publishAt),
+          title: isPlainObject(item.title)
+            ? {
+                fa: String(item.title.fa ?? ""),
+                en: String(item.title.en ?? ""),
+                ar: String(item.title.ar ?? ""),
+              }
+            : item.title,
+          body: isPlainObject(item.body)
+            ? {
+                fa: String(item.body.fa ?? ""),
+                en: String(item.body.en ?? ""),
+                ar: String(item.body.ar ?? ""),
+              }
+            : item.body,
+        }))
+    : [];
+
+  return {
+    timezone: typeof value.timezone === "string" ? value.timezone : "Asia/Tehran",
+    queue,
+  };
+}
+
 async function loadContentOverrides() {
   try {
     const response = await fetch(`${contentOverrideUrl}?v=${Date.now()}`, {
@@ -1703,6 +1824,8 @@ async function loadContentOverrides() {
     if (isPlainObject(overrides?.translations)) {
       mergeDeep(translations, overrides.translations);
     }
+
+    publishingPlan = normalizePublishingPlan(overrides?.publishing);
   } catch {
     // The public site keeps its bundled copy if the editable content file is unavailable.
   }
@@ -1918,36 +2041,176 @@ function pickEssayLine(essay, index, fallback) {
   return String(value).replace(/[.。.!！؟?،؛:]+$/u, "").trim();
 }
 
+function getLocalizedPublishingValue(value, language) {
+  if (typeof value === "string") {
+    return value;
+  }
+
+  if (!isPlainObject(value)) {
+    return "";
+  }
+
+  return value[language] ?? value.fa ?? value.en ?? value.ar ?? "";
+}
+
+function getPublishingLabel(labels, key, language) {
+  return labels[language]?.[key] ?? labels.fa?.[key] ?? key;
+}
+
+function getPublicationDisplayStatus(item) {
+  if (item.status === "scheduled" && Date.parse(item.publishAt) <= Date.now()) {
+    return "due";
+  }
+
+  return item.status || "scheduled";
+}
+
+function buildPublicationTitle(item, article, language) {
+  const customTitle = getLocalizedPublishingValue(item.title, language);
+
+  if (customTitle) {
+    return customTitle;
+  }
+
+  if (language === "en") {
+    if (item.channel === "site") return `Daily article: ${article.title}`;
+    if (item.channel === "linkedin") return `LinkedIn post: ${article.title}`;
+    if (item.channel === "instagram-story") return `Story: ${article.title}`;
+    if (item.channel === "recap") return "Weekly recap";
+    return `${getPublishingLabel(publishingChannelLabels, item.channel, language)}: ${article.title}`;
+  }
+
+  if (language === "ar") {
+    if (item.channel === "site") return `مقال اليوم: ${article.title}`;
+    if (item.channel === "linkedin") return `منشور لينكدإن: ${article.title}`;
+    if (item.channel === "instagram-story") return `ستوري: ${article.title}`;
+    if (item.channel === "recap") return "ملخص أسبوعي";
+    return `${getPublishingLabel(publishingChannelLabels, item.channel, language)}: ${article.title}`;
+  }
+
+  if (item.channel === "site") return `مقاله روز: ${article.title}`;
+  if (item.channel === "linkedin") return `پست لینکدین: ${article.title}`;
+  if (item.channel === "instagram-story") return `استوری: ${article.title}`;
+  if (item.channel === "recap") return "جمع‌بندی هفتگی";
+  return `${getPublishingLabel(publishingChannelLabels, item.channel, language)}: ${article.title}`;
+}
+
+function buildPublicationBody(item, article, essay, language) {
+  const customBody = getLocalizedPublishingValue(item.body, language);
+  const summary = article.summary[language] ?? article.summary.en;
+
+  if (customBody) {
+    return customBody;
+  }
+
+  if (language === "en") {
+    if (item.channel === "site") {
+      return `The on-site adaptation is published with source credit to ${article.source} and practical takeaways.`;
+    }
+    if (item.channel === "linkedin") {
+      return `Post angle: ${pickEssayLine(essay, 0, summary)}. Short, direct, and grounded in ${article.author} / ${article.source}.`;
+    }
+    if (item.channel === "instagram-story") {
+      return `Three slides: title and author, one useful idea, then the site link and original source.`;
+    }
+    return `A compact output based on ${article.title}, designed to turn reading into one operating decision.`;
+  }
+
+  if (language === "ar") {
+    if (item.channel === "site") {
+      return `تنشر إعادة الصياغة داخل الموقع مع إشارة واضحة إلى ${article.source} ونقاط عملية.`;
+    }
+    if (item.channel === "linkedin") {
+      return `زاوية المنشور: ${pickEssayLine(essay, 0, summary)}. قصير ومباشر ومرتبط بـ ${article.author} / ${article.source}.`;
+    }
+    if (item.channel === "instagram-story") {
+      return `ثلاث شرائح: العنوان والكاتب، فكرة عملية واحدة، ثم رابط الموقع والمصدر الأصلي.`;
+    }
+    return `مخرج مختصر مبني على ${article.title} لتحويل القراءة إلى قرار تشغيلي واحد.`;
+  }
+
+  if (item.channel === "site") {
+    return `ترجمه و برداشت آزاد داخل سایت منتشر می‌شود؛ با ارجاع روشن به ${article.source} و نکات اجرایی.`;
+  }
+  if (item.channel === "linkedin") {
+    return `محور این پست: ${pickEssayLine(essay, 0, summary)}. کوتاه، مستقیم و قابل انتشار برای مخاطب حرفه‌ای.`;
+  }
+  if (item.channel === "instagram-story") {
+    return "سه اسلاید: عنوان و نام نویسنده، یک ایده کاربردی، سپس لینک سایت و منبع اصلی.";
+  }
+  return `یک خروجی کوتاه بر اساس ${article.title} برای تبدیل مطالعه به یک تصمیم عملی.`;
+}
+
+function getCalendarItemsFromPublishing(language, fallbackArticle) {
+  if (!publishingPlan?.queue?.length) {
+    return [];
+  }
+
+  return [...publishingPlan.queue]
+    .sort((first, second) => Date.parse(first.publishAt) - Date.parse(second.publishAt))
+    .slice(0, 8)
+    .map((item) => {
+      const article = getArticleBySlug(item.articleSlug) ?? fallbackArticle;
+      const essay = getArticleEssay(article, language);
+
+      return {
+        article,
+        dateLabel: formatPublicationDateTime(item.publishAt, language),
+        channel: getPublishingLabel(publishingChannelLabels, item.channel, language),
+        status: getPublishingLabel(
+          publishingStatusLabels,
+          getPublicationDisplayStatus(item),
+          language,
+        ),
+        title: buildPublicationTitle(item, article, language),
+        body: buildPublicationBody(item, article, essay, language),
+      };
+    });
+}
+
+function getCalendarItemsFromBlueprint(language, article, essay) {
+  const dictionary = translations[language] ?? translations.fa;
+  const blueprint = contentCalendarBlueprints[language] ?? contentCalendarBlueprints.fa;
+  const summary = article.summary[language] ?? article.summary.en;
+
+  return blueprint.map((item) => ({
+    article,
+    dateLabel: getContentCalendarDate(language, item.offsetDays),
+    channel: item.channel,
+    status: item.status,
+    title: item.title(article, essay, summary, dictionary),
+    body: item.body(article, essay, summary, dictionary),
+  }));
+}
+
 function renderContentCalendar(language, article, essay) {
   if (!contentCalendarContainer || !article) {
     return;
   }
 
   const dictionary = translations[language] ?? translations.fa;
-  const blueprint = contentCalendarBlueprints[language] ?? contentCalendarBlueprints.fa;
-  const summary = article.summary[language] ?? article.summary.en;
+  const calendarItems = getCalendarItemsFromPublishing(language, article);
+  const items = calendarItems.length > 0
+    ? calendarItems
+    : getCalendarItemsFromBlueprint(language, article, essay);
 
-  contentCalendarContainer.innerHTML = blueprint
+  contentCalendarContainer.innerHTML = items
     .map((item) => {
-      const title = item.title(article, essay, summary, dictionary);
-      const body = item.body(article, essay, summary, dictionary);
-      const dateLabel = getContentCalendarDate(language, item.offsetDays);
-
       return `
         <article class="content-calendar-item">
           <div class="content-calendar-meta">
-            <span class="content-calendar-date">${escapeHtml(dateLabel)}</span>
+            <span class="content-calendar-date">${escapeHtml(item.dateLabel)}</span>
             <div class="content-calendar-badges">
               <span class="content-calendar-channel">${escapeHtml(item.channel)}</span>
               <span class="content-calendar-status">${escapeHtml(item.status)}</span>
             </div>
           </div>
           <div class="content-calendar-copy">
-            <h3>${escapeHtml(title)}</h3>
-            <p>${escapeHtml(body)}</p>
+            <h3>${escapeHtml(item.title)}</h3>
+            <p>${escapeHtml(item.body)}</p>
             <div class="content-calendar-footer">
-              <span class="content-calendar-source">${escapeHtml(dictionary.articleSourceLabel)} · ${escapeHtml(getArticleCredit(article))}</span>
-              <a class="article-card-action article-card-action-secondary content-calendar-link" href="${escapeHtml(article.url)}" target="_blank" rel="noreferrer">${escapeHtml(dictionary.articleReadLabel)}</a>
+              <span class="content-calendar-source">${escapeHtml(dictionary.articleSourceLabel)} · ${escapeHtml(getArticleCredit(item.article))}</span>
+              <a class="article-card-action article-card-action-secondary content-calendar-link" href="${escapeHtml(item.article.url)}" target="_blank" rel="noreferrer">${escapeHtml(dictionary.articleReadLabel)}</a>
             </div>
           </div>
         </article>
