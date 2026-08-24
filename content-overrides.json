@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-23T16:14:44.009Z",
+  "updatedAt": "2026-08-24T12:37:26.012Z",
   "translations": {
     "fa": {
       "documentTitle": "علی سدیفی | یادداشت‌هایی درباره ساختن",
@@ -342,7 +342,8 @@
         "target": "external",
         "articleSlug": "nail-the-customer-development-manifesto-to-the-wall",
         "publishAt": "2026-08-23T20:30:00+03:30",
-        "status": "scheduled"
+        "status": "ready",
+        "readyAt": "2026-08-23T20:30:00+03:30"
       },
       {
         "id": "2026-08-24-site-do-things-that-dont-scale",
@@ -350,7 +351,8 @@
         "target": "site",
         "articleSlug": "do-things-that-dont-scale",
         "publishAt": "2026-08-24T09:00:00+03:30",
-        "status": "scheduled"
+        "status": "published",
+        "publishedAt": "2026-08-24T09:00:00+03:30"
       },
       {
         "id": "2026-08-24-linkedin-do-things-that-dont-scale",
@@ -358,7 +360,8 @@
         "target": "external",
         "articleSlug": "do-things-that-dont-scale",
         "publishAt": "2026-08-24T12:30:00+03:30",
-        "status": "scheduled"
+        "status": "ready",
+        "readyAt": "2026-08-24T12:30:00+03:30"
       },
       {
         "id": "2026-08-24-story-do-things-that-dont-scale",
