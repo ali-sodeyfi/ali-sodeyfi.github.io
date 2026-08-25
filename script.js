@@ -451,6 +451,23 @@ const articleCatalog = [
     },
   },
   {
+    title: "Schlep Blindness",
+    author: "Paul Graham",
+    source: "Paul Graham",
+    year: "2012",
+    url: "https://paulgraham.com/schlep.html",
+    tags: {
+      fa: ["انتخاب مسئله", "کار سخت", "مزیت پنهان"],
+      en: ["problem selection", "hard work", "hidden advantage"],
+      ar: ["اختيار المشكلة", "العمل الصعب", "ميزة خفية"],
+    },
+    summary: {
+      fa: "درباره ایده‌هایی که جلوی چشم‌اند اما چون پر از کار خسته‌کننده، مذاکره، قانون یا عملیات‌اند نادیده گرفته می‌شوند؛ همان جایی که گاهی فرصت واقعی پنهان است.",
+      en: "A reminder that many valuable startup ideas are ignored because they require tedious, messy work; that avoidance can hide the real opportunity.",
+      ar: "تذكير بأن أفكارا ناشئة كثيرة وقيمة تُهمل لأنها تتطلب عملا مملا ومعقدا؛ وقد تكون الفرصة الحقيقية مخفية في هذا التجنب.",
+    },
+  },
+  {
     title: "Maker's Schedule, Manager's Schedule",
     author: "Paul Graham",
     source: "Paul Graham",
@@ -1354,6 +1371,55 @@ const articleEssays = {
       ],
     },
   },
+  "Schlep Blindness": {
+    fa: {
+      paragraphs: [
+        "Paul Graham در این مقاله روی نوعی نابینایی کارآفرینانه دست می‌گذارد: ما بعضی ایده‌های خوب را نمی‌بینیم، نه چون پنهان‌اند، بلکه چون دیدن‌شان ما را مجبور می‌کند کارهای ناخوشایند و پرزحمت را هم ببینیم. مسئله‌هایی مثل پرداخت، لجستیک، قانون، فروش سازمانی، پشتیبانی یا هماهنگی با چند بازیگر بیرونی ممکن است درست جلوی چشم باشند، اما ذهن بنیان‌گذار آرام‌آرام آن‌ها را از فهرست گزینه‌ها حذف می‌کند.",
+        "این حذف معمولاً آگاهانه نیست. کمتر تیمی می‌نشیند و صادقانه می‌گوید چون این بازار سخت است، سراغ مسئله کم‌ارزش‌تر می‌رویم. اتفاق رایج‌تر این است که ذهن راهی پیدا می‌کند تا اصلاً آن فرصت سخت را مسئله محسوب نکند. نتیجه این می‌شود که تیم‌ها سراغ ایده‌هایی می‌روند که ساختن‌شان تمیزتر، قابل‌تصورتر و از نظر احساسی سبک‌تر است، حتی اگر مشتری برای آن‌ها کشش جدی نداشته باشد.",
+        "ارزش مقاله در این است که سختی را از «علامت بد» به «سیگنال قابل بررسی» تبدیل می‌کند. سخت بودن یک حوزه الزاماً یعنی نباید واردش شد؛ اما گاهی دقیقاً یعنی دیگران هم از آن فرار کرده‌اند. اگر مسئله مهم باشد، مشتری درد واقعی داشته باشد و تیم بتواند بخش سخت را قدم‌به‌قدم یاد بگیرد، همان زحمت می‌تواند به مزیت رقابتی تبدیل شود. مانع عملیاتی اگر حل شود، فقط یک feature نیست؛ یک دیوار دفاعی هم هست.",
+        "برای بنیان‌گذارها، این نگاه انتخاب مسئله را جدی‌تر می‌کند. ایده خوب فقط چیزی نیست که ساختنش جذاب به نظر برسد؛ چیزی است که ارزش حل کردن دارد، حتی وقتی اجرای آن پر از تماس انسانی، مذاکره، خطای سیستم‌های قدیمی یا کارهای کسل‌کننده است. شرکت واقعی اغلب از همین بخش‌های بی‌زرق‌وبرق ساخته می‌شود، نه فقط از کد تمیز و صفحه فرود قشنگ.",
+        "در عین حال، مقاله دعوت به رنج بی‌هدف نیست. هر کار سختی ارزشمند نیست. بعضی سختی‌ها فقط نشانه بازار بد، مشتری بی‌اولویت یا مدل اقتصادی ضعیف‌اند. تفاوت مهم این است که آیا سختی در مسیر حل یک درد مهم قرار دارد یا صرفاً نشانه گیر کردن در ایده‌ای کم‌ارزش است. بنیان‌گذار باید بین سختی سازنده و سختی فرساینده فرق بگذارد.",
+        "یک تمرین مفید بعد از خواندن این مقاله این است که فهرست ایده‌هایی را بنویسیم که همیشه گفته‌ایم «خیلی دردسر دارد». بعد برای هرکدام بپرسیم: اگر این دردسر حل شود، چه ارزش واقعی آزاد می‌شود؟ چه کسی حاضر است برای آن پول، توجه یا تغییر رفتار بدهد؟ و آیا بخشی از این سختی را می‌توان با یک آزمایش کوچک، یک تماس مشتری یا یک فرایند دستی فهمید؟ این سؤال‌ها کمک می‌کنند فرصت از پشت زحمت دیده شود.",
+      ],
+      takeaways: [
+        "فهرست مسئله‌هایی را بنویس که به خاطر سختی اجرایی از آن‌ها فرار کرده‌ای.",
+        "برای هر مسئله سخت، جدا کن کدام بخش واقعاً ارزش مشتری می‌سازد و کدام فقط اصطکاک داخلی است.",
+        "قبل از رد کردن یک حوزه دشوار، با سه مشتری واقعی درباره شدت درد و جایگزین‌های فعلی حرف بزن.",
+        "یک آزمایش دستی طراحی کن تا بفهمی سختی عملیاتی قابل یادگیری است یا نه.",
+        "اگر سختی مسئله باعث فرار رقبا شده و درد مشتری جدی است، آن سختی را به عنوان مزیت احتمالی بررسی کن.",
+      ],
+    },
+    en: {
+      paragraphs: [
+        "Paul Graham's idea of schlep blindness is a useful warning about problem selection. Some startup ideas are visible, important, and still ignored because they come with messy work: regulation, payments, sales, support, integrations, operations, or negotiations with institutions. Founders may not reject these ideas explicitly; they may simply fail to notice them as real options.",
+        "That matters because the unpleasant work can be part of the opportunity. If a customer pain is serious and the work required to solve it scares away other teams, the difficulty may create protection rather than only cost. The hard part is not automatically a reason to leave the market; it is a signal to study more carefully.",
+        "The essay is also a correction to the fantasy that startups are mostly clever software released into the world. Real companies often contain a lot of human contact, boring coordination, and operational learning. A founder who refuses all of that may keep the work elegant but miss the problem customers actually need solved.",
+        "The practical distinction is between useful difficulty and wasteful difficulty. Some hard markets are just bad markets. Others are hard because the value is real and the system around the value is broken. The founder's job is to test which kind of hard they are facing before choosing the easier, weaker idea.",
+      ],
+      takeaways: [
+        "List the ideas you have dismissed because they looked tedious or operationally messy.",
+        "Separate customer value from internal friction before rejecting a difficult market.",
+        "Talk to real customers about how painful the broken workflow is today.",
+        "Run a small manual test to learn whether the operational work is manageable.",
+        "Treat scary but valuable work as a possible moat, not only as a cost.",
+      ],
+    },
+    ar: {
+      paragraphs: [
+        "فكرة Paul Graham عن Schlep Blindness تحذر المؤسس من طريقة خفية في اختيار المشكلات. قد تكون بعض الأفكار واضحة ومهمة، لكنها تُهمل لأنها تأتي مع عمل مزعج: تنظيمات، مدفوعات، بيع، دعم، تكاملات، عمليات، أو تفاوض مع جهات خارجية. لا يرفضها المؤسس دائما بوعي؛ أحيانا لا يراها أصلا كخيار جاد.",
+        "هذا مهم لأن العمل غير المريح قد يكون جزءا من الفرصة. إذا كان ألم العميل حقيقيا وكانت صعوبة الحل تجعل الفرق الأخرى تبتعد، فقد تتحول الصعوبة إلى حماية، لا إلى كلفة فقط. لذلك لا ينبغي اعتبار السوق الصعب سببا تلقائيا للانسحاب؛ بل إشارة تحتاج إلى فحص أدق.",
+        "المقال يصحح أيضا خيال أن الشركة الناشئة هي برنامج ذكي يطلقه الفريق وينتظر النمو. الشركات الحقيقية تحتوي غالبا على تواصل بشري، وتنسيق ممل، وتعلم تشغيلي. المؤسس الذي يرفض كل ذلك قد يحافظ على عمل أنيق، لكنه يفوّت المشكلة التي يحتاج العميل فعلا إلى حلها.",
+        "التمييز العملي هو بين الصعوبة المفيدة والصعوبة المهدرة. بعض الأسواق الصعبة سيئة فعلا. وأسواق أخرى صعبة لأن القيمة حقيقية والنظام حولها مكسور. مهمة المؤسس أن يختبر أي نوع من الصعوبة يواجه قبل أن يختار فكرة أسهل لكنها أضعف.",
+      ],
+      takeaways: [
+        "اكتب الأفكار التي رفضتها لأنها بدت مملة أو معقدة تشغيليا.",
+        "افصل قيمة العميل عن الاحتكاك الداخلي قبل رفض سوق صعب.",
+        "تحدث مع عملاء حقيقيين عن مدى ألم سير العمل الحالي.",
+        "نفذ اختبارا يدويا صغيرا لمعرفة هل العمل التشغيلي قابل للتعلم.",
+        "عامل العمل المخيف لكنه قيّم كخندق دفاعي محتمل، لا ككلفة فقط.",
+      ],
+    },
+  },
   "Founder Mode": {
     fa: {
       paragraphs: [
@@ -1698,6 +1764,8 @@ const publishingStatusLabels = {
     published: "منتشر شده",
     draft: "پیش‌نویس",
     queued: "در صف",
+    "ready-for-approval": "آماده تایید",
+    "blocked/needs-login": "مسدود: نیازمند ورود",
   },
   en: {
     scheduled: "Scheduled",
@@ -1706,6 +1774,8 @@ const publishingStatusLabels = {
     published: "Published",
     draft: "Draft",
     queued: "Queued",
+    "ready-for-approval": "Ready for approval",
+    "blocked/needs-login": "Blocked: needs login",
   },
   ar: {
     scheduled: "مجدول",
@@ -1714,6 +1784,8 @@ const publishingStatusLabels = {
     published: "منشور",
     draft: "مسودة",
     queued: "في الصف",
+    "ready-for-approval": "جاهز للموافقة",
+    "blocked/needs-login": "محظور: يحتاج إلى تسجيل دخول",
   },
 };
 
@@ -1766,6 +1838,19 @@ function getLatestScheduledSiteArticleIndex() {
   );
 
   return index >= 0 ? index : null;
+}
+
+function getTehranDayStartTimestamp(offsetDays = 0) {
+  const tehranOffsetMs = 3.5 * 60 * 60 * 1000;
+  const tehranNow = new Date(Date.now() + tehranOffsetMs);
+
+  return (
+    Date.UTC(
+      tehranNow.getUTCFullYear(),
+      tehranNow.getUTCMonth(),
+      tehranNow.getUTCDate() + offsetDays,
+    ) - tehranOffsetMs
+  );
 }
 
 function getTehranDate(language) {
@@ -2250,7 +2335,10 @@ function getCalendarItemsFromPublishing(language, fallbackArticle) {
     return [];
   }
 
+  const tehranTodayStart = getTehranDayStartTimestamp();
+
   return [...publishingPlan.queue]
+    .filter((item) => Date.parse(item.publishAt) >= tehranTodayStart)
     .sort((first, second) => Date.parse(first.publishAt) - Date.parse(second.publishAt))
     .slice(0, 8)
     .map((item) => {
