@@ -400,6 +400,23 @@ const articleCatalog = [
     },
   },
   {
+    title: "Founder Mode",
+    author: "Paul Graham",
+    source: "Paul Graham",
+    year: "2024",
+    url: "https://paulgraham.com/foundermode.html",
+    tags: {
+      fa: ["رهبری", "مقیاس", "سازمان"],
+      en: ["leadership", "scaling", "organization"],
+      ar: ["القيادة", "التوسع", "المنظمة"],
+    },
+    summary: {
+      fa: "درباره خطای رایجِ تبدیل بنیان‌گذار به مدیر حرفه‌ای هنگام رشد شرکت؛ یادآوری می‌کند که نزدیک ماندن به جزئیات همیشه micromanagement نیست.",
+      en: "A sharp argument against forcing founders into professional-manager habits as a company scales; staying close to detail is not always micromanagement.",
+      ar: "طرح حاد ضد دفع المؤسسين إلى عادات المدير المحترف عند توسع الشركة؛ البقاء قريبا من التفاصيل ليس دائما إدارة تفصيلية سيئة.",
+    },
+  },
+  {
     title: "Relentlessly Resourceful",
     author: "Paul Graham",
     source: "Paul Graham",
@@ -1337,6 +1354,56 @@ const articleEssays = {
       ],
     },
   },
+  "Founder Mode": {
+    fa: {
+      paragraphs: [
+        "Paul Graham در این مقاله از تجربه‌ای شروع می‌کند که بعد از سخنرانی Brian Chesky در یک رویداد Y Combinator پررنگ شده بود: بسیاری از بنیان‌گذارها وقتی شرکت‌شان بزرگ‌تر می‌شود، نصیحتی شبیه هم می‌شنوند. به آن‌ها گفته می‌شود آدم‌های خوب استخدام کن، کار را به آن‌ها بسپار، و در جزئیات دخالت نکن. این توصیه در ظاهر بالغ و حرفه‌ای است، اما Graham می‌گوید برای بعضی شرکت‌های بنیان‌گذارمحور، همین نسخه می‌تواند شرکت را از منبع اصلی قوتش جدا کند.",
+        "ایده اصلی مقاله این است که اداره شرکت فقط یک مدل ندارد. چیزی که Graham آن را manager mode می‌نامد برای مدیر حرفه‌ای طراحی شده است: کارها به شاخه‌های سازمان سپرده می‌شود، مدیر بیشتر از مسیر گزارش‌های مستقیم عمل می‌کند و جزئیات زیرمجموعه‌ها تا حد زیادی جعبه سیاه فرض می‌شوند. این مدل می‌تواند در سازمان‌های جاافتاده کار کند، اما الزاماً همان چیزی نیست که یک شرکت در حال رشد، با بنیان‌گذاری هنوز فعال و دارای شهود محصولی، نیاز دارد.",
+        "در برابر آن، founder mode یعنی بنیان‌گذار پس از بزرگ شدن شرکت هم حق و وظیفه دارد مستقیم‌تر با واقعیت سازمان تماس داشته باشد. این به معنی انجام دادن همه کارها یا بی‌اعتماد کردن تیم نیست. معنی‌اش این است که بنیان‌گذار نباید فقط به نقشه رسمی سازمان محدود شود؛ باید بتواند از سطح‌های مختلف سازمان سیگنال بگیرد، کیفیت محصول و فرهنگ را مستقیم لمس کند و وقتی چیزی با شهود و شواهد نمی‌خواند، آن را صرفاً به نام تفویض اختیار رها نکند.",
+        "Graham هشدار می‌دهد که واژه micromanagement گاهی خیلی زود و خام استفاده می‌شود. دخالت بیمارگونه در همه تصمیم‌های کوچک قطعاً می‌تواند سازمان را فلج کند، اما هر نزدیک‌شدن به جزئیات هم micromanagement نیست. اگر بنیان‌گذار چیزی را بهتر از مدیر استخدام‌شده می‌فهمد، یا هنوز تصویر محصول و مشتری را عمیق‌تر در ذهن دارد، فاصله گرفتن کامل از جزئیات می‌تواند به جای حرفه‌ای‌تر شدن، نوعی کور شدن مدیریتی باشد.",
+        "نقطه حساس مقاله همین توازن است. Founder mode نباید بهانه‌ای برای ناتوانی در تفویض اختیار شود. شرکتی با دو هزار نفر را نمی‌توان مثل تیم بیست نفره اداره کرد. باید اختیار، ساختار و مدیران قابل اعتماد وجود داشته باشند. اما مرز اختیار باید از تجربه و کیفیت آدم‌ها ساخته شود، نه از یک نسخه آماده که می‌گوید مدیرعامل فقط از مسیر چند گزارش مستقیم حق دیدن شرکت را دارد.",
+        "یکی از پیام‌های مهم مقاله برای تیم‌های در حال رشد این است که مقیاس فقط با ساختار بیشتر ساخته نمی‌شود؛ با نوع درست حضور بنیان‌گذار هم ساخته می‌شود. حضور درست یعنی بنیان‌گذار از جزئیات مهم خبر دارد، اما همه تصمیم‌ها را مصادره نمی‌کند؛ مدیر می‌سازد، اما خودش را از محصول، کاربر و آدم‌های کلیدی جدا نمی‌کند؛ به تیم اختیار می‌دهد، اما سیگنال‌های ضعیف را زود می‌بیند و اجازه نمی‌دهد سیاست سازمانی جای حقیقت محصول را بگیرد.",
+        "پس برداشت عملی مقاله این نیست که همه بنیان‌گذارها باید شبیه هم رفتار کنند. خود Graham هم می‌گوید هنوز این مدل خوب فهمیده نشده و احتمال سوءاستفاده از آن وجود دارد. پیام عملی‌تر این است: هنگام رشد، کورکورانه از founder به manager تبدیل نشو. ببین شرکت تو برای زنده ماندنِ کیفیت، سرعت و حقیقت‌جویی به چه نوع حضوری از بنیان‌گذار نیاز دارد؛ بعد ساختار را طوری طراحی کن که هم اختیار بسازد و هم تماس مستقیم با واقعیت را حفظ کند.",
+      ],
+      takeaways: [
+        "در هر مرحله رشد، مشخص کن بنیان‌گذار باید کجا مستقیم‌تر ببیند و کجا باید واقعاً تفویض کند.",
+        "هر برچسب micromanagement را بدون تحلیل نپذیر؛ اول ببین دخالت در جزئیات، کیفیت و یادگیری می‌سازد یا تیم را فلج می‌کند.",
+        "جلسه‌های skip-level و تماس مستقیم با آدم‌های کلیدی را به شکل سالم و شفاف طراحی کن.",
+        "مدیران را با نتیجه، صداقت سیگنال و کیفیت تصمیم بسنج، نه فقط توانایی گزارش دادن به بالا.",
+        "ساختار سازمان را نسخه آماده ندان؛ آن را با مرحله شرکت، کیفیت تیم و نوع محصول تنظیم کن.",
+      ],
+    },
+    en: {
+      paragraphs: [
+        "Paul Graham's essay starts from a scaling pattern many founders recognize: as the company grows, they are told to hire strong executives, step back, and stop getting involved in details. The advice sounds mature, but Graham argues that for founder-led companies it can remove the company from one of its strongest assets: the founder's direct contact with product, people, and reality.",
+        "The essay separates manager mode from founder mode. Manager mode treats the organization like a set of delegated subtrees: give direct reports goals and let them figure out the details. That can work in some mature organizations, but it is not automatically the right operating model for a scaling startup whose founder still has unusually strong context and judgment.",
+        "Founder mode does not mean doing everyone's job or refusing delegation. It means the founder should not be trapped behind the org chart. They may need skip-level contact, direct inspection of product quality, and a closer relationship with the signals that matter. In that model, staying close to important details is not inherently micromanagement; it can be a way to protect the company's taste, speed, and truth-seeking.",
+        "The hard part is boundary design. A founder cannot run a large company exactly like a tiny team, and founder mode can become an excuse for control if used badly. The useful lesson is to avoid copying professional-manager habits blindly. A scaling company needs both trusted delegation and direct founder contact with the places where quality, customers, and culture are actually formed.",
+      ],
+      takeaways: [
+        "Define where the founder must stay close and where delegation should be real.",
+        "Do not label all detail work as micromanagement; judge whether it improves quality and learning.",
+        "Use skip-level contact deliberately and transparently.",
+        "Evaluate executives by signal honesty and decision quality, not only by upward reporting.",
+        "Design the operating model around the company's stage, team quality, and product reality.",
+      ],
+    },
+    ar: {
+      paragraphs: [
+        "ينطلق مقال Paul Graham من نمط يعرفه كثير من المؤسسين عند التوسع: عندما تكبر الشركة، يسمعون نصيحة تقول لهم إن عليهم توظيف مديرين أقوياء، ثم التراجع وترك التفاصيل لهم. تبدو النصيحة ناضجة، لكن Graham يرى أنها قد تفصل الشركة المؤسسة عن أحد أهم مصادر قوتها: اتصال المؤسس المباشر بالمنتج والناس والواقع.",
+        "يفصل المقال بين manager mode و founder mode. في manager mode تعامل المنظمة كأقسام مفوضة: تعطي التقارير المباشرة أهدافا وتترك لهم التفاصيل. قد ينجح ذلك في بعض الشركات الناضجة، لكنه ليس بالضرورة النموذج المناسب لشركة ناشئة تتوسع وما زال مؤسسها يملك سياقا وحكما عميقين حول المنتج والسوق.",
+        "founder mode لا يعني أن يقوم المؤسس بعمل الجميع أو يرفض التفويض. معناه ألا يصبح المؤسس سجينا للخريطة التنظيمية. قد يحتاج إلى تواصل مباشر مع مستويات مختلفة، وفحص مباشر لجودة المنتج، وقرب أكبر من الإشارات المهمة. في هذا السياق، القرب من التفاصيل المهمة ليس دائما إدارة تفصيلية سيئة؛ قد يكون حماية للذوق والسرعة والصدق.",
+        "الصعوبة في تصميم الحدود. لا يستطيع المؤسس إدارة شركة كبيرة بالطريقة نفسها التي أدار بها فريقا صغيرا، كما يمكن أن يتحول founder mode إلى ذريعة للسيطرة إذا أسيء استخدامه. الدرس العملي هو عدم نسخ عادات المدير المحترف بشكل أعمى. الشركة التي تتوسع تحتاج إلى تفويض حقيقي، وإلى اتصال مباشر للمؤسس بالأماكن التي تتشكل فيها الجودة والعميل والثقافة.",
+      ],
+      takeaways: [
+        "حدد أين يجب أن يبقى المؤسس قريبا وأين يجب أن يكون التفويض حقيقيا.",
+        "لا تعتبر كل اهتمام بالتفاصيل إدارة تفصيلية؛ اسأل هل يحسن الجودة والتعلم أم لا.",
+        "استخدم التواصل مع مستويات مختلفة بوضوح ومن دون فوضى.",
+        "قيّم المديرين بصدق الإشارات وجودة القرار، لا بمهارة رفع التقارير فقط.",
+        "صمم نموذج العمل حسب مرحلة الشركة وجودة الفريق وحقيقة المنتج.",
+      ],
+    },
+  },
   "Relentlessly Resourceful": {
     fa: {
       paragraphs: [
@@ -1651,6 +1718,12 @@ const publishingStatusLabels = {
 };
 
 function getDailyArticleIndex() {
+  const scheduledIndex = getLatestScheduledSiteArticleIndex();
+
+  if (scheduledIndex !== null) {
+    return scheduledIndex;
+  }
+
   const tehranOffsetMs = 3.5 * 60 * 60 * 1000;
   const tehranNow = new Date(Date.now() + tehranOffsetMs);
   const dayNumber = Math.floor(
@@ -1662,6 +1735,37 @@ function getDailyArticleIndex() {
   );
 
   return dayNumber % articleCatalog.length;
+}
+
+function getLatestScheduledSiteArticleIndex() {
+  if (!publishingPlan?.queue?.length) {
+    return null;
+  }
+
+  const now = Date.now();
+  const latestItem = publishingPlan.queue
+    .filter((item) => {
+      const publishTime = Date.parse(item.publishAt);
+
+      return (
+        (item.channel === "site" || item.target === "site") &&
+        item.articleSlug &&
+        !Number.isNaN(publishTime) &&
+        publishTime <= now &&
+        !["draft", "queued"].includes(item.status)
+      );
+    })
+    .sort((first, second) => Date.parse(second.publishAt) - Date.parse(first.publishAt))[0];
+
+  if (!latestItem) {
+    return null;
+  }
+
+  const index = articleCatalog.findIndex(
+    (article) => getArticleSlug(article) === latestItem.articleSlug,
+  );
+
+  return index >= 0 ? index : null;
 }
 
 function getTehranDate(language) {
