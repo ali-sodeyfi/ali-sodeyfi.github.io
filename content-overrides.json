@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-25T05:35:13.656Z",
+  "updatedAt": "2026-08-25T15:18:28.809Z",
   "translations": {
     "fa": {
       "documentTitle": "علی سدیفی | یادداشت‌هایی درباره ساختن",
@@ -387,7 +387,8 @@
         "target": "external",
         "articleSlug": "founder-mode",
         "publishAt": "2026-08-25T12:30:00+03:30",
-        "status": "scheduled"
+        "status": "ready",
+        "readyAt": "2026-08-25T12:30:00+03:30"
       },
       {
         "id": "2026-08-25-story-founder-mode",
