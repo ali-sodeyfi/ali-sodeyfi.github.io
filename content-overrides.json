@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-24T12:37:26.012Z",
+  "updatedAt": "2026-08-25T00:30:44.542Z",
   "translations": {
     "fa": {
       "documentTitle": "علی سدیفی | یادداشت‌هایی درباره ساختن",
@@ -369,7 +369,8 @@
         "target": "external",
         "articleSlug": "do-things-that-dont-scale",
         "publishAt": "2026-08-24T20:30:00+03:30",
-        "status": "scheduled"
+        "status": "ready",
+        "readyAt": "2026-08-24T20:30:00+03:30"
       }
     ],
     "history": []

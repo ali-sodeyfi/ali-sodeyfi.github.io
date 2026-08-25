@@ -13,6 +13,10 @@ The primary scheduler is the Liara server cron running `scripts/run-publishing-c
 
 It runs every 5 minutes, loads the latest `content-overrides.json`, runs the scheduled publisher, and writes the file back to GitHub when `GITHUB_TOKEN`, `GITHUB_OWNER`, `GITHUB_REPO`, `GITHUB_BRANCH`, and `CONTENT_PATH` are set on the server. That keeps the repo as the source of truth instead of a local-only copy.
 
+## GitHub Actions fallback
+
+If the server job is unavailable, `.github/workflows/scheduled-content-publish.yml` runs the same publisher on GitHub every 5 minutes and pushes `content-overrides.json` back to the repo.
+
 ## Shared runner
 
 - `scripts/sync-scheduled-publishing.mjs` is the shared entrypoint.
