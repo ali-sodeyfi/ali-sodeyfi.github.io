@@ -468,6 +468,23 @@ const articleCatalog = [
     },
   },
   {
+    title: "How to Build an MVP",
+    author: "Michael Seibel",
+    source: "Y Combinator",
+    year: "2023",
+    url: "https://www.ycombinator.com/library/Io-how-to-build-an-mvp",
+    tags: {
+      fa: ["MVP", "ساخت محصول", "یادگیری"],
+      en: ["MVP", "product building", "learning"],
+      ar: ["النموذج الأولي", "بناء المنتج", "التعلم"],
+    },
+    summary: {
+      fa: "یک راهنمای عملی برای اینکه MVP را به کوچک‌ترین نسخه قابل یادگیری تبدیل کنی؛ نه محصول ناقص، نه پروژه بزرگ، بلکه آزمایشی که کاربر واقعی را به واکنش وادار کند.",
+      en: "A practical guide to treating an MVP as the smallest useful learning vehicle, not a half-finished product or an overbuilt first release.",
+      ar: "دليل عملي للتعامل مع النموذج الأولي كأصغر وسيلة مفيدة للتعلم، لا كمنتج ناقص ولا كإطلاق أول مبالغ فيه.",
+    },
+  },
+  {
     title: "Maker's Schedule, Manager's Schedule",
     author: "Paul Graham",
     source: "Paul Graham",
@@ -1417,6 +1434,53 @@ const articleEssays = {
         "تحدث مع عملاء حقيقيين عن مدى ألم سير العمل الحالي.",
         "نفذ اختبارا يدويا صغيرا لمعرفة هل العمل التشغيلي قابل للتعلم.",
         "عامل العمل المخيف لكنه قيّم كخندق دفاعي محتمل، لا ككلفة فقط.",
+      ],
+    },
+  },
+  "How to Build an MVP": {
+    fa: {
+      paragraphs: [
+        "Michael Seibel در این راهنمای Y Combinator، MVP را از یک شعار مبهم به یک تصمیم عملی تبدیل می‌کند. مسئله این نیست که اولین نسخه محصول چقدر کامل، زیبا یا قابل مقیاس است؛ مسئله این است که آیا می‌تواند با کمترین ساخت ممکن، یک فرضیه مهم را جلوی کاربر واقعی ببرد و یادگیری معتبر بسازد.",
+        "بسیاری از تیم‌ها MVP را با نسخه کوچک‌شده محصول نهایی اشتباه می‌گیرند. نتیجه این می‌شود که هفته‌ها و ماه‌ها صرف featureهایی می‌شود که هنوز معلوم نیست کاربر واقعاً آن‌ها را می‌خواهد یا نه. MVP خوب قرار نیست تصویر کامل آینده باشد؛ باید فقط آن بخش از تجربه را نشان دهد که برای سنجیدن تقاضا و فهمیدن رفتار کاربر کافی است.",
+        "نکته مهم دیگر این است که MVP همیشه لازم نیست از روز اول نرم‌افزار کامل باشد. گاهی prototype، demo، landing page، فرایند دستی یا حتی یک سرویس concierge می‌تواند سریع‌تر از کد زیاد به پاسخ برسد. اگر هدف یادگیری است، شکل ابزار باید تابع سؤال باشد: دقیقاً چه چیزی را می‌خواهیم بفهمیم و ارزان‌ترین راه معتبر برای فهمیدنش چیست؟",
+        "این نگاه، کیفیت را حذف نمی‌کند؛ فقط محدوده کیفیت را کوچک می‌کند. کاربر اولیه باید بتواند ارزش اصلی را لمس کند، حتی اگر پشت صحنه هنوز دستی، ناقص یا موقت باشد. MVP بد نسخه‌ای است که هم زیاد ساخته شده و هم چیزی را روشن نمی‌کند. MVP خوب محدود است، اما سؤال درستی می‌پرسد و واکنش واقعی می‌گیرد.",
+        "برای بنیان‌گذار، سخت‌ترین بخش معمولاً کم کردن دامنه کار است. تیم‌ها از ترس قضاوت کاربر، محصول را دیرتر نشان می‌دهند و با هر تأخیر، هزینه یادگیری بالاتر می‌رود. اما اگر مسئله واقعاً مهم باشد، کاربر اولیه با نسخه ساده هم واکنش نشان می‌دهد: وقت می‌گذارد، بازخورد دقیق می‌دهد، منتظر نسخه بعدی می‌ماند یا حتی حاضر می‌شود برای راه‌حل ناقص پول بدهد.",
+        "پس ساخت MVP بیشتر از اینکه تمرین مهندسی باشد، تمرین وضوح است. باید فرضیه اصلی، کاربر هدف، لحظه ارزش و معیار یادگیری مشخص باشد. وقتی این چهار مورد روشن شد، تیم می‌تواند عمداً کوچک بسازد، سریع نشان بدهد و به جای دفاع از ایده، از رفتار کاربر یاد بگیرد.",
+      ],
+      takeaways: [
+        "فرضیه اصلی MVP را در یک جمله بنویس: اگر این درست باشد، چه رفتار کاربری باید ببینیم؟",
+        "قبل از نوشتن کد زیاد، ارزان‌ترین prototype یا demo قابل تست را طراحی کن.",
+        "دامنه MVP را به لحظه‌ای محدود کن که کاربر ارزش اصلی را لمس می‌کند.",
+        "برای هر تست، معیار یادگیری تعیین کن؛ فقط تعداد بازدید یا تعریف شفاهی کافی نیست.",
+        "بعد از اولین واکنش کاربران، تصمیم بگیر: کوچک‌تر کن، ادامه بده، یا فرضیه را تغییر بده.",
+      ],
+    },
+    en: {
+      paragraphs: [
+        "Michael Seibel's YC guide frames an MVP as a tool for learning, not as a small monument to the final product. The first version should answer a sharp question: can a real user understand the value, try it, and show behavior that makes the next build decision clearer?",
+        "A common mistake is to shrink the full roadmap into a crowded first release. That feels safer, but it delays contact with reality. A useful MVP does less. It exposes the riskiest assumption in a form that users can react to, even if the system behind it is manual, temporary, or narrow.",
+        "This does not mean quality is irrelevant. It means quality should be focused on the value moment. The early user does not need every future workflow, but they do need enough of the core experience to reveal whether the problem is urgent and whether the proposed solution changes behavior.",
+        "The discipline is scope control. Write the hypothesis, pick the first user segment, choose the cheapest credible test, and define the signal before building. Then let user behavior decide what deserves more engineering time.",
+      ],
+      takeaways: [
+        "State the MVP hypothesis as a behavior you expect from a real user.",
+        "Use a prototype, demo, landing page, or manual workflow if it answers the question faster.",
+        "Protect the core value moment and cut features that do not test the main risk.",
+        "Define the learning signal before launch so feedback turns into a decision.",
+      ],
+    },
+    ar: {
+      paragraphs: [
+        "يقدم Michael Seibel في دليل Y Combinator فكرة النموذج الأولي كأداة للتعلم، لا كنسخة صغيرة من المنتج النهائي. يجب أن تجيب النسخة الأولى عن سؤال واضح: هل يفهم المستخدم الحقيقي القيمة، وهل يتصرف بطريقة تجعل قرار البناء التالي أوضح؟",
+        "الخطأ الشائع هو ضغط خريطة الطريق كلها داخل إطلاق أول مزدحم. يبدو ذلك أكثر أمانا، لكنه يؤخر مواجهة الواقع. النموذج المفيد يفعل أقل: يعرض الافتراض الأكثر خطورة بشكل يستطيع المستخدم اختباره، حتى لو كان ما خلفه يدويا أو مؤقتا أو ضيقا.",
+        "هذا لا يعني أن الجودة غير مهمة. المعنى أن الجودة يجب أن تتركز في لحظة القيمة. لا يحتاج المستخدم الأول إلى كل سير العمل المستقبلي، لكنه يحتاج إلى ما يكفي ليتضح هل المشكلة ملحة وهل الحل المقترح يغير السلوك.",
+        "الانضباط العملي هنا هو ضبط النطاق. اكتب الفرضية، اختر أول شريحة مستخدمين، حدد أرخص اختبار موثوق، وعرّف الإشارة قبل البناء. بعدها اجعل سلوك المستخدم يقرر ما يستحق وقتا هندسيا إضافيا.",
+      ],
+      takeaways: [
+        "صغ فرضية النموذج الأولي كسلوك تتوقعه من مستخدم حقيقي.",
+        "استخدم نموذجا، عرضا تجريبيا، صفحة هبوط، أو عملا يدويا إذا كان يجيب أسرع.",
+        "احم لحظة القيمة الأساسية واحذف الميزات التي لا تختبر الخطر الرئيسي.",
+        "حدد إشارة التعلم قبل الإطلاق حتى يتحول feedback إلى قرار.",
       ],
     },
   },
