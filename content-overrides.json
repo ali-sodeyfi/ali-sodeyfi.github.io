@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-26T02:14:00.000Z",
+  "updatedAt": "2026-08-26T05:30:03.301Z",
   "translations": {
     "fa": {
       "documentTitle": "علی سدیفی | یادداشت‌هایی درباره ساختن",
@@ -404,7 +404,8 @@
         "target": "site",
         "articleSlug": "schlep-blindness",
         "publishAt": "2026-08-26T09:00:00+03:30",
-        "status": "scheduled"
+        "status": "published",
+        "publishedAt": "2026-08-26T09:00:00+03:30"
       },
       {
         "id": "2026-08-26-linkedin-schlep-blindness",
