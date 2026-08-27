@@ -488,6 +488,216 @@
           "en": "Slide 1: MVP means fast learning. Slide 2: narrow the scope to the value moment and test real user behavior. Slide 3: site link and original source. Real publishing requires login and human approval.",
           "ar": "الشريحة 1: النموذج الأولي يعني تعلما سريعا. الشريحة 2: صغر النطاق إلى لحظة القيمة واختبر سلوك المستخدم الحقيقي. الشريحة 3: رابط الموقع والمصدر الأصلي. النشر الفعلي يحتاج إلى تسجيل دخول وموافقة بشرية."
         }
+      },
+      {
+        "id": "2026-08-28-site-startup-growth",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "startup-growth",
+        "publishAt": "2026-08-28T09:00:00+03:30",
+        "status": "scheduled"
+      },
+      {
+        "id": "2026-08-28-linkedin-startup-growth",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "startup-growth",
+        "publishAt": "2026-08-28T12:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-08-28T12:30:00+03:30",
+        "title": null,
+        "body": null
+      },
+      {
+        "id": "2026-08-28-story-startup-growth",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "startup-growth",
+        "publishAt": "2026-08-28T20:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-08-28T20:30:00+03:30",
+        "title": null,
+        "body": null
+      },
+      {
+        "id": "2026-08-29-site-relentlessly-resourceful",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "relentlessly-resourceful",
+        "publishAt": "2026-08-29T09:00:00+03:30",
+        "status": "scheduled"
+      },
+      {
+        "id": "2026-08-29-linkedin-relentlessly-resourceful",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "relentlessly-resourceful",
+        "publishAt": "2026-08-29T12:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-08-29T12:30:00+03:30",
+        "title": null,
+        "body": null
+      },
+      {
+        "id": "2026-08-29-story-relentlessly-resourceful",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "relentlessly-resourceful",
+        "publishAt": "2026-08-29T20:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-08-29T20:30:00+03:30",
+        "title": null,
+        "body": null
+      },
+      {
+        "id": "2026-08-30-site-how-to-get-startup-ideas",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "how-to-get-startup-ideas",
+        "publishAt": "2026-08-30T09:00:00+03:30",
+        "status": "scheduled"
+      },
+      {
+        "id": "2026-08-30-linkedin-how-to-get-startup-ideas",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "how-to-get-startup-ideas",
+        "publishAt": "2026-08-30T12:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-08-30T12:30:00+03:30",
+        "title": null,
+        "body": null
+      },
+      {
+        "id": "2026-08-30-story-how-to-get-startup-ideas",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "how-to-get-startup-ideas",
+        "publishAt": "2026-08-30T20:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-08-30T20:30:00+03:30",
+        "title": null,
+        "body": null
+      },
+      {
+        "id": "2026-08-31-site-makers-schedule-managers-schedule",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "makers-schedule-managers-schedule",
+        "publishAt": "2026-08-31T09:00:00+03:30",
+        "status": "scheduled"
+      },
+      {
+        "id": "2026-08-31-linkedin-makers-schedule-managers-schedule",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "makers-schedule-managers-schedule",
+        "publishAt": "2026-08-31T12:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-08-31T12:30:00+03:30",
+        "title": null,
+        "body": null
+      },
+      {
+        "id": "2026-08-31-story-makers-schedule-managers-schedule",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "makers-schedule-managers-schedule",
+        "publishAt": "2026-08-31T20:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-08-31T20:30:00+03:30",
+        "title": null,
+        "body": null
+      },
+      {
+        "id": "2026-09-01-site-1000-true-fans",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "1-000-true-fans",
+        "publishAt": "2026-09-01T09:00:00+03:30",
+        "status": "scheduled"
+      },
+      {
+        "id": "2026-09-01-linkedin-1000-true-fans",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "1-000-true-fans",
+        "publishAt": "2026-09-01T12:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-09-01T12:30:00+03:30",
+        "title": null,
+        "body": null
+      },
+      {
+        "id": "2026-09-01-story-1000-true-fans",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "1-000-true-fans",
+        "publishAt": "2026-09-01T20:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-09-01T20:30:00+03:30",
+        "title": null,
+        "body": null
+      },
+      {
+        "id": "2026-09-02-site-the-only-thing-that-matters",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "the-only-thing-that-matters",
+        "publishAt": "2026-09-02T09:00:00+03:30",
+        "status": "scheduled"
+      },
+      {
+        "id": "2026-09-02-linkedin-the-only-thing-that-matters",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "the-only-thing-that-matters",
+        "publishAt": "2026-09-02T12:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-09-02T12:30:00+03:30",
+        "title": null,
+        "body": null
+      },
+      {
+        "id": "2026-09-02-story-the-only-thing-that-matters",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "the-only-thing-that-matters",
+        "publishAt": "2026-09-02T20:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-09-02T20:30:00+03:30",
+        "title": null,
+        "body": null
+      },
+      {
+        "id": "2026-09-03-site-good-product-manager-bad-product-manager",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "good-product-manager-bad-product-manager",
+        "publishAt": "2026-09-03T09:00:00+03:30",
+        "status": "scheduled"
+      },
+      {
+        "id": "2026-09-03-linkedin-good-product-manager-bad-product-manager",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "good-product-manager-bad-product-manager",
+        "publishAt": "2026-09-03T12:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-09-03T12:30:00+03:30",
+        "title": null,
+        "body": null
+      },
+      {
+        "id": "2026-09-03-story-good-product-manager-bad-product-manager",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "good-product-manager-bad-product-manager",
+        "publishAt": "2026-09-03T20:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-09-03T20:30:00+03:30",
+        "title": null,
+        "body": null
       }
     ],
     "history": []
