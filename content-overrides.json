@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-27T05:30:03.074Z",
+  "updatedAt": "2026-08-28T05:30:03.234Z",
   "translations": {
     "fa": {
       "documentTitle": "علی سدیفی | یادداشت‌هایی درباره ساختن",
@@ -496,7 +496,8 @@
         "target": "site",
         "articleSlug": "startup-growth",
         "publishAt": "2026-08-28T09:00:00+03:30",
-        "status": "scheduled"
+        "status": "published",
+        "publishedAt": "2026-08-28T09:00:00+03:30"
       },
       {
         "id": "2026-08-28-linkedin-startup-growth",
