@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-28T05:30:03.234Z",
+  "updatedAt": "2026-08-29T05:30:02.489Z",
   "translations": {
     "fa": {
       "documentTitle": "علی سدیفی | یادداشت‌هایی درباره ساختن",
@@ -527,7 +527,8 @@
         "target": "site",
         "articleSlug": "relentlessly-resourceful",
         "publishAt": "2026-08-29T09:00:00+03:30",
-        "status": "scheduled"
+        "status": "published",
+        "publishedAt": "2026-08-29T09:00:00+03:30"
       },
       {
         "id": "2026-08-29-linkedin-relentlessly-resourceful",
