@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-29T05:30:02.489Z",
+  "updatedAt": "2026-08-30T05:30:03.687Z",
   "translations": {
     "fa": {
       "documentTitle": "علی سدیفی | یادداشت‌هایی درباره ساختن",
@@ -558,7 +558,8 @@
         "target": "site",
         "articleSlug": "how-to-get-startup-ideas",
         "publishAt": "2026-08-30T09:00:00+03:30",
-        "status": "scheduled"
+        "status": "published",
+        "publishedAt": "2026-08-30T09:00:00+03:30"
       },
       {
         "id": "2026-08-30-linkedin-how-to-get-startup-ideas",
