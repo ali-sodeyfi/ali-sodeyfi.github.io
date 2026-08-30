@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-30T05:30:03.687Z",
+  "updatedAt": "2026-08-30T10:30:00+03:30",
   "translations": {
     "fa": {
       "documentTitle": "علی سدیفی | یادداشت‌هایی درباره ساختن",
@@ -582,6 +582,15 @@
         "readyAt": "2026-08-30T20:30:00+03:30",
         "title": null,
         "body": null
+      },
+      {
+        "id": "2026-08-30-site-18-mistakes-that-kill-startups",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "the-18-mistakes-that-kill-startups",
+        "publishAt": "2026-08-30T10:30:00+03:30",
+        "status": "published",
+        "publishedAt": "2026-08-30T10:30:00+03:30"
       },
       {
         "id": "2026-08-31-site-makers-schedule-managers-schedule",

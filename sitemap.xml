@@ -2,15 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://alisodeyfi.ir/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-08-30</lastmod>
   </url>
   <url>
     <loc>https://alisodeyfi.ir/?lang=en</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-08-30</lastmod>
   </url>
   <url>
     <loc>https://alisodeyfi.ir/?lang=ar</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-08-30</lastmod>
   </url>
   <url>
     <loc>https://alisodeyfi.ir/?article=do-things-that-dont-scale&amp;lang=fa</loc>
@@ -239,5 +239,17 @@
   <url>
     <loc>https://alisodeyfi.ir/?article=how-to-build-an-mvp&amp;lang=ar</loc>
     <lastmod>2026-08-26</lastmod>
+  </url>
+  <url>
+    <loc>https://alisodeyfi.ir/?article=the-18-mistakes-that-kill-startups&amp;lang=fa</loc>
+    <lastmod>2026-08-30</lastmod>
+  </url>
+  <url>
+    <loc>https://alisodeyfi.ir/?article=the-18-mistakes-that-kill-startups&amp;lang=en</loc>
+    <lastmod>2026-08-30</lastmod>
+  </url>
+  <url>
+    <loc>https://alisodeyfi.ir/?article=the-18-mistakes-that-kill-startups&amp;lang=ar</loc>
+    <lastmod>2026-08-30</lastmod>
   </url>
 </urlset>

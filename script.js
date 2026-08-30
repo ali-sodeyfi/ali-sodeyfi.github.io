@@ -688,6 +688,23 @@ const articleCatalog = [
       ar: "تذكير كلاسيكي بأن الشركة الناشئة لا تبنى من داخل غرفة الاجتماعات؛ حقيقة نموذج العمل توجد خارج المبنى، عند العملاء.",
     },
   },
+  {
+    title: "The 18 Mistakes That Kill Startups",
+    author: "Paul Graham",
+    source: "Paul Graham",
+    year: "2006",
+    url: "https://paulgraham.com/startupmistakes.html",
+    tags: {
+      fa: ["شکست استارتاپ", "کاربر", "اجرا"],
+      en: ["startup failure", "users", "execution"],
+      ar: ["فشل الشركات الناشئة", "المستخدمون", "التنفيذ"],
+    },
+    summary: {
+      fa: "یک چک‌لیست سخت‌گیرانه برای خطاهایی که تیم را از ساختن چیزی که کاربران واقعاً می‌خواهند دور می‌کند: از ایده مشتق و کاربر مبهم تا لانچ دیرهنگام، استخدام بد و مدیریت نادرست پول.",
+      en: "A rigorous checklist of mistakes that pull a team away from making something users truly want: vague users, derivative ideas, slow launch, bad hiring, and poor money discipline.",
+      ar: "قائمة فحص صارمة للأخطاء التي تبعد الفريق عن صنع شيء يريده المستخدمون فعلا: مستخدم غامض، فكرة مشتقة، إطلاق بطيء، توظيف سيئ، وانضباط مالي ضعيف.",
+    },
+  },
 ];
 
 const articleEssays = {
@@ -1581,6 +1598,80 @@ const articleEssays = {
         "حوّل اجتماعات المتابعة من عرض المشكلات إلى تصميم الخطوة التالية.",
         "اكتب قائمة الموارد الخفية قبل أن تقول إن الموارد غير موجودة.",
         "اجمع المثابرة مع المرونة؛ الضغط أكثر على الطريق الخطأ ليس حيلة عملية.",
+      ],
+    },
+  },
+  "The 18 Mistakes That Kill Startups": {
+    fa: {
+      paragraphs: [
+        "این مقاله از زاویه معکوس به ساخت شرکت نگاه می‌کند: به جای اینکه بگوید چه کارهایی حتماً موفقیت می‌آورد، نشان می‌دهد چه خطاهایی معمولاً تیم را از مسیر خارج می‌کند. ایده مرکزی ساده است: بیشتر شکست‌ها در نهایت به یک چیز برمی‌گردند؛ تیم چیزی نمی‌سازد که کاربران واقعاً بخواهند. بقیه خطاها، شکل‌های مختلف همین فاصله گرفتن از کاربر و واقعیت بازارند.",
+        "بخش مهمی از این خطاها از انتخاب مسئله شروع می‌شود. وقتی تیم فقط از روی یک شرکت موفق کپی می‌کند، یا از ترس رقابت سراغ گوشه‌ای خیلی کوچک و بی‌اهمیت می‌رود، معمولاً مسئله‌ای جدی در دست ندارد. مسئله خوب باید آن‌قدر واقعی باشد که آدم‌ها برای حلش رفتارشان را تغییر دهند. اگر کاربر مشخص نیست، درد مشخص نیست، و شواهد بیرونی نداریم، ایده هنوز بیشتر شبیه حدس است تا پایه یک شرکت.",
+        "Graham روی کاربر مشخص تأکید جدی دارد. ساختن برای «مردم»، «شرکت‌ها» یا «بازار» کافی نیست. باید بدانی دقیقاً چه کسی با این مشکل درگیر است، امروز چطور آن را حل می‌کند، چرا راه‌حل فعلی ناکافی است، و آیا می‌توانی چند نفر از همین آدم‌ها را قانع کنی محصول ناقص اولیه را امتحان کنند یا نه. اگر نتوانی با کاربر واقعی تماس بگیری، عملاً با ابزار کور حرکت می‌کنی.",
+        "اشتباه بعدی به زمان لانچ برمی‌گردد. دیر لانچ کردن معمولاً خطرناک‌تر از زود لانچ کردن است، چون یادگیری را عقب می‌اندازد. اما زود لانچ کردن هم اگر بدون یک هسته مفید باشد، اعتماد کاربر اولیه را می‌سوزاند. راه عملی این است که کوچک‌ترین نسخه‌ای را بسازی که خودش به تنهایی فایده دارد و بعد بتواند رشد کند. این نسخه قرار نیست کامل باشد؛ قرار است تماس واقعی با کاربر بسازد.",
+        "در مقاله، تیم اولیه هم یک عامل تعیین‌کننده است. تک‌بنیان‌گذار بودن، هم‌بنیان‌گذار نامناسب، اختلاف حل‌نشده، یا استخدام آدم‌هایی که نمی‌توانی کیفیت‌شان را بسنجی، فقط مسئله منابع انسانی نیست؛ روی سرعت یادگیری و کیفیت تصمیم اثر مستقیم دارد. در شروع، تیم کوچک باید بتواند سریع فکر کند، سریع بسازد، مستقیم با کاربر حرف بزند و وقتی فرضیه غلط شد، بدون فرسایش مسیر را اصلاح کند.",
+        "پول هم در این نگاه ابزار زمان است، نه نشانه موفقیت. کم پول گرفتن ممکن است تیم را قبل از رسیدن به مرحله بعد زمین‌گیر کند؛ زیاد پول گرفتن هم می‌تواند سرعت را کم کند، فشار بیرونی بسازد و انعطاف تغییر مسیر را بگیرد. خرج زیاد، مخصوصاً استخدام زودهنگام و سنگین، هم هزینه را بالا می‌برد و هم تصمیم‌گیری را کند می‌کند. معیار درست این است که پول چقدر runway و یادگیری واقعی می‌خرد.",
+        "ارزش عملی مقاله در این است که می‌شود آن را مثل چک‌لیست مرور هفتگی استفاده کرد. آیا کاربر مشخص داریم؟ آیا چیزی لانچ شده که از آن یاد بگیریم؟ آیا داریم برای حل مسئله واقعی می‌سازیم یا برای دفاع از ایده اولیه؟ آیا پول، تیم و سرمایه‌گذارها به یادگیری کمک می‌کنند یا آن را سنگین‌تر کرده‌اند؟ اگر این سؤال‌ها مرتب پرسیده شوند، مقاله از یک فهرست خطا به یک ابزار عملیاتی تبدیل می‌شود.",
+      ],
+      advice: [
+        "قبل از ساخت بیشتر، کاربر هدف را با اسم و موقعیت دقیق تعریف کن؛ «شرکت‌ها» یا «مصرف‌کننده‌ها» تعریف کافی نیست.",
+        "اگر ایده شبیه نسخه ضعیف‌تر یک شرکت موفق است، دوباره از مسئله شروع کن و نه از راه‌حل موجود.",
+        "یک هسته کوچک اما مفید لانچ کن؛ چیزی که ناقص است ولی ارزش مستقل دارد.",
+        "هر تصمیم استخدامی در شروع باید یا ساخت محصول را بهتر کند یا رسیدن به کاربر را سریع‌تر.",
+        "runway را با مرحله بعد بسنج: نمونه اولیه، لانچ، رشد اولیه یا درآمد واقعی.",
+        "سرمایه زیاد را با دقت بگیر؛ پولی که انعطاف را کم کند، همیشه مزیت نیست.",
+        "اختلاف هم‌بنیان‌گذارها را زود و صریح حل کن؛ ابهام در رابطه مؤسس‌ها در بحران بزرگ‌تر می‌شود.",
+        "از کارهای بیرون از کدنویسی فرار نکن؛ در شروع، فروش، مذاکره و گفت‌وگو با کاربر بخشی از محصول است.",
+      ],
+      takeaways: [
+        "هر هفته بررسی کن آیا کار امروز تیم مستقیماً به ساختن چیزی که کاربر می‌خواهد نزدیک‌تر شده یا نه.",
+        "برای هر ایده، کاربر مشخص، درد مشخص و شاهد رفتاری مشخص بنویس.",
+        "لانچ را تا داشتن محصول کامل عقب نینداز؛ یک هسته مفید و قابل گسترش کافی است.",
+        "استخدام و جذب سرمایه را با اثرشان روی سرعت یادگیری بسنج، نه با ظاهر رشد.",
+        "وقتی داده کاربر با ایده اولیه نمی‌خواند، دفاع از ایده را با اصلاح مسیر اشتباه نگیر.",
+      ],
+    },
+    en: {
+      paragraphs: [
+        "This essay looks at startup building from the reverse angle. Instead of promising a recipe for success, it lists the mistakes that usually move a team away from success. The central idea is that most startup failure eventually passes through one gate: the company fails to make something users truly want. The other mistakes are different ways of losing contact with users, learning too slowly, or making the organization heavier before the product deserves it.",
+        "The first cluster is about the problem and the user. A derivative idea, a marginal niche, or a vague target customer usually means the team has not found a sharp enough problem. Building for generic users is especially dangerous. The team needs to know who has the pain, what they do today, why that current behavior persists, and whether real people will try an imperfect early product.",
+        "The second cluster is about operating discipline. Launch too late and learning is delayed; launch too early without a useful core and early trust can be damaged. Hire poorly and the product slows down. Raise too little money and the company may not reach the next milestone; raise too much and the company may lose flexibility. The useful lesson is to treat every choice as a question of learning speed and closeness to users.",
+        "Used well, the essay becomes a weekly diagnostic tool. Does the team know its user? Has something useful reached the market? Are hires and spending increasing learning, or only increasing weight? Are investors helping the company make better decisions, or pulling attention away from the product? These questions make the piece practical rather than merely cautionary.",
+      ],
+      advice: [
+        "Define the target user precisely before building more product.",
+        "If the idea is mainly a copy of another company, return to the underlying problem.",
+        "Launch a small useful core instead of waiting for a complete product.",
+        "Hire early only when the role improves product quality or user access.",
+        "Measure runway against the next concrete milestone.",
+        "Treat fundraising as a tool for learning time, not as validation by itself.",
+      ],
+      takeaways: [
+        "Check every week whether the team is getting closer to something users want.",
+        "Write down the specific user, pain, and behavioral evidence for each idea.",
+        "Keep product, hiring, and fundraising decisions tied to learning speed.",
+        "Do not confuse loyalty to the original idea with discipline.",
+      ],
+    },
+    ar: {
+      paragraphs: [
+        "ينظر هذا المقال إلى بناء الشركة من الاتجاه المعاكس. لا يقدم وصفة للنجاح، بل يعدد الأخطاء التي تبعد الفريق عن النجاح. الفكرة المركزية هي أن معظم فشل الشركات الناشئة يمر من بوابة واحدة: عدم صنع شيء يريده المستخدمون فعلا. الأخطاء الأخرى هي صور مختلفة من الابتعاد عن المستخدم، أو التعلم ببطء، أو جعل الشركة أثقل قبل أن يستحق المنتج ذلك.",
+        "المجموعة الأولى من الأخطاء تتعلق بالمشكلة والمستخدم. الفكرة المشتقة، أو السوق الهامشي، أو العميل غير المحدد تعني غالبا أن الفريق لم يمسك بمشكلة حادة بما يكفي. البناء لمستخدم عام خطر عملي. يجب أن يعرف الفريق من يشعر بالألم، كيف يحله الآن، لماذا بقي السلوك الحالي، وهل سيجرب أشخاص حقيقيون منتجا أوليا ناقصا.",
+        "المجموعة الثانية تتعلق بالانضباط التشغيلي. الإطلاق المتأخر يؤخر التعلم، والإطلاق المبكر من دون نواة مفيدة قد يضر الثقة الأولى. التوظيف السيئ يبطئ المنتج. التمويل القليل قد لا يكفي للوصول إلى المرحلة التالية، والتمويل الكثير قد يقلل المرونة. الدرس العملي هو أن كل قرار يجب أن يقاس بسرعة التعلم وقربه من المستخدم.",
+        "إذا استُخدم المقال جيدا، يصبح أداة تشخيص أسبوعية. هل يعرف الفريق مستخدمه؟ هل وصل شيء مفيد إلى السوق؟ هل يزيد التوظيف والإنفاق التعلم أم يزيدان الوزن فقط؟ هل يساعد المستثمرون على قرار أفضل أم يسحبون الانتباه من المنتج؟ بهذه الأسئلة يتحول النص من تحذير عام إلى أداة تشغيلية.",
+      ],
+      advice: [
+        "عرّف المستخدم المستهدف بدقة قبل بناء مزيد من المنتج.",
+        "إذا كانت الفكرة نسخة من شركة أخرى، ارجع إلى المشكلة الأصلية.",
+        "أطلق نواة صغيرة مفيدة بدلا من انتظار منتج كامل.",
+        "وظف مبكرا فقط عندما يزيد الدور جودة المنتج أو الوصول إلى المستخدم.",
+        "قس runway بالمرحلة التالية الواضحة، لا بعدد الأشهر فقط.",
+        "عامل التمويل كأداة لشراء وقت التعلم، لا كدليل نجاح بحد ذاته.",
+      ],
+      takeaways: [
+        "افحص كل أسبوع هل يقترب الفريق من صنع شيء يريده المستخدمون.",
+        "اكتب المستخدم المحدد والألم والدليل السلوكي لكل فكرة.",
+        "اربط قرارات المنتج والتوظيف والتمويل بسرعة التعلم.",
+        "لا تخلط بين الوفاء للفكرة الأولى والانضباط الحقيقي.",
       ],
     },
   },
