@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-30T10:30:00+03:30",
+  "updatedAt": "2026-08-31T05:49:33+03:30",
   "translations": {
     "fa": {
       "documentTitle": "علی سدیفی | یادداشت‌هایی درباره ساختن",
@@ -593,34 +593,51 @@
         "publishedAt": "2026-08-30T10:30:00+03:30"
       },
       {
-        "id": "2026-08-31-site-makers-schedule-managers-schedule",
+        "id": "2026-08-31-site-10-questions-to-discuss-with-a-potential-co-founder",
         "channel": "site",
         "target": "site",
-        "articleSlug": "makers-schedule-managers-schedule",
-        "publishAt": "2026-08-31T09:00:00+03:30",
-        "status": "scheduled"
+        "articleSlug": "10-questions-to-discuss-with-a-potential-co-founder",
+        "publishAt": "2026-08-31T05:49:33+03:30",
+        "status": "published",
+        "publishedAt": "2026-08-31T05:49:33+03:30"
       },
       {
-        "id": "2026-08-31-linkedin-makers-schedule-managers-schedule",
+        "id": "2026-08-31-linkedin-10-questions-to-discuss-with-a-potential-co-founder",
         "channel": "linkedin",
         "target": "external",
-        "articleSlug": "makers-schedule-managers-schedule",
+        "articleSlug": "10-questions-to-discuss-with-a-potential-co-founder",
         "publishAt": "2026-08-31T12:30:00+03:30",
         "status": "blocked/needs-login",
         "readyAt": "2026-08-31T12:30:00+03:30",
-        "title": null,
-        "body": null
+        "title": {
+          "fa": "پیش‌نویس لینکدین: 10 Questions to Discuss with a Potential Co-founder",
+          "en": "LinkedIn draft: 10 Questions to Discuss with a Potential Co-founder",
+          "ar": "مسودة لينكدإن: 10 Questions to Discuss with a Potential Co-founder"
+        },
+        "body": {
+          "fa": "تز: قبل از تقسیم equity، باید روی انگیزه، نقش، پول، محل کار، ریتم کار و قواعد اختلاف‌نظر به توافق برسید. اثر عملی: mismatch هم‌بنیان‌گذارها را باید قبل از commit دید، نه بعد از فشار رشد. قدم بعدی: هر دو نفر پاسخ‌ها را جدا بنویسند و یک trial project کوتاه انجام دهند. وضعیت انتشار: مسدود تا ورود و تایید انسانی.",
+          "en": "Thesis: before splitting equity, align on motivation, roles, money, location, work rhythm, and how disagreements get handled. Operationally, founder mismatch is cheaper to detect before commitment than after growth pressure arrives. Next step: write answers separately and run one short trial project. Publishing status: blocked until login and human approval.",
+          "ar": "الخلاصة: قبل تقسيم الأسهم، اتفقوا على الدافع والأدوار والمال والمكان وإيقاع العمل وطريقة حل الخلاف. تشغيليا، اكتشاف عدم التوافق بين المؤسسين أرخص قبل الالتزام منه بعد ضغط النمو. الخطوة التالية: اكتبوا الإجابات منفصلين ثم نفذوا مشروعا تجريبيا قصيرا. حالة النشر: محظور إلى حين تسجيل الدخول والموافقة البشرية."
+        }
       },
       {
-        "id": "2026-08-31-story-makers-schedule-managers-schedule",
+        "id": "2026-08-31-story-10-questions-to-discuss-with-a-potential-co-founder",
         "channel": "instagram-story",
         "target": "external",
-        "articleSlug": "makers-schedule-managers-schedule",
+        "articleSlug": "10-questions-to-discuss-with-a-potential-co-founder",
         "publishAt": "2026-08-31T20:30:00+03:30",
         "status": "blocked/needs-login",
         "readyAt": "2026-08-31T20:30:00+03:30",
-        "title": null,
-        "body": null
+        "title": {
+          "fa": "پیش‌نمایش استوری: 10 Questions to Discuss with a Potential Co-founder",
+          "en": "Story preview: 10 Questions to Discuss with a Potential Co-founder",
+          "ar": "معاينة الستوري: 10 Questions to Discuss with a Potential Co-founder"
+        },
+        "body": {
+          "fa": "اسلاید 1: هدف، نقش و equity. اسلاید 2: پول، مکان و ریتم کار. اسلاید 3: trial project و لینک منبع اصلی. وضعیت انتشار: مسدود تا ورود و تایید انسانی.",
+          "en": "Slide 1: motivation, roles, and equity. Slide 2: money, location, and work rhythm. Slide 3: trial project and original source link. Publishing status: blocked until login and human approval.",
+          "ar": "الشريحة 1: الدافع والأدوار والأسهم. الشريحة 2: المال والمكان وإيقاع العمل. الشريحة 3: مشروع تجريبي ورابط المصدر الأصلي. حالة النشر: محظور إلى حين تسجيل الدخول والموافقة البشرية."
+        }
       },
       {
         "id": "2026-09-01-site-1000-true-fans",

@@ -705,6 +705,23 @@ const articleCatalog = [
       ar: "قائمة فحص صارمة للأخطاء التي تبعد الفريق عن صنع شيء يريده المستخدمون فعلا: مستخدم غامض، فكرة مشتقة، إطلاق بطيء، توظيف سيئ، وانضباط مالي ضعيف.",
     },
   },
+  {
+    title: "10 Questions to Discuss with a Potential Co-founder",
+    author: "Y Combinator",
+    source: "Y Combinator",
+    year: "2023",
+    url: "https://www.ycombinator.com/blog/10-questions-to-discuss-with-a-potential-co-founder?trk=public_post_comment-text",
+    tags: {
+      fa: ["هم‌بنیان‌گذار", "هم‌راستایی", "تیم"],
+      en: ["co-founder", "alignment", "team"],
+      ar: ["شريك مؤسس", "التوافق", "الفريق"],
+    },
+    summary: {
+      fa: "پرسش‌نامه‌ای عملی برای روشن کردن هدف، نقش، equity، محل کار، ریتم همکاری و نحوه حل اختلاف پیش از تعهد جدی به یک هم‌بنیان‌گذار.",
+      en: "A practical questionnaire for clarifying goals, roles, equity, work location, collaboration rhythm, and conflict handling before committing to a co-founder.",
+      ar: "استبيان عملي لتوضيح الأهداف والأدوار والأسهم ومكان العمل وإيقاع التعاون وطريقة حل الخلاف قبل الالتزام بشريك مؤسس.",
+    },
+  },
 ];
 
 const articleEssays = {
@@ -1672,6 +1689,71 @@ const articleEssays = {
         "اكتب المستخدم المحدد والألم والدليل السلوكي لكل فكرة.",
         "اربط قرارات المنتج والتوظيف والتمويل بسرعة التعلم.",
         "لا تخلط بين الوفاء للفكرة الأولى والانضباط الحقيقي.",
+      ],
+    },
+  },
+  "10 Questions to Discuss with a Potential Co-founder": {
+    fa: {
+      paragraphs: [
+        "پیدا کردن هم‌بنیان‌گذار خوب، بیشتر از پیدا کردن یک هم‌فکر هیجان‌انگیز، شبیه کم کردن ریسک یک رابطه کاری بلندمدت است. خیلی از شکست‌های زودهنگام از اختلاف در هدف، ریتم کار یا تصور هر نفر از نقش خودش شروع می‌شود. برای همین، پرسش‌نامه‌ای مثل این مقاله ارزش دارد: به جای حدس زدن، اختلاف‌های مهم را زود آشکار می‌کند.",
+        "اول باید روشن شود هر نفر چرا می‌خواهد این کار را شروع کند. یکی دنبال پول است، یکی دنبال استقلال، یکی دنبال یادگیری و یکی دنبال ساختن چیزی ماندگار. هیچ‌کدام ذاتا غلط نیست، اما اگر انگیزه‌ها هم‌سو نباشند، بعدا در لحظه‌های سخت تبدیل به سوءتفاهم می‌شوند. یک تیم وقتی دوام می‌آورد که بداند هر نفر با چه قیمتی حاضر است ادامه دهد.",
+        "بعد نوبت نقش‌هاست: چه کسی CEO می‌شود، کار هر نفر چیست، equity چطور تقسیم می‌شود، و تیم در کجا و با چه ریتمی کار می‌کند. این‌ها سوالات اداری ظاهری نیستند. اگر از اول روشن نشوند، اختلاف‌های کوچک در تصمیم‌گیری به سوءظن‌های بزرگ تبدیل می‌شوند. حتی یک توافق موقت بهتر از ابهام طولانی است، چون حداقل معلوم می‌کند چه چیزی باید بعدا دوباره بررسی شود.",
+        "بخش مهم دیگر پول و تعهد تمام‌وقت است. خیلی از تیم‌ها تا وقتی یکی از بنیان‌گذارها هنوز شغل یا درس دیگری دارد، درباره commitment واقعی حرف نمی‌زنند. اما باید از قبل روشن باشد چه عددی، چه مشتری‌ای یا چه نشانه‌ای باعث می‌شود هر دو نفر تمام‌وقت شوند. اگر یکی از نفرات به salary نیاز دارد و دیگری نه، این تفاوت باید قبل از بحران دیده شود.",
+        "سپس باید ببینی آیا این همکاری در عمل هم کار می‌کند یا نه. یک project کوچک مشترک، چند تماس مرجع و یک دوره کاری کوتاه کنار هم، از هر questionnaire دقیق‌تر است. اختلاف‌نظر در استرس، سبک feedback یا نحوه مواجهه با فشارهای شخصی، در جلسه اول معلوم نمی‌شود. اما همین‌ها در سال اول شرکت، از همه چیز مهم‌تر می‌شوند.",
+        "جمع‌بندی عملی این است که co-founder matching نباید بر اساس حس خوب لحظه‌ای باشد. باید با سوال، آزمون و شفافیت جلو برود. اگر کسی حاضر نیست صادقانه به سوال‌های سخت جواب دهد، احتمالا هنوز برای شریک‌شدن آماده نیست. و اگر جواب‌ها روشن شد اما همکاری روزمره جواب نداد، بهتر است زودتر اصلاح مسیر شود تا بعد از ساختن یک ساختار شکننده.",
+      ],
+      advice: [
+        "پیش از commit، هر دو نفر جواب‌ها را جداگانه بنویسند و بعد مقایسه کنند.",
+        "نقش CEO، equity، محل کار و ریتم هفتگی را قبل از شروع تمام‌وقت مشخص کنید.",
+        "برای full-time شدن، یک آستانه روشن تعریف کنید: سرمایه، مشتری یا زمان.",
+        "یک trial project کوتاه طراحی کن که همکاری واقعی را نشان دهد.",
+        "از reference check شفاف نترس؛ رضایت کوتاه‌مدت جایگزین داده واقعی نیست.",
+        "اگر فشارهای شخصی یا سبک feedback ناسازگار است، آن را قبل از تعهد سنگین مطرح کن.",
+      ],
+      takeaways: [
+        "این پرسش‌نامه یک تست زودهنگام برای هم‌راستایی است، نه یک کار اداری اضافی.",
+        "انگیزه، نقش، equity، محل کار و زمان‌بندی باید قبل از تعهد روشن شوند.",
+        "شرط full-time شدن را از قبل بنویس تا اختلاف در بحران آشکار نشود.",
+        "trial project و reference call از جواب‌های خوش‌ساخت مهم‌ترند.",
+        "حل اختلاف و روند feedback بخشی از طراحی شرکت است، نه موضوعی بعد از launch.",
+      ],
+    },
+    en: {
+      paragraphs: [
+        "A co-founder relationship should be treated as an operating decision, not a vibe check. Early startups often fail for ordinary reasons: goals diverge, work rhythms conflict, and unspoken expectations turn into resentment under pressure.",
+        "The YC questionnaire is useful because it forces the hard questions early: why each person wants the company, who owns what, where the team works, when everyone goes full-time, and what happens when decisions are hard. That is not bureaucracy. It is a way to make hidden assumptions visible before they become expensive.",
+        "The practical test is work, not talk. A short trial project, reference calls, and repeated time together tell you more than polished answers. If the collaboration does not feel stable in small conditions, it will not improve when the company gets louder.",
+        "What matters is not whether every answer is perfect on day one. What matters is whether the founders can surface disagreement early, make explicit tradeoffs, and keep revisiting the operating rules as the company changes.",
+      ],
+      advice: [
+        "Answer the questions separately before comparing notes.",
+        "Lock roles, CEO, equity, location, and work rhythm before committing full-time.",
+        "Set a clear trigger for quitting other work, whether that is funding, a customer, or elapsed time.",
+      ],
+      takeaways: [
+        "Alignment is about explicit tradeoffs, not chemistry alone.",
+        "Money, location, and schedule are operating choices, not side topics.",
+        "Use a trial project and reference calls to test the relationship in real conditions.",
+        "If conflict handling is vague, treat that as a real risk signal.",
+      ],
+    },
+    ar: {
+      paragraphs: [
+        "علاقة الشريك المؤسس ليست مجرد انطباع جيد، بل قرار تشغيلي طويل الأمد. كثير من تعثرات البدايات تأتي من اختلاف الأهداف أو إيقاع العمل أو التوقعات غير المعلنة.",
+        "قيمة الاستبيان أنه يجبر الطرفين على طرح الأسئلة الصعبة مبكرا: لماذا نبدأ؟ من يقود ماذا؟ كيف نقسم الأسهم؟ أين نعمل؟ ومتى ننتقل إلى التفرغ الكامل؟ هذه ليست بيروقراطية؛ إنها طريقة لإظهار الافتراضات الخفية قبل أن تصبح مكلفة.",
+        "الاختبار الحقيقي هو العمل المشترك نفسه. مشروع تجريبي قصير، ومراجعات مرجعية، ووقت كافٍ معا تكشف أكثر من الإجابات المصقولة. إذا لم يكن التعاون مستقرا في الظروف الصغيرة، فلن يصبح أفضل عندما تكبر الشركة.",
+        "المهم ليس أن تكون كل الإجابات مثالية من اليوم الأول. المهم أن يستطيع المؤسسان كشف الخلاف مبكرا، واتخاذ مقايضات واضحة، ومراجعة قواعد العمل كلما تغيرت الشركة.",
+      ],
+      advice: [
+        "أجب كل طرف عن الأسئلة وحده ثم قارنوا الإجابات.",
+        "ثبّتوا الأدوار والأسهم وقرار CEO وإيقاع العمل قبل الالتزام الكامل.",
+        "حددوا شرطا واضحا للتفرغ الكامل، سواء كان تمويلا أو عميلًا أو زمنا.",
+      ],
+      takeaways: [
+        "التوافق هنا يعني مقايضات واضحة، لا مجرد كيمياء جيدة.",
+        "المال والمكان والوقت قرارات تشغيلية مبكرة وليست تفاصيل جانبية.",
+        "المشروع التجريبي والمراجع الفعلية أفضل من الإجابات المصقولة.",
+        "إذا كانت طريقة حل الخلاف غير واضحة، فهذه إشارة خطر حقيقية.",
       ],
     },
   },
