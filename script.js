@@ -722,6 +722,23 @@ const articleCatalog = [
       ar: "استبيان عملي لتوضيح الأهداف والأدوار والأسهم ومكان العمل وإيقاع التعاون وطريقة حل الخلاف قبل الالتزام بشريك مؤسس.",
     },
   },
+  {
+    title: "The Lighthouse Playbook",
+    author: "David Booth",
+    source: "Andreessen Horowitz",
+    year: "2026",
+    url: "https://a16z.com/the-lighthouse-playbook/",
+    tags: {
+      fa: ["رشد", "اعتماد", "شبکه"],
+      en: ["growth", "trust", "network"],
+      ar: ["النمو", "الثقة", "الشبكة"],
+    },
+    summary: {
+      fa: "برای رشد اولیه، سیگنال را با تبلیغ بیشتر نمی‌سازی؛ با جابه‌جا کردن اعتبار و ساختن حلقه‌های اعتماد می‌سازی.",
+      en: "Early growth is not about buying more noise; it is about moving trust through credible people and networked rooms.",
+      ar: "النمو المبكر لا يعني شراء ضجيج أكثر؛ بل نقل الثقة عبر أشخاص موثوقين وغرف مترابطة.",
+    },
+  },
 ];
 
 const articleEssays = {
@@ -1754,6 +1771,72 @@ const articleEssays = {
         "المال والمكان والوقت قرارات تشغيلية مبكرة وليست تفاصيل جانبية.",
         "المشروع التجريبي والمراجع الفعلية أفضل من الإجابات المصقولة.",
         "إذا كانت طريقة حل الخلاف غير واضحة، فهذه إشارة خطر حقيقية.",
+      ],
+    },
+  },
+  "The Lighthouse Playbook": {
+    fa: {
+      paragraphs: [
+        "در مرحله اول یک شرکت، مشکل اصلی خیلی وقت‌ها محصول نیست؛ نداشتن سیگنال است. بهترین مشتری، بهترین همکار و بهترین استخدام هنوز چند گزینه دیگر هم جلویشان دارند. اگر فقط ادعا داشته باشی، در این رقابت دیده نمی‌شوی.",
+        "ایده این مقاله ساده است: در بازارِ پر از انتخاب، سیگنال را با بلندتر حرف زدن نمی‌سازی. باید به آدمی که خودش در یک شبکه معتبر است کمک کنی بهتر دیده شود، مفیدتر باشد و حرف دقیق‌تری بزند. وقتی او اعتبار بیشتری پیدا می‌کند، بخشی از آن اعتماد به سمت تو هم حرکت می‌کند.",
+        "برای شروع باید روایت خودت را روشن کنی. مردم فقط به یک محصول نمی‌چسبند؛ به معنایی می‌چسبند که آن محصول برای آینده‌شان می‌سازد. اگر خودت ندانی چه آینده‌ای را نمایندگی می‌کنی، دیگران هم نمی‌توانند با اطمینان تو را به شبکه‌شان معرفی کنند.",
+        "بعد باید آدم‌های مرجع را پیدا کنی. این‌ها همیشه چهره‌های پر سر و صدا نیستند؛ گاهی یک مهندس قوی، یک مشتری معتبر، یک اپراتور دقیق یا یک مشاور خوش‌فکر، برای شبکه هدف تو بسیار اثرگذارتر از یک نام مشهور است. معیار درست این است که آیا حرف او در آن جامعه وزن واقعی دارد یا نه.",
+        "مرحله بعد این نیست که از آن‌ها بخواهی درباره تو تبلیغ کنند. باید چیزی بسازی که برای خودشان هم ارزش داشته باشد: یک صحنه بهتر برای دیده شدن، دسترسی مفیدتر به مخاطب، یا کمکی که اعتبار حرفه‌ای‌شان را جلو ببرد. اگر رابطه فقط به تایید صوری برسد، سیگنال ضعیف می‌شود؛ اگر کمک واقعی بدهی، اعتماد منتقل می‌شود.",
+        "وقتی چند آدم معتبر دور تو جمع شوند و با هم حرف بزنند، اثر اصلی شروع می‌شود. جمع‌های کوچک، شام‌های محدود، نشست‌های تخصصی یا یک گفت‌وگوی واقعی بین هم‌سطح‌ها از هر کمپین پرهزینه‌ای ماندگارترند. در این فضاها اعتماد از یک نفر به نفر بعدی منتقل می‌شود و بعد از چند دور، مشتری بعدی و نیروی بعدی هم خودش تبدیل به سیگنال تازه می‌شود.",
+      ],
+      advice: [
+        "یک جمله درباره آینده‌ای که شرکت باید نمایندگی کند، بنویس و آن را به زبان ساده امتحان کن.",
+        "فهرستی از 10 نفر، مشتری یا همکار با اعتبار واقعی در شبکه هدف تهیه کن.",
+        "برای هرکدام یک کمک عملی تعریف کن که قبل از هر درخواست به او برسانی.",
+        "یک رویداد کوچک یا گروه محدود با گفت‌وگوی واقعی راه بینداز.",
+        "هر نمونه موفق را به یک داستان قابل نقل تبدیل کن: مصاحبه، پست، رویداد یا معرفی.",
+      ],
+      takeaways: [
+        "قبل از خرج‌کردن برای دسترسی، یک روایت روشن از آینده و جایگاه خودت بنویس.",
+        "آدم‌های مرجعِ واقعی را در شبکه هدف پیدا کن، نه فقط نام‌های مشهور.",
+        "به آن‌ها چیزی مفید بده قبل از اینکه چیزی از آن‌ها بخواهی.",
+        "جمع‌های کوچک و واقعی بساز تا اعتماد بین افراد منتقل شود.",
+        "هر موفقیت را به سیگنال بعدی تبدیل کن و چرخه را تکرار کن.",
+      ],
+    },
+    en: {
+      paragraphs: [
+        "At the earliest stage, the hardest problem is often not product quality. It is credibility. The customers, hires, and partners you want most all have choices, and they rarely move because a startup talks louder than everyone else.",
+        "The better move is to move trust through people who already carry it. Find aligned people who are already respected in the circles you care about, then make them more useful, more visible, and more effective. That is different from trying to rent attention or borrow applause.",
+        "The work starts with a worldview. People do not only attach to products; they attach to the future a product seems to stand for. If you cannot explain that future clearly, nobody else can confidently explain you to their network.",
+        "Once those credible people start talking to one another in small rooms, trust compounds. The room matters more than the announcement. Small gatherings, real conversations, and peer co-signing create a flywheel that a campaign usually cannot match. AI may lower the cost of building, but it does not lower the cost of trust.",
+      ],
+      advice: [
+        "Write one sentence about the future your company should represent.",
+        "Make a short list of credible people in the networks you want to reach.",
+        "Give each one a useful offer before asking for an endorsement.",
+        "Host a small room where they can meet, trade ideas, and reinforce one another.",
+      ],
+      takeaways: [
+        "Write the future and mission you want people to recognize.",
+        "Pick lighthouses with real credibility, not just familiar names.",
+        "Give them something useful before you ask for anything.",
+        "Create small rooms where trust can travel between peers.",
+      ],
+    },
+    ar: {
+      paragraphs: [
+        "في بدايات الشركة، المشكلة ليست المنتج فقط بل الثقة. أفضل العملاء والموظفين والشركاء لديهم بدائل كثيرة، ولن يتحركوا لمجرد أن الشركة تتحدث بصوت أعلى.",
+        "الطريقة الأقوى هي أن تنقل الثقة عبر أشخاص موثوقين أصلا. ابحث عن أشخاص منسجمين معك ولهم احترام حقيقي في الدوائر التي تهمك، ثم ساعدهم على أن يصبحوا أوضح وأكثر نفعا وأكثر حضورا. هذا مختلف تماما عن شراء الانتباه أو استعارة التصفيق.",
+        "العمل يبدأ من رواية واضحة: ما المستقبل الذي تمثله الشركة؟ الناس لا يلتصقون بالمنتجات فقط، بل بالمعنى الذي تعد به. وإذا لم تستطع شرح هذا المعنى بوضوح، فلن يستطيع غيرك أن يشرحه بثقة لشبكته.",
+        "عندما يلتقي هؤلاء الأشخاص في غرف صغيرة وحوارات حقيقية، تنتقل الثقة من شخص إلى آخر وتصبح الحركة مركبة. الذكاء الاصطناعي قد يجعل البناء أرخص، لكنه لا يجعل كسب الثقة أسهل.",
+      ],
+      advice: [
+        "اكتب جملة واحدة عن المستقبل الذي تريد الشركة أن تمثله.",
+        "حدّد قائمة قصيرة بأشخاص أو عملاء محترمين في الشبكات التي تستهدفها.",
+        "قدّم لهم فائدة حقيقية قبل أن تطلب أي إعلان أو توصية.",
+        "اصنع لقاءات صغيرة أو مجموعات محدودة يتحدث فيها هؤلاء مع بعضهم بصدق.",
+      ],
+      takeaways: [
+        "اكتب روايتك المستقبلية بوضوح.",
+        "اختر أشخاصا موثوقين فعلا في شبكتك المستهدفة.",
+        "ابنِ غرفا صغيرة حتى تتراكم الثقة.",
+        "حوّل كل نجاح إلى إشارة جديدة ثم كرر الدورة.",
       ],
     },
   },
