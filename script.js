@@ -790,6 +790,23 @@ const articleCatalog = [
       ar: "خريطة مكثفة لما يكتشفه المؤسسون بعد البداية: شدة علاقة الشركاء، التقلب العاطفي، طول الطريق، صعوبة جذب المستخدمين، وقيمة المجتمع.",
     },
   },
+  {
+    title: "How to Start a Startup",
+    author: "Paul Graham",
+    source: "Paul Graham",
+    year: "2005",
+    url: "https://paulgraham.com/start.html",
+    tags: {
+      fa: ["شروع استارتاپ", "مشتری", "تیم"],
+      en: ["starting up", "customers", "team"],
+      ar: ["بدء الشركة الناشئة", "العملاء", "الفريق"],
+    },
+    summary: {
+      fa: "یک نقشه عملی برای شروع شرکت: آدم‌های درست، ساختن چیزی که مشتری واقعاً بخواهد، و کم نگه داشتن هزینه تا وقتی شواهد بازار روشن‌تر شود.",
+      en: "A practical map for starting up: get the right people, build something customers truly want, and keep spending low while market evidence gets clearer.",
+      ar: "خريطة عملية لبداية الشركة: الأشخاص المناسبون، وبناء شيء يريده العملاء فعلا، وخفض الإنفاق حتى يصبح دليل السوق أوضح.",
+    },
+  },
 ];
 
 const articleEssays = {
@@ -2096,6 +2113,80 @@ const articleEssays = {
         "التحسينات الصغيرة المستمرة غالبا أهم من اختراق واحد.",
         "اكتساب المستخدمين تخصص مستقل، لا مكافأة تلقائية لجودة المنتج.",
         "المجتمع الجيد يحسن الحكم لأنه يجعل المشكلات الصعبة مفهومة ويكشف خيارات أفضل.",
+      ],
+    },
+  },
+  "How to Start a Startup": {
+    fa: {
+      paragraphs: [
+        "ارزش این مقاله در این است که شروع استارتاپ را از حالت رازآلود بیرون می‌آورد و به چند الزام قابل مدیریت تبدیل می‌کند: آدم‌های درست، محصولی که مشتری واقعاً بخواهد، و خرج کردن با احتیاط تا زمانی که شواهد بازار روشن شود. این سه مورد ساده‌اند، اما ساده بودنشان به معنی آسان بودن نیست؛ هر کدام باید در برنامه هفتگی تیم دیده شوند.",
+        "اولین خطا معمولاً بزرگ کردن نقش ایده اولیه است. ایده خوب مهم است، اما بیشتر شبیه یک سؤال کاری است تا یک دارایی کامل. تیمی که درست فکر می‌کند، ایده را با تماس مداوم با واقعیت اصلاح می‌کند؛ تیمی که فقط عاشق ایده است، زود به دفاع از فرضیه‌های خودش می‌رسد. در شروع، کیفیت یادگیری از خود ایده مهم‌تر است.",
+        "درباره تیم، پیام عملی این است که مهارت خام کافی نیست. هم‌بنیان‌گذار و اعضای اولیه باید بتوانند کار واقعی را جلو ببرند، ابهام را تحمل کنند، بدون نمایش هوشمندی یاد بگیرند و با مشتری روبه‌رو شوند. اگر تیم فنی نمی‌خواهد یا نمی‌تواند مسئله مشتری را بفهمد، شرکت از همان ابتدا یک شکاف خطرناک دارد.",
+        "مهم‌ترین بخش محصول این است که نسخه‌ای کوچک، قابل استفاده و قابل مشاهده سریع جلوی مشتری قرار بگیرد. برنامه کامل روی کاغذ جای تماس با کاربر را نمی‌گیرد. کاربر وقتی محصول را لمس می‌کند، چیزهایی نشان می‌دهد که در جلسه داخلی پیدا نمی‌شود: کجا می‌ترسد، کجا گیج می‌شود، کجا حاضر است زمان یا پول بدهد و کجا فقط مودبانه لبخند می‌زند.",
+        "مقاله همچنین نگاه واقع‌بینانه‌ای به بازار می‌دهد. فرصت‌های خوب همیشه در بازارهای پرزرق‌وبرق نیستند؛ گاهی در کارهای معمولی و فرسوده‌ای‌اند که ابزارهای موجودشان بد، کند یا پرهزینه است. برای شروع، مشتری کوچک‌تر و قابل دسترس‌تر اغلب بهتر از سازمان بزرگی است که فروش به آن زمان و قدرت سیاسی زیادی می‌خواهد.",
+        "در نهایت، پول باید احتمال زنده ماندن و یادگیری را بالا ببرد، نه اینکه خودش معیار موفقیت شود. هزینه کم به بنیان‌گذار زمان و آزادی تصمیم می‌دهد. جذب سرمایه اگر لازم است، باید با روایت ساده، نمونه اولیه، شواهد مشتری و توافق روشن بین بنیان‌گذارها همراه باشد؛ مخصوصاً درباره سهم، تعهد تمام‌وقت و مالکیت فکری.",
+      ],
+      advice: [
+        "تیم اولیه را کوچک نگه دار و آدم‌هایی را انتخاب کن که هم کار را جلو می‌برند و هم واقعیت مشتری را می‌پذیرند.",
+        "ایده را به فرضیه‌های قابل تست تبدیل کن؛ نه به چیزی که باید از آن دفاع شود.",
+        "یک نمونه کوچک بساز و خیلی زود رفتار مشتری واقعی را مشاهده کن.",
+        "تا وقتی کشش بازار روشن نشده، هزینه ثابت و استخدام را پایین نگه دار.",
+        "برای شروع، سراغ مشتریانی برو که دردشان واضح، دسترسی به آن‌ها ممکن و ابزار فعلی‌شان ضعیف است.",
+        "قبل از جدی شدن کار، درباره سهم، تعهد، مالکیت فکری و نقش‌ها توافق مکتوب داشته باش.",
+      ],
+      takeaways: [
+        "شروع استارتاپ یک معمای جادویی نیست؛ ترکیبی از تیم، خواست مشتری و انضباط هزینه است.",
+        "ایده اولیه نقطه شروع یادگیری است، نه تضمین موفقیت.",
+        "مشاهده رفتار مشتری از برنامه‌ریزی طولانی قابل اتکاتر است.",
+        "تیم فنی هم باید مالک فهم مشتری باشد، نه فقط مالک کد.",
+        "بازارهای کوچک و بدخدمت‌شده می‌توانند نقطه شروع بهتری از بازارهای بزرگ و سخت‌فروش باشند.",
+        "خرج کم و توافق روشن بین بنیان‌گذارها قدرت تصمیم‌گیری شرکت را بالا می‌برد.",
+      ],
+    },
+    en: {
+      paragraphs: [
+        "The useful part of this essay is that it makes starting up feel operational rather than mystical. A startup needs the right people, something customers genuinely want, and enough spending discipline to stay alive while the team learns. None of these is glamorous, but each one has to show up in weekly behavior.",
+        "The first correction is about ideas. A starting idea matters, but it is more like a working question than a finished asset. Strong teams keep changing the idea as contact with reality improves. Weak teams defend the idea longer than the evidence deserves.",
+        "The second correction is about people. Early team members need more than raw intelligence or credentials. They have to move work forward, handle ambiguity, learn without posturing, and face customers directly. If the technical side of the company does not understand users, the company begins with a dangerous split.",
+        "The product lesson is to get a small usable version in front of real customers quickly. A long internal plan cannot replace watching someone try to use the product. Customer behavior reveals confusion, fear, willingness to pay, and real urgency in a way meetings rarely do.",
+        "The financing lesson is restraint. Money should improve the odds of learning and surviving; it should not become the scoreboard. Low burn gives founders time and negotiating power. Before things get serious, founders also need clear agreement on equity, roles, full-time commitment, and intellectual property.",
+      ],
+      advice: [
+        "Keep the first team small and biased toward people who can both build and learn from customers.",
+        "Turn the idea into testable assumptions instead of treating it as something to defend.",
+        "Put a small working version in front of real users before expanding the plan.",
+        "Keep fixed costs low until market pull is visible.",
+        "Write down founder equity, roles, commitment, and IP expectations early.",
+      ],
+      takeaways: [
+        "Starting up is a system of people, customer demand, and spending discipline.",
+        "The first idea is a starting point for learning, not the value by itself.",
+        "Watching users is more reliable than extended internal planning.",
+        "Technical founders still need ownership of customer understanding.",
+        "Low burn and clear founder agreements increase decision power.",
+      ],
+    },
+    ar: {
+      paragraphs: [
+        "قيمة هذا المقال أنه يجعل بداية الشركة عملا تشغيليا لا لغزا. تحتاج الشركة الناشئة إلى أشخاص مناسبين، وشيء يريده العملاء فعلا، وانضباط في الإنفاق يبقي الفريق حيا بينما يتعلم. هذه الأمور ليست براقة، لكنها يجب أن تظهر في سلوك الفريق كل أسبوع.",
+        "التصحيح الأول يتعلق بالفكرة. فكرة البداية مهمة، لكنها أقرب إلى سؤال عملي منها إلى أصل مكتمل. الفريق القوي يغير الفكرة كلما أصبح احتكاكه بالواقع أفضل. أما الفريق الضعيف فيدافع عن الفكرة أكثر مما يسمح به الدليل.",
+        "التصحيح الثاني يتعلق بالأشخاص. أعضاء الفريق الأوائل يحتاجون إلى أكثر من الذكاء أو السيرة الجيدة. عليهم دفع العمل إلى الأمام، وتحمل الغموض، والتعلم من دون استعراض، ومواجهة العملاء مباشرة. إذا كان الجانب التقني لا يفهم المستخدمين، تبدأ الشركة بانقسام خطر.",
+        "درس المنتج هو وضع نسخة صغيرة قابلة للاستخدام أمام عملاء حقيقيين بسرعة. الخطة الداخلية الطويلة لا تعوض مشاهدة شخص يحاول استخدام المنتج. سلوك العميل يكشف الحيرة والخوف والاستعداد للدفع والإلحاح الحقيقي بطريقة لا تكشفها الاجتماعات عادة.",
+        "درس التمويل هو الانضباط. المال يجب أن يزيد فرص التعلم والبقاء، لا أن يصبح لوحة النتيجة. الإنفاق المنخفض يمنح المؤسسين وقتا وقوة تفاوض. وقبل أن يصبح العمل جديا، يحتاج المؤسسون إلى اتفاق واضح حول الأسهم والأدوار والالتزام الكامل والملكية الفكرية.",
+      ],
+      advice: [
+        "أبق الفريق الأول صغيرا واختر أشخاصا يستطيعون البناء والتعلم من العملاء معا.",
+        "حوّل الفكرة إلى افتراضات قابلة للاختبار بدلا من التعامل معها كشيء يجب الدفاع عنه.",
+        "ضع نسخة صغيرة عاملة أمام مستخدمين حقيقيين قبل توسيع الخطة.",
+        "اخفض التكاليف الثابتة حتى يظهر جذب واضح من السوق.",
+        "اكتب مبكرا توقعات الأسهم والأدوار والالتزام والملكية الفكرية بين المؤسسين.",
+      ],
+      takeaways: [
+        "بداية الشركة نظام يجمع الأشخاص وطلب العملاء وانضباط الإنفاق.",
+        "الفكرة الأولى نقطة بداية للتعلم، وليست القيمة بذاتها.",
+        "مشاهدة المستخدمين أكثر موثوقية من التخطيط الداخلي الطويل.",
+        "على المؤسسين التقنيين امتلاك فهم العميل أيضا.",
+        "الإنفاق المنخفض والاتفاقات الواضحة بين المؤسسين يزيدان قوة القرار.",
       ],
     },
   },
