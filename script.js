@@ -807,6 +807,23 @@ const articleCatalog = [
       ar: "خريطة عملية لبداية الشركة: الأشخاص المناسبون، وبناء شيء يريده العملاء فعلا، وخفض الإنفاق حتى يصبح دليل السوق أوضح.",
     },
   },
+  {
+    title: "How to Get Your First Customers",
+    author: "Gustaf Alstromer",
+    source: "Y Combinator",
+    year: "2022",
+    url: "https://www.ycombinator.com/library/Ip-how-to-get-your-first-customers",
+    tags: {
+      fa: ["فروش اولیه", "مشتری اول", "یادگیری بازار"],
+      en: ["early sales", "first customers", "market learning"],
+      ar: ["المبيعات الأولى", "العملاء الأوائل", "تعلم السوق"],
+    },
+    summary: {
+      fa: "یک راهنمای تاکتیکی برای اینکه بنیان‌گذار منتظر جذب خودکار نماند و خودش با مشتری‌های اولیه حرف بزند، بفروشد و از مقاومت واقعی بازار یاد بگیرد.",
+      en: "A tactical guide for founders to stop waiting for automatic acquisition and personally learn from early customers, early sales, and real market resistance.",
+      ar: "دليل تكتيكي للمؤسسين كي لا ينتظروا الاكتساب التلقائي، بل يتعلموا مباشرة من العملاء الأوائل والمبيعات الأولى ومقاومة السوق الحقيقية.",
+    },
+  },
 ];
 
 const articleEssays = {
@@ -2187,6 +2204,78 @@ const articleEssays = {
         "مشاهدة المستخدمين أكثر موثوقية من التخطيط الداخلي الطويل.",
         "على المؤسسين التقنيين امتلاك فهم العميل أيضا.",
         "الإنفاق المنخفض والاتفاقات الواضحة بين المؤسسين يزيدان قوة القرار.",
+      ],
+    },
+  },
+  "How to Get Your First Customers": {
+    fa: {
+      paragraphs: [
+        "این راهنمای Y Combinator از یک واقعیت ساده شروع می‌کند: مشتری اول معمولاً خودش از راه نمی‌رسد. در شروع، جذب مشتری بیشتر شبیه کار میدانی بنیان‌گذار است تا اجرای یک کمپین تمیز بازاریابی. Gustaf Alstromer، که هم تجربه رشد در Airbnb را داشته و هم با تیم‌های YC کار کرده، مسئله را به زبان عملی توضیح می‌دهد: اگر هنوز نمی‌توانی چند مشتری واقعی را با گفت‌وگوی مستقیم پیدا کنی، احتمالاً کانال رشد خودکار هم فعلاً چیزی برای بزرگ‌کردن ندارد.",
+        "نقطه مهم مقاله این است که فروش اولیه با تبلیغ عمومی فرق دارد. اول باید بدانی دقیقاً دنبال چه کسی هستی: چه نقشی دارد، چه مشکلی را امروز تحمل می‌کند، کجا پیدایش می‌کنی و چرا ممکن است حاضر شود با یک محصول تازه وقت بگذارد. تا وقتی این تصویر مبهم است، هر کانال توزیع فقط ابهام را گران‌تر می‌کند. کار درست این است که دامنه را کوچک کنی و سراغ آدم‌هایی بروی که احتمال درد واقعی در آن‌ها بیشتر است.",
+        "رد شدن در این مرحله نشانه شکست نیست؛ بخشی از داده است. بیشتر آدم‌ها برای امتحان کردن چیز تازه انگیزه ندارند، حتی اگر محصول بد نباشد. بنابراین بنیان‌گذار نباید از جواب نگرفتن یا نه شنیدن نتیجه بگیرد که همه چیز تمام است. سؤال دقیق‌تر این است: آیا در بین آدم‌های درست، چند نفر حاضر شدند وقت بگذارند، مشکلشان را توضیح دهند، محصول را امتحان کنند، پول بدهند یا تو را به نفر بعدی وصل کنند؟",
+        "برای محصول‌های B2B، مقاله عملاً می‌گوید بنیان‌گذار باید خودش فروش اولیه را انجام دهد. نه برای اینکه همیشه فروشنده شرکت بماند، بلکه برای اینکه زبان بازار را بشنود. در تماس فروش، معلوم می‌شود مشتری مشکل را با چه کلماتی توضیح می‌دهد، چه چیزی برایش ریسک است، کدام بخش پیشنهاد مبهم است و خرید واقعاً از کجا گیر می‌کند. اگر این یادگیری خیلی زود به تیم فروش یا آژانس بیرونی واگذار شود، محصول از واقعیت بازار دور می‌ماند.",
+        "برای محصول‌های مصرفی یا marketplace هم منطق مشابهی وجود دارد: از یک گوشه مشخص شروع کن. لازم نیست همه بازار را همزمان بگیری. اگر گروه کوچکی از کاربران در یک شهر، یک جامعه، یک نقش شغلی یا یک رفتار مشترک مسئله را جدی حس می‌کنند، همان‌جا نقطه شروع بهتری است. کار دستی، دعوت مستقیم، onboarding شخصی و پیگیری بعد از استفاده، در این مرحله بخشی از محصول‌اند؛ چون نشان می‌دهند ارزش واقعاً کجا ساخته می‌شود.",
+        "مشتری اول فقط کسی نیست که خرید می‌کند. مشتری اول باید یادگیری تولید کند. اگر کسی پول می‌دهد اما استفاده نمی‌کند، سیگنال کامل نیست. اگر کسی استفاده می‌کند اما حاضر نیست دوباره برگردد، هنوز جای کار هست. اگر کسی مشکل را جدی توضیح می‌دهد، محصول را امتحان می‌کند، بازخورد مشخص می‌دهد و شاید نفر بعدی را معرفی می‌کند، آن رابطه ارزش بیشتری از یک ثبت‌نام بی‌صدا دارد.",
+        "خروجی عملی مقاله یک سیستم ساده است: هر هفته تعداد مشخصی آدم مناسب پیدا کن، پیام دقیق و غیرتبلیغاتی بفرست، تماس کوتاه بگیر، مشکل را بفهم، پیشنهاد را تست کن و نتیجه را ثبت کن. این کار از بیرون ساده و حتی خسته‌کننده به نظر می‌رسد، اما برای تیم نوپا همان جایی است که بازار از تصور جدا می‌شود. قبل از رشد، باید یاد بگیری چه کسی واقعاً مسئله دارد و چرا باید همین حالا به تو جواب بدهد.",
+      ],
+      advice: [
+        "اول niche را دقیق کن؛ مشتری اول باید قابل پیدا کردن، قابل تماس و دارای درد مشخص باشد.",
+        "پیام اولیه را کوتاه و انسانی بنویس؛ هدف مکالمه است، نه فروش با یک پیام بلند.",
+        "نه شنیدن را به داده تبدیل کن؛ دنبال الگوی رد شدن باش، نه فقط تعداد جواب‌های مثبت.",
+        "در فروش B2B، خود بنیان‌گذار باید چند تماس اول را انجام دهد تا زبان واقعی بازار را بشنود.",
+        "برای محصول مصرفی، از یک جامعه کوچک و فشرده شروع کن؛ پراکندگی، یادگیری را کند می‌کند.",
+        "مشتری خوب فقط ثبت‌نام نمی‌کند؛ استفاده، بازگشت، پرداخت یا معرفی بعدی ایجاد می‌کند.",
+      ],
+      takeaways: [
+        "برای هفته آینده یک فهرست ۵۰تایی از مشتری‌های احتمالی بساز، نه یک برنامه کلی بازاریابی.",
+        "هر پیام outreach را با مسئله مشخص مخاطب شروع کن، نه با توضیح طولانی محصول.",
+        "بعد از هر تماس، سه چیز ثبت کن: درد واقعی، راه‌حل فعلی، و مانع خرید یا استفاده.",
+        "اگر جواب نمی‌گیری، قبل از تغییر محصول، کیفیت انتخاب مخاطب و متن پیام را بررسی کن.",
+        "اولین مشتری‌ها را مثل کانال یادگیری ببین؛ فروش، تحقیق کاربر و onboarding در این مرحله از هم جدا نیستند.",
+      ],
+    },
+    en: {
+      paragraphs: [
+        "This Y Combinator guide treats first customers as founder work, not as something a polished launch automatically produces. Gustaf Alstromer frames early acquisition as direct, manual learning: identify a narrow group, reach out, start conversations, sell, help users succeed, and let the market's resistance improve the company.",
+        "The core distinction is between marketing broadly and learning specifically. Before a startup tries to scale a channel, it needs to know who has the problem, where those people can be found, what language they use, and what kind of commitment they are willing to make. A broad campaign can make ambiguity expensive; a narrow customer search makes it inspectable.",
+        "Rejection is not automatically bad signal. Most people are not waiting for a new product, and early users are a minority by definition. The useful question is whether the right segment contains enough people who will talk, try, pay, return, or introduce the founder to someone similar. Those actions are more useful than polite interest.",
+        "For B2B companies, founder-led sales is a learning system. The founder hears objections directly, sees how budget and risk are discussed, learns where the proposal is unclear, and discovers what must be true before the customer can buy. Outsourcing that too early may hide the market's most important feedback from the people making product decisions.",
+      ],
+      advice: [
+        "Start with a narrow customer profile before testing channels.",
+        "Use outreach to start a conversation, not to compress the whole pitch into one message.",
+        "Track rejection patterns instead of treating every no as the same signal.",
+        "Founders should personally run the first B2B sales conversations.",
+        "For consumer products, begin with a concentrated community or use case.",
+      ],
+      takeaways: [
+        "Build a concrete prospect list before writing a broad marketing plan.",
+        "Record the customer's current workaround after every conversation.",
+        "Use payment, repeated use, referrals, or serious time spent as stronger evidence than compliments.",
+        "Improve the target segment and message before assuming the product itself is wrong.",
+        "Treat early sales, user research, and onboarding as one learning loop.",
+      ],
+    },
+    ar: {
+      paragraphs: [
+        "يتعامل دليل Y Combinator هذا مع العملاء الأوائل كعمل يجب أن يقوم به المؤسس، لا كشيء يظهر تلقائيا بعد إطلاق أنيق. يشرح Gustaf Alstromer الاكتساب المبكر كتعلم يدوي ومباشر: حدد فئة ضيقة، تواصل معها، ابدأ محادثات، بع المنتج، ساعد المستخدمين على النجاح، واجعل مقاومة السوق تحسن الشركة.",
+        "الفرق الأساسي هو بين التسويق الواسع والتعلم المحدد. قبل أن تحاول الشركة الناشئة توسيع قناة اكتساب، يجب أن تعرف من لديه المشكلة، أين يمكن العثور عليه، بأي لغة يصف ألمه، وما نوع الالتزام الذي يقبل به. الحملة الواسعة قد تجعل الغموض مكلفا، أما البحث الضيق عن العميل فيجعله قابلا للفحص.",
+        "الرفض ليس إشارة سيئة دائما. معظم الناس لا ينتظرون منتجا جديدا، والمستخدمون الأوائل أقلية بطبيعتهم. السؤال المفيد هو هل توجد داخل الشريحة الصحيحة مجموعة مستعدة للحديث، أو التجربة، أو الدفع، أو العودة، أو تعريف المؤسس بأشخاص مشابهين. هذه الأفعال أهم من المجاملة.",
+        "في شركات B2B، البيع الذي يقوده المؤسس هو نظام تعلم. يسمع المؤسس الاعتراضات مباشرة، يرى كيف يتحدث العميل عن الميزانية والمخاطر، يفهم أين يكون العرض غير واضح، ويكتشف ما الذي يجب أن يحدث قبل الشراء. تفويض هذا العمل مبكرا قد يخفي أهم ملاحظات السوق عن صناع قرار المنتج.",
+      ],
+      advice: [
+        "ابدأ بتعريف عميل ضيق قبل اختبار قنوات الاكتساب.",
+        "استخدم الرسالة الأولى لفتح محادثة، لا لشرح العرض كله.",
+        "سجل أنماط الرفض بدلا من اعتبار كل رفض إشارة واحدة.",
+        "يجب أن يقود المؤسس أول محادثات البيع في B2B بنفسه.",
+        "في المنتج الاستهلاكي، ابدأ بمجتمع مركز أو حالة استخدام واضحة.",
+      ],
+      takeaways: [
+        "ابن قائمة عملاء محتملين محددة قبل كتابة خطة تسويق عامة.",
+        "سجل الحل الحالي الذي يستخدمه العميل بعد كل محادثة.",
+        "اعتبر الدفع أو الاستخدام المتكرر أو الإحالة دليلا أقوى من المجاملة.",
+        "حسن الشريحة والرسالة قبل افتراض أن المنتج نفسه خطأ.",
+        "عامل البيع المبكر وبحث المستخدم وتهيئة العميل كحلقة تعلم واحدة.",
       ],
     },
   },

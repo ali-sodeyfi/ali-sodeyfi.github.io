@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-05T05:45:10+03:30",
+  "updatedAt": "2026-09-05T10:04:27+03:30",
   "translations": {
     "fa": {
       "documentTitle": "علی سدیفی | یادداشت‌هایی درباره ساختن",
@@ -873,6 +873,14 @@
           "en": "Slide 1: starting up means team, customers, and spending discipline. Slide 2: show a small version early and adjust the idea through real behavior. Slide 3: site link and original source. Publishing status: blocked until login and human approval.",
           "ar": "الشريحة 1: بداية الشركة تعني الفريق والعملاء وانضباط الإنفاق. الشريحة 2: اعرض نسخة صغيرة مبكرا وعدل الفكرة عبر السلوك الحقيقي. الشريحة 3: رابط الموقع والمصدر الأصلي. حالة النشر: محظور إلى حين تسجيل الدخول والموافقة البشرية."
         }
+      },
+      {
+        "id": "2026-09-06-site-how-to-get-your-first-customers",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "how-to-get-your-first-customers",
+        "publishAt": "2026-09-06T09:00:00+03:30",
+        "status": "scheduled"
       }
     ],
     "history": []
