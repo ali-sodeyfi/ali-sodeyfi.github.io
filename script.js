@@ -824,6 +824,23 @@ const articleCatalog = [
       ar: "دليل تكتيكي للمؤسسين كي لا ينتظروا الاكتساب التلقائي، بل يتعلموا مباشرة من العملاء الأوائل والمبيعات الأولى ومقاومة السوق الحقيقية.",
     },
   },
+  {
+    title: "How Universities Should Prepare Founders",
+    author: "Paul Graham",
+    source: "Paul Graham",
+    year: "2026",
+    url: "https://paulgraham.com/prepare.html",
+    tags: {
+      fa: ["آموزش بنیان‌گذار", "ساختن", "پروژه شخصی"],
+      en: ["founder education", "building", "personal projects"],
+      ar: ["تعليم المؤسسين", "البناء", "المشاريع الشخصية"],
+    },
+    summary: {
+      fa: "به‌جای تبدیل دانشگاه به کارخانه کلاس کارآفرینی، روی دو چیز ساده تأکید می‌کند: یادگیری عمیق برای ساختن و زمان آزاد برای پروژه‌های واقعی.",
+      en: "Instead of turning universities into entrepreneurship-class factories, it argues for deep builder education and enough free time for real projects.",
+      ar: "بدلا من تحويل الجامعة إلى مصنع لدروس ريادة الأعمال، يركز على تعليم عميق للبناء ووقت حر كاف لمشاريع حقيقية.",
+    },
+  },
 ];
 
 const articleEssays = {
@@ -2276,6 +2293,77 @@ const articleEssays = {
         "اعتبر الدفع أو الاستخدام المتكرر أو الإحالة دليلا أقوى من المجاملة.",
         "حسن الشريحة والرسالة قبل افتراض أن المنتج نفسه خطأ.",
         "عامل البيع المبكر وبحث المستخدم وتهيئة العميل كحلقة تعلم واحدة.",
+      ],
+    },
+  },
+  "How Universities Should Prepare Founders": {
+    fa: {
+      paragraphs: [
+        "این مقاله درباره یک سوءتفاهم رایج در آموزش کارآفرینی است: تصور اینکه اگر دانشگاه‌ها چند واحد بیشتر درباره استارتاپ، بیزینس‌پلن و ارائه به سرمایه‌گذار اضافه کنند، بنیان‌گذارهای بهتری تربیت می‌شوند. نگاه عملی‌تر این است که بنیان‌گذار خوب قبل از هر چیز باید بتواند چیزی واقعی بسازد و عادت داشته باشد از کنجکاوی خودش پروژه جلو ببرد.",
+        "برای دانشگاه، این حرف خلاف غریزه مدیریتی است. ساختن مرکز نوآوری، مسابقه طرح کسب‌وکار و کلاس رسمی کارآفرینی قابل نمایش است؛ اما زمان آزاد دادن به دانشجو و جدی گرفتن پروژه‌های شخصی، از بیرون کم‌کارتر به نظر می‌رسد. مشکل همین‌جاست: چیزی که برای آماده‌کردن بنیان‌گذار مفیدتر است، الزاماً پر سر و صدا یا قابل نصب روی تابلو نیست.",
+        "هسته مقاله این است که استارتاپ یک تمرین ارائه نیست؛ یک تمرین ساختن محصول برای کاربر واقعی است. کسی که علوم کامپیوتر، مهندسی، زیست‌شناسی، طراحی یا هر حوزه قدرتمند دیگری را عمیق یاد می‌گیرد، ابزار فکر و ساخت پیدا می‌کند. مهم‌تر از رشته، این است که دانشجو با ایده‌های جدی درگیر شود و توان تبدیل فهم به خروجی واقعی را تمرین کند.",
+        "پروژه شخصی چند کار را همزمان انجام می‌دهد. اول، یادگیری را عمیق می‌کند چون انگیزه ساختن از ترس امتحان قوی‌تر است. دوم، هم‌بنیان‌گذار احتمالی را از راه کار واقعی نشان می‌دهد؛ آدم‌ها را با حرف نمی‌شود شناخت، باید کنارشان کار کرد. سوم، شروع شرکت را طبیعی‌تر می‌کند، چون کسی که بارها بدون دستور استاد یا مدیر پروژه ساخته، از ابهام نمی‌ترسد.",
+        "نکته مهم دیگر این است که ایده‌های قوی معمولاً وقتی پیدا می‌شوند که کسی دنبال ایده استارتاپی نمی‌گردد. خیلی از پروژه‌های جانبی در ابتدا کوچک، نامرتب یا حتی ناموجه به نظر می‌رسند، اما همین بی‌نظمی می‌تواند نشانه تماس با آینده باشد. دانشجوی سازنده، اگر فضای آزمایش داشته باشد، گاهی کمبودهایی را می‌بیند که هنوز برای بازار عمومی واضح نشده است.",
+        "برای مدیران دانشگاه و شتاب‌دهنده‌ها، برداشت اجرایی روشن است: اگر می‌خواهید بنیان‌گذار بسازید، انرژی را از نمایش کارآفرینی به سمت توان ساخت، فرهنگ امکان‌پذیری و زمان بی‌وقفه برای پروژه ببرید. الگوی درست ممکن است کمتر شبیه برنامه رسمی و بیشتر شبیه محیطی باشد که آدم‌های جدی در آن بتوانند با دوستانشان چیزهای واقعی بسازند، خراب کنند، یاد بگیرند و دوباره شروع کنند.",
+      ],
+      advice: [
+        "به‌جای اضافه کردن کلاس کارآفرینی، کیفیت آموزش حوزه‌هایی را بالا ببر که توان ساخت واقعی می‌دهند.",
+        "برای دانشجوها زمان آزاد قابل دفاع بساز؛ پروژه جدی معمولاً بین تکلیف‌های فشرده شکل نمی‌گیرد.",
+        "بنیان‌گذارهای نزدیک به سن دانشجو را نشان بده؛ الگوی قابل لمس از سخنران مشهور دوردست اثر بیشتری دارد.",
+        "پروژه‌های شخصی را زیادی رسمی نکن؛ مالکیت و شوق وقتی کم می‌شود که همه چیز تبدیل به برنامه اداری شود.",
+        "مسابقه طرح کسب‌وکار را جایگزین ساخت نمونه، تماس با کاربر و یادگیری واقعی نکن.",
+      ],
+      takeaways: [
+        "آمادگی بنیان‌گذار از توان ساختن و عادت پروژه‌داشتن می‌آید، نه از حفظ واژگان استارتاپی.",
+        "فرهنگ دانشگاه باید شروع شرکت را گزینه‌ای ممکن نشان دهد، نه کاری مخصوص آدم‌های دوردست.",
+        "پروژه مشترک بهترین آزمون برای پیدا کردن هم‌بنیان‌گذار است.",
+        "ایده‌های خوب اغلب از پروژه‌های جانبی کنجکاوانه بیرون می‌آیند، نه از جلسه ایده‌پردازی رسمی.",
+        "وقت آزاد برای آدم‌های پرانرژی اتلاف نیست؛ زیرساخت کشف، ساخت و جهش است.",
+        "کاربر و محصول باید معیار اصلی باشند؛ نه زیبایی pitch و نظر داورهای فرضی.",
+      ],
+    },
+    en: {
+      paragraphs: [
+        "The useful edge of this essay is its refusal to treat founder preparation as a branding exercise. A university does not create stronger founders by adding more visible entrepreneurship theater. It helps them more by teaching powerful builder disciplines well and by leaving enough space for students to make things of their own.",
+        "The distinction matters because startups are not won through business-plan fluency. They are won when a team knows what to build, can build it, and can learn from users fast enough. Deep work in computer science, engineering, biology, design, or another serious creative field gives students the tools to make and understand difficult things.",
+        "Personal projects are the operating mechanism. They deepen learning, reveal potential cofounders through actual collaboration, make self-directed work feel normal, and often generate the best startup ideas before anyone recognizes them as startup ideas. A side project can look small precisely because it is closer to a new behavior than to an existing category.",
+        "The practical warning is aimed at institutions. Business-plan contests and pitch simulations may look like startup preparation, but they can train the wrong reflex: impress investors with a story before building something users want. The better system is quieter: serious classes, credible founder examples, and protected time for students to build real projects.",
+      ],
+      advice: [
+        "Invest first in disciplines that teach people how to build difficult things.",
+        "Give ambitious students protected time for their own projects.",
+        "Show nearby founder examples that feel reachable, not only famous success stories.",
+        "Keep student projects owned by students instead of absorbing them into bureaucracy.",
+        "Do not let pitch competitions replace prototypes, user contact, and product learning.",
+      ],
+      takeaways: [
+        "Founder readiness comes from building ability and the habit of making projects.",
+        "A startup culture begins when starting a company feels like a real option.",
+        "Working together on projects is the best cofounder test.",
+        "Strong startup ideas often emerge from curious side projects.",
+        "Users and products matter more than polished investor stories.",
+      ],
+    },
+    ar: {
+      paragraphs: [
+        "القيمة العملية في هذا المقال أنه لا يتعامل مع إعداد المؤسس كتمرين في المظهر. الجامعة لا تصنع مؤسسين أقوى بمجرد إضافة مواد ريادة أعمال أو فعاليات أكثر وضوحا. ما يساعد أكثر هو تعليم مجالات قوية للبناء بجدية، وترك مساحة كافية للطلاب كي يصنعوا مشاريعهم الخاصة.",
+        "هذا الفرق مهم لأن الشركة الناشئة لا تنجح بطلاقة خطة العمل. تنجح عندما يعرف الفريق ما الذي يجب بناؤه، ويستطيع بناءه، ويتعلم من المستخدمين بسرعة كافية. الدراسة العميقة في علوم الحاسوب أو الهندسة أو الأحياء أو التصميم أو أي مجال خلاق قوي تمنح الطالب أدوات لصنع أشياء صعبة وفهمها.",
+        "المشاريع الشخصية هي الآلية التشغيلية هنا. فهي تعمق التعلم، وتكشف الشركاء المؤسسين المحتملين من خلال عمل حقيقي، وتجعل العمل الذاتي أمرا طبيعيا، وكثيرا ما تولد أفضل أفكار الشركات قبل أن يتعرف عليها أحد كأفكار شركات. قد يبدو المشروع الجانبي صغيرا لأنه أقرب إلى سلوك جديد من فئة سوقية جاهزة.",
+        "التحذير العملي موجه للمؤسسات. مسابقات خطط العمل ومحاكاة العروض قد تبدو كإعداد للشركات الناشئة، لكنها قد تدرب reflex خاطئا: إقناع المستثمرين بقصة قبل بناء شيء يريده المستخدمون. النظام الأفضل أهدأ: مواد قوية، أمثلة مؤسسين يمكن لمسها، ووقت محمي لبناء مشاريع حقيقية.",
+      ],
+      advice: [
+        "استثمر أولا في المجالات التي تعلم الناس كيف يبنون أشياء صعبة.",
+        "امنح الطلاب الطموحين وقتا محميا لمشاريعهم الخاصة.",
+        "اعرض أمثلة مؤسسين قريبة وقابلة للتخيل، لا قصصا مشهورة بعيدة فقط.",
+        "اترك ملكية مشاريع الطلاب لهم بدلا من تحويلها إلى برنامج إداري.",
+        "لا تجعل مسابقات العروض بديلا عن النماذج الأولية واحتكاك المستخدم والتعلم من المنتج.",
+      ],
+      takeaways: [
+        "جاهزية المؤسس تأتي من القدرة على البناء وعادة تنفيذ المشاريع.",
+        "تبدأ ثقافة الشركات الناشئة عندما يبدو تأسيس شركة خيارا ممكنا.",
+        "العمل المشترك على مشروع هو أفضل اختبار للشريك المؤسس.",
+        "الأفكار القوية كثيرا ما تخرج من مشاريع جانبية بدافع الفضول.",
+        "المستخدمون والمنتج أهم من قصة مصقولة للمستثمرين.",
       ],
     },
   },

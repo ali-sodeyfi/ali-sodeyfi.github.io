@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-05T10:04:27+03:30",
+  "updatedAt": "2026-09-06T05:46:11+03:30",
   "translations": {
     "fa": {
       "documentTitle": "علی سدیفی | یادداشت‌هایی درباره ساختن",
@@ -875,12 +875,51 @@
         }
       },
       {
-        "id": "2026-09-06-site-how-to-get-your-first-customers",
+        "id": "2026-09-06-site-how-universities-should-prepare-founders",
         "channel": "site",
         "target": "site",
-        "articleSlug": "how-to-get-your-first-customers",
-        "publishAt": "2026-09-06T09:00:00+03:30",
-        "status": "scheduled"
+        "articleSlug": "how-universities-should-prepare-founders",
+        "publishAt": "2026-09-06T05:46:11+03:30",
+        "status": "published",
+        "publishedAt": "2026-09-06T05:46:11+03:30"
+      },
+      {
+        "id": "2026-09-06-linkedin-how-universities-should-prepare-founders",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "how-universities-should-prepare-founders",
+        "publishAt": "2026-09-06T12:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-09-06T12:30:00+03:30",
+        "title": {
+          "fa": "پیش‌نویس لینکدین: How Universities Should Prepare Founders",
+          "en": "LinkedIn draft: How Universities Should Prepare Founders",
+          "ar": "مسودة لينكدإن: How Universities Should Prepare Founders"
+        },
+        "body": {
+          "fa": "تز: بنیان‌گذار با کلاس کارآفرینی زیاد ساخته نمی‌شود؛ با توان ساختن و عادت پروژه واقعی ساخته می‌شود. اثر عملی: برنامه آموزشی را به جای مسابقه pitch روی یادگیری عمیق، پروژه شخصی و تماس با کاربر تنظیم کن. قدم بعدی: این هفته یک بازه آزاد برای ساخت نمونه واقعی بده و خروجی را با رفتار کاربر بسنج. وضعیت انتشار: مسدود تا ورود و تایید انسانی.",
+          "en": "Thesis: founders are not made by more entrepreneurship classes; they are made by building ability and the habit of real projects. Operationally, shift education from pitch simulation to deep learning, personal projects, and user contact. Next step: give one protected block for a real prototype this week and judge it by user behavior. Publishing status: blocked until login and human approval.",
+          "ar": "الخلاصة: لا يصنع المؤسس من كثرة دروس ريادة الأعمال؛ يصنع من القدرة على البناء وعادة المشاريع الحقيقية. تشغيليا، انقل التعليم من محاكاة العرض إلى تعلم عميق ومشاريع شخصية واحتكاك بالمستخدم. الخطوة التالية: امنح هذا الأسبوع وقتا محميا لبناء نموذج حقيقي وقيّمه بسلوك المستخدم. حالة النشر: محظور إلى حين تسجيل الدخول والموافقة البشرية."
+        }
+      },
+      {
+        "id": "2026-09-06-story-how-universities-should-prepare-founders",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "how-universities-should-prepare-founders",
+        "publishAt": "2026-09-06T20:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-09-06T20:30:00+03:30",
+        "title": {
+          "fa": "پیش‌نمایش استوری: How Universities Should Prepare Founders",
+          "en": "Story preview: How Universities Should Prepare Founders",
+          "ar": "معاينة الستوري: How Universities Should Prepare Founders"
+        },
+        "body": {
+          "fa": "اسلاید 1: بنیان‌گذار با ساختن تربیت می‌شود، نه با نمایش کارآفرینی. اسلاید 2: وقت آزاد، پروژه شخصی و تماس با کاربر را جدی‌تر از pitch تمرینی بگیر. اسلاید 3: لینک سایت و منبع اصلی. وضعیت انتشار: مسدود تا ورود و تایید انسانی.",
+          "en": "Slide 1: founders are trained by building, not by entrepreneurship theater. Slide 2: protect free time, personal projects, and user contact more than practice pitches. Slide 3: site link and original source. Publishing status: blocked until login and human approval.",
+          "ar": "الشريحة 1: يتدرب المؤسس بالبناء لا بعرض ريادة الأعمال. الشريحة 2: احم الوقت الحر والمشاريع الشخصية واحتكاك المستخدم أكثر من العروض التدريبية. الشريحة 3: رابط الموقع والمصدر الأصلي. حالة النشر: محظور إلى حين تسجيل الدخول والموافقة البشرية."
+        }
       }
     ],
     "history": []
