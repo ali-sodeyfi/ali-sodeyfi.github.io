@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-07T09:02:04+03:30",
+  "updatedAt": "2026-09-08T05:44:26+03:30",
   "translations": {
     "fa": {
       "documentTitle": "علی سدیفی | یادداشت‌هایی درباره ساختن",
@@ -929,6 +929,53 @@
         "publishAt": "2026-09-07T09:02:04+03:30",
         "status": "published",
         "publishedAt": "2026-09-07T09:02:04+03:30"
+      },
+      {
+        "id": "2026-09-08-site-how-to-raise-money",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "how-to-raise-money",
+        "publishAt": "2026-09-08T05:44:26+03:30",
+        "status": "published",
+        "publishedAt": "2026-09-08T05:44:26+03:30"
+      },
+      {
+        "id": "2026-09-08-linkedin-how-to-raise-money",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "how-to-raise-money",
+        "publishAt": "2026-09-08T12:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-09-08T05:44:26+03:30",
+        "title": {
+          "fa": "پیش‌نویس لینکدین: How to Raise Money",
+          "en": "LinkedIn draft: How to Raise Money",
+          "ar": "مسودة لينكدإن: How to Raise Money"
+        },
+        "body": {
+          "fa": "تز: جذب سرمایه هدف شرکت نیست؛ یک فرایند کوتاه برای خریدن زمان رسیدن به نقطه اثبات بعدی است. اثر عملی: مذاکره کش‌دار تمرکز رشد را می‌گیرد، پس جلسات را موازی و شرایط را ساده نگه دار. قدم بعدی: پیش از اولین جلسه، مبلغ لازم، شاهد اصلی کشش و تاریخ پایان فرایند را روی یک صفحه بنویس. وضعیت انتشار: مسدود تا ورود و تأیید انسانی.",
+          "en": "Thesis: fundraising is not the company’s goal; it is a short process for buying a path to the next proof point. Operationally, a drawn-out raise steals growth focus, so run conversations in parallel and keep terms simple. Next step: before the first meeting, write down the required amount, the strongest traction evidence, and the process end date. Publishing status: blocked until login and human approval.",
+          "ar": "الخلاصة: جمع التمويل ليس هدف الشركة؛ بل عملية قصيرة لشراء طريق إلى نقطة الإثبات التالية. تشغيليا، الجولة الطويلة تسرق تركيز النمو، لذا أدر المحادثات بالتوازي وأبق الشروط بسيطة. الخطوة التالية: قبل أول اجتماع، اكتب المبلغ المطلوب وأقوى دليل جذب وتاريخ انتهاء العملية. حالة النشر: محظور إلى حين تسجيل الدخول والموافقة البشرية."
+        }
+      },
+      {
+        "id": "2026-09-08-story-how-to-raise-money",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "how-to-raise-money",
+        "publishAt": "2026-09-08T20:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-09-08T05:44:26+03:30",
+        "title": {
+          "fa": "پیش‌نمایش استوری: How to Raise Money",
+          "en": "Story preview: How to Raise Money",
+          "ar": "معاينة الستوري: How to Raise Money"
+        },
+        "body": {
+          "fa": "اسلاید ۱: جذب سرمایه هدف شرکت نیست. اسلاید ۲: فرایند را کوتاه و موازی کن؛ پول کافی برای نقطه اثبات بعدی بگیر. اسلاید ۳: لینک مقاله سایت و منبع اصلی Paul Graham. وضعیت انتشار: مسدود تا ورود و تأیید انسانی.",
+          "en": "Slide 1: fundraising is not the company’s goal. Slide 2: keep the process short and parallel; raise enough for the next proof point. Slide 3: site article and Paul Graham’s original source. Publishing status: blocked until login and human approval.",
+          "ar": "الشريحة 1: جمع التمويل ليس هدف الشركة. الشريحة 2: اجعل العملية قصيرة ومتوازية؛ اجمع ما يكفي لنقطة الإثبات التالية. الشريحة 3: رابط مقال الموقع ومصدر Paul Graham الأصلي. حالة النشر: محظور إلى حين تسجيل الدخول والموافقة البشرية."
+        }
       }
     ],
     "history": []
