@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-08T05:44:26+03:30",
+  "updatedAt": "2026-09-09T05:45:09+03:30",
   "translations": {
     "fa": {
       "documentTitle": "علی سدیفی | یادداشت‌هایی درباره ساختن",
@@ -975,6 +975,53 @@
           "fa": "اسلاید ۱: جذب سرمایه هدف شرکت نیست. اسلاید ۲: فرایند را کوتاه و موازی کن؛ پول کافی برای نقطه اثبات بعدی بگیر. اسلاید ۳: لینک مقاله سایت و منبع اصلی Paul Graham. وضعیت انتشار: مسدود تا ورود و تأیید انسانی.",
           "en": "Slide 1: fundraising is not the company’s goal. Slide 2: keep the process short and parallel; raise enough for the next proof point. Slide 3: site article and Paul Graham’s original source. Publishing status: blocked until login and human approval.",
           "ar": "الشريحة 1: جمع التمويل ليس هدف الشركة. الشريحة 2: اجعل العملية قصيرة ومتوازية؛ اجمع ما يكفي لنقطة الإثبات التالية. الشريحة 3: رابط مقال الموقع ومصدر Paul Graham الأصلي. حالة النشر: محظور إلى حين تسجيل الدخول والموافقة البشرية."
+        }
+      },
+      {
+        "id": "2026-09-09-site-how-to-hire-your-first-engineer",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "how-to-hire-your-first-engineer",
+        "publishAt": "2026-09-09T05:45:09+03:30",
+        "status": "published",
+        "publishedAt": "2026-09-09T05:45:09+03:30"
+      },
+      {
+        "id": "2026-09-09-linkedin-how-to-hire-your-first-engineer",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "how-to-hire-your-first-engineer",
+        "publishAt": "2026-09-09T12:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-09-09T05:45:09+03:30",
+        "title": {
+          "fa": "پیش‌نویس لینکدین: How to Hire Your First Engineer",
+          "en": "LinkedIn draft: How to Hire Your First Engineer",
+          "ar": "مسودة لينكدإن: How to Hire Your First Engineer"
+        },
+        "body": {
+          "fa": "تز: اولین مهندس فقط ظرفیت کدنویسی اضافه نمی‌کند؛ روی سرعت تصمیم و فرهنگ اولیه شرکت اثر می‌گذارد. اثر عملی: پیش از جست‌وجو معیارها را روشن کن، شبکه شخصی را عمیق بکاو و pipeline جذب را خود بنیان‌گذار مدیریت کند. قدم بعدی: امروز پنج معیار ضروری نقش و فهرست ده نفری برای تماس مستقیم را بنویس. وضعیت انتشار: مسدود تا ورود و تأیید انسانی.",
+          "en": "Thesis: the first engineer adds more than coding capacity; the hire shapes decision speed and early culture. Operationally, define the bar first, work the personal network deeply, and keep the founder in charge of the recruiting pipeline. Next step: write five essential criteria and a ten-person direct outreach list today. Publishing status: blocked until login and human approval.",
+          "ar": "الخلاصة: المهندس الأول لا يضيف قدرة برمجية فقط؛ بل يشكل سرعة القرار والثقافة المبكرة. تشغيليا، حدد المعيار أولا، واستنفد الشبكة الشخصية، وأبق المؤسس مسؤولا عن مسار الاستقطاب. الخطوة التالية: اكتب اليوم خمسة معايير ضرورية وقائمة من عشرة أشخاص للتواصل المباشر. حالة النشر: محظور إلى حين تسجيل الدخول والموافقة البشرية."
+        }
+      },
+      {
+        "id": "2026-09-09-story-how-to-hire-your-first-engineer",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "how-to-hire-your-first-engineer",
+        "publishAt": "2026-09-09T20:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-09-09T05:45:09+03:30",
+        "title": {
+          "fa": "پیش‌نمایش استوری: How to Hire Your First Engineer",
+          "en": "Story preview: How to Hire Your First Engineer",
+          "ar": "معاينة الستوري: How to Hire Your First Engineer"
+        },
+        "body": {
+          "fa": "اسلاید ۱: اولین مهندس، شرکت را شکل می‌دهد نه فقط کد را. اسلاید ۲: معیار روشن، شبکه شخصی و pipeline منظم؛ با حضور مستقیم بنیان‌گذار. اسلاید ۳: لینک مقاله سایت و منبع اصلی Y Combinator. وضعیت انتشار: مسدود تا ورود و تأیید انسانی.",
+          "en": "Slide 1: the first engineer shapes the company, not only the code. Slide 2: use a clear bar, the personal network, and a measured pipeline led by the founder. Slide 3: site article and the original Y Combinator source. Publishing status: blocked until login and human approval.",
+          "ar": "الشريحة 1: المهندس الأول يشكل الشركة لا الشفرة فقط. الشريحة 2: استخدم معيارا واضحا وشبكتك الشخصية ومسارا مقاسا يقوده المؤسس. الشريحة 3: رابط مقال الموقع ومصدر Y Combinator الأصلي. حالة النشر: محظور إلى حين تسجيل الدخول والموافقة البشرية."
         }
       }
     ],

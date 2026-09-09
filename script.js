@@ -858,6 +858,23 @@ const articleCatalog = [
       ar: "دليل عملي للتعامل مع جمع التمويل كعملية مركزة ومحدودة: ابدأ عندما يكون الدليل مقنعا، وأدر المحادثات بالتوازي، ثم عد سريعا إلى بناء ما يريده المستخدمون.",
     },
   },
+  {
+    title: "How to Hire Your First Engineer",
+    author: "Harj Taggar",
+    source: "Y Combinator",
+    year: "2018",
+    url: "https://www.ycombinator.com/blog/how-to-hire-your-first-engineer",
+    tags: {
+      fa: ["استخدام اولیه", "تیم فنی", "نقش بنیان‌گذار"],
+      en: ["early hiring", "engineering team", "founder role"],
+      ar: ["التوظيف المبكر", "الفريق الهندسي", "دور المؤسس"],
+    },
+    summary: {
+      fa: "راهنمایی عملی برای سخت‌ترین استخدام‌های آغاز شرکت: معیارها را پیشاپیش روشن کن، شبکه شخصی را واقعاً بکاو، پیام جذب را مثل فروش دقیق بساز و فرایند را خود بنیان‌گذار جلو ببرد.",
+      en: "A practical guide to the hardest early hires: define the bar, work the personal network deeply, sharpen the recruiting pitch, and keep the founder directly involved.",
+      ar: "دليل عملي لأصعب التعيينات المبكرة: حدد المعايير، واستنفد الشبكة الشخصية، وصقل رسالة الاستقطاب، وأبق المؤسس مشاركا مباشرة.",
+    },
+  },
 ];
 
 const articleEssays = {
@@ -2447,6 +2464,74 @@ const articleEssays = {
         "العملية المركزة تحمي الشركة من التشتت الدائم.",
         "قيّم الصفقة كاملة ولا تنظر إلى التقييم وحده.",
         "أغلق الجولة بكفاءة ثم عد إلى بناء ما يريده المستخدمون.",
+      ],
+    },
+  },
+  "How to Hire Your First Engineer": {
+    fa: {
+      paragraphs: [
+        "استخدام اولین مهندس فقط پر کردن یک جای خالی نیست؛ اضافه کردن کسی است که روی سرعت محصول، کیفیت تصمیم‌ها و شکل فرهنگ اولیه اثر می‌گذارد. در این مرحله هنوز برند استخدامی، تیم جذب یا فرایند جاافتاده‌ای وجود ندارد و بنیان‌گذار هم‌زمان باید محصول بسازد و مشتری پیدا کند. بنابراین سخت بودن استخدام نشانه خراب بودن فرایند نیست؛ بخشی از واقعیت مرحله آغاز است و باید برای آن وقت مدیریتی واقعی کنار گذاشت.",
+        "پیش از جست‌وجو باید دقیقاً معلوم باشد چه کسی لازم است. عنوان کلی «مهندس قوی» تصمیم‌ساز نیست. معیارها را به توان فنی مورد نیاز، نوع مسئله‌هایی که فرد باید مستقل حل کند، سرعت یادگیری، شیوه همکاری و تحمل ابهام تبدیل کن. سپس همه نامزدها را با همان معیارها بسنج تا فشار کمبود زمان یا جذابیت یک گفت‌وگوی خوب، استاندارد استخدام را در میانه راه عوض نکند.",
+        "برای نخستین استخدام‌ها، شبکه شخصی مزیتی دارد که آگهی عمومی ندارد: سابقه کار واقعی و اعتماد قابل بررسی. فهرست آدم‌های خوب را فقط به کسانی که ظاهراً دنبال کارند محدود نکن. با افراد مناسب گفت‌وگو کن، درخواست همکاری را صریح مطرح کن و حتی اگر پاسخ منفی بود بپرس با چه مهندسی حاضرند دوباره هم‌تیمی شوند. هر معرفی می‌تواند حلقه بعدی یک شبکه باکیفیت باشد؛ به شرط آنکه بنیان‌گذار از شنیدن نه فرار نکند.",
+        "اگر شبکه شخصی کافی نبود، کانال بعدی باید با اقتصاد همان مرحله انتخاب شود. بازارهای استخدام می‌توانند سریع‌تر نامزد آماده بدهند اما رقابت و هزینه بیشتری دارند؛ آگهی عمومی معمولاً حجم می‌سازد نه الزاماً کیفیت؛ و outreach سرد فقط با پیام شخصی و پیگیری منظم جواب می‌دهد. مسئله انتخاب یک کانال جادویی نیست، بلکه دانستن نرخ پاسخ، کیفیت ورودی و زمان بنیان‌گذار در هر کانال است.",
+        "نامزد خوب فقط شرکت را ارزیابی نمی‌کند؛ ریسک پیوستن به تیمی کوچک را هم می‌سنجد. ارائه استخدام باید روشن کند چرا این مسئله ارزش ساختن دارد، مهندس نخست دقیقاً چه مالکیتی خواهد داشت و چه چالش فنی واقعی پیش روی اوست. متن شرکتی و وعده‌های مبهم مزیت استارتاپ را پنهان می‌کنند. سرعت پاسخ، صداقت درباره ابهام‌ها و حضور مستقیم بنیان‌گذار بخشی از تجربه نامزد و نشانه‌ای از کیفیت آینده همکاری‌اند.",
+        "در نهایت استخدام اولیه یک pipeline فروش با تصمیمی بسیار پرهزینه‌تر است. منبع نامزد، مرحله فعلی، دلیل رد یا انصراف و قدم بعدی را ثبت کن؛ هر هفته تبدیل مراحل را مرور کن و پیام جذب را بر اساس بازخورد واقعی اصلاح کن. استخدام را صرفاً به recruiter نسپار، چون بهترین نامزدهای اولیه اغلب برای ارتباط مستقیم با سازنده شرکت پاسخ می‌دهند. فرایند ممکن است ماه‌ها طول بکشد، اما یک استخدام عجولانه می‌تواند بسیار بیشتر از یک صندلی خالی هزینه بسازد.",
+      ],
+      advice: [
+        "پیش از اولین تماس، پنج معیار ضروری نقش را بنویس و میان ضروری و ترجیحی مرز بگذار.",
+        "فهرست بهترین مهندسان شبکه‌ات را بدون حدس زدن درباره آمادگی آن‌ها تهیه کن و درخواست را مستقیم مطرح کن.",
+        "پس از هر پاسخ منفی، معرفی کسی را بخواه که مخاطب حاضر باشد دوباره با او کار کند.",
+        "پیام جذب را حول مسئله، مالکیت نقش و چالش فنی بنویس؛ نه توضیح عمومی شرکت.",
+        "برای outreach زمان ثابت روزانه، پیگیری مشخص و ثبت نرخ پاسخ تعریف کن.",
+        "کیفیت، سرعت و هزینه زمانی هر کانال را جدا اندازه بگیر و ترکیب کانال‌ها را بر همان اساس تغییر بده.",
+      ],
+      takeaways: [
+        "اولین مهندس یک تصمیم سازمانی و فرهنگی است، نه فقط تأمین ظرفیت کدنویسی.",
+        "معیار روشن پیش از مصاحبه، تصمیم را در برابر عجله و برداشت لحظه‌ای مقاوم می‌کند.",
+        "شبکه شخصی برای استخدام‌های نخست معمولاً باکیفیت‌ترین نقطه شروع است.",
+        "جذب نامزد مانند فروش به پیام دقیق، پیگیری و سنجش pipeline نیاز دارد.",
+        "بنیان‌گذار باید مسئله و فرصت نقش را شخصاً بفروشد و پاسخ‌گویی سریع داشته باشد.",
+        "صندلی خالی دردناک است، اما استخدام اشتباه در تیم کوچک هزینه بیشتری دارد.",
+      ],
+    },
+    en: {
+      paragraphs: [
+        "Hiring the first engineer is not simply adding coding capacity. This person changes product speed, decision quality, and the early culture, while the company has little recruiting brand or process. The founder must therefore reserve meaningful time for the search and define the role before urgency starts moving the bar.",
+        "Turn the vague idea of a strong engineer into explicit technical and nontechnical criteria: the problems they must solve, the autonomy required, learning speed, collaboration style, and comfort with ambiguity. Start with people whose work you already know, ask directly, and request introductions even after a no. Personal networks provide evidence and trust that broad inbound cannot reproduce at this stage.",
+        "Beyond the network, treat each channel according to its economics. Marketplaces may offer speed at a price, job boards often create volume, and cold outreach requires personalization and repeated follow-up. Whatever the channel, the founder needs a credible recruiting pitch built around the problem, real ownership, and interesting technical work—not generic company language.",
+        "Run hiring as a measured pipeline. Track sources, stages, reasons for rejection or withdrawal, and the next action; review conversion weekly and refine the message from candidate feedback. Founder responsiveness is part of the candidate experience. The search may take months, but lowering the bar to end the discomfort can cost a small team far more than an open seat.",
+      ],
+      advice: [
+        "Write the essential role criteria before sourcing candidates.",
+        "Ask the strongest people in your network directly, then ask each for introductions.",
+        "Make the pitch specific to the problem, ownership, and engineering challenge.",
+        "Give outreach a fixed weekly cadence and track response rates by channel.",
+      ],
+      takeaways: [
+        "The first engineer shapes the company, not only the codebase.",
+        "Explicit criteria protect the hiring bar from urgency and charisma.",
+        "Personal networks are usually the strongest first source for early hires.",
+        "Recruiting needs the same message discipline and pipeline management as sales.",
+      ],
+    },
+    ar: {
+      paragraphs: [
+        "تعيين المهندس الأول ليس مجرد إضافة قدرة برمجية. هذا الشخص يؤثر في سرعة المنتج وجودة القرار والثقافة الأولى، بينما لا تملك الشركة علامة توظيف أو عملية ناضجة. لذلك يحتاج المؤسس إلى تخصيص وقت حقيقي للبحث وتعريف الدور قبل أن تغير العجلة مستوى القبول.",
+        "حوّل عبارة «مهندس قوي» إلى معايير تقنية وسلوكية واضحة: المشكلات التي سيحلها، والاستقلال المطلوب، وسرعة التعلم، وطريقة التعاون، والراحة مع الغموض. ابدأ بمن تعرف جودة عملهم، واطلب الانضمام مباشرة، واطلب ترشيحات حتى بعد الرفض. الشبكة الشخصية تمنح دليلا وثقة يصعب أن يوفرهما التقديم العام في هذه المرحلة.",
+        "بعد الشبكة، قيّم كل قناة باقتصادها. قد توفر الأسواق سرعة مقابل كلفة، وتنتج إعلانات الوظائف حجما لا جودة، ويحتاج التواصل البارد إلى تخصيص ومتابعة. في كل الحالات يجب أن يقدم المؤسس رسالة مقنعة حول المشكلة والملكية والعمل الهندسي الحقيقي، لا لغة شركة عامة.",
+        "أدر التوظيف كمسار مقاس: سجل المصدر والمرحلة وسبب الرفض أو الانسحاب والخطوة التالية، وراجع التحويل أسبوعيا، وحسن الرسالة من ملاحظات المرشحين. سرعة استجابة المؤسس جزء من تجربة المرشح. قد يستغرق البحث أشهرا، لكن خفض المعيار لإنهاء القلق قد يكلف الفريق الصغير أكثر كثيرا من المقعد الشاغر.",
+      ],
+      advice: [
+        "اكتب معايير الدور الضرورية قبل البحث عن المرشحين.",
+        "اطلب من أقوى أشخاص شبكتك مباشرة ثم اطلب من كل واحد ترشيحات.",
+        "اجعل الرسالة محددة حول المشكلة والملكية والتحدي الهندسي.",
+        "خصص إيقاعا أسبوعيا للتواصل وقس معدل الاستجابة لكل قناة.",
+      ],
+      takeaways: [
+        "المهندس الأول يشكل الشركة لا قاعدة الشفرة فقط.",
+        "المعايير الواضحة تحمي مستوى التوظيف من العجلة والانطباع اللحظي.",
+        "الشبكة الشخصية غالبا أقوى مصدر لأول التعيينات.",
+        "يحتاج التوظيف إلى انضباط الرسالة وإدارة المسار مثل المبيعات.",
       ],
     },
   },
