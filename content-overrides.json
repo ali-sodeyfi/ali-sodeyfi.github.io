@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-09T05:45:09+03:30",
+  "updatedAt": "2026-09-10T09:00:00+03:30",
   "translations": {
     "fa": {
       "documentTitle": "علی سدیفی | یادداشت‌هایی درباره ساختن",
@@ -1022,6 +1022,53 @@
           "fa": "اسلاید ۱: اولین مهندس، شرکت را شکل می‌دهد نه فقط کد را. اسلاید ۲: معیار روشن، شبکه شخصی و pipeline منظم؛ با حضور مستقیم بنیان‌گذار. اسلاید ۳: لینک مقاله سایت و منبع اصلی Y Combinator. وضعیت انتشار: مسدود تا ورود و تأیید انسانی.",
           "en": "Slide 1: the first engineer shapes the company, not only the code. Slide 2: use a clear bar, the personal network, and a measured pipeline led by the founder. Slide 3: site article and the original Y Combinator source. Publishing status: blocked until login and human approval.",
           "ar": "الشريحة 1: المهندس الأول يشكل الشركة لا الشفرة فقط. الشريحة 2: استخدم معيارا واضحا وشبكتك الشخصية ومسارا مقاسا يقوده المؤسس. الشريحة 3: رابط مقال الموقع ومصدر Y Combinator الأصلي. حالة النشر: محظور إلى حين تسجيل الدخول والموافقة البشرية."
+        }
+      },
+      {
+        "id": "2026-09-10-site-organic-startup-ideas",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "organic-startup-ideas",
+        "publishAt": "2026-09-10T09:00:00+03:30",
+        "status": "published",
+        "publishedAt": "2026-09-10T09:00:00+03:30"
+      },
+      {
+        "id": "2026-09-10-linkedin-organic-startup-ideas",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "organic-startup-ideas",
+        "publishAt": "2026-09-10T12:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-09-10T09:00:00+03:30",
+        "title": {
+          "fa": "پیش‌نویس لینکدین: Organic Startup Ideas",
+          "en": "LinkedIn draft: Organic Startup Ideas",
+          "ar": "مسودة لينكدإن: Organic Startup Ideas"
+        },
+        "body": {
+          "fa": "تز: ایده معتبر بیشتر از اصطکاکی می‌آید که بنیان‌گذار خودش لمس کرده، نه از فهرست بازارهای داغ. اثر عملی: workaround تکراری را ثبت کن و قبل از ساختن سازمان، کوچک‌ترین ابزار مفید را جلوی کاربران مشابه بگذار. قدم بعدی: این هفته یک اصطکاک هفتگی را انتخاب کن و بازگشت داوطلبانه پنج کاربر را بسنج. وضعیت انتشار: مسدود تا ورود و تأیید انسانی.",
+          "en": "Thesis: credible ideas come more often from friction the founder has lived than from a list of hot markets. Operationally, log recurring workarounds and put the smallest useful tool in front of similar users before building an organization. Next step: choose one weekly friction and measure voluntary return from five users. Publishing status: blocked until login and human approval.",
+          "ar": "الخلاصة: تأتي الفكرة الموثوقة غالبا من احتكاك عاشه المؤسس لا من قائمة الأسواق الرائجة. تشغيليا، سجل الحلول الالتفافية المتكررة وضع أصغر أداة مفيدة أمام مستخدمين مشابهين قبل بناء المنظمة. الخطوة التالية: اختر احتكاكا أسبوعيا وقس العودة الطوعية لخمسة مستخدمين. حالة النشر: محظور إلى حين تسجيل الدخول والموافقة البشرية."
+        }
+      },
+      {
+        "id": "2026-09-10-story-organic-startup-ideas",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "organic-startup-ideas",
+        "publishAt": "2026-09-10T20:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-09-10T09:00:00+03:30",
+        "title": {
+          "fa": "پیش‌نمایش استوری: Organic Startup Ideas",
+          "en": "Story preview: Organic Startup Ideas",
+          "ar": "معاينة الستوري: Organic Startup Ideas"
+        },
+        "body": {
+          "fa": "اسلاید ۱: ایده خوب را در اصطکاکی پیدا کن که خودت لمس می‌کنی. اسلاید ۲: یک ابزار کوچک بساز و بازگشت واقعی کاربران مشابه را بسنج. اسلاید ۳: لینک مقاله سایت و منبع اصلی Paul Graham. وضعیت انتشار: مسدود تا ورود و تأیید انسانی.",
+          "en": "Slide 1: find a strong idea in friction you personally experience. Slide 2: build a small tool and measure whether similar users return. Slide 3: site article and Paul Graham’s original source. Publishing status: blocked until login and human approval.",
+          "ar": "الشريحة 1: ابحث عن الفكرة القوية في احتكاك تختبره بنفسك. الشريحة 2: ابن أداة صغيرة وقس عودة المستخدمين المشابهين. الشريحة 3: رابط مقال الموقع ومصدر Paul Graham الأصلي. حالة النشر: محظور إلى حين تسجيل الدخول والموافقة البشرية."
         }
       }
     ],
