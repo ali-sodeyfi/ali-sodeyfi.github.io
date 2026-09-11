@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-10T09:00:00+03:30",
+  "updatedAt": "2026-09-11T09:00:00+03:30",
   "translations": {
     "fa": {
       "documentTitle": "علی سدیفی | یادداشت‌هایی درباره ساختن",
@@ -1069,6 +1069,53 @@
           "fa": "اسلاید ۱: ایده خوب را در اصطکاکی پیدا کن که خودت لمس می‌کنی. اسلاید ۲: یک ابزار کوچک بساز و بازگشت واقعی کاربران مشابه را بسنج. اسلاید ۳: لینک مقاله سایت و منبع اصلی Paul Graham. وضعیت انتشار: مسدود تا ورود و تأیید انسانی.",
           "en": "Slide 1: find a strong idea in friction you personally experience. Slide 2: build a small tool and measure whether similar users return. Slide 3: site article and Paul Graham’s original source. Publishing status: blocked until login and human approval.",
           "ar": "الشريحة 1: ابحث عن الفكرة القوية في احتكاك تختبره بنفسك. الشريحة 2: ابن أداة صغيرة وقس عودة المستخدمين المشابهين. الشريحة 3: رابط مقال الموقع ومصدر Paul Graham الأصلي. حالة النشر: محظور إلى حين تسجيل الدخول والموافقة البشرية."
+        }
+      },
+      {
+        "id": "2026-09-11-site-how-to-do-great-work",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "how-to-do-great-work",
+        "publishAt": "2026-09-11T09:00:00+03:30",
+        "status": "published",
+        "publishedAt": "2026-09-11T09:00:00+03:30"
+      },
+      {
+        "id": "2026-09-11-linkedin-how-to-do-great-work",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "how-to-do-great-work",
+        "publishAt": "2026-09-11T12:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-09-11T09:00:00+03:30",
+        "title": {
+          "fa": "پیش‌نویس لینکدین: How to Do Great Work",
+          "en": "LinkedIn draft: How to Do Great Work",
+          "ar": "مسودة لينكدإن: How to Do Great Work"
+        },
+        "body": {
+          "fa": "تز: کار ماندگار از تقاطع توانایی واقعی، علاقه عمیق و مسئله‌ای مهم شکل می‌گیرد؛ نه از ساعت‌های نمایشی. اثر عملی: تیم باید زمان تمرکز را حفظ کند و چرخه ساخت، نقد مطلع و اصلاح را کوتاه نگه دارد. قدم بعدی: این هفته یک خروجی قابل نقد تعریف کن و سه بازه بدون جلسه برای ساختنش ببند. وضعیت انتشار: مسدود تا ورود و تأیید انسانی.",
+          "en": "Thesis: durable work grows where real aptitude, deep interest, and a worthwhile problem meet—not from performative hours. Operationally, protect focus and shorten the loop between making, informed criticism, and revision. Next step: define one critique-ready output and reserve three meeting-free blocks to build it this week. Publishing status: blocked until login and human approval.",
+          "ar": "الخلاصة: ينشأ العمل المستدام عند تقاطع القدرة الحقيقية والاهتمام العميق ومشكلة جديرة، لا من ساعات العمل الاستعراضية. تشغيليا، احم التركيز وقصّر حلقة الصنع والنقد المطلع والتعديل. الخطوة التالية: حدد هذا الأسبوع مخرجا قابلا للنقد واحجز ثلاث فترات بلا اجتماعات لبنائه. حالة النشر: محظور إلى حين تسجيل الدخول والموافقة البشرية."
+        }
+      },
+      {
+        "id": "2026-09-11-story-how-to-do-great-work",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "how-to-do-great-work",
+        "publishAt": "2026-09-11T20:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-09-11T09:00:00+03:30",
+        "title": {
+          "fa": "پیش‌نمایش استوری: How to Do Great Work",
+          "en": "Story preview: How to Do Great Work",
+          "ar": "معاينة الستوري: How to Do Great Work"
+        },
+        "body": {
+          "fa": "اسلاید ۱: کار بزرگ از علاقه عمیق و توانایی واقعی شروع می‌شود. اسلاید ۲: زمان تمرکز را حفظ کن؛ چیزی بساز، نقد دقیق بگیر و اصلاح کن. اسلاید ۳: لینک مقاله سایت و منبع اصلی Paul Graham. وضعیت انتشار: مسدود تا ورود و تأیید انسانی.",
+          "en": "Slide 1: great work starts with deep interest and real aptitude. Slide 2: protect focus; make something, seek precise criticism, and revise. Slide 3: site article and Paul Graham’s original source. Publishing status: blocked until login and human approval.",
+          "ar": "الشريحة 1: يبدأ العمل العظيم باهتمام عميق وقدرة حقيقية. الشريحة 2: احم التركيز؛ اصنع شيئا واطلب نقدا دقيقا ثم عدله. الشريحة 3: رابط مقال الموقع ومصدر Paul Graham الأصلي. حالة النشر: محظور إلى حين تسجيل الدخول والموافقة البشرية."
         }
       }
     ],
