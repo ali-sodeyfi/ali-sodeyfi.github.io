@@ -502,6 +502,19 @@ const articleCatalog = [
     },
   },
   {
+    title: "The Refragmentation",
+    author: "Paul Graham",
+    source: "Paul Graham",
+    year: "2016",
+    url: "https://paulgraham.com/refragmentation.html",
+    tags: { fa: ["تمرکز", "ساخت شرکت", "بازار"], en: ["focus", "company building", "markets"], ar: ["التركيز", "بناء الشركة", "الأسواق"] },
+    summary: {
+      fa: "چرا تیم‌های کوچک و متمرکز دوباره مزیت پیدا می‌کنند و چگونه بنیان‌گذار می‌تواند دامنه کار را برای یادگیری سریع محدود کند.",
+      en: "Why small, focused teams are regaining an edge, and how founders can narrow scope to learn faster.",
+      ar: "لماذا تستعيد الفرق الصغيرة المركزة ميزتها، وكيف يضيق المؤسسون النطاق للتعلم أسرع.",
+    },
+  },
+  {
     title: "1,000 True Fans",
     author: "Kevin Kelly",
     source: "The Technium",
@@ -2694,6 +2707,20 @@ const articleEssays = {
         "الإنتاج الملموس والنقد المطلع يصنعان التقدم.",
       ],
     },
+  },
+  "The Refragmentation": {
+    fa: {
+      paragraphs: [
+        "وقتی شرکت‌ها بزرگ می‌شوند، لایه‌های هماهنگی و جلسه‌ها زیاد می‌شود و تمرکز از بین می‌رود. ایده اصلی این مقاله این است که فناوری و بازار دوباره امکان می‌دهند گروه‌های کوچک، مستقل و متخصص کارهای ارزشمند بسازند.",
+        "برای بنیان‌گذار، این به معنی کوچک نگه‌داشتن مصنوعی تیم نیست؛ یعنی هر گروه باید مسئله، کاربر و معیار خودش را روشن ببیند. تیمی که برای هر تصمیم منتظر چند لایه تأیید است، سرعت یادگیری را با اندازه سازمان معاوضه کرده است.",
+        "تفکیک درست، نیازمند رابط‌های شفاف است. هدف‌ها و APIهای سازمانی باید روشن باشند، اما روش رسیدن به نتیجه را تا حد ممکن به تیم نزدیک مسئله بسپارید. استقلال بدون شفافیت به جزیره‌سازی، و شفافیت بدون استقلال به بوروکراسی منجر می‌شود.",
+        "این رویکرد برای محصول هم کاربرد دارد: به جای نقشه راهی که همه‌چیز را همزمان پوشش دهد، چند مسئله محدود را انتخاب کنید و تیمی کوچک را مالک نتیجه کنید. هر چرخه باید با شواهد کاربر و یک تصمیم مشخص تمام شود.",
+        "معیار موفقیت، تعداد تیم‌ها یا نمودار سازمانی نیست؛ تعداد یادگیری‌های معتبر در هر ماه است. اگر تقسیم کار باعث نزدیک‌تر شدن سازنده به کاربر و کوتاه‌تر شدن حلقه بازخورد شود، سازمان واقعا سبک‌تر شده است.",
+      ],
+      takeaways: ["مسئله و معیار هر تیم را یک‌صفحه‌ای و روشن بنویس.", "تأییدهای غیرضروری را حذف و مالکیت نتیجه را نزدیک کاربر نگه دار.", "رابط‌های بین تیمی را مستند کن، اما روش اجرا را آزاد بگذار.", "هر چرخه را با یک آزمایش و تصمیم قابل مشاهده ببند.", "سبک‌بودن را با سرعت یادگیری بسنج، نه با تعداد افراد."],
+    },
+    en: { paragraphs: ["As companies grow, coordination layers and meetings can consume the attention that made the product good. The essay argues that technology and markets again let small, focused groups build valuable things.", "For a founder, this is not a fetish for staying tiny. Each group should own a clear problem, user, and measure. Waiting for several layers of approval trades learning speed for organizational size.", "Separation only works with clear interfaces: goals, responsibilities, and handoffs are explicit, while the path to the result stays with the team closest to the problem."], takeaways: ["Give every team one clear problem and measure.", "Remove approvals that do not improve decisions.", "Document interfaces while preserving local autonomy."] },
+    ar: { paragraphs: ["مع نمو الشركات، قد تستهلك طبقات التنسيق والاجتماعات الانتباه الذي صنع المنتج. تجادل المقالة بأن التقنية والأسواق تتيحان مجددا لفرق صغيرة ومركزة بناء أشياء قيّمة.", "هذا لا يعني تمجيد الصغر؛ بل أن يمتلك كل فريق مشكلة ومستخدما ومقياسا واضحا. انتظار موافقات متعددة يستبدل سرعة التعلم بحجم المنظمة.", "ينجح التقسيم مع واجهات واضحة: الأهداف والمسؤوليات والتسليمات محددة، بينما تبقى طريقة التنفيذ بيد الفريق الأقرب إلى المشكلة."], takeaways: ["امنح كل فريق مشكلة ومقياسا واحدا واضحا.", "أزل الموافقات التي لا تحسن القرار.", "وثّق الواجهات مع الحفاظ على استقلالية التنفيذ."] },
   },
 };
 
