@@ -403,7 +403,7 @@ const articleCatalog = [
     title: "Founder Mode",
     author: "Paul Graham",
     source: "Paul Graham",
-    year: "2024",
+    year: "2019",
     url: "https://paulgraham.com/foundermode.html",
     tags: {
       fa: ["رهبری", "مقیاس", "سازمان"],
@@ -921,6 +921,19 @@ const articleCatalog = [
       en: "A guide to finding the intersection of aptitude and interest, choosing ambitious projects, and building a rhythm that turns curiosity, serious effort, and feedback into durable work.",
       ar: "دليل للعثور على تقاطع القدرة والاهتمام، واختيار مشاريع طموحة، وبناء إيقاع يحول الفضول والعمل الجاد والتغذية الراجعة إلى عمل مستدام.",
     },
+  },
+  {
+    title: "The Bus Ticket Theory of Genius",
+    author: "Paul Graham",
+    source: "Paul Graham",
+    year: "2019",
+    url: "https://paulgraham.com/genius.html",
+    tags: { fa: ["تمرکز", "خلاقیت", "اجرا"], en: ["focus", "creativity", "execution"], ar: ["التركيز", "الإبداع", "التنفيذ"] },
+    summary: {
+      fa: "کار بزرگ معمولا از زنجیره‌ای از فرصت‌های کوتاه و تمرکز عمیق ساخته می‌شود؛ برنامه‌ات را طوری بچین که زمان‌های پراکنده به خروجی واقعی تبدیل شوند.",
+      en: "Great work is often built from short windows of deep focus; design your schedule so scattered time compounds into real output.",
+      ar: "غالبا ما يُبنى العمل العظيم من نوافذ قصيرة من التركيز العميق؛ صمم جدولك كي يتحول الوقت المتناثر إلى نتائج حقيقية."
+    }
   },
 ];
 
@@ -2721,6 +2734,11 @@ const articleEssays = {
     },
     en: { paragraphs: ["As companies grow, coordination layers and meetings can consume the attention that made the product good. The essay argues that technology and markets again let small, focused groups build valuable things.", "For a founder, this is not a fetish for staying tiny. Each group should own a clear problem, user, and measure. Waiting for several layers of approval trades learning speed for organizational size.", "Separation only works with clear interfaces: goals, responsibilities, and handoffs are explicit, while the path to the result stays with the team closest to the problem."], takeaways: ["Give every team one clear problem and measure.", "Remove approvals that do not improve decisions.", "Document interfaces while preserving local autonomy."] },
     ar: { paragraphs: ["مع نمو الشركات، قد تستهلك طبقات التنسيق والاجتماعات الانتباه الذي صنع المنتج. تجادل المقالة بأن التقنية والأسواق تتيحان مجددا لفرق صغيرة ومركزة بناء أشياء قيّمة.", "هذا لا يعني تمجيد الصغر؛ بل أن يمتلك كل فريق مشكلة ومستخدما ومقياسا واضحا. انتظار موافقات متعددة يستبدل سرعة التعلم بحجم المنظمة.", "ينجح التقسيم مع واجهات واضحة: الأهداف والمسؤوليات والتسليمات محددة، بينما تبقى طريقة التنفيذ بيد الفريق الأقرب إلى المشكلة."], takeaways: ["امنح كل فريق مشكلة ومقياسا واحدا واضحا.", "أزل الموافقات التي لا تحسن القرار.", "وثّق الواجهات مع الحفاظ على استقلالية التنفيذ."] },
+  },
+  "The Bus Ticket Theory of Genius": {
+    fa: { paragraphs: ["کارهای مهم همیشه در بلوک‌های چندساعته و شرایط ایده‌آل ساخته نمی‌شوند. گاهی فرصت شما یک مسیر اتوبوس، صف انتظار یا نیم‌ساعت خلوت است؛ تفاوت سازنده‌ها در این است که این پنجره‌ها را از قبل برای مسئله‌ای مشخص آماده می‌کنند.", "تمرکز کوتاه وقتی ارزشمند می‌شود که هزینه شروع پایین باشد. مسئله را به گام بعدی کوچک بشکن، ابزارها و یادداشت‌ها را آماده نگه دار و هر بار از همان نقطه ادامه بده. این روش اصطکاک تصمیم‌گیری را کم می‌کند.", "این نگاه به معنی پر کردن همه لحظه‌ها با کار نیست. استراحت و زمان بی‌هدف هم برای فکر کردن لازم است. هدف، ساختن سیستمی است که وقتی فرصت رسید، بدانی دقیقا چه کاری باید انجام شود و خروجی قابل مشاهده تولید کنی.", "برای تیم، چنین ریتمی با تعریف خروجی‌های کوچک و قابل تحویل تقویت می‌شود. به جای انتظار برای یک روز کامل آزاد، هر هفته چند قطعه کار را مشخص کنید که در پنجره‌های کوتاه هم جلو بروند.", "در نهایت، نبوغ بیشتر شبیه انباشت توجه است تا یک جرقه ناگهانی. اگر زمان‌های پراکنده را به کار عمیق پیوسته وصل کنی، مزیت مرکب می‌سازی."], takeaways: ["کار را به گام بعدی روشن و کوچک تقسیم کن.", "ابزار و زمینه کار را برای پنجره‌های کوتاه آماده نگه دار.", "خروجی قابل مشاهده را به جای ساعت کار بسنج.", "زمان استراحت را حفظ کن تا توجه پایدار بماند.", "هر هفته چند قطعه کار مستقل و قابل تحویل تعریف کن."] },
+    en: { paragraphs: ["Important work is not always made in perfect, uninterrupted days. Sometimes the available window is a bus ride or half an hour of quiet. The advantage comes from preparing a specific problem before that window arrives.", "Short focus becomes useful when the cost of starting is low. Break the problem into the next small step, keep the tools and notes ready, and resume from a known point. This removes decision friction.", "This is not a case for filling every minute with work. Rest and idle time help ideas form. The goal is a system that turns scattered windows into visible output.", "For teams, define small deliverables that can move forward in short sessions. Compounding attention is more reliable than waiting for inspiration."], takeaways: ["Define the next small step.", "Keep context and tools ready.", "Measure visible output, not hours.", "Protect rest and idle thinking."] },
+    ar: { paragraphs: ["لا يُنجز العمل المهم دائما في أيام مثالية متواصلة. قد تكون النافذة رحلة حافلة أو نصف ساعة هادئة؛ الميزة هي تجهيز مشكلة محددة قبل وصول النافذة.", "يصبح التركيز القصير مفيدا عندما تكون كلفة البدء منخفضة. قسم المشكلة إلى خطوة صغيرة، وأبق الأدوات والملاحظات جاهزة، واستأنف من نقطة معروفة.", "لا يعني ذلك ملء كل دقيقة بالعمل؛ فالراحة والوقت الخالي يساعدان الأفكار. الهدف نظام يحول النوافذ المتناثرة إلى مخرجات واضحة.", "للفرق، حدد مخرجات صغيرة يمكن تحريكها في جلسات قصيرة. تراكم الانتباه أكثر موثوقية من انتظار الإلهام."], takeaways: ["حدد الخطوة الصغيرة التالية.", "أبق السياق والأدوات جاهزة.", "قِس المخرجات لا الساعات.", "احمِ الراحة والتفكير الهادئ."] }
   },
 };
 
