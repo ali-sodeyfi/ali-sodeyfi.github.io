@@ -935,6 +935,23 @@ const articleCatalog = [
       ar: "غالبا ما يُبنى العمل العظيم من نوافذ قصيرة من التركيز العميق؛ صمم جدولك كي يتحول الوقت المتناثر إلى نتائج حقيقية."
     }
   },
+  {
+    title: "Your Startup Is Probably Dead On Arrival",
+    author: "Steve Blank",
+    source: "Steve Blank",
+    year: "2026",
+    url: "https://steveblank.com/2026/03/17/your-startup-is-probably-dead-on-arrival/",
+    tags: {
+      fa: ["بازنگری استراتژیک", "هوش مصنوعی", "مدل کسب‌وکار"],
+      en: ["strategic review", "AI", "business model"],
+      ar: ["المراجعة الاستراتيجية", "الذكاء الاصطناعي", "نموذج العمل"],
+    },
+    summary: {
+      fa: "یادآوری تند اما کاربردی برای شرکت‌هایی که چند سال با فرض‌های قدیمی جلو رفته‌اند: بازار، فناوری، قیمت‌گذاری و تیم را دوباره بررسی کن، چون پافشاری روی برنامه‌ای کهنه می‌تواند از خود تغییر پرهزینه‌تر باشد.",
+      en: "A sharp but useful reminder for companies running on old assumptions: revisit the market, technology, pricing, and team before defending a plan that may already be obsolete.",
+      ar: "تذكير حاد لكنه عملي للشركات التي تعمل بافتراضات قديمة: أعد فحص السوق والتقنية والتسعير والفريق قبل الدفاع عن خطة ربما أصبحت متقادمة.",
+    },
+  },
 ];
 
 const articleEssays = {
@@ -2739,6 +2756,79 @@ const articleEssays = {
     fa: { paragraphs: ["کارهای مهم همیشه در بلوک‌های چندساعته و شرایط ایده‌آل ساخته نمی‌شوند. گاهی فرصت شما یک مسیر اتوبوس، صف انتظار یا نیم‌ساعت خلوت است؛ تفاوت سازنده‌ها در این است که این پنجره‌ها را از قبل برای مسئله‌ای مشخص آماده می‌کنند.", "تمرکز کوتاه وقتی ارزشمند می‌شود که هزینه شروع پایین باشد. مسئله را به گام بعدی کوچک بشکن، ابزارها و یادداشت‌ها را آماده نگه دار و هر بار از همان نقطه ادامه بده. این روش اصطکاک تصمیم‌گیری را کم می‌کند.", "این نگاه به معنی پر کردن همه لحظه‌ها با کار نیست. استراحت و زمان بی‌هدف هم برای فکر کردن لازم است. هدف، ساختن سیستمی است که وقتی فرصت رسید، بدانی دقیقا چه کاری باید انجام شود و خروجی قابل مشاهده تولید کنی.", "برای تیم، چنین ریتمی با تعریف خروجی‌های کوچک و قابل تحویل تقویت می‌شود. به جای انتظار برای یک روز کامل آزاد، هر هفته چند قطعه کار را مشخص کنید که در پنجره‌های کوتاه هم جلو بروند.", "در نهایت، نبوغ بیشتر شبیه انباشت توجه است تا یک جرقه ناگهانی. اگر زمان‌های پراکنده را به کار عمیق پیوسته وصل کنی، مزیت مرکب می‌سازی."], takeaways: ["کار را به گام بعدی روشن و کوچک تقسیم کن.", "ابزار و زمینه کار را برای پنجره‌های کوتاه آماده نگه دار.", "خروجی قابل مشاهده را به جای ساعت کار بسنج.", "زمان استراحت را حفظ کن تا توجه پایدار بماند.", "هر هفته چند قطعه کار مستقل و قابل تحویل تعریف کن."] },
     en: { paragraphs: ["Important work is not always made in perfect, uninterrupted days. Sometimes the available window is a bus ride or half an hour of quiet. The advantage comes from preparing a specific problem before that window arrives.", "Short focus becomes useful when the cost of starting is low. Break the problem into the next small step, keep the tools and notes ready, and resume from a known point. This removes decision friction.", "This is not a case for filling every minute with work. Rest and idle time help ideas form. The goal is a system that turns scattered windows into visible output.", "For teams, define small deliverables that can move forward in short sessions. Compounding attention is more reliable than waiting for inspiration."], takeaways: ["Define the next small step.", "Keep context and tools ready.", "Measure visible output, not hours.", "Protect rest and idle thinking."] },
     ar: { paragraphs: ["لا يُنجز العمل المهم دائما في أيام مثالية متواصلة. قد تكون النافذة رحلة حافلة أو نصف ساعة هادئة؛ الميزة هي تجهيز مشكلة محددة قبل وصول النافذة.", "يصبح التركيز القصير مفيدا عندما تكون كلفة البدء منخفضة. قسم المشكلة إلى خطوة صغيرة، وأبق الأدوات والملاحظات جاهزة، واستأنف من نقطة معروفة.", "لا يعني ذلك ملء كل دقيقة بالعمل؛ فالراحة والوقت الخالي يساعدان الأفكار. الهدف نظام يحول النوافذ المتناثرة إلى مخرجات واضحة.", "للفرق، حدد مخرجات صغيرة يمكن تحريكها في جلسات قصيرة. تراكم الانتباه أكثر موثوقية من انتظار الإلهام."], takeaways: ["حدد الخطوة الصغيرة التالية.", "أبق السياق والأدوات جاهزة.", "قِس المخرجات لا الساعات.", "احمِ الراحة والتفكير الهادئ."] }
+  },
+  "Your Startup Is Probably Dead On Arrival": {
+    fa: {
+      paragraphs: [
+        "عنوان این مقاله عمداً تند است، اما مسئله‌ای که مطرح می‌کند بیشتر از مرگ ناگهانی درباره فرسوده شدن بی‌سر و صدای فرض‌هاست. ممکن است شرکتی هنوز محصول، مشتری و تیم داشته باشد، اما بازار اطرافش عوض شده باشد و برنامه‌ای که زمانی منطقی بوده دیگر بهترین مسیر نباشد.",
+        "Steve Blank با روایت بنیان‌گذاری شروع می‌کند که چند سال روی یک مسئله فنی پیچیده کار کرده بود. در این فاصله، رقبای تازه، بازارهای مجاور و مسیرهای تازه سرمایه‌گذاری شکل گرفته بودند. چیزی که برای او مزیت متمایزکننده به نظر می‌رسید، در محیط جدید دیگر همان وزن قبلی را نداشت؛ در عین حال، دارایی‌های واقعی شرکت هنوز می‌توانستند در یک کاربرد یا بازار تازه ارزش بسازند.",
+        "نکته اصلی این نیست که هر تیمی باید با دیدن یک روند جدید فوراً pivot کند. نکته این است که هیچ تیمی حق ندارد برنامه‌اش را حقیقتی ثابت فرض کند. هر چند وقت یک‌بار باید از کار روزانه فاصله گرفت و پرسید در فناوری، رفتار مشتری، اقتصاد، رقابت و مسیر توزیع چه چیزی تغییر کرده است.",
+        "هوش مصنوعی این بازنگری را فوری‌تر کرده است. هزینه و سرعت ساخت نرم‌افزار تغییر کرده، تعداد کمتری از آدم‌ها می‌توانند خروجی بیشتری بسازند و یک MVP دیگر به‌تنهایی نشانه توان فنی تیم نیست. حالا گلوگاه بیشتر در انتخاب مسئله، تشخیص سیگنال مشتری، طراحی آزمون و پیدا کردن مسیر توزیع قرار دارد.",
+        "این تغییر فقط به ابزار توسعه مربوط نیست. وقتی نرم‌افزار از نمایش اطلاعات به انجام دادن کار حرکت می‌کند، باید دوباره به محصول، تجربه کاربر و مدل قیمت‌گذاری نگاه کرد. شاید مشتری برای دیدن داشبورد پول ندهد، اما برای حل شدن یک کار مشخص پول بدهد. این پرسش برای همه یک جواب ندارد، ولی نپرسیدن آن خطرناک است.",
+        "مقاله بین هزینه‌های گذشته هم تفاوت می‌گذارد. دانش عمیق حوزه، رابطه با مشتری، داده اختصاصی، مجوزهای سخت‌به‌دست‌آمده و اتصال‌های فیزیکی ممکن است دارایی باشند. در مقابل، بخشی از کد، roadmap، ساختار تیم یا قیمت‌گذاری که برای دنیای قدیمی ساخته شده، شاید دیگر مزیت نباشد و فقط تصمیم‌گیری را سنگین کند.",
+        "تمرین سخت اما مفید این است: اگر امروز، با ابزارها و شرایط امروز، از صفر شروع می‌کردیم، چه چیزی می‌ساختیم؟ پاسخ قرار نیست همیشه به کنار گذاشتن کار قبلی منجر شود. اما کمک می‌کند بین چیزهایی که باید حفظ شوند و چیزهایی که فقط به‌خاطر هزینه گذشته نگه داشته شده‌اند فرق بگذاریم. گاهی نجات شرکت در ادامه دادن نیست؛ در دیدن دوباره آن است.",
+      ],
+      advice: [
+        "هر فصل یک جلسه بازنگری بدون دفاع از roadmap برگزار کن و پنج تغییر مهم بازار، فناوری و مشتری را روی یک صفحه بنویس.",
+        "دارایی‌های واقعی را از هزینه‌های گذشته جدا کن: رابطه، دانش حوزه و داده اختصاصی را با کد قدیمی یا فرایند سنگین یکی نگیر.",
+        "یک مسئله را با چند پیام، مسیر تجربه یا مدل قیمت‌گذاری کوچک و موازی آزمایش کن؛ سرعت ساخت باید به سرعت یادگیری وصل باشد.",
+        "به‌جای شمردن قابلیت‌ها، نتیجه‌ای را که مشتری می‌خرد تعریف کن و بسنج محصول چقدر سریع‌تر به آن نتیجه می‌رسد.",
+        "اگر مسیر فعلی بدون تغییر بیرونی به نقطه پایدار نمی‌رسد، تاریخ مشخصی برای تصمیم درباره تمرکز، کاهش هزینه، تغییر بازار یا جذب سرمایه بگذار.",
+      ],
+      takeaways: [
+        "برنامه کسب‌وکار سند مقدس نیست؛ فرضیه‌ای است که باید مرتب با واقعیت مقایسه شود.",
+        "در عصر هوش مصنوعی، قضاوت، شناخت مشتری و توزیع از حجم کدنویسی مهم‌تر شده‌اند.",
+        "هزینه گذشته فقط وقتی ارزشمند است که در بازار امروز مزیت بسازد.",
+        "محصول را بر اساس نتیجه‌ای که مشتری می‌خواهد بازبینی کن، نه تعداد صفحه‌ها و قابلیت‌ها.",
+        "بازنگری زودهنگام گزینه‌های بیشتری برای اصلاح مسیر باقی می‌گذارد.",
+      ],
+    },
+    en: {
+      paragraphs: [
+        "The title is deliberately severe, but the article is really about assumptions becoming obsolete without the team noticing. A company can still have a product, customers, and a capable team while the market around it has changed enough to invalidate the original plan.",
+        "Steve Blank uses the story of a founder who spent years on a difficult technical problem. During that time, new competitors, adjacent markets, and new funding patterns appeared. The company still had valuable assets, but the opportunity was no longer exactly the one it had started to pursue.",
+        "The lesson is not that every startup should pivot whenever a new trend appears. It is that a plan must remain a hypothesis. Founders need regular distance from execution to inspect changes in technology, customer behavior, economics, competition, and distribution.",
+        "AI has moved the bottleneck. Software can be built faster and with fewer people, so an MVP is no longer strong evidence of technical ability. The harder questions are now judgment questions: which problem matters, what outcome customers want, which test will teach the team something, and how the product reaches users.",
+        "The practical exercise is uncomfortable but clarifying: if the company started today with today’s tools and market, what would it build? The answer may preserve domain knowledge, customer relationships, proprietary data, or physical integrations while replacing an old roadmap, team shape, or pricing model.",
+      ],
+      advice: [
+        "Run a quarterly review that begins with market, technology, and customer changes rather than defending the roadmap.",
+        "Separate durable assets such as relationships and domain knowledge from code and processes that only reflect past constraints.",
+        "Test several messages, workflows, or pricing ideas in small parallel experiments and connect build speed to learning speed.",
+        "Define the customer outcome you are paid to create, not only the features your product contains.",
+        "Set a decision date for focus, cost reduction, market change, or fundraising if the current path cannot reach sustainability.",
+      ],
+      takeaways: [
+        "A business plan is a hypothesis, not a permanent fact.",
+        "In the AI era, judgment, customer insight, and distribution can matter more than coding volume.",
+        "Past investment matters only when it creates an advantage in today’s market.",
+        "Review the product around the outcome customers buy, not the screens they use.",
+        "Early reassessment leaves more options open.",
+      ],
+    },
+    ar: {
+      paragraphs: [
+        "العنوان قاس عمدا، لكن المقال يتحدث في الحقيقة عن تقادم الافتراضات من دون أن يلاحظ الفريق ذلك. قد تملك الشركة منتجا وعملاء وفريقا جيدا، بينما تغير السوق من حولها بما يكفي لجعل الخطة الأصلية أقل ملاءمة.",
+        "يبدأ Steve Blank بقصة مؤسس أمضى سنوات في مشكلة تقنية صعبة. خلال تلك السنوات ظهر منافسون جدد وأسواق مجاورة وأنماط تمويل مختلفة. بقيت لدى الشركة أصول مهمة، لكن الفرصة لم تعد هي نفسها التي بدأت من أجلها.",
+        "الدرس ليس أن تغير كل شركة ناشئة مسارها كلما ظهر اتجاه جديد. الدرس أن الخطة يجب أن تبقى فرضية. يحتاج المؤسسون إلى الابتعاد دوريا عن التنفيذ لفحص ما تغير في التقنية وسلوك العملاء والاقتصاد والمنافسة والتوزيع.",
+        "لقد نقل الذكاء الاصطناعي عنق الزجاجة. أصبح بناء البرمجيات أسرع وبعدد أقل من الأشخاص، ولذلك لم يعد النموذج الأولي وحده دليلا قويا على القدرة التقنية. الأسئلة الأصعب تتعلق بالحكم: أي مشكلة مهمة، وما النتيجة التي يشتريها العميل، وما الاختبار الذي سيعلم الفريق شيئا، وكيف يصل المنتج إلى المستخدمين.",
+        "التمرين العملي المزعج لكنه واضح هو: لو بدأت الشركة اليوم، بأدوات وسوق اليوم، فماذا كانت ستبني؟ قد يحافظ الجواب على معرفة المجال وعلاقات العملاء والبيانات الخاصة والتكاملات المادية، لكنه يستبدل خارطة طريق أو هيكل فريق أو طريقة تسعير قديمة.",
+      ],
+      advice: [
+        "اعقد مراجعة فصلية تبدأ بما تغير في السوق والتقنية والعملاء، لا بالدفاع عن خارطة الطريق.",
+        "افصل الأصول الدائمة مثل العلاقات ومعرفة المجال عن الشفرة والعمليات التي تعكس قيود الماضي فقط.",
+        "اختبر رسائل ومسارات استخدام وأسعارا متعددة في تجارب صغيرة ومتوازية، واربط سرعة البناء بسرعة التعلم.",
+        "حدد النتيجة التي يدفع العميل مقابلها، لا عدد الميزات الموجودة في المنتج فقط.",
+        "ضع موعدا لاتخاذ قرار بشأن التركيز أو خفض التكلفة أو تغيير السوق أو التمويل إذا لم يستطع المسار الحالي الوصول إلى الاستدامة.",
+      ],
+      takeaways: [
+        "خطة العمل فرضية وليست حقيقة دائمة.",
+        "في عصر الذكاء الاصطناعي قد يصبح الحكم وفهم العميل والتوزيع أهم من حجم البرمجة.",
+        "لا تكون الاستثمارات السابقة مفيدة إلا إذا صنعت ميزة في سوق اليوم.",
+        "راجع المنتج حول النتيجة التي يشتريها العميل، لا حول الشاشات التي يراها.",
+        "المراجعة المبكرة تترك خيارات أكثر لتصحيح المسار.",
+      ],
+    },
   },
 };
 

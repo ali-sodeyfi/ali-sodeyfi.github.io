@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-12T09:00:00+03:30",
+  "updatedAt": "2026-09-13T05:49:25.261Z",
   "translations": {
     "fa": {
       "documentTitle": "علی سدیفی | یادداشت‌هایی درباره ساختن",
@@ -1135,6 +1135,15 @@
         "publishAt": "2026-09-13T09:00:00+03:30",
         "status": "published",
         "publishedAt": "2026-09-13T09:00:00+03:30"
+      },
+      {
+        "id": "2026-09-13-site-your-startup-is-probably-dead-on-arrival",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "your-startup-is-probably-dead-on-arrival",
+        "publishAt": "2026-09-13T09:20:00+03:30",
+        "status": "published",
+        "publishedAt": "2026-09-13T09:20:00+03:30"
       }
     ],
     "history": []
