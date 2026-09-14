@@ -952,9 +952,89 @@ const articleCatalog = [
       ar: "تذكير حاد لكنه عملي للشركات التي تعمل بافتراضات قديمة: أعد فحص السوق والتقنية والتسعير والفريق قبل الدفاع عن خطة ربما أصبحت متقادمة.",
     },
   },
+  {
+    title: "Don't Talk to Corp Dev",
+    author: "Paul Graham",
+    source: "Paul Graham",
+    year: "2015",
+    url: "https://paulgraham.com/corpdev.html",
+    tags: {
+      fa: ["تمرکز بنیان‌گذار", "تملک", "مذاکره"],
+      en: ["founder focus", "acquisitions", "negotiation"],
+      ar: ["تركيز المؤسس", "الاستحواذ", "التفاوض"],
+    },
+    summary: {
+      fa: "اگر قصد فروش شرکت را ندارید، گفت‌وگوی اکتشافی با خریدار احتمالی بی‌هزینه نیست؛ راهنمایی برای حفظ تمرکز و جدا کردن علاقه اولیه از یک فرایند جدی تملک.",
+      en: "Exploratory acquisition talks are not free when you are not planning to sell: a guide to protecting focus and separating initial interest from a serious sale process.",
+      ar: "محادثات الاستحواذ الاستكشافية ليست بلا تكلفة عندما لا تنوي البيع؛ دليل لحماية التركيز والتمييز بين الاهتمام الأولي ومسار بيع جدي.",
+    },
+  },
 ];
 
 const articleEssays = {
+  "Don't Talk to Corp Dev": {
+    fa: {
+      paragraphs: [
+        "تماس یک شرکت بزرگ برای صحبت درباره خرید استارتاپ می‌تواند شبیه تأیید نهایی مسیر به نظر برسد. اما علاقه یک خریدار احتمالی نه قرارداد است، نه درآمد و نه نشانه قطعی ارزش محصول برای مشتری. مسئله اصلی این نوشته حفظ تمرکز است: اگر تصمیمی برای فروش شرکت ندارید، گفت‌وگوی اکتشافی درباره تملک ممکن است پیش از آنکه چیزی به کسب‌وکار اضافه کند، توجه لازم برای ساختنش را بگیرد. سؤال اول نباید این باشد که چه زمانی جلسه بگذاریم؛ باید روشن کنیم اصلاً چرا می‌خواهیم وارد این مسیر شویم.",
+        "منظور از Corp Dev در این بحث، تیم توسعه شرکتی است که فرصت‌های خرید و ادغام را بررسی می‌کند؛ نه هر مدیر فروش یا مسئول همکاری تجاری. برای این تیم، آشنایی با ده‌ها استارتاپ بخشی از کار روزانه است و بسیاری از این رابطه‌ها هرگز به معامله نمی‌رسند. برای بنیان‌گذار، همان چند جلسه می‌تواند بخش بزرگی از ظرفیت تصمیم‌گیری هفته را مصرف کند. این تفاوت در هزینه فرصت مهم است: طرف مقابل با بررسی شما کار خودش را پیش می‌برد، ولی شما ممکن است با بررسی پیشنهاد او از کار اصلی شرکت دور شوید.",
+        "دام معمول با یک دعوت کم‌هزینه شروع می‌شود: فقط آشنا شویم، محصول را نشان بدهید، چند عدد بفرستید. هر قدم به‌تنهایی قابل دفاع است، اما کنار هم یک فرایند می‌سازند که پایان و احتمال موفقیت روشنی ندارد. حتی وقتی در جلسه نیستید، ذهن می‌تواند مشغول قیمت احتمالی فروش یا زندگی پس از معامله باشد. آن وقت یک مشکل قابل‌حل در محصول یا فروش، در مقایسه با تصور خروج آسان، بی‌ارزش جلوه می‌کند. هزینه واقعی فقط ساعت‌های تقویم نیست؛ تغییر معیاری است که با آن درباره کار روزانه قضاوت می‌کنید.",
+        "اگر شرکت مسیر مستقلی دارد و قصد فروش ندارید، پاسخ کوتاه و محترمانه معمولاً از یک زنجیره جلسه مبهم بهتر است. لازم نیست برای حفظ رابطه وارد مذاکره شوید؛ می‌توانید توضیح دهید که اکنون روی ساخت کسب‌وکار متمرکزید و فرایند فروش را دنبال نمی‌کنید. اگر موضوع واقعاً همکاری تجاری است، آن را از بحث تملک جدا کنید و درباره مشتری، تعهد و خروجی مشخص حرف بزنید. چنین مرزی دشمنی با شرکت‌های بزرگ نیست؛ جلوگیری از تبدیل یک احتمال دور به اولویت روزانه تیم است.",
+        "وقتی فروش واقعاً یکی از گزینه‌های جدی است، توصیه عملی تغییر می‌کند: به‌جای کنجکاوی بی‌انتها، یک فرایند آگاهانه بسازید. به‌عنوان کاربرد اجرایی این ایده، پیش از ادامه روشن کنید چرا فروش را بررسی می‌کنید، چه کسی در طرف مقابل اختیار تصمیم دارد، گام بعدی چیست و چه زمانی دوباره درباره ادامه مسیر تصمیم می‌گیرید. اطلاعات حساس را متناسب با مرحله و با مشورت حقوقی به اشتراک بگذارید. این‌ها تضمین بسته‌شدن معامله نیستند؛ کمک می‌کنند علاقه اولیه را با تعهد واقعی اشتباه نگیرید و هزینه مذاکره را قابل مشاهده نگه دارید.",
+        "آزمون نهایی ساده است: اگر فردا خریدار احتمالی کنار بکشد، شرکت شما در چه وضعی خواهد بود؟ اگر پاسخ این است که فروش، محصول و ارتباط با مشتری هفته‌ها متوقف شده‌اند، مذاکره بیش از حد از کسب‌وکار تغذیه کرده است. برای اجرای این اصل، مسئولیت کارهای جاری را روشن نگه دارید و در بازبینی هفتگی، پیشرفت معامله را جدا از پیشرفت شرکت بسنجید. هدف این نیست که هیچ‌وقت نفروشید؛ هدف این است که تصمیم فروش از دل وضعیت واقعی شرکت بیاید، نه از خستگی و جذابیت یک وعده نامطمئن.",
+      ],
+      takeaways: [
+        "پیش از پذیرش جلسه تملک، با هم‌بنیان‌گذاران روشن کنید آیا واقعاً فروش شرکت را بررسی می‌کنید.",
+        "تماس تیم توسعه شرکتی را پیشنهاد خرید یا تأیید تناسب محصول و بازار حساب نکنید.",
+        "اگر قصد فروش ندارید، پاسخ محترمانه و روشن بدهید و جلسات اکتشافی را ادامه ندهید.",
+        "همکاری تجاری را با خروجی مشخص از گفت‌وگو درباره خرید شرکت جدا نگه دارید.",
+        "برای مذاکره جدی، صاحب تصمیم، گام بعدی و زمان بازبینی ادامه مسیر را مشخص کنید.",
+        "پیشرفت محصول و فروش را مستقل از مذاکره بسنجید تا توقف معامله به توقف شرکت تبدیل نشود.",
+      ],
+      advice: [
+        "پاسخ پیشنهادی در صورت نداشتن قصد فروش: از توجه شما ممنونیم؛ در حال حاضر روی رشد مستقل شرکت تمرکز داریم و وارد فرایند فروش نمی‌شویم.",
+        "پیش از جلسه بعد، در یک یادداشت داخلی دلیل بررسی فروش و هزینه زمانی این مسیر را بنویسید.",
+        "اگر هیچ گام مشخصی از طرف خریدار وجود ندارد، به‌جای افزودن جلسه، درباره توقف گفت‌وگو تصمیم بگیرید.",
+      ],
+    },
+    en: {
+      paragraphs: [
+        "An acquisition inquiry can feel like validation, but attention from a large company is not a transaction, revenue, or proof that customers need your product. The central issue is focus. If you have not decided to consider selling, exploratory acquisition conversations can consume the attention needed to build the business before they produce anything of value. Decide whether a sale belongs on the agenda before deciding when to meet.",
+        "Corporate development teams investigate potential acquisitions as part of their normal work. Many introductions never become deals. The cost is asymmetric: a buyer advances its search by meeting another startup, while a founder may divert a substantial share of the week's decision-making capacity. A sequence of apparently harmless introductions, demos, and requests for numbers can become a process with no clear endpoint.",
+        "The distraction also extends beyond the calendar. Imagining an exit can make ordinary product and sales problems feel less worth solving. If you are not interested in selling, a polite, direct decline protects the company better than indefinite exploratory meetings. Keep genuine commercial partnerships separate from acquisition discussions and evaluate them through concrete commitments and customer value.",
+        "If selling is a serious option, make it an intentional process. As an operating application of this principle, document the reason for considering a sale, identify the buyer's decision-maker, and agree on a next step and a review date. Share sensitive information with appropriate legal guidance. Continue measuring product and sales progress separately: if the buyer walks away tomorrow, the company should still have an operating plan rather than weeks of neglected work.",
+      ],
+      takeaways: [
+        "Align with co-founders on whether a sale is genuinely under consideration before accepting acquisition meetings.",
+        "Do not treat a corporate development introduction as an offer or evidence of product-market fit.",
+        "Decline clearly when you are not selling; separate commercial partnerships from acquisition talks.",
+        "For a serious process, identify decision authority, a concrete next step, and a review date while protecting ongoing operations.",
+      ],
+      advice: [
+        "If you are not selling, say that the team is focused on building an independent business rather than accepting an exploratory meeting.",
+        "Before each additional meeting, ask what new commitment or decision makes the time worthwhile.",
+        "Review the business on the assumption that the acquisition may never close.",
+      ],
+    },
+    ar: {
+      paragraphs: [
+        "قد يبدو اتصال شركة كبيرة لاستكشاف الاستحواذ اعترافا بنجاح المشروع، لكنه ليس صفقة ولا إيرادا ولا دليلا على حاجة العملاء إلى المنتج. القضية الأساسية هنا هي التركيز. إذا لم تقرر أصلا النظر في بيع الشركة، فقد تستهلك المحادثات الاستكشافية الانتباه الذي تحتاجه لبنائها قبل أن تضيف أي قيمة. لذلك يسبق سؤال لماذا نفكر في البيع سؤال متى نعقد الاجتماع.",
+        "المقصود بفريق التطوير المؤسسي هنا هو الفريق الذي يبحث فرص الاستحواذ والاندماج، لا كل مسؤول عن شراكة تجارية. التعرف إلى شركات ناشئة كثيرة جزء من عمله، ومعظم العلاقات الأولية لا تتحول بالضرورة إلى صفقات. تكلفة الوقت غير متساوية: ينجز المشتري المحتمل عمله بمقابلتك، بينما قد تستهلك أنت جزءا كبيرا من قدرتك الأسبوعية على اتخاذ القرار. ويمكن لسلسلة تعارف وعروض وطلبات بيانات صغيرة أن تتحول إلى مسار بلا نهاية واضحة.",
+        "لا يقتصر التشتيت على ساعات الاجتماعات. تخيل الخروج من الشركة قد يجعل مشكلات المنتج والمبيعات اليومية تبدو أقل استحقاقا للجهد. إذا لم تكن راغبا في البيع، فالرفض المهذب والواضح أفضل من الاستمرار في محادثات مفتوحة للحفاظ على العلاقة. وإذا كان الموضوع شراكة تجارية حقيقية، فافصلها عن الاستحواذ وناقش التزامات محددة وقيمة يمكن أن تصل إلى العميل، لا احتمالات غامضة.",
+        "أما إذا كان البيع خيارا جديا، فاجعل البحث فيه عملية مقصودة. كتطبيق تشغيلي للفكرة، اكتب سبب التفكير في البيع، وحدد صاحب القرار لدى المشتري والخطوة التالية وموعد مراجعة الاستمرار. شارك المعلومات الحساسة بما يناسب المرحلة ومع مشورة قانونية. وفي الوقت نفسه، قس تقدم المنتج والمبيعات بصورة مستقلة: إذا انسحب المشتري غدا، ينبغي أن تبقى لدى الشركة خطة تشغيل لا أسابيع من العمل المؤجل.",
+      ],
+      takeaways: [
+        "اتفق مع الشركاء المؤسسين على ما إذا كان البيع خيارا حقيقيا قبل قبول اجتماعات الاستحواذ.",
+        "لا تعتبر اتصال التطوير المؤسسي عرض شراء أو دليلا على ملاءمة المنتج للسوق.",
+        "ارفض بوضوح عندما لا تنوي البيع، وافصل الشراكات التجارية عن محادثات الاستحواذ.",
+        "في المسار الجدي، حدد سلطة القرار والخطوة التالية وموعد المراجعة، مع حماية التشغيل اليومي.",
+      ],
+      advice: [
+        "عند عدم الرغبة في البيع، وضح أن الفريق يركز حاليا على بناء شركة مستقلة بدلا من قبول لقاء استكشافي.",
+        "قبل أي اجتماع إضافي، اسأل عن الالتزام أو القرار الجديد الذي يبرر وقته.",
+        "راجع خطة الشركة على أساس احتمال عدم إتمام الاستحواذ.",
+      ],
+    },
+  },
   "Do Things that Don't Scale": {
     fa: {
       paragraphs: [

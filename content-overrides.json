@@ -1144,6 +1144,55 @@
         "publishAt": "2026-09-13T09:20:00+03:30",
         "status": "published",
         "publishedAt": "2026-09-13T09:20:00+03:30"
+      },
+      {
+        "id": "2026-09-14-site-dont-talk-to-corp-dev",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "dont-talk-to-corp-dev",
+        "publishAt": "2026-09-14T05:46:02+03:30",
+        "status": "published",
+        "publishedAt": "2026-09-14T05:46:02+03:30"
+      },
+      {
+        "id": "2026-09-14-linkedin-dont-talk-to-corp-dev",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "dont-talk-to-corp-dev",
+        "publishAt": "2026-09-14T12:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-09-14T05:46:02+03:30",
+        "note": "Draft only. Publishing requires verified account/API access and explicit approval for this item; neither was established in this run.",
+        "title": {
+          "fa": "پیش‌نویس لینکدین: هزینه گفت‌وگوی تملک",
+          "en": "LinkedIn draft: the cost of acquisition talks",
+          "ar": "مسودة لينكدإن: تكلفة محادثات الاستحواذ"
+        },
+        "body": {
+          "fa": "علاقه خریدار احتمالی، پیشنهاد خرید نیست. جلسه‌های اکتشافی می‌توانند تمرکز محصول و فروش را مصرف کنند، بدون اینکه تعهدی بسازند. پیش از قبول جلسه بعد، با هم‌بنیان‌گذاران تصمیم بگیرید آیا فروش واقعاً روی میز است؛ اگر نیست، محترمانه رد کنید. منبع: Paul Graham — https://paulgraham.com/corpdev.html",
+          "en": "Buyer interest is not an acquisition offer. Exploratory meetings can consume product and sales attention without creating commitment. Before accepting the next meeting, align with co-founders on whether selling is actually on the table; if not, decline politely. Source: Paul Graham — https://paulgraham.com/corpdev.html",
+          "ar": "اهتمام المشتري ليس عرض استحواذ. قد تستهلك الاجتماعات الاستكشافية تركيز المنتج والمبيعات دون التزام. قبل قبول الاجتماع التالي، احسم مع الشركاء المؤسسين هل البيع خيار فعلي؛ إن لم يكن، ارفض بأدب. المصدر: Paul Graham — https://paulgraham.com/corpdev.html"
+        }
+      },
+      {
+        "id": "2026-09-14-story-dont-talk-to-corp-dev",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "dont-talk-to-corp-dev",
+        "publishAt": "2026-09-14T20:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-09-14T05:46:02+03:30",
+        "note": "Three-slide draft only. Publishing requires verified account/API access and explicit approval for this item; neither was established in this run.",
+        "title": {
+          "fa": "پیش‌نمایش استوری: تمرکز پیش از مذاکره",
+          "en": "Story preview: focus before negotiation",
+          "ar": "معاينة الستوري: التركيز قبل التفاوض"
+        },
+        "body": {
+          "fa": "اسلاید ۱: علاقه خریدار، پیشنهاد خرید نیست.\nاسلاید ۲: اگر قصد فروش ندارید، جلسه تملک را رد کنید؛ تمرکز تیم هزینه دارد.\nاسلاید ۳: Paul Graham — https://paulgraham.com/corpdev.html | اقتباس: https://alisodeyfi.ir/?article=dont-talk-to-corp-dev&lang=fa#daily-article-reader",
+          "en": "Slide 1: buyer interest is not an acquisition offer.\nSlide 2: if you are not selling, decline acquisition meetings; team focus has a cost.\nSlide 3: Paul Graham — https://paulgraham.com/corpdev.html | Adaptation: https://alisodeyfi.ir/?article=dont-talk-to-corp-dev&lang=en#daily-article-reader",
+          "ar": "الشريحة 1: اهتمام المشتري ليس عرض استحواذ.\nالشريحة 2: إن لم تكن تنوي البيع، ارفض اجتماعات الاستحواذ؛ لتركيز الفريق تكلفة.\nالشريحة 3: Paul Graham — https://paulgraham.com/corpdev.html | المعالجة: https://alisodeyfi.ir/?article=dont-talk-to-corp-dev&lang=ar#daily-article-reader"
+        }
       }
     ],
     "history": []
