@@ -2136,3 +2136,99 @@ h1 {
     direction: rtl;
   }
 }
+
+/* Mobile readability pass: give Persian text more breathing room on large phones. */
+@media (max-width: 620px) {
+  :root {
+    --page-gutter: clamp(1.45rem, 6.4vw, 2.05rem);
+  }
+
+  body {
+    line-height: 1.82;
+  }
+
+  .site-header {
+    padding: 0.8rem 0.9rem;
+  }
+
+  .hero,
+  .section,
+  .site-footer {
+    width: min(calc(100% - (var(--page-gutter) * 2)), var(--max));
+  }
+
+  .hero {
+    padding-block: 3.25rem 4rem;
+  }
+
+  .hero-thesis,
+  .brief-list p,
+  .section-head,
+  .section-index,
+  .timeline article,
+  .focus-grid article,
+  .daily-article,
+  .article-card,
+  .content-calendar-item,
+  .contact-card,
+  .profile-caption {
+    padding-inline: 1.15rem;
+  }
+
+  .daily-article {
+    padding-block: 1.45rem 1.2rem;
+  }
+
+  .article-title-row {
+    gap: 0.7rem;
+    margin-bottom: 1rem;
+  }
+
+  .article-share-button {
+    width: 2.35rem;
+    height: 2.35rem;
+  }
+
+  .article-summary {
+    line-height: 1.9;
+  }
+
+  .article-body {
+    margin-top: 1.7rem;
+    padding-top: 1.25rem;
+  }
+
+  .article-body p {
+    margin-bottom: 1.25rem;
+    line-height: 2;
+  }
+
+  .article-translation-note,
+  .article-advice,
+  .article-takeaways {
+    padding-inline: 1rem;
+  }
+}
+
+@media (max-width: 430px) {
+  :root {
+    --page-gutter: clamp(1.35rem, 7vw, 1.85rem);
+  }
+
+  .main-nav a,
+  .language-switcher button {
+    min-height: 2.25rem;
+  }
+
+  h1,
+  [dir="ltr"] h1 {
+    font-size: 2.35rem;
+  }
+
+  .lead,
+  .hero-thesis,
+  .article-summary,
+  .article-body p {
+    font-size: 0.98rem;
+  }
+}
