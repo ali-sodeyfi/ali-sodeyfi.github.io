@@ -2043,3 +2043,96 @@ h1 {
     padding-top: 1.25rem;
   }
 }
+
+/* Text rhythm pass: keep Persian pages visually ordered when English titles appear inside RTL content. */
+[dir="rtl"] .hero-copy,
+[dir="rtl"] .intro-copy,
+[dir="rtl"] .section-head,
+[dir="rtl"] .timeline article,
+[dir="rtl"] .focus-grid article,
+[dir="rtl"] .daily-article,
+[dir="rtl"] .article-body,
+[dir="rtl"] .article-card,
+[dir="rtl"] .content-calendar-item,
+[dir="rtl"] .contact-card {
+  text-align: right;
+}
+
+[dir="rtl"] .lead,
+[dir="rtl"] .hero-thesis,
+[dir="rtl"] .intro-copy > p,
+[dir="rtl"] .section-note,
+[dir="rtl"] .work-description,
+[dir="rtl"] .timeline p,
+[dir="rtl"] .focus-grid p,
+[dir="rtl"] .article-summary,
+[dir="rtl"] .article-body p,
+[dir="rtl"] .article-translation-note,
+[dir="rtl"] .article-advice li,
+[dir="rtl"] .article-takeaways li,
+[dir="rtl"] .article-card p,
+[dir="rtl"] .content-calendar-copy p,
+[dir="rtl"] .contact-card p {
+  direction: rtl;
+  text-align: right;
+  unicode-bidi: plaintext;
+}
+
+[dir="rtl"] .article-title,
+[dir="rtl"] .article-card h3,
+[dir="rtl"] .content-calendar-copy h3,
+[dir="rtl"] .work-title-row h3 {
+  text-align: right;
+  unicode-bidi: plaintext;
+}
+
+[dir="rtl"] .article-source,
+[dir="rtl"] .article-date,
+[dir="rtl"] .article-kicker,
+[dir="rtl"] .article-tag,
+[dir="rtl"] .content-calendar-source,
+[dir="rtl"] .content-calendar-date,
+[dir="rtl"] .content-calendar-channel,
+[dir="rtl"] .content-calendar-status {
+  unicode-bidi: plaintext;
+}
+
+[dir="rtl"] .article-card-footer,
+[dir="rtl"] .content-calendar-footer {
+  direction: rtl;
+}
+
+@media (max-width: 900px) {
+  .site-header {
+    position: static;
+  }
+
+  .section,
+  .article-title-row {
+    scroll-margin-top: 1.25rem;
+  }
+}
+
+@media (max-width: 620px) {
+  .hero::before {
+    inset-inline-start: 0;
+    width: 100%;
+  }
+
+  .hero-copy,
+  .hero-copy .eyebrow,
+  .hero-copy h1,
+  .lead,
+  .hero-thesis {
+    text-align: right;
+  }
+
+  .article-card,
+  .content-calendar-item {
+    gap: 0.9rem;
+  }
+
+  .article-card-links {
+    direction: rtl;
+  }
+}
