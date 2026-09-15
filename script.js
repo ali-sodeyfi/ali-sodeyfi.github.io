@@ -969,9 +969,89 @@ const articleCatalog = [
       ar: "محادثات الاستحواذ الاستكشافية ليست بلا تكلفة عندما لا تنوي البيع؛ دليل لحماية التركيز والتمييز بين الاهتمام الأولي ومسار بيع جدي.",
     },
   },
+  {
+    title: "The Equity Equation",
+    author: "Paul Graham",
+    source: "Paul Graham",
+    year: "2007",
+    url: "https://paulgraham.com/equity.html",
+    tags: {
+      fa: ["سهام", "جذب سرمایه", "استخدام"],
+      en: ["equity", "fundraising", "hiring"],
+      ar: ["الملكية", "جمع التمويل", "التوظيف"],
+    },
+    summary: {
+      fa: "معادله سهام: واگذاری بخشی از مالکیت وقتی منطقی است که ارزش سهم باقی‌مانده افزایش یابد؛ چارچوبی برای سنجش سرمایه‌گذار و همکار کلیدی، فراتر از درصدها.",
+      en: "A framework for equity decisions: dilution makes economic sense when the added value makes your remaining stake worth more, whether you are raising capital or hiring a key colleague.",
+      ar: "إطار لقرارات الملكية: يصبح التنازل عن حصة منطقيا عندما تجعل القيمة المضافة حصتك المتبقية أكثر قيمة، سواء عند جمع التمويل أو توظيف زميل أساسي.",
+    },
+  },
 ];
 
 const articleEssays = {
+  "The Equity Equation": {
+    fa: {
+      paragraphs: [
+        "واگذاری سهام معمولاً با این سؤال شروع می‌شود که چقدر از شرکت را از دست می‌دهیم. اما درصد مالکیت به‌تنهایی معیار خوبی برای تصمیم نیست؛ سهم بزرگ از شرکتی که پیش نمی‌رود لزوماً از سهم کوچک‌تر در شرکتی توانمندتر ارزشمندتر نیست. ایده مرکزی معادله سهام این است که هر واگذاری را در برابر ارزشی بسنجیم که به شرکت اضافه می‌کند. بنابراین پیش از بحث بر سر درصد، باید معلوم کنیم سرمایه‌گذار یا همکار تازه کدام محدودیت واقعی را برطرف می‌کند و چرا شرکت بدون او به همان نتیجه نمی‌رسد.",
+        "منطق حساب ساده است: اگر پس از معامله ۹۰ درصد از سهم قبلی شما باقی بماند، ارزش کل شرکت باید بیش از یک تقسیم بر ۰٫۹، یعنی حدود ۱٫۱۱۱ برابر شود تا ارزش سهم شما افزایش پیدا کند. پس واگذاری ۱۰ درصد با افزایش ۱۰ درصدی ارزش جبران نمی‌شود؛ در این حالت ۹۰ درصدِ ۱۱۰ هنوز فقط ۹۹ است. این محاسبه درباره سهم باقی‌مانده از مالکیت قبلی شماست، نه الزاماً مالکیت کل شرکت. فایده‌اش هم پیش‌بینی دقیق آینده نیست؛ یک حداقل روشن می‌دهد تا به‌جای احساس زیان یا هیجان معامله، درباره اندازه ارزش افزوده حرف بزنیم.",
+        "در جذب سرمایه، پرسش بعدی این است که پول و همراهی سرمایه‌گذار چگونه این افزایش ارزش را ایجاد می‌کنند. آیا نقدینگی فرصت کافی برای رسیدن به یک محصول قابل‌فروش می‌دهد؟ آیا یک مانع توزیع را برمی‌دارد یا احتمال تعطیلی شرکت را کم می‌کند؟ صرف طولانی‌تر شدن عمر شرکت، بدون برنامه‌ای برای یادگیری و پیشرفت، پاسخ کافی نیست. برای کاربرد عملی این منطق، مسیر بدون سرمایه را کنار مسیر با سرمایه بنویسید و برای هرکدام نقطه عطف، هزینه و مهم‌ترین فرض را مشخص کنید؛ قیمت اعلام‌شده در جلسه جای این مقایسه را نمی‌گیرد.",
+        "همین نگاه درباره سهام یک همکار کلیدی هم مفید است. صرفه‌جویی در درصد سهام، اگر باعث از دست رفتن فردی شود که گلوگاه اصلی شرکت را حل می‌کند، می‌تواند معامله بدی باشد. در مقابل، عنوان شغلی بزرگ یا سابقه چشمگیر به‌خودی‌خود ارزش افزوده نیست. باید بتوان توضیح داد این فرد چه خروجی متفاوتی می‌سازد: مثلاً تحویل محصولی که تیم فعلی قادر به ساختنش نیست، یا ایجاد یک مسیر فروش که امروز وجود ندارد. در این اقتباس، تعریف خروجی و زمان ارزیابی، راهی عملی برای تبدیل آن منطق اقتصادی به تصمیم استخدام است؛ نه یک درصد ثابت برای همه نقش‌ها.",
+        "مرز مهم این چارچوب، نامطمئن بودن برآورد ارزش آینده است. ممکن است حساب درصدها درست باشد اما فرض اصلی درباره اثر سرمایه یا استخدام غلط از آب دربیاید. به همین دلیل بهتر است به‌جای یک عدد خوش‌بینانه، چند سناریو بسازید و ببینید کدام فرض نتیجه را عوض می‌کند. همچنین این معادله ساده تمام قرارداد را توصیف نمی‌کند: حقوق کنترلی، تعهدات و شرایط دریافت عایدی می‌توانند نتیجه واقعی را تغییر دهند. این ملاحظه اجرایی جای بررسی حقوقی را نمی‌گیرد؛ فقط یادآوری می‌کند که مقایسه درصد مالکیت، پایان بررسی معامله نیست.",
+        "خروجی مفید برای جلسه بعدی، یک برگه تصمیم کوتاه است: چه سهمی واگذار می‌شود، چه مقدار از سهم قبلی باقی می‌ماند، حداقل افزایش ارزش لازم چقدر است و چه شواهدی از عبور از آن حد داریم. کنار آن، بهترین گزینه جایگزین و ریسک تحقق‌نیافتن وعده‌ها را بنویسید. اگر تنها دفاع از معامله این است که درصد کمی می‌دهیم، هنوز مسئله اصلی پاسخ نگرفته است. هدف نه حفظ هر درصد به هر قیمت است و نه توجیه هر رقیق‌شدن با وعده رشد؛ هدف این است که سهم باقی‌مانده، با فرض‌های قابل دفاع، از قبل ارزشمندتر شود.",
+      ],
+      takeaways: [
+        "پیش از مذاکره درصد، گلوگاهی را نام ببرید که سرمایه یا همکار تازه باید حل کند.",
+        "حداقل ضریب افزایش ارزش را با یک تقسیم بر نسبت سهم باقی‌مانده محاسبه کنید.",
+        "واگذاری ۱۰ درصد به بیش از ۱۱٫۱ درصد افزایش ارزش نیاز دارد؛ افزایش ۱۰ درصدی کافی نیست.",
+        "مسیر با معامله و بدون معامله را با نقطه عطف، هزینه و فرض‌های یکسان مقایسه کنید.",
+        "ارزش همکار کلیدی را به خروجی متفاوت و قابل ارزیابی وصل کنید، نه فقط عنوان و سابقه.",
+        "سناریوی بدبینانه و شرایط حقوقی را پیش از تصمیم بررسی کنید؛ معادله جای قرارداد را نمی‌گیرد.",
+      ],
+      advice: [
+        "برای پیشنهاد فعلی، درصد واگذاری و حداقل افزایش ارزش جبران‌کننده را در یک سطر بنویسید.",
+        "سه فرض اصلی درباره ارزش افزوده طرف مقابل را فهرست کنید و برای هرکدام یک شاهد بخواهید.",
+        "پیش از امضا، گزینه جایگزین و اثر حقوق کنترلی و مالی قرارداد را با مشاور بررسی کنید.",
+      ],
+    },
+    en: {
+      paragraphs: [
+        "An equity decision should not begin and end with the percentage a founder gives away. Ownership is a claim on a business, and a smaller claim on a more valuable business can be worth more. The central question is whether the investor or new colleague adds enough value to make the remaining stake more valuable than it would have been without the deal. Protecting a percentage while leaving the company's main bottleneck unresolved can be expensive.",
+        "The arithmetic supplies a useful threshold. If a transaction leaves you with 90 percent of your previous stake, total company value must rise by more than one divided by 0.9, or roughly 1.111 times, for you to come out ahead. A ten percent increase does not offset ten percent dilution: 0.9 times 1.1 is only 0.99. This is a comparison with your previous ownership, not a claim that you personally own the entire company. The equation clarifies the hurdle; it does not forecast the outcome.",
+        "For financing, explain how cash or investor support changes the company's prospects: reaching a sellable product, removing a distribution constraint, or reducing the risk of running out of money. For a key hire, identify the result the existing team cannot deliver without that person. As a practical application, compare the with-deal and without-deal paths using explicit milestones and assumptions. An impressive title or a high headline valuation does not establish the added value by itself.",
+        "The uncertain part is the estimate of future value, not the multiplication. In applying the idea, test a downside case and name the assumptions that reverse the decision. The simple equation also does not capture every contractual right, control provision, or payout term, so legal review remains a separate requirement. A useful decision memo records the dilution, the break-even uplift, the evidence for exceeding it, and the best alternative. Neither avoiding all dilution nor accepting it on the strength of a growth story is a sound default.",
+      ],
+      takeaways: [
+        "Name the bottleneck the proposed investor or colleague will remove before negotiating a percentage.",
+        "Calculate the break-even value multiplier as one divided by the fraction of your stake retained.",
+        "Compare the deal with a realistic no-deal path, using explicit milestones rather than prestige.",
+        "Stress-test the value assumptions and review control and payout terms separately.",
+      ],
+      advice: [
+        "Put the proposed dilution and required value uplift on one line.",
+        "Ask for evidence behind the three assumptions driving the expected contribution.",
+        "Document the best alternative and review contractual rights before signing.",
+      ],
+    },
+    ar: {
+      paragraphs: [
+        "لا ينبغي أن يبدأ قرار منح حصة في الشركة وينتهي عند النسبة التي يتنازل عنها المؤسس. فالملكية حصة من قيمة مشروع، وقد تكون حصة أصغر في شركة أقوى أكثر قيمة من حصة كبيرة في شركة متعثرة. السؤال الأساسي هو ما إذا كان المستثمر أو الزميل الجديد يضيف قيمة تكفي لجعل حصتك المتبقية أعلى قيمة مما كانت ستكون عليه من دون الاتفاق. الحفاظ على النسبة مع إبقاء العائق الرئيسي أمام الشركة ليس بالضرورة قرارا اقتصاديا جيدا.",
+        "يوفر الحساب عتبة واضحة: إذا احتفظت بعد الصفقة بتسعين بالمئة من حصتك السابقة، فيجب أن تزيد قيمة الشركة إلى أكثر من واحد مقسوما على ٠٫٩، أي نحو ١٫١١١ من قيمتها السابقة، لكي تستفيد. زيادة القيمة بعشرة بالمئة لا تعوض تخفيف الملكية بعشرة بالمئة؛ فحاصل ضرب ٠٫٩ في ١٫١ هو ٠٫٩٩ فقط. المقارنة هنا مع حصتك السابقة، ولا تفترض أنك تملك الشركة كلها. فائدة المعادلة تحديد الحد الأدنى المطلوب، لا تقديم توقع مضمون للمستقبل.",
+        "عند جمع التمويل، وضح كيف يغير المال أو دعم المستثمر فرص الشركة: الوصول إلى منتج قابل للبيع، أو إزالة عائق في التوزيع، أو تقليل خطر نفاد السيولة. وعند توظيف شخص أساسي، حدد النتيجة التي لا يستطيع الفريق الحالي تحقيقها من دونه. ولتطبيق الفكرة عمليا، قارن مسار الشركة مع الاتفاق بمسارها بدونه باستخدام مراحل إنجاز وافتراضات صريحة. اللقب الكبير أو التقييم المرتفع في المفاوضات لا يثبتان وحدهما وجود قيمة مضافة.",
+        "الجزء غير المؤكد هو تقدير القيمة المستقبلية، لا عملية الضرب. لذلك اختبر سيناريو متحفظا وحدد الافتراضات التي قد تقلب القرار. كذلك لا تختزل المعادلة البسيطة حقوق التحكم أو الالتزامات أو شروط توزيع العوائد؛ فمراجعة العقد تبقى عملا مستقلا. مذكرة قرار مفيدة تسجل نسبة التخفيف، والزيادة اللازمة للتعادل، والأدلة على تجاوزها، وأفضل بديل متاح. الهدف ليس رفض كل تنازل أو تبرير كل تنازل بوعد نمو، بل زيادة قيمة الحصة المتبقية على أساس قابل للدفاع عنه.",
+      ],
+      takeaways: [
+        "حدد العائق الذي سيزيله المستثمر أو الزميل الجديد قبل مناقشة نسبة الملكية.",
+        "احسب معامل زيادة القيمة اللازم للتعادل بقسمة واحد على نسبة حصتك المحتفظ بها.",
+        "قارن الاتفاق بمسار واقعي بدونه، مع مراحل إنجاز وافتراضات واضحة.",
+        "اختبر تقديرات القيمة وراجع حقوق التحكم وشروط العوائد بصورة مستقلة.",
+      ],
+      advice: [
+        "اكتب نسبة التخفيف والزيادة المطلوبة في القيمة في سطر واحد.",
+        "اطلب دليلا على كل من الافتراضات الثلاثة الأساسية وراء القيمة المضافة المتوقعة.",
+        "وثق أفضل بديل وراجع الحقوق التعاقدية قبل التوقيع.",
+      ],
+    },
+  },
   "Don't Talk to Corp Dev": {
     fa: {
       paragraphs: [

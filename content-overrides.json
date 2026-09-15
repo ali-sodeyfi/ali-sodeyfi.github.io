@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-13T05:49:25.261Z",
+  "updatedAt": "2026-09-15T02:15:53Z",
   "translations": {
     "fa": {
       "documentTitle": "علی سدیفی | یادداشت‌هایی درباره ساختن",
@@ -1192,6 +1192,55 @@
           "fa": "اسلاید ۱: علاقه خریدار، پیشنهاد خرید نیست.\nاسلاید ۲: اگر قصد فروش ندارید، جلسه تملک را رد کنید؛ تمرکز تیم هزینه دارد.\nاسلاید ۳: Paul Graham — https://paulgraham.com/corpdev.html | اقتباس: https://alisodeyfi.ir/?article=dont-talk-to-corp-dev&lang=fa#daily-article-reader",
           "en": "Slide 1: buyer interest is not an acquisition offer.\nSlide 2: if you are not selling, decline acquisition meetings; team focus has a cost.\nSlide 3: Paul Graham — https://paulgraham.com/corpdev.html | Adaptation: https://alisodeyfi.ir/?article=dont-talk-to-corp-dev&lang=en#daily-article-reader",
           "ar": "الشريحة 1: اهتمام المشتري ليس عرض استحواذ.\nالشريحة 2: إن لم تكن تنوي البيع، ارفض اجتماعات الاستحواذ؛ لتركيز الفريق تكلفة.\nالشريحة 3: Paul Graham — https://paulgraham.com/corpdev.html | المعالجة: https://alisodeyfi.ir/?article=dont-talk-to-corp-dev&lang=ar#daily-article-reader"
+        }
+      },
+      {
+        "id": "2026-09-15-site-the-equity-equation",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "the-equity-equation",
+        "publishAt": "2026-09-15T05:45:53+03:30",
+        "status": "published",
+        "publishedAt": "2026-09-15T05:45:53+03:30"
+      },
+      {
+        "id": "2026-09-15-linkedin-the-equity-equation",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "the-equity-equation",
+        "publishAt": "2026-09-15T12:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-09-15T05:45:53+03:30",
+        "note": "Draft only. Verified account/API access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "پیش‌نویس لینکدین: ارزش سهم باقی‌مانده",
+          "en": "LinkedIn draft: the value of the remaining stake",
+          "ar": "مسودة لينكدإن: قيمة الحصة المتبقية"
+        },
+        "body": {
+          "fa": "معیار واگذاری سهام، ارزش سهم باقی‌مانده است؛ نه کوچک بودن درصد واگذاری.\nواگذاری ۱۰ درصد به بیش از ۱۱٫۱ درصد افزایش ارزش نیاز دارد تا جبران شود.\nپیش از مذاکره، گلوگاه قابل‌حل با این معامله و شواهد ارزش افزوده را در یک برگه تصمیم ثبت کنید.\nمنبع: Paul Graham — https://paulgraham.com/equity.html\nhttps://alisodeyfi.ir/?article=the-equity-equation&lang=fa#daily-article-reader",
+          "en": "Judge dilution by the value of the stake retained, not by how small the percentage looks.\nTen percent dilution needs more than 11.1 percent value growth to pay off.\nBefore negotiating, write down the bottleneck the deal removes and the evidence for its added value.\nSource: Paul Graham — https://paulgraham.com/equity.html\nhttps://alisodeyfi.ir/?article=the-equity-equation&lang=en#daily-article-reader",
+          "ar": "معيار التنازل عن الملكية هو قيمة الحصة المتبقية، لا صغر النسبة المتنازل عنها.\nتخفيف الملكية بعشرة بالمئة يتطلب زيادة القيمة بأكثر من ١١٫١ بالمئة ليكون مجديا.\nقبل التفاوض، سجل العائق الذي تزيله الصفقة والأدلة على قيمتها المضافة.\nالمصدر: Paul Graham — https://paulgraham.com/equity.html\nhttps://alisodeyfi.ir/?article=the-equity-equation&lang=ar#daily-article-reader"
+        }
+      },
+      {
+        "id": "2026-09-15-story-the-equity-equation",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "the-equity-equation",
+        "publishAt": "2026-09-15T20:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-09-15T05:45:53+03:30",
+        "note": "Three-slide draft only. Verified account/API access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "پیش‌نمایش استوری: معادله سهام",
+          "en": "Story preview: the equity equation",
+          "ar": "معاينة الستوري: معادلة الملكية"
+        },
+        "body": {
+          "fa": "اسلاید ۱: درصد کمتر، اگر ارزش سهم باقی‌مانده بیشتر شود، الزاماً زیان نیست.\nاسلاید ۲: برای واگذاری ۱۰ درصد، شواهد افزایش ارزش بیش از ۱۱٫۱ درصد را بخواهید.\nاسلاید ۳: Paul Graham — https://paulgraham.com/equity.html | اقتباس: https://alisodeyfi.ir/?article=the-equity-equation&lang=fa#daily-article-reader",
+          "en": "Slide 1: a smaller stake can be worth more.\nSlide 2: for ten percent dilution, ask for evidence of more than 11.1 percent added value.\nSlide 3: Paul Graham — https://paulgraham.com/equity.html | Adaptation: https://alisodeyfi.ir/?article=the-equity-equation&lang=en#daily-article-reader",
+          "ar": "الشريحة 1: قد تكون الحصة الأصغر أعلى قيمة.\nالشريحة 2: مقابل تخفيف بعشرة بالمئة، اطلب أدلة على زيادة القيمة بأكثر من ١١٫١ بالمئة.\nالشريحة 3: Paul Graham — https://paulgraham.com/equity.html | المعالجة: https://alisodeyfi.ir/?article=the-equity-equation&lang=ar#daily-article-reader"
         }
       }
     ],
