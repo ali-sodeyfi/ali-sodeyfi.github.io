@@ -5,5 +5,6 @@ Disallow: /worker/
 Disallow: /scripts/
 Disallow: /CONTENT_AUTOMATION.md
 Disallow: /ADMIN_SETUP.md
+Disallow: /SEO_SETUP.md
 
 Sitemap: https://alisodeyfi.ir/sitemap.xml
