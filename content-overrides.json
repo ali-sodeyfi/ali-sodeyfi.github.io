@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-15T02:15:53Z",
+  "updatedAt": "2026-09-17T02:14:41Z",
   "translations": {
     "fa": {
       "documentTitle": "علی سدیفی | یادداشت‌هایی درباره ساختن",
@@ -1241,6 +1241,55 @@
           "fa": "اسلاید ۱: درصد کمتر، اگر ارزش سهم باقی‌مانده بیشتر شود، الزاماً زیان نیست.\nاسلاید ۲: برای واگذاری ۱۰ درصد، شواهد افزایش ارزش بیش از ۱۱٫۱ درصد را بخواهید.\nاسلاید ۳: Paul Graham — https://paulgraham.com/equity.html | اقتباس: https://alisodeyfi.ir/?article=the-equity-equation&lang=fa#daily-article-reader",
           "en": "Slide 1: a smaller stake can be worth more.\nSlide 2: for ten percent dilution, ask for evidence of more than 11.1 percent added value.\nSlide 3: Paul Graham — https://paulgraham.com/equity.html | Adaptation: https://alisodeyfi.ir/?article=the-equity-equation&lang=en#daily-article-reader",
           "ar": "الشريحة 1: قد تكون الحصة الأصغر أعلى قيمة.\nالشريحة 2: مقابل تخفيف بعشرة بالمئة، اطلب أدلة على زيادة القيمة بأكثر من ١١٫١ بالمئة.\nالشريحة 3: Paul Graham — https://paulgraham.com/equity.html | المعالجة: https://alisodeyfi.ir/?article=the-equity-equation&lang=ar#daily-article-reader"
+        }
+      },
+      {
+        "id": "2026-09-17-site-startups-in-13-sentences",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "startups-in-13-sentences",
+        "publishAt": "2026-09-17T05:44:41+03:30",
+        "status": "published",
+        "publishedAt": "2026-09-17T05:44:41+03:30"
+      },
+      {
+        "id": "2026-09-17-linkedin-startups-in-13-sentences",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "startups-in-13-sentences",
+        "publishAt": "2026-09-17T12:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-09-17T05:44:41+03:30",
+        "note": "Draft only. Verified account/API access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "پیش‌نویس لینکدین: یادگیری به‌جای شلوغی",
+          "en": "LinkedIn draft: learning over activity",
+          "ar": "مسودة لينكدإن: التعلم قبل كثرة النشاط"
+        },
+        "body": {
+          "fa": "معیار پیشرفت استارتاپ، تغییری است که از مشاهده کاربر می‌آید؛ نه شلوغی تقویم.\nاگر بازخورد پشتیبانی وارد تصمیم محصول نشود، تیم همان فرض‌ها را با هزینه بیشتر تکرار می‌کند.\nاین هفته یک مانع پرتکرار کاربر را حذف کنید و اثرش را بر بازگشت به کار اصلی بسنجید.\nمنبع: Paul Graham — https://paulgraham.com/13sentences.html\nhttps://alisodeyfi.ir/?article=startups-in-13-sentences&lang=fa#daily-article-reader",
+          "en": "Startup progress is a decision changed by user evidence, not a busy calendar.\nIf support feedback never reaches product decisions, the team repeats its assumptions at greater cost.\nThis week, remove one recurring user obstacle and measure whether users return to complete the core task.\nSource: Paul Graham — https://paulgraham.com/13sentences.html\nhttps://alisodeyfi.ir/?article=startups-in-13-sentences&lang=en#daily-article-reader",
+          "ar": "تقدم الشركة الناشئة قرار تغير بفعل دليل من المستخدم، لا ازدحام في التقويم.\nإذا لم تصل ملاحظات الدعم إلى قرارات المنتج، يكرر الفريق افتراضاته بتكلفة أعلى.\nهذا الأسبوع، أزل عائقا متكررا وقس عودة المستخدم لإنجاز المهمة الأساسية.\nالمصدر: Paul Graham — https://paulgraham.com/13sentences.html\nhttps://alisodeyfi.ir/?article=startups-in-13-sentences&lang=ar#daily-article-reader"
+        }
+      },
+      {
+        "id": "2026-09-17-story-startups-in-13-sentences",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "startups-in-13-sentences",
+        "publishAt": "2026-09-17T20:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-09-17T05:44:41+03:30",
+        "note": "Three-slide draft only. Verified account/API access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "پیش‌نمایش استوری: از بازخورد تا تصمیم",
+          "en": "Story preview: from feedback to decisions",
+          "ar": "معاينة الستوري: من الملاحظة إلى القرار"
+        },
+        "body": {
+          "fa": "اسلاید ۱: پیشرفت یعنی تصمیمی که با شواهد کاربر عوض شده است.\nاسلاید ۲: این هفته یک مانع پرتکرار را حذف کنید؛ بازگشت کاربر به کار اصلی را بسنجید.\nاسلاید ۳: Paul Graham — https://paulgraham.com/13sentences.html | اقتباس: https://alisodeyfi.ir/?article=startups-in-13-sentences&lang=fa#daily-article-reader",
+          "en": "Slide 1: progress means a decision changed by user evidence.\nSlide 2: remove one recurring obstacle this week; measure return to the core task.\nSlide 3: Paul Graham — https://paulgraham.com/13sentences.html | Adaptation: https://alisodeyfi.ir/?article=startups-in-13-sentences&lang=en#daily-article-reader",
+          "ar": "الشريحة 1: التقدم قرار تغير بفعل دليل من المستخدم.\nالشريحة 2: أزل عائقا متكررا هذا الأسبوع؛ قس العودة إلى المهمة الأساسية.\nالشريحة 3: Paul Graham — https://paulgraham.com/13sentences.html | المعالجة: https://alisodeyfi.ir/?article=startups-in-13-sentences&lang=ar#daily-article-reader"
         }
       }
     ],
