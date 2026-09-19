@@ -221,10 +221,15 @@ function getPageHtml(data, article, language) {
     inLanguage: language,
     about: article.tags[language] ?? article.tags.en,
   };
-  const alternateLinks = ["fa", "en", "ar"]
+  const alternateLinks = ["fa", "en", "ar", "x-default"]
     .map(
-      (alternateLanguage) =>
-        `<link rel="alternate" hreflang="${alternateLanguage}" href="${getArticleUrl(slug, alternateLanguage)}" />`,
+      (alternateLanguage) => {
+        const href =
+          alternateLanguage === "x-default"
+            ? getArticleUrl(slug, "fa")
+            : getArticleUrl(slug, alternateLanguage);
+        return `<link rel="alternate" hreflang="${alternateLanguage}" href="${href}" />`;
+      },
     )
     .join("\n    ");
 
