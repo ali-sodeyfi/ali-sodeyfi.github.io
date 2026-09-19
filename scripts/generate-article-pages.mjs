@@ -10,7 +10,7 @@ const siteUrl = "https://alisodeyfi.ir";
 const scriptPath = join(siteRoot, "script.js");
 const articleRoot = join(siteRoot, "articles");
 const sitemapPath = join(siteRoot, "sitemap.xml");
-const stylesheetVersion = "20260919-article-pages";
+const stylesheetVersion = "20260919-article-reading";
 
 function escapeHtml(value) {
   return String(value).replace(/[&<>"']/g, (character) => {

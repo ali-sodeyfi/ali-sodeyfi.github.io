@@ -152,7 +152,7 @@
 }
 
 .article-page-summary {
-  max-width: 780px;
+  max-width: 720px;
   margin: 1.4rem 0 1.35rem;
   color: #243d43;
   font-size: clamp(1rem, 2vw, 1.18rem);
@@ -193,10 +193,29 @@
 }
 
 .article-page-body {
-  max-width: 780px;
+  max-width: 720px;
   margin-inline: auto;
   margin-top: clamp(2.5rem, 7vw, 5rem);
   padding-top: clamp(1.8rem, 4vw, 2.5rem);
+}
+
+.article-page-body p {
+  margin-bottom: 1.55rem;
+}
+
+html[dir="rtl"] .article-page-summary,
+html[dir="rtl"] .article-page-body > p:not(.article-section-label):not(.article-note),
+html[dir="rtl"] .article-page-body .article-advice li,
+html[dir="rtl"] .article-page-body .article-takeaways li {
+  direction: rtl;
+  text-align: justify;
+  text-align-last: right;
+  text-justify: inter-word;
+}
+
+html[dir="rtl"] .article-page-body .article-section-label,
+html[dir="rtl"] .article-page-body .article-note {
+  text-align: right;
 }
 
 .article-page-footer {
@@ -271,6 +290,16 @@
     font-size: 0.98rem;
   }
 
+  .article-page-body {
+    max-width: none;
+    margin-top: 2.2rem;
+  }
+
+  .article-page-body p {
+    margin-bottom: 1.38rem;
+    line-height: 2.02;
+  }
+
   .article-page-meta {
     display: grid;
     gap: 0.3rem;
@@ -291,5 +320,16 @@
   .article-page-footer {
     align-items: flex-start;
     flex-direction: column;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+  .article-page-card {
+    max-width: 780px;
+  }
+
+  .article-page-summary,
+  .article-page-body {
+    max-width: 640px;
   }
 }

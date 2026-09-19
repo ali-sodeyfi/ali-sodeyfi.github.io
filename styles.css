@@ -3195,3 +3195,67 @@ h1 {
     margin-inline: auto;
   }
 }
+
+/* Article reading polish: stable line length, justified RTL prose, and cleaner mobile/tablet rhythm. */
+.article-summary,
+.article-body {
+  max-width: min(100%, 720px);
+}
+
+.article-body p {
+  margin-bottom: 1.55rem;
+}
+
+[dir="rtl"] .article-summary,
+[dir="rtl"] .article-body > p:not(.article-section-label):not(.article-note),
+[dir="rtl"] .article-advice li,
+[dir="rtl"] .article-takeaways li {
+  direction: rtl;
+  text-align: justify;
+  text-align-last: right;
+  text-justify: inter-word;
+}
+
+[dir="rtl"] .article-section-label,
+[dir="rtl"] .article-note {
+  text-align: right;
+}
+
+.article-advice,
+.article-takeaways {
+  max-width: 100%;
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+  .daily-article {
+    max-width: 760px;
+  }
+
+  .article-summary,
+  .article-body {
+    max-width: min(100%, 660px);
+  }
+}
+
+@media (max-width: 640px) {
+  .article-summary,
+  .article-body {
+    max-width: none;
+  }
+
+  .article-body {
+    margin-top: 1.9rem;
+    padding-top: 1.35rem;
+  }
+
+  .article-body p {
+    margin-bottom: 1.38rem;
+    line-height: 2.02;
+  }
+
+  .article-translation-note,
+  .article-advice,
+  .article-takeaways {
+    padding-inline: 0.95rem;
+  }
+}
