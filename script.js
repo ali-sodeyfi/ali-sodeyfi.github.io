@@ -3582,11 +3582,10 @@ function getArticleShareUrl(article, language) {
 }
 
 function getArticlePageUrl(article, language) {
-  const url = new URL(liveSiteUrl);
+  const selectedLanguage = translations[language] ? language : "fa";
+  const slug = getArticleSlug(article);
+  const url = new URL(`articles/${slug}/${selectedLanguage}/`, liveSiteUrl);
 
-  url.searchParams.delete("v");
-  url.searchParams.set("article", getArticleSlug(article));
-  url.searchParams.set("lang", translations[language] ? language : "fa");
   url.hash = "";
 
   return url.toString();
@@ -4036,7 +4035,7 @@ function renderArticles(language) {
           <div class="article-card-footer">
             <span class="article-source">${escapeHtml(article.source)}</span>
             <div class="article-card-links">
-              <button class="article-card-action article-card-action-primary" type="button" data-article-select="${index}">${escapeHtml(dictionary.articleArchiveReadOnSiteLabel)}</button>
+              <a class="article-card-action article-card-action-primary" href="${escapeHtml(getArticlePageUrl(article, language))}">${escapeHtml(dictionary.articleArchiveReadOnSiteLabel)}</a>
               <a class="article-card-action article-card-action-secondary" href="${escapeHtml(article.url)}" target="_blank" rel="noreferrer">${escapeHtml(dictionary.articleReadLabel)}</a>
             </div>
           </div>
