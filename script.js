@@ -5,7 +5,6 @@ const languageButtons = document.querySelectorAll("[data-lang]");
 const translatableNodes = document.querySelectorAll("[data-i18n]");
 const dailyArticleContainer = document.querySelector("[data-daily-article]");
 const articleListContainer = document.querySelector("[data-article-list]");
-const contentCalendarContainer = document.querySelector("[data-content-calendar]");
 const html = document.documentElement;
 const liveSiteUrl = "https://alisodeyfi.ir/";
 const defaultShareImageUrl = `${liveSiteUrl}assets/ali-sodeyfi.jpg`;
@@ -4227,7 +4226,6 @@ function renderArticles(language) {
     })
     .join("");
 
-  renderContentCalendar(language, dailyArticle, dailyEssay);
 }
 
 function scrollToArticleStart(behavior = "smooth") {
