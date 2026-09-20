@@ -1,0 +1,9 @@
+[Unit]
+Description=Monthly semantic translation audit for alisodeyfi.ir
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/root/alisodeyfi
+ExecStart=/root/alisodeyfi/scripts/run-monthly-translation-audit.sh

@@ -1,0 +1,10 @@
+[Unit]
+Description=Run the alisodeyfi.ir translation audit on the first day of each month
+
+[Timer]
+OnCalendar=*-*-01 05:30:00 Asia/Tehran
+Persistent=true
+Unit=alisodeyfi-monthly-translation-audit.service
+
+[Install]
+WantedBy=timers.target
