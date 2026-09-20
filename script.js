@@ -15,92 +15,92 @@ let selectedArticleIndex = null;
 
 const translations = {
   fa: {
-    documentTitle: "علی سدیفی | یادداشت‌هایی درباره ساختن",
+    documentTitle: "علی سدیفی | یادداشت‌هایی درباره ساخت کسب‌وکار",
     metaDescription:
-      "علی سدیفی؛ یادداشت‌هایی درباره ساختن کسب‌وکار، محصول و تیم، و تبدیل ابهام به تصمیم‌های روشن.",
-    brandRole: "ساختن، محصول، تیم",
+      "یادداشت‌ها و تجربه‌هایی درباره ساخت کسب‌وکار، محصول و تیم؛ از فهم مسئله و شناخت کاربر تا تصمیم‌های سخت رشد.",
+    brandRole: "ساخت کسب‌وکار، محصول، تیم",
     navWork: "تجربه‌ها",
     navThesis: "روش کار",
     navArticles: "مقالات",
     navContact: "تماس",
-    eyebrow: "علی سدیفی / Ali Sodeyfi",
+    eyebrow: "یادداشت‌های ساختن",
     heroTitle: "علی سدیفی",
     heroLead:
-      "درباره ساختن کسب‌وکار، محصول و تیم؛ جایی که ابهام باید به تصمیم روشن و کار قابل اجرا تبدیل شود.",
+      "یادداشت‌ها و تجربه‌هایی از ساخت کسب‌وکار، محصول و تیم؛ از فهم مسئله و شناخت کاربر تا تصمیم‌های سخت رشد.",
     heroThesis:
-      "برای من کار جدی از جایی شروع می‌شود که جواب آماده نداریم: باید مسئله را دقیق‌تر ببینیم، شواهد را از حدس جدا کنیم و قدم بعدی را کوچک اما واقعی انتخاب کنیم.",
-    heroPrimary: "خواندن یادداشت‌ها",
+      "اینجا از تجربه‌های ساختن می‌نویسم: چگونه مسئله را دقیق‌تر تعریف کنیم، با شواهد یاد بگیریم و تصمیم بعدی را به کاری کوچک و قابل سنجش تبدیل کنیم.",
+    heroPrimary: "دیدن یادداشت‌ها",
     profileCaptionLabel: "اکنون",
     profileCaption:
-      "این روزها بیشتر به رشد پلتفرم‌ها، اعتماد در مقیاس، یادگیری بازار و ساده‌سازی عملیات فکر می‌کنم.",
+      "در حال کار روی رشد پلتفرم، طراحی سازوکارهای قابل اعتماد و تبدیل یادگیری بازار به تصمیم‌های عملیاتی.",
     positioningLabel: "زاویه نگاه",
     positioningTitle:
-      "ساختن برایم یعنی کم‌کردن ابهام، نه زیادکردن ادعا.",
+      "ساختن یعنی از ابهام به تصمیم قابل سنجش رسیدن.",
     positioningBody:
-      "در پروژه‌های مختلف، مسئله اصلی معمولاً خود ایده نیست؛ فاصله بین چیزی است که تیم تصور می‌کند، چیزی که بازار نشان می‌دهد و تصمیمی که باید امروز گرفته شود.",
+      "در هر پروژه، فاصله‌ای میان فرض تیم، رفتار بازار و تصمیم روز وجود دارد. ارزش کار در کوتاه‌کردن همین فاصله است.",
     briefOneLabel: "مسئله",
     briefOne:
-      "کدام درد واقعی است و چه شاهدی داریم که فقط برداشت داخلی نیست؟",
+      "مسئله را با رفتار و هزینه‌ای که امروز وجود دارد تعریف کن، نه با راه‌حلی که از قبل دوستش داریم.",
     briefTwoLabel: "ریتم",
     briefTwo:
-      "یادگیری از بازار دقیقاً کجای ریتم هفتگی تیم می‌نشیند؟",
+      "هر هفته چه چیزی از کاربر یاد گرفتیم و کدام تصمیم را به‌خاطرش تغییر دادیم؟",
     briefThreeLabel: "سیستم",
     briefThree:
-      "کدام تصمیم‌ها باید تبدیل به سیستم شوند و کدام هنوز به قضاوت انسانی نیاز دارند؟",
-    trackLabel: "مسیر کار",
-    trackTitle: "تجربه‌هایی که زاویه نگاه را ساخته‌اند",
+      "چه چیزی را به فرایند بسپاریم و کجا قضاوت انسانی مزیت اصلی است؟",
+    trackLabel: "تجربه‌ها",
+    trackTitle: "زمینه‌هایی که در آن‌ها ساخته‌ام و یاد گرفته‌ام",
     trackIntro:
-      "کوتاه و بی‌اغراق: چند زمینه کاری که از آن‌ها درباره محصول، بازار، سرمایه و اعتماد یاد گرفته‌ام.",
-    workOneYear: "اکوسیستم",
+      "این‌ها فقط عنوان‌های رزومه نیستند؛ موقعیت‌هایی‌اند که در آن‌ها درباره بازار، محصول، سرمایه و اعتماد یاد گرفته‌ام.",
+    workOneYear: "بازارگاه و اکوسیستم",
     workOneTitle: "باسلام - توسعه اکوسیستم",
     workOneDescription:
       "باسلام یک پلتفرم خرید و فروش اجتماعی است که فروشنده‌های کوچک و خریداران را در یک بازارگاه انسانی‌تر به هم وصل می‌کند.",
     workOneBody:
-      "در باسلام، رشد پلتفرم را از زاویه اعتماد، هماهنگی و سازوکارهای کوچک عملیاتی دیدم؛ چیزهایی که بیرون از فهرست قابلیت‌ها هم محصول را می‌سازند.",
-    workTwoYear: "سرمایه‌گذاری اولیه",
+      "در باسلام، رشد فقط به افزودن قابلیت‌های جدید وابسته نبود؛ اعتماد فروشنده و خریدار، هماهنگی بین تیم‌ها و سازوکارهای عملیاتی کوچک، هر روز تجربه پلتفرم را شکل می‌داد.",
+    workTwoYear: "سرمایه‌گذاری و همراهی",
     workTwoTitle: "100استارتاپ - هم‌بنیان‌گذار و مدیرعامل",
     workTwoDescription:
       "100استارتاپ پلتفرمی برای سرمایه‌گذاری و همراهی با تیم‌های نوپا در مرحله‌های اولیه شکل‌گیری کسب‌وکار بود.",
     workTwoBody:
-      "کار نزدیک با تیم‌های نوپا نشان داد کیفیت بنیان‌گذار، ریتم همراهی و اعتماد عملی، قبل از هر مدل مالی یا برنامه رشد معنا پیدا می‌کند.",
-    workThreeYear: "کار حرفه‌ای",
+      "در 100استارتاپ، همراهی با تیم‌های مرحله اول نشان داد سرمایه فقط پول نیست؛ سرعت بازخورد، کیفیت رابطه و دسترسی به تصمیم‌های درست هم بخشی از ارزش واقعی حمایت‌اند.",
+    workThreeYear: "آموزش و کار مستقل",
     workThreeTitle: "آکادمی تکانش - هم‌بنیان‌گذار و عضو هیئت‌مدیره",
     workThreeDescription:
       "آکادمی تکانش روی آموزش و حرفه‌ای‌تر شدن مسیر کار مستقل و فریلنسری تمرکز داشت.",
     workThreeBody:
-      "در تکانش، مسئله فقط آموزش نبود؛ تبدیل کار مستقل به مسیر حرفه‌ای‌تر، قابل اتکاتر و قابل گفت‌وگوتر بود.",
+      "در تکانش، آموزش وقتی ارزش پیدا می‌کرد که به مسیر شغلی، نمونه‌کار و درآمد واقعی وصل شود؛ نه اینکه فقط به محتوای آموزشی بیشتر تبدیل شود.",
     workFourYear: "اعتماد و فرایند",
     workFourTitle: "همیان - هم‌بنیان‌گذار و عضو هیئت‌مدیره",
     workFourDescription:
       "همیان تجربه‌ای در طراحی سازوکارهای مالی و قرض‌الحسنه بود؛ جایی که اعتماد و شفافیت بخش اصلی محصول محسوب می‌شد.",
     workFourBody:
-      "در کار مالی اجتماعی، مسئله این بود که فرایند چطور می‌تواند اعتماد را سنگین نکند و شفافیت را به رفتار روزمره تبدیل کند.",
+      "در همیان، شفافیت ویژگی جانبی نبود؛ شرط شکل‌گیری اعتماد بود. هر مرحله از فرایند باید برای کاربر قابل فهم و قابل پیگیری می‌ماند.",
     workFiveYear: "آموزش و محصول",
     workFiveTitle: "شتاب‌دهنده EduTech - بنیان‌گذار و مدیرعامل",
     workFiveDescription:
       "شتاب‌دهنده EduTech برای کمک به تیم‌هایی شکل گرفت که می‌خواستند ایده‌های آموزشی را به محصول و کسب‌وکار تبدیل کنند.",
     workFiveBody:
-      "کار با تیم‌های آموزشی یادآوری کرد که ایده خوب وقتی محصول می‌شود که زبان آموزش، بازار و عملیات به هم نزدیک شود.",
+      "در EduTech، فاصله بین ایده آموزشی و کسب‌وکار پایدار وقتی کم می‌شد که نیاز یادگیرنده، مدل درآمد و اجرای روزانه هم‌زمان دیده می‌شد.",
     thesisLabel: "روش کار",
-    thesisTitle: "اصولی که در کار مدام برمی‌گردند",
+    thesisTitle: "سه اصل برای ساختن در شرایط نامطمئن",
     thesisIntro:
-      "در پروژه‌های مختلف، جواب‌ها عوض شده‌اند؛ اما این چند اصل زیاد برگشته‌اند.",
+      "این‌ها نسخهٔ قطعی نیستند؛ معیارهایی‌اند برای اینکه تیم در ابهام، تصمیم بهتری بگیرد.",
     focusOneTitle: "از مسئله شروع کن",
     focusOneBody:
-      "قبل از ساختن راه‌حل، باید معلوم شود درد واقعی کجاست، چه کسی آن را جدی حس می‌کند و چه شواهدی داریم.",
-    focusTwoTitle: "سیستم را زودتر از سازمان سنگین نکن",
+      "قبل از ساختن راه‌حل، باید معلوم شود درد واقعی کجاست، چه کسی آن را جدی حس می‌کند و چه رفتاری آن را ثابت می‌کند.",
+    focusTwoTitle: "فرایند را برای یادگیری بساز",
     focusTwoBody:
-      "فرایند خوب باید ابهام را کم کند، نه اینکه سرعت یادگیری و قضاوت آدم‌ها را بگیرد.",
-    focusThreeTitle: "زبان مشترک بساز",
+      "هر فرایند باید یک تصمیم را روشن‌تر یا یک خطای تکراری را کم کند؛ اگر فقط لایه اضافه می‌کند، زود است.",
+    focusThreeTitle: "زبان مشترک را مکتوب کن",
     focusThreeBody:
-      "خیلی از مسئله‌ها از نداشتن زبان مشترک بین تیم، بازار، سرمایه‌گذار و عملیات سخت می‌شوند.",
-    articlesLabel: "مطالعه",
-    articlesTitle: "مطالعه برای ساختن بهتر",
+      "وقتی تیم درباره کاربر، هدف و معیار موفقیت تعریف مشترک دارد، اختلاف نظر سریع‌تر به تصمیم تبدیل می‌شود.",
+    articlesLabel: "یادداشت‌ها",
+    articlesTitle: "مقاله‌هایی برای تصمیم‌های واقعی",
     articlesIntro:
-      "متن‌های معتبر درباره کارآفرینی، رشد و ساخت شرکت؛ با ترجمه آزاد داخل سایت و ارجاع روشن به منبع اصلی.",
+      "ترجمه و برداشت آزاد از مقاله‌های معتبر درباره کارآفرینی، محصول و ساخت شرکت؛ هر مطلب با خلاصهٔ اجرایی، نکات کاربردی و لینک منبع اصلی.",
     articleTodayLabel: "انتخاب امروز",
     articleSelectedLabel: "ترجمه منتخب",
-    articleArchiveLabel: "آرشیو منتخب",
+    articleArchiveLabel: "آرشیو مقاله‌ها",
     articleSourceLabel: "منبع",
     articleDateLabel: "به‌روزرسانی منظم",
     articleReadLabel: "منبع اصلی",
@@ -116,107 +116,107 @@ const translations = {
     articleTakeawaysLabel: "نکات اجرایی",
     articleCopyrightNote:
       "این متن ترجمه آزاد و بازنویسی‌شده است، نه بازنشر کلمه‌به‌کلمه مقاله اصلی.",
-    contentCalendarLabel: "تقویم محتوا",
-    contentCalendarTitle: "چیزی که این هفته منتشر می‌شود",
+    contentCalendarLabel: "برنامه انتشار",
+    contentCalendarTitle: "برنامه محتوایی این هفته",
     contentCalendarIntro:
-      "خروجی‌های کوتاه و واقعی برای سایت، لینکدین و استوری؛ نه وعده‌های مبهم.",
+      "نمایی از خروجی‌های برنامه‌ریزی‌شده سایت و شبکه‌های اجتماعی؛ وضعیت هر مورد بر اساس زمان‌بندی واقعی و دسترسی موجود نمایش داده می‌شود.",
     contactLabel: "تماس",
     contactTitle:
-      "اگر مسئله‌ای داری که هنوز خوب نام‌گذاری نشده، خوشحال می‌شوم بشنوم.",
+      "برای گفت‌وگو درباره ساخت کسب‌وکار، محصول یا تیم، پیام بده.",
     contactBody:
-      "یک پیام کوتاه با زمینه مسئله، مرحله کار و چیزی که می‌خواهی روشن‌تر شود کافی است. اگر گفت‌وگو مفید بود، ادامه‌اش را پیدا می‌کنیم.",
+      "در پیام، مسئله، مرحله فعلی و تصمیمی را که می‌خواهی روشن‌تر کنی بنویس. همین زمینه کوتاه برای شروع گفت‌وگو کافی است.",
     copyEmail: "کپی ایمیل",
     copySuccess: "ایمیل کپی شد.",
     copyFallback: "ایمیل: Sodeyfi.ali@gmail.com",
-    footerText: "یادداشت‌ها، تجربه‌ها و نوشته‌هایی درباره ساختن.",
+    footerText: "یادداشت‌ها و تجربه‌هایی درباره ساختن.",
   },
   en: {
-    documentTitle: "Ali Sodeyfi | Notes on building",
+    documentTitle: "Ali Sodeyfi | Notes on building companies",
     metaDescription:
-      "Ali Sodeyfi: notes on building businesses, products, and teams, and turning ambiguity into clearer decisions.",
-    brandRole: "Building, product, teams",
+      "Notes and field lessons on building businesses, products, and teams: from problem definition and user learning to hard growth decisions.",
+    brandRole: "Company building, product, teams",
     navWork: "Work",
     navThesis: "Method",
     navArticles: "Articles",
     navContact: "Contact",
-    eyebrow: "Ali Sodeyfi",
+    eyebrow: "Notes on building",
     heroTitle: "Ali Sodeyfi",
     heroLead:
-      "Notes on building businesses, products, and teams where ambiguity has to become clearer decisions and executable work.",
+      "Notes from building businesses, products, and teams: from defining the problem and learning from users to making hard growth decisions.",
     heroThesis:
-      "Serious work starts for me where there is no ready-made answer: see the problem more precisely, separate evidence from assumption, and choose the next small real step.",
-    heroPrimary: "Read notes",
+      "This is where I write about the work behind building: defining problems clearly, learning from evidence, and turning the next decision into a small, measurable step.",
+    heroPrimary: "Explore the notes",
     profileCaptionLabel: "Now",
     profileCaption:
-      "Thinking about platform growth, trust at scale, market learning, and simpler operations.",
+      "Working on platform growth, trusted operating systems, and turning market learning into practical decisions.",
     positioningLabel: "Point of view",
     positioningTitle:
-      "Building, to me, means reducing ambiguity rather than adding claims.",
+      "Building means turning ambiguity into a decision you can test.",
     positioningBody:
-      "Across different projects, the hard part is rarely the idea alone. It is the gap between what the team believes, what the market is showing, and the decision that has to be made today.",
+      "Every project has a gap between the team's assumptions, market behavior, and today's decision. The work is to shorten that gap.",
     briefOneLabel: "Problem",
     briefOne:
-      "Which pain is real, and what evidence proves it is not only an internal belief?",
+      "Define the problem by current behavior and cost, not by the solution we already prefer.",
     briefTwoLabel: "Rhythm",
     briefTwo:
-      "Where exactly does market learning enter the team's weekly operating rhythm?",
+      "What did we learn from users this week, and which decision changed because of it?",
     briefThreeLabel: "System",
     briefThree:
-      "Which decisions should become systems, and which still need human judgment?",
-    trackLabel: "Work path",
-    trackTitle: "Experiences that shaped the point of view",
+      "What should become process, and where is human judgment still the advantage?",
+    trackLabel: "Experience",
+    trackTitle: "Contexts where I built and learned",
     trackIntro:
-      "Briefly and without theater: a few contexts that taught me about product, market, capital, and trust.",
-    workOneYear: "Ecosystem",
+      "These are more than resume labels: they are contexts that taught me about markets, products, capital, and trust.",
+    workOneYear: "Marketplace and ecosystem",
     workOneTitle: "Basalam - Ecosystem Development",
     workOneDescription:
       "Basalam is a social commerce marketplace that connects small sellers and buyers in a more human shopping environment.",
     workOneBody:
-      "At Basalam, platform growth became visible through trust, coordination, and small operating mechanisms, not only through features and numbers.",
-    workTwoYear: "Early investment",
+      "At Basalam, growth was not only a matter of adding features. Seller and buyer trust, cross-team coordination, and small operating mechanisms shaped the platform experience every day.",
+    workTwoYear: "Investment and support",
     workTwoTitle: "100Startups - Co-Founder & CEO",
     workTwoDescription:
       "100Startups was a platform for investing in and working with early-stage teams as their businesses were taking shape.",
     workTwoBody:
-      "Working closely with early teams showed that founder quality, support rhythm, and practical trust come before any financial model or growth plan has meaning.",
-    workThreeYear: "Professional work",
+      "At 100Startups, working with early teams made one thing clear: capital is not only money. Feedback speed, relationship quality, and access to better decisions are part of the real support.",
+    workThreeYear: "Independent work",
     workThreeTitle: "Tekanesh Academy - Co-Founder & Board Member",
     workThreeDescription:
       "Tekanesh Academy focused on learning systems and the professionalization of independent and freelance work.",
     workThreeBody:
-      "At Tekanesh, the question was not education alone; it was how independent work could become more professional, reliable, and easier to discuss.",
+      "At Tekanesh, learning mattered when it connected to a career path, portfolio, and real income; otherwise it was only more educational content.",
     workFourYear: "Trust and process",
     workFourTitle: "Hamyan - Co-Founder & Board Member",
     workFourDescription:
       "Hamyan was an experience in designing financial and Qarz-al-Hasanah mechanisms where trust and transparency were core parts of the product.",
     workFourBody:
-      "In social finance, the question was how process could avoid making trust heavier and turn transparency into everyday behavior.",
+      "At Hamyan, transparency was not an add-on. It was a condition for trust, so every step of the process had to remain understandable and traceable for users.",
     workFiveYear: "Learning and product",
     workFiveTitle: "EduTech Accelerator - Founder & CEO",
     workFiveDescription:
       "EduTech Accelerator helped teams turn education ideas into products and businesses.",
     workFiveBody:
-      "Working with education teams was a reminder that strong ideas become products only when learning, market, and operations start speaking closer languages.",
+      "At EduTech, the gap between an education idea and a sustainable business narrowed only when learner need, revenue model, and daily execution were considered together.",
     thesisLabel: "Method",
-    thesisTitle: "Principles that keep returning in the work",
+    thesisTitle: "Three principles for building under uncertainty",
     thesisIntro:
-      "Across different projects, the answers changed. These principles kept returning.",
+      "Not a formula; these are criteria for making better decisions when the answer is not obvious.",
     focusOneTitle: "Start with the problem",
     focusOneBody:
-      "Before building a solution, clarify where the pain is, who feels it seriously, and what evidence exists.",
-    focusTwoTitle: "Do not make the system heavy too early",
+      "Before building a solution, clarify where the pain is, who feels it seriously, and which behavior proves it.",
+    focusTwoTitle: "Build process for learning",
     focusTwoBody:
-      "A good process should reduce ambiguity, not slow down learning and human judgment.",
-    focusThreeTitle: "Build shared language",
+      "Every process should clarify a decision or reduce a repeated mistake. If it only adds another layer, it is too early.",
+    focusThreeTitle: "Make shared language explicit",
     focusThreeBody:
-      "Many problems become harder because teams, markets, investors, and operations do not yet have the same language.",
-    articlesLabel: "Reading",
-    articlesTitle: "Reading for building better",
+      "When the team shares definitions for the user, the goal, and the success metric, disagreement turns into decisions faster.",
+    articlesLabel: "Notes",
+    articlesTitle: "Articles for real decisions",
     articlesIntro:
-      "Credible writing on entrepreneurship, growth, and company building, with an on-site adaptation and a clear link to the original source.",
+      "Readable adaptations of credible work on entrepreneurship, products, and company building, with practical takeaways and a clear original source.",
     articleTodayLabel: "Today's pick",
     articleSelectedLabel: "Selected translation",
-    articleArchiveLabel: "Selected archive",
+    articleArchiveLabel: "Article archive",
     articleSourceLabel: "Source",
     articleDateLabel: "Regular update",
     articleReadLabel: "Original source",
@@ -233,106 +233,106 @@ const translations = {
     articleCopyrightNote:
       "This is a free adaptation, not a word-for-word republication of the original article.",
     contentCalendarLabel: "Content calendar",
-    contentCalendarTitle: "What gets published this week",
+    contentCalendarTitle: "This week's publishing plan",
     contentCalendarIntro:
-      "Short, real outputs for the site, LinkedIn, and stories - not vague promises.",
+      "A view of planned site and social outputs. Status reflects the actual schedule and the access currently available.",
     contactLabel: "Contact",
     contactTitle:
-      "If you are carrying a problem that is not clearly named yet, I would be glad to hear it.",
+      "For a conversation about building a business, product, or team, send a note.",
     contactBody:
-      "A short note with the problem context, the stage of work, and what you are trying to make clearer is enough. If the conversation is useful, it will find its next step.",
+      "Share the problem, the current stage, and the decision you want to make clearer. That short context is enough to start.",
     copyEmail: "Copy email",
     copySuccess: "Email copied.",
     copyFallback: "Email: Sodeyfi.ali@gmail.com",
-    footerText: "Notes, work, and essays on building.",
+    footerText: "Notes and field lessons on building.",
   },
   ar: {
-    documentTitle: "علي سدیفي | ملاحظات عن البناء",
+    documentTitle: "علي سديفي | ملاحظات عن بناء الشركات",
     metaDescription:
-      "علي سدیفي: ملاحظات عن بناء الأعمال والمنتجات والفرق، وتحويل الغموض إلى قرارات أوضح.",
-    brandRole: "البناء، المنتج، الفرق",
+      "ملاحظات وتجارب ميدانية عن بناء الأعمال والمنتجات والفرق: من تعريف المشكلة والتعلم من المستخدم إلى قرارات النمو الصعبة.",
+    brandRole: "بناء الشركات، المنتج، الفرق",
     navWork: "التجارب",
     navThesis: "المنهج",
     navArticles: "مقالات",
     navContact: "التواصل",
-    eyebrow: "علي سدیفي / Ali Sodeyfi",
-    heroTitle: "علي سدیفي",
+    eyebrow: "ملاحظات عن البناء",
+    heroTitle: "علي سديفي",
     heroLead:
-      "ملاحظات عن بناء الأعمال والمنتجات والفرق، حيث يجب أن يتحول الغموض إلى قرارات أوضح وعمل قابل للتنفيذ.",
+      "ملاحظات من بناء الأعمال والمنتجات والفرق: من تعريف المشكلة والتعلم من المستخدم إلى قرارات النمو الصعبة.",
     heroThesis:
-      "يبدأ العمل الجاد بالنسبة لي عندما لا تكون هناك إجابة جاهزة: رؤية المشكلة بدقة أكبر، فصل الدليل عن الافتراض، واختيار خطوة صغيرة لكنها حقيقية.",
+      "هنا أكتب عن العمل الحقيقي خلف البناء: تعريف المشكلة بوضوح، التعلم من الأدلة، وتحويل القرار التالي إلى خطوة صغيرة قابلة للقياس.",
     heroPrimary: "قراءة الملاحظات",
     profileCaptionLabel: "الآن",
     profileCaption:
-      "أفكر في نمو المنصات، والثقة على نطاق واسع، والتعلم من السوق، وتبسيط العمليات.",
+      "أعمل على نمو المنصات، وتصميم أنظمة تشغيل موثوقة، وتحويل التعلم من السوق إلى قرارات عملية.",
     positioningLabel: "زاوية نظر",
     positioningTitle:
-      "البناء بالنسبة لي يعني تقليل الغموض، لا زيادة الادعاءات.",
+      "البناء يعني تحويل الغموض إلى قرار يمكن اختباره.",
     positioningBody:
-      "في المشاريع المختلفة، لا تكون الصعوبة غالبا في الفكرة وحدها، بل في الفجوة بين ما يعتقده الفريق، وما يظهره السوق، والقرار الذي يجب اتخاذه اليوم.",
+      "في كل مشروع توجد فجوة بين افتراضات الفريق وسلوك السوق وقرار اليوم. قيمة العمل هي تقصير هذه الفجوة.",
     briefOneLabel: "المشكلة",
     briefOne:
-      "أي ألم حقيقي، وما الدليل على أنه ليس مجرد اعتقاد داخلي؟",
+      "عرّف المشكلة من خلال السلوك والتكلفة الحالية، لا من خلال الحل الذي نفضله مسبقا.",
     briefTwoLabel: "الإيقاع",
     briefTwo:
-      "أين يدخل التعلم من السوق تحديدا في إيقاع الفريق الأسبوعي؟",
+      "ماذا تعلمنا من المستخدم هذا الأسبوع، وأي قرار تغير بسبب ذلك؟",
     briefThreeLabel: "النظام",
     briefThree:
-      "أي قرارات يجب أن تتحول إلى أنظمة، وأيها ما زال يحتاج إلى حكم بشري؟",
-    trackLabel: "مسار العمل",
-    trackTitle: "تجارب شكلت زاوية النظر",
+      "ما الذي يجب أن يتحول إلى عملية، وأين يبقى الحكم البشري هو الميزة؟",
+    trackLabel: "التجارب",
+    trackTitle: "سياقات بنيت فيها وتعلمت منها",
     trackIntro:
-      "بإيجاز ومن دون مبالغة: بعض السياقات التي علمتني عن المنتج والسوق ورأس المال والثقة.",
-    workOneYear: "المنظومة",
+      "ليست هذه مجرد عناوين في السيرة؛ بل سياقات تعلمت فيها عن السوق والمنتج ورأس المال والثقة.",
+    workOneYear: "السوق والمنظومة",
     workOneTitle: "Basalam - تطوير المنظومة",
     workOneDescription:
       "Basalam سوق تجارة اجتماعية يربط البائعين الصغار بالمشترين في تجربة شراء أكثر إنسانية.",
     workOneBody:
-      "في Basalam، ظهر نمو المنصة من خلال الثقة والتنسيق والآليات التشغيلية الصغيرة، لا من خلال الميزات والأرقام فقط.",
-    workTwoYear: "استثمار مبكر",
+      "في Basalam، لم يكن النمو مسألة إضافة ميزات فقط؛ فقد شكلت ثقة البائع والمشتري، وتنسيق الفرق، والآليات التشغيلية الصغيرة تجربة المنصة يوميا.",
+    workTwoYear: "استثمار ومرافقة",
     workTwoTitle: "100Startups - شريك مؤسس ومدير تنفيذي",
     workTwoDescription:
       "100Startups كانت منصة للاستثمار في الفرق الناشئة ومرافقتها في المراحل الأولى من تشكل العمل.",
     workTwoBody:
-      "العمل القريب مع الفرق الأولى أظهر أن جودة المؤسس وإيقاع المرافقة والثقة العملية تسبق معنى أي نموذج مالي أو خطة نمو.",
-    workThreeYear: "عمل مهني",
+      "في 100Startups، أوضح العمل مع الفرق الأولى أن رأس المال ليس مالا فقط؛ فسرعة التغذية الراجعة وجودة العلاقة والوصول إلى قرارات أفضل جزء من قيمة الدعم.",
+    workThreeYear: "التعلم والعمل المستقل",
     workThreeTitle: "Tekanesh Academy - شريك مؤسس وعضو مجلس إدارة",
     workThreeDescription:
       "ركزت Tekanesh Academy على أنظمة التعلم وجعل العمل المستقل والحر أكثر مهنية.",
     workThreeBody:
-      "في Tekanesh، لم تكن المسألة تعليما فقط؛ بل كيف يصبح العمل المستقل أكثر مهنية واعتمادية وقابلية للنقاش.",
+      "في Tekanesh، كانت قيمة التعلم تظهر عندما يتصل بمسار مهني ومحفظة أعمال ودخل حقيقي؛ لا عندما يتحول فقط إلى محتوى تعليمي أكثر.",
     workFourYear: "ثقة وعملية",
     workFourTitle: "Hamyan - شريك مؤسس وعضو مجلس إدارة",
     workFourDescription:
       "كانت Hamyan تجربة في تصميم آليات مالية وقرض حسن حيث تكون الثقة والشفافية جزءا أساسيا من المنتج.",
     workFourBody:
-      "في التمويل الاجتماعي، كان السؤال كيف يمكن للعملية ألا تجعل الثقة أثقل، وأن تحول الشفافية إلى سلوك يومي.",
+      "في Hamyan، لم تكن الشفافية إضافة جانبية؛ كانت شرطا لبناء الثقة. لذلك كان يجب أن تبقى كل خطوة مفهومة وقابلة للتتبع للمستخدم.",
     workFiveYear: "تعلم ومنتج",
     workFiveTitle: "EduTech Accelerator - مؤسس ومدير تنفيذي",
     workFiveDescription:
       "ساعدت EduTech Accelerator فرقا على تحويل أفكار التعليم إلى منتجات وأعمال.",
     workFiveBody:
-      "العمل مع فرق التعليم كان تذكيرا بأن الأفكار الجيدة تصبح منتجات عندما تقترب لغة التعلم والسوق والعمليات من بعضها.",
+      "في EduTech، كان تضييق المسافة بين الفكرة التعليمية والعمل المستدام يحدث عندما ننظر معا إلى حاجة المتعلم ونموذج الإيراد والتنفيذ اليومي.",
     thesisLabel: "المنهج",
-    thesisTitle: "مبادئ تعود باستمرار في العمل",
+    thesisTitle: "ثلاثة مبادئ للبناء في ظروف غير مؤكدة",
     thesisIntro:
-      "في المشاريع المختلفة تغيرت الإجابات، لكن هذه المبادئ ظلت تعود.",
+      "ليست وصفة نهائية؛ بل معايير تساعد الفريق على اتخاذ قرار أفضل عندما لا تكون الإجابة واضحة.",
     focusOneTitle: "ابدأ من المشكلة",
     focusOneBody:
-      "قبل بناء الحل، يجب توضيح موضع الألم، ومن يشعر به بجدية، وما الأدلة الموجودة.",
-    focusTwoTitle: "لا تجعل النظام ثقيلا مبكرا",
+      "قبل بناء الحل، يجب توضيح موضع الألم، ومن يشعر به بجدية، وأي سلوك يثبت وجوده.",
+    focusTwoTitle: "ابن العملية من أجل التعلم",
     focusTwoBody:
-      "العملية الجيدة يجب أن تقلل الغموض، لا أن تبطئ التعلم وحكم الأشخاص.",
-    focusThreeTitle: "ابن لغة مشتركة",
+      "كل عملية يجب أن توضّح قرارا أو تقلل خطأ متكررا. إن كانت تضيف طبقة فقط، فهي مبكرة.",
+    focusThreeTitle: "اكتب اللغة المشتركة",
     focusThreeBody:
-      "تصبح مشكلات كثيرة أصعب لأن الفريق والسوق والمستثمرين والعمليات لا يملكون اللغة نفسها بعد.",
-    articlesLabel: "قراءة",
-    articlesTitle: "قراءة للبناء بشكل أفضل",
+      "عندما يتشارك الفريق تعريف المستخدم والهدف ومقياس النجاح، يتحول الخلاف إلى قرار بسرعة أكبر.",
+    articlesLabel: "ملاحظات",
+    articlesTitle: "مقالات لقرارات حقيقية",
     articlesIntro:
-      "كتابات موثوقة عن ريادة الأعمال والنمو وبناء الشركات، مع ترجمة حرة داخل الموقع وإشارة واضحة إلى المصدر الأصلي.",
+      "ترجمات ومعالجات مقروءة لمصادر موثوقة عن ريادة الأعمال والمنتج وبناء الشركات، مع نقاط عملية ورابط واضح إلى المصدر الأصلي.",
     articleTodayLabel: "اختيار اليوم",
     articleSelectedLabel: "ترجمة مختارة",
-    articleArchiveLabel: "أرشيف مختار",
+    articleArchiveLabel: "أرشيف المقالات",
     articleSourceLabel: "المصدر",
     articleDateLabel: "تحديث منتظم",
     articleReadLabel: "المصدر الأصلي",
@@ -349,18 +349,18 @@ const translations = {
     articleCopyrightNote:
       "هذا النص ترجمة حرة وإعادة صياغة، وليس إعادة نشر حرفية للمقال الأصلي.",
     contentCalendarLabel: "تقويم المحتوى",
-    contentCalendarTitle: "ما الذي سيُنشر هذا الأسبوع",
+    contentCalendarTitle: "خطة المحتوى لهذا الأسبوع",
     contentCalendarIntro:
-      "مخرجات قصيرة وحقيقية للموقع ولينكدإن والستوري، لا وعودا مبهمة.",
+      "نظرة على مخرجات الموقع والشبكات الاجتماعية المخطط لها. تعكس الحالة الجدول الفعلي ومستوى الوصول المتاح حاليا.",
     contactLabel: "التواصل",
     contactTitle:
-      "إذا كانت لديك مشكلة لم تحصل بعد على اسم واضح، يسعدني أن أسمعها.",
+      "للحديث عن بناء عمل أو منتج أو فريق، أرسل رسالة قصيرة.",
     contactBody:
-      "تكفي رسالة قصيرة عن سياق المشكلة ومرحلة العمل وما تريد جعله أوضح. إذا كان الحديث مفيدا، سيجد خطوته التالية.",
+      "اكتب سياق المشكلة، والمرحلة الحالية، والقرار الذي تريد توضيحه. هذه الخلفية القصيرة تكفي للبدء.",
     copyEmail: "نسخ البريد",
     copySuccess: "تم نسخ البريد.",
     copyFallback: "البريد: Sodeyfi.ali@gmail.com",
-    footerText: "ملاحظات وتجارب ومقالات عن البناء.",
+    footerText: "ملاحظات وتجارب ميدانية عن البناء.",
   },
 };
 
@@ -3238,15 +3238,15 @@ const contentCalendarBlueprints = {
     {
       offsetDays: 0,
       channel: "سایت",
-      status: "آماده انتشار",
-      title: (article) => `ترجمه امروز: ${article.title}`,
+      status: "پیشنهاد برنامه",
+      title: (article) => `مقاله پیشنهادی سایت: ${article.title}`,
       body: (article) =>
-        `نسخه فارسی این مقاله با ترجمه خواندنی، ارجاع روشن به ${article.source} و چند نکته اجرایی منتشر می‌شود.`,
+        `این مقاله برای انتشار در سایت پیشنهاد شده است؛ نسخه فارسی با ترجمه خواندنی، ارجاع روشن به ${article.source} و چند نکته اجرایی آماده می‌شود.`,
     },
     {
       offsetDays: 1,
       channel: "لینکدین",
-      status: "پیش‌نویس",
+      status: "پیش‌نویس اولیه",
       title: (article) => `پست لینکدین: ${article.title}`,
       body: (article, essay, summary) =>
         `محور این پست: ${pickEssayLine(essay, 0, summary)}. کوتاه، مستقیم و مناسب مخاطب حرفه‌ای.`,
@@ -3254,7 +3254,7 @@ const contentCalendarBlueprints = {
     {
       offsetDays: 2,
       channel: "استوری",
-      status: "آماده تصویر",
+      status: "نیازمند طراحی",
       title: () => "استوری سه‌اسلایدی",
       body: (article, essay, summary) =>
         `اسلاید اول: عنوان و نام نویسنده. اسلاید دوم: ${pickEssayLine(essay, 1, summary)}. اسلاید سوم: لینک سایت و منبع اصلی.`,
@@ -3262,7 +3262,7 @@ const contentCalendarBlueprints = {
     {
       offsetDays: 3,
       channel: "یادداشت کوتاه",
-      status: "در حال نوشتن",
+      status: "در حال آماده‌سازی",
       title: (article) => `سؤال از ${article.title}`,
       body: (article, essay, summary) =>
         `اگر قرار باشد فقط یک تصمیم کاری از این مقاله عوض شود، کدام تصمیم است؟ ${pickEssayLine(essay, 2, summary)}`,
@@ -3270,7 +3270,7 @@ const contentCalendarBlueprints = {
     {
       offsetDays: 4,
       channel: "جمع‌بندی",
-      status: "در صف",
+      status: "پیشنهاد جمع‌بندی",
       title: () => "جمع‌بندی هفتگی",
       body: () =>
         "سه نکته از مقاله، یک تصمیم بعدی و یک لینک به منبع اصلی؛ خروجی‌ای که خواندن را به عمل وصل می‌کند.",
@@ -3280,15 +3280,15 @@ const contentCalendarBlueprints = {
     {
       offsetDays: 0,
       channel: "Site",
-      status: "Ready to publish",
-      title: (article) => `Today on the site: ${article.title}`,
+      status: "Proposed",
+      title: (article) => `Proposed site article: ${article.title}`,
       body: (article) =>
-        `A readable adaptation goes live with source credit to ${article.source} and operating takeaways, not just a thin summary.`,
+        `This article is proposed for the site. The adaptation will include clear credit to ${article.source} and operating takeaways, not just a thin summary.`,
     },
     {
       offsetDays: 1,
       channel: "LinkedIn",
-      status: "Draft",
+      status: "First draft",
       title: (article) => `LinkedIn note: ${article.title}`,
       body: (article, essay, summary) =>
         `Post angle: ${pickEssayLine(essay, 0, summary)}. Short, direct, and grounded in ${article.author} / ${article.source}.`,
@@ -3296,7 +3296,7 @@ const contentCalendarBlueprints = {
     {
       offsetDays: 2,
       channel: "Story",
-      status: "Ready for creative",
+      status: "Needs creative",
       title: () => "Three-slide story",
       body: (article, essay, summary) =>
         `Slide 1: title and author. Slide 2: ${pickEssayLine(essay, 1, summary)}. Slide 3: the site link and the original source.`,
@@ -3304,7 +3304,7 @@ const contentCalendarBlueprints = {
     {
       offsetDays: 3,
       channel: "Note",
-      status: "Writing",
+      status: "In preparation",
       title: (article) => `Question post: ${article.title}`,
       body: (article, essay, summary) =>
         `If you changed only one thing from this article, which decision would move this week? ${pickEssayLine(essay, 2, summary)}`,
@@ -3312,7 +3312,7 @@ const contentCalendarBlueprints = {
     {
       offsetDays: 4,
       channel: "Recap",
-      status: "Queued",
+      status: "Suggested recap",
       title: () => "Weekly recap",
       body: () =>
         "Three ideas, one next decision, and one original source link. The goal is to turn reading into operating output.",
@@ -3322,15 +3322,15 @@ const contentCalendarBlueprints = {
     {
       offsetDays: 0,
       channel: "الموقع",
-      status: "جاهز للنشر",
-      title: (article) => `ترجمة اليوم: ${article.title}`,
+      status: "مقترح للخطة",
+      title: (article) => `مقال مقترح للموقع: ${article.title}`,
       body: (article) =>
-        `تنشر النسخة العربية المبسطة من هذه المقالة مع إشارة واضحة إلى ${article.source} ونقاط تشغيلية قابلة للاستخدام.`,
+        `هذه المقالة مقترحة للنشر على الموقع، مع معالجة عربية مقروءة وإشارة واضحة إلى ${article.source} ونقاط تشغيلية قابلة للاستخدام.`,
     },
     {
       offsetDays: 1,
       channel: "لينكدإن",
-      status: "مسودة",
+      status: "مسودة أولى",
       title: (article) => `منشور لينكدإن: ${article.title}`,
       body: (article, essay, summary) =>
         `زاوية المنشور: ${pickEssayLine(essay, 0, summary)}. قصير ومباشر ومرتبط بـ ${article.author} / ${article.source}.`,
@@ -3338,7 +3338,7 @@ const contentCalendarBlueprints = {
     {
       offsetDays: 2,
       channel: "الستوري",
-      status: "جاهز للتصميم",
+      status: "يحتاج إلى تصميم",
       title: () => "ستوري من ثلاث شرائح",
       body: (article, essay, summary) =>
         `الشريحة الأولى: العنوان واسم الكاتب. الشريحة الثانية: ${pickEssayLine(essay, 1, summary)}. الشريحة الثالثة: رابط الموقع والمصدر الأصلي.`,
@@ -3346,7 +3346,7 @@ const contentCalendarBlueprints = {
     {
       offsetDays: 3,
       channel: "ملاحظة قصيرة",
-      status: "قيد الكتابة",
+      status: "قيد الإعداد",
       title: (article) => `سؤال من ${article.title}`,
       body: (article, essay, summary) =>
         `إذا غيّرت قرارا واحدا فقط من هذا المقال، فأي قرار سيتحرك هذا الأسبوع؟ ${pickEssayLine(essay, 2, summary)}`,
@@ -3354,7 +3354,7 @@ const contentCalendarBlueprints = {
     {
       offsetDays: 4,
       channel: "ملخص أسبوعي",
-      status: "في الصف",
+      status: "ملخص مقترح",
       title: () => "ملخص أسبوعي",
       body: () =>
         "ثلاث أفكار، قرار واحد قادم، ورابط إلى المصدر الأصلي. الهدف أن يتحول القراءة إلى أثر تشغيلي.",
