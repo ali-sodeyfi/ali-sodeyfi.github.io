@@ -742,6 +742,15 @@ h2 {
   width: 4.35rem;
 }
 
+.work-logo-hayat {
+  width: 3.5rem;
+  height: 1.75rem;
+  color: var(--ink);
+  font-size: 0.72rem;
+  font-weight: 850;
+  letter-spacing: 0.06em;
+}
+
 .work-type {
   color: var(--muted);
   direction: ltr;
