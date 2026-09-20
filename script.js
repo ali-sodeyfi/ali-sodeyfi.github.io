@@ -41,9 +41,9 @@ const translations = {
     briefOneLabel: "مسئله",
     briefOne:
       "مسئله را با رفتار و هزینه‌ای که امروز وجود دارد تعریف کن، نه با راه‌حلی که از قبل دوستش داریم.",
-    briefTwoLabel: "ریتم",
+    briefTwoLabel: "یادگیری",
     briefTwo:
-      "هر هفته چه چیزی از کاربر یاد گرفتیم و کدام تصمیم را به‌خاطرش تغییر دادیم؟",
+      "هر هفته با کاربر واقعی حرف بزن، یک فرضیه را امتحان کن و تصمیم بعدی را بر اساس نتیجه تغییر بده.",
     briefThreeLabel: "سیستم",
     briefThree:
       "چه چیزی را به فرایند بسپاریم و کجا قضاوت انسانی مزیت اصلی است؟",
@@ -157,9 +157,9 @@ const translations = {
     briefOneLabel: "Problem",
     briefOne:
       "Define the problem by current behavior and cost, not by the solution we already prefer.",
-    briefTwoLabel: "Rhythm",
+    briefTwoLabel: "Learning",
     briefTwo:
-      "What did we learn from users this week, and which decision changed because of it?",
+      "Talk to real users every week, test one hypothesis, and change the next decision based on what you see.",
     briefThreeLabel: "System",
     briefThree:
       "What should become process, and where is human judgment still the advantage?",
@@ -273,9 +273,9 @@ const translations = {
     briefOneLabel: "المشكلة",
     briefOne:
       "عرّف المشكلة من خلال السلوك والتكلفة الحالية، لا من خلال الحل الذي نفضله مسبقا.",
-    briefTwoLabel: "الإيقاع",
+    briefTwoLabel: "التعلم",
     briefTwo:
-      "ماذا تعلمنا من المستخدم هذا الأسبوع، وأي قرار تغير بسبب ذلك؟",
+      "تحدث كل أسبوع مع مستخدمين حقيقيين، واختبر فرضية واحدة، وغيّر قرارك التالي بناء على ما تراه.",
     briefThreeLabel: "النظام",
     briefThree:
       "ما الذي يجب أن يتحول إلى عملية، وأين يبقى الحكم البشري هو الميزة؟",
