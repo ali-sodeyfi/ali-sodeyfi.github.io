@@ -23,8 +23,8 @@
     <meta name="twitter:image" content="https://alisodeyfi.ir/assets/ali-sodeyfi.jpg" />
     <title>Your Startup Is Probably Dead On Arrival | Notes on building</title>
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="/styles.css?v=20260919-article-reading" />
-    <link rel="stylesheet" href="/article-page.css?v=20260919-article-reading" />
+    <link rel="stylesheet" href="/styles.css?v=20260920-article-feedback" />
+    <link rel="stylesheet" href="/article-page.css?v=20260920-article-feedback" />
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Your Startup Is Probably Dead On Arrival","description":"A sharp but useful reminder for companies running on old assumptions: revisit the market, technology, pricing, and team before defending a plan that may already be obsolete.","author":{"@type":"Person","name":"Steve Blank"},"publisher":{"@type":"Person","name":"Ali Sodeyfi","url":"https://alisodeyfi.ir"},"isBasedOn":"https://steveblank.com/2026/03/17/your-startup-is-probably-dead-on-arrival/","mainEntityOfPage":"https://alisodeyfi.ir/articles/your-startup-is-probably-dead-on-arrival/en/","inLanguage":"en","about":["strategic review","AI","business model"]}</script>
   </head>
   <body class="article-page">
@@ -87,16 +87,39 @@
 <p>The lesson is not that every startup should pivot whenever a new trend appears. It is that a plan must remain a hypothesis. Founders need regular distance from execution to inspect changes in technology, customer behavior, economics, competition, and distribution.</p>
 <p>AI has moved the bottleneck. Software can be built faster and with fewer people, so an MVP is no longer strong evidence of technical ability. The harder questions are now judgment questions: which problem matters, what outcome customers want, which test will teach the team something, and how the product reaches users.</p>
 <p>The practical exercise is uncomfortable but clarifying: if the company started today with today’s tools and market, what would it build? The answer may preserve domain knowledge, customer relationships, proprietary data, or physical integrations while replacing an old roadmap, team shape, or pricing model.</p>
-          
+
         <div class="article-advice">
           <p class="article-section-label">Selected advice from the article</p>
           <ol><li>Run a quarterly review that begins with market, technology, and customer changes rather than defending the roadmap.</li><li>Separate durable assets such as relationships and domain knowledge from code and processes that only reflect past constraints.</li><li>Test several messages, workflows, or pricing ideas in small parallel experiments and connect build speed to learning speed.</li><li>Define the customer outcome you are paid to create, not only the features your product contains.</li><li>Set a decision date for focus, cost reduction, market change, or fundraising if the current path cannot reach sustainability.</li></ol>
         </div>
-          
+
         <div class="article-takeaways">
           <p class="article-section-label">Operating takeaways</p>
           <ul><li>A business plan is a hypothesis, not a permanent fact.</li><li>In the AI era, judgment, customer insight, and distribution can matter more than coding volume.</li><li>Past investment matters only when it creates an advantage in today’s market.</li><li>Review the product around the outcome customers buy, not the screens they use.</li><li>Early reassessment leaves more options open.</li></ul>
         </div>
+
+        <section class="article-feedback" data-article-feedback data-feedback-key="article-feedback:your-startup-is-probably-dead-on-arrival:en" data-feedback-title="Your Startup Is Probably Dead On Arrival" data-feedback-url="https://alisodeyfi.ir/articles/your-startup-is-probably-dead-on-arrival/en/" aria-labelledby="article-feedback-title">
+          <p class="article-section-label">Quick feedback</p>
+          <h3 id="article-feedback-title">What did this article make clearer for you?</h3>
+          <p class="article-feedback-intro">Choose a reaction or share a question or experience. Useful responses can shape future notes.</p>
+          <div class="article-feedback-reactions" role="group" aria-label="What did this article make clearer for you?">
+
+              <button class="article-feedback-choice" type="button" data-feedback-choice="useful" aria-pressed="false">Useful</button>
+              <button class="article-feedback-choice" type="button" data-feedback-choice="question" aria-pressed="false">It raised a question</button>
+              <button class="article-feedback-choice" type="button" data-feedback-choice="disagree" aria-pressed="false">I disagree</button>
+          </div>
+          <form class="article-feedback-form" data-article-feedback-form action="mailto:Sodeyfi.ali@gmail.com" method="post">
+            <label class="article-feedback-field">
+              <span>A question, experience, or practical note...</span>
+              <textarea name="message" data-feedback-message rows="4" placeholder="A question, experience, or practical note..."></textarea>
+            </label>
+            <div class="article-feedback-form-footer">
+              <span class="article-feedback-email-hint">Sending opens your device&#039;s email app.</span>
+              <button class="button primary" type="submit">Send by email</button>
+            </div>
+            <p class="article-feedback-status" data-feedback-status aria-live="polite"></p>
+          </form>
+        </section>
           <p class="article-note">This is a free adaptation, not a word-for-word republication of the original article.</p>
         </section>
       </article>
@@ -104,7 +127,7 @@
 
     <footer class="article-page-footer">
       <a href="/?lang=en#articles">Ali Sodeyfi</a>
-      <span>Notes, work, and essays on building.</span>
+      <span>Notes and field lessons on building.</span>
     </footer>
 
     <script>
@@ -128,6 +151,52 @@
             if (status) status.textContent = shareUrl;
           }
         }
+      });
+
+      const feedbackRoot = document.querySelector("[data-article-feedback]");
+      const feedbackStatus = feedbackRoot?.querySelector("[data-feedback-status]");
+      const feedbackMessage = feedbackRoot?.querySelector("[data-feedback-message]");
+      const feedbackKey = feedbackRoot?.dataset.feedbackKey;
+      const savedFeedback = (() => {
+        try {
+          return feedbackKey ? localStorage.getItem(feedbackKey) : "";
+        } catch {
+          return "";
+        }
+      })();
+
+      feedbackRoot?.querySelectorAll("[data-feedback-choice]").forEach((button) => {
+        const selected = button.dataset.feedbackChoice === savedFeedback;
+        button.classList.toggle("is-selected", selected);
+        button.setAttribute("aria-pressed", String(selected));
+      });
+
+      feedbackRoot?.addEventListener("click", (event) => {
+        const button = event.target.closest("[data-feedback-choice]");
+        if (!button) return;
+        try {
+          localStorage.setItem(feedbackKey, button.dataset.feedbackChoice);
+        } catch {}
+        feedbackRoot.querySelectorAll("[data-feedback-choice]").forEach((choice) => {
+          const selected = choice === button;
+          choice.classList.toggle("is-selected", selected);
+          choice.setAttribute("aria-pressed", String(selected));
+        });
+        if (feedbackStatus) feedbackStatus.textContent = "Saved in this browser. You can also share your experience below.";
+      });
+
+      feedbackRoot?.querySelector("form")?.addEventListener("submit", (event) => {
+        event.preventDefault();
+        const message = feedbackMessage?.value.trim() ?? "";
+        if (!message) {
+          if (feedbackStatus) feedbackStatus.textContent = "Write a short question or experience first.";
+          feedbackMessage?.focus();
+          return;
+        }
+        const subject = "Your Startup Is Probably Dead On Arrival | Article feedback";
+        const body = message + "\n\n" + "https://alisodeyfi.ir/articles/your-startup-is-probably-dead-on-arrival/en/";
+        if (feedbackStatus) feedbackStatus.textContent = "Sending opens your device's email app.";
+        window.location.href = "mailto:Sodeyfi.ali@gmail.com?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
       });
     </script>
   </body>

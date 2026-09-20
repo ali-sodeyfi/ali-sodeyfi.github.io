@@ -23,8 +23,8 @@
     <meta name="twitter:image" content="https://alisodeyfi.ir/assets/ali-sodeyfi.jpg" />
     <title>The Minimum Viable Testing Process for Evaluating Startup Ideas | Notes on building</title>
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="/styles.css?v=20260919-article-reading" />
-    <link rel="stylesheet" href="/article-page.css?v=20260919-article-reading" />
+    <link rel="stylesheet" href="/styles.css?v=20260920-article-feedback" />
+    <link rel="stylesheet" href="/article-page.css?v=20260920-article-feedback" />
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"The Minimum Viable Testing Process for Evaluating Startup Ideas","description":"A practical frame for testing early ideas with small real-world experiments before committing to heavy product buildout.","author":{"@type":"Person","name":"First Round Review"},"publisher":{"@type":"Person","name":"Ali Sodeyfi","url":"https://alisodeyfi.ir"},"isBasedOn":"https://review.firstround.com/the-minimum-viable-testing-process-for-evaluating-startup-ideas/","mainEntityOfPage":"https://alisodeyfi.ir/articles/the-minimum-viable-testing-process-for-evaluating-startup-ideas/en/","inLanguage":"en","about":["validation","MVP","testing"]}</script>
   </head>
   <body class="article-page">
@@ -86,12 +86,35 @@
 <p>The value of this approach is that it reduces the pride of building. Before spending months in development, the team learns which assumption is truly risky: is the problem painful, will the customer pay, does a channel exist, does the message make sense?</p>
 <p>A good testing process moves the team from internal debate to evidence. The evidence will not always be perfect, but it is better than building in the dark. Founders need to break each idea into smaller hypotheses that can be tested.</p>
 <p>The useful way to read The Minimum Viable Testing Process for Evaluating Startup Ideas is to connect it to a live decision rather than consume it as general advice. A product choice, a customer conversation, a hiring question, or an operating tension can turn the essay from inspiration into a thinking tool.</p>
-          
-          
+
+
         <div class="article-takeaways">
           <p class="article-section-label">Operating takeaways</p>
           <ul><li>Separate the three riskiest assumptions behind each idea.</li><li>Design the cheapest credible test before building the product.</li><li>A test should create a decision: continue, change, or stop.</li><li>Write one concrete operating question after reading.</li></ul>
         </div>
+
+        <section class="article-feedback" data-article-feedback data-feedback-key="article-feedback:the-minimum-viable-testing-process-for-evaluating-startup-ideas:en" data-feedback-title="The Minimum Viable Testing Process for Evaluating Startup Ideas" data-feedback-url="https://alisodeyfi.ir/articles/the-minimum-viable-testing-process-for-evaluating-startup-ideas/en/" aria-labelledby="article-feedback-title">
+          <p class="article-section-label">Quick feedback</p>
+          <h3 id="article-feedback-title">What did this article make clearer for you?</h3>
+          <p class="article-feedback-intro">Choose a reaction or share a question or experience. Useful responses can shape future notes.</p>
+          <div class="article-feedback-reactions" role="group" aria-label="What did this article make clearer for you?">
+
+              <button class="article-feedback-choice" type="button" data-feedback-choice="useful" aria-pressed="false">Useful</button>
+              <button class="article-feedback-choice" type="button" data-feedback-choice="question" aria-pressed="false">It raised a question</button>
+              <button class="article-feedback-choice" type="button" data-feedback-choice="disagree" aria-pressed="false">I disagree</button>
+          </div>
+          <form class="article-feedback-form" data-article-feedback-form action="mailto:Sodeyfi.ali@gmail.com" method="post">
+            <label class="article-feedback-field">
+              <span>A question, experience, or practical note...</span>
+              <textarea name="message" data-feedback-message rows="4" placeholder="A question, experience, or practical note..."></textarea>
+            </label>
+            <div class="article-feedback-form-footer">
+              <span class="article-feedback-email-hint">Sending opens your device&#039;s email app.</span>
+              <button class="button primary" type="submit">Send by email</button>
+            </div>
+            <p class="article-feedback-status" data-feedback-status aria-live="polite"></p>
+          </form>
+        </section>
           <p class="article-note">This is a free adaptation, not a word-for-word republication of the original article.</p>
         </section>
       </article>
@@ -99,7 +122,7 @@
 
     <footer class="article-page-footer">
       <a href="/?lang=en#articles">Ali Sodeyfi</a>
-      <span>Notes, work, and essays on building.</span>
+      <span>Notes and field lessons on building.</span>
     </footer>
 
     <script>
@@ -123,6 +146,52 @@
             if (status) status.textContent = shareUrl;
           }
         }
+      });
+
+      const feedbackRoot = document.querySelector("[data-article-feedback]");
+      const feedbackStatus = feedbackRoot?.querySelector("[data-feedback-status]");
+      const feedbackMessage = feedbackRoot?.querySelector("[data-feedback-message]");
+      const feedbackKey = feedbackRoot?.dataset.feedbackKey;
+      const savedFeedback = (() => {
+        try {
+          return feedbackKey ? localStorage.getItem(feedbackKey) : "";
+        } catch {
+          return "";
+        }
+      })();
+
+      feedbackRoot?.querySelectorAll("[data-feedback-choice]").forEach((button) => {
+        const selected = button.dataset.feedbackChoice === savedFeedback;
+        button.classList.toggle("is-selected", selected);
+        button.setAttribute("aria-pressed", String(selected));
+      });
+
+      feedbackRoot?.addEventListener("click", (event) => {
+        const button = event.target.closest("[data-feedback-choice]");
+        if (!button) return;
+        try {
+          localStorage.setItem(feedbackKey, button.dataset.feedbackChoice);
+        } catch {}
+        feedbackRoot.querySelectorAll("[data-feedback-choice]").forEach((choice) => {
+          const selected = choice === button;
+          choice.classList.toggle("is-selected", selected);
+          choice.setAttribute("aria-pressed", String(selected));
+        });
+        if (feedbackStatus) feedbackStatus.textContent = "Saved in this browser. You can also share your experience below.";
+      });
+
+      feedbackRoot?.querySelector("form")?.addEventListener("submit", (event) => {
+        event.preventDefault();
+        const message = feedbackMessage?.value.trim() ?? "";
+        if (!message) {
+          if (feedbackStatus) feedbackStatus.textContent = "Write a short question or experience first.";
+          feedbackMessage?.focus();
+          return;
+        }
+        const subject = "The Minimum Viable Testing Process for Evaluating Startup Ideas | Article feedback";
+        const body = message + "\n\n" + "https://alisodeyfi.ir/articles/the-minimum-viable-testing-process-for-evaluating-startup-ideas/en/";
+        if (feedbackStatus) feedbackStatus.textContent = "Sending opens your device's email app.";
+        window.location.href = "mailto:Sodeyfi.ali@gmail.com?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
       });
     </script>
   </body>

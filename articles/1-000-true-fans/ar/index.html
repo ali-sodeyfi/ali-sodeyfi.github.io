@@ -23,8 +23,8 @@
     <meta name="twitter:image" content="https://alisodeyfi.ir/assets/ali-sodeyfi.jpg" />
     <title>1,000 True Fans | ترجمة وملاحظات</title>
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="/styles.css?v=20260919-article-reading" />
-    <link rel="stylesheet" href="/article-page.css?v=20260919-article-reading" />
+    <link rel="stylesheet" href="/styles.css?v=20260920-article-feedback" />
+    <link rel="stylesheet" href="/article-page.css?v=20260920-article-feedback" />
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"1,000 True Fans","description":"للأعمال المبنية حول المجتمع أو صناع المحتوى، يوضح لماذا قد يكون عمق علاقة العميل أهم من حجم الجمهور الخام.","author":{"@type":"Person","name":"Kevin Kelly"},"publisher":{"@type":"Person","name":"Ali Sodeyfi","url":"https://alisodeyfi.ir"},"isBasedOn":"https://kk.org/thetechnium/1000-true-fans/","mainEntityOfPage":"https://alisodeyfi.ir/articles/1-000-true-fans/ar/","inLanguage":"ar","about":["المجتمع","الإيراد","خلق القيمة"]}</script>
   </head>
   <body class="article-page">
@@ -86,12 +86,35 @@
 <p>بالنسبة لصناع المحتوى والمجتمعات والمنتجات المتخصصة، قد يكون عمق العلاقة أهم من حجم الجمهور الخام. ألف شخص يؤمنون بالمنتج ويقدمون ملاحظات ويدفعون المال أكثر قيمة من مئة ألف مشاهد غير مبال. هذا مهم خصوصا للعلامات الشخصية والأعمال المبنية على الثقة.</p>
 <p>الفكرة لا تعني التفكير الصغير. النقطة هي بناء نواة من الولاء الحقيقي قبل الهوس بالتوسع. عندما تصبح القيمة واضحة لمجموعة صغيرة، يصبح توسيع السوق أكثر صحة وأقل تكلفة.</p>
 <p>الطريقة المفيدة لقراءة 1,000 True Fans هي ربطه بقرار حقيقي، لا استهلاكه كنصيحة عامة. اختيار في المنتج، أو حديث مع عميل، أو سؤال توظيف، أو توتر تشغيلي يمكن أن يحول المقال من إلهام سريع إلى أداة تفكير.</p>
-          
-          
+
+
         <div class="article-takeaways">
           <p class="article-section-label">نقاط تشغيلية</p>
           <ul><li>قبل تكبير الجمهور، قس جودة العلاقة مع المستخدمين الأساسيين.</li><li>المعجب الحقيقي يشتري أو يوصي أو يشارك بشكل متكرر.</li><li>الولاء العميق يمكن أن يكون أساس التوزيع والعلامة.</li><li>اكتب سؤالا تشغيليا واحدا بعد القراءة.</li></ul>
         </div>
+
+        <section class="article-feedback" data-article-feedback data-feedback-key="article-feedback:1-000-true-fans:ar" data-feedback-title="1,000 True Fans" data-feedback-url="https://alisodeyfi.ir/articles/1-000-true-fans/ar/" aria-labelledby="article-feedback-title">
+          <p class="article-section-label">ملاحظات سريعة</p>
+          <h3 id="article-feedback-title">ما الذي جعله هذا المقال أوضح لك؟</h3>
+          <p class="article-feedback-intro">اختر تفاعلا أو اكتب سؤالك وتجربتك. قد تساعد الملاحظات المفيدة في تشكيل المقالات القادمة.</p>
+          <div class="article-feedback-reactions" role="group" aria-label="ما الذي جعله هذا المقال أوضح لك؟">
+
+              <button class="article-feedback-choice" type="button" data-feedback-choice="useful" aria-pressed="false">كان مفيدا</button>
+              <button class="article-feedback-choice" type="button" data-feedback-choice="question" aria-pressed="false">أثار لدي سؤالا</button>
+              <button class="article-feedback-choice" type="button" data-feedback-choice="disagree" aria-pressed="false">لا أوافق على الفكرة</button>
+          </div>
+          <form class="article-feedback-form" data-article-feedback-form action="mailto:Sodeyfi.ali@gmail.com" method="post">
+            <label class="article-feedback-field">
+              <span>سؤال أو تجربة أو ملاحظة عملية...</span>
+              <textarea name="message" data-feedback-message rows="4" placeholder="سؤال أو تجربة أو ملاحظة عملية..."></textarea>
+            </label>
+            <div class="article-feedback-form-footer">
+              <span class="article-feedback-email-hint">سيؤدي الإرسال إلى فتح تطبيق البريد على جهازك.</span>
+              <button class="button primary" type="submit">إرسال عبر البريد</button>
+            </div>
+            <p class="article-feedback-status" data-feedback-status aria-live="polite"></p>
+          </form>
+        </section>
           <p class="article-note">هذا النص ترجمة حرة وإعادة صياغة، وليس إعادة نشر حرفية للمقال الأصلي.</p>
         </section>
       </article>
@@ -99,7 +122,7 @@
 
     <footer class="article-page-footer">
       <a href="/?lang=ar#articles">Ali Sodeyfi</a>
-      <span>ملاحظات وتجارب ومقالات عن البناء.</span>
+      <span>ملاحظات وتجارب ميدانية عن البناء.</span>
     </footer>
 
     <script>
@@ -123,6 +146,52 @@
             if (status) status.textContent = shareUrl;
           }
         }
+      });
+
+      const feedbackRoot = document.querySelector("[data-article-feedback]");
+      const feedbackStatus = feedbackRoot?.querySelector("[data-feedback-status]");
+      const feedbackMessage = feedbackRoot?.querySelector("[data-feedback-message]");
+      const feedbackKey = feedbackRoot?.dataset.feedbackKey;
+      const savedFeedback = (() => {
+        try {
+          return feedbackKey ? localStorage.getItem(feedbackKey) : "";
+        } catch {
+          return "";
+        }
+      })();
+
+      feedbackRoot?.querySelectorAll("[data-feedback-choice]").forEach((button) => {
+        const selected = button.dataset.feedbackChoice === savedFeedback;
+        button.classList.toggle("is-selected", selected);
+        button.setAttribute("aria-pressed", String(selected));
+      });
+
+      feedbackRoot?.addEventListener("click", (event) => {
+        const button = event.target.closest("[data-feedback-choice]");
+        if (!button) return;
+        try {
+          localStorage.setItem(feedbackKey, button.dataset.feedbackChoice);
+        } catch {}
+        feedbackRoot.querySelectorAll("[data-feedback-choice]").forEach((choice) => {
+          const selected = choice === button;
+          choice.classList.toggle("is-selected", selected);
+          choice.setAttribute("aria-pressed", String(selected));
+        });
+        if (feedbackStatus) feedbackStatus.textContent = "تم الحفظ في هذا المتصفح. يمكنك أيضا كتابة تجربتك أدناه.";
+      });
+
+      feedbackRoot?.querySelector("form")?.addEventListener("submit", (event) => {
+        event.preventDefault();
+        const message = feedbackMessage?.value.trim() ?? "";
+        if (!message) {
+          if (feedbackStatus) feedbackStatus.textContent = "اكتب أولا سؤالا أو تجربة قصيرة.";
+          feedbackMessage?.focus();
+          return;
+        }
+        const subject = "1,000 True Fans | ملاحظات على المقال";
+        const body = message + "\n\n" + "https://alisodeyfi.ir/articles/1-000-true-fans/ar/";
+        if (feedbackStatus) feedbackStatus.textContent = "سيؤدي الإرسال إلى فتح تطبيق البريد على جهازك.";
+        window.location.href = "mailto:Sodeyfi.ali@gmail.com?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
       });
     </script>
   </body>

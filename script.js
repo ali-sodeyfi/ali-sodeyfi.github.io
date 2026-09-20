@@ -116,6 +116,19 @@ const translations = {
     articleTakeawaysLabel: "نکات اجرایی",
     articleCopyrightNote:
       "این متن ترجمه آزاد و بازنویسی‌شده است، نه بازنشر کلمه‌به‌کلمه مقاله اصلی.",
+    articleFeedbackLabel: "بازخورد کوتاه",
+    articleFeedbackTitle: "این مقاله چه چیزی را برایت روشن کرد؟",
+    articleFeedbackIntro:
+      "یک واکنش انتخاب کن یا سؤال و تجربه‌ات را بنویس. بازخوردهای خوب، موضوع یادداشت‌های بعدی را شکل می‌دهند.",
+    articleFeedbackUseful: "کاربردی بود",
+    articleFeedbackQuestion: "سؤال برایم ساخت",
+    articleFeedbackDisagree: "با این دیدگاه موافق نیستم",
+    articleFeedbackSaved: "ثبت شد در همین مرورگر؛ اگر خواستی تجربه‌ات را هم بنویس.",
+    articleFeedbackPlaceholder: "سؤال، تجربه یا نکته‌ای که از این مقاله داری...",
+    articleFeedbackSubmit: "ارسال از طریق ایمیل",
+    articleFeedbackEmailHint: "با ارسال، برنامه ایمیل دستگاه باز می‌شود.",
+    articleFeedbackEmpty: "اول یک سؤال یا تجربه کوتاه بنویس.",
+    articleFeedbackSubject: "بازخورد مقاله",
     contentCalendarLabel: "برنامه انتشار",
     contentCalendarTitle: "برنامه محتوایی این هفته",
     contentCalendarIntro:
@@ -232,6 +245,19 @@ const translations = {
     articleTakeawaysLabel: "Operating takeaways",
     articleCopyrightNote:
       "This is a free adaptation, not a word-for-word republication of the original article.",
+    articleFeedbackLabel: "Quick feedback",
+    articleFeedbackTitle: "What did this article make clearer for you?",
+    articleFeedbackIntro:
+      "Choose a reaction or share a question or experience. Useful responses can shape future notes.",
+    articleFeedbackUseful: "Useful",
+    articleFeedbackQuestion: "It raised a question",
+    articleFeedbackDisagree: "I disagree",
+    articleFeedbackSaved: "Saved in this browser. You can also share your experience below.",
+    articleFeedbackPlaceholder: "A question, experience, or practical note...",
+    articleFeedbackSubmit: "Send by email",
+    articleFeedbackEmailHint: "Sending opens your device's email app.",
+    articleFeedbackEmpty: "Write a short question or experience first.",
+    articleFeedbackSubject: "Article feedback",
     contentCalendarLabel: "Content calendar",
     contentCalendarTitle: "This week's publishing plan",
     contentCalendarIntro:
@@ -348,6 +374,19 @@ const translations = {
     articleTakeawaysLabel: "نقاط تشغيلية",
     articleCopyrightNote:
       "هذا النص ترجمة حرة وإعادة صياغة، وليس إعادة نشر حرفية للمقال الأصلي.",
+    articleFeedbackLabel: "ملاحظات سريعة",
+    articleFeedbackTitle: "ما الذي جعله هذا المقال أوضح لك؟",
+    articleFeedbackIntro:
+      "اختر تفاعلا أو اكتب سؤالك وتجربتك. قد تساعد الملاحظات المفيدة في تشكيل المقالات القادمة.",
+    articleFeedbackUseful: "كان مفيدا",
+    articleFeedbackQuestion: "أثار لدي سؤالا",
+    articleFeedbackDisagree: "لا أوافق على الفكرة",
+    articleFeedbackSaved: "تم الحفظ في هذا المتصفح. يمكنك أيضا كتابة تجربتك أدناه.",
+    articleFeedbackPlaceholder: "سؤال أو تجربة أو ملاحظة عملية...",
+    articleFeedbackSubmit: "إرسال عبر البريد",
+    articleFeedbackEmailHint: "سيؤدي الإرسال إلى فتح تطبيق البريد على جهازك.",
+    articleFeedbackEmpty: "اكتب أولا سؤالا أو تجربة قصيرة.",
+    articleFeedbackSubject: "ملاحظات على المقال",
     contentCalendarLabel: "تقويم المحتوى",
     contentCalendarTitle: "خطة المحتوى لهذا الأسبوع",
     contentCalendarIntro:
@@ -3856,6 +3895,69 @@ function renderArticleAdvice(advice, label) {
   `;
 }
 
+function getArticleFeedbackKey(article, language) {
+  return `article-feedback:${getArticleSlug(article)}:${language}`;
+}
+
+function getSavedArticleFeedback(article, language) {
+  try {
+    return localStorage.getItem(getArticleFeedbackKey(article, language)) ?? "";
+  } catch {
+    return "";
+  }
+}
+
+function renderArticleFeedback(article, language) {
+  const dictionary = translations[language] ?? translations.fa;
+  const selectedChoice = getSavedArticleFeedback(article, language);
+  const feedbackUrl = getArticlePageUrl(article, language);
+  const feedbackButtons = [
+    ["useful", dictionary.articleFeedbackUseful],
+    ["question", dictionary.articleFeedbackQuestion],
+    ["disagree", dictionary.articleFeedbackDisagree],
+  ];
+
+  return `
+    <section
+      class="article-feedback"
+      data-article-feedback
+      data-feedback-key="${escapeHtml(getArticleFeedbackKey(article, language))}"
+      data-feedback-title="${escapeHtml(article.title)}"
+      data-feedback-url="${escapeHtml(feedbackUrl)}"
+      aria-labelledby="article-feedback-title"
+    >
+      <p class="article-section-label">${escapeHtml(dictionary.articleFeedbackLabel)}</p>
+      <h3 id="article-feedback-title">${escapeHtml(dictionary.articleFeedbackTitle)}</h3>
+      <p class="article-feedback-intro">${escapeHtml(dictionary.articleFeedbackIntro)}</p>
+      <div class="article-feedback-reactions" role="group" aria-label="${escapeHtml(dictionary.articleFeedbackTitle)}">
+        ${feedbackButtons
+          .map(
+            ([value, label]) => `
+              <button
+                class="article-feedback-choice${selectedChoice === value ? " is-selected" : ""}"
+                type="button"
+                data-feedback-choice="${value}"
+                aria-pressed="${String(selectedChoice === value)}"
+              >${escapeHtml(label)}</button>
+            `,
+          )
+          .join("")}
+      </div>
+      <form class="article-feedback-form" data-article-feedback-form action="mailto:${email}" method="post">
+        <label class="article-feedback-field">
+          <span>${escapeHtml(dictionary.articleFeedbackPlaceholder)}</span>
+          <textarea name="message" data-feedback-message rows="4" placeholder="${escapeHtml(dictionary.articleFeedbackPlaceholder)}"></textarea>
+        </label>
+        <div class="article-feedback-form-footer">
+          <span class="article-feedback-email-hint">${escapeHtml(dictionary.articleFeedbackEmailHint)}</span>
+          <button class="button primary" type="submit">${escapeHtml(dictionary.articleFeedbackSubmit)}</button>
+        </div>
+        <p class="article-feedback-status" data-feedback-status aria-live="polite"></p>
+      </form>
+    </section>
+  `;
+}
+
 function pickEssayLine(essay, index, fallback) {
   const value = essay.advice?.[index] ?? essay.takeaways?.[index] ?? essay.paragraphs?.[index] ?? fallback;
 
@@ -4097,6 +4199,7 @@ function renderArticles(language) {
           <p class="article-section-label">${escapeHtml(dictionary.articleTakeawaysLabel)}</p>
           <ul>${renderTakeaways(dailyEssay.takeaways)}</ul>
         </div>
+        ${renderArticleFeedback(dailyArticle, language)}
         <p class="article-note">${escapeHtml(dictionary.articleCopyrightNote)}</p>
       </div>
     </div>
@@ -4257,6 +4360,55 @@ async function shareArticle(index) {
   }
 }
 
+function saveArticleFeedbackChoice(root, choice) {
+  const language = html.lang || "fa";
+  const dictionary = translations[language] ?? translations.fa;
+
+  try {
+    localStorage.setItem(root.dataset.feedbackKey, choice);
+  } catch {
+    // Feedback still works when local storage is unavailable.
+  }
+
+  root.querySelectorAll("[data-feedback-choice]").forEach((button) => {
+    const isSelected = button.dataset.feedbackChoice === choice;
+    button.classList.toggle("is-selected", isSelected);
+    button.setAttribute("aria-pressed", String(isSelected));
+  });
+
+  const status = root.querySelector("[data-feedback-status]");
+  if (status) {
+    status.textContent = dictionary.articleFeedbackSaved;
+  }
+}
+
+function submitArticleFeedback(form) {
+  const root = form.closest("[data-article-feedback]");
+  const messageField = form.querySelector("[data-feedback-message]");
+  const status = root?.querySelector("[data-feedback-status]");
+  const language = html.lang || "fa";
+  const dictionary = translations[language] ?? translations.fa;
+  const message = messageField?.value.trim() ?? "";
+
+  if (!root || !message) {
+    if (status) {
+      status.textContent = dictionary.articleFeedbackEmpty;
+    }
+    messageField?.focus();
+    return;
+  }
+
+  const subject = `${root.dataset.feedbackTitle} | ${dictionary.articleFeedbackSubject}`;
+  const body = `${message}\n\n${root.dataset.feedbackUrl}`;
+  const mailto = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+  if (status) {
+    status.textContent = dictionary.articleFeedbackEmailHint;
+  }
+
+  window.location.href = mailto;
+}
+
 copyEmailButton?.addEventListener("click", async () => {
   const dictionary = translations[html.lang] ?? translations.fa;
 
@@ -4282,11 +4434,32 @@ dailyArticleContainer?.addEventListener("click", (event) => {
   const target = event.target instanceof Element ? event.target : null;
   const shareButton = target?.closest("[data-article-share]");
 
-  if (!shareButton) {
+  if (shareButton) {
+    shareArticle(Number(shareButton.dataset.articleShare));
     return;
   }
 
-  shareArticle(Number(shareButton.dataset.articleShare));
+  const feedbackChoice = target?.closest("[data-feedback-choice]");
+
+  if (feedbackChoice) {
+    const feedbackRoot = feedbackChoice.closest("[data-article-feedback]");
+    if (feedbackRoot) {
+      saveArticleFeedbackChoice(feedbackRoot, feedbackChoice.dataset.feedbackChoice);
+    }
+  }
+});
+
+dailyArticleContainer?.addEventListener("submit", (event) => {
+  const form = event.target instanceof HTMLFormElement
+    ? event.target.closest("[data-article-feedback-form]")
+    : null;
+
+  if (!form) {
+    return;
+  }
+
+  event.preventDefault();
+  submitArticleFeedback(form);
 });
 
 articleListContainer?.addEventListener("click", (event) => {

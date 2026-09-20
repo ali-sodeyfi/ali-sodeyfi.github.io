@@ -10,7 +10,8 @@ const siteUrl = "https://alisodeyfi.ir";
 const scriptPath = join(siteRoot, "script.js");
 const articleRoot = join(siteRoot, "articles");
 const sitemapPath = join(siteRoot, "sitemap.xml");
-const stylesheetVersion = "20260919-article-reading";
+const stylesheetVersion = "20260920-article-feedback";
+const feedbackEmail = "Sodeyfi.ali@gmail.com";
 
 function escapeHtml(value) {
   return String(value).replace(/[&<>"']/g, (character) => {
@@ -28,6 +29,10 @@ function escapeHtml(value) {
 
 function escapeJsonLd(value) {
   return JSON.stringify(value).replace(/</g, "\\u003c");
+}
+
+function cleanTrailingWhitespace(value) {
+  return value.replace(/[ \t]+$/gm, "");
 }
 
 function getSiteData(source) {
@@ -145,6 +150,44 @@ function renderTakeaways(takeaways, label) {
           <p class="article-section-label">${escapeHtml(label)}</p>
           <ul>${takeaways.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>
         </div>`;
+}
+
+function renderArticleFeedback(data, article, language) {
+  const dictionary = data.translations[language] ?? data.translations.fa;
+  const slug = data.getArticleSlug(article);
+  const feedbackUrl = getArticleUrl(slug, language);
+  const feedbackKey = `article-feedback:${slug}:${language}`;
+  const choices = [
+    ["useful", dictionary.articleFeedbackUseful],
+    ["question", dictionary.articleFeedbackQuestion],
+    ["disagree", dictionary.articleFeedbackDisagree],
+  ];
+
+  return `
+        <section class="article-feedback" data-article-feedback data-feedback-key="${escapeHtml(feedbackKey)}" data-feedback-title="${escapeHtml(article.title)}" data-feedback-url="${escapeHtml(feedbackUrl)}" aria-labelledby="article-feedback-title">
+          <p class="article-section-label">${escapeHtml(dictionary.articleFeedbackLabel ?? "")}</p>
+          <h3 id="article-feedback-title">${escapeHtml(dictionary.articleFeedbackTitle ?? "")}</h3>
+          <p class="article-feedback-intro">${escapeHtml(dictionary.articleFeedbackIntro ?? "")}</p>
+          <div class="article-feedback-reactions" role="group" aria-label="${escapeHtml(dictionary.articleFeedbackTitle ?? "")}">
+            ${choices
+              .map(
+                ([value, label]) => `
+              <button class="article-feedback-choice" type="button" data-feedback-choice="${value}" aria-pressed="false">${escapeHtml(label)}</button>`,
+              )
+              .join("")}
+          </div>
+          <form class="article-feedback-form" data-article-feedback-form action="mailto:${feedbackEmail}" method="post">
+            <label class="article-feedback-field">
+              <span>${escapeHtml(dictionary.articleFeedbackPlaceholder ?? "")}</span>
+              <textarea name="message" data-feedback-message rows="4" placeholder="${escapeHtml(dictionary.articleFeedbackPlaceholder ?? "")}"></textarea>
+            </label>
+            <div class="article-feedback-form-footer">
+              <span class="article-feedback-email-hint">${escapeHtml(dictionary.articleFeedbackEmailHint ?? "")}</span>
+              <button class="button primary" type="submit">${escapeHtml(dictionary.articleFeedbackSubmit ?? "")}</button>
+            </div>
+            <p class="article-feedback-status" data-feedback-status aria-live="polite"></p>
+          </form>
+        </section>`;
 }
 
 function getArticleUrl(slug, language) {
@@ -317,6 +360,7 @@ function getPageHtml(data, article, language) {
           ${renderParagraphs(essay.paragraphs)}
           ${renderAdvice(essay.advice, dictionary.articleAdviceLabel ?? "")}
           ${renderTakeaways(essay.takeaways, dictionary.articleTakeawaysLabel ?? "")}
+          ${renderArticleFeedback(data, article, language)}
           <p class="article-note">${escapeHtml(dictionary.articleCopyrightNote ?? "")}</p>
         </section>
       </article>
@@ -348,6 +392,52 @@ function getPageHtml(data, article, language) {
             if (status) status.textContent = shareUrl;
           }
         }
+      });
+
+      const feedbackRoot = document.querySelector("[data-article-feedback]");
+      const feedbackStatus = feedbackRoot?.querySelector("[data-feedback-status]");
+      const feedbackMessage = feedbackRoot?.querySelector("[data-feedback-message]");
+      const feedbackKey = feedbackRoot?.dataset.feedbackKey;
+      const savedFeedback = (() => {
+        try {
+          return feedbackKey ? localStorage.getItem(feedbackKey) : "";
+        } catch {
+          return "";
+        }
+      })();
+
+      feedbackRoot?.querySelectorAll("[data-feedback-choice]").forEach((button) => {
+        const selected = button.dataset.feedbackChoice === savedFeedback;
+        button.classList.toggle("is-selected", selected);
+        button.setAttribute("aria-pressed", String(selected));
+      });
+
+      feedbackRoot?.addEventListener("click", (event) => {
+        const button = event.target.closest("[data-feedback-choice]");
+        if (!button) return;
+        try {
+          localStorage.setItem(feedbackKey, button.dataset.feedbackChoice);
+        } catch {}
+        feedbackRoot.querySelectorAll("[data-feedback-choice]").forEach((choice) => {
+          const selected = choice === button;
+          choice.classList.toggle("is-selected", selected);
+          choice.setAttribute("aria-pressed", String(selected));
+        });
+        if (feedbackStatus) feedbackStatus.textContent = ${JSON.stringify(dictionary.articleFeedbackSaved ?? "")};
+      });
+
+      feedbackRoot?.querySelector("form")?.addEventListener("submit", (event) => {
+        event.preventDefault();
+        const message = feedbackMessage?.value.trim() ?? "";
+        if (!message) {
+          if (feedbackStatus) feedbackStatus.textContent = ${JSON.stringify(dictionary.articleFeedbackEmpty ?? "")};
+          feedbackMessage?.focus();
+          return;
+        }
+        const subject = ${JSON.stringify(`${article.title} | ${dictionary.articleFeedbackSubject ?? "Article feedback"}`)};
+        const body = message + "\\n\\n" + ${JSON.stringify(canonicalUrl)};
+        if (feedbackStatus) feedbackStatus.textContent = ${JSON.stringify(dictionary.articleFeedbackEmailHint ?? "")};
+        window.location.href = "mailto:${feedbackEmail}?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
       });
     </script>
   </body>
@@ -395,7 +485,11 @@ async function main() {
     for (const language of ["fa", "en", "ar"]) {
       const directory = join(articleRoot, slug, language);
       await mkdir(directory, { recursive: true });
-      await writeFile(join(directory, "index.html"), getPageHtml(data, article, language), "utf8");
+      await writeFile(
+        join(directory, "index.html"),
+        cleanTrailingWhitespace(getPageHtml(data, article, language)),
+        "utf8",
+      );
     }
   }
 

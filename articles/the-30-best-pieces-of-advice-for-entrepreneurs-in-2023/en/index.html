@@ -23,8 +23,8 @@
     <meta name="twitter:image" content="https://alisodeyfi.ir/assets/ali-sodeyfi.jpg" />
     <title>The 30 Best Pieces of Advice for Entrepreneurs in 2023 | Notes on building</title>
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="/styles.css?v=20260919-article-reading" />
-    <link rel="stylesheet" href="/article-page.css?v=20260919-article-reading" />
+    <link rel="stylesheet" href="/styles.css?v=20260920-article-feedback" />
+    <link rel="stylesheet" href="/article-page.css?v=20260920-article-feedback" />
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"The 30 Best Pieces of Advice for Entrepreneurs in 2023","description":"A dense collection of company-building advice, especially useful once a founder has moved past the idea and into operating.","author":{"@type":"Person","name":"First Round Review"},"publisher":{"@type":"Person","name":"Ali Sodeyfi","url":"https://alisodeyfi.ir"},"isBasedOn":"https://review.firstround.com/the-30-best-pieces-of-advice-for-entrepreneurs-in-2023/","mainEntityOfPage":"https://alisodeyfi.ir/articles/the-30-best-pieces-of-advice-for-entrepreneurs-in-2023/en/","inLanguage":"en","about":["operating","leadership","tactics"]}</script>
   </head>
   <body class="article-page">
@@ -86,16 +86,39 @@
 <p>The useful way to read it is stage-by-stage. A team looking for product-market fit should pay attention to customer conversations, founder-led sales, lightweight validation, and skinny MVPs. A scaling team may get more value from the advice on management interviews, feedback, decision quality, and retention.</p>
 <p>A common thread is that speed comes from clarity, not from rushing. A clear narrative for goals, a better model of the customer problem, a distinction between reversible and irreversible decisions, and a small MVP all help teams move faster without adding unnecessary work.</p>
 <p>The article is also a reminder of founder humility. Founder opinions have a cost; early sales should create learning, not only revenue; and solutions should wait until the problem is understood. The best output is not a long checklist, but one sharper question or one better operating habit.</p>
-          
+
         <div class="article-advice">
           <p class="article-section-label">Selected advice from the article</p>
           <ol><li>Refresh management interviews with real examples: ask what feedback changed the candidate&#039;s leadership behavior.</li><li>Set goals as a story first, then turn the next three months into a few concrete outcomes.</li><li>Before adding work, ask whether the core product or outcome would fail without it.</li><li>Treat founder opinions as costly; distinguish evidence from preference before speaking.</li><li>Make feedback explicit enough that the receiver can point to the exact sentence.</li><li>Move faster on reversible decisions, while giving irreversible decisions more care.</li><li>Keep talking to customers until you can predict a large share of what they will say.</li><li>Use lightweight marketing vignettes to test positioning before building a demo.</li><li>Use founder-led sales early to shorten the learning loop, even in PLG products.</li><li>Find the customer&#039;s parking brakes before prescribing a solution.</li><li>Use community as a trusted source for product discovery, not only distribution.</li><li>Make the MVP small enough to test the hypothesis, not to represent the whole vision.</li></ol>
         </div>
-          
+
         <div class="article-takeaways">
           <p class="article-section-label">Operating takeaways</p>
           <ul><li>Turn one piece of advice into a one-week experiment.</li><li>Separate reversible decisions from hard-to-reverse decisions.</li><li>Check one product or customer question against reality every week.</li><li>Remove work that does not support the core outcome.</li><li>Write goals, feedback, and problems in language people can point back to.</li></ul>
         </div>
+
+        <section class="article-feedback" data-article-feedback data-feedback-key="article-feedback:the-30-best-pieces-of-advice-for-entrepreneurs-in-2023:en" data-feedback-title="The 30 Best Pieces of Advice for Entrepreneurs in 2023" data-feedback-url="https://alisodeyfi.ir/articles/the-30-best-pieces-of-advice-for-entrepreneurs-in-2023/en/" aria-labelledby="article-feedback-title">
+          <p class="article-section-label">Quick feedback</p>
+          <h3 id="article-feedback-title">What did this article make clearer for you?</h3>
+          <p class="article-feedback-intro">Choose a reaction or share a question or experience. Useful responses can shape future notes.</p>
+          <div class="article-feedback-reactions" role="group" aria-label="What did this article make clearer for you?">
+
+              <button class="article-feedback-choice" type="button" data-feedback-choice="useful" aria-pressed="false">Useful</button>
+              <button class="article-feedback-choice" type="button" data-feedback-choice="question" aria-pressed="false">It raised a question</button>
+              <button class="article-feedback-choice" type="button" data-feedback-choice="disagree" aria-pressed="false">I disagree</button>
+          </div>
+          <form class="article-feedback-form" data-article-feedback-form action="mailto:Sodeyfi.ali@gmail.com" method="post">
+            <label class="article-feedback-field">
+              <span>A question, experience, or practical note...</span>
+              <textarea name="message" data-feedback-message rows="4" placeholder="A question, experience, or practical note..."></textarea>
+            </label>
+            <div class="article-feedback-form-footer">
+              <span class="article-feedback-email-hint">Sending opens your device&#039;s email app.</span>
+              <button class="button primary" type="submit">Send by email</button>
+            </div>
+            <p class="article-feedback-status" data-feedback-status aria-live="polite"></p>
+          </form>
+        </section>
           <p class="article-note">This is a free adaptation, not a word-for-word republication of the original article.</p>
         </section>
       </article>
@@ -103,7 +126,7 @@
 
     <footer class="article-page-footer">
       <a href="/?lang=en#articles">Ali Sodeyfi</a>
-      <span>Notes, work, and essays on building.</span>
+      <span>Notes and field lessons on building.</span>
     </footer>
 
     <script>
@@ -127,6 +150,52 @@
             if (status) status.textContent = shareUrl;
           }
         }
+      });
+
+      const feedbackRoot = document.querySelector("[data-article-feedback]");
+      const feedbackStatus = feedbackRoot?.querySelector("[data-feedback-status]");
+      const feedbackMessage = feedbackRoot?.querySelector("[data-feedback-message]");
+      const feedbackKey = feedbackRoot?.dataset.feedbackKey;
+      const savedFeedback = (() => {
+        try {
+          return feedbackKey ? localStorage.getItem(feedbackKey) : "";
+        } catch {
+          return "";
+        }
+      })();
+
+      feedbackRoot?.querySelectorAll("[data-feedback-choice]").forEach((button) => {
+        const selected = button.dataset.feedbackChoice === savedFeedback;
+        button.classList.toggle("is-selected", selected);
+        button.setAttribute("aria-pressed", String(selected));
+      });
+
+      feedbackRoot?.addEventListener("click", (event) => {
+        const button = event.target.closest("[data-feedback-choice]");
+        if (!button) return;
+        try {
+          localStorage.setItem(feedbackKey, button.dataset.feedbackChoice);
+        } catch {}
+        feedbackRoot.querySelectorAll("[data-feedback-choice]").forEach((choice) => {
+          const selected = choice === button;
+          choice.classList.toggle("is-selected", selected);
+          choice.setAttribute("aria-pressed", String(selected));
+        });
+        if (feedbackStatus) feedbackStatus.textContent = "Saved in this browser. You can also share your experience below.";
+      });
+
+      feedbackRoot?.querySelector("form")?.addEventListener("submit", (event) => {
+        event.preventDefault();
+        const message = feedbackMessage?.value.trim() ?? "";
+        if (!message) {
+          if (feedbackStatus) feedbackStatus.textContent = "Write a short question or experience first.";
+          feedbackMessage?.focus();
+          return;
+        }
+        const subject = "The 30 Best Pieces of Advice for Entrepreneurs in 2023 | Article feedback";
+        const body = message + "\n\n" + "https://alisodeyfi.ir/articles/the-30-best-pieces-of-advice-for-entrepreneurs-in-2023/en/";
+        if (feedbackStatus) feedbackStatus.textContent = "Sending opens your device's email app.";
+        window.location.href = "mailto:Sodeyfi.ali@gmail.com?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
       });
     </script>
   </body>

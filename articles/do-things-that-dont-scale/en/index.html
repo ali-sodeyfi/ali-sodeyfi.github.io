@@ -23,8 +23,8 @@
     <meta name="twitter:image" content="https://alisodeyfi.ir/assets/ali-sodeyfi.jpg" />
     <title>Do Things that Don&#039;t Scale | Notes on building</title>
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="/styles.css?v=20260919-article-reading" />
-    <link rel="stylesheet" href="/article-page.css?v=20260919-article-reading" />
+    <link rel="stylesheet" href="/styles.css?v=20260920-article-feedback" />
+    <link rel="stylesheet" href="/article-page.css?v=20260920-article-feedback" />
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Do Things that Don't Scale","description":"A classic reminder for founders: in the earliest stage, the unscalable work is often what creates learning, trust, and real growth.","author":{"@type":"Person","name":"Paul Graham"},"publisher":{"@type":"Person","name":"Ali Sodeyfi","url":"https://alisodeyfi.ir"},"isBasedOn":"https://paulgraham.com/ds.html","mainEntityOfPage":"https://alisodeyfi.ir/articles/do-things-that-dont-scale/en/","inLanguage":"en","about":["early growth","users","execution"]}</script>
   </head>
   <body class="article-page">
@@ -86,12 +86,35 @@
 <p>Unscalable work is not waste when it is chosen well. It is a learning instrument. When founders onboard users themselves, answer support, or protect quality manually, they learn things that early dashboards cannot reveal. These habits should not last forever, but they often shape the product and the organization.</p>
 <p>The operating test is whether the manual work creates learning or loyalty. If it only exhausts the founder, it is a trap. If it helps users feel that a serious team is listening, or helps the team see where value is really created, a small manual act can become the root of large growth.</p>
 <p>The useful way to read Do Things that Don&#039;t Scale is to connect it to a live decision rather than consume it as general advice. A product choice, a customer conversation, a hiring question, or an operating tension can turn the essay from inspiration into a thinking tool.</p>
-          
-          
+
+
         <div class="article-takeaways">
           <p class="article-section-label">Operating takeaways</p>
           <ul><li>In the earliest stage, talk to users directly and complete the experience manually.</li><li>Before automating, learn which part of the experience creates real value.</li><li>Unscalable work should be temporary, intentional, and insight-generating.</li><li>Write one concrete operating question after reading.</li></ul>
         </div>
+
+        <section class="article-feedback" data-article-feedback data-feedback-key="article-feedback:do-things-that-dont-scale:en" data-feedback-title="Do Things that Don&#039;t Scale" data-feedback-url="https://alisodeyfi.ir/articles/do-things-that-dont-scale/en/" aria-labelledby="article-feedback-title">
+          <p class="article-section-label">Quick feedback</p>
+          <h3 id="article-feedback-title">What did this article make clearer for you?</h3>
+          <p class="article-feedback-intro">Choose a reaction or share a question or experience. Useful responses can shape future notes.</p>
+          <div class="article-feedback-reactions" role="group" aria-label="What did this article make clearer for you?">
+
+              <button class="article-feedback-choice" type="button" data-feedback-choice="useful" aria-pressed="false">Useful</button>
+              <button class="article-feedback-choice" type="button" data-feedback-choice="question" aria-pressed="false">It raised a question</button>
+              <button class="article-feedback-choice" type="button" data-feedback-choice="disagree" aria-pressed="false">I disagree</button>
+          </div>
+          <form class="article-feedback-form" data-article-feedback-form action="mailto:Sodeyfi.ali@gmail.com" method="post">
+            <label class="article-feedback-field">
+              <span>A question, experience, or practical note...</span>
+              <textarea name="message" data-feedback-message rows="4" placeholder="A question, experience, or practical note..."></textarea>
+            </label>
+            <div class="article-feedback-form-footer">
+              <span class="article-feedback-email-hint">Sending opens your device&#039;s email app.</span>
+              <button class="button primary" type="submit">Send by email</button>
+            </div>
+            <p class="article-feedback-status" data-feedback-status aria-live="polite"></p>
+          </form>
+        </section>
           <p class="article-note">This is a free adaptation, not a word-for-word republication of the original article.</p>
         </section>
       </article>
@@ -99,7 +122,7 @@
 
     <footer class="article-page-footer">
       <a href="/?lang=en#articles">Ali Sodeyfi</a>
-      <span>Notes, work, and essays on building.</span>
+      <span>Notes and field lessons on building.</span>
     </footer>
 
     <script>
@@ -123,6 +146,52 @@
             if (status) status.textContent = shareUrl;
           }
         }
+      });
+
+      const feedbackRoot = document.querySelector("[data-article-feedback]");
+      const feedbackStatus = feedbackRoot?.querySelector("[data-feedback-status]");
+      const feedbackMessage = feedbackRoot?.querySelector("[data-feedback-message]");
+      const feedbackKey = feedbackRoot?.dataset.feedbackKey;
+      const savedFeedback = (() => {
+        try {
+          return feedbackKey ? localStorage.getItem(feedbackKey) : "";
+        } catch {
+          return "";
+        }
+      })();
+
+      feedbackRoot?.querySelectorAll("[data-feedback-choice]").forEach((button) => {
+        const selected = button.dataset.feedbackChoice === savedFeedback;
+        button.classList.toggle("is-selected", selected);
+        button.setAttribute("aria-pressed", String(selected));
+      });
+
+      feedbackRoot?.addEventListener("click", (event) => {
+        const button = event.target.closest("[data-feedback-choice]");
+        if (!button) return;
+        try {
+          localStorage.setItem(feedbackKey, button.dataset.feedbackChoice);
+        } catch {}
+        feedbackRoot.querySelectorAll("[data-feedback-choice]").forEach((choice) => {
+          const selected = choice === button;
+          choice.classList.toggle("is-selected", selected);
+          choice.setAttribute("aria-pressed", String(selected));
+        });
+        if (feedbackStatus) feedbackStatus.textContent = "Saved in this browser. You can also share your experience below.";
+      });
+
+      feedbackRoot?.querySelector("form")?.addEventListener("submit", (event) => {
+        event.preventDefault();
+        const message = feedbackMessage?.value.trim() ?? "";
+        if (!message) {
+          if (feedbackStatus) feedbackStatus.textContent = "Write a short question or experience first.";
+          feedbackMessage?.focus();
+          return;
+        }
+        const subject = "Do Things that Don't Scale | Article feedback";
+        const body = message + "\n\n" + "https://alisodeyfi.ir/articles/do-things-that-dont-scale/en/";
+        if (feedbackStatus) feedbackStatus.textContent = "Sending opens your device's email app.";
+        window.location.href = "mailto:Sodeyfi.ali@gmail.com?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
       });
     </script>
   </body>

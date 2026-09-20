@@ -23,8 +23,8 @@
     <meta name="twitter:image" content="https://alisodeyfi.ir/assets/ali-sodeyfi.jpg" />
     <title>Ramen Profitable | Notes on building</title>
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="/styles.css?v=20260919-article-reading" />
-    <link rel="stylesheet" href="/article-page.css?v=20260919-article-reading" />
+    <link rel="stylesheet" href="/styles.css?v=20260920-article-feedback" />
+    <link rel="stylesheet" href="/article-page.css?v=20260920-article-feedback" />
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Ramen Profitable","description":"A practical essay on how small but real revenue can buy a startup time, focus, and better decision-making power.","author":{"@type":"Person","name":"Paul Graham"},"publisher":{"@type":"Person","name":"Ali Sodeyfi","url":"https://alisodeyfi.ir"},"isBasedOn":"https://paulgraham.com/ramenprofitable.html","mainEntityOfPage":"https://alisodeyfi.ir/articles/ramen-profitable/en/","inLanguage":"en","about":["survival","early revenue","fundraising"]}</script>
   </head>
   <body class="article-page">
@@ -86,12 +86,35 @@
 <p>Small real revenue changes the company from a theory into something more concrete. Before that point, the startup may feel like an idea, a deck, or a project. When customers pay, even modestly, the team receives a stronger signal than praise: someone outside the building values the product enough to spend money.</p>
 <p>Ramen profitability is not the destination. The danger is mistaking survival revenue for the final business model, especially if the money comes from custom work that does not scale. Used well, it is a bridge: it lowers fundraising pressure, improves morale, and gives the team more room to keep building the real product.</p>
 <p>The practical discipline is to know the survival number, keep costs low, and make early revenue serve learning as well as cash. Fundraising can still be useful, but it becomes healthier when it accelerates a company rather than rescuing it from immediate death. That shift changes the negotiation and the founder&#039;s focus.</p>
-          
-          
+
+
         <div class="article-takeaways">
           <p class="article-section-label">Operating takeaways</p>
           <ul><li>Define the survival number: the revenue needed to cover founder living costs and essential company work.</li><li>Treat early revenue as a market signal, not only cash.</li><li>Use revenue to reduce fundraising urgency and protect focus.</li><li>Avoid service revenue that pulls the team away from the product path.</li><li>Keep burn low enough to buy more time for learning, selling, and improving the product.</li></ul>
         </div>
+
+        <section class="article-feedback" data-article-feedback data-feedback-key="article-feedback:ramen-profitable:en" data-feedback-title="Ramen Profitable" data-feedback-url="https://alisodeyfi.ir/articles/ramen-profitable/en/" aria-labelledby="article-feedback-title">
+          <p class="article-section-label">Quick feedback</p>
+          <h3 id="article-feedback-title">What did this article make clearer for you?</h3>
+          <p class="article-feedback-intro">Choose a reaction or share a question or experience. Useful responses can shape future notes.</p>
+          <div class="article-feedback-reactions" role="group" aria-label="What did this article make clearer for you?">
+
+              <button class="article-feedback-choice" type="button" data-feedback-choice="useful" aria-pressed="false">Useful</button>
+              <button class="article-feedback-choice" type="button" data-feedback-choice="question" aria-pressed="false">It raised a question</button>
+              <button class="article-feedback-choice" type="button" data-feedback-choice="disagree" aria-pressed="false">I disagree</button>
+          </div>
+          <form class="article-feedback-form" data-article-feedback-form action="mailto:Sodeyfi.ali@gmail.com" method="post">
+            <label class="article-feedback-field">
+              <span>A question, experience, or practical note...</span>
+              <textarea name="message" data-feedback-message rows="4" placeholder="A question, experience, or practical note..."></textarea>
+            </label>
+            <div class="article-feedback-form-footer">
+              <span class="article-feedback-email-hint">Sending opens your device&#039;s email app.</span>
+              <button class="button primary" type="submit">Send by email</button>
+            </div>
+            <p class="article-feedback-status" data-feedback-status aria-live="polite"></p>
+          </form>
+        </section>
           <p class="article-note">This is a free adaptation, not a word-for-word republication of the original article.</p>
         </section>
       </article>
@@ -99,7 +122,7 @@
 
     <footer class="article-page-footer">
       <a href="/?lang=en#articles">Ali Sodeyfi</a>
-      <span>Notes, work, and essays on building.</span>
+      <span>Notes and field lessons on building.</span>
     </footer>
 
     <script>
@@ -123,6 +146,52 @@
             if (status) status.textContent = shareUrl;
           }
         }
+      });
+
+      const feedbackRoot = document.querySelector("[data-article-feedback]");
+      const feedbackStatus = feedbackRoot?.querySelector("[data-feedback-status]");
+      const feedbackMessage = feedbackRoot?.querySelector("[data-feedback-message]");
+      const feedbackKey = feedbackRoot?.dataset.feedbackKey;
+      const savedFeedback = (() => {
+        try {
+          return feedbackKey ? localStorage.getItem(feedbackKey) : "";
+        } catch {
+          return "";
+        }
+      })();
+
+      feedbackRoot?.querySelectorAll("[data-feedback-choice]").forEach((button) => {
+        const selected = button.dataset.feedbackChoice === savedFeedback;
+        button.classList.toggle("is-selected", selected);
+        button.setAttribute("aria-pressed", String(selected));
+      });
+
+      feedbackRoot?.addEventListener("click", (event) => {
+        const button = event.target.closest("[data-feedback-choice]");
+        if (!button) return;
+        try {
+          localStorage.setItem(feedbackKey, button.dataset.feedbackChoice);
+        } catch {}
+        feedbackRoot.querySelectorAll("[data-feedback-choice]").forEach((choice) => {
+          const selected = choice === button;
+          choice.classList.toggle("is-selected", selected);
+          choice.setAttribute("aria-pressed", String(selected));
+        });
+        if (feedbackStatus) feedbackStatus.textContent = "Saved in this browser. You can also share your experience below.";
+      });
+
+      feedbackRoot?.querySelector("form")?.addEventListener("submit", (event) => {
+        event.preventDefault();
+        const message = feedbackMessage?.value.trim() ?? "";
+        if (!message) {
+          if (feedbackStatus) feedbackStatus.textContent = "Write a short question or experience first.";
+          feedbackMessage?.focus();
+          return;
+        }
+        const subject = "Ramen Profitable | Article feedback";
+        const body = message + "\n\n" + "https://alisodeyfi.ir/articles/ramen-profitable/en/";
+        if (feedbackStatus) feedbackStatus.textContent = "Sending opens your device's email app.";
+        window.location.href = "mailto:Sodeyfi.ali@gmail.com?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
       });
     </script>
   </body>

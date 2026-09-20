@@ -23,8 +23,8 @@
     <meta name="twitter:image" content="https://alisodeyfi.ir/assets/ali-sodeyfi.jpg" />
     <title>How to Hire Your First Engineer | Notes on building</title>
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="/styles.css?v=20260919-article-reading" />
-    <link rel="stylesheet" href="/article-page.css?v=20260919-article-reading" />
+    <link rel="stylesheet" href="/styles.css?v=20260920-article-feedback" />
+    <link rel="stylesheet" href="/article-page.css?v=20260920-article-feedback" />
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"How to Hire Your First Engineer","description":"A practical guide to the hardest early hires: define the bar, work the personal network deeply, sharpen the recruiting pitch, and keep the founder directly involved.","author":{"@type":"Person","name":"Harj Taggar"},"publisher":{"@type":"Person","name":"Ali Sodeyfi","url":"https://alisodeyfi.ir"},"isBasedOn":"https://www.ycombinator.com/blog/how-to-hire-your-first-engineer","mainEntityOfPage":"https://alisodeyfi.ir/articles/how-to-hire-your-first-engineer/en/","inLanguage":"en","about":["early hiring","engineering team","founder role"]}</script>
   </head>
   <body class="article-page">
@@ -86,16 +86,39 @@
 <p>Turn the vague idea of a strong engineer into explicit technical and nontechnical criteria: the problems they must solve, the autonomy required, learning speed, collaboration style, and comfort with ambiguity. Start with people whose work you already know, ask directly, and request introductions even after a no. Personal networks provide evidence and trust that broad inbound cannot reproduce at this stage.</p>
 <p>Beyond the network, treat each channel according to its economics. Marketplaces may offer speed at a price, job boards often create volume, and cold outreach requires personalization and repeated follow-up. Whatever the channel, the founder needs a credible recruiting pitch built around the problem, real ownership, and interesting technical work—not generic company language.</p>
 <p>Run hiring as a measured pipeline. Track sources, stages, reasons for rejection or withdrawal, and the next action; review conversion weekly and refine the message from candidate feedback. Founder responsiveness is part of the candidate experience. The search may take months, but lowering the bar to end the discomfort can cost a small team far more than an open seat.</p>
-          
+
         <div class="article-advice">
           <p class="article-section-label">Selected advice from the article</p>
           <ol><li>Write the essential role criteria before sourcing candidates.</li><li>Ask the strongest people in your network directly, then ask each for introductions.</li><li>Make the pitch specific to the problem, ownership, and engineering challenge.</li><li>Give outreach a fixed weekly cadence and track response rates by channel.</li></ol>
         </div>
-          
+
         <div class="article-takeaways">
           <p class="article-section-label">Operating takeaways</p>
           <ul><li>The first engineer shapes the company, not only the codebase.</li><li>Explicit criteria protect the hiring bar from urgency and charisma.</li><li>Personal networks are usually the strongest first source for early hires.</li><li>Recruiting needs the same message discipline and pipeline management as sales.</li></ul>
         </div>
+
+        <section class="article-feedback" data-article-feedback data-feedback-key="article-feedback:how-to-hire-your-first-engineer:en" data-feedback-title="How to Hire Your First Engineer" data-feedback-url="https://alisodeyfi.ir/articles/how-to-hire-your-first-engineer/en/" aria-labelledby="article-feedback-title">
+          <p class="article-section-label">Quick feedback</p>
+          <h3 id="article-feedback-title">What did this article make clearer for you?</h3>
+          <p class="article-feedback-intro">Choose a reaction or share a question or experience. Useful responses can shape future notes.</p>
+          <div class="article-feedback-reactions" role="group" aria-label="What did this article make clearer for you?">
+
+              <button class="article-feedback-choice" type="button" data-feedback-choice="useful" aria-pressed="false">Useful</button>
+              <button class="article-feedback-choice" type="button" data-feedback-choice="question" aria-pressed="false">It raised a question</button>
+              <button class="article-feedback-choice" type="button" data-feedback-choice="disagree" aria-pressed="false">I disagree</button>
+          </div>
+          <form class="article-feedback-form" data-article-feedback-form action="mailto:Sodeyfi.ali@gmail.com" method="post">
+            <label class="article-feedback-field">
+              <span>A question, experience, or practical note...</span>
+              <textarea name="message" data-feedback-message rows="4" placeholder="A question, experience, or practical note..."></textarea>
+            </label>
+            <div class="article-feedback-form-footer">
+              <span class="article-feedback-email-hint">Sending opens your device&#039;s email app.</span>
+              <button class="button primary" type="submit">Send by email</button>
+            </div>
+            <p class="article-feedback-status" data-feedback-status aria-live="polite"></p>
+          </form>
+        </section>
           <p class="article-note">This is a free adaptation, not a word-for-word republication of the original article.</p>
         </section>
       </article>
@@ -103,7 +126,7 @@
 
     <footer class="article-page-footer">
       <a href="/?lang=en#articles">Ali Sodeyfi</a>
-      <span>Notes, work, and essays on building.</span>
+      <span>Notes and field lessons on building.</span>
     </footer>
 
     <script>
@@ -127,6 +150,52 @@
             if (status) status.textContent = shareUrl;
           }
         }
+      });
+
+      const feedbackRoot = document.querySelector("[data-article-feedback]");
+      const feedbackStatus = feedbackRoot?.querySelector("[data-feedback-status]");
+      const feedbackMessage = feedbackRoot?.querySelector("[data-feedback-message]");
+      const feedbackKey = feedbackRoot?.dataset.feedbackKey;
+      const savedFeedback = (() => {
+        try {
+          return feedbackKey ? localStorage.getItem(feedbackKey) : "";
+        } catch {
+          return "";
+        }
+      })();
+
+      feedbackRoot?.querySelectorAll("[data-feedback-choice]").forEach((button) => {
+        const selected = button.dataset.feedbackChoice === savedFeedback;
+        button.classList.toggle("is-selected", selected);
+        button.setAttribute("aria-pressed", String(selected));
+      });
+
+      feedbackRoot?.addEventListener("click", (event) => {
+        const button = event.target.closest("[data-feedback-choice]");
+        if (!button) return;
+        try {
+          localStorage.setItem(feedbackKey, button.dataset.feedbackChoice);
+        } catch {}
+        feedbackRoot.querySelectorAll("[data-feedback-choice]").forEach((choice) => {
+          const selected = choice === button;
+          choice.classList.toggle("is-selected", selected);
+          choice.setAttribute("aria-pressed", String(selected));
+        });
+        if (feedbackStatus) feedbackStatus.textContent = "Saved in this browser. You can also share your experience below.";
+      });
+
+      feedbackRoot?.querySelector("form")?.addEventListener("submit", (event) => {
+        event.preventDefault();
+        const message = feedbackMessage?.value.trim() ?? "";
+        if (!message) {
+          if (feedbackStatus) feedbackStatus.textContent = "Write a short question or experience first.";
+          feedbackMessage?.focus();
+          return;
+        }
+        const subject = "How to Hire Your First Engineer | Article feedback";
+        const body = message + "\n\n" + "https://alisodeyfi.ir/articles/how-to-hire-your-first-engineer/en/";
+        if (feedbackStatus) feedbackStatus.textContent = "Sending opens your device's email app.";
+        window.location.href = "mailto:Sodeyfi.ali@gmail.com?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
       });
     </script>
   </body>
