@@ -9,6 +9,13 @@ LOG_DIR="${ALI_SITE_AUDIT_LOG_DIR:-/var/log}"
 LOG_FILE="$LOG_DIR/alisodeyfi-monthly-translation-audit.log"
 LOCK_FILE="/tmp/alisodeyfi-monthly-translation-audit.lock"
 TODAY="$(TZ=Asia/Tehran date +%F)"
+FINAL_MESSAGE="$(mktemp)"
+CODEX_STDERR="$(mktemp)"
+
+cleanup() {
+  rm -f "$FINAL_MESSAGE" "$CODEX_STDERR"
+}
+trap cleanup EXIT
 
 mkdir -p "$LOG_DIR"
 chmod 700 "$LOG_DIR" 2>/dev/null || true
@@ -42,24 +49,46 @@ fi
 
 before="$(git -C "$REPO" rev-parse HEAD)"
 
-{
-  log "monthly translation audit started repo=$REPO date=$TODAY"
-  timeout 1800s codex --ask-for-approval never exec \
-    -C "$REPO" --sandbox workspace-write --skip-git-repo-check - <<'PROMPT'
+log "monthly translation audit started repo=$REPO date=$TODAY" | tee -a "$LOG_FILE"
+
+if timeout 1800s codex --ask-for-approval never exec \
+  -o "$FINAL_MESSAGE" \
+  -C "$REPO" --sandbox workspace-write --skip-git-repo-check - \
+  > /dev/null 2>"$CODEX_STDERR" <<'PROMPT'
 Perform the complete semantic and technical translation audit for this site repository.
 
 Rules:
 - Work only in the current repository. Do not touch /opt/sadsalam or unrelated files.
+- First run `node scripts/audit-article-translations.mjs` and use that structured result as the baseline for technical translation integrity.
 - Review every article in script.js, content-overrides.json, the generator, and all generated fa/en/ar article pages.
 - Compare the three languages semantically using the source metadata and source URLs. Do not copy source articles.
 - Make edits only when a real content or technical issue exists. Preserve article-translation-note, article-body, article-takeaways, source links, share, and RTL/LTR structure. Never add an iframe or original-article-frame.
 - Keep Persian at least 5 paragraphs and 5 takeaways; keep English and Arabic at least 3 paragraphs and 3 takeaways. Keep the site owner's name out of article body copy.
 - Update source data first, then run the generator. Run node --check, JSON validation, page-count checks, and git diff --check.
 - Do not commit, push, deploy, print credentials, print config.toml, or write secrets to logs. The wrapper performs commit, push, and deploy after validation.
+- Do not print full file contents, script.js, JSON, generated HTML, or full diffs. Keep your final response to 12 lines or fewer.
+- If the structured audit passes and your semantic review finds no real issue, leave all files unchanged and reply with `AUDIT_OK` plus one short line of scope.
 - If no real issue exists, leave all files unchanged and report that no change was needed.
 PROMPT
-  log "codex audit finished"
-} 2>&1 | redact | tee -a "$LOG_FILE"
+then
+  log "codex audit finished" | tee -a "$LOG_FILE"
+  if [[ -s "$FINAL_MESSAGE" ]]; then
+    log "codex final message:" | tee -a "$LOG_FILE"
+    head -c 12000 "$FINAL_MESSAGE" | redact | tee -a "$LOG_FILE"
+    printf '
+' | tee -a "$LOG_FILE"
+  fi
+else
+  exit_code=$?
+  log "FAIL: codex audit failed with exit code $exit_code" | tee -a "$LOG_FILE" >&2
+  if [[ -s "$CODEX_STDERR" ]]; then
+    log "codex stderr (truncated):" | tee -a "$LOG_FILE" >&2
+    head -c 4000 "$CODEX_STDERR" | redact | tee -a "$LOG_FILE" >&2
+    printf '
+' | tee -a "$LOG_FILE" >&2
+  fi
+  exit "$exit_code"
+fi
 
 changed_files="$(git -C "$REPO" diff --name-only; git -C "$REPO" ls-files --others --exclude-standard)"
 if [[ -z "$changed_files" ]]; then
