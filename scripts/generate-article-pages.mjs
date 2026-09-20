@@ -10,6 +10,7 @@ const siteUrl = "https://alisodeyfi.ir";
 const scriptPath = join(siteRoot, "script.js");
 const articleRoot = join(siteRoot, "articles");
 const sitemapPath = join(siteRoot, "sitemap.xml");
+const homepagePath = join(siteRoot, "index.html");
 const stylesheetVersion = "20260920-article-feedback";
 const feedbackEmail = "Sodeyfi.ali@gmail.com";
 
@@ -33,6 +34,67 @@ function escapeJsonLd(value) {
 
 function cleanTrailingWhitespace(value) {
   return value.replace(/[ \t]+$/gm, "");
+}
+
+function getHomepageUrl(language) {
+  return language === "fa" ? `${siteUrl}/` : `${siteUrl}/${language}/`;
+}
+
+function replaceMetaContent(html, selector, value) {
+  const escaped = escapeHtml(value);
+  const pattern = new RegExp(`(<meta\\s+${selector}\\s+content=")[^"]*("\\s*/?>)`, "i");
+  return html.replace(pattern, `$1${escaped}$2`);
+}
+
+function renderLocalizedHomepage(source, data, language) {
+  const dictionary = data.translations[language] ?? data.translations.fa;
+  const canonicalUrl = getHomepageUrl(language);
+  const locale = language === "en" ? "en_US" : language === "ar" ? "ar" : "fa_IR";
+  const direction = language === "en" ? "ltr" : "rtl";
+  let html = source
+    .replace('<html lang="fa" dir="rtl">', `<html lang="${language}" dir="${direction}">`)
+    .replace(/(href|src)="\.\//g, '$1="../');
+
+  html = replaceMetaContent(html, 'name="description"', dictionary.metaDescription);
+  html = replaceMetaContent(html, 'property="og:title"', dictionary.documentTitle);
+  html = replaceMetaContent(html, 'property="og:description"', dictionary.metaDescription);
+  html = replaceMetaContent(html, 'property="og:url"', canonicalUrl);
+  html = replaceMetaContent(html, 'property="og:locale"', locale);
+  html = replaceMetaContent(html, 'name="twitter:title"', dictionary.documentTitle);
+  html = replaceMetaContent(html, 'name="twitter:description"', dictionary.metaDescription);
+  html = html.replace(/<title>[^<]*<\/title>/i, `<title>${escapeHtml(dictionary.documentTitle)}</title>`);
+  html = html.replace(
+    /<link rel="canonical" href="[^"]*"\s*\/>/i,
+    `<link rel="canonical" href="${canonicalUrl}" />`,
+  );
+  html = html.replace(
+    /<link rel="alternate" hreflang="fa" href="[^"]*"\s*\/>/i,
+    `<link rel="alternate" hreflang="fa" href="${getHomepageUrl("fa")}" />`,
+  );
+  html = html.replace(
+    /<link rel="alternate" hreflang="en" href="[^"]*"\s*\/>/i,
+    `<link rel="alternate" hreflang="en" href="${getHomepageUrl("en")}" />`,
+  );
+  html = html.replace(
+    /<link rel="alternate" hreflang="ar" href="[^"]*"\s*\/>/i,
+    `<link rel="alternate" hreflang="ar" href="${getHomepageUrl("ar")}" />`,
+  );
+  html = html.replace(
+    /<link rel="alternate" hreflang="x-default" href="[^"]*"\s*\/>/i,
+    `<link rel="alternate" hreflang="x-default" href="${getHomepageUrl("fa")}" />`,
+  );
+
+  html = html.replace(
+    /(<[^>]*data-lang="(?:fa|en|ar)"[^>]*aria-pressed=")[^"]*("[^>]*>)/g,
+    (match, prefix, suffix) => `${prefix}${match.includes(`data-lang="${language}"`) ? "true" : "false"}${suffix}`,
+  );
+  html = html.replace(
+    /(<[a-z][^>]*data-i18n="([^"]+)"[^>]*>)([\s\S]*?)(<\/[^>]+>)/gi,
+    (match, opening, key, _content, closing) =>
+      `${opening}${escapeHtml(dictionary[key] ?? "")}${closing}`,
+  );
+
+  return cleanTrailingWhitespace(html);
 }
 
 function getSiteData(source) {
@@ -448,8 +510,8 @@ function getPageHtml(data, article, language) {
 function buildSitemap(data, lastmod) {
   const urls = [
     `${siteUrl}/`,
-    `${siteUrl}/?lang=en`,
-    `${siteUrl}/?lang=ar`,
+    getHomepageUrl("en"),
+    getHomepageUrl("ar"),
   ];
 
   data.articleCatalog.forEach((article) => {
@@ -474,10 +536,20 @@ ${body}
 
 async function main() {
   const source = await readFile(scriptPath, "utf8");
+  const homepageSource = await readFile(homepagePath, "utf8");
   const data = getSiteData(source);
   const lastmod = process.env.SITEMAP_LASTMOD ?? new Date().toISOString().slice(0, 10);
 
   await mkdir(articleRoot, { recursive: true });
+  for (const language of ["en", "ar"]) {
+    const directory = join(siteRoot, language);
+    await mkdir(directory, { recursive: true });
+    await writeFile(
+      join(directory, "index.html"),
+      renderLocalizedHomepage(homepageSource, data, language),
+      "utf8",
+    );
+  }
 
   for (const article of data.articleCatalog) {
     const slug = data.getArticleSlug(article);

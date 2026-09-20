@@ -9,7 +9,7 @@ const contentCalendarContainer = document.querySelector("[data-content-calendar]
 const html = document.documentElement;
 const liveSiteUrl = "https://alisodeyfi.ir/";
 const defaultShareImageUrl = `${liveSiteUrl}assets/ali-sodeyfi.jpg`;
-const contentOverrideUrl = "./content-overrides.json";
+const contentOverrideUrl = `${liveSiteUrl}content-overrides.json`;
 let publishingPlan = null;
 let selectedArticleIndex = null;
 
@@ -3602,6 +3602,12 @@ function getInitialLanguage() {
     return requestedLanguage;
   }
 
+  const pathLanguage = window.location.pathname.match(/^\/(en|ar)(?:\/|$)/)?.[1];
+
+  if (pathLanguage && translations[pathLanguage]) {
+    return pathLanguage;
+  }
+
   return localStorage.getItem("site-language") ?? "fa";
 }
 
@@ -3715,13 +3721,7 @@ function getLanguagePageUrl(language, article = null) {
     return getArticlePageUrl(article, language);
   }
 
-  const url = new URL(liveSiteUrl);
-
-  if (language && language !== "fa") {
-    url.searchParams.set("lang", language);
-  }
-
-  return url.toString();
+  return new URL(language === "en" || language === "ar" ? `${language}/` : "", liveSiteUrl).toString();
 }
 
 function setMetaContent(selector, content) {
@@ -4308,6 +4308,8 @@ function applyLanguage(language) {
 
   if (selectedArticleIndex !== null) {
     updateArticleUrl(articleCatalog[selectedArticleIndex], selectedLanguage, "replace");
+  } else {
+    window.history.replaceState({}, "", getLanguagePageUrl(selectedLanguage));
   }
 
   updateSeoMetadata(selectedLanguage);
