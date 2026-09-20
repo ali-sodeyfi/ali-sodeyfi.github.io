@@ -2,15 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://alisodeyfi.ir/</loc>
-    <lastmod>2026-09-19</lastmod>
+    <lastmod>2026-09-20</lastmod>
   </url>
   <url>
     <loc>https://alisodeyfi.ir/?lang=en</loc>
-    <lastmod>2026-09-19</lastmod>
+    <lastmod>2026-09-20</lastmod>
   </url>
   <url>
     <loc>https://alisodeyfi.ir/?lang=ar</loc>
-    <lastmod>2026-09-19</lastmod>
+    <lastmod>2026-09-20</lastmod>
   </url>
   <url>
     <loc>https://alisodeyfi.ir/articles/do-things-that-dont-scale/fa/</loc>
@@ -467,5 +467,17 @@
   <url>
     <loc>https://alisodeyfi.ir/articles/startups-in-13-sentences/ar/</loc>
     <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://alisodeyfi.ir/articles/the-top-idea-in-your-mind/fa/</loc>
+    <lastmod>2026-09-20</lastmod>
+  </url>
+  <url>
+    <loc>https://alisodeyfi.ir/articles/the-top-idea-in-your-mind/en/</loc>
+    <lastmod>2026-09-20</lastmod>
+  </url>
+  <url>
+    <loc>https://alisodeyfi.ir/articles/the-top-idea-in-your-mind/ar/</loc>
+    <lastmod>2026-09-20</lastmod>
   </url>
 </urlset>
