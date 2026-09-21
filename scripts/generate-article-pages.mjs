@@ -40,6 +40,36 @@ function getHomepageUrl(language) {
   return language === "fa" ? `${siteUrl}/` : `${siteUrl}/${language}/`;
 }
 
+function renderStaticArticleLinks(data, language) {
+  const dictionary = data.translations[language] ?? data.translations.fa;
+  const cards = data.articleCatalog.map((article) => {
+    const slug = data.getArticleSlug(article);
+    const summary = article.summary[language] ?? article.summary.en;
+    const canonicalUrl = getArticleUrl(slug, language);
+    return `
+          <article class="article-card">
+            <div>
+              <h3 dir="ltr"><a href="${escapeHtml(canonicalUrl)}">${escapeHtml(article.title)}</a></h3>
+              <p>${escapeHtml(summary)}</p>
+            </div>
+            <div class="article-card-footer">
+              <span class="article-source">${escapeHtml(getArticleCredit(article))}</span>
+              <div class="article-card-links">
+                <a class="article-card-action article-card-action-primary" href="${escapeHtml(canonicalUrl)}">${escapeHtml(dictionary.articleArchiveReadOnSiteLabel ?? "Read on site")}</a>
+                <a class="article-card-action article-card-action-secondary" href="${escapeHtml(article.url)}" target="_blank" rel="noreferrer">${escapeHtml(dictionary.articleReadLabel ?? "Original source")}</a>
+              </div>
+            </div>
+          </article>`;
+  }).join("");
+
+  return `<!-- STATIC_ARTICLE_LINKS_START -->${cards}\n        <!-- STATIC_ARTICLE_LINKS_END -->`;
+}
+
+function injectStaticArticleLinks(source, data, language) {
+  const marker = /<!-- STATIC_ARTICLE_LINKS_START -->[\s\S]*?<!-- STATIC_ARTICLE_LINKS_END -->/;
+  return source.replace(marker, renderStaticArticleLinks(data, language));
+}
+
 function replaceMetaContent(html, selector, value) {
   const escaped = escapeHtml(value);
   const pattern = new RegExp(`(<meta\\s+${selector}\\s+content=")[^"]*("\\s*/?>)`, "i");
@@ -51,7 +81,7 @@ function renderLocalizedHomepage(source, data, language) {
   const canonicalUrl = getHomepageUrl(language);
   const locale = language === "en" ? "en_US" : language === "ar" ? "ar" : "fa_IR";
   const direction = language === "en" ? "ltr" : "rtl";
-  let html = source
+  let html = injectStaticArticleLinks(source, data, language)
     .replace('<html lang="fa" dir="rtl">', `<html lang="${language}" dir="${direction}">`)
     .replace(/(href|src)="\.\//g, '$1="../');
 
@@ -541,6 +571,7 @@ async function main() {
   const lastmod = process.env.SITEMAP_LASTMOD ?? new Date().toISOString().slice(0, 10);
 
   await mkdir(articleRoot, { recursive: true });
+  await writeFile(homepagePath, injectStaticArticleLinks(homepageSource, data, "fa"), "utf8");
   for (const language of ["en", "ar"]) {
     const directory = join(siteRoot, language);
     await mkdir(directory, { recursive: true });
