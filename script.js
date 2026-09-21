@@ -1070,6 +1070,23 @@ const articleCatalog = [
       ar: "المشكلة التي يعود إليها ذهن المؤسس تلقائيا تؤثر في تقدم الشركة؛ لذلك احم الانتباه من جمع التمويل والنزاعات والمشتتات المكلفة.",
     },
   },
+  {
+    title: "A Fundraising Survival Guide",
+    author: "Paul Graham",
+    source: "Paul Graham",
+    year: "2008",
+    url: "https://paulgraham.com/fundraising.html",
+    tags: {
+      fa: ["جذب سرمایه", "بقا", "نقدینگی"],
+      en: ["fundraising", "survival", "runway"],
+      ar: ["جمع التمويل", "البقاء", "السيولة"],
+    },
+    summary: {
+      fa: "جذب سرمایه فقط مسئله ارائه و مذاکره نیست؛ فرایندی است که اگر مرز نداشته باشد می‌تواند تمرکز، روحیه و بقای شرکت را فرسوده کند.",
+      en: "Fundraising is not only a pitching problem; without boundaries, it can consume a startup's focus, morale, and ability to survive.",
+      ar: "جمع التمويل ليس مشكلة عرض وتفاوض فقط؛ فمن دون حدود قد يستهلك تركيز الشركة الناشئة ومعنوياتها وقدرتها على البقاء.",
+    },
+  },
 ];
 
 const articleEssays = {
@@ -3228,6 +3245,82 @@ const articleEssays = {
         "يحتاج جمع التمويل إلى حدود لأن الانتباه، لا وقت التقويم فقط، مكلف.",
         "يصنع التركيز عبر ظروف العمل ومسارات القرار وتقليل الالتزامات قليلة القيمة.",
         "استخدم اختبار الوقت الحر لمعرفة إن كان الفريق يفكر في المشكلة الصحيحة.",
+      ],
+    },
+  },
+  "A Fundraising Survival Guide": {
+    fa: {
+      paragraphs: [
+        "جذب سرمایه برای یک شرکت نوپا فقط مجموعه‌ای از جلسه‌ها، اسلایدها و مذاکره‌ها نیست. این فرایند می‌تواند چند ماه از توجه بنیان‌گذار را مصرف کند و اگر درست مدیریت نشود، خودِ شرکت را متوقف کند. بازار سرمایه‌گذار مثل رابطه معمولی کار و زندگی رفتار نمی‌کند: علاقه امروز الزاماً به تصمیم فردا یا انتقال پول منجر نمی‌شود. بنابراین باید از ابتدا جذب سرمایه را یک ریسک عملیاتی بدانیم، نه یک مسیر قطعی.",
+        "اولین کار، تنظیم انتظار است. یک سرمایه‌گذار علاقه‌مند، تعهد مالی نیست و یک جلسه خوب، نشانه بسته‌شدن معامله نیست. بنیان‌گذار نباید حقوق، استخدام، هزینه‌های فنی یا برنامه رشد را بر اساس پولی که هنوز وارد حساب نشده تنظیم کند. برای هر وعده یا نشانه مثبت، یک سناریوی بدون آن پول داشته باشید. این بدبینی بی‌دلیل نیست؛ ابزار حفظ اختیار در فرایندی است که کنترل بخش زیادی از آن دست شما نیست.",
+        "در همان زمان، شرکت باید به کار اصلی خود ادامه دهد. جذب سرمایه به‌راحتی همه تقویم را می‌بلعد: آماده‌سازی، رفت‌وآمد، پیگیری و انتظار برای پاسخ. اگر محصول، فروش و یادگیری از مشتری متوقف شوند، هم روحیه تیم آسیب می‌بیند و هم شرکت برای سرمایه‌گذار کم‌تحرک به نظر می‌رسد. جلسه‌های سرمایه‌گذاری را در حاشیه برنامه ساختن جا دهید، نه اینکه کار ساختن را در فاصله بین جلسه‌ها انجام دهید. اگر تیم چندنفره است، مسئولیت جذب سرمایه را تا حد امکان از اجرای روزانه جدا کنید.",
+        "انعطاف در اندازه و شکل دور سرمایه نیز مهم است. لازم نیست از روز اول یک عدد ثابت را تنها مسیر نجات بدانید. چند سطح از سرمایه را به چند مسیر اجرایی وصل کنید: با حداقل چه کاری زنده می‌مانیم، با مقدار میانی چه چیزی سریع‌تر می‌شود و با سرمایه بیشتر چه آزمایشی را جلو می‌اندازیم؟ این مدل، شرکت را از حالت «اگر دقیقاً این مبلغ را نگیریم تمام است» خارج می‌کند و امکان شروع با سرمایه کمتر یا بستن مرحله‌ای را به وجود می‌آورد.",
+        "کاهش وابستگی، قدرت مذاکره و آرامش تصمیم‌گیری را بالا می‌برد. اگر درآمد بتواند حتی هزینه‌های پایه تیم را پوشش دهد، سرمایه‌گذار دیگر تنها راه ادامه‌دادن نیست. این به معنی رها کردن محصول برای مشاوره یا فروش کوتاه‌مدت نیست؛ یعنی پیدا کردن کوچک‌ترین مسیر درآمدی که زمان بخرد و گزینه‌ها را بیشتر کند. هم‌زمان، هزینه‌ها را طوری نگه دارید که چند ماه تأخیر یا شکست یک معامله شرکت را به دیوار نرساند.",
+        "رد شدن را هم باید به داده تبدیل کرد، نه به یک توده مبهم از ناامیدی. مشخص کنید هر پاسخ منفی به کدام بخش مربوط بوده است: مسئله، بازار، شواهد، ارائه یا زمان‌بندی. اگر ایراد واقعی است، اصلاحش کنید؛ اگر قضاوت سرمایه‌گذار محدود یا نامرتبط است، آن را با واقعیت مشتری مقایسه کنید و مسیر را عوض نکنید. در نهایت، یک نقطه توقف روشن داشته باشید: وقتی گزینه‌ها واقعاً تمام می‌شوند، باید سریع به کاهش هزینه، درآمدزایی، مشاوره یا پایان کنترل‌شده فکر کرد. ادامه‌دادن بی‌برنامه، بقا نیست؛ تعویق تصمیم است.",
+      ],
+      advice: [
+        "برای هر وعده سرمایه‌گذاری، برنامه مالی و عملیاتی مستقلی بنویسید که بدون آن پول هم قابل اجرا باشد.",
+        "جذب سرمایه را صاحب مشخص، بازه زمانی و سقف جلسه کنید و کار محصول و مشتری را متوقف نکنید.",
+        "سه سناریوی سرمایه طراحی کنید: حداقل برای بقا، مقدار میانی برای پیشرفت و مقدار بیشتر برای شتاب.",
+        "اگر با کمی فروش می‌توانید هزینه پایه را پوشش دهید، رسیدن به سودآوری حداقلی را به یک پروژه فوری تبدیل کنید.",
+        "پاسخ‌های منفی را بر اساس ایراد مشخص دسته‌بندی کنید و فقط مشکلات واقعی و تکرارشونده را وارد برنامه اصلاح کنید.",
+        "برای تمام‌شدن گزینه‌های جذب سرمایه، از قبل نقطه تصمیم و برنامه کاهش هزینه یا تغییر مسیر داشته باشید.",
+      ],
+      takeaways: [
+        "معامله‌ای که بسته نشده، منبع نقدینگی نیست؛ برنامه شرکت را بر اساس پول قطعی تنظیم کنید.",
+        "جذب سرمایه نباید موتور اصلی شرکت را خاموش کند؛ محصول و مشتری باید حتی با سرعت کمتر جلو بروند.",
+        "انعطاف در اندازه دور سرمایه، تعداد مسیرهای قابل‌اجرا را بیشتر می‌کند.",
+        "درآمد حداقلی فقط پول نیست؛ زمان و استقلال مذاکره می‌خرد.",
+        "رد شدن زمانی مفید است که به تشخیص دقیق مسئله و اقدام اصلاحی تبدیل شود.",
+        "بقا به تصمیم‌های به‌موقع درباره هزینه، درآمد و پایان فرایند وابسته است.",
+      ],
+    },
+    en: {
+      paragraphs: [
+        "Fundraising is not just a sequence of pitches and meetings. It is an operating risk that can consume a founder's attention while producing no cash. Investor interest is not a commitment, and a promising conversation can still disappear at the last moment. Treat the process as uncertain from the beginning so the company does not spend money, hire people, or set targets against funds that have not arrived.",
+        "The first survival rule is to keep the startup moving. Fundraising expands to fill the calendar through preparation, travel, follow-up, and waiting. Put investor meetings around product, customer, and sales work instead of doing company work in the gaps between meetings. If there are several founders, separate the fundraising load from day-to-day execution as much as possible. A company that keeps shipping is healthier and presents better evidence than one that has paused for a round.",
+        "Be flexible about the amount and structure of the raise. Map several funding levels to several operating plans: what keeps the team alive, what makes the next milestone faster, and what additional bet becomes possible with more capital. This is stronger than pretending one exact number is the only path to survival. At the same time, look for a small revenue path that buys time and reduces dependence. Ramen profitability is valuable because it creates options, not because it eliminates ambition.",
+        "Finally, turn rejection into categorized data and define an exit point for the process. Separate problems in the product, evidence, market, pitch, and timing; fix repeated real problems without treating every investor's opinion as truth. If the pipeline produces only air, switch to cost reduction, consulting, revenue, or a controlled shutdown before the company runs out of choices. The goal is not to win a great round. It is to finish fundraising and return to building a company customers want.",
+      ],
+      advice: [
+        "Build a cash plan that works without every expected check.",
+        "Assign fundraising ownership and protect product and customer work on the calendar.",
+        "Define operating plans for minimum, middle, and larger funding outcomes.",
+        "Use early revenue to buy time and preserve negotiating independence.",
+        "Classify rejections by cause and fix only evidence-backed problems.",
+        "Set a clear stop point before the process consumes the company's runway.",
+      ],
+      takeaways: [
+        "Unclosed interest is not cash and should not fund commitments.",
+        "The startup must keep moving while fundraising is underway.",
+        "Flexible funding plans create more survivable paths than one fixed target.",
+        "Small revenue can buy strategic time and bargaining power.",
+        "Rejection is useful only when converted into a specific diagnosis.",
+        "A stop point protects the company from fundraising becoming the company.",
+      ],
+    },
+    ar: {
+      paragraphs: [
+        "جمع التمويل ليس مجرد سلسلة من العروض والاجتماعات، بل هو خطر تشغيلي قد يستهلك انتباه المؤسس من دون أن ينتج نقدا. اهتمام المستثمر ليس التزاما، والمحادثة الواعدة قد تتوقف في اللحظة الأخيرة. لذلك تعامل مع العملية على أنها غير مؤكدة منذ البداية، ولا تنفق أو توظف أو تضع أهدافا اعتمادا على أموال لم تصل بعد.",
+        "قاعدة البقاء الأولى هي إبقاء الشركة تتحرك. فجمع التمويل يملأ التقويم بسهولة عبر التحضير والتنقل والمتابعة وانتظار الردود. ضع اجتماعات المستثمرين حول عمل المنتج والعملاء والمبيعات، لا تجعل بناء الشركة نشاطا هامشيا بين الاجتماعات. وإذا كان هناك أكثر من مؤسس، فافصل مسؤولية التمويل عن التنفيذ اليومي قدر الإمكان. الشركة التي تواصل الإطلاق والتعلم تقدم دليلا أقوى من شركة توقفت بانتظار الجولة.",
+        "كن مرنا في حجم الجولة وبنيتها. اربط عدة مستويات من التمويل بعدة خطط تشغيلية: ما الذي يبقي الفريق حيا، وما الذي يسرع الإنجاز التالي، وما الرهان الإضافي الذي يصبح ممكنا مع رأس مال أكبر. هذا أفضل من التظاهر بأن رقما واحدا هو الطريق الوحيد. وابحث في الوقت نفسه عن مسار إيراد صغير يشتري الوقت ويقلل الاعتماد. فالربحية التي تغطي الأساسيات تمنح خيارات، ولا تعني التخلي عن الطموح.",
+        "حوّل الرفض إلى بيانات مصنفة، وحدد نقطة توقف للعملية مسبقا. افصل بين مشكلات المنتج والدليل والسوق والعرض والتوقيت، وأصلح المشكلات الحقيقية المتكررة من دون اعتبار كل رأي استثماري حقيقة. إذا لم ينتج المسار إلا الوعود، فانتقل مبكرا إلى خفض التكلفة أو الإيراد أو الاستشارات أو الإغلاق المنضبط قبل نفاد الخيارات. الهدف ليس الفوز بجولة مثالية؛ الهدف إنهاء التمويل والعودة إلى بناء شركة يريدها العملاء.",
+      ],
+      advice: [
+        "ابن خطة نقدية قابلة للتنفيذ من دون افتراض وصول كل شيك متوقع.",
+        "حدد مالكاً لجمع التمويل واحم وقت المنتج والعملاء في التقويم.",
+        "صمم خططا تشغيلية لنتائج تمويل صغيرة ومتوسطة وكبيرة.",
+        "استخدم الإيراد المبكر لشراء الوقت والحفاظ على استقلال التفاوض.",
+        "صنف الرفض حسب سببه ولا تصلح إلا المشكلات التي يؤيدها الدليل.",
+        "حدد نقطة توقف واضحة قبل أن تستهلك العملية مدة بقاء الشركة.",
+      ],
+      takeaways: [
+        "الاهتمام غير المكتمل ليس نقدا ولا ينبغي أن يمول الالتزامات.",
+        "يجب أن تواصل الشركة التقدم أثناء جمع التمويل.",
+        "الخطط المرنة تخلق مسارات بقاء أكثر من هدف مالي واحد.",
+        "الإيراد الصغير قد يشتري وقتا وقوة تفاوضية.",
+        "يصبح الرفض مفيدا عندما يتحول إلى تشخيص محدد.",
+        "تحمي نقطة التوقف الشركة من تحول جمع التمويل إلى هويتها كلها.",
       ],
     },
   },

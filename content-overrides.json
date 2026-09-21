@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-20T02:40:49Z",
+  "updatedAt": "2026-09-21T02:20:00Z",
   "translations": {
     "fa": {
       "documentTitle": "علی سدیفی | یادداشت‌هایی درباره ساخت کسب‌وکار",
@@ -1357,6 +1357,55 @@
           "fa": "اسلاید ۱: موضوعی که ذهن تیم بی‌اختیار به آن برمی‌گردد، مسیر حل مسئله را تعیین می‌کند.\nاسلاید ۲: برای پول و اختلاف مسیر تصمیم بسازید؛ نگذارید جای مشتری و محصول را بگیرند.\nاسلاید ۳: Paul Graham — https://paulgraham.com/top.html | اقتباس: https://alisodeyfi.ir/?article=the-top-idea-in-your-mind&lang=fa#daily-article-reader",
           "en": "Slide 1: the problem the team returns to shapes its problem-solving capacity.\nSlide 2: give money and disputes a decision path; do not let them replace customer and product work.\nSlide 3: Paul Graham — https://paulgraham.com/top.html | Adaptation: https://alisodeyfi.ir/?article=the-top-idea-in-your-mind&lang=en#daily-article-reader",
           "ar": "الشريحة 1: المشكلة التي يعود إليها الفريق تحدد قدرته على حل المشكلات.\nالشريحة 2: امنح المال والنزاعات مسارا للقرار؛ لا تسمح لهما باستبدال عمل العملاء والمنتج.\nالشريحة 3: Paul Graham — https://paulgraham.com/top.html | المعالجة: https://alisodeyfi.ir/?article=the-top-idea-in-your-mind&lang=ar#daily-article-reader"
+        }
+      },
+      {
+        "id": "2026-09-21-site-a-fundraising-survival-guide",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "a-fundraising-survival-guide",
+        "publishAt": "2026-09-21T05:50:00+03:30",
+        "status": "published",
+        "publishedAt": "2026-09-21T05:50:00+03:30"
+      },
+      {
+        "id": "2026-09-21-linkedin-a-fundraising-survival-guide",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "a-fundraising-survival-guide",
+        "publishAt": "2026-09-21T12:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-09-21T05:50:00+03:30",
+        "note": "Draft only. Verified account/API access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "پیش‌نویس لینکدین: جذب سرمایه نباید شرکت را متوقف کند",
+          "en": "LinkedIn draft: fundraising must not stop the company",
+          "ar": "مسودة لينكدإن: يجب ألا يوقف جمع التمويل الشركة"
+        },
+        "body": {
+          "fa": "جذب سرمایه یک پروژه مالی نیست که بتواند کار اصلی شرکت را متوقف کند؛ یک ریسک عملیاتی است که باید محدود شود.\nجلسه‌های سرمایه‌گذاری را کنار کار محصول و مشتری بگذارید، برای چند سطح سرمایه برنامه داشته باشید و هر وعده‌نشده را از برنامه نقدی حذف کنید.\nاین هفته یک نقطه توقف برای فرایند جذب سرمایه و یک برنامه بدون سرمایه مشخص کنید.\nمنبع: Paul Graham — https://paulgraham.com/fundraising.html\nhttps://alisodeyfi.ir/?article=a-fundraising-survival-guide&lang=fa#daily-article-reader",
+          "en": "Fundraising is an operating risk, not a project that gets to pause the company.\nKeep product and customer work moving, plan for several funding levels, and exclude every unclosed promise from the cash plan.\nThis week, define a stop point for fundraising and an operating plan that works without the round.\nSource: Paul Graham — https://paulgraham.com/fundraising.html\nhttps://alisodeyfi.ir/?article=a-fundraising-survival-guide&lang=en#daily-article-reader",
+          "ar": "جمع التمويل خطر تشغيلي، وليس مشروعا يحق له إيقاف الشركة.\nواصل عمل المنتج والعملاء، وخطط لعدة مستويات من التمويل، واستبعد كل وعد غير مكتمل من الخطة النقدية.\nهذا الأسبوع حدد نقطة توقف لجمع التمويل وخطة تشغيل تعمل من دون الجولة.\nالمصدر: Paul Graham — https://paulgraham.com/fundraising.html\nhttps://alisodeyfi.ir/?article=a-fundraising-survival-guide&lang=ar#daily-article-reader"
+        }
+      },
+      {
+        "id": "2026-09-21-story-a-fundraising-survival-guide",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "a-fundraising-survival-guide",
+        "publishAt": "2026-09-21T20:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-09-21T05:50:00+03:30",
+        "note": "Three-slide draft only. Verified account/API access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "پیش‌نمایش استوری: بقا در جذب سرمایه",
+          "en": "Story preview: surviving fundraising",
+          "ar": "معاينة الستوري: البقاء أثناء جمع التمويل"
+        },
+        "body": {
+          "fa": "اسلاید ۱: جذب سرمایه نباید شرکت را متوقف کند.\nاسلاید ۲: محصول و مشتری را جلو ببرید، برای بدون سرمایه هم برنامه داشته باشید و نقطه توقف تعیین کنید.\nاسلاید ۳: Paul Graham — https://paulgraham.com/fundraising.html | اقتباس: https://alisodeyfi.ir/?article=a-fundraising-survival-guide&lang=fa#daily-article-reader",
+          "en": "Slide 1: fundraising must not stop the company.\nSlide 2: keep product and customer work moving, plan without the round, and set a stop point.\nSlide 3: Paul Graham — https://paulgraham.com/fundraising.html | Adaptation: https://alisodeyfi.ir/?article=a-fundraising-survival-guide&lang=en#daily-article-reader",
+          "ar": "الشريحة 1: يجب ألا يوقف جمع التمويل الشركة.\nالشريحة 2: واصل عمل المنتج والعملاء، وخطط من دون الجولة، وحدد نقطة توقف.\nالشريحة 3: Paul Graham — https://paulgraham.com/fundraising.html | المعالجة: https://alisodeyfi.ir/?article=a-fundraising-survival-guide&lang=ar#daily-article-reader"
         }
       }
     ],
