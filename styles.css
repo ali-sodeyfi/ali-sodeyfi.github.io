@@ -786,6 +786,25 @@ h2 {
   line-height: 1.75;
 }
 
+.work-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem 0.85rem;
+  margin-top: 0.7rem;
+}
+
+.work-links a {
+  color: var(--accent);
+  font-size: 0.82rem;
+  font-weight: 850;
+  text-decoration-thickness: 0.11em;
+  text-underline-offset: 0.2em;
+}
+
+.work-links a:hover {
+  color: var(--accent-warm);
+}
+
 .timeline p,
 .focus-grid p {
   max-width: 720px;

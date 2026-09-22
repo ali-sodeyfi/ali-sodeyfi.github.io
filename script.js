@@ -81,9 +81,11 @@ const translations = {
     workFiveBody:
       "در EduTech، فاصله بین ایده آموزشی و کسب‌وکار پایدار وقتی کم می‌شد که نیاز یادگیرنده، مدل درآمد و اجرای روزانه هم‌زمان دیده می‌شد.",
     workSixYear: "تجربه حرفه‌ای",
-    workSixTitle: "حیات‌گروپ",
-    workSixDescription: "حیات‌گروپ؛ اطلاعات تکمیلی این مجموعه در صفحه رسمی اینستاگرام آن.",
-    workSixBody: "صفحه رسمی حیات‌گروپ برای معرفی این تجربه و اطلاعات بیشتر در رزومه قرار گرفته است.",
+    workSixTitle: "حیاط",
+    workSixDescription: "حیاط؛ اطلاعات تکمیلی این تجربه در وب‌سایت رسمی و صفحه اینستاگرام آن در دسترس است.",
+    workSixBody: "برای آشنایی بیشتر با حیاط، به وب‌سایت رسمی یا صفحه اینستاگرام آن سر بزنید.",
+    workSixWebsite: "وب‌سایت رسمی",
+    workSixInstagram: "اینستاگرام",
     thesisLabel: "روش کار",
     thesisTitle: "سه اصل برای ساختن در شرایط نامطمئن",
     thesisIntro:
@@ -214,9 +216,11 @@ const translations = {
     workFiveBody:
       "At EduTech, the gap between an education idea and a sustainable business narrowed only when learner need, revenue model, and daily execution were considered together.",
     workSixYear: "Professional experience",
-    workSixTitle: "Hayat Group",
-    workSixDescription: "Hayat Group; more information about the organization is available on its official Instagram page.",
-    workSixBody: "The official Hayat Group page is included in the resume as the reference for this experience.",
+    workSixTitle: "Hayat",
+    workSixDescription: "Hayat; more information about this experience is available on its official website and Instagram page.",
+    workSixBody: "Visit Hayat's official website or Instagram page for more context about the organization.",
+    workSixWebsite: "Official website",
+    workSixInstagram: "Instagram",
     thesisLabel: "Method",
     thesisTitle: "Three principles for building under uncertainty",
     thesisIntro:
@@ -347,9 +351,11 @@ const translations = {
     workFiveBody:
       "في EduTech، كان تضييق المسافة بين الفكرة التعليمية والعمل المستدام يحدث عندما ننظر معا إلى حاجة المتعلم ونموذج الإيراد والتنفيذ اليومي.",
     workSixYear: "خبرة مهنية",
-    workSixTitle: "مجموعة حياة",
-    workSixDescription: "مجموعة حياة؛ تتوفر معلومات إضافية عن المجموعة في صفحتها الرسمية على إنستغرام.",
-    workSixBody: "أُدرجت الصفحة الرسمية لمجموعة حياة في السيرة كمرجع لهذه الخبرة ولمزيد من المعلومات.",
+    workSixTitle: "حياط",
+    workSixDescription: "حياط؛ تتوفر معلومات إضافية عن هذه التجربة في الموقع الرسمي وصفحة إنستغرام.",
+    workSixBody: "للتعرف أكثر إلى حياط، يمكنك زيارة موقعها الرسمي أو صفحتها على إنستغرام.",
+    workSixWebsite: "الموقع الرسمي",
+    workSixInstagram: "إنستغرام",
     thesisLabel: "المنهج",
     thesisTitle: "ثلاثة مبادئ للبناء في ظروف غير مؤكدة",
     thesisIntro:
