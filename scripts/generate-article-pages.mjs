@@ -40,6 +40,10 @@ function getHomepageUrl(language) {
   return language === "fa" ? `${siteUrl}/` : `${siteUrl}/${language}/`;
 }
 
+function getHomepagePath(language) {
+  return language === "fa" ? "/" : `/${language}/`;
+}
+
 function renderStaticArticleLinks(data, language) {
   const dictionary = data.translations[language] ?? data.translations.fa;
   const cards = data.articleCatalog.map((article) => {
@@ -396,7 +400,7 @@ function getPageHtml(data, article, language) {
   </head>
   <body class="article-page">
     <header class="article-page-header">
-      <a class="article-page-brand" href="/?lang=${language}" aria-label="Ali Sodeyfi">
+      <a class="article-page-brand" href="${getHomepagePath(language)}" aria-label="Ali Sodeyfi">
         <span class="article-page-brand-mark">AS</span>
         <span>
           <strong>Ali Sodeyfi</strong>
@@ -441,7 +445,7 @@ function getPageHtml(data, article, language) {
           </div>
           <div class="article-page-actions">
             <a class="button primary" href="${escapeHtml(article.url)}" target="_blank" rel="noreferrer">${escapeHtml(sourceLabel)}</a>
-            <a class="button" href="/?lang=${language}#articles">${escapeHtml(homeLabel)}</a>
+            <a class="button" href="${getHomepagePath(language)}#articles">${escapeHtml(homeLabel)}</a>
           </div>
           <p class="article-page-status" aria-live="polite"></p>
         </header>
@@ -459,7 +463,7 @@ function getPageHtml(data, article, language) {
     </main>
 
     <footer class="article-page-footer">
-      <a href="/?lang=${language}#articles">Ali Sodeyfi</a>
+      <a href="${getHomepagePath(language)}#articles">Ali Sodeyfi</a>
       <span>${escapeHtml(dictionary.footerText ?? getBrandSubtitle(language))}</span>
     </footer>
 
