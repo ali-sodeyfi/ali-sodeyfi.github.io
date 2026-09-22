@@ -1087,6 +1087,23 @@ const articleCatalog = [
       ar: "جمع التمويل ليس مشكلة عرض وتفاوض فقط؛ فمن دون حدود قد يستهلك تركيز الشركة الناشئة ومعنوياتها وقدرتها على البقاء.",
     },
   },
+  {
+    title: "Advice for First Time Founders",
+    author: "Y Combinator",
+    source: "Y Combinator",
+    year: "2018",
+    url: "https://www.ycombinator.com/blog/advice-for-first-time-founders",
+    tags: {
+      fa: ["بنیان‌گذار", "یادگیری", "استخدام"],
+      en: ["founders", "learning", "hiring"],
+      ar: ["المؤسسون", "التعلم", "التوظيف"],
+    },
+    summary: {
+      fa: "چند درس عملی از تجربه بنیان‌گذارهای تازه‌کار: به‌جای تکیه بر قیاس‌های آماده، از مشتری یاد بگیرید، هزینه تصمیم‌ها را بسنجید و هر هفته یک چیز را بهتر کنید.",
+      en: "Practical lessons from first-time founders: learn from customers instead of borrowed analogies, price decisions by their real cost, and improve one thing every week.",
+      ar: "دروس عملية من مؤسسين لأول مرة: تعلم من العملاء بدلا من القياسات الجاهزة، واحسب التكلفة الحقيقية للقرارات، وحسن شيئا واحدا كل أسبوع.",
+    },
+  },
 ];
 
 const articleEssays = {
@@ -3321,6 +3338,77 @@ const articleEssays = {
         "الإيراد الصغير قد يشتري وقتا وقوة تفاوضية.",
         "يصبح الرفض مفيدا عندما يتحول إلى تشخيص محدد.",
         "تحمي نقطة التوقف الشركة من تحول جمع التمويل إلى هويتها كلها.",
+      ],
+    },
+  },
+  "Advice for First Time Founders": {
+    fa: {
+      paragraphs: [
+        "تجربه بنیان‌گذار تازه‌کار معمولاً با کمبود اطلاعات شروع نمی‌شود؛ با زیادیِ توصیه شروع می‌شود. هر سرمایه‌گذار، مشاور یا دوست باتجربه یک قیاس آماده دارد و می‌خواهد شرکت را در همان قالب توضیح دهد. این میان‌بُرها گاهی مفیدند، اما اگر زود به مدل تصمیم‌گیری تبدیل شوند، تیم به‌جای فهمیدن واقعیت، تلاش می‌کند شبیه نمونه‌ای رفتار کند که هنوز نمی‌داند واقعاً به آن شباهت دارد. سؤال اول باید این باشد: کاربر چه کاری را به‌طور واقعی با محصول انجام می‌دهد و چه چیزی حاضر است برایش تغییر دهد؟",
+        "یادگیری از مشتری به معنای جمع‌کردن تعریف و تأیید نیست. مشتری باید با رفتار و محدودیت‌هایش به تیم نشان دهد مسئله کجاست، چه چیزی ارزش دارد و کدام فرضیه اشتباه است. برای این کار، مصاحبه را به مشاهده یک کار مشخص وصل کنید: از کاربر بخواهید فرایند واقعی را انجام دهد، لحظه توقف را ببینید و بپرسید آخرین بار چگونه این مشکل را حل کرده است. پاسخ‌های کلی را به یک تصمیم قابل آزمایش تبدیل کنید؛ مثلاً حذف یک مرحله، تغییر پیام یا بازنویسی پیشنهاد ارزش.",
+        "استخدام و استفاده از نیروی کمکی هم باید با همین دقت پیش برود. کار مبهم را نمی‌توان با انبوهی نیروی ارزان حل کرد؛ ارتباط، مدیریت و بازبینی آن گاهی بیشتر از خروجی ارزش می‌گیرد. پیش از استخدام، خودتان یک نمونه واقعی از کار را انجام دهید و نتیجه قابل قبول را تعریف کنید. اگر نمی‌دانید این نقش دقیقاً چه مسئله‌ای را حل می‌کند، احتمالاً هنوز برای استخدام آماده نیستید. تیم کوچک‌تر با مسئولیت روشن می‌تواند از تیم بزرگ‌تری که فقط کارهای مبهم را پخش می‌کند، بهره‌ورتر باشد.",
+        "حقوق، مشاور، پیمانکار و هر تعهد دیگر، فقط هزینه مالی ندارد؛ هزینه تمرکز و مسئولیت هم دارد. وقتی به کسی حقوق می‌دهید، بقا و درآمد او را به توان پرداخت شرکت گره می‌زنید. بنابراین تصمیم استخدام را با هیجان رشد یا فشار اطرافیان نگیرید. برای هر نقش، خروجی، زمان رسیدن به آن و هزینه شکست را روی یک برگه بنویسید. اگر نتیجه قابل اندازه‌گیری نیست، ابتدا یک همکاری محدود و آزمایشی طراحی کنید، نه یک تعهد دائمی.",
+        "بنیان‌گذار لازم نیست از روز اول در همه مهارت‌ها عالی باشد، اما باید حاضر باشد مهارت‌های حیاتی را یاد بگیرد. فروش فقط ارائه محصول نیست؛ گوش دادن، ساختن رابطه، پیگیری منظم و فهمیدن مانع تصمیم مشتری است. همین مهارت در استخدام، جذب سرمایه و مذاکره هم به کار می‌آید. اگر تیم فنی است، فروش را به‌سرعت به فردی بیرون از مسئله واگذار نکنید؛ ابتدا خودتان چند چرخه فروش را انجام دهید تا بفهمید چه کسی، چرا و در چه لحظه‌ای ارزش را می‌خرد.",
+        "پیشرفت پایدار بیشتر شبیه مجموعه‌ای از دوره‌های فشار و بازیابی است تا فرسودگی مداوم. کار طولانیِ بی‌وقفه کیفیت تصمیم را پایین می‌آورد و نشانه‌های مسئله را پنهان می‌کند. هر هفته یک نقص در روش کار خود یا شرکت پیدا کنید و فقط همان را یک درصد بهتر کنید: یک جلسه حذف شود، یک شاخص روشن‌تر شود، یک مرحله فروش کوتاه‌تر شود یا یک کاربر سریع‌تر به ارزش برسد. این بهبود کوچک وقتی ارزش دارد که در رفتار تیم و نتیجه کار دیده شود، نه فقط در فهرست اهداف.",
+      ],
+      takeaways: [
+        "قیاس‌های آماده را فرضیه بدانید و تصمیم اصلی را از رفتار واقعی مشتری بگیرید.",
+        "مصاحبه را به مشاهده یک کار واقعی و یک آزمایش مشخص وصل کنید.",
+        "پیش از استخدام، خودتان نمونه کار را انجام دهید و خروجی قابل قبول را تعریف کنید.",
+        "هر تعهد نیروی انسانی را با هزینه مالی، هزینه تمرکز و هزینه شکست بسنجید.",
+        "مهارت‌های حیاتی مثل فروش را پیش از واگذاری، از نزدیک یاد بگیرید.",
+        "هر هفته فقط یک نقص قابل مشاهده در سیستم کار را بهتر کنید و اثرش را بررسی کنید.",
+      ],
+      advice: [
+        "این هفته یک قیاس رایج درباره شرکت را بنویسید و یک مشاهده مشتری برای تأیید یا رد آن جمع کنید.",
+        "برای یک نقش احتمالی، نمونه کار، معیار نتیجه و هزینه شکست را در یک صفحه مشخص کنید.",
+        "سه گفت‌وگوی مشتری را به مشاهده انجام یک کار واقعی تبدیل کنید، نه فقط پرسش درباره علاقه.",
+        "یک تعهد هزینه‌زا را که خروجی یا مالک مشخص ندارد، متوقف یا آزمایشی کنید.",
+        "در مرور هفتگی، یک بهبود کوچک را با یک رفتار یا عدد قابل مشاهده ثبت کنید.",
+      ],
+    },
+    en: {
+      paragraphs: [
+        "First-time founders rarely suffer from a lack of advice. They suffer from too many ready-made analogies. Investors, mentors, and friends may describe a company as one familiar business applied to another market. That shortcut can help generate questions, but it becomes dangerous when the team starts shaping the company to fit the analogy before it understands what customers actually do. The first operating question is simpler: what real job does a customer perform with the product, and what are they willing to change to get the result?",
+        "Learning from customers is not collecting compliments. It means watching the work, finding the constraint, and turning a specific observation into a test. Ask a customer to complete the real task, notice where they stop, and compare their behavior with their explanation. Then change one step, message, or offer and observe again. Customer language is useful when it changes a decision; otherwise it is only a reassuring conversation.",
+        "Hiring and outsourcing deserve the same discipline. Vague work is not made clear by adding more inexpensive people; coordination and review can cost more than the output. Before hiring, do a small version of the work yourself and define what a good result looks like. Treat salary, contractors, and advisors as commitments that consume cash, attention, and responsibility. A smaller team with explicit ownership can outperform a larger team that merely distributes ambiguity.",
+        "A founder does not need every skill on day one, but must be willing to learn the skills that control the company. Sales is listening, relationship-building, process, and follow-through—not just presenting a product. The same capability helps with hiring and fundraising. Sustainable progress also requires recovery: every week, identify one operating weakness and make it measurably better. A one-percent improvement matters when it changes behavior, customer completion, or the quality of the next decision.",
+      ],
+      takeaways: [
+        "Treat outside analogies as hypotheses and let customer behavior decide.",
+        "Turn customer conversations into observed tasks and concrete experiments.",
+        "Do a sample of a role yourself before hiring for it.",
+        "Price every people decision by cash, attention, and failure cost.",
+        "Learn critical founder skills, especially sales, before delegating them.",
+        "Improve one visible operating weakness each week and check the result.",
+      ],
+      advice: [
+        "Write down one popular analogy about the company and collect one customer observation that could disprove it.",
+        "For a possible hire, define the sample task, success measure, and cost of failure on one page.",
+        "Replace three opinion-based customer calls with observation of the real task.",
+        "Pause one commitment that has no clear owner, output, or review date.",
+      ],
+    },
+    ar: {
+      paragraphs: [
+        "نادرا ما يعاني المؤسس لأول مرة من نقص النصائح؛ المشكلة غالبا هي كثرة القياسات الجاهزة. قد يصف المستثمر أو المرشد الشركة بأنها نسخة من عمل معروف في سوق آخر. يمكن أن يساعد ذلك على طرح الأسئلة، لكنه يصبح خطرا عندما يبدأ الفريق بتشكيل الشركة لتشبه القياس قبل أن يفهم ما يفعله العملاء فعلا. السؤال التشغيلي الأول أبسط: ما المهمة الحقيقية التي ينفذها العميل بالمنتج، وما الذي يقبل تغييره للحصول على النتيجة؟",
+        "التعلم من العملاء لا يعني جمع الإطراء. يعني مشاهدة العمل، واكتشاف العائق، وتحويل الملاحظة المحددة إلى اختبار. اطلب من العميل تنفيذ المهمة الحقيقية، ولاحظ أين يتوقف، ثم قارن السلوك بالشرح الذي يقدمه. غيّر خطوة أو رسالة أو عرضا واحدا، ثم راقب من جديد. تصبح لغة العميل مفيدة عندما تغير قرارا؛ وإلا فهي محادثة مطمئنة فقط.",
+        "يحتاج التوظيف والاستعانة بالمصادر الخارجية إلى الانضباط نفسه. لا يحل توزيع العمل الغامض بإضافة أشخاص أكثر وبأجر أقل؛ فقد تكلف المتابعة والتنسيق أكثر من الناتج. نفذ نسخة صغيرة من العمل بنفسك قبل التوظيف، وحدد شكل النتيجة الجيدة. احسب الراتب والمستشار والمقاول كالتزامات تستهلك المال والانتباه والمسؤولية. قد يتفوق فريق أصغر بملكية واضحة على فريق أكبر يوزع الغموض فقط.",
+        "لا يحتاج المؤسس إلى إتقان كل المهارات في اليوم الأول، لكنه يحتاج إلى تعلم المهارات التي تتحكم في الشركة. البيع هو الإصغاء وبناء العلاقة والانضباط والمتابعة، وليس عرض المنتج فقط؛ وهذه القدرة نفسها تفيد في التوظيف وجمع التمويل. ويتطلب التقدم المستدام التعافي أيضا: حدد كل أسبوع ضعفا تشغيليا واحدا وحسنه بطريقة يمكن ملاحظتها. يصبح التحسن الصغير مهما عندما يغير السلوك أو إكمال العميل للمهمة أو جودة القرار التالي.",
+      ],
+      takeaways: [
+        "اعتبر القياسات الخارجية فرضيات ودع سلوك العميل يحسم القرار.",
+        "حوّل محادثات العملاء إلى مهام ملحوظة وتجارب محددة.",
+        "نفذ عينة من العمل بنفسك قبل التوظيف له.",
+        "احسب تكلفة قرار الأفراد بالمال والانتباه وكلفة الفشل.",
+        "تعلم مهارات المؤسس الأساسية، وخصوصا البيع، قبل تفويضها.",
+        "حسن ضعفا تشغيليا واضحا كل أسبوع وتحقق من النتيجة.",
+      ],
+      advice: [
+        "اكتب قياسا شائعا عن الشركة واجمع ملاحظة واحدة من عميل يمكن أن تنفيه.",
+        "حدد المهمة التجريبية ومقياس النجاح وكلفة الفشل لأي وظيفة محتملة في صفحة واحدة.",
+        "استبدل ثلاث مكالمات تعتمد على الآراء بمشاهدة تنفيذ المهمة الحقيقية.",
+        "أوقف التزاما لا يملك مالكا أو ناتجا أو موعد مراجعة واضحا.",
       ],
     },
   },

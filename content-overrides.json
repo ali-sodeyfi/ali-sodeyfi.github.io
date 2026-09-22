@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-21T02:20:00Z",
+  "updatedAt": "2026-09-22T02:20:00Z",
   "translations": {
     "fa": {
       "documentTitle": "علی سدیفی | یادداشت‌هایی درباره ساخت کسب‌وکار",
@@ -1406,6 +1406,55 @@
           "fa": "اسلاید ۱: جذب سرمایه نباید شرکت را متوقف کند.\nاسلاید ۲: محصول و مشتری را جلو ببرید، برای بدون سرمایه هم برنامه داشته باشید و نقطه توقف تعیین کنید.\nاسلاید ۳: Paul Graham — https://paulgraham.com/fundraising.html | اقتباس: https://alisodeyfi.ir/?article=a-fundraising-survival-guide&lang=fa#daily-article-reader",
           "en": "Slide 1: fundraising must not stop the company.\nSlide 2: keep product and customer work moving, plan without the round, and set a stop point.\nSlide 3: Paul Graham — https://paulgraham.com/fundraising.html | Adaptation: https://alisodeyfi.ir/?article=a-fundraising-survival-guide&lang=en#daily-article-reader",
           "ar": "الشريحة 1: يجب ألا يوقف جمع التمويل الشركة.\nالشريحة 2: واصل عمل المنتج والعملاء، وخطط من دون الجولة، وحدد نقطة توقف.\nالشريحة 3: Paul Graham — https://paulgraham.com/fundraising.html | المعالجة: https://alisodeyfi.ir/?article=a-fundraising-survival-guide&lang=ar#daily-article-reader"
+        }
+      },
+      {
+        "id": "2026-09-22-site-advice-for-first-time-founders",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "advice-for-first-time-founders",
+        "publishAt": "2026-09-22T05:50:00+03:30",
+        "status": "published",
+        "publishedAt": "2026-09-22T05:50:00+03:30"
+      },
+      {
+        "id": "2026-09-22-linkedin-advice-for-first-time-founders",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "advice-for-first-time-founders",
+        "publishAt": "2026-09-22T12:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-09-22T05:50:00+03:30",
+        "note": "Draft only. Verified account/API access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "پیش‌نویس لینکدین: قیاس آماده جای یادگیری از مشتری را نمی‌گیرد",
+          "en": "LinkedIn draft: a borrowed analogy is not customer learning",
+          "ar": "مسودة لينكدإن: القياس الجاهز ليس تعلما من العميل"
+        },
+        "body": {
+          "fa": "قیاس‌های آماده برای بنیان‌گذار تازه‌کار فقط فرضیه‌اند؛ تصمیم باید از رفتار واقعی مشتری بیاید.\nپیش از استخدام یا تعهد هزینه‌زا، کار واقعی را در مقیاس کوچک انجام دهید و خروجی قابل قبول را روشن کنید.\nاین هفته یک گفت‌وگوی نظری را به مشاهده یک کار واقعی و یک آزمایش مشخص تبدیل کنید.\nمنبع: Y Combinator — https://www.ycombinator.com/blog/advice-for-first-time-founders\nhttps://alisodeyfi.ir/?article=advice-for-first-time-founders&lang=fa#daily-article-reader",
+          "en": "Ready-made analogies are hypotheses for a first-time founder; decisions should come from observed customer behavior.\nBefore hiring or adding a costly commitment, do a small version of the work and define the acceptable output.\nThis week, turn one opinion-based conversation into an observed task and a concrete experiment.\nSource: Y Combinator — https://www.ycombinator.com/blog/advice-for-first-time-founders\nhttps://alisodeyfi.ir/?article=advice-for-first-time-founders&lang=en#daily-article-reader",
+          "ar": "القياسات الجاهزة فرضيات للمؤسس لأول مرة؛ يجب أن تأتي القرارات من سلوك العميل الملاحظ.\nقبل التوظيف أو إضافة التزام مكلف، نفذ نسخة صغيرة من العمل وحدد الناتج المقبول.\nهذا الأسبوع حوّل محادثة تعتمد على الآراء إلى مهمة ملحوظة وتجربة محددة.\nالمصدر: Y Combinator — https://www.ycombinator.com/blog/advice-for-first-time-founders\nhttps://alisodeyfi.ir/?article=advice-for-first-time-founders&lang=ar#daily-article-reader"
+        }
+      },
+      {
+        "id": "2026-09-22-story-advice-for-first-time-founders",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "advice-for-first-time-founders",
+        "publishAt": "2026-09-22T20:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-09-22T05:50:00+03:30",
+        "note": "Three-slide draft only. Verified account/API access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "پیش‌نمایش استوری: از مشتری یاد بگیر، نه از قیاس آماده",
+          "en": "Story preview: learn from customers, not analogies",
+          "ar": "معاينة الستوري: تعلم من العملاء لا من القياسات"
+        },
+        "body": {
+          "fa": "اسلاید ۱: قیاس آماده، جای مشاهده مشتری را نمی‌گیرد.\nاسلاید ۲: کار واقعی را ببین، یک فرضیه را آزمایش کن و پیش از استخدام خروجی را روشن کن.\nاسلاید ۳: Y Combinator — https://www.ycombinator.com/blog/advice-for-first-time-founders | اقتباس: https://alisodeyfi.ir/?article=advice-for-first-time-founders&lang=fa#daily-article-reader",
+          "en": "Slide 1: an analogy cannot replace observing customers.\nSlide 2: watch the real task, test one hypothesis, and define the output before hiring.\nSlide 3: Y Combinator — https://www.ycombinator.com/blog/advice-for-first-time-founders | Adaptation: https://alisodeyfi.ir/?article=advice-for-first-time-founders&lang=en#daily-article-reader",
+          "ar": "الشريحة ۱: لا يمكن للقياس أن يحل محل مشاهدة العملاء.\nالشريحة ۲: راقب المهمة الحقيقية، واختبر فرضية واحدة، وحدد الناتج قبل التوظيف.\nالشريحة ۳: Y Combinator — https://www.ycombinator.com/blog/advice-for-first-time-founders | المعالجة: https://alisodeyfi.ir/?article=advice-for-first-time-founders&lang=ar#daily-article-reader"
         }
       }
     ],
