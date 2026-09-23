@@ -82,8 +82,10 @@ const translations = {
       "در EduTech، فاصله بین ایده آموزشی و کسب‌وکار پایدار وقتی کم می‌شد که نیاز یادگیرنده، مدل درآمد و اجرای روزانه هم‌زمان دیده می‌شد.",
     workSixYear: "تجربه حرفه‌ای",
     workSixTitle: "حیاط",
-    workSixDescription: "حیاط؛ اطلاعات تکمیلی این تجربه در وب‌سایت رسمی و صفحه اینستاگرام آن در دسترس است.",
-    workSixBody: "برای آشنایی بیشتر با حیاط، به وب‌سایت رسمی یا صفحه اینستاگرام آن سر بزنید.",
+    workSixDescription:
+      "حیاط یک محیط یادگیری و تجربه برای رشد کودک است؛ جایی که طبیعت، بازی، ساختن و یادگیری عملی کنار هم قرار می‌گیرند.",
+    workSixBody:
+      "کودک در باغچه، گلخانه، باغ حیوانات و کارگاه‌های آشپزی و کار با چوب تجربه می‌کند، چیزی می‌سازد و با دیگران یاد می‌گیرد؛ برنامه‌های والدین هم این تجربه را به خانواده گسترش می‌دهند.",
     workWebsiteLabel: "وب‌سایت",
     workInstagramLabel: "اینستاگرام",
     workSixWebsite: "وب‌سایت رسمی",
@@ -219,8 +221,10 @@ const translations = {
       "At EduTech, the gap between an education idea and a sustainable business narrowed only when learner need, revenue model, and daily execution were considered together.",
     workSixYear: "Professional experience",
     workSixTitle: "Hayat",
-    workSixDescription: "Hayat; more information about this experience is available on its official website and Instagram page.",
-    workSixBody: "Visit Hayat's official website or Instagram page for more context about the organization.",
+    workSixDescription:
+      "Hayat is an experiential learning environment for children, bringing nature, play, making, and hands-on learning together.",
+    workSixBody:
+      "Children learn through gardens, animals, a greenhouse, cooking and woodworking workshops, and shared activities; parent programs extend that experience to families.",
     workWebsiteLabel: "Website",
     workInstagramLabel: "Instagram",
     workSixWebsite: "Official website",
@@ -356,8 +360,10 @@ const translations = {
       "في EduTech، كان تضييق المسافة بين الفكرة التعليمية والعمل المستدام يحدث عندما ننظر معا إلى حاجة المتعلم ونموذج الإيراد والتنفيذ اليومي.",
     workSixYear: "خبرة مهنية",
     workSixTitle: "حياط",
-    workSixDescription: "حياط؛ تتوفر معلومات إضافية عن هذه التجربة في الموقع الرسمي وصفحة إنستغرام.",
-    workSixBody: "للتعرف أكثر إلى حياط، يمكنك زيارة موقعها الرسمي أو صفحتها على إنستغرام.",
+    workSixDescription:
+      "حياط مساحة تعليمية وتجريبية لنمو الطفل، تجمع بين الطبيعة واللعب وصنع الأشياء والتعلم العملي.",
+    workSixBody:
+      "يتعلم الأطفال عبر الحدائق والحيوانات والبيت الزجاجي وورش الطبخ والأعمال الخشبية والأنشطة الجماعية، وتمتد التجربة إلى العائلات عبر برامج الوالدين.",
     workWebsiteLabel: "الموقع",
     workInstagramLabel: "إنستغرام",
     workSixWebsite: "الموقع الرسمي",
