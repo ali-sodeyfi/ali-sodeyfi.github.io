@@ -1110,6 +1110,23 @@ const articleCatalog = [
       ar: "دروس عملية من مؤسسين لأول مرة: تعلم من العملاء بدلا من القياسات الجاهزة، واحسب التكلفة الحقيقية للقرارات، وحسن شيئا واحدا كل أسبوع.",
     },
   },
+  {
+    title: "How to Make Wealth",
+    author: "Paul Graham",
+    source: "Paul Graham",
+    year: "2004",
+    url: "https://paulgraham.com/wealth.html",
+    tags: {
+      fa: ["ارزش‌آفرینی", "اهرم", "بنیان‌گذار"],
+      en: ["value creation", "leverage", "founders"],
+      ar: ["خلق القيمة", "الرافعة", "المؤسسون"],
+    },
+    summary: {
+      fa: "ثروت در کسب‌وکار از پول شروع نمی‌شود؛ از ساختن چیزی شروع می‌شود که مردم واقعاً می‌خواهند، با تیمی کوچک و اهرمی که اثر تصمیم‌های خوب را چند برابر کند.",
+      en: "Business wealth starts with creating something people genuinely want, then combining a small team with leverage that multiplies good decisions.",
+      ar: "تبدأ الثروة في الأعمال بخلق شيء يريده الناس فعلا، ثم جمع فريق صغير مع رافعة تضاعف أثر القرارات الجيدة.",
+    },
+  },
 ];
 
 const articleEssays = {
@@ -3415,6 +3432,80 @@ const articleEssays = {
         "حدد المهمة التجريبية ومقياس النجاح وكلفة الفشل لأي وظيفة محتملة في صفحة واحدة.",
         "استبدل ثلاث مكالمات تعتمد على الآراء بمشاهدة تنفيذ المهمة الحقيقية.",
         "أوقف التزاما لا يملك مالكا أو ناتجا أو موعد مراجعة واضحا.",
+      ],
+    },
+  },
+  "How to Make Wealth": {
+    fa: {
+      paragraphs: [
+        "این مقاله با یک جابه‌جایی مفهومی شروع می‌کند: کسب‌وکار قرار نیست صرفاً پول جابه‌جا کند؛ باید چیزی بسازد که مردم واقعاً بخواهند. پول معمولاً علامت و واسطه این ارزش است، نه خود ارزش. برای تیم نوپا، این تفاوت مهم است چون توجه را از ظاهر درآمد به مسئله‌ای برمی‌گرداند که مشتری حاضر است برای حل شدنش وقت یا پول بدهد. سؤال اجرایی این نیست که «چطور پول بیشتری بگیریم؟»؛ این است که «چه نتیجه‌ای را برای چه کسی بهتر و قابل‌اعتمادتر می‌سازیم؟»",
+        "ساختن ارزش با علاقه شخصی یکی نیست. ممکن است تیم به موضوعی علاقه‌مند باشد، اما این علاقه هنوز نشان نمی‌دهد بازار به آن نیاز دارد. از طرف دیگر، مسئله‌ای که مشتری برایش هزینه می‌کند همیشه جذاب‌ترین مسئله برای سازنده نیست. بنابراین در هر ایده، بین چیزی که خودمان دوست داریم و چیزی که دیگران برایش تغییری واقعی در رفتارشان ایجاد می‌کنند فاصله بگذارید. گفت‌وگو با مشتری کافی نیست؛ باید ببینید امروز این مشکل را چگونه حل می‌کند، چه چیزی را کنار می‌گذارد و کجا حاضر است تعهد بدهد.",
+        "برای اینکه اثر کار دیده شود، دو چیز لازم است: اندازه‌گیری و اهرم. اندازه‌گیری یعنی بتوانیم بفهمیم یک تصمیم، ویژگی یا فرایند چه تغییری در رفتار مشتری یا درآمد ایجاد کرده است. اهرم یعنی یک راه‌حل خوب فقط به تعداد ساعت‌های تیم وابسته نباشد و بتواند برای کاربران بیشتری تکرار شود. یک محصول نرم‌افزاری، فرایند استاندارد، شبکه توزیع یا روش بهتر انجام کار، وقتی بارها به کار می‌آید، اثر یک تصمیم کوچک را بزرگ می‌کند. اگر هیچ معیاری برای نتیجه نداریم یا هر مشتری به کار دستی تازه‌ای نیاز دارد، هنوز اهرم واقعی ساخته نشده است.",
+        "تیم کوچک فقط برای کم کردن هزینه نیست. در تیم کوچک‌تر، فاصله میان کار هر فرد و نتیجه شرکت کوتاه‌تر است؛ تصمیم‌ها زودتر دیده می‌شوند و مسئولیت کمتر در لایه‌های هماهنگی گم می‌شود. اما کوچک بودن به‌تنهایی مزیت نیست. تیم باید از افرادی تشکیل شود که هم مسئله را جدی می‌گیرند و هم توان حل آن را دارند. پیش از اضافه کردن نفرات، روشن کنید کدام خروجی مالک ندارد، چه کاری تکرارپذیر شده و کدام گلوگاه با یک نفر جدید واقعاً حل می‌شود. استخدام برای پخش کردن ابهام، اهرم نیست.",
+        "سختی مسئله می‌تواند راهنمای انتخاب باشد. اگر دو مسیر ارزش مشابهی دارند، مسیری که اجرای آن برای رقبا سخت‌تر است احتمالاً دفاع‌پذیری بیشتری می‌سازد. این به معنی عاشق شدن به پیچیدگی نیست؛ مسئله سخت باید به نیاز واقعی وصل باشد و هر مرحله دشوار باید یادگیری یا مزیت قابل‌مشاهده تولید کند. یک تیم نوپا می‌تواند با انتخاب زمینی کار کند که شرکت‌های بزرگ به‌دلیل کندی، ساختار یا عادت‌های قدیمی کمتر مایل‌اند وارد آن شوند. سختیِ مفید، مانعی است که هم‌زمان ارزش مشتری را بیشتر می‌کند.",
+        "تمرکز هم بخشی از اهرم است. شرکت در شروع با هر فرصت، شریک، ویژگی یا درخواست مشتری نباید مسیرش را عوض کند. کارهایی را انتخاب کنید که هم به نتیجه اصلی نزدیک‌اند و هم امکان یادگیری سریع دارند. هر هفته یک رابطه روشن میان کار تیم و رفتار مشتری بنویسید؛ اگر این رابطه را نمی‌توان توضیح داد، احتمالاً آن کار بیشتر شبیه فعالیت است تا پیشرفت. حذف کار کم‌اثر، به‌اندازه افزودن قابلیت جدید، ظرفیت ساختن ایجاد می‌کند.",
+        "در نهایت، ارزش‌آفرینی را باید در چرخه‌های کوتاه دید، نه در داستانی که بعداً درباره شرکت می‌سازیم. یک مسئله مشخص انتخاب کنید، نسخه محدود راه‌حل را عرضه کنید، نتیجه را اندازه بگیرید و تصمیم بعدی را بر اساس شواهد تغییر دهید. درآمد، رشد یا سرمایه زمانی معنا پیدا می‌کنند که به کار مفیدی وصل باشند که برای مشتری تکرارپذیر شده است. هدف روزانه، بزرگ جلوه کردن نیست؛ ساختن چیزی است که اگر فردا حذف شود، مشتری واقعاً نبودنش را حس کند.",
+      ],
+      advice: [
+        "برای هر ایده بنویسید مشتری امروز این مشکل را چگونه حل می‌کند و چه تعهد قابل‌مشاهده‌ای حاضر است بدهد.",
+        "یک سنجه اصلی انتخاب کنید که بتواند تصمیم محصول یا فروش هفته بعد را تغییر دهد.",
+        "هر کار مهم را با این سؤال بررسی کنید: آیا خروجی آن برای مشتری بعدی هم قابل‌تکرار است؟",
+        "پیش از استخدام، نمونه کوچک کار را اجرا کنید و خروجی قابل‌قبول و مالک آن را روشن کنید.",
+        "میان دو مسیر هم‌ارزش، مسیری را انتخاب کنید که حل مسئله در آن برای رقیب سخت‌تر اما برای مشتری مفیدتر است.",
+      ],
+      takeaways: [
+        "پول را نشانه ارزش بدان، نه جایگزین ساختن چیزی که مردم می‌خواهند.",
+        "برای تصمیم‌ها هم‌زمان معیار نتیجه و اهرم تکرارپذیری تعریف کن.",
+        "تیم کوچک زمانی مزیت است که مسئولیت و خروجی هر نفر قابل‌مشاهده باشد.",
+        "سختی مفید می‌تواند مزیت دفاعی بسازد؛ پیچیدگی بی‌هدف فقط سرعت را کم می‌کند.",
+        "هر هفته کارهایی را حذف کن که رابطه روشنی با رفتار مشتری یا بقای شرکت ندارند.",
+        "چرخه عرضه، اندازه‌گیری و اصلاح را کوتاه نگه دار تا داستان شرکت از شواهد جلو نزند.",
+      ],
+    },
+    en: {
+      paragraphs: [
+        "The essay begins with a useful shift in language: a business is not mainly moving money around; it is making something people want. Money is usually the signal and medium for that value, not the value itself. For a young company, this keeps attention on the result a customer will spend time, money, or trust to obtain. The operating question is not simply how to collect more money, but what outcome the team can make better and more reliably for whom.",
+        "Creating value is not the same as pursuing personal taste. A founder may love a topic that customers do not prioritize, while a painful paid problem may look unglamorous to the builder. Test the gap by studying current behavior: how is the problem solved today, what gets abandoned, and where will a customer make a real commitment? Conversations help, but observable action is stronger evidence than enthusiasm.",
+        "Two ingredients make work economically powerful: measurement and leverage. Measurement connects a decision, feature, or process to a change in customer behavior or business results. Leverage lets a good solution work repeatedly without adding the same amount of labor each time. Software, a repeatable process, a distribution system, or a better technique can multiply the effect of one good decision. Without a meaningful measure or repeatability, the company may be busy without building leverage.",
+        "Small teams are valuable not only because they cost less. They shorten the distance between an individual’s work and the company’s result, so decisions and responsibility stay visible. Smallness alone is not enough; the group must be capable and aligned around a hard, useful problem. Before hiring, identify the missing output, the real bottleneck, and the work that has become repeatable. Hiring to spread ambiguity is not leverage.",
+        "Difficulty can guide prioritization. When two paths create similar value, the one that is harder for competitors to copy may create stronger protection. This is not a celebration of complexity. The hard part must connect to a real customer need and produce learning or advantage. A startup can often choose terrain where larger companies are slowed by structure, habits, or coordination. Useful difficulty raises customer value while increasing the cost of imitation.",
+      ],
+      advice: [
+        "Write down how the customer solves the problem today and what observable commitment they will make.",
+        "Choose one metric that can change next week’s product or sales decision.",
+        "Ask whether each important task creates an output that can serve the next customer too.",
+        "Run a small sample of a role before hiring and define its acceptable output.",
+        "When value is similar, prefer the path that is harder to copy and more useful to the customer.",
+      ],
+      takeaways: [
+        "Treat money as evidence of value, not a substitute for creating something wanted.",
+        "Define both a result measure and a repeatability lever for major decisions.",
+        "Small teams win when ownership and output remain visible.",
+        "Useful difficulty can create defensibility; needless complexity only slows learning.",
+        "Remove work that has no clear link to customer behavior or company survival.",
+      ],
+    },
+    ar: {
+      paragraphs: [
+        "يبدأ المقال بتحويل مفيد في طريقة التفكير: الشركة لا تنقل المال فقط، بل تصنع شيئا يريده الناس. المال غالبا إشارة إلى هذه القيمة ووسيلة لتبادلها، وليس القيمة نفسها. بالنسبة إلى الشركة الناشئة، يعيد هذا السؤال إلى مكانه الصحيح: ما النتيجة التي نصنعها بصورة أفضل وأكثر موثوقية، ولأي عميل؟",
+        "خلق القيمة لا يساوي متابعة ذوق المؤسس. قد يحب الفريق موضوعا لا يراه العملاء أولوية، بينما تكون المشكلة التي يدفع الناس لحلها أقل بريقا. لذلك افحص السلوك الحالي: كيف يحل العميل المشكلة اليوم، ماذا يتخلى عنه، وأين يقبل التزاما حقيقيا؟ المحادثة مفيدة، لكن الفعل الملحوظ أقوى من الحماس العام.",
+        "تحتاج القوة الاقتصادية للعمل إلى القياس والرافعة. القياس يربط القرار أو الميزة بتغير في سلوك العميل أو نتيجة الشركة. والرافعة تجعل الحل الجيد قابلا للتكرار من دون إضافة القدر نفسه من الجهد كل مرة. قد تكون الرافعة برمجية أو عملية قابلة للتكرار أو قناة توزيع أو طريقة أفضل للعمل. إذا لم يوجد مقياس مهم أو قابلية تكرار، فقد يكون الفريق مشغولا من دون أن يبني ميزة.",
+        "الفريق الصغير مفيد لأنه يقرب المسافة بين عمل الفرد ونتيجة الشركة، لا لأنه أقل تكلفة فقط. لكن الصغر وحده ليس ميزة؛ يجب أن يضم الفريق أشخاصا قادرين ومتوافقين حول مشكلة صعبة ومفيدة. قبل التوظيف، حدد الناتج المفقود والاختناق الحقيقي والعمل الذي أصبح قابلا للتكرار. توظيف أشخاص لتوزيع الغموض ليس رافعة.",
+        "يمكن أن تكون الصعوبة دليلا على الأولوية. إذا أنتج مساران قيمة متقاربة، فقد يمنح المسار الأصعب على المنافسين تقليده حماية أقوى. لا يعني ذلك تمجيد التعقيد؛ يجب أن ترتبط الصعوبة بحاجة حقيقية وأن تنتج تعلما أو ميزة. اختر أحيانا أرضا تبطئ فيها البنية والعادات الشركات الأكبر، بشرط أن تزيد الصعوبة قيمة العميل أيضا.",
+      ],
+      advice: [
+        "اكتب كيف يحل العميل المشكلة اليوم وما الالتزام الملحوظ الذي سيقدمه.",
+        "اختر مقياسا واحدا يمكنه تغيير قرار المنتج أو المبيعات في الأسبوع المقبل.",
+        "اسأل هل ينتج كل عمل مهم مخرجا قابلا للاستخدام مع العميل التالي أيضا.",
+        "نفذ عينة صغيرة من الدور قبل التوظيف وحدد الناتج المقبول.",
+        "عندما تتقارب القيمة، فضل المسار الأصعب تقليدا والأكثر فائدة للعميل.",
+      ],
+      takeaways: [
+        "اعتبر المال دليلا على القيمة لا بديلا عن خلق شيء يريده الناس.",
+        "حدد لكل قرار مهم مقياس نتيجة ورافعة تكرار.",
+        "ينجح الفريق الصغير عندما تبقى الملكية والمخرجات واضحتين.",
+        "قد تصنع الصعوبة المفيدة حماية؛ أما التعقيد غير الضروري فيبطئ التعلم.",
+        "احذف العمل الذي لا يرتبط بوضوح بسلوك العميل أو بقاء الشركة.",
       ],
     },
   },

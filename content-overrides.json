@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-22T02:20:00Z",
+  "updatedAt": "2026-09-23T02:20:00Z",
   "translations": {
     "fa": {
       "documentTitle": "علی سدیفی | یادداشت‌هایی درباره ساخت کسب‌وکار",
@@ -1473,6 +1473,55 @@
           "fa": "اسلاید ۱: قیاس آماده، جای مشاهده مشتری را نمی‌گیرد.\nاسلاید ۲: کار واقعی را ببین، یک فرضیه را آزمایش کن و پیش از استخدام خروجی را روشن کن.\nاسلاید ۳: Y Combinator — https://www.ycombinator.com/blog/advice-for-first-time-founders | اقتباس: https://alisodeyfi.ir/?article=advice-for-first-time-founders&lang=fa#daily-article-reader",
           "en": "Slide 1: an analogy cannot replace observing customers.\nSlide 2: watch the real task, test one hypothesis, and define the output before hiring.\nSlide 3: Y Combinator — https://www.ycombinator.com/blog/advice-for-first-time-founders | Adaptation: https://alisodeyfi.ir/?article=advice-for-first-time-founders&lang=en#daily-article-reader",
           "ar": "الشريحة ۱: لا يمكن للقياس أن يحل محل مشاهدة العملاء.\nالشريحة ۲: راقب المهمة الحقيقية، واختبر فرضية واحدة، وحدد الناتج قبل التوظيف.\nالشريحة ۳: Y Combinator — https://www.ycombinator.com/blog/advice-for-first-time-founders | المعالجة: https://alisodeyfi.ir/?article=advice-for-first-time-founders&lang=ar#daily-article-reader"
+        }
+      },
+      {
+        "id": "2026-09-23-site-how-to-make-wealth",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "how-to-make-wealth",
+        "publishAt": "2026-09-23T05:50:00+03:30",
+        "status": "published",
+        "publishedAt": "2026-09-23T05:50:00+03:30"
+      },
+      {
+        "id": "2026-09-23-linkedin-how-to-make-wealth",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "how-to-make-wealth",
+        "publishAt": "2026-09-23T12:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-09-23T05:50:00+03:30",
+        "note": "Draft only. Verified account/API access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "پیش‌نویس لینکدین: پول، جای ارزش‌آفرینی را نمی‌گیرد",
+          "en": "LinkedIn draft: money is not a substitute for value creation",
+          "ar": "مسودة لينكدإن: المال ليس بديلا عن خلق القيمة"
+        },
+        "body": {
+          "fa": "تز: کسب‌وکار با پول شروع نمی‌شود؛ با ساختن چیزی شروع می‌شود که مردم واقعاً می‌خواهند.\nاثر عملی: برای هر تصمیم، هم سنجه نتیجه و هم اهرم تکرارپذیری تعریف کنید؛ تیم کوچک بدون خروجی قابل‌مشاهده فقط ابهام را پخش می‌کند.\nقدم بعدی: یک کار کم‌اثر را حذف کنید و یک رفتار مشتری را انتخاب کنید که تصمیم هفته بعد را تغییر دهد.\nمنبع: Paul Graham — https://paulgraham.com/wealth.html\nhttps://alisodeyfi.ir/?article=how-to-make-wealth&lang=fa#daily-article-reader",
+          "en": "Thesis: a business does not start with money; it starts by making something people genuinely want.\nOperational implication: define both a result measure and a repeatability lever; a small team without visible output only spreads ambiguity.\nNext step: remove one low-impact task and choose one customer behavior that can change next week’s decision.\nSource: Paul Graham — https://paulgraham.com/wealth.html\nhttps://alisodeyfi.ir/?article=how-to-make-wealth&lang=en#daily-article-reader",
+          "ar": "الخلاصة: لا تبدأ الشركة بالمال، بل بصنع شيء يريده الناس فعلا.\nالأثر التشغيلي: حدد مقياسا للنتيجة ورافعة للتكرار؛ فالفريق الصغير بلا مخرجات واضحة يوزع الغموض فقط.\nالخطوة التالية: احذف عملا منخفض الأثر واختر سلوكا من العميل يمكنه تغيير قرار الأسبوع المقبل.\nالمصدر: Paul Graham — https://paulgraham.com/wealth.html\nhttps://alisodeyfi.ir/?article=how-to-make-wealth&lang=ar#daily-article-reader"
+        }
+      },
+      {
+        "id": "2026-09-23-story-how-to-make-wealth",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "how-to-make-wealth",
+        "publishAt": "2026-09-23T20:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-09-23T05:50:00+03:30",
+        "note": "Three-slide draft only. Verified account/API access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "پیش‌نمایش استوری: ارزش‌آفرینی پیش از پول",
+          "en": "Story preview: value before money",
+          "ar": "معاينة الستوري: القيمة قبل المال"
+        },
+        "body": {
+          "fa": "اسلاید ۱: پول جای چیزی را که مردم می‌خواهند نمی‌گیرد.\nاسلاید ۲: یک رفتار مشتری، یک سنجه نتیجه و یک کار کم‌اثر برای حذف انتخاب کن.\nاسلاید ۳: Paul Graham — https://paulgraham.com/wealth.html | اقتباس: https://alisodeyfi.ir/?article=how-to-make-wealth&lang=fa#daily-article-reader",
+          "en": "Slide 1: money cannot replace making something people want.\nSlide 2: choose one customer behavior, one result measure, and one low-impact task to remove.\nSlide 3: Paul Graham — https://paulgraham.com/wealth.html | Adaptation: https://alisodeyfi.ir/?article=how-to-make-wealth&lang=en#daily-article-reader",
+          "ar": "الشريحة ۱: لا يعوض المال صنع شيء يريده الناس.\nالشريحة ۲: اختر سلوكا واحدا من العميل ومقياسا للنتيجة وعملا منخفض الأثر لحذفه.\nالشريحة ۳: Paul Graham — https://paulgraham.com/wealth.html | المعالجة: https://alisodeyfi.ir/?article=how-to-make-wealth&lang=ar#daily-article-reader"
         }
       }
     ],
