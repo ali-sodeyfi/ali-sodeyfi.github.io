@@ -695,16 +695,27 @@ h2 {
   padding-top: 0.18rem;
 }
 
+.work-copy {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  column-gap: 0.8rem;
+  align-items: start;
+}
+
+.work-copy > p {
+  grid-column: 1 / -1;
+}
+
 .work-logo {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   flex: 0 0 auto;
   width: 4.7rem;
-  height: 1.75rem;
-  padding: 0.18rem 0.28rem;
+  height: 2rem;
+  padding: 0.22rem 0.36rem;
   border: 1px solid color-mix(in srgb, var(--line) 70%, transparent);
-  border-radius: 999px;
+  border-radius: 8px;
   background: color-mix(in srgb, var(--paper) 92%, transparent);
   direction: ltr;
   overflow: hidden;
@@ -722,8 +733,8 @@ h2 {
 }
 
 .work-logo-basalam {
-  width: 1.65rem;
-  height: 1.65rem;
+  width: 4.35rem;
+  height: 2rem;
 }
 
 .work-logo-startups {
@@ -743,11 +754,11 @@ h2 {
 }
 
 .work-logo-hayat {
-  width: 1.8rem;
-  height: 1.75rem;
-  padding: 0.2rem;
+  width: 4.35rem;
+  height: 2rem;
 }
 
+.work-logo-basalam .work-logo-image,
 .work-logo-hayat .work-logo-image {
   mix-blend-mode: normal;
   filter: none;
@@ -762,11 +773,13 @@ h2 {
 }
 
 .work-title-row {
+  grid-column: 1;
+  grid-row: 1;
   display: flex;
   align-items: center;
   gap: 0.75rem;
   justify-content: flex-start;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.6rem;
 }
 
 .work-title-row h3 {
@@ -789,11 +802,14 @@ h2 {
 }
 
 .work-links {
+  grid-column: 2;
+  grid-row: 1;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: flex-end;
   gap: 0.45rem;
-  margin: 0 0 0.65rem;
+  margin: 0 0 0.6rem;
 }
 
 .work-link {
