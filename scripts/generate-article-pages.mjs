@@ -11,7 +11,7 @@ const scriptPath = join(siteRoot, "script.js");
 const articleRoot = join(siteRoot, "articles");
 const sitemapPath = join(siteRoot, "sitemap.xml");
 const homepagePath = join(siteRoot, "index.html");
-const stylesheetVersion = "20260920-article-feedback";
+const stylesheetVersion = "20260924-title-wrap";
 const feedbackEmail = "Sodeyfi.ali@gmail.com";
 
 function escapeHtml(value) {

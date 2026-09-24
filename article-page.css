@@ -140,15 +140,22 @@
 }
 
 .article-page-heading-row {
-  display: flex;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
   align-items: flex-start;
-  justify-content: space-between;
   gap: 1rem;
 }
 
+.article-page-heading-row > div {
+  min-width: 0;
+}
+
 .article-page-heading-row .article-title {
+  max-width: 100%;
   margin-top: 0.5rem;
   font-size: clamp(2.2rem, 6vw, 4.6rem);
+  overflow-wrap: anywhere;
+  word-break: normal;
 }
 
 .article-page-summary {
@@ -278,7 +285,8 @@ html[dir="rtl"] .article-page-body .article-note {
   }
 
   .article-page-heading-row .article-title {
-    font-size: clamp(1.8rem, 9vw, 3rem);
+    font-size: clamp(1.7rem, 8.6vw, 2.65rem);
+    line-height: 1.08;
   }
 
   .article-page-share {
