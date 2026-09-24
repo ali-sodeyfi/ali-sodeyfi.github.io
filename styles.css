@@ -702,7 +702,7 @@ h2 {
 }
 
 .work-copy > p {
-  order: 2;
+  order: 3;
 }
 
 .work-logo {
@@ -800,15 +800,13 @@ h2 {
 }
 
 .work-links {
-  order: 3;
+  order: 2;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: flex-start;
-  gap: 0.45rem;
-  margin: 0.85rem 0 0;
-  padding-top: 0.75rem;
-  border-top: 1px solid color-mix(in srgb, var(--line) 56%, transparent);
+  gap: 0.4rem;
+  margin: -0.12rem 0 0.75rem;
 }
 
 .work-link {
@@ -816,12 +814,15 @@ h2 {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 2rem;
-  height: 2rem;
+  gap: 0.32rem;
+  min-height: 1.9rem;
+  padding: 0.22rem 0.56rem;
   border: 1px solid color-mix(in srgb, var(--line) 78%, transparent);
   border-radius: 999px;
   background: color-mix(in srgb, var(--paper) 92%, transparent);
   color: var(--accent);
+  font-size: 0.76rem;
+  font-weight: 850;
   text-decoration: none;
   transition: color 160ms ease, border-color 160ms ease, background 160ms ease, transform 160ms ease;
 }
@@ -852,6 +853,15 @@ h2 {
 .work-link-icon-dot {
   fill: currentColor;
   stroke: none;
+}
+
+.work-link .sr-only {
+  position: static;
+  width: auto;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  overflow: visible;
 }
 
 .work-link::after {
