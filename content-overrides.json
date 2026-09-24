@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-23T02:20:00Z",
+  "updatedAt": "2026-09-24T02:15:02Z",
   "translations": {
     "fa": {
       "documentTitle": "علی سدیفی | یادداشت‌هایی درباره ساخت کسب‌وکار",
@@ -1528,6 +1528,55 @@
           "fa": "اسلاید ۱: پول جای چیزی را که مردم می‌خواهند نمی‌گیرد.\nاسلاید ۲: یک رفتار مشتری، یک سنجه نتیجه و یک کار کم‌اثر برای حذف انتخاب کن.\nاسلاید ۳: Paul Graham — https://paulgraham.com/wealth.html | اقتباس: https://alisodeyfi.ir/?article=how-to-make-wealth&lang=fa#daily-article-reader",
           "en": "Slide 1: money cannot replace making something people want.\nSlide 2: choose one customer behavior, one result measure, and one low-impact task to remove.\nSlide 3: Paul Graham — https://paulgraham.com/wealth.html | Adaptation: https://alisodeyfi.ir/?article=how-to-make-wealth&lang=en#daily-article-reader",
           "ar": "الشريحة ۱: لا يعوض المال صنع شيء يريده الناس.\nالشريحة ۲: اختر سلوكا واحدا من العميل ومقياسا للنتيجة وعملا منخفض الأثر لحذفه.\nالشريحة ۳: Paul Graham — https://paulgraham.com/wealth.html | المعالجة: https://alisodeyfi.ir/?article=how-to-make-wealth&lang=ar#daily-article-reader"
+        }
+      },
+      {
+        "id": "2026-09-24-site-the-fatal-pinch",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "the-fatal-pinch",
+        "publishAt": "2026-09-24T05:45:02+03:30",
+        "status": "published",
+        "publishedAt": "2026-09-24T05:45:02+03:30"
+      },
+      {
+        "id": "2026-09-24-linkedin-the-fatal-pinch",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "the-fatal-pinch",
+        "publishAt": "2026-09-24T12:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-09-24T05:45:02+03:30",
+        "note": "Draft only. Verified account/API access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "پیش‌نویس لینکدین: خطر پولِ بعدی",
+          "en": "LinkedIn draft: the next-check trap",
+          "ar": "مسودة لينكدإن: فخ الجولة التالية"
+        },
+        "body": {
+          "fa": "تز: پولی که هنوز جذب نشده، راه‌حل کسری نقدینگی امروز نیست.\nاثر عملی: اگر هزینه ثابت و درآمد واقعی با هم نمی‌خوانند، انتظار دور بعدی فقط فرصت اصلاح را کم می‌کند.\nاقدام: این هفته تاریخ پایان پول قطعی را در سه سناریوی هزینه و فروش حساب کنید و برای هرکدام موعد تصمیم بگذارید.\nمنبع: Paul Graham — https://www.paulgraham.com/pinch.html\nhttps://alisodeyfi.ir/articles/the-fatal-pinch/fa/#daily-article-reader",
+          "en": "Thesis: money not yet raised cannot fix today's cash shortfall.\nImplication: when fixed costs outrun real revenue, waiting for the next round consumes the time to change course.\nAction: calculate the confirmed cash-out date under three cost and sales scenarios this week; set a decision date for each.\nSource: Paul Graham — https://www.paulgraham.com/pinch.html\nhttps://alisodeyfi.ir/articles/the-fatal-pinch/en/#daily-article-reader",
+          "ar": "الخلاصة: المال الذي لم تجمعه بعد لا يعالج عجز النقد اليوم.\nالأثر: إذا تجاوزت التكاليف الثابتة الإيرادات الفعلية، فإن انتظار الجولة التالية يستهلك وقت التصحيح.\nالإجراء: احسب هذا الأسبوع تاريخ نفاد النقد المؤكد في ثلاثة سيناريوهات وحدد موعد قرار لكل منها.\nالمصدر: Paul Graham — https://www.paulgraham.com/pinch.html\nhttps://alisodeyfi.ir/articles/the-fatal-pinch/ar/#daily-article-reader"
+        }
+      },
+      {
+        "id": "2026-09-24-story-the-fatal-pinch",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "the-fatal-pinch",
+        "publishAt": "2026-09-24T20:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-09-24T05:45:02+03:30",
+        "note": "Three-slide draft only. Verified account/API access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "پیش‌نمایش استوری: تنگنای نقدینگی",
+          "en": "Story preview: cash runway",
+          "ar": "معاينة الستوري: مدة بقاء النقد"
+        },
+        "body": {
+          "fa": "اسلاید ۱: دور بعدی سرمایه، پول قطعی امروز نیست.\nاسلاید ۲: تاریخ پایان پول نقد را بدون جذب سرمایه حساب کنید و موعد تصمیم بگذارید.\nاسلاید ۳: Paul Graham — https://www.paulgraham.com/pinch.html | اقتباس: https://alisodeyfi.ir/articles/the-fatal-pinch/fa/#daily-article-reader",
+          "en": "Slide 1: the next round is not cash on hand.\nSlide 2: calculate the cash-out date without new funding and set a decision deadline.\nSlide 3: Paul Graham — https://www.paulgraham.com/pinch.html | Adaptation: https://alisodeyfi.ir/articles/the-fatal-pinch/en/#daily-article-reader",
+          "ar": "الشريحة 1: الجولة المقبلة ليست نقدا متاحا الآن.\nالشريحة 2: احسب موعد نفاد النقد دون تمويل جديد وحدد موعد القرار.\nالشريحة 3: Paul Graham — https://www.paulgraham.com/pinch.html | المعالجة: https://alisodeyfi.ir/articles/the-fatal-pinch/ar/#daily-article-reader"
         }
       }
     ],
