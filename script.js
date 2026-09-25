@@ -1156,9 +1156,89 @@ const articleCatalog = [
       ar: "حين تتجاوز المصروفات نمو الإيرادات، قد يضيع انتظار جولة تمويل جديدة الوقت اللازم لتصحيح المسار؛ خطط للبقاء انطلاقا من النقد المؤكد وقرارات واضحة.",
     },
   },
+  {
+    title: "How Not to Die",
+    author: "Paul Graham",
+    source: "Paul Graham",
+    year: "2007",
+    url: "https://paulgraham.com/die.html",
+    tags: {
+      fa: ["بقای استارتاپ", "پاسخ‌گویی", "آزمایش محصول"],
+      en: ["startup survival", "accountability", "product experiments"],
+      ar: ["بقاء الشركات الناشئة", "المساءلة", "تجارب المنتج"],
+    },
+    summary: {
+      fa: "یک چارچوب اجرایی برای هفته‌های سخت: گزارش چهارخانه‌ای، مشاهده کار واقعی مشتری و معیار روشن برای ادامه، تغییر مسیر یا توقف؛ بدون تبدیل پایداری به فرسودگی.",
+      en: "An operating framework for difficult weeks: a four-field update, observation of real customer tasks, and explicit continue, change, or stop decisions without treating exhaustion as commitment.",
+      ar: "إطار عملي للأسابيع الصعبة: تقرير بأربع خانات وملاحظة مهام العملاء وقرار واضح بالاستمرار أو التغيير أو التوقف، من دون الخلط بين الالتزام والإرهاق.",
+    },
+  },
 ];
 
 const articleEssays = {
+  "How Not to Die": {
+    fa: {
+      paragraphs: [
+        "بقای استارتاپ فقط به موجودی حساب وابسته نیست. ایده محوری این مقاله آن است که دلسردی و قطع ارتباط می‌توانند پیش از تعطیلی رسمی، حرکت شرکت را متوقف کنند؛ تماس منظم و ادامه اصلاح محصول راه مقابله‌اند. این متن اقتباسی آزاد از همین ایده است، نه ترجمه کامل مقاله. تمرین‌ها، مثال‌ها و مرزهای تصمیم‌گیری در ادامه، پیشنهادهای اجرایی این بازنویسی‌اند؛ به‌ویژه تأکید بر اینکه ادامه دادن باید مشروط به شواهد و توان واقعی تیم باشد، نه وعده موفقیت قطعی.",
+        "برای عملی کردن این نگاه، یک گزارش هفتگی یک‌صفحه‌ای طراحی کنید که حتی در هفته بد هم قابل نوشتن باشد. چهار خانه کافی است: چه تعهدی داشتیم، چه اتفاقی افتاد، چه چیزی هنوز نمی‌دانیم و تصمیم بعدی چیست. به‌جای نوشتن «روی فروش کار کردیم»، بنویسید کدام مشتری چه مانعی برای خرید مطرح کرد و مسئول پیگیری چه کسی است. گزارش را برای یک همکار باتجربه یا مشاور قابل‌اعتماد بفرستید؛ نه برای جمع‌کردن تشویق، بلکه برای اینکه یک نفر بتواند تفاوت میان توضیح روشن و توجیه تأخیر را ببیند. اطلاعات حساس مشتری را هم حذف کنید.",
+        "پیشنهاد بعدی، جدا کردن مسئله تقاضا از مسئله استفاده است. فرض کنید ابزاری برای پیگیری سفارش ساخته‌اید و مشتری پس از ثبت اولین سفارش برنمی‌گردد. هنوز معلوم نیست اصلاً به این ابزار نیاز ندارد یا وارد کردن اطلاعات برایش دشوار است. یک جلسه مشاهده کوتاه ترتیب دهید و از او بخواهید سفارش واقعی بعدی را ثبت کند، بدون اینکه مسیر را قدم‌به‌قدم نشان دهید. نقطه توقف را یادداشت کنید و فقط همان مانع را تغییر دهید. پیش از اجرا مشخص کنید چه رفتاری نتیجه را قابل‌قبول می‌کند؛ برای مثال، تکمیل مستقل ثبت سفارش بعدی. این آزمایش برای همین مشتری اطلاعات می‌سازد، نه اثباتی درباره کل بازار.",
+        "برای هر آزمایش یک برگه تصمیم بسازید: فرض، مسئول، موعد بررسی و سقف زمانی که تیم می‌تواند صرف کند. اگر نتیجه مبهم بود، دقیق بنویسید کدام داده کم است؛ «باید بیشتر تلاش کنیم» تصمیم قابل اجرا نیست. در مثال پیگیری سفارش، اگر کاربر کار را کامل می‌کند اما همچنان روش قبلی را ترجیح می‌دهد، پرسش بعدی درباره ارزش تغییر عادت است، نه رنگ دکمه. پیشرفت را با بسته شدن یک ابهام بسنجید، حتی اگر پاسخ ناخوشایند باشد. انباشتن قابلیت‌ها بدون تغییر پرسش، فقط تشخیص علت شکست را دشوارتر می‌کند.",
+        "در کنار گزارش محصول، یک گفت‌وگوی کوتاه و جداگانه درباره ظرفیت تیم داشته باشید. هر عضو بگوید تا بازبینی بعدی واقعاً چه زمانی در اختیار دارد، کدام تعهد بیرونی تغییر کرده و برای انجام مسئولیتش چه کمکی لازم است. تعهد اسمی را با ظرفیت واقعی جایگزین نکنید. اگر یک نفر نمی‌تواند کار توافق‌شده را ادامه دهد، دامنه کار یا تقسیم مسئولیت را آشکارا اصلاح کنید؛ سرزنش و شرم را ابزار مدیریت نکنید. هدف این جلسه تشخیص محدودیت قابل حل است، نه گرفتن قول کار شبانه‌روزی یا مجبور کردن افراد به پنهان کردن خستگی.",
+        "در پایان، از پیش یک موعد انتخاب میان ادامه، تغییر مسیر و توقف تعیین کنید. روی همان برگه بنویسید برای ادامه چه شواهدی لازم است و چه محدودیتی اجازه آزمایش بعدی را نمی‌دهد. اگر داده کافی ندارید، تنها وقتی آزمایش را تمدید کنید که سؤال تازه و هزینه قابل‌تحملی داشته باشد؛ نه برای عقب انداختن یک تصمیم سخت. یک پایان منظم هم می‌تواند تصمیم مسئولانه‌ای باشد: روشن کردن تعهدات مشتری، تحویل داده‌ها و ثبت آموخته‌ها. معیار این چارچوب، طولانی‌تر کردن عمر شرکت به هر قیمت نیست؛ حفظ امکان تصمیم صادقانه پیش از تمام شدن توان تیم است.",
+      ],
+      takeaways: [
+        "گزارش هفتگی را با تعهد، نتیجه مشاهده‌شده، ابهام و تصمیم بعدی بنویسید.",
+        "از یک فرد قابل‌اعتماد بخواهید درباره تصمیم‌ها سؤال کند؛ داده حساس مشتری را ارسال نکنید.",
+        "در یک کار واقعی مشاهده کنید مانع مشتری نیاز نداشتن است یا دشواری استفاده.",
+        "برای هر آزمایش، مسئول، موعد، سقف زمان و رفتار قابل‌قبول را از قبل مشخص کنید.",
+        "ظرفیت واقعی اعضای تیم را جدا از وضعیت محصول مرور و تعهدات را اصلاح کنید.",
+        "معیار ادامه، تغییر مسیر و توقف را پیش از بازبینی بنویسید.",
+      ],
+      advice: [
+        "منظم به همتایان خود گزارش پیشرفت بدهید.",
+        "پس از عرضه ناموفق، محصول را اصلاح کنید.",
+        "علت علاقه کاربران مشتاق را پیدا کنید.",
+      ],
+    },
+    en: {
+      paragraphs: [
+        "A startup can lose momentum before it formally closes. The source essay connects demoralization and disappearing from contact with this decline, and argues for staying engaged and iterating. This is a free adaptation of that premise, not a complete translation. The reporting template, experiments, and decision boundaries below are editorial applications, not prescriptions quoted from the author. In particular, persistence here remains conditional on evidence and the team's actual capacity; it is not a promise of eventual success.",
+        "Try a weekly note with four fields: commitment, observed result, unresolved question, and next decision. Send it to one trusted reviewer, without confidential customer information. Replace 'worked on sales' with a concrete objection and a named follow-up owner. Then design an observation that distinguishes two explanations. For an order-tracking product, a customer who never returns may lack a recurring need or may struggle with data entry. Watch that customer enter the next real order without coaching. Change one obstacle and define acceptable behavior beforehand, such as independently completing the next entry. Treat the result as evidence about this case, not proof of market demand.",
+        "Give the experiment an owner, a review date, and a time budget. If a customer completes the task but still prefers the old workflow, investigate the value of switching rather than polishing another button. Separately review each teammate's actual availability and renegotiate commitments when capacity changes; shame and exhaustion are not management tools. Before the next review, write down the conditions for continuing, changing direction, or stopping. Extend an inconclusive test only with a specific unanswered question and an affordable scope. If stopping is the responsible choice, plan customer handoffs and record the learning rather than leaving obligations unresolved.",
+      ],
+      takeaways: [
+        "Report commitments, observations, open questions, and decisions instead of activity totals.",
+        "Observe a real task to separate a usability obstacle from a missing customer need.",
+        "Assign each test an owner, deadline, time budget, and observable acceptance condition.",
+        "Review team capacity separately and renegotiate unrealistic commitments.",
+        "Define continue, change, and stop conditions before reviewing results.",
+      ],
+      advice: [
+        "Keep trusted peers updated regularly.",
+        "Iterate when an initial launch disappoints.",
+        "Understand what enthusiastic users value.",
+      ],
+    },
+    ar: {
+      paragraphs: [
+        "قد تفقد الشركة الناشئة حركتها قبل إغلاقها رسميا. تربط فكرة المقال الأصلي هذا التراجع بالإحباط وانقطاع التواصل، وتقترح الحفاظ على الاتصال ومواصلة تعديل المنتج. هذه معالجة حرة لتلك الفكرة وليست ترجمة كاملة. أما نموذج المتابعة والتجارب وحدود القرار التالية فهي تطبيقات تحريرية مقترحة، لا تعليمات منقولة عن الكاتب. والاستمرار هنا مشروط بالأدلة وقدرة الفريق الفعلية، وليس وعدا بأن طول المحاولة يضمن النجاح.",
+        "جرب تقريرا أسبوعيا بأربع خانات: الالتزام، والنتيجة الملحوظة، والسؤال المفتوح، والقرار التالي. أرسله إلى مراجع موثوق من دون معلومات العملاء الحساسة. بدلا من عبارة «عملنا على المبيعات»، سجل اعتراضا محددا واسم المسؤول عن متابعته. ثم صمم ملاحظة تفصل بين تفسيرين. في أداة لتتبع الطلبات، قد لا يعود العميل لأنه لا يحتاجها باستمرار، أو لأن إدخال البيانات صعب. راقبه وهو يسجل طلبه الحقيقي التالي من دون إرشاد خطوة بخطوة. غير عائقا واحدا وحدد مسبقا السلوك المقبول، مثل إكمال الإدخال التالي مستقلا. هذه النتيجة دليل يتعلق بالحالة المشاهدة، لا إثبات للطلب في السوق كله.",
+        "حدد لكل تجربة مسؤولا وموعد مراجعة وحدا للوقت المخصص لها. إذا أنجز العميل المهمة لكنه فضل طريقته القديمة، فالسؤال التالي عن قيمة تغيير عادته، لا عن لون الزر. وراجع قدرة أعضاء الفريق في لقاء منفصل: ما الوقت المتاح فعلا، وأي التزام يحتاج إلى تعديل؟ لا تجعل اللوم أو الإرهاق وسيلة إدارة. اكتب قبل المراجعة شروط الاستمرار وتغيير الاتجاه والتوقف. لا تمدد تجربة غامضة إلا بسؤال محدد ونطاق يمكن تحمله. وإذا كان التوقف هو الخيار المسؤول، فرتب تسليم بيانات العملاء وتسوية الالتزامات وتوثيق ما تعلمتموه، بدلا من ترك النهاية معلقة.",
+      ],
+      takeaways: [
+        "اكتب الالتزام والملاحظة والسؤال والقرار بدلا من تعداد الأنشطة.",
+        "راقب مهمة حقيقية للفصل بين صعوبة الاستخدام وغياب الحاجة.",
+        "حدد للتجربة مسؤولا وموعدا وحدا زمنيا وشرط قبول سلوكيا.",
+        "راجع قدرة الفريق الفعلية وعدل الالتزامات غير الواقعية.",
+        "ضع شروط الاستمرار وتغيير الاتجاه والتوقف قبل تقييم النتائج.",
+      ],
+      advice: [
+        "أطلع زملاءك على التقدم بانتظام.",
+        "عدل المنتج إذا خابت آمال الإطلاق.",
+        "افهم ما يقدره المستخدمون المتحمسون.",
+      ],
+    },
+  },
   "Startups in 13 Sentences": {
     fa: {
       paragraphs: [

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-24T02:15:02Z",
+  "updatedAt": "2026-09-25T02:17:34Z",
   "translations": {
     "fa": {
       "documentTitle": "علی سدیفی | یادداشت‌هایی درباره ساخت کسب‌وکار",
@@ -1577,6 +1577,55 @@
           "fa": "اسلاید ۱: دور بعدی سرمایه، پول قطعی امروز نیست.\nاسلاید ۲: تاریخ پایان پول نقد را بدون جذب سرمایه حساب کنید و موعد تصمیم بگذارید.\nاسلاید ۳: Paul Graham — https://www.paulgraham.com/pinch.html | اقتباس: https://alisodeyfi.ir/articles/the-fatal-pinch/fa/#daily-article-reader",
           "en": "Slide 1: the next round is not cash on hand.\nSlide 2: calculate the cash-out date without new funding and set a decision deadline.\nSlide 3: Paul Graham — https://www.paulgraham.com/pinch.html | Adaptation: https://alisodeyfi.ir/articles/the-fatal-pinch/en/#daily-article-reader",
           "ar": "الشريحة 1: الجولة المقبلة ليست نقدا متاحا الآن.\nالشريحة 2: احسب موعد نفاد النقد دون تمويل جديد وحدد موعد القرار.\nالشريحة 3: Paul Graham — https://www.paulgraham.com/pinch.html | المعالجة: https://alisodeyfi.ir/articles/the-fatal-pinch/ar/#daily-article-reader"
+        }
+      },
+      {
+        "id": "2026-09-25-site-how-not-to-die",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "how-not-to-die",
+        "publishAt": "2026-09-25T05:47:34+03:30",
+        "status": "published",
+        "publishedAt": "2026-09-25T05:47:34+03:30"
+      },
+      {
+        "id": "2026-09-25-linkedin-how-not-to-die",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "how-not-to-die",
+        "publishAt": "2026-09-25T12:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-09-25T05:47:34+03:30",
+        "note": "Draft only. Verified account/API access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "پیش‌نویس لینکدین: گزارش باید به تصمیم برسد",
+          "en": "LinkedIn draft: reporting must end in a decision",
+          "ar": "مسودة لينكدإن: التقرير ينتهي بقرار"
+        },
+        "body": {
+          "fa": "تز: گزارش فعالیت بدون تصمیم بعدی، ابزار اداره شرکت نیست.\nاثر عملی: هر هفته باید یک ابهام مشخص بسته شود یا آزمایش بعدی مرز روشن داشته باشد.\nاقدام: گزارش این هفته را در چهار خانه بنویسید: تعهد، مشاهده، سؤال باز و تصمیم؛ برای آزمایش بعدی مسئول و موعد تعیین کنید.\nمنبع ایده: Paul Graham — https://paulgraham.com/die.html\nhttps://alisodeyfi.ir/articles/how-not-to-die/fa/#daily-article-reader",
+          "en": "Thesis: an activity report without a next decision is not an operating tool.\nImplication: each week should resolve a specific uncertainty or define a bounded next test.\nAction: write four fields—commitment, observation, open question, decision—and assign the next test an owner and deadline.\nSource inspiration: Paul Graham — https://paulgraham.com/die.html\nhttps://alisodeyfi.ir/articles/how-not-to-die/en/#daily-article-reader",
+          "ar": "الخلاصة: تقرير الأنشطة بلا قرار تال ليس أداة لإدارة الشركة.\nالأثر: ينبغي أن يحسم الأسبوع سؤالا محددا أو يحدد تجربة تالية ذات حدود واضحة.\nالإجراء: اكتب أربع خانات: الالتزام والملاحظة والسؤال والقرار، وحدد للتجربة التالية مسؤولا وموعدا.\nمصدر الفكرة: Paul Graham — https://paulgraham.com/die.html\nhttps://alisodeyfi.ir/articles/how-not-to-die/ar/#daily-article-reader"
+        }
+      },
+      {
+        "id": "2026-09-25-story-how-not-to-die",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "how-not-to-die",
+        "publishAt": "2026-09-25T20:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-09-25T05:47:34+03:30",
+        "note": "Draft only. Verified account/API access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "پیش‌نمایش استوری: از گزارش تا تصمیم",
+          "en": "Story preview: from update to decision",
+          "ar": "معاينة الستوري: من التقرير إلى القرار"
+        },
+        "body": {
+          "fa": "اسلاید ۱: گزارش فعالیت بدون تصمیم، کافی نیست.\nاسلاید ۲: یک سؤال باز انتخاب کنید؛ آزمایش بعدی باید مسئول و موعد داشته باشد.\nاسلاید ۳: ایده: Paul Graham — https://paulgraham.com/die.html | اقتباس: https://alisodeyfi.ir/articles/how-not-to-die/fa/#daily-article-reader",
+          "en": "Slide 1: an activity report without a decision is insufficient.\nSlide 2: pick one open question; give the next test an owner and deadline.\nSlide 3: inspiration: Paul Graham — https://paulgraham.com/die.html | Adaptation: https://alisodeyfi.ir/articles/how-not-to-die/en/#daily-article-reader",
+          "ar": "الشريحة ۱: تقرير الأنشطة بلا قرار لا يكفي.\nالشريحة ۲: اختر سؤالا مفتوحا وحدد للتجربة التالية مسؤولا وموعدا.\nالشريحة ۳: الفكرة: Paul Graham — https://paulgraham.com/die.html | المعالجة: https://alisodeyfi.ir/articles/how-not-to-die/ar/#daily-article-reader"
         }
       }
     ],
