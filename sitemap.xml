@@ -2,15 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://alisodeyfi.ir/</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-26</lastmod>
   </url>
   <url>
     <loc>https://alisodeyfi.ir/en/</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-26</lastmod>
   </url>
   <url>
     <loc>https://alisodeyfi.ir/ar/</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-26</lastmod>
   </url>
   <url>
     <loc>https://alisodeyfi.ir/articles/do-things-that-dont-scale/fa/</loc>
@@ -539,5 +539,17 @@
   <url>
     <loc>https://alisodeyfi.ir/articles/how-not-to-die/ar/</loc>
     <lastmod>2026-09-25</lastmod>
+  </url>
+  <url>
+    <loc>https://alisodeyfi.ir/articles/be-good/fa/</loc>
+    <lastmod>2026-09-26</lastmod>
+  </url>
+  <url>
+    <loc>https://alisodeyfi.ir/articles/be-good/en/</loc>
+    <lastmod>2026-09-26</lastmod>
+  </url>
+  <url>
+    <loc>https://alisodeyfi.ir/articles/be-good/ar/</loc>
+    <lastmod>2026-09-26</lastmod>
   </url>
 </urlset>

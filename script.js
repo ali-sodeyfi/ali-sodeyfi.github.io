@@ -1173,9 +1173,89 @@ const articleCatalog = [
       ar: "إطار عملي للأسابيع الصعبة: تقرير بأربع خانات وملاحظة مهام العملاء وقرار واضح بالاستمرار أو التغيير أو التوقف، من دون الخلط بين الالتزام والإرهاق.",
     },
   },
+  {
+    title: "Be Good",
+    author: "Paul Graham",
+    source: "Paul Graham",
+    year: "2008",
+    url: "https://paulgraham.com/good.html",
+    tags: {
+      fa: ["ارزش برای کاربر", "تصمیم محصول", "اعتماد"],
+      en: ["user value", "product decisions", "trust"],
+      ar: ["قيمة المستخدم", "قرارات المنتج", "الثقة"],
+    },
+    summary: {
+      fa: "از نیت خوب تا نتیجه قابل مشاهده: تمرینی برای تعریف منفعت کاربر، آزمودن یک وعده محدود و تعیین مرز هزینه و اعتماد در تصمیم‌های محصول.",
+      en: "From good intentions to observable outcomes: a practical exercise in defining user benefit, testing a narrow promise, and setting cost and trust boundaries for product decisions.",
+      ar: "من النية الحسنة إلى نتيجة قابلة للملاحظة: تمرين لتحديد منفعة المستخدم واختبار وعد محدود ووضع حدود التكلفة والثقة في قرارات المنتج.",
+    },
+  },
 ];
 
 const articleEssays = {
+  "Be Good": {
+    fa: {
+      paragraphs: [
+        "ایده محوری مقاله این است که کمک واقعی به کاربر می‌تواند معیار انتخاب مسیر شرکت باشد، نه فقط یک ادعای اخلاقی. متن حاضر اقتباسی آزاد از این ایده است، نه ترجمه کامل؛ مثال، شاخص‌ها و تمرین‌های بعدی پیشنهادهای مستقل این بازنویسی‌اند. برای استفاده عملی، به‌جای نوشتن «ما مشتری‌محوریم»، یک جمله قابل بررسی بنویسید: کدام گروه از کاربران، کدام کار را با محصول ما بهتر انجام خواهد داد؟ اگر هنوز نمی‌توانید نتیجه را توصیف کنید، بحث درباره اینکه کدام قابلیت در اولویت است زود شروع شده است.",
+        "فرض کنید برای کسب‌وکارهای خدماتی کوچک، ابزار مدیریت نوبت می‌سازید. «داشبورد کامل‌تر» وعده تیم است، اما لزوماً منفعت مشتری نیست. پیشنهاد این تمرین آن است که پیش از ساخت، چند نوبت واقعی را با رضایت مسئول پذیرش دنبال کنید: ثبت از کجا شروع می‌شود، تغییر ساعت کجا گم می‌شود و اصلاح اشتباه چقدر کار ایجاد می‌کند؟ اطلاعات شخصی مراجعه‌کنندگان را وارد یادداشت پژوهش نکنید. سپس فقط یک نتیجه انتخاب کنید؛ مثلاً کاهش نوبت‌هایی که کارکنان ناچارند دوباره درباره ساعتشان تماس بگیرند. این نتیجه را از تعداد ورود به داشبورد جدا نگه دارید.",
+        "حالا میان دو درخواست تصمیم بگیرید: افزودن نمودار مدیریتی یا روشن کردن وضعیت تأیید نوبت. برای هر گزینه یک کارت کوتاه بنویسید که مشکل مشاهده‌شده، تغییر پیشنهادی و نشانه موفقیت را مشخص کند. اگر شواهد فعلی فقط درباره سردرگمی در تأیید است، همان مسیر را در یک نسخه کوچک آزمایش کنید؛ نه به این دلیل که نمودار همیشه بی‌فایده است، بلکه چون این تصمیم پشتوانه مشخص دارد. مدت آزمایش و روش ثبت نتیجه را پیشاپیش تعیین کنید. تعداد کم نوبت‌ها ممکن است فقط سرنخی برای آزمون بعدی بدهد؛ آن را اثبات قطعی اثر محصول معرفی نکنید.",
+        "در این تمرین، منفعت را برای همه افراد درگیر بررسی کنید. شاید پیام یادآوری، تماس‌های پذیرش را کم کند اما ارسال مکرر یا متن مبهم برای مراجعه‌کننده مزاحمت بسازد. امکان انتخاب نوع یادآوری و توقف آن را در طراحی آزمایشی بگنجانید و شکایت‌ها را کنار نتیجه اصلی ثبت کنید. اگر شاخص اصلی بهتر شد ولی بار کار به فرد دیگری منتقل شد، هنوز تصویر کاملی ندارید. پیش از گسترش، یک گفت‌وگوی کوتاه با هر دو طرف ترتیب دهید و مشخص کنید کدام هزینه حذف شده و کدام هزینه فقط از جلوی چشم تیم کنار رفته است.",
+        "مرز دوم، توان ارائه خدمت است. برای دوره آزمایشی سقف زمانی پشتیبانی تعیین کنید و زمان واقعی رسیدگی به هر حساب را ثبت کنید. اگر هر مشتری به تنظیمات اختصاصی طولانی نیاز دارد، آن را زیر عنوان علاقه به مشتری پنهان نکنید؛ درباره محدود کردن دامنه، ساده کردن راه‌اندازی یا تغییر قیمت تصمیم بگیرید. در یک پیشنهاد جداگانه و روشن، هزینه ادامه استفاده و آنچه در برابرش ارائه می‌شود را توضیح دهید. تمایل به استفاده رایگان را با پذیرش این پیشنهاد یکی نگیرید. این بررسی کوچک قرار نیست مدل درآمد نهایی را اثبات کند، فقط فرض بعدی را روشن‌تر می‌کند.",
+        "در بازبینی پایان آزمایش، یک برگه تصمیم داشته باشید: آیا نتیجه مورد انتظار دیده شد، چه آسیبی یا اصطکاکی ایجاد شد و ارائه همین خدمت چه ظرفیتی می‌خواهد؟ بر اساس همین سه پرسش، میان گسترش محدود، اصلاح و توقف انتخاب کنید. حتی اگر تصمیم توقف است، تکلیف نوبت‌های ثبت‌شده و خروج اطلاعات موردنیاز مشتری را روشن کنید و وعده پشتیبانی نامحدود ندهید. خروجی جلسه باید یک مسئول، یک موعد و یک تعهد مشخص به مشتری باشد. با این روش پیشنهادی، ادعای مفید بودن به تصمیمی تبدیل می‌شود که تیم می‌تواند بعداً کیفیتش را بررسی کند.",
+      ],
+      takeaways: [
+        "منفعت را به شکل یک کار مشخص برای یک گروه مشخص بنویسید؛ تعداد قابلیت‌ها معیار آن نیست.",
+        "پیش از تغییر محصول، مسیر انجام کار فعلی و یک خط مبنا را با رضایت مشتری ثبت کنید.",
+        "برای هر گزینه محصول، مشکل مشاهده‌شده و نشانه موفقیت را روی یک کارت تصمیم بیاورید.",
+        "اثر جانبی روی افراد دیگر را کنار شاخص اصلی بسنجید؛ جابه‌جایی زحمت را حذف زحمت ننامید.",
+        "زمان پشتیبانی و پذیرش پیشنهاد پولی را جداگانه بررسی کنید؛ استفاده رایگان شاهد کافی نیست.",
+        "در پایان آزمایش، تصمیم گسترش، اصلاح یا توقف را با مسئول و موعد مشخص ثبت کنید.",
+      ],
+      advice: [
+        "این هفته یک وعده محصول را انتخاب کنید و آن را به نتیجه‌ای قابل مشاهده در کار مشتری بازنویسی کنید.",
+        "پیش از آزمایش، سقف زمان پشتیبانی و شرایط توقف را بنویسید؛ عددها را متناسب با ظرفیت همین تیم انتخاب کنید.",
+        "برای خروج از آزمایش هم مسیر داشته باشید: اطلاع‌رسانی، تحویل اطلاعات لازم و پایان روشن تعهدات.",
+      ],
+    },
+    en: {
+      paragraphs: [
+        "The essay's central idea is that genuinely helping users can guide a company's choices rather than remain a statement of virtue. This is a free adaptation, not a full translation; the exercise and constraints that follow are original applications developed here. Start by replacing a vague promise of customer focus with a specific outcome: which users should be able to complete which task better? Use that sentence to frame the next product decision, rather than beginning with a list of requested features.",
+        "Consider a scheduling tool for small service businesses. With permission, observe how staff record an appointment and handle a changed time, without retaining clients' personal information. For this exercise, choose one outcome, such as fewer appointments requiring a follow-up call to clarify the time. Compare a dashboard request with a clearer confirmation state by writing a decision card for each: observed problem, proposed change, and evidence of improvement. Set the trial duration and measurement method beforehand. A small sample can inform another test without establishing a reliable effect across the market.",
+        "Check who bears the cost of the change. A reminder might reduce reception work while creating unwanted interruptions for the person receiving it. In the proposed trial, let recipients choose or stop reminders, and record complaints alongside the main outcome. Separately, cap and log support time per account. If setup requires extensive custom work, decide whether to narrow the offer, simplify onboarding, or change the price. Present an explicit paid continuation offer; willingness to use a free trial is not the same observation as accepting that offer.",
+        "End the trial with three questions: did the intended outcome appear, what new friction arose, and what capacity would continued delivery require? Choose a limited expansion, a revision, or a stop, then assign an owner and a review date. If stopping, explain how customers can recover the information they need and what happens to existing appointments. Avoid promising indefinite support. This proposed decision record makes the team's judgment inspectable without treating either good intentions or one encouraging metric as a sufficient verdict.",
+      ],
+      takeaways: [
+        "Define one user task and outcome before ranking feature requests.",
+        "Give each candidate change an observed problem, a test window, and a success signal.",
+        "Track burdens on other participants alongside the main benefit and support effort.",
+        "Make a bounded expand, revise, or stop decision, including a responsible exit plan.",
+      ],
+      advice: [
+        "Rewrite one product promise this week as an observable customer outcome.",
+        "Set a support-time limit before the trial and review the actual effort afterward.",
+        "Test a clear paid offer separately from free usage; document the distinction.",
+      ],
+    },
+    ar: {
+      paragraphs: [
+        "الفكرة الأساسية للمقال هي أن مساعدة المستخدم فعليا يمكن أن توجه اختيارات الشركة، بدلا من أن تبقى عبارة أخلاقية. هذا اقتباس حر لا ترجمة كاملة؛ أما التمرين والحدود التالية فهي تطبيقات مستقلة نقترحها هنا. ابدأ باستبدال عبارة الاهتمام بالعميل بنتيجة محددة: أي مستخدم سيتمكن من إنجاز أي مهمة بصورة أفضل؟ اجعل هذه الجملة مدخل نقاش الأولويات، قبل جمع طلبات الخصائص أو المفاضلة بينها على أساس سهولة البناء وحدها.",
+        "تخيل أداة لإدارة المواعيد لدى منشآت خدمية صغيرة. راقب، بإذن الموظف، تسجيل موعد وتعديل وقته، من دون الاحتفاظ ببيانات المراجعين الشخصية. اختر للتمرين نتيجة واحدة، مثل تقليل المواعيد التي تتطلب اتصالا إضافيا لتوضيح وقتها. قارن طلب لوحة تقارير بطلب توضيح حالة التأكيد عبر بطاقة لكل خيار: المشكلة المرصودة والتغيير المقترح ودليل التحسن. حدد مدة التجربة وطريقة التسجيل مسبقا. قد تمنح العينة الصغيرة إشارة لتجربة أخرى، لكنها لا تثبت أن الأثر سيتكرر في السوق كله.",
+        "افحص من يتحمل كلفة التغيير. ربما تقلل رسالة التذكير عمل الاستقبال، لكنها تقاطع المتلقي بصورة مزعجة. في التجربة المقترحة، أتح اختيار التذكيرات أو إيقافها وسجل الشكاوى بجانب النتيجة الرئيسية. ضع أيضا حدا لوقت الدعم وسجل الجهد لكل حساب. إذا احتاج كل عميل إعدادا خاصا طويلا، ناقش تضييق العرض أو تبسيط البداية أو تعديل السعر. قدم عرضا واضحا للاستمرار المدفوع، ولا تخلط بين قبول الاستخدام المجاني وقبول ذلك العرض؛ إنهما ملاحظتان مختلفتان.",
+        "اختم التجربة بثلاثة أسئلة: هل ظهرت النتيجة المطلوبة، وما الاحتكاك الجديد، وما القدرة اللازمة لمواصلة تقديم الخدمة؟ اختر توسعا محدودا أو تعديلا أو توقفا، مع مسؤول وموعد للمراجعة. إذا توقفت، وضح طريقة استعادة المعلومات التي يحتاجها العميل ومصير المواعيد المسجلة، ولا تعد بدعم مفتوح المدة. هذا السجل المقترح يجعل القرار قابلا للفحص لاحقا، بدلا من الاكتفاء بالنية الحسنة أو اعتبار تحسن مؤشر واحد حكما نهائيا على التجربة.",
+      ],
+      takeaways: [
+        "حدد مهمة واحدة ونتيجة للمستخدم قبل ترتيب طلبات الخصائص.",
+        "اربط كل تغيير بمشكلة مرصودة ومدة اختبار وإشارة نجاح.",
+        "سجل العبء على الأطراف الأخرى ووقت الدعم بجانب المنفعة الرئيسية.",
+        "اختر التوسع أو التعديل أو التوقف بحدود واضحة وخطة خروج مسؤولة.",
+      ],
+      advice: [
+        "أعد كتابة وعد واحد للمنتج هذا الأسبوع كنتيجة قابلة للملاحظة لدى العميل.",
+        "حدد سقف وقت الدعم قبل التجربة وقارنه بالجهد الفعلي بعدها.",
+        "اختبر عرضا مدفوعا واضحا بصورة منفصلة عن الاستخدام المجاني وسجل الفرق.",
+      ],
+    },
+  },
   "How Not to Die": {
     fa: {
       paragraphs: [

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-25T02:17:34Z",
+  "updatedAt": "2026-09-26T02:18:16Z",
   "translations": {
     "fa": {
       "documentTitle": "علی سدیفی | یادداشت‌هایی درباره ساخت کسب‌وکار",
@@ -1626,6 +1626,55 @@
           "fa": "اسلاید ۱: گزارش فعالیت بدون تصمیم، کافی نیست.\nاسلاید ۲: یک سؤال باز انتخاب کنید؛ آزمایش بعدی باید مسئول و موعد داشته باشد.\nاسلاید ۳: ایده: Paul Graham — https://paulgraham.com/die.html | اقتباس: https://alisodeyfi.ir/articles/how-not-to-die/fa/#daily-article-reader",
           "en": "Slide 1: an activity report without a decision is insufficient.\nSlide 2: pick one open question; give the next test an owner and deadline.\nSlide 3: inspiration: Paul Graham — https://paulgraham.com/die.html | Adaptation: https://alisodeyfi.ir/articles/how-not-to-die/en/#daily-article-reader",
           "ar": "الشريحة ۱: تقرير الأنشطة بلا قرار لا يكفي.\nالشريحة ۲: اختر سؤالا مفتوحا وحدد للتجربة التالية مسؤولا وموعدا.\nالشريحة ۳: الفكرة: Paul Graham — https://paulgraham.com/die.html | المعالجة: https://alisodeyfi.ir/articles/how-not-to-die/ar/#daily-article-reader"
+        }
+      },
+      {
+        "id": "2026-09-26-site-be-good",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "be-good",
+        "publishAt": "2026-09-26T05:48:16+03:30",
+        "status": "published",
+        "publishedAt": "2026-09-26T05:48:16+03:30"
+      },
+      {
+        "id": "2026-09-26-linkedin-be-good",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "be-good",
+        "publishAt": "2026-09-26T12:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-09-26T05:48:16+03:30",
+        "note": "Draft only. Verified account/API access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "پیش‌نویس لینکدین: منفعت مشتری را قابل بررسی کنید",
+          "en": "LinkedIn draft: make customer benefit inspectable",
+          "ar": "مسودة لينكدإن: اجعل منفعة العميل قابلة للفحص"
+        },
+        "body": {
+          "fa": "تز: وعده محصول باید یک نتیجه قابل مشاهده برای مشتری داشته باشد.\nاثر عملی: پیش از افزودن قابلیت، نتیجه مورد انتظار و هزینه آن برای سایر افراد را مشخص کنید.\nاقدام: یک درخواست این هفته را روی کارت تصمیم بنویسید: مشکل مشاهده‌شده، آزمایش محدود و نشانه موفقیت.\nمنبع ایده: Paul Graham — https://paulgraham.com/good.html\nhttps://alisodeyfi.ir/articles/be-good/fa/#daily-article-reader",
+          "en": "Thesis: a product promise needs an observable customer outcome.\nImplication: define the intended result and the burden on other participants before adding a feature.\nAction: turn one request this week into a decision card: observed problem, bounded test, success signal.\nSource inspiration: Paul Graham — https://paulgraham.com/good.html\nhttps://alisodeyfi.ir/articles/be-good/en/#daily-article-reader",
+          "ar": "الخلاصة: وعد المنتج يحتاج إلى نتيجة قابلة للملاحظة لدى العميل.\nالأثر: حدد النتيجة المطلوبة والعبء على الأطراف الأخرى قبل إضافة خاصية.\nالإجراء: حول طلبا واحدا هذا الأسبوع إلى بطاقة قرار: مشكلة مرصودة وتجربة محدودة وإشارة نجاح.\nمصدر الفكرة: Paul Graham — https://paulgraham.com/good.html\nhttps://alisodeyfi.ir/articles/be-good/ar/#daily-article-reader"
+        }
+      },
+      {
+        "id": "2026-09-26-story-be-good",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "be-good",
+        "publishAt": "2026-09-26T20:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-09-26T05:48:16+03:30",
+        "note": "Draft only. Verified account/API access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "پیش‌نمایش استوری: وعده محصول، نتیجه مشتری",
+          "en": "Story preview: product promise, customer outcome",
+          "ar": "معاينة الستوري: وعد المنتج ونتيجة العميل"
+        },
+        "body": {
+          "fa": "اسلاید ۱: وعده محصول را به نتیجه قابل مشاهده وصل کنید.\nاسلاید ۲: یک قابلیت را با نتیجه مشتری و هزینه‌اش برای دیگران بسنجید.\nاسلاید ۳: ایده: Paul Graham — https://paulgraham.com/good.html | اقتباس: https://alisodeyfi.ir/articles/be-good/fa/#daily-article-reader",
+          "en": "Slide 1: connect the product promise to an observable outcome.\nSlide 2: assess one feature by its customer result and burden on others.\nSlide 3: inspiration: Paul Graham — https://paulgraham.com/good.html | Adaptation: https://alisodeyfi.ir/articles/be-good/en/#daily-article-reader",
+          "ar": "الشريحة ۱: اربط وعد المنتج بنتيجة قابلة للملاحظة.\nالشريحة ۲: قيّم خاصية واحدة بنتيجة العميل والعبء على الآخرين.\nالشريحة ۳: الفكرة: Paul Graham — https://paulgraham.com/good.html | المعالجة: https://alisodeyfi.ir/articles/be-good/ar/#daily-article-reader"
         }
       }
     ],
