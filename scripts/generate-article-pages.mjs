@@ -4,6 +4,7 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import vm from "node:vm";
+import { relatedArticleGroups } from "./related-articles.mjs";
 
 const siteRoot = resolve(fileURLToPath(new URL("..", import.meta.url)));
 const siteUrl = "https://alisodeyfi.ir";
@@ -290,6 +291,36 @@ function getArticleUrl(slug, language) {
   return `${siteUrl}/articles/${slug}/${language}/`;
 }
 
+function renderRelatedArticles(data, article, language) {
+  const slug = data.getArticleSlug(article);
+  const group = relatedArticleGroups.find((items) => items.some((item) => item.slug === slug));
+  if (!group) return "";
+
+  const heading = {
+    fa: "مقاله‌های مرتبط",
+    en: "Related articles",
+    ar: "مقالات ذات صلة",
+  }[language];
+  const items = group.filter((item) => item.slug !== slug).map((item) => {
+    const target = data.articleCatalog.find((candidate) => data.getArticleSlug(candidate) === item.slug);
+    if (!target || !item.titles[language] || !target.summary[language]) {
+      throw new Error(`Invalid related article: ${item.slug} (${language})`);
+    }
+    return `
+            <li>
+              <a href="${getArticleUrl(item.slug, language)}">${escapeHtml(item.titles[language])}</a>
+              <p>${escapeHtml(target.summary[language])}</p>
+            </li>`;
+  }).join("");
+
+  return `
+        <nav class="article-related" aria-labelledby="article-related-title">
+          <h2 id="article-related-title">${escapeHtml(heading)}</h2>
+          <ul>${items}
+          </ul>
+        </nav>`;
+}
+
 function getArticleCredit(article) {
   const parts =
     article.source === article.author
@@ -341,6 +372,7 @@ function getPageHtml(data, article, language) {
   const translationLabel = dictionary.articleOnSiteLabel ?? "Translation and notes";
   const shareLabel = dictionary.articleShareLabel ?? "Share";
   const shareSuccess = dictionary.articleShareSuccess ?? "Article link copied.";
+  const relatedArticles = renderRelatedArticles(data, article, language);
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -395,7 +427,7 @@ function getPageHtml(data, article, language) {
     <title>${escapeHtml(title)}</title>
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="/styles.css?v=${stylesheetVersion}" />
-    <link rel="stylesheet" href="/article-page.css?v=${stylesheetVersion}" />
+    <link rel="stylesheet" href="/article-page.css?v=${relatedArticles ? "20260926-related" : stylesheetVersion}" />
     <script type="application/ld+json">${escapeJsonLd(structuredData)}</script>
   </head>
   <body class="article-page">
@@ -458,7 +490,7 @@ function getPageHtml(data, article, language) {
           ${renderTakeaways(essay.takeaways, dictionary.articleTakeawaysLabel ?? "")}
           ${renderArticleFeedback(data, article, language)}
           <p class="article-note">${escapeHtml(dictionary.articleCopyrightNote ?? "")}</p>
-        </section>
+        </section>${relatedArticles}
       </article>
     </main>
 

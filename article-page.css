@@ -9,6 +9,63 @@
   margin-inline: auto;
 }
 
+.article-related {
+  max-width: 720px;
+  margin: 2.5rem auto 0;
+  padding-block-start: 1.5rem;
+  border-block-start: 1px solid rgba(17, 38, 45, 0.16);
+  text-align: start;
+}
+
+.article-related h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.2rem;
+  line-height: 1.7;
+  letter-spacing: 0;
+}
+
+.article-related ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.article-related li {
+  padding-block: 0.85rem;
+}
+
+.article-related li + li {
+  border-block-start: 1px solid rgba(17, 38, 45, 0.1);
+}
+
+.article-related a {
+  display: inline-block;
+  padding-block: 0.4rem;
+  color: var(--accent-strong);
+  font-size: 1rem;
+  font-weight: 800;
+  line-height: 1.8;
+  overflow-wrap: anywhere;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.article-related a:hover {
+  color: var(--accent-blue);
+}
+
+.article-related a:focus-visible {
+  outline: 2px solid var(--accent-strong);
+  outline-offset: 3px;
+}
+
+.article-related p {
+  margin: 0.25rem 0 0;
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.9;
+}
+
 .article-page-header {
   position: sticky;
   top: 1rem;
