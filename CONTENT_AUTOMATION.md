@@ -40,3 +40,11 @@ Set `GITHUB_TOKEN`, `GITHUB_OWNER`, `GITHUB_REPO`, `GITHUB_BRANCH`, and `CONTENT
 - Site items become `published`.
 - Social channels such as LinkedIn and Instagram story are marked `ready` until a real API publisher is connected.
 - Keep publish times in `Asia/Tehran`.
+
+## Sitemap dates
+
+Run `node scripts/generate-article-pages.mjs` from a checkout with complete Git history. The generator uses each HTML page's latest commit date for `lastmod`; new or modified HTML pages use the build date. Rebuilding unchanged pages, or committing an unrelated stylesheet, does not refresh their dates.
+
+`SITEMAP_LASTMOD=YYYY-MM-DD` overrides the build date for changed pages only. Without complete Git history (including shallow clones), the generator omits the optional `lastmod` values instead of assigning unsupported dates. Review HTML changes before committing; stylesheet cache-version edits inside HTML still count as file changes.
+
+Run `node --test scripts/sitemap-dates.test.mjs` to check unchanged, edited, staged, new, archive and shallow-clone cases. This follows [Google's sitemap guidance](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap#additional-notes-about-xml-sitemaps) on keeping `lastmod` accurate.

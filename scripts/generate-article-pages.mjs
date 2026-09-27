@@ -5,6 +5,7 @@ import { join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import vm from "node:vm";
 import { relatedArticleGroups } from "./related-articles.mjs";
+import { getSitemapDates, validateSitemapDate } from "./sitemap-dates.mjs";
 
 const siteRoot = resolve(fileURLToPath(new URL("..", import.meta.url)));
 const siteUrl = "https://alisodeyfi.ir";
@@ -573,7 +574,7 @@ function getPageHtml(data, article, language) {
 `;
 }
 
-function buildSitemap(data, lastmod) {
+function buildSitemap(data, dates) {
   const urls = [
     `${siteUrl}/`,
     getHomepageUrl("en"),
@@ -588,9 +589,12 @@ function buildSitemap(data, lastmod) {
   });
 
   const body = urls
-    .map(
-      (url) => `  <url>\n    <loc>${escapeHtml(url)}</loc>\n    <lastmod>${lastmod}</lastmod>\n  </url>`,
-    )
+    .map((url) => {
+      const file = `${new URL(url).pathname.slice(1)}index.html`;
+      const lastmod = dates.get(file);
+      const dateTag = lastmod ? `\n    <lastmod>${lastmod}</lastmod>` : "";
+      return `  <url>\n    <loc>${escapeHtml(url)}</loc>${dateTag}\n  </url>`;
+    })
     .join("\n");
 
   return `<?xml version="1.0" encoding="UTF-8"?>
@@ -604,7 +608,7 @@ async function main() {
   const source = await readFile(scriptPath, "utf8");
   const homepageSource = await readFile(homepagePath, "utf8");
   const data = getSiteData(source);
-  const lastmod = process.env.SITEMAP_LASTMOD ?? new Date().toISOString().slice(0, 10);
+  const buildDate = validateSitemapDate(process.env.SITEMAP_LASTMOD ?? new Date().toISOString().slice(0, 10));
 
   await mkdir(articleRoot, { recursive: true });
   await writeFile(homepagePath, injectStaticArticleLinks(homepageSource, data, "fa"), "utf8");
@@ -632,7 +636,7 @@ async function main() {
     }
   }
 
-  await writeFile(sitemapPath, buildSitemap(data, lastmod), "utf8");
+  await writeFile(sitemapPath, buildSitemap(data, getSitemapDates(siteRoot, buildDate)), "utf8");
   console.log(`Generated ${data.articleCatalog.length * 3} article pages and sitemap.xml.`);
 }
 
