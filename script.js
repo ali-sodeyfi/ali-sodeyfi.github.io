@@ -4915,7 +4915,8 @@ function filterArticleArchive(categoryId, language) {
     const dictionary = translations[language] ?? translations.fa;
     const label = articleCategories.find((category) => category.id === categoryId)?.label[language]
       ?? dictionary.articleAllTopicsLabel;
-    articleResultsStatus.textContent = `${label} · ${dictionary.articleCountLabel.replace("{count}", count.toLocaleString(language))}`;
+    const countLabel = dictionary.articleCountLabel.replace("{count}", count.toLocaleString(language));
+    articleResultsStatus.innerHTML = `<span class="sr-only">${escapeHtml(label)}: </span>${escapeHtml(countLabel)}`;
   }
 }
 

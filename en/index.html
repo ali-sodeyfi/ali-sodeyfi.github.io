@@ -35,7 +35,7 @@
     <title>Ali Sodeyfi | Notes on building companies</title>
     <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
     <meta name="google-site-verification" content="Q6Qpsd0tDDtDIqz8T6yrblTL6ehPZotrE9IXDDj8Nvg" />
-  <link rel="stylesheet" href="../styles.css?v=20260927-hamyan-logo" />
+  <link rel="stylesheet" href="../styles.css?v=20260927-topic-controls" />
     <script type="application/ld+json" id="structured-data-person">
       {
         "@context": "https://schema.org",
@@ -370,11 +370,13 @@
         <a class="article-archive-jump" href="#article-archive" data-i18n="articleBrowseTopicsLabel">Browse topics</a>
         <article class="daily-article" data-daily-article aria-live="polite"></article>
 
-        <div class="article-list-head" id="article-archive">
-          <p class="eyebrow" data-i18n="articleArchiveLabel">Article archive</p>
+        <div class="article-archive-controls" id="article-archive">
+          <div class="article-list-head">
+            <p class="eyebrow" data-i18n="articleArchiveLabel">Article archive</p>
+            <p class="article-results-status" data-article-results role="status" aria-live="polite" aria-atomic="true"></p>
+          </div>
+          <div class="article-topic-filters" data-article-filters role="group" hidden></div>
         </div>
-        <div class="article-topic-filters" data-article-filters role="group" hidden></div>
-        <p class="article-results-status" data-article-results role="status" aria-live="polite" aria-atomic="true"></p>
         <div class="article-list" id="article-archive-list" data-article-list>
           <!-- STATIC_ARTICLE_LINKS_START -->
           <article class="article-card" data-article-topic="growth">
@@ -1046,6 +1048,6 @@
       <span data-i18n="footerText">Notes and field lessons on building.</span>
     </footer>
 
-  <script src="../script.js?v=20260927-article-topics"></script>
+  <script src="../script.js?v=20260927-topic-controls"></script>
   </body>
 </html>
