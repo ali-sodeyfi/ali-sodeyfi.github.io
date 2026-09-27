@@ -41,6 +41,14 @@ Set `GITHUB_TOKEN`, `GITHUB_OWNER`, `GITHUB_REPO`, `GITHUB_BRANCH`, and `CONTENT
 - Social channels such as LinkedIn and Instagram story are marked `ready` until a real API publisher is connected.
 - Keep publish times in `Asia/Tehran`.
 
+## Article topics
+
+Every item in `articleCatalog` in `script.js` must have one primary `category`: `ideas`, `product`, `growth`, `funding`, `building`, or `leadership`. Choose the main subject, not every related tag. The multilingual topic labels live in `articleCategories`.
+
+The archive includes all articles, including the featured article, so counts do not change with the daily selection. Runtime and generated homepages share `renderArticleArchiveCards`; do not maintain a second list. Without JavaScript, all categorized article links remain visible.
+
+After adding an article, run `node scripts/generate-article-pages.mjs` and `node --test scripts/article-categories.test.mjs`. The generator rejects articles with missing or unknown categories.
+
 ## Sitemap dates
 
 Run `node scripts/generate-article-pages.mjs` from a checkout with complete Git history. The generator uses each HTML page's latest commit date for `lastmod`; new or modified HTML pages use the build date. Rebuilding unchanged pages, or committing an unrelated stylesheet, does not refresh their dates.

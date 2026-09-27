@@ -47,26 +47,7 @@ function getHomepagePath(language) {
 }
 
 function renderStaticArticleLinks(data, language) {
-  const dictionary = data.translations[language] ?? data.translations.fa;
-  const cards = data.articleCatalog.map((article) => {
-    const slug = data.getArticleSlug(article);
-    const summary = article.summary[language] ?? article.summary.en;
-    const canonicalUrl = getArticleUrl(slug, language);
-    return `
-          <article class="article-card">
-            <div>
-              <h3 dir="ltr"><a href="${escapeHtml(canonicalUrl)}">${escapeHtml(article.title)}</a></h3>
-              <p>${escapeHtml(summary)}</p>
-            </div>
-            <div class="article-card-footer">
-              <span class="article-source">${escapeHtml(getArticleCredit(article))}</span>
-              <div class="article-card-links">
-                <a class="article-card-action article-card-action-primary" href="${escapeHtml(canonicalUrl)}">${escapeHtml(dictionary.articleArchiveReadOnSiteLabel ?? "Read on site")}</a>
-                <a class="article-card-action article-card-action-secondary" href="${escapeHtml(article.url)}" target="_blank" rel="noreferrer">${escapeHtml(dictionary.articleReadLabel ?? "Original source")}</a>
-              </div>
-            </div>
-          </article>`;
-  }).join("");
+  const cards = data.renderArticleArchiveCards(language);
 
   return `<!-- STATIC_ARTICLE_LINKS_START -->${cards}\n        <!-- STATIC_ARTICLE_LINKS_END -->`;
 }
@@ -142,6 +123,7 @@ globalThis.__articlePageData = {
   articleEssayExpansion,
   translations,
   getArticleSlug,
+  renderArticleArchiveCards,
 };
 `;
 

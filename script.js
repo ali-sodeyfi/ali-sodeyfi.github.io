@@ -5,12 +5,15 @@ const languageButtons = document.querySelectorAll("[data-lang]");
 const translatableNodes = document.querySelectorAll("[data-i18n]");
 const dailyArticleContainer = document.querySelector("[data-daily-article]");
 const articleListContainer = document.querySelector("[data-article-list]");
+const articleFiltersContainer = document.querySelector("[data-article-filters]");
+const articleResultsStatus = document.querySelector("[data-article-results]");
 const html = document.documentElement;
 const liveSiteUrl = "https://alisodeyfi.ir/";
 const defaultShareImageUrl = `${liveSiteUrl}assets/ali-sodeyfi.jpg`;
 const contentOverrideUrl = `${liveSiteUrl}content-overrides.json`;
 let publishingPlan = null;
 let selectedArticleIndex = null;
+let selectedArticleCategory = "all";
 
 const translations = {
   fa: {
@@ -110,6 +113,9 @@ const translations = {
     articleTodayLabel: "انتخاب امروز",
     articleSelectedLabel: "ترجمه منتخب",
     articleArchiveLabel: "آرشیو مقاله‌ها",
+    articleBrowseTopicsLabel: "انتخاب موضوع",
+    articleAllTopicsLabel: "همه موضوع‌ها",
+    articleCountLabel: "{count} مقاله",
     articleSourceLabel: "منبع",
     articleDateLabel: "به‌روزرسانی منظم",
     articleReadLabel: "منبع اصلی",
@@ -249,6 +255,9 @@ const translations = {
     articleTodayLabel: "Today's pick",
     articleSelectedLabel: "Selected translation",
     articleArchiveLabel: "Article archive",
+    articleBrowseTopicsLabel: "Browse topics",
+    articleAllTopicsLabel: "All topics",
+    articleCountLabel: "{count} articles",
     articleSourceLabel: "Source",
     articleDateLabel: "Regular update",
     articleReadLabel: "Original source",
@@ -388,6 +397,9 @@ const translations = {
     articleTodayLabel: "اختيار اليوم",
     articleSelectedLabel: "ترجمة مختارة",
     articleArchiveLabel: "أرشيف المقالات",
+    articleBrowseTopicsLabel: "تصفح المواضيع",
+    articleAllTopicsLabel: "كل المواضيع",
+    articleCountLabel: "عدد المقالات: {count}",
     articleSourceLabel: "المصدر",
     articleDateLabel: "تحديث منتظم",
     articleReadLabel: "المصدر الأصلي",
@@ -432,9 +444,19 @@ const translations = {
   },
 };
 
+const articleCategories = [
+  { id: "ideas", label: { fa: "ایده و اعتبارسنجی", en: "Ideas & validation", ar: "الأفكار والتحقق" } },
+  { id: "product", label: { fa: "محصول و شناخت کاربر", en: "Product & users", ar: "المنتج وفهم المستخدم" } },
+  { id: "growth", label: { fa: "رشد و مشتری", en: "Growth & customers", ar: "النمو والعملاء" } },
+  { id: "funding", label: { fa: "سرمایه و سهام", en: "Funding & equity", ar: "التمويل والأسهم" } },
+  { id: "building", label: { fa: "ساخت شرکت", en: "Company building", ar: "بناء الشركة" } },
+  { id: "leadership", label: { fa: "رهبری و تمرکز", en: "Leadership & focus", ar: "القيادة والتركيز" } },
+];
+
 const articleCatalog = [
   {
     title: "Do Things that Don't Scale",
+    category: "growth",
     author: "Paul Graham",
     source: "Paul Graham",
     year: "2013",
@@ -452,6 +474,7 @@ const articleCatalog = [
   },
   {
     title: "Startup = Growth",
+    category: "growth",
     author: "Paul Graham",
     source: "Paul Graham",
     year: "2012",
@@ -469,6 +492,7 @@ const articleCatalog = [
   },
   {
     title: "Founder Mode",
+    category: "leadership",
     author: "Paul Graham",
     source: "Paul Graham",
     year: "2019",
@@ -486,6 +510,7 @@ const articleCatalog = [
   },
   {
     title: "Relentlessly Resourceful",
+    category: "building",
     author: "Paul Graham",
     source: "Paul Graham",
     year: "2009",
@@ -503,6 +528,7 @@ const articleCatalog = [
   },
   {
     title: "How to Get Startup Ideas",
+    category: "ideas",
     author: "Paul Graham",
     source: "Paul Graham",
     year: "2012",
@@ -520,6 +546,7 @@ const articleCatalog = [
   },
   {
     title: "Schlep Blindness",
+    category: "ideas",
     author: "Paul Graham",
     source: "Paul Graham",
     year: "2012",
@@ -537,6 +564,7 @@ const articleCatalog = [
   },
   {
     title: "How to Build an MVP",
+    category: "product",
     author: "Michael Seibel",
     source: "Y Combinator",
     year: "2023",
@@ -554,6 +582,7 @@ const articleCatalog = [
   },
   {
     title: "Maker's Schedule, Manager's Schedule",
+    category: "leadership",
     author: "Paul Graham",
     source: "Paul Graham",
     year: "2009",
@@ -571,6 +600,7 @@ const articleCatalog = [
   },
   {
     title: "The Refragmentation",
+    category: "building",
     author: "Paul Graham",
     source: "Paul Graham",
     year: "2016",
@@ -584,6 +614,7 @@ const articleCatalog = [
   },
   {
     title: "1,000 True Fans",
+    category: "growth",
     author: "Kevin Kelly",
     source: "The Technium",
     year: "2008",
@@ -601,6 +632,7 @@ const articleCatalog = [
   },
   {
     title: "The Only Thing that Matters",
+    category: "product",
     author: "Marc Andreessen",
     source: "PMarchive",
     year: "2007",
@@ -618,6 +650,7 @@ const articleCatalog = [
   },
   {
     title: "Good Product Manager/Bad Product Manager",
+    category: "product",
     author: "Ben Horowitz",
     source: "a16z",
     year: "2012",
@@ -635,6 +668,7 @@ const articleCatalog = [
   },
   {
     title: "How Superhuman Built an Engine to Find Product Market Fit",
+    category: "product",
     author: "Rahul Vohra",
     source: "First Round Review",
     year: "2019",
@@ -652,6 +686,7 @@ const articleCatalog = [
   },
   {
     title: "The Minimum Viable Testing Process for Evaluating Startup Ideas",
+    category: "ideas",
     author: "First Round Review",
     source: "First Round Review",
     year: "2016",
@@ -669,6 +704,7 @@ const articleCatalog = [
   },
   {
     title: "Ramen Profitable",
+    category: "funding",
     author: "Paul Graham",
     source: "Paul Graham",
     year: "2009",
@@ -686,6 +722,7 @@ const articleCatalog = [
   },
   {
     title: "How to Talk to Users",
+    category: "product",
     author: "Gustaf Alstromer",
     source: "Y Combinator",
     year: "2022",
@@ -703,6 +740,7 @@ const articleCatalog = [
   },
   {
     title: "Default Alive or Default Dead?",
+    category: "funding",
     author: "Paul Graham",
     source: "Paul Graham",
     year: "2015",
@@ -720,6 +758,7 @@ const articleCatalog = [
   },
   {
     title: "The 30 Best Pieces of Advice for Entrepreneurs in 2023",
+    category: "leadership",
     author: "First Round Review",
     source: "First Round Review",
     year: "2024",
@@ -737,6 +776,7 @@ const articleCatalog = [
   },
   {
     title: "Product-User Fit Comes Before Product-Market Fit",
+    category: "product",
     author: "Andrew Chen",
     source: "a16z",
     year: "2019",
@@ -754,6 +794,7 @@ const articleCatalog = [
   },
   {
     title: "Nail the Customer Development Manifesto to the Wall",
+    category: "product",
     author: "Steve Blank",
     source: "Steve Blank",
     year: "2012",
@@ -771,6 +812,7 @@ const articleCatalog = [
   },
   {
     title: "The 18 Mistakes That Kill Startups",
+    category: "building",
     author: "Paul Graham",
     source: "Paul Graham",
     year: "2006",
@@ -788,6 +830,7 @@ const articleCatalog = [
   },
   {
     title: "10 Questions to Discuss with a Potential Co-founder",
+    category: "leadership",
     author: "Y Combinator",
     source: "Y Combinator",
     year: "2023",
@@ -805,6 +848,7 @@ const articleCatalog = [
   },
   {
     title: "The Lighthouse Playbook",
+    category: "growth",
     author: "David Booth",
     source: "Andreessen Horowitz",
     year: "2026",
@@ -822,6 +866,7 @@ const articleCatalog = [
   },
   {
     title: "The Hardest Lessons for Startups to Learn",
+    category: "building",
     author: "Paul Graham",
     source: "Paul Graham",
     year: "2006",
@@ -839,6 +884,7 @@ const articleCatalog = [
   },
   {
     title: "Before the Startup",
+    category: "building",
     author: "Paul Graham",
     source: "Paul Graham",
     year: "2014",
@@ -856,6 +902,7 @@ const articleCatalog = [
   },
   {
     title: "What Startups Are Really Like",
+    category: "building",
     author: "Paul Graham",
     source: "Paul Graham",
     year: "2009",
@@ -873,6 +920,7 @@ const articleCatalog = [
   },
   {
     title: "How to Start a Startup",
+    category: "building",
     author: "Paul Graham",
     source: "Paul Graham",
     year: "2005",
@@ -890,6 +938,7 @@ const articleCatalog = [
   },
   {
     title: "How to Get Your First Customers",
+    category: "growth",
     author: "Gustaf Alstromer",
     source: "Y Combinator",
     year: "2022",
@@ -907,6 +956,7 @@ const articleCatalog = [
   },
   {
     title: "How Universities Should Prepare Founders",
+    category: "building",
     author: "Paul Graham",
     source: "Paul Graham",
     year: "2026",
@@ -924,6 +974,7 @@ const articleCatalog = [
   },
   {
     title: "How to Raise Money",
+    category: "funding",
     author: "Paul Graham",
     source: "Paul Graham",
     year: "2013",
@@ -941,6 +992,7 @@ const articleCatalog = [
   },
   {
     title: "How to Hire Your First Engineer",
+    category: "leadership",
     author: "Harj Taggar",
     source: "Y Combinator",
     year: "2018",
@@ -958,6 +1010,7 @@ const articleCatalog = [
   },
   {
     title: "Organic Startup Ideas",
+    category: "ideas",
     author: "Paul Graham",
     source: "Paul Graham",
     year: "2010",
@@ -975,6 +1028,7 @@ const articleCatalog = [
   },
   {
     title: "How to Do Great Work",
+    category: "leadership",
     author: "Paul Graham",
     source: "Paul Graham",
     year: "2023",
@@ -992,6 +1046,7 @@ const articleCatalog = [
   },
   {
     title: "The Bus Ticket Theory of Genius",
+    category: "leadership",
     author: "Paul Graham",
     source: "Paul Graham",
     year: "2019",
@@ -1005,6 +1060,7 @@ const articleCatalog = [
   },
   {
     title: "Your Startup Is Probably Dead On Arrival",
+    category: "building",
     author: "Steve Blank",
     source: "Steve Blank",
     year: "2026",
@@ -1022,6 +1078,7 @@ const articleCatalog = [
   },
   {
     title: "Don't Talk to Corp Dev",
+    category: "leadership",
     author: "Paul Graham",
     source: "Paul Graham",
     year: "2015",
@@ -1039,6 +1096,7 @@ const articleCatalog = [
   },
   {
     title: "The Equity Equation",
+    category: "funding",
     author: "Paul Graham",
     source: "Paul Graham",
     year: "2007",
@@ -1056,6 +1114,7 @@ const articleCatalog = [
   },
   {
     title: "Startups in 13 Sentences",
+    category: "building",
     author: "Paul Graham",
     source: "Paul Graham",
     year: "2009",
@@ -1073,6 +1132,7 @@ const articleCatalog = [
   },
   {
     title: "The Top Idea in Your Mind",
+    category: "leadership",
     author: "Paul Graham",
     source: "Paul Graham",
     year: "2010",
@@ -1090,6 +1150,7 @@ const articleCatalog = [
   },
   {
     title: "A Fundraising Survival Guide",
+    category: "funding",
     author: "Paul Graham",
     source: "Paul Graham",
     year: "2008",
@@ -1107,6 +1168,7 @@ const articleCatalog = [
   },
   {
     title: "Advice for First Time Founders",
+    category: "building",
     author: "Y Combinator",
     source: "Y Combinator",
     year: "2018",
@@ -1124,6 +1186,7 @@ const articleCatalog = [
   },
   {
     title: "How to Make Wealth",
+    category: "building",
     author: "Paul Graham",
     source: "Paul Graham",
     year: "2004",
@@ -1141,6 +1204,7 @@ const articleCatalog = [
   },
   {
     title: "The Fatal Pinch",
+    category: "funding",
     author: "Paul Graham",
     source: "Paul Graham",
     year: "2014",
@@ -1158,6 +1222,7 @@ const articleCatalog = [
   },
   {
     title: "How Not to Die",
+    category: "building",
     author: "Paul Graham",
     source: "Paul Graham",
     year: "2007",
@@ -1175,6 +1240,7 @@ const articleCatalog = [
   },
   {
     title: "Be Good",
+    category: "product",
     author: "Paul Graham",
     source: "Paul Graham",
     year: "2008",
@@ -1192,6 +1258,7 @@ const articleCatalog = [
   },
   {
     title: "The Lesson to Unlearn",
+    category: "leadership",
     author: "Paul Graham",
     source: "Paul Graham",
     year: "2019",
@@ -4783,6 +4850,75 @@ function renderContentCalendar(language, article, essay) {
     .join("");
 }
 
+function getArticleCategory(article) {
+  const category = articleCategories.find((item) => item.id === article.category);
+  if (!category) {
+    throw new Error(`Missing article category: ${article.title}`);
+  }
+  return category;
+}
+
+function renderArticleArchiveCards(language) {
+  const dictionary = translations[language] ?? translations.fa;
+  return articleCatalog.map((article) => {
+    const category = getArticleCategory(article);
+    const summary = article.summary[language] ?? article.summary.en;
+    const pageUrl = getArticlePageUrl(article, language);
+    return `
+          <article class="article-card" data-article-topic="${category.id}">
+            <div>
+              <span class="article-category-label">${escapeHtml(category.label[language])}</span>
+              <h3 dir="ltr"><a href="${escapeHtml(pageUrl)}">${escapeHtml(article.title)}</a></h3>
+              <p>${escapeHtml(summary)}</p>
+            </div>
+            <div class="article-card-footer">
+              <span class="article-source">${escapeHtml(getArticleCredit(article))}</span>
+              <div class="article-card-links">
+                <a class="article-card-action article-card-action-primary" href="${escapeHtml(pageUrl)}">${escapeHtml(dictionary.articleArchiveReadOnSiteLabel)}</a>
+                <a class="article-card-action article-card-action-secondary" href="${escapeHtml(article.url)}" target="_blank" rel="noreferrer">${escapeHtml(dictionary.articleReadLabel)}</a>
+              </div>
+            </div>
+          </article>`;
+  }).join("");
+}
+
+function renderArticleFilters(language) {
+  const dictionary = translations[language] ?? translations.fa;
+  const categories = [
+    { id: "all", label: { [language]: dictionary.articleAllTopicsLabel } },
+    ...articleCategories,
+  ];
+  return categories.map((category) => {
+    const count = articleCatalog.filter((article) => category.id === "all" || article.category === category.id).length;
+    return `<button class="article-topic-filter" type="button" data-article-category="${category.id}" aria-controls="article-archive-list" aria-pressed="${category.id === selectedArticleCategory}">
+      <span>${escapeHtml(category.label[language])}</span>
+      <span class="article-topic-count">${count.toLocaleString(language)}</span>
+    </button>`;
+  }).join("");
+}
+
+function filterArticleArchive(categoryId, language) {
+  if (categoryId !== "all" && !articleCategories.some((category) => category.id === categoryId)) {
+    return;
+  }
+  selectedArticleCategory = categoryId;
+  window.history.replaceState({ ...window.history.state, articleCategory: categoryId }, "");
+  let count = 0;
+  articleListContainer?.querySelectorAll("[data-article-topic]").forEach((card) => {
+    card.hidden = categoryId !== "all" && card.dataset.articleTopic !== categoryId;
+    if (!card.hidden) count += 1;
+  });
+  articleFiltersContainer?.querySelectorAll("[data-article-category]").forEach((button) => {
+    button.setAttribute("aria-pressed", String(button.dataset.articleCategory === categoryId));
+  });
+  if (articleResultsStatus) {
+    const dictionary = translations[language] ?? translations.fa;
+    const label = articleCategories.find((category) => category.id === categoryId)?.label[language]
+      ?? dictionary.articleAllTopicsLabel;
+    articleResultsStatus.textContent = `${label} · ${dictionary.articleCountLabel.replace("{count}", count.toLocaleString(language))}`;
+  }
+}
+
 function renderArticles(language) {
   if (!dailyArticleContainer || !articleListContainer) {
     return;
@@ -4795,9 +4931,6 @@ function renderArticles(language) {
   const dailySummary = dailyArticle.summary[language] ?? dailyArticle.summary.en;
   const dailyEssay = getArticleEssay(dailyArticle, language);
   const shareUrl = getArticleShareUrl(dailyArticle, language);
-  const archiveArticles = articleCatalog
-    .map((article, index) => ({ article, index }))
-    .filter(({ index }) => index !== featuredIndex);
   const articleKicker =
     featuredIndex === dailyIndex ? dictionary.articleTodayLabel : dictionary.articleSelectedLabel;
 
@@ -4843,28 +4976,13 @@ function renderArticles(language) {
     </div>
   `;
 
-  articleListContainer.innerHTML = archiveArticles
-    .map(({ article, index }) => {
-      const summary = article.summary[language] ?? article.summary.en;
-
-      return `
-        <article class="article-card">
-          <div>
-            <h3 dir="ltr"><a href="${escapeHtml(article.url)}" target="_blank" rel="noreferrer">${escapeHtml(article.title)}</a></h3>
-            <p>${escapeHtml(summary)}</p>
-          </div>
-          <div class="article-card-footer">
-            <span class="article-source">${escapeHtml(article.source)}</span>
-            <div class="article-card-links">
-              <a class="article-card-action article-card-action-primary" href="${escapeHtml(getArticlePageUrl(article, language))}">${escapeHtml(dictionary.articleArchiveReadOnSiteLabel)}</a>
-              <a class="article-card-action article-card-action-secondary" href="${escapeHtml(article.url)}" target="_blank" rel="noreferrer">${escapeHtml(dictionary.articleReadLabel)}</a>
-            </div>
-          </div>
-        </article>
-      `;
-    })
-    .join("");
-
+  articleListContainer.innerHTML = renderArticleArchiveCards(language);
+  if (articleFiltersContainer) {
+    articleFiltersContainer.innerHTML = renderArticleFilters(language);
+    articleFiltersContainer.setAttribute("aria-label", dictionary.articleBrowseTopicsLabel);
+    articleFiltersContainer.hidden = false;
+  }
+  filterArticleArchive(selectedArticleCategory, language);
 }
 
 function scrollToArticleStart(behavior = "smooth") {
@@ -4946,7 +5064,9 @@ function applyLanguage(language) {
   if (selectedArticleIndex !== null) {
     updateArticleUrl(articleCatalog[selectedArticleIndex], selectedLanguage, "replace");
   } else {
-    window.history.replaceState({}, "", getLanguagePageUrl(selectedLanguage));
+    const pageUrl = new URL(getLanguagePageUrl(selectedLanguage));
+    pageUrl.hash = window.location.hash;
+    window.history.replaceState(window.history.state, "", pageUrl);
   }
 
   updateSeoMetadata(selectedLanguage);
@@ -5101,6 +5221,15 @@ dailyArticleContainer?.addEventListener("submit", (event) => {
   submitArticleFeedback(form);
 });
 
+articleFiltersContainer?.addEventListener("click", (event) => {
+  const button = event.target instanceof Element
+    ? event.target.closest("[data-article-category]")
+    : null;
+  if (button) {
+    filterArticleArchive(button.dataset.articleCategory, html.lang || "fa");
+  }
+});
+
 articleListContainer?.addEventListener("click", (event) => {
   const target = event.target instanceof Element ? event.target : null;
   const selectButton = target?.closest("[data-article-select]");
@@ -5120,6 +5249,11 @@ articleListContainer?.addEventListener("click", (event) => {
 
 async function initializeSite() {
   await loadContentOverrides();
+
+  const savedCategory = window.history.state?.articleCategory;
+  if (articleCategories.some((category) => category.id === savedCategory)) {
+    selectedArticleCategory = savedCategory;
+  }
 
   const articleIndexFromUrl = getArticleIndexFromUrl();
 
