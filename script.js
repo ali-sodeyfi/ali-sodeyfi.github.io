@@ -1190,9 +1190,87 @@ const articleCatalog = [
       ar: "من النية الحسنة إلى نتيجة قابلة للملاحظة: تمرين لتحديد منفعة المستخدم واختبار وعد محدود ووضع حدود التكلفة والثقة في قرارات المنتج.",
     },
   },
+  {
+    title: "The Lesson to Unlearn",
+    author: "Paul Graham",
+    source: "Paul Graham",
+    year: "2019",
+    url: "https://paulgraham.com/lesson.html",
+    tags: {
+      fa: ["سنجش پیشرفت", "تصمیم‌گیری", "بنیان‌گذار"],
+      en: ["measuring progress", "decision making", "founders"],
+      ar: ["قياس التقدم", "اتخاذ القرار", "المؤسسون"],
+    },
+    summary: {
+      fa: "از جلب تأیید تا سنجش نتیجه: تمرینی برای پیدا کردن شاخص‌های قابل‌بازی، تعریف دقیق داده و تبدیل گزارش هفتگی به تصمیم عملی.",
+      en: "From seeking approval to checking results: an operating exercise in spotting gameable metrics, defining data, and turning a weekly report into a decision.",
+      ar: "من طلب الاستحسان إلى فحص النتائج: تمرين لاكتشاف المؤشرات القابلة للتلاعب وتعريف البيانات وتحويل التقرير الأسبوعي إلى قرار عملي.",
+    },
+  },
 ];
 
 const articleEssays = {
+  "The Lesson to Unlearn": {
+    fa: {
+      paragraphs: [
+        "گاهی بنیان‌گذار، شرکت را مثل امتحانی می‌بیند که باید پاسخ مطلوب ممتحن را پیدا کند. ایده مرکزی این مقاله این است که عادت به گرفتن تأیید می‌تواند جای ساختن محصولی را بگیرد که مردم واقعاً می‌خواهند. این متن اقتباسی آزاد از همین ایده است، نه ترجمه کامل؛ چارچوب بازبینی شاخص‌ها و مثال عملی ادامه، پیشنهادهای مستقل این بازنویسی‌اند. پرسش پیشنهادی برای جلسه بعدی تیم ساده است: اگر هیچ سرمایه‌گذار یا داوری گزارش ما را نمی‌دید، کدام بخش این هفته کاری همچنان ارزش انجام دادن داشت؟",
+        "برای پاسخ، فهرست کارهای هفته گذشته را بدون قضاوت اولیه بنویسید. کنار هر کار، یک ذی‌نفع و یک نتیجه مورد انتظار بگذارید: مشتری بتواند سفارش ناقص را اصلاح کند، فروشنده پاسخ دقیق‌تری بدهد، یا تیم خطای تکراری را پیدا کند. کارهایی مثل آماده کردن ارائه را حذف خودکار نکنید؛ ممکن است برای هماهنگی یا تأمین منابع لازم باشند. اما اگر نتیجه یک فعالیت فقط «حرفه‌ای‌تر به نظر رسیدن» است، آن را از کارهایی که فرض محصول را می‌آزمایند جدا کنید. سپس سهم زمانی هر دسته را ببینید و درباره هفته بعد تصمیم بگیرید، نه اینکه برای هفته قبل مقصر پیدا کنید.",
+        "فرض کنید محصول شما ابزار پیگیری پیشنهاد فروش است. داشبورد، تعداد پیشنهادهای ارسال‌شده را نشان می‌دهد و تیم از رشد آن خوشحال است. اکنون یک آزمون فکری انجام دهید: آیا با ارسال پیشنهادهای تکراری یا کم‌کیفیت هم می‌توان این عدد را بالا برد؟ اگر پاسخ مثبت است، عدد لزوماً بی‌فایده نیست، اما به‌تنهایی نتیجه کار را نشان نمی‌دهد. در تمرین پیشنهادی، آن را کنار تعداد پاسخ‌های مرتبط مشتری و زمان لازم برای رسیدن به تصمیم قرار دهید. هدف طراحی یک نمره پیچیده‌تر نیست؛ می‌خواهیم معلوم شود حجم فعالیت کجا به پیشرفت واقعی تبدیل شده و کجا فقط کار بیشتری ایجاد کرده است.",
+        "برای شاخص منتخب، یک تعریف عملیاتی کوتاه بنویسید: دقیقاً چه رویدادی شمرده می‌شود، در چه بازه‌ای، برای کدام گروه و با چه موارد استثنا؟ در مثال پیشنهاد فروش، پیام خودکار دریافت را پاسخ مرتبط مشتری حساب نکنید و حساب‌های آزمایشی را از مشتریان واقعی جدا نگه دارید. تعریف و تاریخ تغییر آن را کنار گزارش ثبت کنید تا مقایسه دو هفته بر پایه دو روش متفاوت نباشد. اگر نمونه کوچک است یا داده‌ای ثبت نشده، همان محدودیت را بنویسید. یک جدول با خانه خالی صادقانه برای تصمیم بعدی مفیدتر از عددی است که منشأ آن مشخص نیست.",
+        "در جلسه بازبینی، از صاحب شاخص بخواهید یک مورد موفق و یک مورد ناموفق را با حذف اطلاعات حساس توضیح دهد. مثلاً یک مشتری پس از دریافت پیشنهاد سؤال روشن پرسیده، اما مشتری دیگری به‌دلیل ابهام در دامنه خدمت ارتباط را قطع کرده است. پیش از نتیجه‌گیری درباره کل محصول، تفاوت این دو مسیر را بررسی کنید و یک تغییر محدود، مانند روشن کردن اقلام خارج از قرارداد، انتخاب کنید. مسئول اجرا، مدت مشاهده و علامت توقف را از قبل تعیین کنید. این مرور موردی جای سنجش گسترده را نمی‌گیرد؛ کمک می‌کند آزمایش بعدی به یک مسئله مشخص پاسخ دهد، نه به میل تیم برای بهتر نشان دادن نمودار.",
+        "در پایان هفته یک یادداشت تصمیم تهیه کنید: چه چیزی مشاهده شد، چه توضیح‌های دیگری ممکن است وجود داشته باشد و کدام اقدام را ادامه می‌دهیم یا متوقف می‌کنیم؟ برای نمونه، اگر پاسخ‌های مرتبط بیشتر شد ولی زمان تهیه هر پیشنهاد دو برابر شد، پیش از گسترش درباره هزینه این تغییر تصمیم بگیرید. همین یادداشت را مبنای ارائه بیرونی قرار دهید؛ مشاهده، فرض و برنامه را در سه بخش جدا بنویسید. قرار نیست هر آزمایش داستان موفقیت بسازد. خروجی قابل اتکا، تصمیمی است که با شواهد موجود تناسب دارد و تیم می‌داند چه داده تازه‌ای می‌تواند آن را عوض کند.",
+      ],
+      takeaways: [
+        "برای کارهای هفته، ذی‌نفع و نتیجه مورد انتظار بنویسید؛ ظاهر حرفه‌ای را با یادگیری محصول یکی نگیرید.",
+        "از خود بپرسید آیا شاخص با فعالیت بی‌فایده هم بهتر می‌شود؛ اگر بله، یک نشانه نتیجه کنارش بگذارید.",
+        "رویداد، گروه، بازه و موارد استثنای هر شاخص را پیش از گزارش تعریف کنید.",
+        "یک مورد موفق و یک مورد ناموفق را بررسی کنید؛ فقط نمونه‌های تأییدکننده روایت تیم را انتخاب نکنید.",
+        "برای آزمایش بعدی، مسئول، موعد بررسی و علامت توقف تعیین کنید.",
+        "مشاهده، فرض و تصمیم را در گزارش جدا نگه دارید و هزینه تغییر را هم ثبت کنید.",
+      ],
+      advice: [
+        "در جلسه بعد یک شاخص را انتخاب کنید و سه راه بالا بردن آن بدون بهتر شدن نتیجه مشتری بنویسید.",
+        "تعریف همان شاخص را با یک همکار مرور کنید؛ اگر یک نمونه را متفاوت می‌شمارید، تعریف نیاز به اصلاح دارد.",
+        "پیش از افزودن فعالیت تازه، یک کار کم‌اثر را برای توقف یک‌هفته‌ای انتخاب کنید و پیامدش را ثبت کنید.",
+      ],
+    },
+    en: {
+      paragraphs: [
+        "The essay challenges a habit founders can carry into company building: optimizing for approval instead of making something people want. This is a free adaptation of that idea, not a full translation. The metric review and sales example below are original operating exercises proposed by this adaptation. Start by listing last week's activities, their intended beneficiary, and the result each was meant to produce. Do not automatically discard presentation work; it can support coordination. Instead, distinguish that purpose from testing a product assumption, then decide how to allocate the next week.",
+        "Imagine a tool for tracking sales proposals. Its dashboard celebrates proposals sent. Ask whether duplicates or poorly targeted messages could raise that number too. For this exercise, pair volume with relevant customer replies and time to a decision. Define the event, customer group, reporting window, and exclusions before comparing weeks. An automated receipt should not count as a substantive response. Keep test accounts separate and record definition changes. When observations are missing or the sample is small, state the limitation rather than presenting the result as proof.",
+        "At the review, inspect one successful case and one unsuccessful case with sensitive details removed. If an unclear service scope appears to be a problem, test a narrower proposal template with an owner, review date, and stopping condition. Record preparation time alongside customer response so the team can see the cost of any improvement. Finish with a decision note separating observations, alternative explanations, and the next action. Use that same note for external reporting. The exercise succeeds when the next choice becomes clearer, including when the appropriate choice is to stop a change.",
+      ],
+      takeaways: [
+        "List a beneficiary and intended result for each significant weekly activity.",
+        "Test whether a metric can improve through unhelpful activity; pair it with a result signal.",
+        "Define reporting events, groups, windows, and exclusions before comparing periods.",
+        "Review contrasting cases and separate observations from explanations and decisions.",
+      ],
+      advice: [
+        "Choose one dashboard metric and write three ways it could rise without a better customer result.",
+        "Have two teammates independently classify the same example to check the metric definition.",
+        "Assign one bounded experiment with a review date and an explicit stopping condition.",
+      ],
+    },
+    ar: {
+      paragraphs: [
+        "تناقش المقالة عادة قد يحملها المؤسس إلى بناء الشركة: البحث عن الاستحسان بدلا من صنع منتج يريده الناس. هذا النص معالجة حرة لهذه الفكرة، وليس ترجمة كاملة؛ ومراجعة المؤشرات ومثال المبيعات التاليان تمرينان مستقلان تقترحهما هذه المعالجة. ابدأ بقائمة أعمال الأسبوع الماضي، واكتب المستفيد والنتيجة المقصودة بجانب كل عمل. لا تحذف إعداد العروض تلقائيا؛ فقد يخدم التنسيق. لكن افصل هذا الغرض عن اختبار فرضية تخص المنتج، ثم قرر كيف توزع وقت الأسبوع المقبل.",
+        "تخيل أداة لمتابعة عروض البيع تحتفي لوحة بياناتها بعدد العروض المرسلة. هل يمكن رفع العدد بإرسال عروض مكررة أو غير مناسبة؟ في هذا التمرين، ضع بجانبه عدد ردود العملاء ذات الصلة والوقت اللازم للوصول إلى قرار. عرّف الحدث الذي تحسبه، ومجموعة العملاء، والفترة، والاستثناءات قبل المقارنة. لا تعتبر رسالة الاستلام الآلية ردا ذا مضمون، وافصل الحسابات التجريبية عن العملاء الفعليين. سجل تاريخ أي تغيير في التعريف، واذكر نقص البيانات أو صغر العينة بوضوح بدلا من تقديم الإشارة المحدودة على أنها إثبات.",
+        "راجع حالة ناجحة وأخرى غير ناجحة بعد إزالة التفاصيل الحساسة. إذا بدا أن نطاق الخدمة غير واضح، اختبر تعديلا محدودا في قالب العرض وحدد مسؤولا وموعد مراجعة وشرطا للتوقف. سجل وقت إعداد العرض بجانب رد العميل حتى تظهر تكلفة التحسن المحتمل. اختم بمذكرة تفصل المشاهدات عن التفسيرات البديلة والقرار التالي، واستخدمها أيضا عند إعداد التقرير الخارجي. ليس مطلوبا أن ينتج كل اختبار قصة نجاح؛ المطلوب قرار يتناسب مع الأدلة المتاحة ومعرفة ما قد يدفع الفريق إلى تغييره.",
+      ],
+      takeaways: [
+        "حدد المستفيد والنتيجة المقصودة لكل نشاط أسبوعي مهم.",
+        "اسأل إن كان المؤشر يتحسن بنشاط غير مفيد، وضع إشارة للنتيجة بجانبه.",
+        "عرّف الأحداث والمجموعات والفترات والاستثناءات قبل مقارنة التقارير.",
+        "راجع حالات متباينة وافصل المشاهدة عن التفسير والقرار.",
+      ],
+      advice: [
+        "اختر مؤشرا واحدا واكتب ثلاث طرق لرفعه دون تحسين نتيجة العميل.",
+        "اطلب من زميلين تصنيف المثال نفسه بصورة مستقلة للتحقق من وضوح التعريف.",
+        "حدد تجربة محدودة بموعد مراجعة وشرط توقف واضح.",
+      ],
+    },
+  },
   "Be Good": {
     fa: {
       paragraphs: [

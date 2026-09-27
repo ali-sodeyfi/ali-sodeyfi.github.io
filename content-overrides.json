@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-26T02:18:16Z",
+  "updatedAt": "2026-09-27T02:19:59Z",
   "translations": {
     "fa": {
       "documentTitle": "علی سدیفی | یادداشت‌هایی درباره ساخت کسب‌وکار",
@@ -1675,6 +1675,55 @@
           "fa": "اسلاید ۱: وعده محصول را به نتیجه قابل مشاهده وصل کنید.\nاسلاید ۲: یک قابلیت را با نتیجه مشتری و هزینه‌اش برای دیگران بسنجید.\nاسلاید ۳: ایده: Paul Graham — https://paulgraham.com/good.html | اقتباس: https://alisodeyfi.ir/articles/be-good/fa/#daily-article-reader",
           "en": "Slide 1: connect the product promise to an observable outcome.\nSlide 2: assess one feature by its customer result and burden on others.\nSlide 3: inspiration: Paul Graham — https://paulgraham.com/good.html | Adaptation: https://alisodeyfi.ir/articles/be-good/en/#daily-article-reader",
           "ar": "الشريحة ۱: اربط وعد المنتج بنتيجة قابلة للملاحظة.\nالشريحة ۲: قيّم خاصية واحدة بنتيجة العميل والعبء على الآخرين.\nالشريحة ۳: الفكرة: Paul Graham — https://paulgraham.com/good.html | المعالجة: https://alisodeyfi.ir/articles/be-good/ar/#daily-article-reader"
+        }
+      },
+      {
+        "id": "2026-09-27-site-the-lesson-to-unlearn",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "the-lesson-to-unlearn",
+        "publishAt": "2026-09-27T05:49:59+03:30",
+        "status": "published",
+        "publishedAt": "2026-09-27T05:49:59+03:30"
+      },
+      {
+        "id": "2026-09-27-linkedin-the-lesson-to-unlearn",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "the-lesson-to-unlearn",
+        "publishAt": "2026-09-27T12:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-09-27T05:49:59+03:30",
+        "note": "Draft only. Verified account/API access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "پیش‌نویس لینکدین: عدد فعالیت، نتیجه مشتری نیست",
+          "en": "LinkedIn draft: activity is not the customer result",
+          "ar": "مسودة لينكدإن: النشاط ليس نتيجة العميل"
+        },
+        "body": {
+          "fa": "تز: رشد عددِ فعالیت، به‌تنهایی پیشرفت محصول نیست.\nپیامد: کنار حجم کار، نتیجه مشتری و هزینه ارائه را ثبت کنید.\nاقدام: این هفته یک شاخص را انتخاب کنید و سه راه بالا بردن آن بدون بهبود نتیجه مشتری بنویسید؛ سپس تعریف سنجش را اصلاح کنید.\nPaul Graham — https://paulgraham.com/lesson.html\nhttps://alisodeyfi.ir/articles/the-lesson-to-unlearn/fa/#daily-article-reader",
+          "en": "Thesis: a rising activity count is not, by itself, product progress.\nImplication: track customer results and delivery effort alongside volume.\nAction: choose one metric this week, list three ways to raise it without improving the customer result, and revise its measurement definition.\nPaul Graham — https://paulgraham.com/lesson.html\nhttps://alisodeyfi.ir/articles/the-lesson-to-unlearn/en/#daily-article-reader",
+          "ar": "الخلاصة: ارتفاع عدد الأنشطة لا يعني وحده تقدم المنتج.\nالأثر: سجل نتيجة العميل وجهد تقديم الخدمة بجانب حجم العمل.\nالإجراء: اختر مؤشرا هذا الأسبوع واكتب ثلاث طرق لرفعه دون تحسين نتيجة العميل، ثم راجع تعريف القياس.\nPaul Graham — https://paulgraham.com/lesson.html\nhttps://alisodeyfi.ir/articles/the-lesson-to-unlearn/ar/#daily-article-reader"
+        }
+      },
+      {
+        "id": "2026-09-27-story-the-lesson-to-unlearn",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "the-lesson-to-unlearn",
+        "publishAt": "2026-09-27T20:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-09-27T05:49:59+03:30",
+        "note": "Draft only. Verified account/API access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "پیش‌نمایش استوری: عدد فعالیت، نتیجه مشتری نیست",
+          "en": "Story preview: activity is not the customer result",
+          "ar": "معاينة الستوري: النشاط ليس نتيجة العميل"
+        },
+        "body": {
+          "fa": "اسلاید ۱: عدد فعالیت را با نتیجه مشتری یکی نگیرید.\nاسلاید ۲: یک شاخص را بررسی کنید؛ آیا با کار بی‌فایده هم بالا می‌رود؟\nاسلاید ۳: منبع: Paul Graham — https://paulgraham.com/lesson.html | https://alisodeyfi.ir/articles/the-lesson-to-unlearn/fa/#daily-article-reader",
+          "en": "Slide 1: activity counts are not customer results.\nSlide 2: audit one metric: can unhelpful work raise it?\nSlide 3: source: Paul Graham — https://paulgraham.com/lesson.html | https://alisodeyfi.ir/articles/the-lesson-to-unlearn/en/#daily-article-reader",
+          "ar": "الشريحة ۱: عدد الأنشطة ليس نتيجة العميل.\nالشريحة ۲: راجع مؤشرا واحدا: هل يرفعه عمل غير مفيد؟\nالشريحة ۳: المصدر: Paul Graham — https://paulgraham.com/lesson.html | https://alisodeyfi.ir/articles/the-lesson-to-unlearn/ar/#daily-article-reader"
         }
       }
     ],
