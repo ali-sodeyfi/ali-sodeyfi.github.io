@@ -1257,6 +1257,24 @@ const articleCatalog = [
     },
   },
   {
+    title: "Write Simply",
+    category: "leadership",
+    author: "Paul Graham",
+    source: "Paul Graham",
+    year: "2021",
+    url: "https://paulgraham.com/simply.html",
+    tags: {
+      fa: ["ارتباطات تیمی", "تحویل کار", "تعهد به مشتری"],
+      en: ["team communication", "handoffs", "customer commitments"],
+      ar: ["اتصالات الفريق", "تسليم العمل", "التزامات العملاء"],
+    },
+    summary: {
+      fa: "ساده بنویسید: تمرینی برای تبدیل پیام مبهم به درخواست مشخص، تعیین مسئول و موعد، و بررسی برداشتی که مشتری از وعده شما دارد.",
+      en: "A practical communication exercise: turn a vague update into an explicit request, assign ownership and a review date, and check how customers understand your commitments.",
+      ar: "تمرين عملي للاتصال: حول التحديث الغامض إلى طلب محدد، وعين المسؤول وموعد المراجعة، وافحص كيف يفهم العميل التزاماتك.",
+    },
+  },
+  {
     title: "The Lesson to Unlearn",
     category: "leadership",
     author: "Paul Graham",
@@ -1277,6 +1295,69 @@ const articleCatalog = [
 ];
 
 const articleEssays = {
+  "Write Simply": {
+    fa: {
+      paragraphs: [
+        "ایده محوری مقاله این است که زبان ساده، توجه خواننده را برای فهم ایده آزاد می‌گذارد؛ پیچیدگی موضوع مجوز پیچیده‌نویسی نیست. این متن اقتباسی آزاد از همین ایده است، نه ترجمه کامل. مثال‌ها و روش‌های اجرایی ادامه، پیشنهادهای مستقل این بازنویسی برای ارتباطات در یک تیم نوپا هستند. برای شروع، یک پیام واقعی را انتخاب کنید که پس از ارسال آن هنوز لازم بوده در جلسه توضیح دهید چه کسی باید چه کاری انجام دهد. آن پیام را مسئله‌ای قابل اصلاح ببینید، نه نشانه کم‌دقتی مخاطب.",
+        "فرض کنید تیم محصول می‌نویسد: «در راستای بهینه‌سازی تجربه، بازطراحی فرایند فعال‌سازی در اولویت قرار گرفت.» گیرنده هنوز نمی‌داند چه چیزی تغییر می‌کند یا وظیفه‌اش چیست. در تمرین پیشنهادی، پیام را به یک تصمیم مشخص تبدیل کنید: «تا سه‌شنبه، مسئول محصول دلایل توقف پنج کاربر آزمایشی در مرحله ثبت سفارش را بررسی می‌کند؛ پنجشنبه درباره حذف یا حفظ فیلد نشانی تصمیم می‌گیریم.» این اعداد و زمان‌ها نمونه‌اند، نه نسخه‌ای برای همه تیم‌ها. مسئله، جدا کردن تصمیم فعلی از بررسی‌ای است که باید قبل از تصمیم بعدی انجام شود.",
+        "برای یادداشت‌های داخلی، چهار بخش کوتاه در نظر بگیرید: مشاهده، پیشنهاد، مسئول و موعد بازبینی. در بخش مشاهده بنویسید چه چیزی واقعاً دیده‌اید؛ برداشت خود از علت را همان‌جا به‌عنوان واقعیت جا نزنید. سپس مشخص کنید کدام انتخاب را پیشنهاد می‌کنید و چه شاهدی ممکن است نظر شما را عوض کند. مسئول باید بداند اختیار اجرای پیشنهاد را دارد یا هنوز منتظر تأیید است. اگر موضوع حساس است، گیرندگان و محل نگهداری یادداشت را محدود کنید؛ روشن بودن متن به معنی انتشار بی‌قید اطلاعات مشتری یا تصمیم‌های محرمانه نیست.",
+        "در پیام به مشتری، تمرین را با یک پرسش متفاوت انجام دهید: مخاطب بعد از خواندن این متن باید چه انتظاری از ما داشته باشد؟ به‌جای وعده مبهم «پشتیبانی سریع»، ساعت پاسخ‌گویی و مسیر پیگیری را مطابق توان واقعی تیم بنویسید. اگر زمان حل مسئله معلوم نیست، زمان پاسخ بعدی را مشخص کنید و این دو را یکی نگیرید. یک جمله کوتاه اما نادرست از یک توضیح دقیق بهتر نیست. شرط‌ها، محدودیت‌ها و هزینه‌هایی را که بر تصمیم مشتری اثر می‌گذارند نگه دارید؛ آن‌ها را فقط برای کوتاه شدن متن حذف نکنید.",
+        "پیش از ارسال، از یک همکار ناآشنا با موضوع بخواهید بدون راهنمایی بگوید درخواست چیست، مسئول کیست و موعد کدام است. برای پیام مشتری نیز بپرسید چه وعده‌ای از متن فهمیده است. پاسخ او را با قصد نویسنده مقایسه کنید و محل اختلاف را اصلاح کنید. این آزمون کوچک اثبات نمی‌کند که همه مخاطبان متن را یکسان خواهند فهمید؛ فقط ابهام‌های قابل مشاهده در همین مرور را نشان می‌دهد. اگر اطلاعات تخصصی ضروری است، تعریف کوتاهی در همان محل بیاورید یا جزئیات را در پیوست بگذارید، بدون اینکه تصمیم اصلی پشت پیوست پنهان شود.",
+        "در پایان هفته، سه پیام مهم را همراه با پرسش‌های پیگیری مرور کنید. هدف این تمرین، کمینه کردن تعداد پرسش‌ها نیست؛ پرسش تازه گاهی نشانه بررسی جدی یک تصمیم است. پرسش‌ها را به دو دسته تقسیم کنید: ابهام درباره درخواست و گفت‌وگو درباره خود تصمیم. برای دسته اول قالب را اصلاح کنید و برای دسته دوم زمان بحث بگذارید. فقط یک قالب پرتکرار، مثلاً تحویل کار از فروش به اجرا، را برای هفته بعد تغییر دهید. صاحب قالب و تاریخ بازبینی را مشخص کنید تا این کار به تولید یک دستورالعمل طولانی و فراموش‌شده تبدیل نشود.",
+      ],
+      takeaways: [
+        "در هر پیام تصمیم‌محور، درخواست، مسئول و موعد را قابل تشخیص کنید.",
+        "مشاهده را از تفسیر علت و پیشنهاد اقدام جدا بنویسید.",
+        "روشن کنید پیام، اطلاع‌رسانی است یا درخواست تأیید یا اجازه اجرا.",
+        "در وعده به مشتری، زمان پاسخ بعدی را با زمان حل مسئله اشتباه نگیرید.",
+        "از مخاطب آزمایشی بخواهید برداشتش از درخواست و تعهد را بازگو کند.",
+        "پرسش‌های ناشی از ابهام را از پرسش‌های لازم برای تصمیم‌گیری جدا بررسی کنید.",
+      ],
+      advice: [
+        "امروز یک پیام تحویل کار را با چهار بخش مشاهده، پیشنهاد، مسئول و موعد بازنویسی کنید.",
+        "پیش از ارسال یک وعده خدماتی، توان اجرای آن و شرط‌های مؤثر بر مشتری را بررسی کنید.",
+        "یک هفته بعد، اختلاف برداشت‌ها را مرور کنید و فقط همان قالب را اصلاح کنید.",
+      ],
+    },
+    en: {
+      paragraphs: [
+        "The essay's central idea is that straightforward language leaves readers more attention for the idea itself; a difficult subject does not require difficult prose. This is a free adaptation, not a complete translation. The following team exercises are independent applications proposed here. Start with a recent handoff message that still needed a meeting to explain who should do what, and treat that message as something the team can redesign.",
+        "Consider a hypothetical product update announcing an initiative to optimize activation. Replace it with an explicit assignment: by Tuesday, the product owner reviews where five trial users stopped placing an order; on Thursday, the team decides whether to retain the address field. These numbers are illustrative, not a research standard. Organize the note around observation, proposal, owner, and review date. Separate evidence from your explanation of it, and say whether the owner can act now or needs approval. Restrict recipients when customer information or sensitive decisions are involved.",
+        "For a customer message, ask what commitment the recipient will reasonably understand. Replace an unspecified promise of fast support with service hours and an escalation route the team can actually honor. If resolution time is unknown, give the next update time without implying the issue will be solved then. Preserve conditions, costs, and limitations that affect the customer's decision. Ask a colleague unfamiliar with the case to restate the request and promise without coaching. Their answer can reveal ambiguity in this review, but it cannot establish how every reader will interpret the message.",
+        "At the end of the week, review three important messages alongside their follow-up questions. Distinguish confusion about the request from substantive questions about the decision. Do not optimize for silence: a useful challenge should still happen. Revise one recurring handoff template for the first type of question and reserve discussion time for the second. Give the template an owner and a review date, then check whether the same interpretation gaps recur before extending the format to other workflows.",
+      ],
+      takeaways: [
+        "Make the request, owner, and review date identifiable in each decision note.",
+        "Separate observed evidence from explanations, proposals, and approval status.",
+        "Distinguish the next customer update from a promised resolution time.",
+        "Test interpretation with an unfamiliar reader and review recurring gaps rather than counting silence as success.",
+      ],
+      advice: [
+        "Rewrite one handoff using observation, proposal, owner, and review date.",
+        "Check delivery capacity and material conditions before sending a service commitment.",
+        "Revisit the same template after a week before rolling it out elsewhere.",
+      ],
+    },
+    ar: {
+      paragraphs: [
+        "الفكرة المركزية للمقالة أن اللغة المباشرة تترك للقارئ انتباها أكبر للفكرة نفسها؛ صعوبة الموضوع لا تستلزم تعقيد العبارة. هذا النص معالجة حرة لا ترجمة كاملة، والتمارين التالية تطبيقات مستقلة نقترحها لاتصالات الفريق. ابدأ برسالة تسليم عمل احتاجت بعد إرسالها إلى اجتماع لتوضيح من سيفعل ماذا. تعامل مع الرسالة باعتبارها شيئا يمكن تحسينه، لا دليلا جاهزا على أن المتلقي لم ينتبه.",
+        "تخيل تحديثا من فريق المنتج يعلن مبادرة لتحسين التفعيل دون تكليف محدد. في هذا التمرين، اجعله مهمة واضحة: يراجع مسؤول المنتج حتى الثلاثاء مواضع توقف خمسة مستخدمين تجريبيين عن إتمام الطلب، ويقرر الفريق يوم الخميس إبقاء حقل العنوان أو حذفه. الأعداد والمواعيد أمثلة وليست معيارا بحثيا. قسم المذكرة إلى ملاحظة واقتراح ومسؤول وموعد مراجعة. افصل ما شاهدته عن تفسيرك للسبب، وحدد هل التنفيذ مسموح الآن أم يحتاج موافقة. وقيد المستلمين عندما تتضمن المذكرة معلومات حساسة عن العملاء أو الشركة.",
+        "في رسالة العميل، اسأل عن الالتزام الذي سيفهمه المتلقي. بدلا من وعد غير محدد بدعم سريع، اذكر ساعات الرد ومسار التصعيد اللذين يستطيع الفريق الالتزام بهما. إذا كان موعد الحل مجهولا، حدد موعد التحديث التالي دون تقديمه على أنه موعد إنجاز. لا تحذف الشروط والتكاليف والقيود المؤثرة في قرار العميل لمجرد تقصير الرسالة. اطلب من زميل غير مطلع على الحالة إعادة شرح الطلب والوعد دون توجيه، ثم قارن فهمه بقصد الكاتب. تكشف هذه المراجعة التباسا محددا، لكنها لا تثبت أن جميع القراء سيفهمون الرسالة بالطريقة نفسها.",
+        "في نهاية الأسبوع، راجع ثلاث رسائل مهمة مع أسئلة المتابعة. ميز بين الغموض حول التكليف والأسئلة الجوهرية حول القرار؛ قلة الأسئلة ليست هدفا بحد ذاتها. عدل قالبا متكررا واحدا، مثل تسليم العمل من المبيعات إلى التنفيذ، لمعالجة النوع الأول، وخصص نقاشا للنوع الثاني. حدد مسؤولا عن القالب وموعدا لمراجعته، ثم افحص تكرار اختلافات الفهم قبل تعميمه على أعمال أخرى. بهذه الطريقة يبقى التمرين محدودا وقابلا للتقييم بدلا من التحول إلى دليل طويل لا يستخدمه الفريق.",
+      ],
+      takeaways: [
+        "اجعل الطلب والمسؤول وموعد المراجعة واضحة في مذكرة القرار.",
+        "افصل الملاحظة عن تفسير السبب والاقتراح وحالة الموافقة.",
+        "ميز موعد التحديث التالي للعميل عن موعد حل المشكلة.",
+        "اختبر الفهم مع قارئ غير مطلع وراجع اختلاف التفسير بدلا من اعتبار الصمت نجاحا.",
+      ],
+      advice: [
+        "أعد كتابة رسالة تسليم عمل باستخدام الملاحظة والاقتراح والمسؤول وموعد المراجعة.",
+        "تحقق من القدرة على التنفيذ والشروط المهمة قبل إرسال التزام خدمي.",
+        "راجع القالب نفسه بعد أسبوع قبل تعميمه على مسارات أخرى.",
+      ],
+    },
+  },
   "The Lesson to Unlearn": {
     fa: {
       paragraphs: [
