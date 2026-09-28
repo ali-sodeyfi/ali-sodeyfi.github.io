@@ -2,6 +2,40 @@
 export const relatedArticleGroups = [
   [
     {
+      slug: "default-alive-or-default-dead",
+      titles: {
+        fa: "با منابع فعلی دوام می‌آوریم؟",
+        en: "Default Alive or Default Dead?",
+        ar: "هل نستطيع البقاء دون تمويل جديد؟",
+      },
+    },
+    {
+      slug: "how-to-raise-money",
+      titles: {
+        fa: "چطور سرمایه جذب کنیم؟",
+        en: "How to Raise Money",
+        ar: "كيف نجمع التمويل؟",
+      },
+    },
+    {
+      slug: "the-equity-equation",
+      titles: {
+        fa: "چه زمانی واگذاری سهام به‌صرفه است؟",
+        en: "The Equity Equation",
+        ar: "متى يكون التنازل عن حصة منطقيا؟",
+      },
+    },
+    {
+      slug: "a-fundraising-survival-guide",
+      titles: {
+        fa: "چطور در مسیر جذب سرمایه دوام بیاوریم؟",
+        en: "A Fundraising Survival Guide",
+        ar: "كيف نحافظ على الشركة أثناء جمع التمويل؟",
+      },
+    },
+  ],
+  [
+    {
       slug: "how-to-talk-to-users",
       titles: {
         fa: "چطور با کاربران گفت‌وگو کنیم؟",
