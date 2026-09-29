@@ -455,6 +455,24 @@ const articleCategories = [
 
 const articleCatalog = [
   {
+    title: "How to Disagree",
+    category: "leadership",
+    author: "Paul Graham",
+    source: "Paul Graham",
+    year: "2008",
+    url: "https://paulgraham.com/disagree.html",
+    tags: {
+      fa: ["اختلاف‌نظر تیمی", "تصمیم محصول", "آزمایش"],
+      en: ["team disagreement", "product decisions", "experiments"],
+      ar: ["اختلاف الفريق", "قرارات المنتج", "التجارب"],
+    },
+    summary: {
+      fa: "چطور اختلاف فروش و محصول را به یک تصمیم قابل بازبینی تبدیل کنیم؟ اقتباس آزاد همراه با تمرینی مستقل برای ثبت فرض، طراحی آزمون محدود و تعیین مسئول تصمیم.",
+      en: "Turn a sales–product disagreement into a reviewable decision: a free adaptation with an independent exercise in recording assumptions, designing a bounded test, and assigning a decision owner.",
+      ar: "كيف نحول خلاف المبيعات والمنتج إلى قرار قابل للمراجعة؟ معالجة حرة مع تمرين مستقل لتسجيل الافتراضات وتصميم اختبار محدود وتحديد مسؤول القرار.",
+    },
+  },
+  {
     title: "Do Things that Don't Scale",
     category: "growth",
     author: "Paul Graham",
@@ -1295,6 +1313,67 @@ const articleCatalog = [
 ];
 
 const articleEssays = {
+  "How to Disagree": {
+    fa: {
+      paragraphs: [
+        "ایده اصلی مقاله این است که مخالفت با شخص یا لحن او، ادعایش را رد نمی‌کند؛ نقد قوی باید سراغ نکته مرکزی و دلیل آن برود. البته شکل بهتر استدلال، درستی نتیجه را تضمین نمی‌کند. ادامه این نوشته ترجمه خط‌به‌خط یا دستورالعمل نویسنده نیست؛ تمرینی مستقل برای استفاده از این تمایز در یک تصمیم استارتاپی است: وقتی فروش و محصول درباره یک درخواست مشتری اختلاف دارند، جلسه را چطور به تصمیم برسانیم؟",
+        "فرض کنید فروش می‌خواهد برای یک مشتری بالقوه، خروجی اختصاصی گزارش بسازید و تیم محصول می‌خواهد همان زمان را صرف رفع مشکل فعال‌سازی کاربران کند. پیش از جلسه، هر طرف یک کارت کوتاه آماده کند: تصمیم پیشنهادی، نتیجه مورد انتظار در دو هفته آینده، زمان لازم و کاری که در مقابل عقب می‌افتد. هدف این قالب، هم‌نظر کردن افراد نیست؛ می‌خواهیم دو پیشنهاد با افق زمانی و محدودیت یکسان روی میز قرار بگیرند، نه اینکه یکی درباره درآمد امسال حرف بزند و دیگری درباره خرابی امروز.",
+        "روی هر کارت، دانسته‌ها را از برآوردها جدا کنید. در مثال فرضی ما، «مشتری در تماس درخواست گزارش کرده» یک مشاهده است؛ «با ساخت گزارش قرارداد بسته می‌شود» هنوز پیش‌بینی است. برای مورد دوم بنویسید چه کسی از مشتری پاسخ می‌گیرد و کدام سؤال باز مانده است: آیا گزارش شرط خرید است، چه کسی خرید را تأیید می‌کند و موعد تصمیم چه زمانی است؟ یادداشت تماس را هم کنار کارت نگه دارید تا تیم مجبور نباشد هر بار از حافظه افراد مذاکره را بازسازی کند.",
+        "به‌جای انتخاب فوری بین دو پروژه کامل، یک آزمون کم‌هزینه پیشنهاد کنید. مثلاً با داده ساختگی و بدون اطلاعات شخصی، نمونه گزارش را دستی آماده کنید و از مشتری بخواهید مراحل بررسی خرید و مانع باقی‌مانده را توضیح دهد. این آزمایش، قرارداد یا درآمد را ثابت نمی‌کند؛ فقط بخشی از ابهام درخواست را کم می‌کند. پیش از شروع، سقف زمان، مسئول اجرا و نشانه توقف را بنویسید. اگر آزمایش به اتصال واقعی سامانه یا تعهد پشتیبانی نیاز پیدا کرد، آن را پروژه تازه بدانید و دوباره درباره هزینه‌اش تصمیم بگیرید.",
+        "تصمیم نهایی لازم نیست با رضایت کامل همه گرفته شود، اما باید صاحب و تاریخ بازبینی داشته باشد. مسئول تصمیم در یک یادداشت ثبت کند کدام گزینه انتخاب شد، کدام کار عقب افتاد و چه مشاهده‌ای می‌تواند تصمیم را عوض کند. برای نمونه، تیم می‌تواند یک روز به بررسی گزارش بدهد و سپس به رفع مشکل فعال‌سازی برگردد، مگر اینکه اطلاعات تازه‌ای درباره فرایند خرید به دست آید. این فقط یک مثال است؛ اندازه آزمون باید با ظرفیت واقعی تیم متناسب باشد، نه با فشار کسی که بلندتر صحبت می‌کند.",
+        "یک هفته بعد، کیفیت تصمیم را جدا از نتیجه فوری بررسی کنید. ممکن است آزمایش درست طراحی شده باشد و مشتری همچنان خرید نکند؛ ممکن است هم فروش اتفاق بیفتد ولی تعهدی پرهزینه برای تیم بماند. در مرور هفتگی بپرسید کدام برآورد تغییر کرد، چقدر زمان صرف شد و آیا شرط بازبینی رعایت شد. برای بحث‌های همراه با توهین، تهدید یا نقض مرزهای کاری نیز مسیر رسیدگی جداگانه داشته باشید؛ این تمرین جایگزین آن نیست. خروجی مطلوب، پرونده‌ای کوتاه از تصمیم و یادگیری است، نه ثبت برنده و بازنده جلسه.",
+      ],
+      takeaways: [
+        "هر پیشنهاد را با نتیجه مورد انتظار، هزینه زمانی و کار عقب‌افتاده ثبت کنید.",
+        "مشاهده مشتری و پیش‌بینی فروش را در دو بخش جدا بنویسید.",
+        "برای سؤال بازِ خرید، مسئول پیگیری و موعد پاسخ تعیین کنید.",
+        "آزمون را با سقف زمان و نشانه توقف شروع کنید؛ افزایش دامنه نیازمند تصمیم تازه است.",
+        "نام مسئول تصمیم، تاریخ بازبینی و شرط تغییر مسیر را نگه دارید.",
+        "در مرور هفتگی، نتیجه تجاری و کیفیت فرایند تصمیم را جدا بسنجید.",
+      ],
+      advice: [
+        "قالب پیشنهادی کارت: گزینه، نتیجه دو هفته آینده، مشاهده موجود، فرض باز، هزینه فرصت، مسئول و موعد.",
+        "پیش از جلسه، از هر طرف بخواهید هزینه عقب‌افتادن پیشنهاد خودش را مشخص کند.",
+        "برای آزمون نمونه گزارش از داده ساختگی استفاده کنید و تعهد اجرایی تازه ندهید.",
+      ],
+    },
+    en: {
+      paragraphs: [
+        "The essay distinguishes criticism of a person or tone from a reasoned challenge to the central claim. Better argumentative form does not guarantee a correct conclusion. What follows is an independent startup exercise, not the author's prescribed process. Imagine sales requesting a custom report for a prospect while product wants to fix user activation. Ask each side for a decision card with a proposed outcome over the next two weeks, the time required, and the work that would be delayed. Use the same planning horizon for both options.",
+        "Separate observations from forecasts on each card. A prospect asking for a report is an observation; expecting that report to close the sale is a forecast. Assign someone to clarify the buying process and remaining obstacles. Before committing to an integration, consider a manually prepared sample using synthetic data. Set a time limit, an owner, and a stopping condition. A useful response to the sample does not prove that a contract will follow. If the test starts requiring production access or a support commitment, bring the expanded scope back for a new decision rather than silently absorbing it.",
+        "Have one accountable person record the choice, the displaced work, a review date, and the information that would justify changing course. For example, a team might spend one day investigating the report, then return to activation unless new information about the buying process warrants another review. This is an illustrative limit, not a universal allocation rule. Size the test for the team's actual capacity.",
+        "A week later, compare actual effort with the estimate and check whether the agreed review happened. Assess the commercial outcome separately from the decision process: a sale can still leave an expensive obligation, and a well-designed test can end without a sale. Keep harassment or boundary violations on a separate escalation path; this exercise is not a substitute for addressing them. The practical output is a short record that the team can revisit, not a scorecard of meeting winners.",
+      ],
+      takeaways: [
+        "Compare options over the same horizon, including displaced work.",
+        "Separate observed customer requests from sales forecasts and assign follow-up.",
+        "Bound the test with an owner, time limit, and stopping condition.",
+        "Record the decision owner, review date, and conditions for changing course.",
+      ],
+      advice: [
+        "Suggested card: option, two-week outcome, observation, open assumption, opportunity cost, owner, deadline.",
+        "Use synthetic data for the sample and avoid creating an unreviewed delivery commitment.",
+      ],
+    },
+    ar: {
+      paragraphs: [
+        "تميز المقالة بين انتقاد الشخص أو نبرته وبين الاعتراض المعلل على الفكرة المركزية. لكن جودة صياغة الحجة لا تضمن صحة النتيجة. ما يلي تمرين مستقل لفريق شركة ناشئة، وليس إجراء يقدمه الكاتب. تخيل أن المبيعات تطلب تقريرا مخصصا لعميل محتمل، بينما يريد فريق المنتج معالجة مشكلة تفعيل المستخدمين. اطلب من كل طرف بطاقة قرار تتضمن النتيجة المتوقعة خلال أسبوعين، والوقت المطلوب، والعمل الذي سيتأخر. استخدم الأفق الزمني نفسه حتى تكون المقارنة بين خيارين واضحين.",
+        "افصل الملاحظات عن التوقعات داخل البطاقة. طلب العميل تقريرا ملاحظة، أما توقع إتمام البيع بعد بنائه فما زال افتراضا. كلف شخصا بتوضيح خطوات الشراء والعوائق المتبقية. قبل بناء تكامل كامل، اقترح نموذجا يدويا ببيانات اصطناعية، وحدد له سقفا زمنيا ومسؤولا وشرط توقف. الاستجابة الإيجابية للنموذج لا تثبت أن العقد سيوقع؛ إنها تقلل جزءا من الغموض فقط. إذا احتاج الاختبار إلى الوصول إلى بيئة التشغيل أو إلى التزام بالدعم، فأعد عرض النطاق الجديد لاتخاذ قرار آخر بدلا من إضافته بصمت إلى عمل الفريق.",
+        "يسجل مسؤول القرار الخيار المعتمد والعمل المؤجل وموعد المراجعة والمعلومة التي تستدعي تغيير المسار. مثلا، يمكن تخصيص يوم لاستكشاف التقرير ثم العودة إلى مشكلة التفعيل، إلا إذا ظهرت معلومات جديدة عن خطوات الشراء تستحق مراجعة أخرى. هذا حد توضيحي لا قاعدة عامة لتوزيع الوقت. حدد حجم الاختبار بحسب قدرة الفريق الفعلية، لا بحسب حدة المطالبة به.",
+        "بعد أسبوع، قارن الجهد الفعلي بالتقدير وتحقق من إجراء المراجعة المتفق عليها. قيّم النتيجة التجارية بصورة منفصلة عن طريقة اتخاذ القرار: قد يحدث بيع يترك التزاما مكلفا، وقد ينتهي اختبار جيد دون بيع. خصص مسارا منفصلا للتعامل مع الإهانات أو تجاوز حدود العمل؛ فهذا التمرين لا يحل محل معالجتها. المخرج المطلوب سجل قصير يستطيع الفريق الرجوع إليه، لا قائمة بالفائزين والخاسرين في الاجتماع.",
+      ],
+      takeaways: [
+        "قارن الخيارات ضمن أفق زمني واحد مع توضيح العمل الذي سيتأخر.",
+        "افصل طلب العميل المرصود عن توقع البيع وحدد مسؤولا للمتابعة.",
+        "ابدأ الاختبار بمسؤول وسقف زمني وشرط توقف.",
+        "سجل مسؤول القرار وموعد المراجعة وشروط تغيير المسار.",
+      ],
+      advice: [
+        "بطاقة مقترحة: الخيار، نتيجة الأسبوعين، الملاحظة، الافتراض المفتوح، تكلفة الفرصة، المسؤول والموعد.",
+        "استخدم بيانات اصطناعية للنموذج وتجنب إنشاء التزام بالتسليم دون مراجعة.",
+      ],
+    },
+  },
   "Write Simply": {
     fa: {
       paragraphs: [

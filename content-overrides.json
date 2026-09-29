@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-28T02:15:20Z",
+  "updatedAt": "2026-09-29T02:16:00Z",
   "translations": {
     "fa": {
       "documentTitle": "علی سدیفی | یادداشت‌هایی درباره ساخت کسب‌وکار",
@@ -1773,6 +1773,55 @@
           "fa": "اسلاید ۱: پیام تحویل کار باید درخواست، مسئول و موعد داشته باشد.\nاسلاید ۲: امروز یک پیام را بازنویسی کنید؛ اجازه اجرا یا نیاز به تأیید را روشن کنید.\nاسلاید ۳: اقتباس و تمرین مستقل | Paul Graham — https://paulgraham.com/simply.html | https://alisodeyfi.ir/articles/write-simply/fa/#daily-article-reader",
           "en": "Slide 1: a handoff needs a request, owner, and deadline.\nSlide 2: rewrite one today; clarify permission to act or the need for approval.\nSlide 3: adaptation and independent exercise | Paul Graham — https://paulgraham.com/simply.html | https://alisodeyfi.ir/articles/write-simply/en/#daily-article-reader",
           "ar": "الشريحة ۱: تسليم العمل يحتاج طلبا ومسؤولا وموعدا.\nالشريحة ۲: أعد كتابة رسالة اليوم؛ وضح الإذن بالتنفيذ أو الحاجة للموافقة.\nالشريحة ۳: معالجة وتمرين مستقل | Paul Graham — https://paulgraham.com/simply.html | https://alisodeyfi.ir/articles/write-simply/ar/#daily-article-reader"
+        }
+      },
+      {
+        "id": "2026-09-29-site-how-to-disagree",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "how-to-disagree",
+        "publishAt": "2026-09-29T05:46:00+03:30",
+        "status": "published",
+        "publishedAt": "2026-09-29T05:46:00+03:30"
+      },
+      {
+        "id": "2026-09-29-linkedin-how-to-disagree",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "how-to-disagree",
+        "publishAt": "2026-09-29T12:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-09-29T05:46:00+03:30",
+        "note": "Draft only. Verified account/API access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "اختلاف فروش و محصول را به آزمون محدود تبدیل کنید",
+          "en": "Turn a sales–product disagreement into a bounded test",
+          "ar": "حول خلاف المبيعات والمنتج إلى اختبار محدود"
+        },
+        "body": {
+          "fa": "تز: درخواست مشتری، تضمین بسته‌شدن قرارداد نیست.\nپیامد عملی: پیش از جابه‌جایی اولویت محصول، مشاهده و پیش‌بینی فروش را جدا ثبت کنید.\nاقدام بعدی: برای یک درخواست باز، آزمونی با سقف زمان، مسئول و تاریخ بازبینی تعریف کنید.\nاقتباس آزاد و تمرین مستقل — Paul Graham: https://paulgraham.com/disagree.html\nhttps://alisodeyfi.ir/articles/how-to-disagree/fa/#daily-article-reader",
+          "en": "Thesis: a customer request is not a guaranteed contract.\nImplication: separate the observation from the sales forecast before changing product priorities.\nNext action: define one bounded test for an open request, with an owner and review date.\nFree adaptation and independent exercise — Paul Graham: https://paulgraham.com/disagree.html\nhttps://alisodeyfi.ir/articles/how-to-disagree/en/#daily-article-reader",
+          "ar": "الخلاصة: طلب العميل ليس عقدا مضمونا.\nالأثر العملي: افصل الملاحظة عن توقع البيع قبل تغيير أولويات المنتج.\nالخطوة التالية: حدد لطلب مفتوح اختبارا محدودا ومسؤولا وموعد مراجعة.\nمعالجة حرة وتمرين مستقل — Paul Graham: https://paulgraham.com/disagree.html\nhttps://alisodeyfi.ir/articles/how-to-disagree/ar/#daily-article-reader"
+        }
+      },
+      {
+        "id": "2026-09-29-story-how-to-disagree",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "how-to-disagree",
+        "publishAt": "2026-09-29T20:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-09-29T05:46:00+03:30",
+        "note": "Draft only. Verified account/API access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "پیش‌نمایش استوری: آزمون محدود پیش از تعهد",
+          "en": "Story preview: a bounded test before commitment",
+          "ar": "معاينة الستوري: اختبار محدود قبل الالتزام"
+        },
+        "body": {
+          "fa": "اسلاید ۱: درخواست مشتری، تضمین قرارداد نیست.\nاسلاید ۲: قبل از تعهد، یک آزمون با سقف زمان و مسئول تعریف کنید.\nاسلاید ۳: اقتباس و تمرین مستقل | Paul Graham — https://paulgraham.com/disagree.html | https://alisodeyfi.ir/articles/how-to-disagree/fa/#daily-article-reader",
+          "en": "Slide 1: a customer request is not a guaranteed contract.\nSlide 2: before committing, define a test with a time limit and owner.\nSlide 3: adaptation and independent exercise | Paul Graham — https://paulgraham.com/disagree.html | https://alisodeyfi.ir/articles/how-to-disagree/en/#daily-article-reader",
+          "ar": "الشريحة ۱: طلب العميل ليس عقدا مضمونا.\nالشريحة ۲: قبل الالتزام، حدد اختبارا بسقف زمني ومسؤول.\nالشريحة ۳: معالجة وتمرين مستقل | Paul Graham — https://paulgraham.com/disagree.html | https://alisodeyfi.ir/articles/how-to-disagree/ar/#daily-article-reader"
         }
       }
     ],
