@@ -2,6 +2,40 @@
 export const relatedArticleGroups = [
   [
     {
+      slug: "how-to-get-startup-ideas",
+      titles: {
+        fa: "ایدهٔ استارتاپ را از کجا پیدا کنیم؟",
+        en: "How to Get Startup Ideas",
+        ar: "كيف نجد أفكارا لشركات ناشئة؟",
+      },
+    },
+    {
+      slug: "schlep-blindness",
+      titles: {
+        fa: "فرصت‌های پنهان در کارهای دشوار",
+        en: "Schlep Blindness",
+        ar: "الفرص المخبأة في الأعمال الشاقة",
+      },
+    },
+    {
+      slug: "organic-startup-ideas",
+      titles: {
+        fa: "ایده‌های استارتاپی از دل تجربهٔ واقعی",
+        en: "Organic Startup Ideas",
+        ar: "أفكار ناشئة من التجربة اليومية",
+      },
+    },
+    {
+      slug: "the-minimum-viable-testing-process-for-evaluating-startup-ideas",
+      titles: {
+        fa: "چطور ایده را با آزمایش کوچک بسنجیم؟",
+        en: "The Minimum Viable Testing Process for Evaluating Startup Ideas",
+        ar: "كيف نختبر الفكرة بتجربة صغيرة؟",
+      },
+    },
+  ],
+  [
+    {
       slug: "default-alive-or-default-dead",
       titles: {
         fa: "با منابع فعلی دوام می‌آوریم؟",
