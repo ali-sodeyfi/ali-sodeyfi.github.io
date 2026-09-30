@@ -102,4 +102,30 @@ export const relatedArticleGroups = [
       },
     },
   ],
+  [
+    {
+      slug: "makers-schedule-managers-schedule",
+      titles: {
+        fa: "چطور زمان کار عمیق را حفظ کنیم؟",
+        en: "Maker's Schedule, Manager's Schedule",
+        ar: "كيف نحمي وقت العمل العميق؟",
+      },
+    },
+    {
+      slug: "the-top-idea-in-your-mind",
+      titles: {
+        fa: "چه مسئله‌ای ذهن بنیان‌گذار را درگیر می‌کند؟",
+        en: "The Top Idea in Your Mind",
+        ar: "ما القضية التي تشغل ذهن المؤسس؟",
+      },
+    },
+    {
+      slug: "how-to-do-great-work",
+      titles: {
+        fa: "چطور کاری ماندگار بسازیم؟",
+        en: "How to Do Great Work",
+        ar: "كيف ننجز عملا ذا أثر باق؟",
+      },
+    },
+  ],
 ];
