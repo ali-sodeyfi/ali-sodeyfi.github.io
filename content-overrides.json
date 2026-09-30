@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-29T02:16:00Z",
+  "updatedAt": "2026-09-30T02:16:41Z",
   "translations": {
     "fa": {
       "documentTitle": "علی سدیفی | یادداشت‌هایی درباره ساخت کسب‌وکار",
@@ -1822,6 +1822,55 @@
           "fa": "اسلاید ۱: درخواست مشتری، تضمین قرارداد نیست.\nاسلاید ۲: قبل از تعهد، یک آزمون با سقف زمان و مسئول تعریف کنید.\nاسلاید ۳: اقتباس و تمرین مستقل | Paul Graham — https://paulgraham.com/disagree.html | https://alisodeyfi.ir/articles/how-to-disagree/fa/#daily-article-reader",
           "en": "Slide 1: a customer request is not a guaranteed contract.\nSlide 2: before committing, define a test with a time limit and owner.\nSlide 3: adaptation and independent exercise | Paul Graham — https://paulgraham.com/disagree.html | https://alisodeyfi.ir/articles/how-to-disagree/en/#daily-article-reader",
           "ar": "الشريحة ۱: طلب العميل ليس عقدا مضمونا.\nالشريحة ۲: قبل الالتزام، حدد اختبارا بسقف زمني ومسؤول.\nالشريحة ۳: معالجة وتمرين مستقل | Paul Graham — https://paulgraham.com/disagree.html | https://alisodeyfi.ir/articles/how-to-disagree/ar/#daily-article-reader"
+        }
+      },
+      {
+        "id": "2026-09-30-site-how-to-be-an-expert-in-a-changing-world",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "how-to-be-an-expert-in-a-changing-world",
+        "publishAt": "2026-09-30T05:46:41+03:30",
+        "status": "published",
+        "publishedAt": "2026-09-30T05:46:41+03:30"
+      },
+      {
+        "id": "2026-09-30-linkedin-how-to-be-an-expert-in-a-changing-world",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "how-to-be-an-expert-in-a-changing-world",
+        "publishAt": "2026-09-30T12:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-09-30T05:46:41+03:30",
+        "note": "Draft only. Verified account/API access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "قبل از تکرار یک تصمیم قدیمی، دامنه شواهد را مشخص کنید",
+          "en": "Scope the evidence before repeating an old decision",
+          "ar": "حدد نطاق الأدلة قبل تكرار قرار قديم"
+        },
+        "body": {
+          "fa": "تز: نتیجه یک آزمایش فقط با ذکر گروه مشتری و نسخه محصول قابل استفاده است.\nپیامد عملی: تکمیل مستقل کار را از تکمیل با کمک تیم جدا بسنجید.\nاقدام بعدی: برای یک تصمیم قدیمی، آزمونی محدود با مسئول، سقف زمان و شرط توقف بنویسید.\nاقتباس آزاد و تمرین مستقل — Paul Graham: https://paulgraham.com/ecw.html\nhttps://alisodeyfi.ir/articles/how-to-be-an-expert-in-a-changing-world/fa/#daily-article-reader",
+          "en": "Thesis: an experiment's result needs its customer segment and product version attached.\nImplication: measure independent completion separately from team-assisted completion.\nNext action: revisit one old decision with a bounded trial, owner, effort cap, and stopping condition.\nFree adaptation and independent exercise — Paul Graham: https://paulgraham.com/ecw.html\nhttps://alisodeyfi.ir/articles/how-to-be-an-expert-in-a-changing-world/en/#daily-article-reader",
+          "ar": "الخلاصة: نتيجة التجربة تحتاج تحديد شريحة العملاء ونسخة المنتج.\nالأثر العملي: افصل إنجاز المهمة باستقلال عن إنجازها بمساعدة الفريق.\nالخطوة التالية: راجع قرارا قديما باختبار محدود ومسؤول وسقف جهد وشرط توقف.\nمعالجة حرة وتمرين مستقل — Paul Graham: https://paulgraham.com/ecw.html\nhttps://alisodeyfi.ir/articles/how-to-be-an-expert-in-a-changing-world/ar/#daily-article-reader"
+        }
+      },
+      {
+        "id": "2026-09-30-story-how-to-be-an-expert-in-a-changing-world",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "how-to-be-an-expert-in-a-changing-world",
+        "publishAt": "2026-09-30T20:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-09-30T05:46:41+03:30",
+        "note": "Draft only. Verified account/API access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "پیش‌نمایش استوری: بازبینی یک تصمیم قدیمی",
+          "en": "Story preview: revisit an old decision",
+          "ar": "معاينة الستوري: مراجعة قرار قديم"
+        },
+        "body": {
+          "fa": "اسلاید ۱: نتیجه آزمایش را بدون دامنه شواهد تعمیم ندهید.\nاسلاید ۲: امروز یک تصمیم را برای یک گروه مشتری، با سقف زمان و شرط توقف دوباره بسنجید.\nاسلاید ۳: اقتباس و تمرین مستقل | Paul Graham — https://paulgraham.com/ecw.html | https://alisodeyfi.ir/articles/how-to-be-an-expert-in-a-changing-world/fa/#daily-article-reader",
+          "en": "Slide 1: do not generalize a trial beyond its evidence.\nSlide 2: revisit one decision for one segment today; set an effort cap and stopping condition.\nSlide 3: adaptation and independent exercise | Paul Graham — https://paulgraham.com/ecw.html | https://alisodeyfi.ir/articles/how-to-be-an-expert-in-a-changing-world/en/#daily-article-reader",
+          "ar": "الشريحة ۱: لا تعمم نتيجة تجربة خارج نطاق أدلتها.\nالشريحة ۲: راجع اليوم قرارا لشريحة واحدة مع سقف جهد وشرط توقف.\nالشريحة ۳: معالجة وتمرين مستقل | Paul Graham — https://paulgraham.com/ecw.html | https://alisodeyfi.ir/articles/how-to-be-an-expert-in-a-changing-world/ar/#daily-article-reader"
         }
       }
     ],

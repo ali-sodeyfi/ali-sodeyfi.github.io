@@ -455,6 +455,24 @@ const articleCategories = [
 
 const articleCatalog = [
   {
+    title: "How to Be an Expert in a Changing World",
+    category: "leadership",
+    author: "Paul Graham",
+    source: "Paul Graham",
+    year: "2014",
+    url: "https://paulgraham.com/ecw.html",
+    tags: {
+      fa: ["بازبینی فرض‌ها", "یادگیری تیمی", "تصمیم محصول"],
+      en: ["assumption reviews", "team learning", "product decisions"],
+      ar: ["مراجعة الافتراضات", "تعلم الفريق", "قرارات المنتج"],
+    },
+    summary: {
+      fa: "تمرینی برای بازبینی یک تصمیم قدیمی: مرز شواهد قبلی را مشخص کنید، یک گروه مشتری را دوباره بسنجید و شرط ادامه یا توقف آزمون را از قبل بنویسید.",
+      en: "An exercise in revisiting an old decision: scope the earlier evidence, test one customer segment again, and define when to continue or stop before running the trial.",
+      ar: "تمرين لمراجعة قرار قديم: حدد نطاق الأدلة السابقة، واختبر شريحة واحدة مجددا، واكتب شروط الاستمرار أو التوقف قبل بدء التجربة.",
+    },
+  },
+  {
     title: "How to Disagree",
     category: "leadership",
     author: "Paul Graham",
@@ -1313,6 +1331,67 @@ const articleCatalog = [
 ];
 
 const articleEssays = {
+  "How to Be an Expert in a Changing World": {
+    fa: {
+      paragraphs: [
+        "تجربه ممکن است درباره نسخه‌ای قدیمی از جهان درست باشد، نه شرایط امروز. ایده محوری مقاله این است که فرض‌های کاری را قطعی نکنیم و پذیرای تغییر بمانیم. ادامه این نوشته ترجمه خط‌به‌خط یا روش پیشنهادی نویسنده نیست؛ یک تمرین مستقل برای تیم محصول است. پرسش تمرین مشخص است: وقتی کسی می‌گوید «این مسیر را قبلاً امتحان کرده‌ایم»، چطور بدون نادیده گرفتن تجربه او، درباره آزمون دوباره تصمیم بگیریم؟ هدف جلسه، اثبات اشتباه همکار قدیمی نیست؛ باید معلوم شود دقیقاً کدام تصمیم هنوز پشتوانه دارد و کدام بخش نیازمند داده تازه است.",
+        "فرض کنید یک شرکت نرم‌افزاری شش ماه پیش ثبت‌نام بدون جلسه فروش را کنار گذاشته است. کاربران آزمایشی آن دوره به راهنمایی زیادی نیاز داشتند و تیم نتیجه گرفته بود که شروع کار باید همیشه با تماس انجام شود. امروز یکی از همکاران پیشنهاد می‌کند برای مشتریانی که فقط یک خروجی ساده می‌خواهند، مسیر کوتاه‌تری ساخته شود. به‌جای رأی‌گیری درباره «ثبت‌نام خودکار خوب است یا بد»، پرونده تصمیم قبلی را باز کنید: کدام مشتریان بررسی شدند، محصول چه امکاناتی داشت، دشواری اصلی کجا بود و موفقیت را با چه رفتاری می‌سنجیدید؟ اگر سندی ندارید، خاطره را با برچسب «بازسازی از حافظه» ثبت کنید، نه به‌عنوان داده قطعی.",
+        "حالا ادعا را محدود کنید. جمله «مشتری بدون تماس راه نمی‌افتد» برای این تمرین بیش از حد کلی است. آن را به پرسشی تبدیل کنید که بتوان برایش شاهد جمع کرد: آیا مشتری تازه‌ای که تنها به یک گزارش آماده نیاز دارد، با راهنمای داخل محصول می‌تواند نخستین گزارشش را بسازد؟ در یک برگه دو ستون بگذارید: چیزی که از دوره قبلی می‌دانیم و چیزی که درباره این گروه هنوز نمی‌دانیم. موارد نامعلوم را با عددهای خوش‌بینانه پر نکنید. اگر برای اجرای آزمون به دسترسی داده یا تغییر در محصول نیاز دارید، مسئول فراهم‌کردن آن را پیش از تعیین موعد مشخص کنید.",
+        "برای نمونه، آزمون را به پنج مشتری داوطلب از همان گروه و یک هفته محدود کنید؛ این تعداد صرفاً انتخابی برای تمرین است، نه معیار آماری یا توصیه همگانی. مسیر قبلی را برای بقیه باز نگه دارید و راه درخواست کمک را هم از شرکت‌کنندگان نگیرید. برای هر نفر ثبت کنید که آیا گزارش ساخته شد، چه کمکی دریافت کرد و پشتیبانی چقدر زمان صرف کرد. نتیجه کاربری که تیم بیشتر مراحل را برایش انجام داده، نباید در ستون «تکمیل مستقل» قرار بگیرد. داده موردنیاز را به حداقل برسانید و اگر مشتری منصرف شد، آزمایش را برای او ادامه ندهید.",
+        "قبل از شروع، قاعده تصمیم را بنویسید. مثلاً برای همین آزمایش فرضی، تکمیل مستقل کار توسط چهار نفر از پنج نفر، بدون خطای مهم و در سقف زمان پشتیبانی تعیین‌شده، فقط مجوز یک آزمون بزرگ‌تر باشد؛ نه مجوز حذف جلسه فروش برای همه. اگر افراد در یک مرحله متوقف شدند، ابتدا همان مرحله را اصلاح کنید. اگر حتی انجام کار با کمک هم نتیجه مفیدی نداد، مسئله ممکن است انتخاب گروه یا تعریف خروجی باشد. یک نفر مسئول جمع‌بندی باشد و هزینه زمانی آزمون، موعد مرور و شرط توقف نیز ثبت شود تا یک تجربه کوچک بی‌سروصدا به پروژه دائمی تبدیل نشود.",
+        "در پایان هفته، یک یادداشت تصمیم کوتاه بنویسید: چه چیزی دیدیم، نتیجه فقط درباره کدام گروه معتبر است و اقدام بعدی چیست؟ تعداد کم شرکت‌کنندگان و داوطلب بودن آن‌ها را کنار نتیجه بیاورید؛ از این آزمایش نمی‌توان رفتار کل بازار را نتیجه گرفت. اگر تصمیم قبلی همچنان مناسب بود، دلیل و تاریخ بررسی را تازه کنید. اگر نیازمند تغییر بود، دقیقاً بنویسید کدام بخش تغییر می‌کند و کدام بخش حفظ می‌شود. خروجی این تمرین یک فهرست بلند از تردیدها نیست؛ یک تصمیم محدود با مسئول مشخص است که تیم می‌تواند اجرا کند و بعداً دوباره بسنجد.",
+      ],
+      takeaways: [
+        "پیش از تکرار یا رد یک آزمایش قدیمی، گروه مشتری، نسخه محصول و تعریف موفقیت آن را ثبت کنید.",
+        "خاطره همکاران را از گزارش قابل‌بررسی جدا کنید؛ نبودن سند را پنهان نکنید.",
+        "یک ادعای کلی را به پرسشی درباره یک گروه و یک کار مشخص تبدیل کنید.",
+        "تکمیل مستقل کار و تکمیل با کمک تیم را در دو ستون جدا بسنجید.",
+        "سقف زمان، مسئول، موعد مرور و شرط توقف را پیش از شروع تعیین کنید.",
+        "موفقیت آزمون کوچک را مجوز یادگیری بیشتر بدانید، نه شاهد کافی برای تغییر کل محصول.",
+      ],
+      advice: [
+        "قالب پیشنهادی برگه: تصمیم قبلی، دامنه شواهد، سؤال باز، گروه آزمون، خروجی قابل‌مشاهده، سقف هزینه، مسئول و تاریخ مرور.",
+        "در یادداشت پایان آزمون سه انتخاب روشن بگذارید: حفظ مسیر، اصلاح یک مرحله یا اجرای آزمونی بزرگ‌تر؛ برای انتخاب نهایی دلیل بنویسید.",
+        "پنج شرکت‌کننده و یک هفته، اعداد مثال‌اند؛ اندازه و مدت آزمون واقعی را با ریسک و امکانات تیم تنظیم کنید.",
+      ],
+    },
+    en: {
+      paragraphs: [
+        "Expertise can describe an earlier world rather than the present one. The essay argues for keeping working hypotheses provisional and remaining receptive to change. What follows is an independent product-team exercise, not the author's procedure. Imagine a software company that abandoned signup without a sales call six months ago. A teammate now proposes a shorter path for customers who need only one standard report. Reconstruct the earlier decision before debating it: which customers participated, what the product supported, where they struggled, and what counted as success. Label recollections as recollections when the original records are missing.",
+        "Frame a narrower question: can a new customer in that specific segment produce a first report using in-product guidance? Separate existing evidence from unanswered questions. For this hypothetical exercise, invite five volunteers for a one-week trial, keep the existing route available, and retain a way to request help. These numbers are illustrative, not a statistical standard. Record report completion, assistance received, and support time separately. Do not count work performed by your team as independent customer completion. Minimize the data collected and allow participants to withdraw. Assign an owner to each prerequisite before setting the trial date.",
+        "Write the decision rule before starting. In this example, four independent completions out of five, with no significant errors and support effort inside an agreed limit, could justify a larger trial—not removal of sales calls for everyone. A shared obstacle could instead justify fixing one step. Set an effort cap, review date, and stopping condition. Close the exercise with a short decision note: what happened, which segment the result covers, and who owns the next action. State the limitations of a small volunteer sample. Choose explicitly between keeping the current route, revising one step, and testing more broadly; do not let a temporary trial silently become permanent work.",
+      ],
+      takeaways: [
+        "Reconstruct the customer segment, product version, and success criterion behind the earlier decision.",
+        "Turn a broad claim into a question about one segment completing one task.",
+        "Measure independent completion separately from team-assisted completion and support effort.",
+        "Agree on ownership, an effort cap, a review date, and stopping conditions before the trial.",
+        "Treat a small trial as evidence for the next bounded decision, not the whole market.",
+      ],
+      advice: [
+        "Suggested review sheet: old decision, evidence scope, open question, trial segment, observable outcome, effort cap, owner, review date.",
+        "The example's five participants and one week are placeholders; adapt the trial to your team's risk and capacity.",
+      ],
+    },
+    ar: {
+      paragraphs: [
+        "قد تصف الخبرة عالما سابقا لا الواقع الحالي. تدعو المقالة إلى إبقاء فرضيات العمل قابلة للمراجعة والانفتاح على التغير. ما يلي تمرين مستقل لفريق منتج، وليس إجراء من وضع الكاتب. تخيل شركة برمجيات أوقفت التسجيل دون مكالمة مبيعات قبل ستة أشهر، ثم اقترح أحد الزملاء مسارا أقصر للعملاء الذين يحتاجون تقريرا جاهزا واحدا. أعد بناء القرار السابق قبل مناقشته: من شارك، وما إمكانات المنتج حينها، وأين تعثر المستخدمون، وكيف عرفتم النجاح؟ إذا غابت السجلات، فسم ذكريات الفريق ذكريات، ولا تقدمها بوصفها بيانات موثقة.",
+        "ضيق السؤال: هل يستطيع عميل جديد من هذه الشريحة إنتاج تقريره الأول باستخدام الإرشادات داخل المنتج؟ افصل الأدلة المتاحة عن الأسئلة المفتوحة. في المثال الافتراضي، ادع خمسة متطوعين لتجربة مدتها أسبوع مع إبقاء المسار الحالي وخيار طلب المساعدة متاحين. هذه الأعداد للتوضيح وليست معيارا إحصائيا. سجل إنجاز التقرير والمساعدة المقدمة ووقت الدعم كل منها على حدة. لا تصنف العمل الذي أنجزه فريقك عن العميل ضمن الإنجاز المستقل. اجمع أقل قدر لازم من البيانات، وأوقف مشاركة من يطلب الانسحاب. حدد مسؤولا عن كل متطلب سابق للتجربة قبل تثبيت موعدها.",
+        "اكتب قاعدة القرار قبل البدء. في هذا المثال، إنجاز أربعة من خمسة مشاركين للمهمة باستقلال، دون أخطاء مهمة وضمن سقف الدعم المتفق عليه، قد يبرر تجربة أوسع، لا إلغاء مكالمات المبيعات للجميع. تعثر المشاركين في نقطة واحدة قد يبرر إصلاح تلك الخطوة أولا. حدد سقف الجهد وموعد المراجعة وشرط التوقف ومسؤول التلخيص. اختم بمذكرة قصيرة توضح ما حدث، والشريحة التي تشملها النتيجة، وصاحب الخطوة التالية. اذكر صغر العينة وطبيعتها التطوعية. اختر بوضوح بين الإبقاء على المسار وإصلاح خطوة وتوسيع الاختبار، حتى لا تتحول تجربة مؤقتة إلى عمل دائم بلا قرار.",
+      ],
+      takeaways: [
+        "وثق شريحة العملاء ونسخة المنتج ومعيار النجاح وراء القرار السابق.",
+        "حول الادعاء العام إلى سؤال عن شريحة واحدة ومهمة محددة.",
+        "افصل الإنجاز المستقل عن الإنجاز بمساعدة الفريق وعن تكلفة الدعم.",
+        "حدد المسؤول وسقف الجهد وموعد المراجعة وشروط التوقف قبل التجربة.",
+        "استخدم الاختبار الصغير لاتخاذ قرار محدود تال، لا للحكم على السوق بأكمله.",
+      ],
+      advice: [
+        "ورقة مقترحة: القرار السابق، نطاق الأدلة، السؤال المفتوح، شريحة الاختبار، النتيجة المرصودة، سقف الجهد، المسؤول وموعد المراجعة.",
+        "خمسة مشاركين وأسبوع واحد أرقام توضيحية؛ اضبط التجربة حسب المخاطر وقدرة الفريق.",
+      ],
+    },
+  },
   "How to Disagree": {
     fa: {
       paragraphs: [
