@@ -1328,6 +1328,24 @@ const articleCatalog = [
       ar: "من طلب الاستحسان إلى فحص النتائج: تمرين لاكتشاف المؤشرات القابلة للتلاعب وتعريف البيانات وتحويل التقرير الأسبوعي إلى قرار عملي.",
     },
   },
+  {
+    title: "Making Startups Powerful",
+    category: "building",
+    author: "Paul Graham",
+    source: "Paul Graham",
+    year: "2026",
+    url: "https://www.paulgraham.com/powerful.html",
+    tags: {
+      fa: ["مزیت ساختاری", "رشد پایدار", "تصمیم محصول"],
+      en: ["structural advantage", "durable growth", "product decisions"],
+      ar: ["الميزة الهيكلية", "النمو المستدام", "قرارات المنتج"],
+    },
+    summary: {
+      fa: "به‌جای پرسیدن «چطور بیشتر بفروشیم؟» بپرسید چه تغییری شرکت را برای مشتری و در بلندمدت قدرتمندتر می‌کند؛ از رابطه با مشتری تا داده، شبکه و ابزارهای قابل توسعه.",
+      en: "Instead of asking only how to sell more, ask what would make the company more powerful for customers over time—from ownership of the relationship to data, networks, and extensibility.",
+      ar: "بدلا من سؤال كيف نبيع أكثر فقط، اسأل ما الذي يجعل الشركة أقوى للعميل مع الوقت: من امتلاك العلاقة إلى البيانات والشبكات وقابلية التوسع.",
+    },
+  },
 ];
 
 const articleEssays = {
@@ -4133,6 +4151,77 @@ const articleEssays = {
         "لا تعامل اهتمام المستثمر أو الوعد الشفهي كمال متاح للإنفاق.",
         "قارن سيناريوهات الإيرادات والنفقات والإغلاق مع موعد قرار لكل منها.",
         "حدد حدود العمل المخصص حتى يدعم المنتج ولا يستبدله.",
+      ],
+    },
+  },
+  "Making Startups Powerful": {
+    fa: {
+      paragraphs: [
+        "پرسش «چطور درآمد بیشتری بسازیم؟» برای یک شرکت جوان لازم است، اما معمولاً فقط بهبودهای کوچک پیشنهاد می‌دهد. پرسش قوی‌تر این است: چه تغییری شرکت را برای مشتری قدرتمندتر می‌کند؟ این متن اقتباسی آزاد از ایده‌های مقاله اصلی است، نه ترجمه کامل آن؛ مثال‌ها و تمرین‌های این نسخه برای تبدیل ایده به تصمیم عملی طراحی شده‌اند. قدرت در اینجا به معنی سلطه بر مشتری نیست؛ یعنی توانایی ایجاد ارزش بیشتر، ماندن در رابطه با مشتری و ساختن مزیتی که با هر چرخه قوی‌تر شود.",
+        "برای شروع، محدودیت اصلی شرکت را روی یک برگه بنویسید. آیا محصول فقط یک جزء فنی را به شرکت دیگری می‌فروشد؟ آیا رابطه با کاربر در اختیار واسطه است؟ آیا داده یا جریان مالی از محصول عبور نمی‌کند؟ سپس سه مسیر را بررسی کنید: محصول را طوری توسعه دهید که مشتریان دیگر بتوانند روی آن بسازند، بخشی از کار را خودتان انجام دهید و مستقیماً نتیجه نهایی را تحویل دهید، یا در نقطه‌ای از زنجیره قرار بگیرید که تصمیم و رابطه با مشتری شکل می‌گیرد. هیچ‌کدام نسخه آماده نیست؛ هر مسیر باید با یک منفعت روشن برای مشتری آغاز شود.",
+        "گاهی شبکه‌سازی از جایی شروع می‌شود که در برنامه اولیه نبوده است. کاربران ممکن است محصول را برای کاری فرعی یا حتی «اشتباه» به کار ببرند، چون آن نیاز برایشان فوری‌تر است. به‌جای اصلاح سریع رفتارشان، این استفاده را ثبت کنید: چه گروهی این کار را انجام می‌دهد، چه نتیجه‌ای می‌گیرد و چه چیزی حاضر است برایش بپردازد؟ اگر یک قابلیت فرعی می‌تواند به استاندارد، بازارگاه یا محل تعامل کاربران تبدیل شود، یک آزمون کوچک برای آن طراحی کنید؛ نه اینکه معماری شرکت را یک‌شبه عوض کنید.",
+        "انتخاب مشتری هم بخشی از استراتژی قدرت است. مشتریان کوچک‌تر و در حال رشد معمولاً سریع‌تر تصمیم می‌گیرند و اگر محصول در کارشان جا بیفتد، همراه آن‌ها بزرگ می‌شوید. در مقابل، فروش به سازمان‌های بسیار بزرگ ممکن است ماه‌ها طول بکشد و نتیجه را بیشتر به فرایند خرید وابسته کند تا کیفیت محصول. بررسی کنید آیا می‌توانید محصول را به شکلی عرضه کنید که یک تیم کوچک همین امروز نصب و استفاده کند و قیمت‌گذاری بر اساس استفاده، رشد مشتری را با رشد خودتان هم‌راستا کند.",
+        "بازی بلندمدت با بخشیدن ارزش بیشتر از مقدار درآمد کوتاه‌مدت هم‌خوان است. API، قابلیت توسعه، مستندات خوب و حتی بازمتن کردن بخشی از محصول می‌تواند اعتماد و توزیع بسازد؛ به شرطی که برای مشتری واقعاً بهتر باشد. از خودتان نپرسید کدام ویژگی را می‌توان قفل کرد تا پول بیشتری بگیریم؛ بپرسید کدام ارزش تازه را می‌توان ساخت که مشتری و شرکت هر دو از آن منتفع شوند. این تصمیم‌ها باید با ظرفیت تیم و اقتصاد واقعی شرکت سنجیده شوند، نه با شعار.",
+        "هر هفته یک مرور کوتاه برگزار کنید: شرکت این هفته در چه نقطه‌ای قدرتمندتر شد و این تغییر چگونه در تجربه مشتری دیده می‌شود؟ اگر پاسخ فقط «کار بیشتری انجام دادیم» است، مسئله را دوباره تعریف کنید. مسیرهای بزرگ‌تر—مالکیت رابطه، جریان پول، شبکه، داده یا فروش به مشتری زودتر—فقط زمانی ارزش دارند که انتخاب مشتری را بهتر کنند. همین قید از جاه‌طلبی بی‌حساب جلوگیری می‌کند و به تیم اجازه می‌دهد از یک محصول کوچک، قدم‌به‌قدم، یک موقعیت ماندگار بسازد.",
+      ],
+      takeaways: [
+        "محدودیت ساختاری شرکت را مشخص کنید: رابطه با مشتری، جریان پول، داده، توزیع یا وابستگی به واسطه.",
+        "برای هر ایده بزرگ، یک منفعت قابل مشاهده برای مشتری و یک آزمون کوچک با مسئول و موعد بنویسید.",
+        "استفاده‌های غیرمنتظره از محصول را به‌عنوان سیگنال نیاز ثبت کنید، نه صرفاً خطای کاربر.",
+        "محصول را برای مشتریانی طراحی کنید که زود تصمیم می‌گیرند و امکان رشد همراه با آن‌ها وجود دارد.",
+        "قابلیت توسعه، API یا بازمتن‌سازی را فقط وقتی انتخاب کنید که اعتماد، توزیع یا نتیجه مشتری را بهتر کند.",
+        "هر هفته بررسی کنید شرکت چگونه قدرتمندتر شده و این قدرت دقیقاً در کدام رفتار مشتری دیده می‌شود.",
+        "از ساختاری که به مشتری ارزش بیشتری می‌دهد شروع کنید؛ قدرت پایدار نتیجه ارزش است، نه جایگزین آن.",
+      ],
+      advice: [
+        "یک جدول سه‌ستونه بسازید: محدودیت فعلی، تغییر ساختاری ممکن، شواهد منفعت برای مشتری.",
+        "با پنج مشتری سریع‌تصمیم یک مسیر نصب یا استفاده اولیه را آزمایش کنید و زمان تصمیم را ثبت کنید.",
+        "یک استفاده غیرمنتظره از محصول را انتخاب کنید و پیش از هر توسعه، مصاحبه و آزمون محدود انجام دهید.",
+        "در جلسه هفتگی قدرت، هر پیشنهاد را با یک معیار نتیجه مشتری و شرط توقف بررسی کنید.",
+      ],
+    },
+    en: {
+      paragraphs: [
+        "Asking how to make more money matters, but it often produces incremental improvements. A more useful question is what would make the company more powerful for customers over time. This is a free adaptation of the source, not a complete translation; the examples and exercises here are independent applications. Power does not mean controlling customers. It means creating more value, keeping a useful relationship with them, and building an advantage that compounds.",
+        "Start by naming the constraint. Is the company only a technical component while someone else owns the customer relationship? Does money or data flow around the product instead of through it? Consider three paths: let other products build on yours, take on more of the customer's difficult work, or move closer to the point where the final customer outcome is decided. None is automatically correct. Each needs a concrete customer benefit and a bounded test.",
+        "Unexpected usage can reveal a stronger business. When users apply a product to a peripheral job, record who does it, what outcome they get, and what they would pay to improve. A side feature may become a standard, a marketplace, or the real product, but do not redesign the company overnight. Test the behavior first. Customer choice is the constraint that keeps an ambitious strategy honest.",
+        "Customer timing is strategic too. Smaller, fast-moving customers can install a product now, decide on quality, and grow with it. Usage-based pricing can align their growth with yours. APIs, extensibility, documentation, or open source can build trust and distribution, but only when they make the customer's world better. Review one question each week: where did the company become more useful and structurally stronger, and what customer behavior proves it?",
+      ],
+      takeaways: [
+        "Name the structural constraint: customer relationship, money, data, distribution, or an intermediary.",
+        "Pair every ambitious move with a visible customer benefit and a bounded test.",
+        "Treat unexpected usage as evidence of demand before treating it as misuse.",
+        "Prefer customers who decide quickly and can grow with the product.",
+        "Use APIs, extensibility, or open source when they improve trust, distribution, or customer outcomes.",
+        "Review weekly which customer behavior demonstrates increasing company power.",
+      ],
+      advice: [
+        "Map one constraint, one structural option, and the evidence that would show customer benefit.",
+        "Test onboarding with five fast-deciding customers and record time to decision and first value.",
+        "Choose one unexpected use case and interview users before building around it.",
+        "Require a customer-result metric and a stopping condition for each power-building experiment.",
+      ],
+    },
+    ar: {
+      paragraphs: [
+        "سؤال كيف نزيد الإيرادات مهم، لكنه يقود غالبا إلى تحسينات صغيرة. السؤال الأقوى هو: ما الذي يجعل الشركة أكثر قوة للعميل مع مرور الوقت؟ هذه معالجة حرة لأفكار المصدر وليست ترجمة كاملة؛ الأمثلة والتمارين هنا تطبيقات مستقلة. القوة لا تعني السيطرة على العملاء، بل تعني خلق قيمة أكبر، والحفاظ على علاقة مفيدة معهم، وبناء ميزة تتراكم.",
+        "ابدأ بتسمية القيد الأساسي. هل تبيع الشركة مكوّنا تقنيا بينما يملك طرف آخر علاقة العميل؟ هل يمر المال أو البيانات حول المنتج بدلا من المرور عبره؟ ادرس ثلاثة مسارات: أن تسمح لمنتجات أخرى بالبناء فوق منتجك، أو أن تنجز جزءا أكبر من العمل الصعب للعميل، أو أن تقترب من النقطة التي تتحدد فيها النتيجة النهائية. لا يوجد مسار صحيح تلقائيا؛ يحتاج كل واحد إلى فائدة واضحة للعميل واختبار محدود.",
+        "قد يكشف الاستخدام غير المتوقع عن عمل أقوى. عندما يستخدم العملاء المنتج في مهمة جانبية، سجل من يفعل ذلك والنتيجة التي يحصل عليها وما الذي سيدفع لتحسينه. قد تتحول الميزة الجانبية إلى معيار أو سوق أو المنتج الحقيقي، لكن لا تعيد تصميم الشركة في ليلة واحدة. اختبر السلوك أولا. تظل فائدة العميل هي القيد الذي يبقي الطموح منضبطا.",
+        "توقيت العميل جزء من الاستراتيجية أيضا. يستطيع العملاء الأصغر والأسرع قرارا تثبيت المنتج الآن والحكم عليه من جودته والنمو معه. ويمكن للتسعير حسب الاستخدام أن يربط نموهم بنموك. قد تبني واجهات البرمجة وقابلية التوسع والتوثيق أو المصدر المفتوح الثقة والتوزيع، لكن فقط عندما تجعل عالم العميل أفضل. راجع كل أسبوع أين أصبحت الشركة أكثر فائدة وأقوى هيكليا، وما السلوك الذي يثبت ذلك.",
+      ],
+      takeaways: [
+        "سم القيد الهيكلي: علاقة العميل أو المال أو البيانات أو التوزيع أو الوسيط.",
+        "اربط كل خطوة طموحة بفائدة ظاهرة للعميل واختبار محدود.",
+        "اعتبر الاستخدام غير المتوقع دليلا على الطلب قبل اعتباره إساءة استخدام.",
+        "فضل العملاء الذين يقررون بسرعة ويمكنهم النمو مع المنتج.",
+        "استخدم الواجهات وقابلية التوسع أو المصدر المفتوح عندما تحسن الثقة والتوزيع ونتيجة العميل.",
+        "راجع أسبوعيا السلوك الذي يثبت ازدياد قوة الشركة للعميل.",
+      ],
+      advice: [
+        "ارسم قيدا واحدا وخيارا هيكليا واحدا ودليلا يثبت فائدته للعميل.",
+        "اختبر بدء الاستخدام مع خمسة عملاء سريعي القرار وسجل زمن القرار وأول قيمة.",
+        "اختر استخداما غير متوقعا وأجر مقابلات قبل بناء استراتيجية كاملة حوله.",
+        "اشترط مقياسا لنتيجة العميل وشرط توقف لكل تجربة لبناء القوة.",
       ],
     },
   },

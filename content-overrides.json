@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-30T02:16:41Z",
+  "updatedAt": "2026-10-01T02:00:00Z",
   "translations": {
     "fa": {
       "documentTitle": "علی سدیفی | یادداشت‌هایی درباره ساخت کسب‌وکار",
@@ -1871,6 +1871,55 @@
           "fa": "اسلاید ۱: نتیجه آزمایش را بدون دامنه شواهد تعمیم ندهید.\nاسلاید ۲: امروز یک تصمیم را برای یک گروه مشتری، با سقف زمان و شرط توقف دوباره بسنجید.\nاسلاید ۳: اقتباس و تمرین مستقل | Paul Graham — https://paulgraham.com/ecw.html | https://alisodeyfi.ir/articles/how-to-be-an-expert-in-a-changing-world/fa/#daily-article-reader",
           "en": "Slide 1: do not generalize a trial beyond its evidence.\nSlide 2: revisit one decision for one segment today; set an effort cap and stopping condition.\nSlide 3: adaptation and independent exercise | Paul Graham — https://paulgraham.com/ecw.html | https://alisodeyfi.ir/articles/how-to-be-an-expert-in-a-changing-world/en/#daily-article-reader",
           "ar": "الشريحة ۱: لا تعمم نتيجة تجربة خارج نطاق أدلتها.\nالشريحة ۲: راجع اليوم قرارا لشريحة واحدة مع سقف جهد وشرط توقف.\nالشريحة ۳: معالجة وتمرين مستقل | Paul Graham — https://paulgraham.com/ecw.html | https://alisodeyfi.ir/articles/how-to-be-an-expert-in-a-changing-world/ar/#daily-article-reader"
+        }
+      },
+      {
+        "id": "2026-10-01-site-making-startups-powerful",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "making-startups-powerful",
+        "publishAt": "2026-10-01T05:30:00+03:30",
+        "status": "published",
+        "publishedAt": "2026-10-01T05:30:00+03:30"
+      },
+      {
+        "id": "2026-10-01-linkedin-making-startups-powerful",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "making-startups-powerful",
+        "publishAt": "2026-10-01T12:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-10-01T05:30:00+03:30",
+        "note": "Draft only. Verified account/API access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "قدرت شرکت از ارزش مشتری می‌آید، نه از قفل‌کردن محصول",
+          "en": "Company power starts with customer value, not lock-in",
+          "ar": "قوة الشركة تبدأ من قيمة العميل لا من احتجازه"
+        },
+        "body": {
+          "fa": "تز: شرکت زمانی قدرتمندتر می‌شود که ساختارش ارزش بیشتری برای مشتری بسازد.\nپیامد: رابطه با مشتری، داده، شبکه و مشتریان سریع‌تصمیم را به‌عنوان اهرم‌های ساختاری بررسی کنید.\nاقدام: یک محدودیت ساختاری و یک آزمون کوچک با معیار نتیجه مشتری و شرط توقف تعریف کنید.\nPaul Graham — https://www.paulgraham.com/powerful.html\nhttps://alisodeyfi.ir/articles/making-startups-powerful/fa/#daily-article-reader",
+          "en": "Thesis: a company becomes more powerful when its structure creates more customer value.\nImplication: inspect customer relationships, data, networks, and fast-deciding customers as structural levers.\nNext action: define one bounded experiment with a customer-result metric and a stopping condition.\nPaul Graham — https://www.paulgraham.com/powerful.html\nhttps://alisodeyfi.ir/articles/making-startups-powerful/en/#daily-article-reader",
+          "ar": "الخلاصة: تصبح الشركة أقوى عندما يصنع هيكلها قيمة أكبر للعميل.\nالأثر: افحص علاقة العميل والبيانات والشبكات والعملاء سريعي القرار كرافعات هيكلية.\nالخطوة التالية: حدد تجربة محدودة بمقياس لنتيجة العميل وشرط توقف.\nPaul Graham — https://www.paulgraham.com/powerful.html\nhttps://alisodeyfi.ir/articles/making-startups-powerful/ar/#daily-article-reader"
+        }
+      },
+      {
+        "id": "2026-10-01-story-making-startups-powerful",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "making-startups-powerful",
+        "publishAt": "2026-10-01T20:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-10-01T05:30:00+03:30",
+        "note": "Preview only. Verified account/session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "پیش‌نمایش استوری: شرکت را برای مشتری قدرتمندتر کنید",
+          "en": "Story preview: make the company more powerful for customers",
+          "ar": "معاينة الستوري: اجعل الشركة أقوى للعميل"
+        },
+        "body": {
+          "fa": "اسلاید ۱: قدرت شرکت باید از ارزش بیشتر برای مشتری شروع شود.\nاسلاید ۲: یک محدودیت ساختاری را پیدا کنید و آن را با آزمونی کوچک بسنجید.\nاسلاید ۳: منبع: Paul Graham — https://www.paulgraham.com/powerful.html | https://alisodeyfi.ir/articles/making-startups-powerful/fa/#daily-article-reader",
+          "en": "Slide 1: company power should start with more customer value.\nSlide 2: find one structural constraint and test a small way around it.\nSlide 3: source: Paul Graham — https://www.paulgraham.com/powerful.html | https://alisodeyfi.ir/articles/making-startups-powerful/en/#daily-article-reader",
+          "ar": "الشريحة ۱: يجب أن تبدأ قوة الشركة من قيمة أكبر للعميل.\nالشريحة ۲: حدد قيدا هيكليا واختبر طريقة صغيرة لتجاوزه.\nالشريحة ۳: المصدر: Paul Graham — https://www.paulgraham.com/powerful.html | https://alisodeyfi.ir/articles/making-startups-powerful/ar/#daily-article-reader"
         }
       }
     ],
