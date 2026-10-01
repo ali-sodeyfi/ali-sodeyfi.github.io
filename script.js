@@ -668,6 +668,12 @@ const articleCatalog = [
   },
   {
     title: "The Only Thing that Matters",
+    seoTitle: {
+      en: "The Only Thing that Matters | Marc Andreessen on Product-Market Fit",
+    },
+    seoDescription: {
+      en: "A concise adaptation of Marc Andreessen's essay on product-market fit: why market pull matters more than product polish, and which user signals to watch.",
+    },
     category: "product",
     author: "Marc Andreessen",
     source: "PMarchive",

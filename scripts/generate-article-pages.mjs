@@ -314,6 +314,10 @@ function getArticleCredit(article) {
 }
 
 function getPageTitle(article, language, dictionary) {
+  if (article.seoTitle?.[language]) {
+    return article.seoTitle[language];
+  }
+
   if (language === "fa") {
     return `${article.title} | ترجمه و برداشت آزاد`;
   }
@@ -343,7 +347,7 @@ function getPageHtml(data, article, language) {
   const slug = data.getArticleSlug(article);
   const canonicalUrl = getArticleUrl(slug, language);
   const title = getPageTitle(article, language, dictionary);
-  const description = article.summary[language] ?? article.summary.en;
+  const description = article.seoDescription?.[language] ?? article.summary[language] ?? article.summary.en;
   const direction = language === "en" ? "ltr" : "rtl";
   const sourceLabel = dictionary.articleReadLabel ?? "Original source";
   const homeLabel =
