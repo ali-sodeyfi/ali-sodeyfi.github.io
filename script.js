@@ -455,6 +455,24 @@ const articleCategories = [
 
 const articleCatalog = [
   {
+    title: "Good and Bad Procrastination",
+    category: "leadership",
+    author: "Paul Graham",
+    source: "Paul Graham",
+    year: "2005",
+    url: "https://paulgraham.com/procrastination.html",
+    tags: {
+      fa: ["اولویت‌گذاری", "تصمیم‌های معوق", "اجرای تیمی"],
+      en: ["prioritization", "pending decisions", "team execution"],
+      ar: ["ترتيب الأولويات", "القرارات المؤجلة", "تنفيذ الفريق"],
+    },
+    summary: {
+      fa: "تمرینی برای پیدا کردن تصمیمی که زیر کارهای روزمره پنهان شده است: یک پرونده مشتری را بررسی کنید، مسئول تصمیم را مشخص کنید و نتیجه را با تغییر واقعی بسنجید.",
+      en: "An exercise in finding a decision buried under routine tasks: inspect one customer case, assign a decision owner, and check for an actual change rather than another completed checklist.",
+      ar: "تمرين لاكتشاف قرار تخفيه المهام اليومية: افحص حالة عميل واحدة، وحدد مسؤول القرار، وقس النتيجة بتغير فعلي لا بقائمة مهام مكتملة أخرى.",
+    },
+  },
+  {
     title: "How to Be an Expert in a Changing World",
     category: "leadership",
     author: "Paul Graham",
@@ -1355,6 +1373,69 @@ const articleCatalog = [
 ];
 
 const articleEssays = {
+  "Good and Bad Procrastination": {
+    fa: {
+      paragraphs: [
+        "همه تعویق‌ها یکسان نیستند. ایده محوری مقاله این است که عقب‌انداختن کار را باید با چیزی سنجید که جای آن انجام می‌دهیم: ممکن است مشغولیتی کم‌اهمیت را جایگزین مسئله اصلی کنیم، یا برعکس، کار کوچک‌تری را برای کار مهم‌تر کنار بگذاریم. خلاصه‌کردن فهرست وظایف، به‌تنهایی نشانه پیشرفت نیست. ادامه این متن یک تمرین مستقل برای تیم‌های کوچک است، نه دستورالعمل یا تجربه نقل‌شده از نویسنده.",
+        "فرض کنید تیم یک ابزار مدیریت سفارش هر هفته گزارش پشتیبانی را مرتب می‌کند، اما درباره علت بازگشت یک خطای تکراری تصمیم نمی‌گیرد. برای شروع، جلسه دیگری به تقویم اضافه نکنید؛ یک پرونده بسته‌شده را از ابتدا تا انتها بخوانید. مشتری چه کاری می‌خواست انجام دهد، پاسخ تیم چه بود و آیا مشکل واقعا برطرف شد؟ در این مثال فرضی، هدف تمرین یافتن تفاوت میان پاسخ‌دادن به پیام و حل‌شدن مسئله است. اگر اطلاعات کافی ندارید، همان شکاف را ثبت کنید؛ روایت منظم جای مشاهده را نمی‌گیرد.",
+        "حالا تصمیم معوق را در یک جمله بنویسید: آیا باید متن خطا روشن‌تر شود، مسیر ثبت سفارش اصلاح شود یا فعلا اطلاعات بیشتری جمع کنیم؟ برای هر گزینه بنویسید چه شاهدی آن را تقویت می‌کند و چه شاهدی می‌تواند ردش کند. یک نفر مسئول جمع‌کردن اطلاعات باشد و یک نفر اختیار انتخاب گزینه را داشته باشد؛ در تیم کوچک ممکن است هر دو نقش با یک نفر باشد. خروجی این مرحله فهرست طولانی کارها نیست، بلکه پرسشی روشن با صاحب مشخص است. درخواست مبهم «بهبود تجربه مشتری» هنوز تصمیم قابل اجرا نیست.",
+        "برای همان پرونده، کوچک‌ترین مشاهده بعدی را انتخاب کنید. مثلا با اجازه مشتری، مراحل ثبت سفارش را در یک محیط آزمایشی بازسازی کنید و نقطه‌ای را که نتیجه با انتظار او فرق می‌کند ثبت کنید. از داده ساختگی استفاده کنید تا سفارش واقعی تغییر نکند. پیش از شروع، سقف زمان و نتیجه مورد انتظار را بنویسید: یک بازتولید روشن، یا گزارشی از اینکه چرا مشکل هنوز قابل بازتولید نیست. این خروجی دوم هم مفید است، به شرط آنکه به‌عنوان حل مشکل گزارش نشود. اگر دسترسی یا رضایت لازم فراهم نیست، تمرین را متوقف و مانع را ثبت کنید.",
+        "کارهای کنارگذاشته‌شده را بی‌صاحب رها نکنید. یک جدول ساده بسازید که در آن نام کار، فرد منتظر، اثر تأخیر و زمان پاسخ بعدی مشخص باشد. در مثال ما، تغییر قالب گزارش داخلی می‌تواند منتظر بماند، اما سفارش ناموفق مشتری باید مسیر پاسخ‌گویی فعال داشته باشد. تیم باید بتواند تفاوت این دو را توضیح دهد و برای موارد فوری یک مسئول در دسترس بگذارد. این مرزبندی پیشنهاد عملی این تمرین است: اولویت‌گذاری نباید بهانه‌ای برای ناپدیدشدن از برابر مشتری یا انتقال نامرئی بار کار به همکاران شود.",
+        "در پایان بازه، پرونده را با سه سؤال مرور کنید: چه چیزی فهمیدیم که قبلا نمی‌دانستیم، کدام گزینه را انتخاب کردیم و چه تغییری باید برای مشتری قابل مشاهده باشد؟ اگر فقط قالب گزارش بهتر شده، تصمیم اصلی هنوز باز است. اگر علت روشن شده ولی اصلاح به زمان دیگری نیاز دارد، مسئول و موعد بازبینی آن را ثبت کنید. برای هفته بعد تنها یک تصمیم معوق دیگر انتخاب کنید و همین مسیر را تکرار کنید. معیار این تمرین تعداد وظایف بسته‌شده نیست؛ روشن‌شدن یک تصمیم و پیگیری اثر آن است، بدون پنهان‌کردن تعهداتی که هنوز باقی مانده‌اند.",
+      ],
+      takeaways: [
+        "یک پرونده واقعی را بررسی کنید و پاسخ پشتیبانی را از حل مسئله جدا نگه دارید.",
+        "تصمیم معوق را به صورت یک پرسش با گزینه‌های مشخص بنویسید.",
+        "برای جمع‌آوری شواهد و انتخاب نهایی، مسئول تعیین کنید.",
+        "مشکل را در محیط آزمایشی و با داده ساختگی بازسازی کنید؛ نتیجه نامشخص را حل‌شده ننامید.",
+        "برای هر کار عقب‌افتاده، اثر تأخیر و زمان پاسخ بعدی را روشن کنید.",
+        "بازبینی را با تصمیم ثبت‌شده و تغییر قابل مشاهده برای مشتری تمام کنید.",
+      ],
+      advice: [
+        "برگه پیشنهادی تمرین: پرونده، تصمیم باز، گزینه‌ها، شاهد لازم، مسئول، سقف زمان، نتیجه و موعد بازبینی.",
+        "اگر شواهد کافی نیست، یک سؤال بی‌پاسخ و راه جمع‌آوری اطلاعاتش را ثبت کنید؛ اجماع تیم را جای شاهد ننشانید.",
+        "این تمرین را ابتدا روی یک مسئله محدود اجرا کنید؛ برای اجرای آن فرایند گزارش‌گیری تازه‌ای به کل شرکت تحمیل نکنید.",
+      ],
+    },
+    en: {
+      paragraphs: [
+        "The essay distinguishes postponement by the work that replaces the deferred task. Choosing something more important differs from staying occupied with something less important. A completed checklist alone cannot settle that distinction. What follows is an independent exercise for a small team, not a process or case study supplied by the author.",
+        "Imagine an order-management team that tidies its support report every week without deciding why the same error returns. Inspect one closed ticket: what did the customer attempt, what did the team answer, and was the underlying problem resolved? Write the pending decision as a choice between changing the error message, repairing the order flow, or collecting more evidence. Assign responsibility for gathering evidence and authority for the final choice. Record what would support or contradict each option rather than asking everyone for a general opinion about customer experience.",
+        "For this hypothetical exercise, try reproducing the reported sequence in a test environment, with permission and synthetic data rather than a live order. Set an effort limit and name the expected output: a reproducible failure, or a precise account of what remains unknown. Do not label the second outcome a fix. If access or consent is unavailable, record the blocker and stop. Keep a separate list of deferred obligations, including who is waiting, the consequence of delay, and the next response time; an internal report redesign and a failed customer order need not receive the same treatment.",
+        "Close the review by recording what changed in your understanding, which option you chose, and what the customer should eventually notice. A prettier report is not evidence that the original issue disappeared. If investigation is complete but repair is pending, name the owner and review date explicitly. Start with one case rather than imposing a new reporting system on the company. The proposed exercise succeeds when a previously hidden decision becomes explicit and its effect is checked, while unfinished obligations remain visible.",
+      ],
+      takeaways: [
+        "Separate a support response from evidence that the customer's problem was resolved.",
+        "Write one pending decision with explicit options and an accountable owner.",
+        "Use a bounded reproduction with synthetic data; report uncertainty honestly.",
+        "Record the impact and next response time for deferred obligations.",
+        "Review the chosen action and its customer-visible result, not just ticket closure.",
+      ],
+      advice: [
+        "Suggested worksheet: case, open decision, options, evidence needed, owner, effort limit, result, review date.",
+        "When evidence is insufficient, name the unanswered question and the next observation instead of treating agreement as proof.",
+      ],
+    },
+    ar: {
+      paragraphs: [
+        "تميز المقالة بين أنواع التأجيل بحسب العمل الذي يحل محل المهمة المؤجلة. اختيار عمل أهم يختلف عن الانشغال بعمل أقل أهمية، وإنجاز قائمة مهام لا يكفي وحده للحكم. ما يلي تمرين مستقل لفريق صغير، وليس إجراء أو دراسة حالة قدمها الكاتب.",
+        "تخيل فريق أداة لإدارة الطلبات يرتب تقرير الدعم أسبوعيا دون أن يقرر سبب عودة الخطأ نفسه. افحص تذكرة مغلقة واحدة: ماذا حاول العميل فعله، وبماذا أجاب الفريق، وهل زالت المشكلة فعلا؟ اكتب القرار المعلق بوصفه اختيارا بين توضيح رسالة الخطأ، وإصلاح مسار الطلب، وجمع معلومات إضافية. حدد من يجمع الأدلة ومن يملك صلاحية الاختيار النهائي؛ قد يكونان الشخص نفسه. سجل ما يدعم كل خيار وما قد ينفيه، بدلا من طلب آراء عامة عن تحسين تجربة العميل.",
+        "في هذا المثال الافتراضي، حاول إعادة خطوات المشكلة في بيئة اختبار، بإذن مناسب وبيانات مصطنعة بدلا من طلب حقيقي. حدد سقف الجهد والمخرج المتوقع: خطأ قابل لإعادة الإنتاج، أو وصف دقيق لما لا يزال مجهولا. لا تسم النتيجة الثانية إصلاحا. إذا غاب الإذن أو الوصول المطلوب، سجل العائق وتوقف. احتفظ بقائمة منفصلة للالتزامات المؤجلة تتضمن الشخص المنتظر وأثر التأخير وموعد الرد التالي؛ فتغيير تصميم تقرير داخلي ليس مماثلا لطلب عميل تعذر تنفيذه.",
+        "اختم المراجعة بتسجيل ما تغير في فهم الفريق، والخيار المتخذ، والنتيجة التي ينبغي أن يلاحظها العميل. تحسين شكل التقرير لا يثبت اختفاء المشكلة الأصلية. إذا انتهى التحقيق وبقي الإصلاح، فحدد المسؤول وموعد المراجعة بوضوح. ابدأ بحالة واحدة دون فرض نظام تقارير جديد على الشركة. ينجح هذا التمرين المقترح عندما يصبح القرار المخفي صريحا وتتابع آثاره، مع إبقاء الالتزامات غير المنجزة ظاهرة لا نقلها بصمت إلى زملاء آخرين.",
+      ],
+      takeaways: [
+        "افصل الرد على تذكرة الدعم عن الدليل على حل مشكلة العميل.",
+        "اكتب قرارا معلقا واحدا بخيارات واضحة ومسؤول محدد.",
+        "أعد إنتاج المشكلة ضمن سقف جهد وببيانات مصطنعة، واذكر عدم اليقين بصراحة.",
+        "سجل أثر التأخير وموعد الرد التالي لكل التزام مؤجل.",
+        "راجع الإجراء المختار ونتيجته الملحوظة للعميل، لا مجرد إغلاق التذكرة.",
+      ],
+      advice: [
+        "ورقة مقترحة: الحالة، القرار المفتوح، الخيارات، الدليل المطلوب، المسؤول، سقف الجهد، النتيجة وموعد المراجعة.",
+        "عندما لا تكفي الأدلة، حدد السؤال المفتوح والملاحظة التالية؛ اتفاق الفريق ليس برهانا.",
+      ],
+    },
+  },
   "How to Be an Expert in a Changing World": {
     fa: {
       paragraphs: [
