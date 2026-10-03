@@ -16,3 +16,26 @@ test("the product-market fit article has a specific English search title and des
   assert(html.includes(`<meta name="twitter:description" content="${description}" />`));
   assert(html.includes('"@type":"Article"'));
 });
+
+test("bus ticket article describes curiosity rather than spare-time scheduling in every language", async () => {
+  const expectations = {
+    fa: ["نظریه بلیت اتوبوس و نبوغ", "بلیت‌های قدیمی را با اشتیاق جمع می‌کنند"],
+    en: ["The Bus Ticket Theory of Genius | Paul Graham&#039;s Idea", "not a metaphor for using spare minutes"],
+    ar: ["نظرية تذكرة الحافلة والعبقرية", "ليست استعارة لاستغلال الدقائق المتفرقة"],
+  };
+
+  for (const [language, phrases] of Object.entries(expectations)) {
+    const html = await readFile(
+      new URL(`../articles/the-bus-ticket-theory-of-genius/${language}/index.html`, import.meta.url),
+      "utf8",
+    );
+
+    for (const phrase of phrases) {
+      assert(html.includes(phrase), `${language} page is missing: ${phrase}`);
+    }
+    assert(html.includes('<meta name="description" content='));
+    assert(html.includes('class="article-page-meta"'));
+    assert(html.includes('class="article-takeaways"'));
+    assert(!html.includes("short windows of deep focus"));
+  }
+});
