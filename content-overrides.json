@@ -226,6 +226,55 @@
     "timezone": "Asia/Tehran",
     "queue": [
       {
+        "id": "2026-10-03-site-black-swan-farming",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "black-swan-farming",
+        "publishAt": "2026-10-03T05:48:41+03:30",
+        "status": "published",
+        "publishedAt": "2026-10-03T05:48:41+03:30"
+      },
+      {
+        "id": "2026-10-03-linkedin-black-swan-farming",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "black-swan-farming",
+        "publishAt": "2026-10-03T12:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-10-03T05:48:41+03:30",
+        "note": "Draft only. Verified account/API access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "اعتراض به ایده را به سؤال قابل بررسی تبدیل کنید",
+          "en": "Turn an objection into an investigable question",
+          "ar": "حول الاعتراض إلى سؤال قابل للفحص"
+        },
+        "body": {
+          "fa": "تز: «مشتری همین حالا با تلفن کارش را انجام می‌دهد» پایان بررسی محصول نیست؛ شروع یک سؤال مشخص است.\nپیامد: آخرین تجربه مشتری را بررسی کنید و فقط مرحله‌ای را بسنجید که هماهنگی در آن سخت شده است.\nاقدام: پیش از ساخت اپلیکیشن، یک درخواست واقعی را با رضایت طرفین پیگیری کنید؛ نتیجه و زمان دخالت تیم را کنار هم ثبت کنید.\nتمرین مستقل همراه با اقتباس کوتاه | Paul Graham — https://paulgraham.com/swan.html\nhttps://alisodeyfi.ir/articles/black-swan-farming/fa/#daily-article-reader",
+          "en": "Thesis: 'customers already use the phone' starts a product question; it does not settle it.\nImplication: inspect a recent customer event and isolate the difficult coordination step.\nNext action: before building an app, follow one real request with both parties' consent; record the outcome alongside staff time.\nIndependent exercise with a short adaptation | Paul Graham — https://paulgraham.com/swan.html\nhttps://alisodeyfi.ir/articles/black-swan-farming/en/#daily-article-reader",
+          "ar": "الخلاصة: «العميل يستخدم الهاتف بالفعل» بداية سؤال عن المنتج، لا نهاية البحث.\nالأثر: افحص تجربة حديثة للعميل وحدد خطوة التنسيق الصعبة وحدها.\nالخطوة التالية: قبل بناء التطبيق، تابع طلبا حقيقيا بموافقة الطرفين وسجل النتيجة إلى جانب وقت الفريق.\nتمرين مستقل مع معالجة موجزة | Paul Graham — https://paulgraham.com/swan.html\nhttps://alisodeyfi.ir/articles/black-swan-farming/ar/#daily-article-reader"
+        }
+      },
+      {
+        "id": "2026-10-03-story-black-swan-farming",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "black-swan-farming",
+        "publishAt": "2026-10-03T20:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-10-03T05:48:41+03:30",
+        "note": "Preview only. Verified account/session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "پیش‌نمایش استوری: از اعتراض به مشاهده",
+          "en": "Story preview: from objection to observation",
+          "ar": "معاينة الستوري: من الاعتراض إلى الملاحظة"
+        },
+        "body": {
+          "fa": "اسلاید ۱: «مشتری با تلفن کارش را راه می‌اندازد» سؤال محصول را حل نمی‌کند.\nاسلاید ۲: یک درخواست واقعی را با رضایت مشتری بررسی کنید؛ نتیجه و زمان هماهنگی را ثبت کنید.\nاسلاید ۳: اقتباس و تمرین مستقل | Paul Graham — https://paulgraham.com/swan.html | https://alisodeyfi.ir/articles/black-swan-farming/fa/#daily-article-reader",
+          "en": "Slide 1: 'customers use the phone' does not settle the product question.\nSlide 2: follow one real request with consent; record the result and coordination time.\nSlide 3: adaptation and independent exercise | Paul Graham — https://paulgraham.com/swan.html | https://alisodeyfi.ir/articles/black-swan-farming/en/#daily-article-reader",
+          "ar": "الشريحة ۱: «العميل يستخدم الهاتف» لا يحسم سؤال المنتج.\nالشريحة ۲: تابع طلبا حقيقيا بموافقته؛ سجل النتيجة ووقت التنسيق.\nالشريحة ۳: معالجة وتمرين مستقل | Paul Graham — https://paulgraham.com/swan.html | https://alisodeyfi.ir/articles/black-swan-farming/ar/#daily-article-reader"
+        }
+      },
+      {
         "id": "2026-10-02-site-good-and-bad-procrastination",
         "channel": "site",
         "target": "site",

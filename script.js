@@ -455,6 +455,24 @@ const articleCategories = [
 
 const articleCatalog = [
   {
+    title: "Black Swan Farming",
+    category: "ideas",
+    author: "Paul Graham",
+    source: "Paul Graham",
+    year: "2012",
+    url: "https://paulgraham.com/swan.html",
+    tags: {
+      fa: ["ایده نامتعارف", "شواهد مشتری", "آزمایش محصول"],
+      en: ["unconventional ideas", "customer evidence", "product experiments"],
+      ar: ["أفكار غير مألوفة", "أدلة العملاء", "تجارب المنتج"],
+    },
+    summary: {
+      fa: "ایده نامتعارف را چگونه بررسی کنیم؟ اقتباس کوتاه همراه با تمرینی مستقل برای آزمودن یک خدمت هماهنگی تعمیرات: فرض روشن، تعهد واقعی مشتری و سقف مشخص برای آزمایش.",
+      en: "How should a team investigate an unconventional idea? A short adaptation with an independent repair-coordination exercise: a clear hypothesis, real customer commitment, and a bounded trial.",
+      ar: "كيف يفحص الفريق فكرة غير مألوفة؟ معالجة موجزة مع تمرين مستقل لخدمة تنسيق الإصلاحات: فرضية واضحة، والتزام فعلي من العميل، وتجربة محدودة.",
+    },
+  },
+  {
     title: "Good and Bad Procrastination",
     category: "leadership",
     author: "Paul Graham",
@@ -1373,6 +1391,68 @@ const articleCatalog = [
 ];
 
 const articleEssays = {
+  "Black Swan Farming": {
+    fa: {
+      paragraphs: [
+        "ایده محوری مقاله این است که بازده سرمایه‌گذاری استارتاپی در تعداد کمی نتیجه بسیار بزرگ متمرکز می‌شود و بعضی فرصت‌های خوب در ابتدا نامطلوب به نظر می‌رسند. البته نامطلوب‌بودن ظاهر یک ایده، دلیل خوب‌بودن آن نیست. ادامه این نوشته، تمرین مستقل و پیشنهادی برای بررسی یک ایده محصول است؛ نه بازگویی کامل مقاله و نه روش اجرایی منتسب به نویسنده. هدف تمرین این است که تیم بتواند میان یک ایراد قابل آزمودن و یک نظر کلی تفاوت بگذارد.",
+        "فرض کنید تیمی می‌خواهد هماهنگی مراجعه تعمیرکار به فروشگاه‌های کوچک را ساده کند. یکی از اعضا می‌گوید صاحبان فروشگاه با تلفن کارشان را راه می‌اندازند و محصول تازه‌ای نمی‌خواهند. پاسخ مناسب، ساخت فوری اپلیکیشن یا دفاع طولانی از ایده نیست. این اعتراض را به پرسشی محدود تبدیل کنید: آیا صاحب فروشگاه در آخرین خرابی، برای پیداکردن زمان مشترک یا پیگیری حضور تعمیرکار چند بار مجبور به تماس شده است؟ درباره همان رخداد مشخص سؤال کنید؛ خاطره یک دردسر واقعی با اظهار علاقه به یک محصول فرضی یکسان نیست.",
+        "برای این سناریوی فرضی، نخست فقط هماهنگی زمان را بررسی کنید؛ نه انتخاب تعمیرکار، تضمین کیفیت تعمیر و پرداخت را هم‌زمان. با رضایت طرفین، یک درخواست واقعی را از اعلام زمان‌های آزاد تا تأیید نهایی پیگیری کنید. هر جایی را که کار به دخالت تیم نیاز دارد ثبت کنید: اطلاعات ناقص، پاسخ دیرهنگام یا تغییر ساعت. اگر اطلاعات شخصی لازم نیست، جمع‌آوری نکنید و زمان حذف داده‌های آزمایش را از ابتدا مشخص کنید. ارزش این مشاهده در کشف مرحله دشوار کار است، نه در نمایش یک نسخه ظاهرا کامل از محصول.",
+        "پیش از شروع، نتیجه قابل مشاهده را بنویسید. مثلا آیا هر دو طرف بدون تماس دوباره درباره ساعت مراجعه به توافق می‌رسند؟ در پایان از مشتری بخواهید برای درخواست بعدی یکی از دو مسیر قبلی یا آزمایشی را انتخاب کند؛ بدون وعده تخفیف یا اصرار تیم. انتخاب او را همراه با دلیل ثبت کنید. اگر تجربه موفق فقط با پیگیری مداوم یک عضو تیم ممکن شده، آن زمان را از گزارش حذف نکنید. یک خدمت مفید اما پرزحمت با یک ابزار قابل استفاده بدون کمک، دو یافته متفاوت‌اند و باید جداگانه توصیف شوند.",
+        "برای جلوگیری از گسترش بی‌پایان آزمایش، یک بازه و سقف تلاش کوچک تعیین کنید؛ مثلا یک هفته و حداکثر سه درخواست داوطلبانه. این تعداد، پیشنهاد این تمرین است و برای اثبات اندازه بازار یا پیش‌بینی رشد کافی نیست. اگر هیچ درخواست واقعی وارد نشد، نتیجه را «مشتری مسئله ندارد» نام‌گذاری نکنید؛ ممکن است دسترسی شما به مشتری مناسب ضعیف بوده باشد. اگر درخواست وارد شد ولی هماهنگی بهتر نشد، پیش از افزودن قابلیت تازه بررسی کنید کدام مرحله خراب شده است. قرار نیست هر نتیجه نامطلوب با تغییر تعریف موفقیت به نتیجه مثبت تبدیل شود.",
+        "در جلسه جمع‌بندی، سه خروجی را جدا نگه دارید: آنچه مشاهده شد، توضیح احتمالی آن و تصمیم بعدی. در مثال ما ممکن است فروشگاه خدمت را بخواهد اما تعمیرکار زمان پاسخ‌گویی نداشته باشد؛ این یافته با بی‌علاقگی هر دو طرف فرق دارد. تصمیم بعدی می‌تواند تغییر یک مرحله، تکرار محدود با گروه مناسب‌تر یا کنارگذاشتن همین پیشنهاد باشد. یک نفر مسئول پاسخ به شرکت‌کنندگان و حذف داده‌های اضافی شود. حاصل مطلوب، داستان قانع‌کننده درباره آینده شرکت نیست؛ دانستن این است که کدام بخش پیشنهاد برای چه کسی کار کرده و کدام پرسش هنوز باز مانده است.",
+      ],
+      takeaways: [
+        "یک اعتراض کلی به ایده را به سؤال درباره آخرین تجربه واقعی مشتری تبدیل کنید.",
+        "برای آزمون نخست، فقط یک مرحله از کار مشتری را انتخاب کنید.",
+        "رضایت شرکت‌کنندگان و حداقل داده لازم را پیش از اجرای آزمایش مشخص کنید.",
+        "زمان دخالت دستی تیم را کنار نتیجه مشتری ثبت کنید؛ آن را پنهان نکنید.",
+        "نبود درخواست، شکست هماهنگی و انتخاب‌نکردن دوباره خدمت را سه نتیجه متفاوت بدانید.",
+        "پیش از شروع، سقف تلاش و تاریخ جمع‌بندی را تعیین کنید و نتیجه را بیش از دامنه آزمون تعمیم ندهید.",
+      ],
+      advice: [
+        "برگه پیشنهادی آزمایش: اعتراض اولیه، رخداد مشتری، مرحله منتخب، رضایت، معیار مشاهده، زمان تیم، انتخاب مشتری و تصمیم بعدی.",
+        "در جلسه پایانی از هر ادعا بپرسید: این را دیدیم، از آن برداشت کردیم یا هنوز باید بررسی کنیم؟",
+      ],
+    },
+    en: {
+      paragraphs: [
+        "The essay argues that startup investment returns concentrate in a few exceptional outcomes, and that some good opportunities initially look unpromising. Looking unpromising is not itself evidence of merit. What follows is an independent product investigation exercise, not the author's procedure or a complete retelling of the essay.",
+        "Imagine a team exploring appointment coordination between small shops and repair technicians. A colleague objects that shopkeepers already manage by telephone. Instead of building an app or debating the claim, ask about one recent repair: how many calls were needed to agree on a time, and where did coordination break down? Test only scheduling, not technician selection, repair quality, and payment together. With both parties' permission, follow one real request from available time slots to confirmation. Record missing information, late replies, and every intervention by the team. Collect only necessary data and agree on a deletion date.",
+        "Before starting, define the observation: can both parties confirm the appointment without another scheduling call? Afterwards, invite the customer to choose between the old route and the trial service for another request, without discounts or pressure. Record the choice and its reason, alongside the staff time needed to deliver the service. A useful service that requires constant manual coordination is a different finding from a tool people can use unaided. For this exercise, a possible limit is one week and three voluntary requests; that is a planning example, not a sample sufficient to establish market size or forecast growth.",
+        "At the review, separate observation, interpretation, and the next decision. No incoming requests may indicate poor access to suitable participants rather than no customer problem. A shop wanting help while a technician cannot respond is different from both parties rejecting the offer. Decide whether to change one step, repeat a bounded trial with a more suitable group, or stop this proposal. Assign responsibility for participant follow-up and data deletion. The useful output is an explicit account of what worked for whom, including unanswered questions, rather than a persuasive story about the company's future.",
+      ],
+      takeaways: [
+        "Convert a broad objection into a question about a recent customer event.",
+        "Test one workflow step with consent and only the necessary data.",
+        "Report manual coordination time alongside the customer's outcome and next choice.",
+        "Distinguish missing requests, failed coordination, and a customer choosing not to return.",
+        "Set an effort limit and review date; do not generalize beyond the trial's scope.",
+      ],
+      advice: [
+        "Suggested worksheet: objection, customer event, selected step, consent, observation, staff time, customer choice, next decision.",
+        "For each review claim, ask whether it was observed, inferred, or remains to be tested.",
+      ],
+    },
+    ar: {
+      paragraphs: [
+        "تقول المقالة إن عوائد الاستثمار في الشركات الناشئة تتركز في نتائج استثنائية قليلة، وإن بعض الفرص الجيدة تبدو غير واعدة أولا. لكن المظهر غير الواعد ليس دليلا على الجودة. ما يلي تمرين مستقل لفحص فكرة منتج، وليس إجراء منسوبا إلى الكاتب أو إعادة سرد كاملة للمقالة.",
+        "تخيل فريقا يدرس تنسيق مواعيد الإصلاح بين متاجر صغيرة وفنيين. يعترض زميل بأن أصحاب المتاجر يدبرون الأمر بالهاتف. بدلا من بناء تطبيق أو مناقشة الرأي طويلا، اسأل عن إصلاح حديث: كم اتصالا احتاج تحديد الموعد، وأين تعطل التنسيق؟ اختبر تحديد الوقت وحده، لا اختيار الفني وجودة الإصلاح والدفع معا. بموافقة الطرفين، تابع طلبا حقيقيا من اقتراح الأوقات إلى تأكيد الموعد. سجل المعلومات الناقصة وتأخر الرد وكل تدخل من الفريق، واجمع البيانات الضرورية فقط وحدد موعد حذفها مسبقا.",
+        "حدد الملاحظة المطلوبة قبل البدء: هل يستطيع الطرفان تأكيد الموعد دون اتصال آخر بشأن الوقت؟ بعد التجربة، اطلب من العميل الاختيار بين المسار السابق والخدمة التجريبية لطلب تال، دون خصم أو ضغط. سجل اختياره وسببه والوقت الذي قضاه الفريق في التنسيق. خدمة مفيدة تحتاج متابعة يدوية مستمرة ليست النتيجة نفسها لأداة يستخدمها الناس دون مساعدة. يمكن لهذا التمرين أن يستغرق أسبوعا وبحد أقصى ثلاثة طلبات طوعية؛ هذا مثال لتنظيم الجهد، وليس عينة تكفي لإثبات حجم السوق أو توقع النمو.",
+        "في المراجعة، افصل ما لوحظ عن تفسيره وعن القرار التالي. غياب الطلبات قد يعني صعوبة الوصول إلى المشاركين المناسبين، لا غياب المشكلة. واحتياج المتجر إلى المساعدة مع عجز الفني عن الرد يختلف عن رفض الطرفين للخدمة. اختر تعديل خطوة واحدة، أو تكرار تجربة محدودة مع مجموعة أنسب، أو إيقاف هذا المقترح. حدد مسؤولا عن متابعة المشاركين وحذف البيانات الزائدة. المخرج المفيد هو وصف صريح لما نجح ولمن، مع الأسئلة المفتوحة، لا رواية مقنعة عن مستقبل الشركة.",
+      ],
+      takeaways: [
+        "حول الاعتراض العام إلى سؤال عن واقعة حديثة عاشها العميل.",
+        "اختبر خطوة واحدة بموافقة المشاركين وبالبيانات الضرورية فقط.",
+        "سجل وقت التنسيق اليدوي إلى جانب نتيجة العميل واختياره التالي.",
+        "ميز بين غياب الطلبات وفشل التنسيق وعدم رغبة العميل في العودة.",
+        "حدد سقف الجهد وموعد المراجعة، ولا تعمم النتيجة خارج نطاق التجربة.",
+      ],
+      advice: [
+        "ورقة مقترحة: الاعتراض، واقعة العميل، الخطوة المختارة، الموافقة، الملاحظة، وقت الفريق، اختيار العميل والقرار التالي.",
+        "اسأل عن كل ادعاء في المراجعة: هل لاحظناه، أم استنتجناه، أم ما زال بحاجة إلى اختبار؟",
+      ],
+    },
+  },
   "Good and Bad Procrastination": {
     fa: {
       paragraphs: [
