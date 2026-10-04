@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-02T02:14:58Z",
+  "updatedAt": "2026-10-04T02:17:24Z",
   "translations": {
     "fa": {
       "documentTitle": "علی سدیفی | یادداشت‌هایی درباره ساخت کسب‌وکار",
@@ -225,6 +225,55 @@
   "publishing": {
     "timezone": "Asia/Tehran",
     "queue": [
+      {
+        "id": "2026-10-04-site-how-to-convince-investors",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "how-to-convince-investors",
+        "publishAt": "2026-10-04T05:47:24+03:30",
+        "status": "published",
+        "publishedAt": "2026-10-04T05:47:24+03:30"
+      },
+      {
+        "id": "2026-10-04-linkedin-how-to-convince-investors",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "how-to-convince-investors",
+        "publishAt": "2026-10-04T12:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-10-04T05:47:24+03:30",
+        "note": "Draft only. Verified account/API access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "پیش از ارائه، یک عدد را بازسازی کنید",
+          "en": "Reconstruct one metric before presenting it",
+          "ar": "أعد حساب مؤشر واحد قبل عرضه"
+        },
+        "body": {
+          "fa": "تز: در گزارش محصول، تکمیل سفارش با کمک بنیان‌گذار را از استفاده مستقل جدا کنید.\nپیامد: تعداد سفارش و دقیقه‌های کمک تیم باید کنار هم دیده شوند.\nاقدام: پیش از جلسه بعد، یک هم‌تیمی عدد مشتری فعال را از رخدادهای همان هفته بازسازی کند و اختلاف را ثبت کند.\nتمرین مستقل همراه با اقتباس کوتاه | Paul Graham — https://paulgraham.com/convince.html\nhttps://alisodeyfi.ir/articles/how-to-convince-investors/fa/#daily-article-reader",
+          "en": "Thesis: distinguish founder-assisted order completion from independent usage.\nImplication: report completed orders alongside minutes of team assistance.\nNext action: before the next meeting, have a teammate reconstruct the active-customer count from that week's events and log discrepancies.\nIndependent exercise with a short adaptation | Paul Graham — https://paulgraham.com/convince.html\nhttps://alisodeyfi.ir/articles/how-to-convince-investors/en/#daily-article-reader",
+          "ar": "الخلاصة: افصل إتمام الطلب بمساعدة المؤسس عن الاستخدام المستقل.\nالأثر: اعرض الطلبات المكتملة إلى جانب دقائق مساعدة الفريق.\nالخطوة التالية: قبل الاجتماع القادم، اطلب من زميل إعادة حساب العملاء النشطين من أحداث الأسبوع وتسجيل الفروق.\nتمرين مستقل مع معالجة موجزة | Paul Graham — https://paulgraham.com/convince.html\nhttps://alisodeyfi.ir/articles/how-to-convince-investors/ar/#daily-article-reader"
+        }
+      },
+      {
+        "id": "2026-10-04-story-how-to-convince-investors",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "how-to-convince-investors",
+        "publishAt": "2026-10-04T20:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-10-04T05:47:24+03:30",
+        "note": "Preview only. Verified account/session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "پیش‌نمایش استوری: عدد قابل بازبینی",
+          "en": "Story preview: a traceable metric",
+          "ar": "معاينة الستوري: مؤشر قابل للمراجعة"
+        },
+        "body": {
+          "fa": "اسلاید ۱: سفارش ثبت‌شده با کمک تیم را استفاده مستقل حساب نکنید.\nاسلاید ۲: کنار تعداد سفارش، زمان کمک را ثبت کنید؛ یک هم‌تیمی عدد نهایی را بازسازی کند.\nاسلاید ۳: اقتباس و تمرین مستقل | Paul Graham — https://paulgraham.com/convince.html | https://alisodeyfi.ir/articles/how-to-convince-investors/fa/#daily-article-reader",
+          "en": "Slide 1: an assisted order is not independent usage.\nSlide 2: log assistance time with order counts; have a teammate reconstruct the final metric.\nSlide 3: adaptation and independent exercise | Paul Graham — https://paulgraham.com/convince.html | https://alisodeyfi.ir/articles/how-to-convince-investors/en/#daily-article-reader",
+          "ar": "الشريحة ۱: الطلب بمساعدة الفريق ليس استخداما مستقلا.\nالشريحة ۲: سجل وقت المساعدة مع عدد الطلبات؛ اطلب من زميل إعادة حساب المؤشر.\nالشريحة ۳: معالجة وتمرين مستقل | Paul Graham — https://paulgraham.com/convince.html | https://alisodeyfi.ir/articles/how-to-convince-investors/ar/#daily-article-reader"
+        }
+      },
       {
         "id": "2026-10-03-site-black-swan-farming",
         "channel": "site",

@@ -455,6 +455,24 @@ const articleCategories = [
 
 const articleCatalog = [
   {
+    title: "How to Convince Investors",
+    category: "funding",
+    author: "Paul Graham",
+    source: "Paul Graham",
+    year: "2013",
+    url: "https://paulgraham.com/convince.html",
+    tags: {
+      fa: ["آمادگی جذب سرمایه", "شواهد محصول", "کیفیت داده"],
+      en: ["fundraising readiness", "product evidence", "data quality"],
+      ar: ["الاستعداد للتمويل", "أدلة المنتج", "جودة البيانات"],
+    },
+    summary: {
+      fa: "چگونه برای گفت‌وگوی جذب سرمایه آماده شویم؟ اقتباسی کوتاه همراه با تمرین مستقل ساخت پرونده شواهد: تعریف استفاده واقعی، ثبت کمک تیم و بررسی دوباره یک ادعا پیش از ارائه.",
+      en: "Prepare for a fundraising conversation with a short adaptation and an independent evidence-file exercise: define real usage, log staff assistance, and recheck one claim before presenting it.",
+      ar: "استعد لحوار التمويل بمعالجة موجزة وتمرين مستقل لبناء ملف أدلة: حدد الاستخدام الفعلي، وسجل مساعدة الفريق، وراجع ادعاء واحدا قبل عرضه.",
+    },
+  },
+  {
     title: "Black Swan Farming",
     category: "ideas",
     author: "Paul Graham",
@@ -1401,6 +1419,69 @@ const articleCatalog = [
 ];
 
 const articleEssays = {
+  "How to Convince Investors": {
+    fa: {
+      paragraphs: [
+        "فکر مرکزی مقاله این است که ارائه خوب جای کسب‌وکار قابل دفاع را نمی‌گیرد؛ بنیان‌گذار باید ابتدا دلیل ارزشمندبودن شرکتش را بفهمد و سپس آن را روشن توضیح دهد. ادامه این نوشته یک تمرین مستقل برای آماده‌سازی شواهد است، نه ترجمه کامل مقاله یا دستورالعمل منتسب به نویسنده. این تمرین را می‌توان پیش از گفت‌وگوی جذب سرمایه اجرا کرد تا اعضای تیم بدانند هر عدد از کجا آمده، چه چیزی را نشان می‌دهد و درباره چه چیزی هنوز نمی‌توان نتیجه گرفت.",
+        "فرض کنید تیمی نرم‌افزار ثبت سفارش برای کارگاه‌های کوچک ساخته و می‌خواهد در ارائه بنویسد «هشت مشتری فعال داریم». پیش از طراحی نمودار، همین جمله را باز کنید: آیا منظور هشت حساب ساخته‌شده است، هشت کارگاه با یک سفارش آزمایشی، یا هشت کارگاه که سفارش واقعی هفته گذشته را ثبت کرده‌اند؟ برای این تمرین، یک تعریف ثابت انتخاب کنید؛ مثلا کارگاهی که در هفته مورد بررسی دست‌کم یک سفارش واقعی را تا مرحله تأیید پیش برده است. این تعریف پیشنهادی متناسب با مثال است، نه استاندارد عمومی موفقیت. تاریخ بازه و تعداد کل کارگاه‌های دعوت‌شده را نیز کنار عدد بیاورید تا مخرج کسر پنهان نماند.",
+        "در مرحله بعد، سهم محصول را از کمک تیم جدا کنید. ممکن است در یکی از کارگاه‌ها بنیان‌گذار سفارش‌ها را از پیام‌رسان به نرم‌افزار منتقل کرده باشد و در دیگری مسئول کارگاه خودش کار را انجام داده باشد. هر دو تجربه اطلاعات دارند، اما یک چیز را ثابت نمی‌کنند. جدولی ساده بسازید که برای هر کارگاه، نوع سفارش، مرحله تکمیل‌شده و دقیقه‌های دخالت تیم را نشان دهد. نام مشتری و جزئیات سفارش را در نسخه ارائه حذف کنید؛ برای بررسی داخلی هم فقط داده لازم را با دسترسی محدود نگه دارید. هدف، ساخت انبار داده تازه نیست؛ هدف این است که یک عدد تجمیعی تفاوت تجربه‌ها را پنهان نکند.",
+        "اکنون یک پرونده را از ابتدا تا انتها بازبینی کنید. فردی غیر از تهیه‌کننده گزارش باید بتواند از عدد نهایی به رخداد ثبت‌شده برسد و همان نتیجه را به دست آورد. اگر سفارش لغو شده، دوبار ثبت شده یا فقط برای نمایش ساخته شده است، تکلیف آن را با همان تعریف اولیه روشن کنید. در مثال ما، نتیجه ممکن است این باشد که از هشت کارگاه، فقط سه کارگاه سفارش واقعی داشته‌اند و دو مورد به کمک تیم نیاز داشته است. این اعداد صرفا فرضی‌اند. کار مفید این نیست که عنوان نمودار را عوض کنیم تا عدد بزرگ‌تر بماند؛ باید معلوم شود کدام تجربه را باید دوباره مشاهده کرد.",
+        "برای دور بعد، یک سؤال محدود انتخاب کنید: آیا همان کارگاهی که به ورود دستی اطلاعات نیاز داشت، می‌تواند سفارش بعدی را با راهنمای کوتاه خودش ثبت کند؟ مسئول آزمون، زمان بررسی و سقف کمک مجاز را پیش از شروع بنویسید. اگر سفارش تازه‌ای رخ نداد، نبود فرصت استفاده را از ناتوانی در استفاده جدا کنید. اگر کار متوقف شد، محل توقف را ثبت کنید و همان یک مرحله را تغییر دهید. این آزمایش کوچک نه اندازه بازار را اثبات می‌کند و نه نتیجه جذب سرمایه را پیش‌بینی؛ فقط کمک می‌کند درباره استقلال استفاده از محصول جمله دقیق‌تری داشته باشید.",
+        "خروجی جلسه آمادگی را به یک برگه محدود کنید: ادعای فعلی، تعریف سنجه، شاهد قابل بازبینی، محدودیت مشاهده و آزمون بعدی. برای نمونه بنویسید «سه کارگاه سفارش واقعی ثبت کردند؛ دو کارگاه کمک گرفتند؛ هفته بعد استقلال ثبت سفارش را دوباره بررسی می‌کنیم». یک نفر مسئول به‌روزرسانی برگه باشد تا نسخه اسلاید و گزارش داخلی از هم فاصله نگیرند. پیش از هر ارائه، فقط تغییرات از آخرین نسخه را مرور کنید. با این روش پیشنهادی، آماده‌سازی جلسه به تولید اسلاید بیشتر ختم نمی‌شود؛ یک ابهام مشخص در محصول به کار بعدی تیم تبدیل می‌شود.",
+      ],
+      advice: [
+        "اعتمادبه‌نفس نمایشی را جای شناخت واقعی نگذارید.",
+        "پاسخ نامعلوم را با حدس قطعی پر نکنید؛ راه بررسی را بگویید.",
+      ],
+      takeaways: [
+        "برای «کارگاه فعال» یک رفتار قابل مشاهده و بازه زمانی ثابت تعریف کنید.",
+        "تعداد دعوت‌شده‌ها را کنار تعداد استفاده‌کننده‌ها بیاورید.",
+        "دقیقه‌های کمک تیم را جدا از تکمیل سفارش ثبت کنید.",
+        "از هم‌تیمی دیگری بخواهید یک عدد را از روی رخداد اولیه بازسازی کند.",
+        "سفارش آزمایشی، تکراری و لغوشده را طبق تعریف قبلی تفکیک کنید.",
+        "برای آزمون استقلال استفاده، مسئول، موعد و سقف کمک تعیین کنید.",
+        "یک برگه مشترک برای ادعا، شاهد، محدودیت و اقدام بعدی نگه دارید.",
+      ],
+    },
+    en: {
+      paragraphs: [
+        "The essay's central point is that a polished pitch cannot replace an investable business: understand the case for the company, then explain it clearly. What follows is an independent evidence-preparation exercise, not a full translation or a procedure attributed to the author. Imagine a team building order-entry software for small workshops. Before presenting 'eight active customers,' define what active means. For this exercise, use at least one real order reaching confirmation during the stated week, and report the number of invited workshops alongside the number using the tool. This is a definition for the example, not a universal success benchmark.",
+        "Keep a small table of completed orders and minutes of staff assistance for each workshop. A founder copying messages into the application and a workshop operator entering an order independently are different observations. Have a teammate trace one reported result back to its underlying event. Handle cancelled, duplicate, and demonstration orders according to the definition chosen beforehand; remove customer identifiers from presentation materials. Suppose the review finds that three of eight workshops handled real orders and two needed assistance. Those numbers are hypothetical. Do not relabel the chart to preserve the larger headline; use the discrepancy to choose what to inspect next.",
+        "A next trial could ask whether an assisted workshop can enter its next order using only a short guide. Assign an owner, a review date, and a limit on help before running it. Distinguish having no new order from failing to enter one. The trial cannot establish market size or predict fundraising success; it can clarify one claim about independent usage.",
+        "Finish with one shared page containing the claim, metric definition, traceable evidence, observation limits, and next trial. Give someone responsibility for updating it so the presentation and internal report do not drift apart. Before each meeting, review only what has changed since the previous version. The proposed output is a product question with an owner, not another deck revision.",
+      ],
+      advice: [
+        "Do not substitute performed confidence for understanding.",
+        "For an unknown answer, explain how you would investigate.",
+      ],
+      takeaways: [
+        "Define an active workshop with an observable event and a fixed reporting period.",
+        "Report invited workshops and staff assistance alongside completed orders.",
+        "Ask a teammate to reconstruct one metric from the underlying event.",
+        "Give the independent-use trial an owner, a deadline, and an assistance limit.",
+        "Maintain one shared page for the claim, evidence, limitations, and next action.",
+      ],
+    },
+    ar: {
+      paragraphs: [
+        "الفكرة المركزية للمقال أن العرض المتقن لا يعوض شركة تستحق الاستثمار؛ افهم مبررات قيمة الشركة ثم اشرحها بوضوح. ما يلي تمرين مستقل لإعداد الأدلة، لا ترجمة كاملة ولا إجراء منسوب إلى الكاتب. تخيل فريقا يبني برنامجا لتسجيل طلبات الورش الصغيرة ويريد عرض عبارة «لدينا ثمانية عملاء نشطين». حدد أولا معنى النشاط: في هذا المثال، ورشة أوصلت طلبا حقيقيا واحدا على الأقل إلى التأكيد خلال الأسبوع المحدد. أظهر أيضا عدد الورش التي دعوتها للتجربة. هذا تعريف مقترح للمثال، وليس معيارا عاما للنجاح أو دليلا كافيا على الطلب في السوق.",
+        "أنشئ جدولا صغيرا يربط الطلب المكتمل بدقائق مساعدة الفريق لكل ورشة. نقل المؤسس بيانات الرسائل إلى البرنامج يختلف عن إدخال مسؤول الورشة طلبه بنفسه. اطلب من زميل آخر تتبع نتيجة واحدة من الرقم المعروض إلى الحدث الأصلي. افصل الطلبات الملغاة والمكررة والتوضيحية وفقا للتعريف السابق، واحذف بيانات تعريف العملاء من مادة العرض. افترض أن المراجعة أظهرت أن ثلاث ورش من أصل ثمان سجلت طلبات حقيقية وأن اثنتين احتاجتا إلى مساعدة. هذه أرقام افتراضية. لا تغير اسم المؤشر للحفاظ على الرقم الأكبر؛ حدد التجربة التي تحتاج إلى مشاهدة أخرى، واحتفظ داخليا بالبيانات اللازمة فقط بصلاحيات محدودة.",
+        "قد تسأل التجربة التالية: هل تستطيع الورشة التي احتاجت إلى مساعدة إدخال طلبها القادم باستخدام دليل قصير فقط؟ حدد المسؤول وموعد المراجعة وسقف المساعدة قبل التنفيذ. ميز بين عدم وصول طلب جديد والعجز عن تسجيله. هذه التجربة لا تثبت حجم السوق ولا تتنبأ بنجاح التمويل؛ إنها توضح ادعاء واحدا عن الاستخدام المستقل.",
+        "اختتم التحضير بصفحة مشتركة تضم الادعاء وتعريف المؤشر والدليل القابل للمراجعة وحدود الملاحظة والتجربة التالية. عين مسؤولا لتحديثها حتى لا يختلف العرض عن التقرير الداخلي. قبل كل اجتماع، راجع فقط ما تغير منذ النسخة السابقة. النتيجة المقترحة سؤال محدد عن المنتج له مسؤول وخطوة تالية، وليست مجرد نسخة جديدة من الشرائح.",
+      ],
+      advice: [
+        "لا تستبدل الفهم بثقة مصطنعة.",
+        "عندما تجهل الإجابة، وضح طريقة التحقق منها.",
+      ],
+      takeaways: [
+        "عرف الورشة النشطة بحدث قابل للملاحظة وفترة قياس ثابتة.",
+        "أظهر عدد الورش المدعوة ومساعدة الفريق بجانب الطلبات المكتملة.",
+        "اطلب من زميل إعادة حساب مؤشر واحد انطلاقا من الحدث الأصلي.",
+        "حدد لتجربة الاستخدام المستقل مسؤولا وموعدا وسقفا للمساعدة.",
+        "احتفظ بصفحة مشتركة للادعاء والأدلة والحدود والخطوة التالية.",
+      ],
+    },
+  },
   "Black Swan Farming": {
     fa: {
       paragraphs: [
