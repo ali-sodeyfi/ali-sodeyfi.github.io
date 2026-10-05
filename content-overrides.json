@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-04T02:17:24Z",
+  "updatedAt": "2026-10-05T02:14:57Z",
   "translations": {
     "fa": {
       "documentTitle": "علی سدیفی | یادداشت‌هایی درباره ساخت کسب‌وکار",
@@ -225,6 +225,55 @@
   "publishing": {
     "timezone": "Asia/Tehran",
     "queue": [
+      {
+        "id": "2026-10-05-site-how-to-work-hard",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "how-to-work-hard",
+        "publishAt": "2026-10-05T05:44:57+03:30",
+        "status": "published",
+        "publishedAt": "2026-10-05T05:44:57+03:30"
+      },
+      {
+        "id": "2026-10-05-linkedin-how-to-work-hard",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "how-to-work-hard",
+        "publishAt": "2026-10-05T12:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-10-05T05:44:57+03:30",
+        "note": "Draft only. Verified account/API access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "درخواست بسته‌شده، لزوما اصلاح تأییدشده نیست",
+          "en": "A closed ticket is not a verified repair",
+          "ar": "إغلاق الطلب ليس تحققا من الإصلاح"
+        },
+        "body": {
+          "fa": "تز: بستن درخواست پشتیبانی، رفع خطای محصول را ثابت نمی‌کند.\nپیامد: زمان بازکاری و نتیجه آزمون باید کنار تعداد درخواست‌های بسته‌شده دیده شود.\nاقدام: این هفته یک خطای ورود فایل را با نمونه بی‌نام بازتولید کنید؛ مسئول بازبینی، اصلاح را با فایل مسئله‌دار و فایل سالم بررسی کند.\nاقتباس کوتاه و تمرین مستقل | Paul Graham — https://paulgraham.com/hwh.html\nhttps://alisodeyfi.ir/articles/how-to-work-hard/fa/#daily-article-reader",
+          "en": "Thesis: closing a support ticket does not verify a product repair.\nImplication: review rework time and test results alongside ticket counts.\nAction: reproduce one import failure with anonymized data this week; assign a reviewer to check both the failing file and a valid one.\nShort adaptation and independent exercise | Paul Graham — https://paulgraham.com/hwh.html\nhttps://alisodeyfi.ir/articles/how-to-work-hard/en/#daily-article-reader",
+          "ar": "الفكرة: إغلاق طلب الدعم لا يثبت إصلاح خلل المنتج.\nالأثر: راجع وقت إعادة العمل ونتيجة الاختبار بجانب عدد الطلبات المغلقة.\nالخطوة التالية: أعد إنتاج خطأ استيراد بعينة منزوعة بيانات العميل هذا الأسبوع؛ كلف مراجعا بفحص الملف المتعطل وملف سليم.\nمعالجة موجزة وتمرين مستقل | Paul Graham — https://paulgraham.com/hwh.html\nhttps://alisodeyfi.ir/articles/how-to-work-hard/ar/#daily-article-reader"
+        }
+      },
+      {
+        "id": "2026-10-05-story-how-to-work-hard",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "how-to-work-hard",
+        "publishAt": "2026-10-05T20:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-10-05T05:44:57+03:30",
+        "note": "Preview only. Verified account/session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "اصلاح را بررسی کنید، نه فقط تعداد تیکت را",
+          "en": "Verify the repair, not just the ticket count",
+          "ar": "تحقق من الإصلاح، لا من عدد الطلبات فقط"
+        },
+        "body": {
+          "fa": "اسلاید ۱: بستن تیکت، اثبات رفع خطا نیست.\nاسلاید ۲: زمان بازکاری را ثبت کنید؛ اصلاح را با فایل خراب و سالم بیازمایید.\nاسلاید ۳: اقتباس و تمرین مستقل | Paul Graham — https://paulgraham.com/hwh.html | https://alisodeyfi.ir/articles/how-to-work-hard/fa/#daily-article-reader",
+          "en": "Slide 1: a closed ticket is not proof of a repair.\nSlide 2: log rework; test the fix with failing and valid files.\nSlide 3: adaptation and independent exercise | Paul Graham — https://paulgraham.com/hwh.html | https://alisodeyfi.ir/articles/how-to-work-hard/en/#daily-article-reader",
+          "ar": "الشريحة ۱: إغلاق الطلب ليس دليلا على زوال الخلل.\nالشريحة ۲: سجل إعادة العمل؛ اختبر الإصلاح بملف متعطل وآخر سليم.\nالشريحة ۳: معالجة وتمرين مستقل | Paul Graham — https://paulgraham.com/hwh.html | https://alisodeyfi.ir/articles/how-to-work-hard/ar/#daily-article-reader"
+        }
+      },
       {
         "id": "2026-10-04-site-how-to-convince-investors",
         "channel": "site",

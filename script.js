@@ -455,6 +455,24 @@ const articleCategories = [
 
 const articleCatalog = [
   {
+    title: "How to Work Hard",
+    category: "leadership",
+    author: "Paul Graham",
+    source: "Paul Graham",
+    year: "2021",
+    url: "https://paulgraham.com/hwh.html",
+    tags: {
+      fa: ["کیفیت کار", "ظرفیت تیم", "بازکاری"],
+      en: ["work quality", "team capacity", "rework"],
+      ar: ["جودة العمل", "قدرة الفريق", "إعادة العمل"],
+    },
+    summary: {
+      fa: "اقتباسی کوتاه درباره تلاش و کیفیت، همراه با تمرین مستقل برای تیم محصول: یک خطای ورود اطلاعات را تا رفع واقعی دنبال کنید و زمان بازکاری را کنار خروجی بسنجید.",
+      en: "A short adaptation about effort and quality, with an independent product-team exercise: follow one data-import failure through to a verified fix and track rework alongside output.",
+      ar: "معالجة موجزة عن الجهد والجودة، مع تمرين مستقل لفريق منتج: تابع خطأ استيراد بيانات حتى التحقق من إصلاحه، وسجل إعادة العمل بجانب المخرجات.",
+    },
+  },
+  {
     title: "How to Convince Investors",
     category: "funding",
     author: "Paul Graham",
@@ -1419,6 +1437,69 @@ const articleCatalog = [
 ];
 
 const articleEssays = {
+  "How to Work Hard": {
+    fa: {
+      paragraphs: [
+        "سخت کار کردن فقط افزایش ساعت نیست؛ تشخیص کار واقعی، یافتن زمینه‌ای متناسب با علاقه و توانایی، و حفظ کیفیت تلاش هم اهمیت دارند. این برداشت کوتاه از مقاله است، نه ترجمه کامل آن. ادامه، یک تمرین مستقل برای بنیان‌گذار و تیم محصول است: چطور درباره ظرفیت کاری تصمیم بگیریم، بدون اینکه حضور طولانی را با نتیجه اشتباه بگیریم یا هر تأخیری را کم‌کاری بنامیم؟",
+        "فرض کنید تیم کوچکی ابزار مدیریت موجودی برای فروشگاه‌ها می‌سازد. مشتری فایل کالاها را وارد می‌کند، اما تعدادی از ردیف‌ها ناپدید می‌شوند و پشتیبانی هر بار فایل را دستی اصلاح می‌کند. تیم می‌تواند آخر هفته را هم صرف پاسخ‌گویی کند و تعداد زیادی درخواست را ببندد، بی‌آنکه تجربه ورود بعدی بهتر شود. در این مثال فرضی، پیش از افزودن ساعت کاری، یک خروجی دقیق تعریف کنید: فایل نمونه یا کامل وارد شود یا ردیف‌های ردشده را با دلیل روشن نشان دهد؛ هیچ ردیفی نباید بی‌خبر حذف شود. این معیار را مسئول محصول و پشتیبانی با هم تأیید کنند.",
+        "اکنون مسیر همان مشکل را ثبت کنید، نه فعالیت تمام افراد را. یک نمونه بی‌نام از فایل، تعداد ردیف‌های ورودی، تعداد ردیف‌های پذیرفته‌شده و پیام خطا برای بازتولید کافی است؛ اطلاعات واقعی مشتری را بی‌دلیل در گزارش پخش نکنید. زمان پیدا کردن علت، اصلاح، بازبینی و پاسخ دوباره به مشتری را جدا بنویسید. اگر کار منتظر پاسخ یک نفر مانده، آن را انتظار ثبت کنید، نه زمان اجرای مهندس. چنین جدولی قرار نیست ابزار رتبه‌بندی کارکنان باشد؛ قرار است معلوم کند هزینه این مشکل در کدام مرحله تکرار می‌شود و برای رفع آن چه همکاری‌ای لازم است.",
+        "برای نوبت بعدی، تنها یک علت مشخص را هدف بگیرید؛ مثلا تفاوت قالب ستون تعداد در فایل نمونه. اصلاح را با همان فایل و یک فایل سالم بررسی کنید تا حل یک مورد، مسیر قبلی را خراب نکند. اگر مهندس ناچار است وسط بررسی مرتب به پیام‌های پشتیبانی پاسخ دهد، با توافق تیم یک نفر را برای پاسخ‌گویی در آن بازه مشخص کنید و زمان پایان این مسئولیت را هم بنویسید. این جابه‌جایی نقش باید با ظرفیت واقعی سازگار باشد، نه اینکه فشار پنهانی به همکار دیگری منتقل کند. هدف تمرین، تحویل یک اصلاح قابل بررسی است، نه ثبت یک روز ظاهرا شلوغ.",
+        "در بازبینی، فقط نپرسید چند کار بسته شد. بپرسید کدام اصلاح دوباره باز شد، کدام بررسی جا افتاد و چه مقدار زمان صرف تعمیر خروجی قبلی شد. اگر خطاهای تازه بیشتر شده‌اند، ابتدا درباره علت گفت‌وگو کنید: آیا معیار پذیرش مبهم بود، دانش لازم در دسترس نبود یا حجم کار از ظرفیت توافق‌شده بیشتر شد؟ از یک روز بد، درباره توانایی فرد حکم ندهید. برای دور بعد فقط یک تغییر انتخاب کنید؛ مثلا محدود کردن تعداد اصلاح‌های هم‌زمان یا روشن کردن مسئول بازبینی. نتیجه را با همان پرونده‌ها مقایسه کنید، نه با جدول حضور افراد.",
+        "پایان این تمرین یک تصمیم روشن است: اصلاح تأیید شده و پرونده بسته می‌شود، هنوز شاهد کافی نداریم و آزمون دیگری لازم است، یا باید دامنه کار را عوض کنیم. مسئول تصمیم و تاریخ مراجعه بعدی را کنار آن بنویسید. اگر فایل تازه‌ای برای بررسی وجود ندارد، صریح بگویید نتیجه هنوز معلوم نیست؛ کاهش پیام‌های پشتیبانی به‌تنهایی اثبات رفع خطا نیست. خروجی جلسه می‌تواند فقط یک برگه باشد که نمونه آزمون، معیار پذیرش، زمان بازکاری و تصمیم بعدی را کنار هم قرار می‌دهد. در این مثال، ظرفیت تیم بر مبنای کاری تنظیم می‌شود که واقعا قابل تحویل و بررسی است.",
+      ],
+      advice: [
+        "تمرین پیشنهادی: پیش از شروع اصلاح، یک نمونه بی‌نام و معیار پذیرش آن را آماده کنید.",
+        "انتظار برای پاسخ را از زمان اجرای کار جدا ثبت کنید؛ گزارش را به نظارت فردی تبدیل نکنید.",
+        "برای بازبینی ظرفیت، یک تغییر محدود انتخاب کنید و مسئول و زمان بررسی بعدی را بنویسید.",
+      ],
+      takeaways: [
+        "برای خطای ورود فایل، تکلیف همه ردیف‌ها باید قابل مشاهده باشد.",
+        "تعداد درخواست‌های بسته‌شده را با تعداد اصلاح‌های تأییدشده یکی نگیرید.",
+        "زمان رفع علت، بازبینی و بازکاری را در همان پرونده جدا کنید.",
+        "اصلاح را هم با فایل مسئله‌دار و هم با یک فایل سالم بسنجید.",
+        "مسئول پاسخ‌گویی موقت را با توافق و متناسب با ظرفیت تعیین کنید.",
+        "نبود پیام تازه را به‌جای شاهد رفع خطا ننشانید؛ نتیجه نامعلوم را نامعلوم ثبت کنید.",
+      ],
+    },
+    en: {
+      paragraphs: [
+        "Working hard involves more than adding hours: it requires recognizing worthwhile work, finding a fit with your interests and abilities, and protecting the quality of your effort. That is the brief adaptation. The following product-team exercise is an independent application, not a method supplied by the original essay.",
+        "Imagine a small inventory-software team whose import tool silently drops rows from a shop's file. Support repeatedly repairs the file by hand. For this exercise, define one deliverable before allocating more time: every input row must either be imported or rejected with a visible reason. Keep an anonymized example and record input, accepted, and rejected row counts. Log diagnosis, implementation, review, and repeat repairs separately; time waiting for an answer is not implementation time. Track the case, not individual attendance.",
+        "Choose one reproducible cause, such as an unexpected quantity-column format. Check the proposed fix against both the failing example and a valid file. If support interruptions prevent completion, agree on temporary response coverage with a named end time and realistic capacity. Do not simply move an unmanageable workload to another teammate. At review, inspect reopened fixes and skipped checks rather than celebrating the number of closed tickets. Discuss whether unclear acceptance criteria, missing knowledge, or excess parallel work contributed before making judgments about individuals.",
+        "Finish with a recorded decision: accept the verified repair, request another test, or change the scope. Give the next check an owner and a date. If no new file has been processed, report that the outcome remains unknown; fewer support messages alone do not prove success. A one-page record containing the test case, acceptance rule, rework time, and next decision is enough for this exercise. Change one working arrangement at a time so that the next review has something specific to examine.",
+      ],
+      advice: [
+        "Prepare an anonymized failing example before starting the repair.",
+        "Separate waiting from implementation; do not turn the case log into employee surveillance.",
+        "Assign temporary support coverage by agreement, with an explicit end time.",
+      ],
+      takeaways: [
+        "Make every imported or rejected row observable.",
+        "Track verified repairs separately from closed support tickets.",
+        "Test both the failing input and a valid file before accepting a fix.",
+        "Record an unknown result honestly and assign the next verification step.",
+      ],
+    },
+    ar: {
+      paragraphs: [
+        "العمل الجاد ليس مجرد زيادة الساعات؛ فهو يحتاج إلى تمييز العمل الجدير بالجهد، واختيار ما يلائم الاهتمام والقدرة، والحفاظ على جودة المحاولة. هذه معالجة موجزة للفكرة، وليست ترجمة كاملة. أما التمرين التالي لفريق منتج فهو تطبيق مستقل، وليس منهجا يقدمه المقال الأصلي.",
+        "تخيل فريقا صغيرا يبني برنامجا لإدارة المخزون، لكن أداة الاستيراد تحذف بعض صفوف ملف المتجر دون تنبيه. يصلح الدعم الملف يدويا في كل مرة. قبل تخصيص وقت إضافي، حدد مخرجا واحدا لهذا التمرين: كل صف يدخل النظام أو يظهر سبب رفضه. احتفظ بعينة منزوعة بيانات العميل وسجل عدد الصفوف الداخلة والمقبولة والمرفوضة. افصل وقت التشخيص والتنفيذ والمراجعة والإصلاح المتكرر؛ انتظار إجابة ليس وقت تنفيذ. تابع تكلفة الحالة ومراحلها، لا حضور الأفراد وانصرافهم.",
+        "اختر سببا واحدا يمكن إعادة إنتاجه، مثل صيغة غير متوقعة في عمود الكمية. اختبر الإصلاح بالملف المتعطل وبملف سليم أيضا. إذا كانت رسائل الدعم تقطع التنفيذ باستمرار، اتفق على مسؤول مؤقت للرد ووقت واضح لانتهاء هذه المسؤولية، ضمن قدرته الفعلية. لا تنقل عبئا غير محتمل إلى زميل آخر. في المراجعة، افحص الإصلاحات التي أعيد فتحها والفحوص التي لم تنفذ، بدلا من الاكتفاء بعدد الطلبات المغلقة. ناقش غموض معيار القبول أو نقص المعرفة أو كثرة العمل المتزامن قبل الحكم على الأشخاص.",
+        "اختم بقرار مكتوب: قبول الإصلاح بعد التحقق، أو طلب اختبار إضافي، أو تغيير نطاق المهمة. حدد مسؤول الفحص التالي وتاريخه. إذا لم يعالج النظام ملفا جديدا بعد، فاكتب أن النتيجة غير معروفة؛ انخفاض رسائل الدعم وحده لا يثبت زوال الخلل. تكفي لهذا التمرين ورقة تضم عينة الاختبار ومعيار القبول ووقت إعادة العمل والقرار التالي. غير ترتيبا واحدا في كل دورة، حتى تكون المراجعة التالية قادرة على فحص تغيير محدد بدلا من مقارنة الانطباعات.",
+      ],
+      advice: [
+        "جهز عينة فشل منزوعة بيانات العميل قبل بدء الإصلاح.",
+        "افصل الانتظار عن التنفيذ، ولا تحول سجل الحالة إلى مراقبة للموظفين.",
+        "اتفق على تغطية مؤقتة للدعم مع وقت انتهاء واضح.",
+      ],
+      takeaways: [
+        "اجعل مصير كل صف مستورد أو مرفوض قابلا للملاحظة.",
+        "افصل الإصلاحات المتحقق منها عن طلبات الدعم المغلقة.",
+        "اختبر الملف المتعطل وملفا سليما قبل قبول الإصلاح.",
+        "سجل النتيجة المجهولة بوضوح وحدد مسؤول التحقق التالي.",
+      ],
+    },
+  },
   "How to Convince Investors": {
     fa: {
       paragraphs: [
