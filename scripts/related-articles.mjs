@@ -120,6 +120,14 @@ export const relatedArticleGroups = [
       },
     },
     {
+      slug: "how-to-work-hard",
+      titles: {
+        fa: "چطور سخت کار کنیم و کیفیت را حفظ کنیم؟",
+        en: "How to Work Hard",
+        ar: "كيف نعمل بجد مع الحفاظ على الجودة؟",
+      },
+    },
+    {
       slug: "how-to-do-great-work",
       titles: {
         fa: "چطور کاری ماندگار بسازیم؟",
