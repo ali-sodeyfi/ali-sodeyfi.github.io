@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-05T02:14:57Z",
+  "updatedAt": "2026-10-07T02:18:30Z",
   "translations": {
     "fa": {
       "documentTitle": "علی سدیفی | یادداشت‌هایی درباره ساخت کسب‌وکار",
@@ -225,6 +225,55 @@
   "publishing": {
     "timezone": "Asia/Tehran",
     "queue": [
+      {
+        "id": "2026-10-07-site-no-business-plan-survives-first-contact-with-a-customer",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "no-business-plan-survives-first-contact-with-a-customer",
+        "publishAt": "2026-10-07T05:48:30+03:30",
+        "status": "published",
+        "publishedAt": "2026-10-07T05:48:30+03:30"
+      },
+      {
+        "id": "2026-10-07-linkedin-no-business-plan-survives-first-contact-with-a-customer",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "no-business-plan-survives-first-contact-with-a-customer",
+        "publishAt": "2026-10-07T12:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-10-07T05:48:30+03:30",
+        "note": "Draft only. Verified account/API access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "شاهد قدیمی، مجوز توسعه تازه نیست",
+          "en": "Old evidence is not a new expansion decision",
+          "ar": "الدليل القديم لا يكفي لقرار توسع جديد"
+        },
+        "body": {
+          "fa": "افت رزرو را پیش از توسعه به سه مسئله تفکیک کنید: تقاضا، دسترس‌پذیری و خطای پرداخت.\nنتیجه عملی: جمع رزروها به‌تنهایی مبنای اجاره فضای بیشتر نیست.\nاقدام: این هفته درخواست‌های تکمیل‌شده و رهاشده را در یک بازه مقایسه کنید؛ برای تصمیم بعدی مسئول و موعد بازبینی بگذارید.\nتمرین مستقل همراه اقتباس کوتاه | Steve Blank — https://steveblank.com/2010/11/01/no-business-plan-survives-first-contact-with-a-customer-%E2%80%93-the-5-2-billion-dollar-mistake/\nhttps://alisodeyfi.ir/articles/no-business-plan-survives-first-contact-with-a-customer/fa/#daily-article-reader",
+          "en": "Separate declining bookings into demand, availability, and checkout failures before expanding.\nImplication: total bookings alone cannot justify more space.\nAction: compare completed and abandoned requests from one period this week; assign an owner and review date to the next decision.\nIndependent exercise with a short adaptation | Steve Blank — https://steveblank.com/2010/11/01/no-business-plan-survives-first-contact-with-a-customer-%E2%80%93-the-5-2-billion-dollar-mistake/\nhttps://alisodeyfi.ir/articles/no-business-plan-survives-first-contact-with-a-customer/en/#daily-article-reader",
+          "ar": "افصل تراجع الحجوزات إلى الطلب والتوفر وأعطال الدفع قبل التوسع.\nالأثر: إجمالي الحجوزات وحده لا يبرر مساحة إضافية.\nالخطوة التالية: قارن الطلبات المكتملة والمتروكة خلال فترة واحدة هذا الأسبوع؛ حدد مسؤولا وموعد مراجعة للقرار التالي.\nتمرين مستقل مع معالجة موجزة | Steve Blank — https://steveblank.com/2010/11/01/no-business-plan-survives-first-contact-with-a-customer-%E2%80%93-the-5-2-billion-dollar-mistake/\nhttps://alisodeyfi.ir/articles/no-business-plan-survives-first-contact-with-a-customer/ar/#daily-article-reader"
+        }
+      },
+      {
+        "id": "2026-10-07-story-no-business-plan-survives-first-contact-with-a-customer",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "no-business-plan-survives-first-contact-with-a-customer",
+        "publishAt": "2026-10-07T20:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-10-07T05:48:30+03:30",
+        "note": "Preview only. Verified account/session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "شاهد قدیمی، مجوز توسعه تازه نیست",
+          "en": "Old evidence is not a new expansion decision",
+          "ar": "الدليل القديم لا يكفي لقرار توسع جديد"
+        },
+        "body": {
+          "fa": "اسلاید ۱: افت رزرو لزوما افت تقاضا نیست.\nاسلاید ۲: دسترس‌پذیری و پرداخت را جدا بررسی کنید؛ تصمیم توسعه را به نتیجه بازبینی مشروط کنید.\nاسلاید ۳: تمرین مستقل و اقتباس | Steve Blank — https://steveblank.com/2010/11/01/no-business-plan-survives-first-contact-with-a-customer-%E2%80%93-the-5-2-billion-dollar-mistake/ | https://alisodeyfi.ir/articles/no-business-plan-survives-first-contact-with-a-customer/fa/#daily-article-reader",
+          "en": "Slide 1: fewer bookings do not necessarily mean less demand.\nSlide 2: check availability and checkout separately; make expansion conditional on the review.\nSlide 3: independent exercise and adaptation | Steve Blank — https://steveblank.com/2010/11/01/no-business-plan-survives-first-contact-with-a-customer-%E2%80%93-the-5-2-billion-dollar-mistake/ | https://alisodeyfi.ir/articles/no-business-plan-survives-first-contact-with-a-customer/en/#daily-article-reader",
+          "ar": "الشريحة ۱: قلة الحجوزات لا تعني بالضرورة ضعف الطلب.\nالشريحة ۲: افحص التوفر والدفع منفصلين؛ اربط التوسع بنتيجة المراجعة.\nالشريحة ۳: تمرين مستقل ومعالجة | Steve Blank — https://steveblank.com/2010/11/01/no-business-plan-survives-first-contact-with-a-customer-%E2%80%93-the-5-2-billion-dollar-mistake/ | https://alisodeyfi.ir/articles/no-business-plan-survives-first-contact-with-a-customer/ar/#daily-article-reader"
+        }
+      },
       {
         "id": "2026-10-05-site-how-to-work-hard",
         "channel": "site",

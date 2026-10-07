@@ -455,6 +455,24 @@ const articleCategories = [
 
 const articleCatalog = [
   {
+    title: "No Business Plan Survives First Contact With A Customer",
+    category: "building",
+    author: "Steve Blank",
+    source: "Steve Blank",
+    year: "2010",
+    url: "https://steveblank.com/2010/11/01/no-business-plan-survives-first-contact-with-a-customer-%E2%80%93-the-5-2-billion-dollar-mistake/",
+    tags: {
+      fa: ["اعتبار فرض‌ها", "بازبینی بازار", "تصمیم اجرایی"],
+      en: ["assumption freshness", "market review", "operating decisions"],
+      ar: ["صلاحية الافتراضات", "مراجعة السوق", "قرارات التنفيذ"],
+    },
+    summary: {
+      fa: "آیا شواهد برنامه هنوز معتبرند؟ اقتباسی کوتاه و تمرینی مستقل برای خدمت رزرو اتاق جلسه: تاریخ‌گذاری شواهد، تفکیک دلایل انصراف و تعیین شرط بازبینی پیش از توسعه.",
+      en: "Is the evidence behind your plan still current? A short adaptation and an independent meeting-room booking exercise: date evidence, distinguish cancellation reasons, and set a review trigger before expanding.",
+      ar: "هل ما زالت أدلة الخطة صالحة؟ معالجة موجزة وتمرين مستقل لخدمة حجز غرف الاجتماعات: تأريخ الأدلة، وفصل أسباب الإلغاء، وتحديد موعد مراجعة قبل التوسع.",
+    },
+  },
+  {
     title: "How to Work Hard",
     category: "leadership",
     author: "Paul Graham",
@@ -1437,6 +1455,70 @@ const articleCatalog = [
 ];
 
 const articleEssays = {
+  "No Business Plan Survives First Contact With A Customer": {
+    fa: {
+      paragraphs: [
+        "اجرای دقیق برنامه، اعتبار فرض‌های آن را تضمین نمی‌کند. در روایت ایریدیوم، توان فنی نتوانست فاصله میان طرح اولیه و بازار تغییرکرده را جبران کند. این برداشت کوتاه از مقاله است؛ ادامه، یک تمرین مستقل و فرضی برای بازبینی شواهد کسب‌وکار است، نه شرح روش نویسنده یا ترجمه کامل متن. پرسش تمرین روشن است: اگر امروز قرار بود همان تصمیم توسعه را بگیریم، کدام شاهد تازه از آن پشتیبانی می‌کرد؟",
+        "فرض کنید خدمتی برای رزرو ساعتی اتاق جلسه ساخته‌اید. چند ماه پیش، مصاحبه‌ها کمبود فضای مناسب برای گروه‌های کوچک را نشان می‌دادند و تیم بر همان اساس در حال افزودن محله‌های تازه است. اما در هفته اخیر، رزروهای تکمیل‌شده کمتر شده‌اند. در این مثال نباید از افت یک هفته نتیجه قطعی بگیرید؛ ابتدا معلوم کنید آیا تقاضای کمتر می‌بینید، ظرفیت قابل رزرو کم شده یا مسیر پرداخت خراب است. این سه مسئله به تصمیم‌های متفاوت نیاز دارند و یک نمودار کلی نمی‌تواند جای تشخیص را بگیرد.",
+        "برای جلسه بازبینی، یک برگه کوتاه بسازید و فقط سه فرض را روی آن بیاورید: چه گروهی اتاق می‌خواهد، برای چه نوع جلسه‌ای و در چه بازه‌ای از روز. کنار هر فرض، تاریخ آخرین مشاهده، تعداد درخواست‌های مرتبط و محدودیت داده را ثبت کنید. پاسخ مصاحبه سه ماه پیش را با رزرو انجام‌شده این هفته هم‌وزن نکنید؛ البته رزرو یک مشتری قدیمی هم نماینده تمام بازار نیست. نام و اطلاعات شخصی مشتری لازم نیست؛ شناسه بی‌نام و توضیح مختصر موقعیت برای پیگیری کافی است.",
+        "اکنون چند درخواست تکمیل‌شده و چند درخواست رهاشده را با همان تعریف زمانی مقایسه کنید. از مشتری منصرف‌شده درباره آخرین جلسه واقعی بپرسید: جلسه کجا برگزار شد، چه کسی مکان را انتخاب کرد و مانع استفاده از اتاق شما چه بود؟ شاید در این نمونه فرضی، جلسات کوتاه به تماس آنلاین منتقل شده باشند ولی کارگاه‌های نیم‌روزه همچنان فضای حضوری بخواهند. شاید هم فقط ساعت دلخواه در دسترس نبوده باشد. دلیل گفته‌شده مشتری را جدا از تفسیر تیم بنویسید و پاسخ نگرفتن را به حساب رضایت یا بی‌نیازی نگذارید.",
+        "پیش از اجاره فضای بیشتر، یک بررسی محدود پیشنهاد کنید: برای یک محله و یک نوع جلسه، دو بازه زمانی مشخص عرضه کنید و از قبل سقف هزینه و روز پایان بررسی را تعیین کنید. تعداد درخواست، رزرو تأییدشده، لغو و استفاده واقعی را جدا نگه دارید؛ تخفیف یا هماهنگی دستی تیم را نیز ثبت کنید تا تقاضای وابسته به کمک پنهان نماند. تعداد نمونه این تمرین برای اثبات بازار کافی نیست؛ هدف، انتخاب پرسش بعدی و جلوگیری از تعهد بزرگ بر پایه داده مبهم است، نه ساختن یک نرخ موفقیت دلخواه.",
+        "در پایان، مسئول محصول و عملیات باید یکی از سه تصمیم را با دلیل بنویسند: ادامه بررسی با دامنه فعلی، تغییر مشتری یا موقعیت هدف، یا توقف توسعه تا رفع ابهام. برای فرضی که هنوز نامعلوم است، صاحب پیگیری و تاریخ بازبینی تعیین کنید. اگر رزرو کاهش یافته ولی اتاق‌ها اغلب بسته بوده‌اند، نتیجه درباره تقاضا قابل اتکا نیست؛ ابتدا دسترس‌پذیری را اصلاح کنید. خروجی جلسه یک برنامه قطعی تازه نیست، بلکه تصمیمی محدود با شاهد قابل بررسی و شرط روشن برای تجدیدنظر است.",
+      ],
+      takeaways: [
+        "افت رزرو را به تقاضا، دسترس‌پذیری و خطای مسیر خرید تفکیک کنید.",
+        "کنار هر فرض، تاریخ شاهد و محدودیت نمونه را ثبت کنید.",
+        "درخواست تکمیل‌شده و رهاشده را در بازه زمانی یکسان بررسی کنید.",
+        "دلیل بیان‌شده مشتری را از تفسیر تیم جدا نگه دارید.",
+        "پیش از بررسی محدود، سقف هزینه و روز پایان آن را مشخص کنید.",
+        "رزرو، لغو و استفاده واقعی را جدا بشمارید و کمک دستی را ثبت کنید.",
+        "برای تصمیم توسعه، مسئول و شرط بازبینی تعیین کنید؛ ابهام را پنهان نکنید.",
+      ],
+      advice: [
+        "در تمرین این هفته، فقط سه فرض خدمت رزرو را وارد برگه بازبینی کنید.",
+        "پیش از تماس با مشتری، داده‌های هویتی غیرضروری را از پرونده تیم حذف کنید.",
+        "اگر مشکل دسترس‌پذیری حل نشده، درباره نبود تقاضا حکم صادر نکنید.",
+      ],
+    },
+    en: {
+      paragraphs: [
+        "Executing a plan well does not establish that its assumptions remain valid. The Iridium account illustrates technical achievement outlasting its original market logic. That is the short adaptation; the following fictional booking-service exercise is an independent application, not the author's prescribed method or a full translation.",
+        "Imagine a service renting meeting rooms by the hour. Interviews several months ago supported expansion, but completed bookings have recently declined. Before attributing the decline to demand, distinguish unavailable rooms from checkout failures and fewer requests. Create a review sheet with three assumptions: the customer group, the meeting purpose, and the required time slot. Attach the date and limits of each observation. An old interview and a completed booking answer different questions; neither alone represents the whole market. Use anonymous case identifiers rather than circulating personal customer details.",
+        "Compare completed and abandoned requests from the same period. Ask a departing customer about their last actual meeting: where it happened, who selected the venue, and what prevented this booking. In this fictional case, short meetings might have moved online while half-day workshops still need rooms; alternatively, the desired slot might simply be unavailable. Keep the customer's explanation separate from the team's interpretation. No response is missing evidence, not satisfaction. Offer two defined slots for one meeting type in one neighborhood before committing to more space. Set an expense limit and an end date first.",
+        "Record requests, confirmed bookings, cancellations, and actual attendance separately, including discounts and manual coordination. This small exercise cannot establish market size; use it to choose the next question. At review, name an owner and record whether to continue within the same scope, investigate another use case, or pause expansion. If rooms were often unavailable, do not treat low bookings as evidence of absent demand. Specify which observation would reopen the decision and when the unresolved assumption will be checked again.",
+      ],
+      takeaways: [
+        "Separate demand, room availability, and checkout failures before interpreting booking totals.",
+        "Date each observation and record its sample limitations.",
+        "Compare completed and abandoned requests within the same period.",
+        "Track attendance separately from reservations, discounts, and manual assistance.",
+        "Assign an owner, expense limit, end date, and review trigger to the exercise.",
+      ],
+      advice: [
+        "Limit this week's review sheet to three booking-service assumptions.",
+        "Remove unnecessary personal details before sharing cases with the team.",
+      ],
+    },
+    ar: {
+      paragraphs: [
+        "إتقان تنفيذ الخطة لا يثبت بقاء افتراضاتها صالحة. توضح قصة إيريديوم أن الإنجاز التقني قد يستمر بعد تغير منطق السوق الأصلي. هذه معالجة موجزة؛ وما يلي تمرين مستقل لخدمة حجز افتراضية، وليس طريقة ينسبها النص إلى الكاتب أو ترجمة كاملة للمقال.",
+        "تخيل خدمة لتأجير غرف الاجتماعات بالساعة. دعمت مقابلات قبل أشهر قرار التوسع، لكن الحجوزات المكتملة انخفضت مؤخرا. قبل تفسير الانخفاض بأنه ضعف طلب، افصل بين نقص الغرف المتاحة وتعطل الدفع وتراجع الطلبات نفسها. أنشئ ورقة مراجعة لثلاثة افتراضات: فئة العميل، وغرض الاجتماع، والفترة الزمنية المطلوبة. سجل تاريخ كل ملاحظة وحدود العينة. المقابلة القديمة والحجز المكتمل يجيبان عن سؤالين مختلفين؛ ولا يمثل أي منهما السوق كله منفردا. استخدم معرفات مجهولة للحالات بدلا من تداول معلومات العملاء الشخصية.",
+        "قارن الطلبات المكتملة والمتروكة خلال الفترة نفسها. اسأل العميل المنصرف عن آخر اجتماع فعلي: أين انعقد، ومن اختار المكان، وما الذي منع الحجز؟ في هذا المثال قد تكون الاجتماعات القصيرة انتقلت إلى الإنترنت، بينما تحتاج ورش نصف اليوم إلى غرفة؛ وقد تكون المشكلة مجرد عدم توفر الموعد المناسب. افصل كلام العميل عن تفسير الفريق، ولا تعتبر غياب الرد رضا أو غياب حاجة. قبل الالتزام بمساحة إضافية، اعرض فترتين واضحتين لنوع اجتماع واحد في حي واحد، وحدد سقف التكلفة وتاريخ انتهاء الفحص مسبقا.",
+        "سجل الطلبات والحجوزات المؤكدة والإلغاءات والحضور الفعلي بصورة منفصلة، مع الخصومات والتنسيق اليدوي. هذا التمرين المحدود لا يثبت حجم السوق؛ غايته اختيار السؤال التالي. عند المراجعة، حدد مسؤولا وسجل قرار الاستمرار بالنطاق نفسه، أو فحص استخدام آخر، أو تعليق التوسع. إذا كانت الغرف غير متاحة كثيرا فلا تستنتج غياب الطلب من قلة الحجوزات. اكتب الملاحظة التي ستدفع إلى إعادة النظر وموعد فحص الافتراض الذي بقي مجهولا، بدلا من تحويل الغموض إلى يقين شكلي.",
+      ],
+      takeaways: [
+        "افصل الطلب وتوفر الغرف وأعطال الدفع قبل تفسير إجمالي الحجوزات.",
+        "سجل تاريخ كل ملاحظة وحدود عينتها.",
+        "قارن الطلبات المكتملة والمتروكة ضمن الفترة نفسها.",
+        "افصل الحضور الفعلي عن الحجز وسجل الخصومات والمساعدة اليدوية.",
+        "حدد مسؤولا وسقف تكلفة وتاريخ نهاية وشرطا لإعادة المراجعة.",
+      ],
+      advice: [
+        "اقتصر في ورقة هذا الأسبوع على ثلاثة افتراضات لخدمة الحجز.",
+        "احذف التفاصيل الشخصية غير اللازمة قبل مشاركة الحالات مع الفريق.",
+      ],
+    },
+  },
   "How to Work Hard": {
     fa: {
       paragraphs: [
