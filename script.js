@@ -455,6 +455,24 @@ const articleCategories = [
 
 const articleCatalog = [
   {
+    title: "Early Work",
+    category: "building",
+    author: "Paul Graham",
+    source: "Paul Graham",
+    year: "2020",
+    url: "https://paulgraham.com/early.html",
+    tags: {
+      fa: ["نمونه اولیه", "ارزیابی محصول", "تحویل سفارش"],
+      en: ["prototypes", "product evaluation", "order handoffs"],
+      ar: ["النماذج الأولية", "تقييم المنتج", "تسليم الطلبات"],
+    },
+    summary: {
+      fa: "نسخه اول را چگونه ارزیابی کنیم؟ اقتباسی کوتاه و تمرین مستقل تابلوی سفارش چاپخانه: تفکیک ظاهر از خطای تحویل، ثبت کمک پنهان و تعیین شرط ادامه آزمایش.",
+      en: "How should a first version be evaluated? A short adaptation and an independent print-shop order-board exercise: separate appearance from handoff errors, log hidden assistance, and define the next trial decision.",
+      ar: "كيف نقيم النسخة الأولى؟ معالجة موجزة وتمرين مستقل للوحة طلبات مطبعة: فصل المظهر عن أخطاء التسليم، وتسجيل المساعدة الخفية، وتحديد قرار التجربة التالية.",
+    },
+  },
+  {
     title: "No Business Plan Survives First Contact With A Customer",
     category: "building",
     author: "Steve Blank",
@@ -1455,6 +1473,74 @@ const articleCatalog = [
 ];
 
 const articleEssays = {
+  "Early Work": {
+    fa: {
+      paragraphs: [
+        "نسخه ابتدایی یک کار بلندپروازانه ممکن است ضعیف به نظر برسد؛ قضاوت آن با معیار محصول تمام‌شده می‌تواند جلوی ادامه کار را بگیرد. این برداشت کوتاه از مقاله است. ادامه، تمرین مستقلی برای ارزیابی یک ابزار فرضی چاپخانه است، نه ترجمه کامل یا روش تجویزشده نویسنده.",
+        "فرض کنید تیم شما برای یک چاپخانه کوچک، تابلویی ساخته که سفارش را از دریافت فایل تا بسته‌بندی دنبال می‌کند. در جلسه اول، رنگ‌ها ناهماهنگ‌اند و بعضی عنوان‌ها طولانی دیده می‌شوند؛ مدیر می‌خواهد پیش از نمایش به کارکنان همه‌چیز دوباره طراحی شود. به‌جای دفاع کلی از محصول، روی کاغذ بنویسید این نسخه دقیقا کدام پرسش را پاسخ می‌دهد: آیا مسئول شیفت بعد می‌تواند بدون تماس با سازنده ابزار بفهمد هر سفارش در چه مرحله‌ای است و اقدام بعدی با چه کسی است؟ ارزیابی این پرسش با ارزیابی زیبایی تابلو یکسان نیست؛ فعلا باید نتیجه هرکدام را جدا ثبت کرد.",
+        "برای این تمرین، ده سفارش ساختگی آماده کنید؛ یکی منتظر تأیید فایل باشد، یکی از صف چاپ خارج شده باشد و یکی به بسته‌بندی رسیده باشد. داده واقعی مشتری لازم نیست. از دو همکار که در ساخت ابزار دخیل نبوده‌اند بخواهید وضعیت سفارش‌ها را بخوانند و مسئول اقدام بعدی را مشخص کنند. یکی کار کند و دیگری فقط مشاهده را بنویسد؛ سپس نقش‌ها عوض شوند. پیش از شروع، پاسخ درست هر پرونده را ثبت کنید تا بعدا نتیجه را مطابق انتظار تیم تغییر ندهید. این تعداد نمونه صرفا دامنه تمرین است و معیار عمومی اعتبارسنجی محصول نیست.",
+        "هر ایراد را در یکی از سه ستون ثبت کنید: خوانایی و ظاهر، ابهام در وضعیت، یا تحویل اشتباه مسئولیت. ناهماهنگی رنگ را با پنهان شدن سفارش هم‌وزن نکنید. اگر کاربر وضعیت «آماده» را پایان چاپ می‌فهمد ولی تیم آن را آماده تحویل می‌داند، مسئله فقط انتخاب واژه زیباتر نیست؛ دو تعریف عملیاتی با هم تعارض دارند. برای همان وضعیت، شرط ورود و خروج بنویسید و روشن کنید چه کسی مجاز است آن را تغییر دهد. اگر سفارش از دید شیفت بعد ناپدید می‌شود، همان مسیر را پیش از افزودن قابلیت تازه بررسی کنید.",
+        "کمک سازنده را نیز جزو داده آزمایش نگه دارید. اگر هنگام مکث کاربر، اعضای تیم محل دکمه یا معنای وضعیت را توضیح می‌دهند، انجام شدن کار را به حساب استفاده مستقل نگذارید. در برگه مشاهده، تعداد سفارش‌های درست تشخیص‌داده‌شده، موارد نیازمند توضیح و موارد مسئولیت نامعلوم را جدا بنویسید. پس از اصلاح یک ابهام، مجموعه دیگری از سفارش‌های ساختگی با همان پیچیدگی آماده کنید تا حفظ کردن پاسخ قبلی با بهبود ابزار اشتباه نشود. هدف این دور مقایسه روشن دو نسخه است؛ هنوز درباره تقاضای بازار یا موفقیت تجاری نتیجه نمی‌گیریم.",
+        "جلسه بازبینی را با یک تصمیم محدود تمام کنید. اگر سفارش‌ها مسئول مشخص دارند و بدون راهنمایی پیدا می‌شوند، می‌توانید یک اجرای موازی و تحت نظارت طراحی کنید؛ دفتر جاری چاپخانه در این مرحله همچنان مرجع کار می‌ماند. اگر ابهام باقی است، فقط همان مسیر را اصلاح و دوباره بررسی کنید. مسئول آزمایش، مدت آن و شرط برگشت به روش قبلی را از پیش تعیین کنید؛ مثلا گم شدن وضعیت یک سفارش باید باعث توقف بررسی و تطبیق با دفتر شود. خروجی این تمرین، مجوز عرضه گسترده نیست؛ یک پرونده کوتاه است که معلوم می‌کند چه چیزی بررسی شده، کدام نقص باقی مانده و تصمیم بعدی بر چه مشاهده‌ای تکیه دارد.",
+      ],
+      takeaways: [
+        "پرسش این نسخه را مشخص کنید: آیا شیفت بعد، وضعیت سفارش و مسئول اقدام بعدی را پیدا می‌کند؟",
+        "برای تمرین از سفارش ساختگی و پاسخ مرجع ازپیش‌ثبت‌شده استفاده کنید.",
+        "ایراد ظاهری، ابهام وضعیت و تحویل اشتباه مسئولیت را جدا بشمارید.",
+        "برای هر وضعیت مبهم، شرط ورود و خروج و صاحب اختیار تغییر را بنویسید.",
+        "انجام کار با توضیح سازنده را از استفاده مستقل جدا ثبت کنید.",
+        "نسخه اصلاح‌شده را با پرونده‌های تازه و هم‌سطح بررسی کنید، نه پاسخ‌های حفظ‌شده.",
+        "پیش از اجرای موازی، مرجع جاری، مسئول آزمایش و شرط توقف را تعیین کنید.",
+      ],
+      advice: [
+        "برگه این تمرین را به شناسه سفارش، وضعیت تشخیص‌داده‌شده، مسئول بعدی و کمک دریافتی محدود کنید.",
+        "ناظر هنگام انجام کار توضیح ندهد؛ پرسش‌های کاربر را برای گفت‌وگوی پس از تمرین یادداشت کند.",
+        "تا پایان تطبیق سفارش‌ها، تابلوی آزمایشی را جایگزین دفتر عملیاتی نکنید.",
+      ],
+    },
+    en: {
+      paragraphs: [
+        "An ambitious project's initial version can look unimpressive; judging it as finished work can prevent further progress. That is the short adaptation. The following fictional print-shop exercise is an independent application, not a full translation or a procedure attributed to the author.",
+        "Imagine a small print shop trying an order board that tracks work from file receipt to packing. Its colors are inconsistent, and a manager wants a redesign before anyone uses it. Give this trial a narrower question: can the next shift identify each order's state and the person responsible for its next action without calling the tool's builder? Prepare ten fictional orders with reference answers recorded before the session. Include a file awaiting approval, an order removed from the printing queue, and a packed order. Have two colleagues unfamiliar with the implementation alternate between operator and observer. Ten cases define this exercise's scope, not a universal validation threshold. Use invented records rather than customer information.",
+        "Separate visual issues, ambiguous states, and incorrect responsibility handoffs. If one person reads 'ready' as printing complete and another reads it as ready for collection, write entry and exit conditions for that state and identify who may change it. Record assistance from the builder: an order found after a whispered explanation is not an independent success. Track correctly identified orders, explanations needed, and unresolved ownership separately. After changing one ambiguity, use new cases of comparable complexity so remembered answers do not masquerade as improvement. This comparison concerns the workflow, not market demand or commercial viability.",
+        "End the review with a bounded decision. If orders and owners can be found without assistance, plan a supervised parallel trial while keeping the existing shop ledger authoritative. Otherwise, revise the unclear handoff and repeat the exercise. Assign an owner, duration, and rollback trigger before any parallel use; a missing order state should stop the trial for reconciliation with the ledger. The deliverable is a short record of tested behavior, remaining defects, and the observation needed for the next decision, not permission for a broad rollout.",
+      ],
+      takeaways: [
+        "Evaluate whether the next shift can identify order state and next-action ownership.",
+        "Prepare fictional orders and reference answers before the session.",
+        "Separate appearance, state ambiguity, and responsibility handoff errors.",
+        "Record builder assistance separately from independent completion.",
+        "Retest with fresh cases of comparable complexity.",
+        "Keep the existing ledger authoritative during a supervised parallel trial.",
+      ],
+      advice: [
+        "Use a sheet containing order ID, interpreted state, next owner, and assistance received.",
+        "Have the observer save questions for the debrief rather than coaching during the task.",
+        "Name a trial owner and reconciliation trigger before parallel use.",
+      ],
+    },
+    ar: {
+      paragraphs: [
+        "قد تبدو النسخة الأولى من مشروع طموح ضعيفة؛ والحكم عليها بمعيار العمل المكتمل قد يمنع مواصلتها. هذه خلاصة موجزة للمقال. ما يلي تمرين مستقل لتقييم أداة افتراضية لمطبعة، وليس ترجمة كاملة أو إجراء ينسب إلى الكاتب.",
+        "تخيل مطبعة صغيرة تجرب لوحة تتابع الطلب من استلام الملف حتى التغليف. ألوانها غير متناسقة، ويريد المدير إعادة تصميمها قبل عرضها على العاملين. حدد سؤالا أضيق للتجربة: هل يستطيع مسؤول الوردية التالية معرفة حالة كل طلب وصاحب الخطوة التالية دون الاتصال بمن بنى الأداة؟ جهز عشرة طلبات وهمية، وسجل الإجابات المرجعية قبل الجلسة. أدرج ملفا ينتظر الاعتماد، وطلبا خرج من قائمة الطباعة، وآخر وصل إلى التغليف. اطلب من زميلين لم يشاركا في البناء تبادل دوري المستخدم والمراقب. هذا العدد يحدد نطاق التمرين فقط، ولا يمثل حدا عاما لإثبات صلاحية المنتج؛ ولا حاجة إلى استخدام بيانات العملاء.",
+        "افصل مشكلات المظهر عن غموض الحالة وعن تسليم المسؤولية للشخص الخطأ. إذا فهم أحدهم كلمة «جاهز» على أنها انتهاء الطباعة وفهمها آخر على أنها الاستعداد للتسليم، فاكتب شروط الدخول إلى هذه الحالة والخروج منها ومن يملك صلاحية تغييرها. سجل تدخل صانع الأداة أيضا؛ العثور على طلب بعد شرح شفهي ليس نجاحا مستقلا. احص الطلبات التي فُهمت بصورة صحيحة، والحالات التي احتاجت إلى توضيح، والمسؤوليات التي بقيت مجهولة كل على حدة. بعد تعديل موضع غموض واحد، استخدم حالات جديدة بمستوى تعقيد مماثل حتى لا تختلط الإجابات المحفوظة بتحسن الأداة. هذه المقارنة تخص سير العمل، لا حجم الطلب في السوق أو الجدوى التجارية.",
+        "اختم المراجعة بقرار محدود. إذا أمكن العثور على الطلبات وأصحاب المسؤولية دون مساعدة، صمم تجربة موازية تحت الإشراف مع بقاء دفتر المطبعة الحالي مرجعا للعمل. وإلا فعدّل نقطة التسليم غير الواضحة وكرر الفحص. حدد المسؤول والمدة وشرط العودة قبل بدء الاستخدام الموازي؛ مثلا يستدعي اختفاء حالة طلب إيقاف التجربة ومطابقتها مع الدفتر. المخرج المطلوب سجل قصير يبين ما اختُبر، والعيوب المتبقية، والملاحظة اللازمة للقرار التالي، وليس تصريحا بإطلاق واسع.",
+      ],
+      takeaways: [
+        "اختبر قدرة الوردية التالية على معرفة حالة الطلب وصاحب الخطوة المقبلة.",
+        "جهز طلبات وهمية وإجابات مرجعية قبل الجلسة.",
+        "افصل المظهر وغموض الحالة وأخطاء تسليم المسؤولية.",
+        "سجل مساعدة صانع الأداة منفصلة عن إنجاز المهمة باستقلال.",
+        "أعد الفحص بحالات جديدة ذات تعقيد مماثل.",
+        "أبق دفتر العمل الحالي مرجعا خلال التجربة الموازية الخاضعة للإشراف.",
+      ],
+      advice: [
+        "اجعل ورقة الرصد تشمل معرف الطلب والحالة المفهومة والمسؤول التالي والمساعدة المقدمة.",
+        "ليؤجل المراقب الأسئلة إلى المناقشة اللاحقة بدلا من إرشاد المستخدم أثناء المهمة.",
+        "حدد مسؤول التجربة وشرط مطابقة السجلات قبل الاستخدام الموازي.",
+      ],
+    },
+  },
   "No Business Plan Survives First Contact With A Customer": {
     fa: {
       paragraphs: [

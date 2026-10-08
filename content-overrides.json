@@ -226,6 +226,55 @@
     "timezone": "Asia/Tehran",
     "queue": [
       {
+        "id": "2026-10-08-site-early-work",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "early-work",
+        "publishAt": "2026-10-08T05:45:42+03:30",
+        "status": "published",
+        "publishedAt": "2026-10-08T05:45:42+03:30"
+      },
+      {
+        "id": "2026-10-08-linkedin-early-work",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "early-work",
+        "publishAt": "2026-10-08T12:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-10-08T05:45:42+03:30",
+        "note": "Draft only. Verified account/API access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "ظاهر تابلو را از خطای تحویل جدا کنید",
+          "en": "Separate board appearance from handoff errors",
+          "ar": "افصل مظهر اللوحة عن أخطاء التسليم"
+        },
+        "body": {
+          "fa": "در ارزیابی تابلوی سفارش، رنگ ناهماهنگ و مسئولیت نامعلوم دو مسئله متفاوت‌اند.\nپیامد اجرایی: اصلاح ظاهر، سفارش بی‌صاحب را حل نمی‌کند؛ کمک شفاهی سازنده را هم باید جدا ثبت کرد.\nاقدام بعدی: ده سفارش ساختگی را به شیفت بعد بدهید و پیش از بازطراحی، وضعیت و مسئول بعدی هرکدام را بررسی کنید.\nتمرین مستقل همراه با اقتباس کوتاه | Paul Graham — https://paulgraham.com/early.html\nhttps://alisodeyfi.ir/articles/early-work/fa/#daily-article-reader",
+          "en": "An inconsistent color and an unowned order are different defects in an order board.\nImplication: visual polish does not resolve a missing handoff; record verbal help from the builder separately.\nNext action: give the next shift ten fictional orders and check each state and next owner before redesigning.\nIndependent exercise with a short adaptation | Paul Graham — https://paulgraham.com/early.html\nhttps://alisodeyfi.ir/articles/early-work/en/#daily-article-reader",
+          "ar": "اللون غير المتناسق والطلب بلا مسؤول عيبان مختلفان في لوحة الطلبات.\nالأثر التنفيذي: تحسين المظهر لا يصلح غياب المسؤولية؛ سجل المساعدة الشفهية من صانع الأداة منفصلة.\nالخطوة التالية: أعط الوردية التالية عشرة طلبات وهمية، وافحص حالة كل طلب والمسؤول التالي قبل إعادة التصميم.\nتمرين مستقل مع معالجة موجزة | Paul Graham — https://paulgraham.com/early.html\nhttps://alisodeyfi.ir/articles/early-work/ar/#daily-article-reader"
+        }
+      },
+      {
+        "id": "2026-10-08-story-early-work",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "early-work",
+        "publishAt": "2026-10-08T20:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-10-08T05:45:42+03:30",
+        "note": "Preview only. Verified account/session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "مسئول سفارش کجاست؟",
+          "en": "Who owns the order?",
+          "ar": "من المسؤول عن الطلب؟"
+        },
+        "body": {
+          "fa": "اسلاید ۱: ظاهر نامرتب با سفارش بی‌صاحب یکی نیست.\nاسلاید ۲: پیش از بازطراحی، وضعیت و مسئول بعدی ده سفارش ساختگی را با شیفت بعد بررسی کنید.\nاسلاید ۳: تمرین مستقل و اقتباس | Paul Graham — https://paulgraham.com/early.html | https://alisodeyfi.ir/articles/early-work/fa/#daily-article-reader",
+          "en": "Slide 1: a rough appearance is not an unowned order.\nSlide 2: before redesigning, ask the next shift to identify states and owners for ten fictional orders.\nSlide 3: independent exercise and adaptation | Paul Graham — https://paulgraham.com/early.html | https://alisodeyfi.ir/articles/early-work/en/#daily-article-reader",
+          "ar": "الشريحة ۱: المظهر غير المنسق ليس طلبا بلا مسؤول.\nالشريحة ۲: قبل إعادة التصميم، افحص مع الوردية التالية حالات عشرة طلبات وهمية وأصحاب المسؤولية.\nالشريحة ۳: تمرين مستقل ومعالجة | Paul Graham — https://paulgraham.com/early.html | https://alisodeyfi.ir/articles/early-work/ar/#daily-article-reader"
+        }
+      },
+      {
         "id": "2026-10-07-site-no-business-plan-survives-first-contact-with-a-customer",
         "channel": "site",
         "target": "site",
