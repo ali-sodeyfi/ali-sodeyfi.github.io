@@ -5902,7 +5902,9 @@ function applyLanguage(language) {
   } else {
     const pageUrl = new URL(getLanguagePageUrl(selectedLanguage));
     pageUrl.hash = window.location.hash;
-    window.history.replaceState(window.history.state, "", pageUrl);
+    if (pageUrl.origin === window.location.origin) {
+      window.history.replaceState(window.history.state, "", pageUrl);
+    }
   }
 
   updateSeoMetadata(selectedLanguage);
