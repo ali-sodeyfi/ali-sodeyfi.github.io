@@ -226,6 +226,55 @@
     "timezone": "Asia/Tehran",
     "queue": [
       {
+        "id": "2026-10-09-site-a-word-to-the-resourceful",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "a-word-to-the-resourceful",
+        "publishAt": "2026-10-09T05:44:38+03:30",
+        "status": "published",
+        "publishedAt": "2026-10-09T05:44:38+03:30"
+      },
+      {
+        "id": "2026-10-09-linkedin-a-word-to-the-resourceful",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "a-word-to-the-resourceful",
+        "publishAt": "2026-10-09T12:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-10-09T05:44:38+03:30",
+        "note": "Draft only. Verified account/API access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "نیاز به تأیید، الزاماً نیاز به قابلیت نیست",
+          "en": "Approval is not automatically a feature request",
+          "ar": "الحاجة إلى موافقة ليست بالضرورة طلب ميزة"
+        },
+        "body": {
+          "fa": "وقتی مشتری می‌گوید تأیید مدیر لازم است، هنوز نیاز به قابلیت تازه اثبات نشده است.\nپیامد اجرایی: مجوز ارزیابی، ورود داده و تأیید خرید را جدا بررسی کنید؛ هرکدام مانع متفاوتی است.\nاقدام بعدی: پیش از تغییر برنامه توسعه، با اجازه مشتری مسیر یک درخواست گذشته را با مسئول فرایند مرور و پرسش باز را ثبت کنید.\nتمرین مستقل همراه با اقتباس کوتاه | Paul Graham — https://paulgraham.com/word.html\nhttps://alisodeyfi.ir/articles/a-word-to-the-resourceful/fa/#daily-article-reader",
+          "en": "A customer needing managerial approval has not yet established a need for a new feature.\nImplication: permission to evaluate, enter data, and approve purchases are different obstacles.\nNext action: before changing the roadmap, get permission to review one past request with the process owner and record the unresolved question.\nIndependent exercise with a short adaptation | Paul Graham — https://paulgraham.com/word.html\nhttps://alisodeyfi.ir/articles/a-word-to-the-resourceful/en/#daily-article-reader",
+          "ar": "حاجة العميل إلى موافقة المدير لا تثبت بعد حاجته إلى ميزة جديدة.\nالأثر التنفيذي: إذن التقييم وإدخال البيانات واعتماد الشراء عوائق مختلفة.\nالخطوة التالية: قبل تغيير خطة التطوير، راجع طلبا سابقا مع مسؤول العملية بإذن العميل وسجل السؤال المفتوح.\nتمرين مستقل مع معالجة موجزة | Paul Graham — https://paulgraham.com/word.html\nhttps://alisodeyfi.ir/articles/a-word-to-the-resourceful/ar/#daily-article-reader"
+        }
+      },
+      {
+        "id": "2026-10-09-story-a-word-to-the-resourceful",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "a-word-to-the-resourceful",
+        "publishAt": "2026-10-09T20:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-10-09T05:44:38+03:30",
+        "note": "Preview only. Verified account/session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "کدام تأیید لازم است؟",
+          "en": "Which approval is missing?",
+          "ar": "أي موافقة مطلوبة؟"
+        },
+        "body": {
+          "fa": "اسلاید ۱: نیاز به تأیید مدیر، الزاماً درخواست قابلیت تازه نیست.\nاسلاید ۲: پیش از توسعه، با مسئول فرایند روشن کنید مانع مربوط به ارزیابی، ورود داده یا خرید است.\nاسلاید ۳: تمرین مستقل و اقتباس | Paul Graham — https://paulgraham.com/word.html | https://alisodeyfi.ir/articles/a-word-to-the-resourceful/fa/#daily-article-reader",
+          "en": "Slide 1: needing managerial approval is not automatically a feature request.\nSlide 2: before building, ask the process owner whether the obstacle concerns evaluation, data entry, or purchasing.\nSlide 3: independent exercise and adaptation | Paul Graham — https://paulgraham.com/word.html | https://alisodeyfi.ir/articles/a-word-to-the-resourceful/en/#daily-article-reader",
+          "ar": "الشريحة ۱: الحاجة إلى موافقة المدير ليست بالضرورة طلب ميزة جديدة.\nالشريحة ۲: قبل التطوير، حدد مع مسؤول العملية إن كان العائق يخص التقييم أم البيانات أم الشراء.\nالشريحة ۳: تمرين مستقل ومعالجة | Paul Graham — https://paulgraham.com/word.html | https://alisodeyfi.ir/articles/a-word-to-the-resourceful/ar/#daily-article-reader"
+        }
+      },
+      {
         "id": "2026-10-08-site-early-work",
         "channel": "site",
         "target": "site",

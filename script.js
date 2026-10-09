@@ -455,6 +455,24 @@ const articleCategories = [
 
 const articleCatalog = [
   {
+    title: "A Word to the Resourceful",
+    category: "leadership",
+    author: "Paul Graham",
+    source: "Paul Graham",
+    year: "2012",
+    url: "https://paulgraham.com/word.html",
+    tags: {
+      fa: ["بررسی بازخورد", "تصمیم محصول", "پیگیری مشتری"],
+      en: ["feedback review", "product decisions", "customer follow-up"],
+      ar: ["مراجعة الملاحظات", "قرارات المنتج", "متابعة العملاء"],
+    },
+    summary: {
+      fa: "از شنیدن نقد تا تصمیم قابل بررسی: اقتباسی کوتاه و تمرین مستقل برای یک نرم‌افزار خرید سازمانی؛ تفکیک گفته مشتری از برداشت تیم، تعیین آزمون و بستن حلقه پیگیری.",
+      en: "From hearing feedback to a reviewable decision: a short adaptation and an independent procurement-software exercise separating customer statements, team interpretations, tests, and follow-up.",
+      ar: "من سماع الملاحظات إلى قرار قابل للمراجعة: معالجة موجزة وتمرين مستقل لبرنامج مشتريات، يفصل كلام العميل عن تفسير الفريق والاختبار والمتابعة.",
+    },
+  },
+  {
     title: "Early Work",
     category: "building",
     author: "Paul Graham",
@@ -1473,6 +1491,71 @@ const articleCatalog = [
 ];
 
 const articleEssays = {
+  "A Word to the Resourceful": {
+    fa: {
+      paragraphs: [
+        "توانمندی بنیان‌گذار فقط در عمل دیده نمی‌شود؛ در آمادگی او برای دنبال‌کردن پیامدهای یک حرف، حتی پیامدهای ناخوشایند، هم دیده می‌شود. این ایده مرکزی اقتباس کوتاه حاضر است. شنیدن توصیه به معنی اطاعت از آن نیست. ادامه این متن یک تمرین مستقل درباره بازخورد مشتری است، نه ترجمه کامل مقاله یا روشی که نویسنده اصلی ارائه کرده باشد.",
+        "فرض کنید تیمی نرم‌افزار درخواست خرید برای شرکت‌های کوچک ساخته است. در نمایش محصول، مسئول خرید می‌گوید بدون تأیید مدیر مالی نمی‌تواند استفاده را شروع کند. تیم بلافاصله این جمله را به درخواست ساخت یک گردش تأیید چندمرحله‌ای تبدیل می‌کند. اما هنوز معلوم نیست مانع، نبود قابلیت محصول است یا نداشتن اجازه برای ورود اطلاعات شرکت. پیش از افزودن کار به برنامه توسعه، گفته دقیق مشتری را ثبت کنید و برداشت تیم را در ستونی جدا بنویسید. کنار هر برداشت، پرسش بی‌پاسخ را بیاورید؛ مثلا چه چیزی باید تأیید شود و چه کسی اختیار این تصمیم را دارد؟",
+        "گام بعدی را یک جلسه فروش دیگر تعریف نکنید. با اجازه مشتری، گفت‌وگویی کوتاه با فرد مسئول ترتیب دهید و از او بخواهید مسیر آخرین درخواست خرید را با اطلاعات حذف‌شده یا نمونه ساختگی توضیح دهد. بپرسید تأیید در کدام نقطه لازم بوده، چه مدرکی بررسی شده و چه چیزی درخواست را متوقف کرده است. هدف این جلسه گرفتن قول خرید نیست؛ باید بتوانید میان مانع استفاده آزمایشی و نیاز واقعی به قابلیت تازه فرق بگذارید. اگر به تصمیم‌گیرنده دسترسی پیدا نکردید، نتیجه را «نامعلوم» ثبت کنید؛ سکوت او نه تأیید فرضیه شماست و نه رد محصول.",
+        "حالا دو فرضیه رقیب را روی یک برگه بنویسید. فرضیه اول می‌گوید کاربر بدون مسیر تأیید داخل محصول نمی‌تواند کارش را انجام دهد؛ فرضیه دوم می‌گوید برای ارزیابی اولیه فقط مجوز استفاده از داده ساختگی لازم است. برای بررسی اول، نمونه‌ای غیرعملیاتی از مسیر تأیید را با مسئول فرایند مرور کنید. برای دومی، از همان مسئول بپرسید آیا یک جلسه آزمایشی بدون اتصال به سامانه‌های شرکت مجاز است. این‌ها پیشنهادهای تمرین‌اند، نه دستور اجرای خرید واقعی؛ هیچ تأیید سازمانی نباید دور زده شود. پیش از شروع، زمان بررسی و مشاهده‌ای را که هر فرضیه را ضعیف می‌کند تعیین کنید.",
+        "مسئولیت پیگیری را هم بخشی از تصمیم محصول بدانید. یک نفر باید پرسش باز، مسئول پاسخ و تاریخ بازبینی را نگه دارد؛ نه اینکه همه تصور کنند دیگری موضوع را دنبال می‌کند. برای همین تمرین می‌توانید تا پایان هفته فرصت بگذارید و در بازبینی، نتیجه را یکی از سه حالت «شواهد کافی برای نمونه بعدی»، «نیازمند گفت‌وگوی مشخص دیگر» یا «فعلا متوقف» بنامید. این مهلت پیشنهادی برای محدودکردن کار است، نه یک قاعده عمومی فروش. اگر پاسخ نمی‌آید، با احترام پیگیری کنید و بی‌دلیل وعده ساخت قابلیت یا تخفیف ندهید.",
+        "جلسه داخلی را با دفاع از تصمیم قبلی تمام نکنید؛ یک یادداشت تصمیم بنویسید که نشان دهد چه چیزی مشاهده شد، کدام برداشت تغییر کرد و چه چیزی هنوز روشن نیست. ممکن است نتیجه، ساخت نمونه تأیید باشد؛ ممکن است فعلا هیچ تغییری در محصول لازم نباشد. یک مشتری هم نماینده کل بازار نیست، پس یافته را به همان نوع سازمان و همان فرایند محدود کنید. خروجی مفید این تمرین، تعداد توصیه‌های پذیرفته‌شده نیست؛ تصمیمی است که همکار دیگری بتواند دلیل، حدود اعتبار و شرط بازنگری آن را بفهمد. برای مشتری نیز خلاصه کوتاهی بفرستید تا سوءبرداشت‌های باقی‌مانده آشکار شود.",
+      ],
+      takeaways: [
+        "گفته دقیق مشتری را از برداشت تیم در دو ستون جدا ثبت کنید.",
+        "مشخص کنید تأیید برای خرید واقعی، ورود داده یا فقط ارزیابی اولیه لازم است.",
+        "با اجازه مشتری، مسیر یک درخواست گذشته را با مسئول فرایند بررسی کنید.",
+        "برای هر فرضیه، مشاهده مخالف و موعد بازبینی بنویسید.",
+        "دسترسی‌نداشتن به تصمیم‌گیرنده را نامعلوم ثبت کنید، نه اثبات نیاز به قابلیت.",
+        "یک مسئول برای پیگیری تعیین کنید و نتیجه را به همان زمینه مشتری محدود نگه دارید.",
+      ],
+      advice: [
+        "برگه جلسه را با پنج فیلد آماده کنید: گفته، برداشت، پرسش باز، مسئول پیگیری و موعد بازبینی.",
+        "نمونه آزمایشی را با داده ساختگی اجرا کنید و مجوزهای سازمان را دور نزنید.",
+        "پیش از افزودن قابلیت به برنامه توسعه، یادداشت تصمیم را با یک همکار مرور کنید.",
+      ],
+    },
+    en: {
+      paragraphs: [
+        "A founder's resourcefulness includes following the implications of feedback, even when those implications are uncomfortable. That is the idea behind this short adaptation; taking advice seriously does not mean obeying it. The procurement-software scenario below is an independent exercise, not a complete translation or a method attributed to the original author.",
+        "Imagine a buyer saying that a finance manager must approve use of your software. Before treating this as a request for an approval-workflow feature, separate the customer's statement from your interpretation. Approval might concern a real purchase, entering company data, or merely evaluating the tool. With permission, ask the process owner to walk through a past request using redacted or fictional information. Record where authorization was required and what stopped progress. If that person is unavailable, mark the question unresolved rather than treating silence as evidence for a feature.",
+        "Write two competing explanations: the workflow is missing, or a limited evaluation simply needs permission. Review a non-operational workflow mockup to explore the first; ask whether a fictional-data session without company-system connections is permitted to explore the second. Do not bypass organizational approvals or process real purchases. Name an owner, a review date, and an observation that would weaken each explanation before beginning. An end-of-week review is a possible boundary for this exercise, not a general sales benchmark.",
+        "At review, choose a bounded outcome: enough evidence for another prototype, one specific follow-up conversation, or a pause. Document the observation, the interpretation that changed, and the remaining uncertainty. Send the customer a brief recap to check for misunderstanding. A single organization's process does not establish market-wide demand. The useful output is a decision another teammate can inspect, including its scope and the evidence that would cause the team to revisit it, rather than a count of suggestions accepted.",
+      ],
+      takeaways: [
+        "Keep customer statements separate from team interpretations.",
+        "Clarify whether approval concerns a purchase, data use, or evaluation.",
+        "Define a contrary observation and review date for each explanation.",
+        "Treat unavailable decision-makers as unresolved evidence.",
+        "Assign follow-up ownership and limit conclusions to the observed context.",
+      ],
+      advice: [
+        "Prepare fields for the statement, interpretation, open question, owner, and review date.",
+        "Use fictional data and respect the customer's approval process.",
+        "Review the decision note with a teammate before scheduling feature development.",
+      ],
+    },
+    ar: {
+      paragraphs: [
+        "تظهر قدرة المؤسس على التصرف أيضا في استعداده لتتبع نتائج الملاحظات، حتى حين تكون غير مريحة. هذه فكرة المعالجة الموجزة هنا؛ أخذ النصيحة بجدية لا يعني طاعتها. أما المثال التالي عن برنامج مشتريات فهو تمرين مستقل، وليس ترجمة كاملة أو منهجا ينسب إلى الكاتب الأصلي.",
+        "تخيل أن مسؤول مشتريات يقول إن استخدام البرنامج يحتاج إلى موافقة المدير المالي. قبل تحويل كلامه إلى طلب لبناء مسار موافقات، افصل العبارة عن تفسير الفريق. قد تتعلق الموافقة بعملية شراء فعلية، أو بإدخال بيانات الشركة، أو بمجرد تقييم الأداة. بعد الحصول على الإذن، اطلب من مسؤول العملية شرح طلب سابق بمعلومات منزوعة التفاصيل الحساسة أو بيانات وهمية. حدد أين لزمت الموافقة وما الذي أوقف الطلب. إذا تعذر الوصول إليه، سجل المسألة غير محسومة؛ غياب الرد ليس دليلا على ضرورة إضافة ميزة.",
+        "اكتب تفسيرين متنافسين: إما أن مسار الموافقات ناقص، وإما أن التقييم المحدود يحتاج فقط إلى إذن. لفحص الأول، راجع نموذجا غير تشغيلي للمسار مع المسؤول؛ ولفحص الثاني اسأل إن كانت جلسة ببيانات وهمية ودون اتصال بأنظمة الشركة مسموحة. لا تتجاوز صلاحيات المؤسسة ولا تنفذ مشتريات حقيقية. حدد مسؤولا للمتابعة، وموعد مراجعة، وملاحظة يمكن أن تضعف كل تفسير قبل البدء. نهاية الأسبوع حد مقترح لهذا التمرين وليست معيارا عاما لدورة البيع.",
+        "اختم المراجعة بقرار محدود: أدلة تكفي لنموذج آخر، أو محادثة متابعة محددة، أو توقف مؤقت. سجل ما شوهد، والتفسير الذي تغير، وما بقي مجهولا؛ ثم أرسل للعميل خلاصة قصيرة للتحقق من سوء الفهم. عملية مؤسسة واحدة لا تثبت حاجة السوق كله. المخرج المفيد قرار يستطيع زميل مراجعة مبرراته وحدود صلاحيته وما يستدعي إعادة النظر فيه، لا عدد المقترحات المقبولة. وقد تكون النتيجة الصحيحة عدم تغيير المنتج حاليا بدلا من بناء ميزة قبل فهم العائق.",
+      ],
+      takeaways: [
+        "افصل كلام العميل عن تفسير الفريق.",
+        "حدد إن كانت الموافقة تخص الشراء أم البيانات أم التقييم.",
+        "عين ملاحظة مضادة وموعد مراجعة لكل تفسير.",
+        "سجل تعذر الوصول إلى صاحب القرار كمسألة غير محسومة.",
+        "عين مسؤولا للمتابعة ولا تعمم النتيجة خارج السياق المرصود.",
+      ],
+      advice: [
+        "جهز حقولا للعبارة والتفسير والسؤال المفتوح والمسؤول وموعد المراجعة.",
+        "استخدم بيانات وهمية واحترم مسار الموافقات لدى العميل.",
+        "راجع مذكرة القرار مع زميل قبل جدولة تطوير الميزة.",
+      ],
+    },
+  },
   "Early Work": {
     fa: {
       paragraphs: [
