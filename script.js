@@ -672,6 +672,12 @@ const articleCatalog = [
   },
   {
     title: "Relentlessly Resourceful",
+    seoTitle: {
+      en: "Relentlessly Resourceful | Paul Graham on Startup Founders",
+    },
+    seoDescription: {
+      en: "An independent adaptation of Paul Graham's 2009 essay on startup founders: why persistence needs flexibility, with practical ways to respond to obstacles.",
+    },
     category: "building",
     author: "Paul Graham",
     source: "Paul Graham",

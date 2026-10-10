@@ -17,6 +17,22 @@ test("the product-market fit article has a specific English search title and des
   assert(html.includes('"@type":"Article"'));
 });
 
+test("relentlessly resourceful identifies the source and independent adaptation", async () => {
+  const html = await readFile(
+    new URL("../articles/relentlessly-resourceful/en/index.html", import.meta.url),
+    "utf8",
+  );
+  const title = "Relentlessly Resourceful | Paul Graham on Startup Founders";
+  const description = "An independent adaptation of Paul Graham&#039;s 2009 essay on startup founders: why persistence needs flexibility, with practical ways to respond to obstacles.";
+
+  assert(html.includes(`<title>${title}</title>`));
+  assert(html.includes(`<meta name="description" content="${description}" />`));
+  assert(html.includes(`<meta property="og:title" content="${title}" />`));
+  assert(html.includes(`<meta name="twitter:description" content="${description}" />`));
+  assert(html.includes(`<p class="article-page-summary">${description}</p>`));
+  assert(html.includes('"isBasedOn":"https://paulgraham.com/relres.html"'));
+});
+
 test("bus ticket article describes curiosity rather than spare-time scheduling in every language", async () => {
   const expectations = {
     fa: ["نظریه بلیت اتوبوس و نبوغ", "بلیت‌های قدیمی را با اشتیاق جمع می‌کنند"],
