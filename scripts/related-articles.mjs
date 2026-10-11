@@ -136,4 +136,38 @@ export const relatedArticleGroups = [
       },
     },
   ],
+  [
+    {
+      slug: "the-bus-ticket-theory-of-genius",
+      titles: {
+        fa: "نظریهٔ بلیت اتوبوس و نبوغ",
+        en: "The Bus Ticket Theory of Genius",
+        ar: "نظرية تذكرة الحافلة والعبقرية",
+      },
+    },
+    {
+      slug: "the-refragmentation",
+      titles: {
+        fa: "بازآرایی دوبارهٔ بازارها",
+        en: "The Refragmentation",
+        ar: "إعادة تجزئة الأسواق",
+      },
+    },
+    {
+      slug: "how-universities-should-prepare-founders",
+      titles: {
+        fa: "دانشگاه‌ها چطور باید بنیان‌گذاران را آماده کنند؟",
+        en: "How Universities Should Prepare Founders",
+        ar: "كيف ينبغي للجامعات إعداد المؤسسين؟",
+      },
+    },
+    {
+      slug: "startups-in-13-sentences",
+      titles: {
+        fa: "استارتاپ‌ها در ۱۳ جمله",
+        en: "Startups in 13 Sentences",
+        ar: "الشركات الناشئة في 13 جملة",
+      },
+    },
+  ],
 ];
