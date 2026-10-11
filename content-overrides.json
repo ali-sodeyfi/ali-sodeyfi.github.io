@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-07T02:18:30Z",
+  "updatedAt": "2026-10-11T02:14:00Z",
   "translations": {
     "fa": {
       "documentTitle": "علی سدیفی | یادداشت‌هایی درباره ساخت کسب‌وکار",
@@ -225,6 +225,55 @@
   "publishing": {
     "timezone": "Asia/Tehran",
     "queue": [
+      {
+        "id": "2026-10-11-site-key-startup-metrics",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "key-startup-metrics",
+        "publishAt": "2026-10-11T05:44:00+03:30",
+        "status": "published",
+        "publishedAt": "2026-10-11T05:44:00+03:30"
+      },
+      {
+        "id": "2026-10-11-linkedin-key-startup-metrics",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "key-startup-metrics",
+        "publishAt": "2026-10-11T12:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-10-11T05:44:00+03:30",
+        "note": "Draft only. Verified account/API access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "هر عددی معیار تصمیم نیست",
+          "en": "Not every number is a decision metric",
+          "ar": "ليس كل رقم مقياسا للقرار"
+        },
+        "body": {
+          "fa": "داشبورد بزرگ، دید بهتر نمی‌سازد.\nپیامد اجرایی: درآمد، burn، runway و ماندگاری را با تعریف ثابت و صاحب مشخص دنبال کنید؛ ثبت‌نام را از فعال‌شدن و پرداخت جدا نگه دارید.\nاقدام بعدی: گزارش هفتگی را به یک تغییر، علت آن و تصمیم یا آزمایش بعدی محدود کنید.\nاقتباس آزاد از Tom Blomfield | Y Combinator — https://www.ycombinator.com/library/KR-key-startup-metrics\nhttps://alisodeyfi.ir/articles/key-startup-metrics/fa/#daily-article-reader",
+          "en": "A larger dashboard does not create better visibility.\nImplication: track revenue, burn, runway, and retention with stable definitions and owners; separate signups from activation and payment.\nNext action: limit the weekly review to one change, its cause, and the next decision or experiment.\nFree adaptation of Tom Blomfield | Y Combinator — https://www.ycombinator.com/library/KR-key-startup-metrics\nhttps://alisodeyfi.ir/articles/key-startup-metrics/en/#daily-article-reader",
+          "ar": "لوحة المعلومات الأكبر لا تمنح رؤية أفضل.\nالأثر التنفيذي: تابع الإيراد والحرق والمدى المالي والاحتفاظ بتعريفات ثابتة ومسؤولين واضحين؛ وافصل التسجيل عن التفعيل والدفع.\nالخطوة التالية: احصر المراجعة الأسبوعية في تغير واحد وسببه والقرار أو التجربة التالية.\nمعالجة حرة لتوم بلومفيلد | Y Combinator — https://www.ycombinator.com/library/KR-key-startup-metrics\nhttps://alisodeyfi.ir/articles/key-startup-metrics/ar/#daily-article-reader"
+        }
+      },
+      {
+        "id": "2026-10-11-story-key-startup-metrics",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "key-startup-metrics",
+        "publishAt": "2026-10-11T20:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-10-11T05:44:00+03:30",
+        "note": "Preview only. Verified account/session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "کدام عدد تصمیم را عوض می‌کند؟",
+          "en": "Which number changes a decision?",
+          "ar": "أي رقم يغير القرار؟"
+        },
+        "body": {
+          "fa": "اسلاید ۱: داشبورد بزرگ، دید بهتر نیست.\nاسلاید ۲: چند معیار با تعریف ثابت انتخاب کنید و ماندگاری را کنار درآمد و runway ببینید.\nاسلاید ۳: اقتباس آزاد از Tom Blomfield | https://www.ycombinator.com/library/KR-key-startup-metrics | https://alisodeyfi.ir/articles/key-startup-metrics/fa/#daily-article-reader",
+          "en": "Slide 1: a larger dashboard is not better visibility.\nSlide 2: choose a few stable metrics and review retention beside revenue and runway.\nSlide 3: free adaptation of Tom Blomfield | https://www.ycombinator.com/library/KR-key-startup-metrics | https://alisodeyfi.ir/articles/key-startup-metrics/en/#daily-article-reader",
+          "ar": "الشريحة ۱: لوحة أكبر لا تعني رؤية أفضل.\nالشريحة ۲: اختر مقاييس قليلة ثابتة وراجع الاحتفاظ بجانب الإيراد والمدى المالي.\nالشريحة ۳: معالجة حرة لتوم بلومفيلد | https://www.ycombinator.com/library/KR-key-startup-metrics | https://alisodeyfi.ir/articles/key-startup-metrics/ar/#daily-article-reader"
+        }
+      },
       {
         "id": "2026-10-09-site-a-word-to-the-resourceful",
         "channel": "site",

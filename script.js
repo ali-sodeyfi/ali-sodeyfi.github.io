@@ -455,6 +455,24 @@ const articleCategories = [
 
 const articleCatalog = [
   {
+    title: "Key Startup Metrics",
+    category: "growth",
+    author: "Tom Blomfield",
+    source: "Y Combinator Startup Library",
+    year: "2024",
+    url: "https://www.ycombinator.com/library/KR-key-startup-metrics",
+    tags: {
+      fa: ["معیارهای استارتاپ", "ماندگاری", "باند مالی"],
+      en: ["startup metrics", "retention", "runway"],
+      ar: ["مقاييس الشركات الناشئة", "الاحتفاظ", "المدى المالي"],
+    },
+    summary: {
+      fa: "برداشت آزاد از راهنمای تام بلامفیلد درباره انتخاب چند معیار روشن برای دیدن سلامت واقعی استارتاپ؛ درآمد، سوخت نقدی، runway و ماندگاری را به تصمیم‌های هفتگی وصل کنید.",
+      en: "A free adaptation of Tom Blomfield's guide to choosing a small set of metrics that reveal startup health, then connecting revenue, burn, runway, and retention to weekly decisions.",
+      ar: "معالجة حرة لدليل توم بلومفيلد حول اختيار مجموعة صغيرة من المقاييس التي تكشف صحة الشركة الناشئة وربط الإيراد والحرق والمدى المالي والاحتفاظ بقرارات أسبوعية.",
+    },
+  },
+  {
     title: "A Word to the Resourceful",
     category: "leadership",
     author: "Paul Graham",
@@ -1497,6 +1515,77 @@ const articleCatalog = [
 ];
 
 const articleEssays = {
+  "Key Startup Metrics": {
+    fa: {
+      paragraphs: [
+        "معیارها برای پر کردن داشبورد نیستند؛ ابزار دیدن و انتخاب‌کردن‌اند. برداشت آزاد این نوشته از راهنمای تام بلامفیلد در کتابخانه Y Combinator یک پرسش ساده دارد: اگر امروز فقط چند عدد در اختیار تیم باشد، کدام عدد به تصمیم بعدی کمک می‌کند؟ عدد بزرگ بدون تعریف، بازه زمانی و مسئول، بیشتر از آنکه اطلاعات بدهد، بهانه‌ای برای داستان‌سازی است.",
+        "برای بیشتر کسب‌وکارهای اشتراکی، درآمد، burn و runway نقطه شروع مناسبی هستند. درآمد نشان می‌دهد مشتری برای چه چیزی پول می‌دهد؛ burn مقدار خالص نقدینگی مصرف‌شده در یک ماه است؛ runway نشان می‌دهد با موجودی و burn فعلی چند ماه فرصت داریم. این سه عدد را در گزارش مدیران ابتدای صفحه بگذارید و تعریفشان را ثابت نگه دارید. اگر یک ماه gross و ماه بعد net را گزارش کنید، تغییر ظاهری عدد جای تغییر واقعی را می‌گیرد.",
+        "بعد از این پایه، ماندگاری را به تفکیک cohort بررسی کنید. از صد مشتری که در یک ماه شروع کرده‌اند چند نفر در ماه‌های بعد هنوز فعال یا پرداخت‌کننده‌اند؟ میانگین کلی می‌تواند افت یک گروه تازه را پنهان کند، پس گروه‌ها را با تاریخ شروع و نوع مشتری جدا کنید. برای محصول مصرفی ممکن است کاربر فعال معیار اصلی باشد؛ برای محصول سازمانی، درآمد تکرارشونده و تعداد حساب‌های در حال استفاده تصویر دقیق‌تری می‌دهد.",
+        "هر معیار باید صاحب، منبع داده و دوره گزارش داشته باشد. اگر تیم برای تهیه عدد مجبور است چند فایل دستی را به هم بچسباند، اول یک تعریف کوچک و قابل تکرار بسازید؛ داشبورد پیچیده مشکل داده بی‌کیفیت را حل نمی‌کند. در کنار عدد نتیجه، یک عدد توضیح‌دهنده هم نگه دارید: افزایش ثبت‌نام بدون فعال‌شدن، یا رشد ارزش تراکنش بدون رشد درآمد، ممکن است فقط ظاهر پیشرفت باشد.",
+        "از دو افراط دوری کنید: گزارش‌نکردن عدد بد و ساختن صدها معیار برای هر تصمیم. عدد ضعیف اگر بالای گزارش باشد، گفت‌وگو را به مسئله واقعی برمی‌گرداند و runway را قابل مدیریت می‌کند. در مقابل، معیارهای زیاد به تیم اجازه می‌دهند هر بار عدد مناسب داستان خود را انتخاب کند. یک جلسه هفتگی را به سه پرسش محدود کنید: چه چیزی تغییر کرده، چرا تغییر کرده، و این هفته کدام آزمایش یا تصمیم باید آن را روشن‌تر کند؟",
+        "در پایان هر ماه، معیارها را با تصمیمی که قرار بود پشتیبانی کنند مقایسه کنید. اگر عددی هیچ تصمیمی را تغییر نمی‌دهد، حذف یا کم‌اولویت شود. اگر عددی دائماً محل اختلاف است، تعریف و منبع داده‌اش را مکتوب کنید و یک نفر را مسئول اصلاح آن بگذارید. سلامت استارتاپ از تعداد نمودارها نمی‌آید؛ از این می‌آید که تیم بتواند منابع محدود را به مسئله درست منتقل کند و پیش از تمام‌شدن runway بفهمد چه چیزی باید عوض شود.",
+      ],
+      takeaways: [
+        "درآمد، burn و runway را با تعریف ثابت در ابتدای گزارش مدیران بیاورید.",
+        "ماندگاری را بر اساس cohort و نوع مشتری بسنجید، نه فقط با میانگین کل.",
+        "برای هر معیار یک صاحب، منبع داده و دوره گزارش مشخص کنید.",
+        "ثبت‌نام، فعالیت و پرداخت را از هم جدا کنید تا رشد ظاهری جای سلامت واقعی را نگیرد.",
+        "گزارش هفتگی را به تغییر، علت و تصمیم یا آزمایش بعدی محدود کنید.",
+        "هر معیاری را که به هیچ تصمیمی وصل نیست حذف یا کم‌اولویت کنید.",
+      ],
+      advice: [
+        "یک صفحه گزارش بسازید که سه عدد مالی و یک جدول cohort در آن ثابت بماند.",
+        "برای هر عدد کنار مقدار، بازه زمانی، تعریف و مسئول به‌روزرسانی را بنویسید.",
+        "پیش از ساخت داشبورد تازه، یک هفته داده خام را با تصمیم واقعی تیم تطبیق دهید.",
+      ],
+    },
+    en: {
+      paragraphs: [
+        "Metrics are for seeing and choosing, not for filling a dashboard. This free adaptation of Tom Blomfield's YC guide starts with a practical question: if the team could see only a few numbers today, which ones would change the next decision? A large number without a definition, time window, and owner is an invitation to tell a story rather than evidence.",
+        "For many subscription businesses, revenue, burn, and runway are a useful base. Revenue shows what customers pay for; burn is the net cash consumed in a month; runway is the time the current cash balance can support the current burn. Put those three numbers at the top of the operating update and keep their definitions stable. Switching between gross and net can create apparent progress where none exists.",
+        "Then inspect retention by cohort. Of the customers who started in one month, how many are still active or paying later? A single average can hide a weak new cohort, so segment by start date and customer type. An early consumer product may watch active users; a B2B product may need recurring revenue and active accounts. The right metric follows the business model and the decision it must support.",
+        "Every metric needs an owner, a data source, and a reporting period. If producing a number requires stitching together several manual files, first create a small repeatable definition; a complex dashboard cannot repair unreliable data. Keep one explanatory measure beside the outcome measure. More signups without activation, or higher transaction value without more revenue, can be a change in appearance rather than health.",
+        "Avoid both hiding a bad number and tracking hundreds of numbers. A visible weak metric brings the conversation back to the constraint and makes runway manageable. Too many metrics let each meeting select the number that fits its preferred story. Limit the weekly review to three questions: what changed, why did it change, and what decision or experiment will make the next change clearer?",
+        "At month end, compare each metric with the decision it was meant to support. Drop or demote metrics that never change a decision. When a number is disputed, document its definition and source and assign someone to repair the data. Startup health does not come from more charts; it comes from moving limited resources toward the right problem before runway is gone.",
+      ],
+      takeaways: [
+        "Put revenue, burn, and runway at the top of the operating update with stable definitions.",
+        "Review retention by cohort and customer type instead of relying on one average.",
+        "Give every metric an owner, source, and reporting period.",
+        "Separate signups, activation, usage, and payment so apparent growth is testable.",
+        "Use the weekly review to connect a change and its cause to one next decision.",
+        "Drop metrics that never influence a decision.",
+      ],
+      advice: [
+        "Keep one page with the three financial numbers and a fixed cohort table.",
+        "Write the definition, time window, and owner beside every reported value.",
+        "Before building a new dashboard, match one week of raw data to a real team decision.",
+      ],
+    },
+    ar: {
+      paragraphs: [
+        "المقاييس وسيلة للرؤية واتخاذ القرار، وليست طريقة لملء لوحة معلومات. تبدأ هذه المعالجة الحرة لدليل توم بلومفيلد في مكتبة Y Combinator بسؤال عملي: لو أمكن للفريق رؤية بضعة أرقام فقط اليوم، فأيها سيغير القرار التالي؟ الرقم الكبير بلا تعريف وفترة زمنية ومسؤول يتحول إلى مادة لرواية مريحة بدل أن يكون دليلا.",
+        "بالنسبة إلى كثير من الأعمال القائمة على الاشتراك، يشكل الإيراد والحرق النقدي والمدى المالي نقطة بداية مفيدة. يوضح الإيراد ما الذي يدفع العملاء مقابله، ويبين الحرق صافي النقد المستهلك خلال شهر، ويقدر المدى المالي عدد الأشهر التي يسمح بها الرصيد الحالي مع الحرق الحالي. ضع هذه الأرقام الثلاثة في أعلى التقرير التشغيلي وحافظ على تعريفاتها؛ فالتبديل بين الإجمالي والصافي قد يصنع تقدما ظاهريا.",
+        "بعد ذلك افحص الاحتفاظ بحسب مجموعة البداية. من العملاء الذين بدأوا في شهر معين، كم بقي نشطا أو دافعا في الأشهر التالية؟ قد يخفي المتوسط الواحد ضعف مجموعة جديدة، لذلك افصل المجموعات حسب تاريخ البدء ونوع العميل. قد تراقب الشركة الاستهلاكية المستخدمين النشطين، بينما تحتاج شركة الأعمال إلى الإيراد المتكرر والحسابات المستخدمة. المقياس الصحيح يتبع نموذج العمل والقرار المطلوب.",
+        "يحتاج كل مقياس إلى مسؤول ومصدر بيانات وفترة تقرير. إذا تطلب استخراج الرقم جمع ملفات يدوية، فابدأ بتعريف صغير قابل للتكرار؛ لوحة معقدة لا تصلح بيانات غير موثوقة. احتفظ بمقياس يفسر النتيجة إلى جانب مقياس النتيجة نفسها. زيادة التسجيل بلا تفعيل، أو ارتفاع قيمة المعاملة بلا زيادة الإيراد، قد تكون تغيرا في المظهر لا في الصحة.",
+        "تجنب إخفاء الرقم الضعيف وتتبع مئات الأرقام في الوقت نفسه. الرقم الضعيف الظاهر يعيد النقاش إلى القيد الحقيقي ويجعل المدى المالي قابلا للإدارة. أما كثرة المقاييس فتسمح باختيار الرقم الذي يخدم قصة الاجتماع. احصر المراجعة الأسبوعية في ثلاثة أسئلة: ما الذي تغير، ولماذا تغير، وما القرار أو التجربة التي ستوضح التغير التالي؟",
+        "في نهاية الشهر، قارن كل مقياس بالقرار الذي كان يفترض أن يدعمه. احذف أو خفّض أولوية المقياس الذي لا يغير أي قرار. وعندما يختلف الفريق حول رقم، اكتب تعريفه ومصدره وحدد مسؤولا لإصلاح البيانات. صحة الشركة الناشئة لا تأتي من كثرة الرسوم؛ بل من نقل الموارد المحدودة إلى المشكلة الصحيحة قبل نفاد المدى المالي.",
+      ],
+      takeaways: [
+        "ضع الإيراد والحرق والمدى المالي في أعلى التقرير بتعريفات ثابتة.",
+        "راجع الاحتفاظ بحسب مجموعة البداية ونوع العميل بدلا من متوسط واحد.",
+        "حدد مسؤولا ومصدرا وفترة تقرير لكل مقياس.",
+        "افصل التسجيل والتفعيل والاستخدام والدفع حتى يمكن اختبار النمو الظاهري.",
+        "اربط المراجعة الأسبوعية بالتغير وسببه وقرار تال واحد.",
+        "احذف المقياس الذي لا يؤثر في أي قرار.",
+      ],
+      advice: [
+        "احتفظ بصفحة واحدة تضم الأرقام المالية الثلاثة وجدول مجموعات ثابتا.",
+        "اكتب التعريف والفترة والمسؤول بجانب كل قيمة في التقرير.",
+        "قبل بناء لوحة جديدة، طابق بيانات أسبوع خام مع قرار حقيقي للفريق.",
+      ],
+    },
+  },
   "A Word to the Resourceful": {
     fa: {
       paragraphs: [
