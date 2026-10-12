@@ -455,6 +455,36 @@ const articleCategories = [
 
 const articleCatalog = [
   {
+    "title": "How To Pick A Startup Idea",
+    "category": "ideas",
+    "author": "Jon Xu",
+    "source": "Y Combinator Startup Library",
+    "year": "2026",
+    "url": "https://www.ycombinator.com/library/Ri-how-to-pick-a-startup-idea",
+    "tags": {
+      "fa": [
+        "انتخاب ایده",
+        "مرجوعی سفارش",
+        "تصمیم آزمایش"
+      ],
+      "en": [
+        "idea selection",
+        "order returns",
+        "trial decisions"
+      ],
+      "ar": [
+        "اختيار الفكرة",
+        "مرتجعات الطلبات",
+        "قرارات التجربة"
+      ]
+    },
+    "summary": {
+      "fa": "انتخاب ایده را به یک تصمیم قابل بررسی تبدیل کنید: اقتباسی کوتاه و تمرین مستقل درباره مرجوعی سفارش، با ثبت علت توقف، تعیین مسئول و تصمیم ادامه یا تغییر آزمایش.",
+      "en": "Make an idea choice reviewable: a short adaptation and an independent order-returns exercise with stalled-case records, ownership, and a decision to continue or change the trial.",
+      "ar": "حول اختيار الفكرة إلى قرار قابل للمراجعة: معالجة موجزة وتمرين مستقل حول مرتجعات الطلبات، يسجل أسباب التعطل والمسؤوليات وقرار استمرار التجربة أو تعديلها."
+    }
+  },
+  {
     title: "Key Startup Metrics",
     category: "growth",
     author: "Tom Blomfield",
@@ -1515,6 +1545,65 @@ const articleCatalog = [
 ];
 
 const articleEssays = {
+  "How To Pick A Startup Idea": {
+    "fa": {
+      "paragraphs": [
+        "ایده مناسب فقط با مقایسه ذهنی پیدا نمی‌شود؛ انتخاب یک مسیر و یادگیری عمیق از مشتری، امکان کشف مسئله بهتر را فراهم می‌کند. این برداشت کوتاه از منبع، نقطه شروع تمرین مستقل زیر است. فرض کنید تیمی میان دو محصول مردد است: ابزار مدیریت مرجوعی فروشگاه و ابزار نوشتن توضیح کالا. برای مقایسه، ابتدا یک سؤال محدود درباره مرجوعی تعریف می‌کنیم: چرا بعضی پرونده‌ها چند روز بدون تصمیم می‌مانند؟ این مثال و روش اجرایی، پیشنهاد این نوشته‌اند و گزارش تجربه نویسنده اصلی نیستند.",
+        "پیش از نوشتن برنامه، محدوده پرونده را روشن کنید. در فروشگاه فرضی، «درخواست مرجوعی»، «تأیید درخواست» و «بازپرداخت انجام‌شده» سه رویداد جدا هستند. اگر فقط زمان آخرین پاسخ پشتیبانی را بسنجید، ممکن است مشتری جواب گرفته باشد اما پولش همچنان معطل بماند. با رضایت مسئول فروشگاه، چند پرونده بسته‌شده را بدون اطلاعات هویتی مرور کنید و زمان هر رویداد، فرد مسئول و دلیل توقف را بنویسید. تعداد پرونده‌ها را با ظرفیت مرور تعیین کنید؛ این مرور کوچک، برآورد آماری کل بازار نیست.",
+        "برای هر توقف، توضیحی بنویسید که بتوان آن را بررسی کرد. «فرایند بد است» چیزی را روشن نمی‌کند؛ «کارشناس منتظر تأیید سلامت کالا از انبار بوده» قابل پیگیری است. در یک جدول، گفته کارشناس، شاهد موجود و پرسش باز را جدا نگه دارید. ممکن است تیم ابتدا مشکل را نبود اعلان بداند، اما معلوم شود کسی اختیار تأیید ندارد یا سیاست پذیرش کالای بازشده مبهم است. این سه علت به سه مداخله متفاوت نیاز دارند. قبل از پیشنهاد ابزار، مشخص کنید کدام علت در پرونده‌های مرورشده دیده شده و کدام فقط حدس شماست.",
+        "آزمایش نخست را به یک مانع مشخص محدود کنید. اگر مسئول تصمیم معلوم نیست، می‌توان برای یک شیفت آزمایشی، مالک هر پرونده و موعد بررسی بعدی را در یک جدول ساده ثبت کرد. مسئول فروشگاه باید این تغییر را بپذیرد و روال بازپرداخت واقعی همان مسیر مجاز قبلی را طی کند. پیش از شروع، معیار را بنویسید: چند پرونده در موعد تعیین‌شده تصمیم روشن گرفته‌اند؟ زمان صرف‌شده برای پیگیری و تعداد ارجاع اشتباه را هم ثبت کنید تا سرعت ظاهری با انتقال کار به دیگران اشتباه نشود. کمک دستی تیم سازنده باید در گزارش قابل مشاهده باشد.",
+        "نتیجه آزمایش را به تصمیم محصول وصل کنید. اگر جدول مسئولیت زمان انتظار را کم کرد، هنوز نیاز به ساخت یک سامانه کامل اثبات نشده است؛ شاید همان تغییر روال کافی باشد. اگر پرونده‌ها با وجود مسئول مشخص متوقف ماندند، علت جدید را ثبت کنید و همان آزمایش را بی‌هدف تکرار نکنید. از مسئول عملیات بخواهید بگوید کدام بخش را حاضر است در شیفت بعد هم ادامه دهد و چه هزینه‌ای برای نگهداری آن می‌پذیرد. ادامه استفاده با مسئولیت مشخص، داده متفاوتی از پسندیدن یک نمایش محصول است؛ هر دو را جدا گزارش کنید.",
+        "در پایان، یک یادداشت تصمیم بنویسید: سؤال اولیه چه بود، چه پرونده‌هایی بررسی شد، چه چیزی تغییر کرد و چه چیزی هنوز نامعلوم است؟ برای ادامه، تغییر یا پایان آزمایش یک مسئول و موعد بگذارید. همچنین ثبت کنید چه شاهدی می‌تواند انتخاب فعلی را عوض کند؛ مثلاً روشن شود مانع اصلی قرارداد تأمین‌کننده است و ابزار داخلی اختیاری برای حل آن ندارد. انتخاب امروز تعهد به یادگیری در یک محدوده مشخص است. خروجی ارزشمند این تمرین، فهرستی بلند از امکانات نیست؛ توضیحی قابل دفاع برای تصمیم بعدی تیم است."
+      ],
+      "takeaways": [
+        "درخواست، تأیید و بازپرداخت را رویدادهای جدا تعریف کنید و زمان هرکدام را ثبت کنید.",
+        "گفته کارشناس، شاهد پرونده و حدس تیم را در ستون‌های جدا نگه دارید.",
+        "نبود اعلان، ابهام اختیار و ابهام سیاست را پیش از انتخاب راه‌حل از هم تفکیک کنید.",
+        "در آزمایش محدود، مسئول پرونده و موعد تصمیم بعدی را مشخص کنید.",
+        "زمان پیگیری و کمک دستی را کنار سرعت تصمیم ثبت کنید تا هزینه پنهان دیده شود.",
+        "پیش از ساخت سامانه، بررسی کنید آیا تغییر ساده روال برای ادامه استفاده کافی است."
+      ],
+      "advice": [
+        "شناخت کار مشتری و تحویل محصول را هم‌زمان در چرخه‌های کوتاه پیش ببرید."
+      ]
+    },
+    "en": {
+      "paragraphs": [
+        "An idea becomes clearer through commitment and deep customer learning, rather than comparison in the abstract. That is the brief source-derived starting point for the independent exercise below. Imagine a team choosing between a returns-management tool and a product-description tool. Investigate a specific returns question first: why do some cases wait several days for a decision? This fictional exercise is our own operating proposal, not a case reported in the source.",
+        "Define a request, an approval, and a completed refund as separate events. With the store operator’s permission, review a small set of closed cases without personal customer details. Record event times, owners, and reasons for waiting. Keep staff statements separate from documentary evidence and open questions. A missing notification, missing authority, and an unclear returns policy require different interventions. The cases establish the scope of this review, not a statistical estimate of the market.",
+        "Try one bounded change if ownership is the observed obstacle: for one shift, record a named owner and the next review time for each case. Obtain the operator’s agreement and keep refunds on the existing authorized route. Set the outcome before starting: how many cases receive a clear decision by the agreed time? Record follow-up effort, incorrect referrals, and any manual assistance from the builders alongside that result. Faster decisions that transfer more work to another team may be a poor trade.",
+        "At review, decide whether to continue the process change, investigate a different obstacle, or end the trial. A useful table does not establish demand for a full software platform; it may already solve the problem. Ask which part the operator will keep using and who will maintain it next shift. Write the evidence, remaining uncertainty, next owner, and review date into a decision note. Include what could reverse the choice, such as finding that supplier contract terms control the delay."
+      ],
+      "takeaways": [
+        "Separate requests, approvals, and completed refunds before measuring waiting time.",
+        "Distinguish missing notifications, authority, and policy in the case record.",
+        "Log manual assistance and follow-up effort alongside the trial outcome.",
+        "Check whether a process change is sufficient before committing to a software platform.",
+        "Close the review with a decision owner and evidence that could reverse the choice."
+      ],
+      "advice": [
+        "Alternate customer learning and product delivery in short cycles."
+      ]
+    },
+    "ar": {
+      "paragraphs": [
+        "تتضح الفكرة عبر الالتزام بمسار والتعلم العميق من العميل، أكثر مما تتضح بالمقارنة المجردة. هذه هي نقطة الانطلاق الموجزة من المصدر للتمرين المستقل التالي. تخيل فريقا يختار بين أداة لإدارة المرتجعات وأداة لكتابة وصف المنتجات. ابدأ بسؤال محدد عن المرتجعات: لماذا تنتظر بعض الملفات أياما قبل اتخاذ قرار؟ هذا المثال وطريقة تنفيذه اقتراح من هذه المعالجة، وليسا تجربة يرويها صاحب المصدر.",
+        "عرّف طلب الإرجاع والموافقة عليه وإتمام رد المبلغ كأحداث منفصلة. بإذن مسؤول المتجر، راجع مجموعة صغيرة من الملفات المغلقة بعد إزالة بيانات العملاء الشخصية. سجل وقت كل حدث والمسؤول وسبب الانتظار. افصل أقوال الموظفين عن الأدلة المسجلة والأسئلة المفتوحة. غياب الإشعار وغياب الصلاحية وغموض سياسة الإرجاع مشكلات تستلزم تدخلات مختلفة. تحدد الملفات نطاق المراجعة، ولا تمثل تقديرا إحصائيا للسوق كله.",
+        "إذا كان غموض المسؤولية هو العائق المرصود، اختبر تغييرا محدودا خلال وردية واحدة: اسم مسؤول كل ملف وموعد مراجعته التالية في جدول بسيط. اتفق مع مسؤول المتجر على التجربة وأبق رد الأموال ضمن المسار المعتمد. حدد النتيجة مسبقا: كم ملفا حصل على قرار واضح في الموعد المتفق عليه؟ سجل وقت المتابعة والإحالات الخاطئة والمساعدة اليدوية من الفريق بجانب النتيجة؛ فقد تخفي سرعة القرار نقل عبء أكبر إلى فريق آخر.",
+        "في المراجعة، اختر استمرار تعديل الإجراء أو فحص عائق آخر أو إنهاء التجربة. نجاح الجدول لا يثبت الحاجة إلى منصة برمجية كاملة؛ ربما يكفي هذا التعديل. اسأل المسؤول أي جزء سيواصل استخدامه ومن سيتولى صيانته في الوردية التالية. اكتب الدليل وما بقي مجهولا والمسؤول التالي وموعد المراجعة في مذكرة قرار. أضف ما قد يغير الاختيار، مثل اكتشاف أن شروط عقد المورد هي التي تتحكم في التأخير."
+      ],
+      "takeaways": [
+        "افصل طلب الإرجاع والموافقة ورد المبلغ قبل قياس الانتظار.",
+        "ميز غياب الإشعار والصلاحية والسياسة في سجل الحالة.",
+        "سجل المساعدة اليدوية ووقت المتابعة بجانب نتيجة التجربة.",
+        "افحص كفاية تعديل الإجراء قبل الالتزام ببناء منصة برمجية.",
+        "اختم المراجعة بمسؤول قرار ودليل يمكن أن يغير الاختيار."
+      ],
+      "advice": [
+        "اربط تعلم احتياجات العميل بتسليم المنتج في دورات قصيرة."
+      ]
+    }
+  },
   "Key Startup Metrics": {
     fa: {
       paragraphs: [

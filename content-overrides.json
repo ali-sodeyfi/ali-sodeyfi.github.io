@@ -226,6 +226,55 @@
     "timezone": "Asia/Tehran",
     "queue": [
       {
+        "id": "2026-10-12-site-how-to-pick-a-startup-idea",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "how-to-pick-a-startup-idea",
+        "publishAt": "2026-10-12T05:52:00+03:30",
+        "status": "published",
+        "publishedAt": "2026-10-12T05:52:00+03:30"
+      },
+      {
+        "id": "2026-10-12-linkedin-how-to-pick-a-startup-idea",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "how-to-pick-a-startup-idea",
+        "publishAt": "2026-10-12T12:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-10-12T05:52:00+03:30",
+        "note": "Draft/preview only. Verified account/API or session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "تأخیر مرجوعی همیشه مسئله نرم‌افزار نیست",
+          "en": "A delayed return may need a process decision",
+          "ar": "تأخر المرتجع قد يحتاج قرارا إجرائيا"
+        },
+        "body": {
+          "fa": "تأخیر مرجوعی ممکن است از اختیار نامشخص بیاید.\nپیامد: ساخت اعلان تازه، مسئول تصمیم را تعیین نمی‌کند.\nاقدام بعدی: در یک شیفت، مسئول و موعد بررسی هر پرونده را ثبت کنید و زمان پیگیری را کنار نتیجه بسنجید.\nتمرین مستقل و اقتباس کوتاه | Jon Xu — https://www.ycombinator.com/library/Ri-how-to-pick-a-startup-idea\nhttps://alisodeyfi.ir/articles/how-to-pick-a-startup-idea/fa/#daily-article-reader",
+          "en": "A returns delay may come from unclear authority.\nImplication: adding notifications does not assign a decision owner.\nNext action: record each case’s owner and review time for one shift; measure follow-up effort alongside the outcome.\nIndependent exercise and short adaptation | Jon Xu — https://www.ycombinator.com/library/Ri-how-to-pick-a-startup-idea\nhttps://alisodeyfi.ir/articles/how-to-pick-a-startup-idea/en/#daily-article-reader",
+          "ar": "قد يأتي تأخر المرتجع من غموض الصلاحية.\nالأثر: إضافة إشعار لا تحدد مسؤول القرار.\nالخطوة التالية: سجل مسؤول كل ملف وموعد مراجعته لوردية واحدة، وقس جهد المتابعة بجانب النتيجة.\nتمرين مستقل ومعالجة موجزة | Jon Xu — https://www.ycombinator.com/library/Ri-how-to-pick-a-startup-idea\nhttps://alisodeyfi.ir/articles/how-to-pick-a-startup-idea/ar/#daily-article-reader"
+        }
+      },
+      {
+        "id": "2026-10-12-story-how-to-pick-a-startup-idea",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "how-to-pick-a-startup-idea",
+        "publishAt": "2026-10-12T20:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-10-12T05:52:00+03:30",
+        "note": "Draft/preview only. Verified account/API or session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "تأخیر مرجوعی همیشه مسئله نرم‌افزار نیست",
+          "en": "A delayed return may need a process decision",
+          "ar": "تأخر المرتجع قد يحتاج قرارا إجرائيا"
+        },
+        "body": {
+          "fa": "اسلاید ۱: تأخیر مرجوعی می‌تواند از اختیار نامشخص باشد.\nاسلاید ۲: در یک شیفت مسئول و موعد تصمیم را ثبت کنید؛ هزینه پیگیری را هم بسنجید.\nاسلاید ۳: تمرین مستقل و اقتباس کوتاه | Jon Xu — https://www.ycombinator.com/library/Ri-how-to-pick-a-startup-idea\nhttps://alisodeyfi.ir/articles/how-to-pick-a-startup-idea/fa/#daily-article-reader",
+          "en": "Slide 1: unclear authority can delay returns.\nSlide 2: record owners and decision times for one shift; measure follow-up effort too.\nSlide 3: independent exercise and short adaptation | Jon Xu — https://www.ycombinator.com/library/Ri-how-to-pick-a-startup-idea\nhttps://alisodeyfi.ir/articles/how-to-pick-a-startup-idea/en/#daily-article-reader",
+          "ar": "الشريحة ۱: غموض الصلاحية قد يؤخر المرتجعات.\nالشريحة ۲: سجل المسؤول والموعد لوردية واحدة؛ قس جهد المتابعة أيضا.\nالشريحة ۳: تمرين مستقل ومعالجة موجزة | Jon Xu — https://www.ycombinator.com/library/Ri-how-to-pick-a-startup-idea\nhttps://alisodeyfi.ir/articles/how-to-pick-a-startup-idea/ar/#daily-article-reader"
+        }
+      },
+      {
         "id": "2026-10-11-site-key-startup-metrics",
         "channel": "site",
         "target": "site",
