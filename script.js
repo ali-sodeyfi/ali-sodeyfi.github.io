@@ -455,6 +455,36 @@ const articleCategories = [
 
 const articleCatalog = [
   {
+    "title": "Holding a Program in One's Head",
+    "category": "building",
+    "author": "Paul Graham",
+    "source": "Paul Graham",
+    "year": "2007",
+    "url": "https://paulgraham.com/head.html",
+    "tags": {
+      "fa": [
+        "فهم محصول",
+        "دوباره‌کاری",
+        "مالکیت تصمیم"
+      ],
+      "en": [
+        "product understanding",
+        "rework",
+        "decision ownership"
+      ],
+      "ar": [
+        "فهم المنتج",
+        "إعادة العمل",
+        "مسؤولية القرار"
+      ]
+    },
+    "summary": {
+      "fa": "فهم مشترک پیش از تغییر محصول: اقتباسی کوتاه و تمرین مستقل برای تیم نرم‌افزار نوبت‌دهی؛ ثبت قواعد، سنجش اختلاف برداشت و تصمیم درباره دوباره‌کاری.",
+      "en": "Understanding before changing a product: a short adaptation and an independent booking-software exercise covering rules, interpretation gaps, and rework decisions.",
+      "ar": "الفهم قبل تعديل المنتج: معالجة موجزة وتمرين مستقل لفريق برنامج حجز المواعيد، لتسجيل القواعد وقياس اختلاف الفهم واتخاذ قرار بشأن إعادة العمل."
+    }
+  },
+  {
     "title": "How To Pick A Startup Idea",
     "category": "ideas",
     "author": "Jon Xu",
@@ -1545,6 +1575,69 @@ const articleCatalog = [
 ];
 
 const articleEssays = {
+  "Holding a Program in One's Head": {
+    "fa": {
+      "paragraphs": [
+        "وقتی سازنده تصویر منسجمی از برنامه در ذهن دارد، تغییر دادن آن آسان‌تر می‌شود؛ وقفه‌ها می‌توانند این فهم را از بین ببرند. این برداشت کوتاه از مقاله، نقطه شروع تمرین مستقل زیر است: یک تیم فرضی نرم‌افزار نوبت‌دهی می‌خواهد امکان جابه‌جایی نوبت را اضافه کند. مسئله مدیریتی ما این است که چگونه پیش از تحویل، اختلاف برداشت درباره رفتار محصول را آشکار کنیم. مثال، روش اجرا و معیارهای زیر پیشنهاد این نوشته‌اند و گزارش تجربه نویسنده اصلی نیستند.",
+        "در این مثال، فروش وعده داده مشتری بتواند زمان نوبت را عوض کند، اما پشتیبانی می‌داند بعضی خدمات به اتاق و تجهیز مشترک وابسته‌اند. برنامه‌نویس فقط آزاد بودن تقویم کارشناس را بررسی کرده است. هر سه نفر ممکن است کار خود را درست انجام داده باشند، ولی محصول هنوز می‌تواند دو رزرو ناسازگار بسازد. پیش از افزودن گزینه تازه، یک مسیر کامل را روی کاغذ دنبال کنید: درخواست تغییر، بررسی ظرفیت، ثبت زمان تازه و اطلاع‌رسانی. کنار هر مرحله بنویسید چه چیزی باید پیش از رفتن به مرحله بعد درست باشد و چه کسی می‌تواند درباره استثنا تصمیم بگیرد.",
+        "برای گفت‌وگو از چند پرونده ساختگی استفاده کنید تا اطلاعات مشتری لازم نباشد. یک پرونده عادی، یک درخواست هم‌زمان برای آخرین ظرفیت و یک انصراف هنگام تغییر زمان کافی است تا بحث از عبارت مبهم «نوبت قابل ویرایش باشد» فاصله بگیرد. از محصول، پشتیبانی و مهندسی بخواهید پیش از جلسه، نتیجه مورد انتظار هر پرونده را جدا بنویسند. اختلاف پاسخ‌ها را به‌عنوان نقص فردی گزارش نکنید؛ آن‌ها پرسش‌های باز درباره قاعده محصول هستند. برای هر اختلاف مشخص کنید تصمیم لازم است، اطلاعات کم است یا رفتار موجود نرم‌افزار باید بررسی شود.",
+        "سپس فقط یک اختلاف را برای اصلاح انتخاب کنید. فرض کنیم هنوز روشن نیست در صورت پرشدن زمان جدید، نوبت قبلی حفظ می‌شود یا نه. مسئول محصول باید قاعده را تعیین کند و مسئول پیاده‌سازی اثر آن را بر پیام خطا و داده ذخیره‌شده بررسی کند. درخواست‌های تازه درباره ظاهر صفحه را در فهرستی جدا ثبت کنید تا معیار پذیرش این تغییر وسط کار عوض نشود. زمان محدودی برای بازبینی مشترک بگذارید و خروجی را به نتیجه سه پرونده وصل کنید؛ تعداد جلسه یا تعداد کارهای بسته‌شده نشان نمی‌دهد قاعده درست اجرا شده است.",
+        "پس از اصلاح، فردی که تغییر را ننوشته همان پرونده‌ها را اجرا کند و نتیجه دیده‌شده را کنار نتیجه مورد انتظار بگذارد. اگر نیاز به توضیح شفاهی سازنده دارد، آن توضیح را ثبت کنید؛ شاید پیام محصول یا تعریف قاعده هنوز کافی نیست. زمان صرف‌شده برای اصلاح خطا را از زمان صرف‌شده برای تصمیم تازه جدا نگه دارید. این تفکیک کمک می‌کند مدیر بداند تأخیر از نقص اجرا آمده یا از تصمیمی که دیر گرفته شده است. یک هفته داده برای حکم کلی درباره بهره‌وری تیم کافی نیست، اما می‌تواند علت یک دوباره‌کاری مشخص را روشن کند.",
+        "در پایان، یک یادداشت کوتاه همراه تغییر نگه دارید: قاعده پذیرفته‌شده، پرونده‌های بررسی‌شده، پرسش باز و مسئول بازبینی بعدی. اگر آزمایش نشان داد تیم بر سر ظرفیت توافق ندارد، افزودن قابلیت‌های دیگر را به حل همان ابهام وابسته کنید. اگر قاعده روشن و رفتار درست بود، تغییر را طبق روال انتشار تیم پیش ببرید. معیار موفقیت این تمرین، امکان توضیح و بررسی یک تصمیم محصول توسط نفر بعدی است. هدف اجرایی هفته آینده را نیز محدود نگه دارید: پیدا کردن یک اختلاف برداشت پیش از آنکه به شکایت مشتری یا اصلاح عجولانه تبدیل شود."
+      ],
+      "takeaways": [
+        "مسیر تغییر نوبت را مرحله‌به‌مرحله بنویسید و شرط عبور از هر مرحله را مشخص کنید.",
+        "برای کشف اختلاف برداشت، پاسخ افراد به پرونده‌های ساختگی را پیش از جلسه جدا بگیرید.",
+        "ابهام قاعده، کمبود اطلاعات و نقص پیاده‌سازی را جدا ثبت کنید.",
+        "یک اختلاف را انتخاب کنید و مسئول تصمیم و مسئول اجرای آن را مشخص کنید.",
+        "نتیجه مورد انتظار را با مشاهده فردی غیر از سازنده مقایسه کنید.",
+        "زمان اصلاح خطا را از زمان تصمیم‌گیری تازه جدا بسنجید."
+      ],
+      "advice": [
+        "برای بازبینی بعدی سه پرونده آماده کنید: تغییر عادی، رقابت بر سر ظرفیت و انصراف میان کار.",
+        "کنار هر پرسش باز، نام نقش مسئول و موعد پاسخ را بنویسید.",
+        "یادداشت قاعده و نتیجه بررسی را در همان محل پیگیری تغییر نگه دارید."
+      ]
+    },
+    "en": {
+      "paragraphs": [
+        "A coherent mental model makes a program easier to change; interruptions can disrupt that understanding. This short adaptation introduces an independent exercise for a fictional appointment-software team. Its workflow and measures are proposals of this article, not examples reported by the original author. The team wants to let customers reschedule appointments. Before delivery, it needs to discover whether sales, support, and engineering expect the same behavior.",
+        "Sales has promised editable appointments, while support knows that some services share a room or equipment. An engineer checks only the staff calendar. Map the request from the proposed time through capacity checks, saving, and notification. For each step, record what must remain true. Ask each role to predict the outcome of three invented cases independently: a normal change, competing requests for the final slot, and cancellation midway through a change. Compare answers before discussing implementation; an unexplained difference is an open product question.",
+        "Choose one difference to resolve. If the new slot becomes unavailable, should the old appointment remain? Assign someone to decide the rule and someone to implement it. Keep unrelated display requests outside this change’s acceptance criteria. Have a person who did not write the change run the cases and record actual versus expected outcomes, including any verbal help needed. Separate time spent repairing an implementation error from time spent settling a newly discovered policy question.",
+        "Keep a brief decision record with the accepted rule, checked cases, open question, and next review owner. If capacity rules remain disputed, resolve that dependency before expanding the feature. If behavior matches the agreed rule, use the team’s normal release process. This exercise should produce one reviewable decision and an explanation of one source of rework. A week of observations is not enough to rank team productivity; it can still reveal a misunderstanding before customers encounter it."
+      ],
+      "takeaways": [
+        "Map the whole customer change and state the condition at every step.",
+        "Collect independent predictions for invented cases before the review.",
+        "Assign decision and implementation ownership for one unresolved rule.",
+        "Compare observed outcomes with expectations using a reviewer other than the author.",
+        "Separate defect repair from time spent making a new product decision."
+      ],
+      "advice": [
+        "Prepare normal, capacity-conflict, and interrupted-change cases.",
+        "Keep the rule and review evidence with the work item."
+      ]
+    },
+    "ar": {
+      "paragraphs": [
+        "يسهل تعديل البرنامج عندما يملك صانعه تصورا مترابطا عنه، وقد تقطع المقاطعات هذا الفهم. تمهد هذه المعالجة الموجزة لتمرين مستقل يخص فريقا افتراضيا لبرنامج مواعيد. الخطوات والمقاييس هنا اقتراحات هذه المقالة، وليست حالات نقلها الكاتب الأصلي. يريد الفريق السماح للعميل بتغيير موعده، ويحتاج قبل التسليم إلى معرفة ما إذا كانت المبيعات والدعم والهندسة تتوقع السلوك نفسه.",
+        "وعدت المبيعات بإمكان تعديل الموعد، بينما يعرف الدعم أن بعض الخدمات تتشارك غرفة أو جهازا. يفحص المهندس تقويم الموظف فقط. ارسم مسار الطلب من اقتراح الوقت إلى فحص السعة والحفظ والإشعار، وحدد ما يجب أن يبقى صحيحا عند كل خطوة. اطلب من كل دور توقع نتائج ثلاث حالات مصطنعة على حدة: تعديل عادي، وطلبان على آخر موعد متاح، وإلغاء أثناء التعديل. قارن الإجابات قبل مناقشة التنفيذ؛ الاختلاف غير المفسر سؤال مفتوح عن قاعدة المنتج.",
+        "اختر اختلافا واحدا للحسم. إذا لم يعد الوقت الجديد متاحا، فهل يحتفظ العميل بموعده السابق؟ عين مسؤولا عن القاعدة ومسؤولا عن تطبيقها، وأبعد طلبات المظهر غير المرتبطة عن شروط قبول هذا التغيير. ليختبر الحالات شخص لم يكتب التعديل، ويسجل النتيجة الفعلية بجانب المتوقعة وأي شرح شفهي احتاجه. افصل وقت إصلاح خطأ التنفيذ عن وقت حسم سؤال جديد بشأن سياسة الخدمة، حتى يكون سبب التأخير قابلا للفهم.",
+        "احتفظ بمذكرة قرار قصيرة تضم القاعدة المقبولة والحالات المفحوصة والسؤال المفتوح ومسؤول المراجعة التالية. إذا بقي الخلاف حول السعة، فاحسمه قبل توسيع الميزة. وإذا طابق السلوك القاعدة المتفق عليها، فاتبع مسار النشر المعتاد للفريق. ناتج التمرين قرار قابل للمراجعة وتفسير لسبب محدد لإعادة العمل. لا تكفي ملاحظات أسبوع لترتيب إنتاجية الأشخاص، لكنها قد تكشف سوء فهم قبل وصوله إلى العملاء."
+      ],
+      "takeaways": [
+        "ارسم مسار تغيير العميل كاملا وحدد شرط كل خطوة.",
+        "اجمع توقعات مستقلة للحالات المصطنعة قبل المراجعة.",
+        "عين مسؤول القرار ومسؤول التنفيذ لقاعدة واحدة غير محسومة.",
+        "قارن المتوقع بالمشاهد بواسطة مراجع غير صاحب التعديل.",
+        "افصل وقت إصلاح العيب عن وقت اتخاذ قرار منتج جديد."
+      ],
+      "advice": [
+        "جهز حالات التعديل العادي وتعارض السعة وانقطاع التعديل.",
+        "احتفظ بالقاعدة ودليل المراجعة مع بند العمل."
+      ]
+    }
+  },
   "How To Pick A Startup Idea": {
     "fa": {
       "paragraphs": [

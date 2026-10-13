@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-11T02:14:00Z",
+  "updatedAt": "2026-10-13T02:22:37Z",
   "translations": {
     "fa": {
       "documentTitle": "علی سدیفی | یادداشت‌هایی درباره ساخت کسب‌وکار",
@@ -225,6 +225,55 @@
   "publishing": {
     "timezone": "Asia/Tehran",
     "queue": [
+      {
+        "id": "2026-10-13-site-holding-a-program-in-ones-head",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "holding-a-program-in-ones-head",
+        "publishAt": "2026-10-13T05:52:37+03:30",
+        "status": "published",
+        "publishedAt": "2026-10-13T05:52:37+03:30"
+      },
+      {
+        "id": "2026-10-13-linkedin-holding-a-program-in-ones-head",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "holding-a-program-in-ones-head",
+        "publishAt": "2026-10-13T12:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-10-13T05:52:37+03:30",
+        "note": "Draft/preview only. Verified account/API or session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "اختلاف برداشت را پیش از تحویل پیدا کنید",
+          "en": "Find interpretation gaps before delivery",
+          "ar": "اكتشف اختلاف الفهم قبل التسليم"
+        },
+        "body": {
+          "fa": "قابلیت تازه با قاعده مبهم، دوباره‌کاری ایجاد می‌کند.\nپیامد: بسته‌شدن کار مهندسی به‌تنهایی توافق درباره رفتار محصول را ثابت نمی‌کند.\nاقدام بعدی: پاسخ محصول، پشتیبانی و مهندسی به سه پرونده ساختگی را جدا بگیرید و یک اختلاف را با مسئول مشخص حل کنید.\nPaul Graham — https://paulgraham.com/head.html\nhttps://alisodeyfi.ir/articles/holding-a-program-in-ones-head/fa/#daily-article-reader",
+          "en": "A new feature with an unclear rule creates rework.\nImplication: closing an engineering task does not establish agreement on product behavior.\nNext action: collect product, support, and engineering predictions for three invented cases; assign an owner to resolve one difference.\nPaul Graham — https://paulgraham.com/head.html\nhttps://alisodeyfi.ir/articles/holding-a-program-in-ones-head/en/#daily-article-reader",
+          "ar": "الميزة الجديدة ذات القاعدة الغامضة تولد إعادة عمل.\nالأثر: إغلاق المهمة الهندسية لا يثبت الاتفاق على سلوك المنتج.\nالخطوة التالية: اجمع توقعات المنتج والدعم والهندسة لثلاث حالات مصطنعة، وعين مسؤولا لحسم اختلاف واحد.\nPaul Graham — https://paulgraham.com/head.html\nhttps://alisodeyfi.ir/articles/holding-a-program-in-ones-head/ar/#daily-article-reader"
+        }
+      },
+      {
+        "id": "2026-10-13-story-holding-a-program-in-ones-head",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "holding-a-program-in-ones-head",
+        "publishAt": "2026-10-13T20:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-10-13T05:52:37+03:30",
+        "note": "Draft/preview only. Verified account/API or session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "اختلاف برداشت را پیش از تحویل پیدا کنید",
+          "en": "Find interpretation gaps before delivery",
+          "ar": "اكتشف اختلاف الفهم قبل التسليم"
+        },
+        "body": {
+          "fa": "اسلاید ۱: قاعده مبهم، دوباره‌کاری می‌سازد.\nاسلاید ۲: پیش از تحویل، پاسخ سه نقش به یک پرونده را مقایسه و اختلاف را حل کنید.\nاسلاید ۳: اقتباس کوتاه و تمرین مستقل\nPaul Graham — https://paulgraham.com/head.html\nhttps://alisodeyfi.ir/articles/holding-a-program-in-ones-head/fa/#daily-article-reader",
+          "en": "Slide 1: an unclear rule creates rework.\nSlide 2: compare three roles’ predictions for one case and resolve the gap before delivery.\nSlide 3: short adaptation and independent exercise\nPaul Graham — https://paulgraham.com/head.html\nhttps://alisodeyfi.ir/articles/holding-a-program-in-ones-head/en/#daily-article-reader",
+          "ar": "الشريحة ۱: القاعدة الغامضة تولد إعادة عمل.\nالشريحة ۲: قارن توقعات ثلاثة أدوار لحالة واحدة واحسم الفرق قبل التسليم.\nالشريحة ۳: معالجة موجزة وتمرين مستقل\nPaul Graham — https://paulgraham.com/head.html\nhttps://alisodeyfi.ir/articles/holding-a-program-in-ones-head/ar/#daily-article-reader"
+        }
+      },
       {
         "id": "2026-10-12-site-how-to-pick-a-startup-idea",
         "channel": "site",
