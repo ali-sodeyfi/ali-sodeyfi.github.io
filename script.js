@@ -455,6 +455,36 @@ const articleCategories = [
 
 const articleCatalog = [
   {
+    "title": "The Trouble with the Segway",
+    "category": "product",
+    "author": "Paul Graham",
+    "source": "Paul Graham",
+    "year": "2009",
+    "url": "https://paulgraham.com/segway.html",
+    "tags": {
+      "fa": [
+        "پذیرش محصول",
+        "محیط استفاده",
+        "آزمون میدانی"
+      ],
+      "en": [
+        "product adoption",
+        "usage context",
+        "field testing"
+      ],
+      "ar": [
+        "تبني المنتج",
+        "سياق الاستخدام",
+        "اختبار ميداني"
+      ]
+    },
+    "summary": {
+      "fa": "برداشتی کوتاه درباره پذیرش اجتماعی محصول، همراه با تمرین مستقل برای آزمایش گزارش صوتی تعمیرکاران: مشاهده موقعیت استفاده، سنجش کیفیت گزارش و تعیین شرط ادامه آزمایش.",
+      "en": "A short adaptation on social acceptance, followed by an independent field exercise for technician voice reports: observe usage context, check report quality, and set a continuation rule.",
+      "ar": "معالجة موجزة حول القبول الاجتماعي، يتبعها تمرين مستقل لاختبار التقارير الصوتية للفنيين: مراقبة سياق الاستخدام وفحص جودة التقرير وتحديد شرط استمرار التجربة."
+    }
+  },
+  {
     "title": "Holding a Program in One's Head",
     "category": "building",
     "author": "Paul Graham",
@@ -1575,6 +1605,69 @@ const articleCatalog = [
 ];
 
 const articleEssays = {
+  "The Trouble with the Segway": {
+    "fa": {
+      "paragraphs": [
+        "کارکرد فنی به‌تنهایی پذیرش محصول را تضمین نمی‌کند؛ تصویری که استفاده از آن در برابر دیگران می‌سازد نیز اهمیت دارد. مقاله از این زاویه به سگ‌وی نگاه می‌کند. در ادامه، یک تمرین مستقل برای تیمی فرضی می‌سازیم که ابزار گزارش صوتی تعمیرکاران را عرضه می‌کند. موقعیت، معیارها و روش آزمایش زیر پیشنهاد این نوشته‌اند و از تجربه نویسنده اصلی نقل نشده‌اند.",
+        "فرض کنید تعمیرکار پس از هر مأموریت باید شرح خرابی، کار انجام‌شده و قطعه مصرفی را ثبت کند. تیم محصول قابلیت تبدیل گفتار به گزارش را ساخته تا این کار سریع‌تر شود. نمایش داخل دفتر خوب پیش می‌رود، اما در محل مشتری کسی سراغ دکمه ضبط نمی‌رود. پیش از نسبت دادن این رفتار به مقاومت کارکنان، موقعیت را بررسی کنید: شاید تعمیرکار نمی‌خواهد مشتری تصور کند مشغول تماس شخصی است، شاید محیط پرسر‌وصداست یا شرح مشکل شامل اطلاعاتی است که نباید بلند گفته شود. هر علت، تصمیم متفاوتی می‌طلبد؛ آموزش بیشتر پاسخ مشترک همه آن‌ها نیست.",
+        "آزمایش را به یک نوع مأموریت و چند داوطلب محدود کنید. با رضایت افراد، زمان و محل ثبت گزارش را مشاهده کنید؛ لازم نیست صدای مشتری یا اطلاعات واقعی او ذخیره شود. برای هر مأموریت فقط چند داده بگیرید: امکان استفاده از صدا وجود داشت یا نه، روش انتخاب‌شده چه بود، تکمیل گزارش چقدر طول کشید و چه چیزی مانع شد. بعد از کار، درباره همان موقعیت مشخص بپرسید؛ پرسش «این قابلیت را دوست دارید؟» ممکن است فقط پاسخ مؤدبانه بسازد. اگر فرد روش نوشتاری را انتخاب کرد، آن را شکست شخصی او حساب نکنید؛ این انتخاب بخشی از داده محصول است.",
+        "حالا یک مانع را هدف بگیرید. اگر مشکل اصلی صحبت‌کردن جلوی مشتری است، دو مسیر روشن بدهید: ثبت کوتاه نوشتاری در محل، یا تکمیل صوتی پس از خروج و پیش از شروع مأموریت بعدی. مسئول عملیات باید مشخص کند کدام اطلاعات همان لحظه ضروری‌اند و کدام را می‌توان کمی عقب انداخت. این تغییر را با افزودن ده قابلیت دیگر همراه نکنید؛ در آن صورت معلوم نمی‌شود چه چیزی رفتار را عوض کرده است. امکان برگشت به روش قبلی را حفظ کنید و توضیح دهید که آزمایش برای ارزیابی ابزار است، نه رتبه‌بندی تعمیرکاران.",
+        "برای تصمیم، سرعت را کنار کیفیت بگذارید. گزارشی که سریع‌تر ثبت شده اما نام قطعه یا اقدام بعدی در آن مبهم است، ممکن است کار بیشتری به پشتیبانی تحمیل کند. یک بازبین گزارش‌ها را با معیار ثابت بررسی کند: شرح مسئله، اقدام انجام‌شده و نیاز به پیگیری روشن است یا نه. تعداد اصلاح‌ها و پرسش‌های دوباره را هم ثبت کنید. مأموریت‌های مشابه را مقایسه کنید و تفاوت شلوغی یا پیچیدگی کار را یادداشت کنید. نتیجه چند داوطلب نشانه‌ای برای تصمیم بعدی است؛ هنوز نمی‌توان از آن درباره همه کارکنان یا همه مشتریان حکم صادر کرد.",
+        "پیش از پایان آزمایش، شرط ادامه را مکتوب کنید: مثلاً روش تازه باید در مأموریت‌های مناسب زمان ثبت را کاهش دهد، بدون افزایش گزارش ناقص یا تماس پیگیری. اگر این شرط برقرار شد، آزمایش بعدی را در یک موقعیت متفاوت اجرا کنید. اگر استفاده کم بود، علت را از داده‌ها جدا کنید: نبود فرصت مناسب، دشواری کار با ابزار یا نگرانی از برداشت مشتری. برای هرکدام یک تصمیم مشخص بگیرید؛ تغییر رابط، تغییر زمان استفاده یا توقف سرمایه‌گذاری روی این مسیر. خروجی هفته یک تصمیم مستند با مسئول و موعد بازبینی باشد، نه صرفاً نمودار تعداد دفعات فشردن دکمه ضبط."
+      ],
+      "takeaways": [
+        "واحد آزمایش را یک نوع مأموریت مشخص بگیرید، نه همه کاربران محصول.",
+        "امکان استفاده در موقعیت واقعی را جدا از تمایل فرد به استفاده ثبت کنید.",
+        "بعد از یک رفتار مشخص سؤال کنید و انتخاب روش قدیمی را هم داده معتبر بدانید.",
+        "برای رفع یک مانع، فقط یک تغییر روشن در مسیر کار ایجاد کنید.",
+        "زمان ثبت گزارش را همراه با نقص اطلاعات، اصلاح‌ها و تماس پیگیری بسنجید.",
+        "پیش از جمع‌بندی، شرط ادامه یا توقف و مسئول تصمیم را مشخص کنید."
+      ],
+      "advice": [
+        "برای آزمون بعدی برگه‌ای با ستون‌های موقعیت، روش انتخاب‌شده، زمان، مانع و کیفیت گزارش آماده کنید.",
+        "ثبت اطلاعات را به حد لازم محدود کنید و رضایت افراد را پیش از مشاهده بگیرید.",
+        "در جلسه پایان هفته یک تصمیم بگیرید: گسترش محدود آزمایش، اصلاح یک مانع یا توقف مسیر."
+      ]
+    },
+    "en": {
+      "paragraphs": [
+        "Technical usefulness alone does not secure adoption; how using a product looks to other people also matters. The essay considers the Segway through that lens. The following is an independent exercise for a fictional technician-reporting product. Its scenario, workflow, and measurements are proposals here, not cases described by the original author.",
+        "A technician must record a fault, completed work, and parts used after each visit. Voice entry works in an office demonstration, yet technicians avoid it at customer premises. Possible reasons include noise, sensitive details, or concern that speaking into a phone will look like a personal call. Run a small voluntary trial for one type of service visit. With consent, record whether voice entry was feasible, which method the technician chose, completion time, and the specific obstacle. Ask about the observed incident afterward. Choosing the existing text method is useful evidence, not employee failure.",
+        "Change one obstacle at a time. If speaking in front of a customer is the problem, test a brief text entry on site followed by optional voice completion after leaving, before the next visit. Operations must decide which fields cannot wait. Keep the previous workflow available and explain that the trial evaluates the tool. Review each report for a clear fault, completed action, and next step. Compare similar visits and count corrections or follow-up questions alongside time saved; faster entry can move work onto another team.",
+        "Write the continuation rule before reviewing results: for eligible visits, entry should become faster without increasing incomplete reports or follow-up calls. If it does, extend the trial to a different context. If use stays low, distinguish unavailable opportunities, interface difficulty, and concerns about customer perception. Assign an owner to change the workflow, revise the interface, or stop this experiment. A small voluntary sample guides the next test; it does not establish how every technician will behave."
+      ],
+      "takeaways": [
+        "Test one defined service context with willing participants.",
+        "Separate the opportunity to use a feature from willingness to use it.",
+        "Change one observed obstacle and preserve an alternative workflow.",
+        "Measure report quality and downstream corrections alongside speed.",
+        "Agree on a continuation rule and assign the next decision to an owner."
+      ],
+      "advice": [
+        "Use a simple record of context, chosen method, duration, obstacle, and report quality.",
+        "End the trial with a decision to extend, revise, or stop, plus a review date."
+      ]
+    },
+    "ar": {
+      "paragraphs": [
+        "لا تكفي الفائدة التقنية وحدها لتبني المنتج؛ فالصورة التي يتركها استخدامه أمام الآخرين مهمة أيضا. تتناول المقالة جهاز سيغواي من هذه الزاوية. أما التمرين التالي فمستقل ويخص منتجا افتراضيا لتقارير الفنيين. الحالة وخطوات العمل والمقاييس مقترحات هذه المعالجة، وليست تجارب رواها الكاتب الأصلي.",
+        "يحتاج الفني بعد كل زيارة إلى تسجيل العطل والعمل المنجز والقطع المستخدمة. ينجح الإدخال الصوتي في عرض داخل المكتب، لكن الفنيين يتجنبونه عند العميل. ربما توجد ضوضاء أو معلومات لا يصح قولها بصوت مرتفع، أو يخشى الفني أن يبدو كأنه يجري مكالمة شخصية. ابدأ تجربة طوعية صغيرة لنوع واحد من الزيارات. بموافقة المشاركين، سجل هل كان استخدام الصوت ممكنا، والطريقة المختارة، ووقت إكمال التقرير، والعائق المحدد. اسأل بعد العمل عن تلك الواقعة. اختيار الكتابة دليل مفيد عن المنتج وليس فشلا من الموظف.",
+        "عالج عائقا واحدا في كل مرة. إذا كانت المشكلة التحدث أمام العميل، جرب إدخالا كتابيا مختصرا في الموقع، ثم إكمالا صوتيا اختياريا بعد المغادرة وقبل الزيارة التالية. على مسؤول العمليات تحديد المعلومات التي لا يمكن تأجيلها. احتفظ بالطريقة السابقة ووضح أن التقييم يخص الأداة. ليراجع شخص التقارير وفق معيار ثابت: وضوح العطل والإجراء والخطوة التالية. قارن زيارات متشابهة واحسب التصحيحات وأسئلة المتابعة إلى جانب الوقت؛ فقد تنقل السرعة عبء العمل إلى فريق آخر.",
+        "اكتب شرط الاستمرار قبل مراجعة النتائج: تقليل وقت التسجيل في الزيارات المناسبة دون زيادة التقارير الناقصة أو اتصالات المتابعة. إذا تحقق الشرط، انتقل إلى تجربة محدودة في سياق مختلف. وإذا بقي الاستخدام ضعيفا، افصل غياب الفرصة المناسبة عن صعوبة الواجهة وعن القلق من انطباع العميل. عين مسؤولا لاتخاذ قرار بتعديل سير العمل أو الواجهة أو إيقاف التجربة. تساعد عينة طوعية صغيرة على اختيار الاختبار التالي، لكنها لا تثبت سلوك جميع الفنيين."
+      ],
+      "takeaways": [
+        "حدد نوع زيارة واحدا واختبره مع مشاركين راغبين.",
+        "افصل توفر فرصة الاستخدام عن رغبة الشخص في الاستخدام.",
+        "عالج عائقا واحدا واحتفظ بمسار عمل بديل.",
+        "قس جودة التقارير والتصحيحات اللاحقة إلى جانب السرعة.",
+        "اتفق مسبقا على شرط الاستمرار ومسؤول القرار التالي."
+      ],
+      "advice": [
+        "جهز سجلا بسيطا للسياق والطريقة والوقت والعائق وجودة التقرير.",
+        "اختم التجربة بقرار توسيع أو تعديل أو إيقاف، مع موعد للمراجعة."
+      ]
+    }
+  },
   "Holding a Program in One's Head": {
     "fa": {
       "paragraphs": [

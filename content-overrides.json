@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-13T02:22:37Z",
+  "updatedAt": "2026-10-14T02:18:02Z",
   "translations": {
     "fa": {
       "documentTitle": "علی سدیفی | یادداشت‌هایی درباره ساخت کسب‌وکار",
@@ -225,6 +225,55 @@
   "publishing": {
     "timezone": "Asia/Tehran",
     "queue": [
+      {
+        "id": "2026-10-14-site-the-trouble-with-the-segway",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "the-trouble-with-the-segway",
+        "publishAt": "2026-10-14T05:48:02+03:30",
+        "status": "published",
+        "publishedAt": "2026-10-14T05:48:02+03:30"
+      },
+      {
+        "id": "2026-10-14-linkedin-the-trouble-with-the-segway",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "the-trouble-with-the-segway",
+        "publishAt": "2026-10-14T12:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-10-14T05:48:02+03:30",
+        "note": "Draft/preview only. Verified account/API or session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "محصول را در محل استفاده آزمایش کنید",
+          "en": "Test the product where work happens",
+          "ar": "اختبر المنتج في موقع العمل"
+        },
+        "body": {
+          "fa": "نمایش موفق در دفتر، استفاده در محل مشتری را ثابت نمی‌کند.\nپیامد: کاهش زمان ثبت فقط وقتی ارزش دارد که گزارش ناقص و پیگیری دوباره بیشتر نشود.\nاقدام بعدی: در یک نوع مأموریت، روش انتخاب‌شده، مانع استفاده و کیفیت گزارش را ثبت کنید؛ سپس درباره ادامه آزمایش تصمیم بگیرید.\nPaul Graham — https://paulgraham.com/segway.html\nhttps://alisodeyfi.ir/articles/the-trouble-with-the-segway/fa/#daily-article-reader",
+          "en": "An office demo does not establish use at customer premises.\nImplication: faster entry helps only if incomplete reports and follow-up work do not increase.\nNext action: record chosen method, usage obstacle, and report quality for one visit type; then decide whether to extend the trial.\nPaul Graham — https://paulgraham.com/segway.html\nhttps://alisodeyfi.ir/articles/the-trouble-with-the-segway/en/#daily-article-reader",
+          "ar": "نجاح العرض في المكتب لا يثبت الاستخدام عند العميل.\nالأثر: تقليل وقت التسجيل يفيد حين لا يزيد نقص التقارير والعمل اللاحق.\nالخطوة التالية: سجل الطريقة والعائق وجودة التقرير لنوع زيارة واحد، ثم قرر استمرار التجربة.\nPaul Graham — https://paulgraham.com/segway.html\nhttps://alisodeyfi.ir/articles/the-trouble-with-the-segway/ar/#daily-article-reader"
+        }
+      },
+      {
+        "id": "2026-10-14-story-the-trouble-with-the-segway",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "the-trouble-with-the-segway",
+        "publishAt": "2026-10-14T20:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-10-14T05:48:02+03:30",
+        "note": "Draft/preview only. Verified account/API or session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "محصول را در محل استفاده آزمایش کنید",
+          "en": "Test the product where work happens",
+          "ar": "اختبر المنتج في موقع العمل"
+        },
+        "body": {
+          "fa": "اسلاید ۱: نمایش داخل دفتر، آزمون محیط مشتری نیست.\nاسلاید ۲: در یک نوع مأموریت، مانع استفاده و کیفیت گزارش را بسنجید؛ سپس تصمیم به ادامه بگیرید.\nاسلاید ۳: برداشت کوتاه و تمرین مستقل\nPaul Graham — https://paulgraham.com/segway.html\nhttps://alisodeyfi.ir/articles/the-trouble-with-the-segway/fa/#daily-article-reader",
+          "en": "Slide 1: an office demo is not a customer-site test.\nSlide 2: measure usage obstacles and report quality for one visit type; decide whether to continue.\nSlide 3: short adaptation and independent exercise\nPaul Graham — https://paulgraham.com/segway.html\nhttps://alisodeyfi.ir/articles/the-trouble-with-the-segway/en/#daily-article-reader",
+          "ar": "الشريحة ۱: العرض في المكتب ليس اختبارا عند العميل.\nالشريحة ۲: قس عائق الاستخدام وجودة التقرير لنوع زيارة واحد، ثم قرر الاستمرار.\nالشريحة ۳: معالجة موجزة وتمرين مستقل\nPaul Graham — https://paulgraham.com/segway.html\nhttps://alisodeyfi.ir/articles/the-trouble-with-the-segway/ar/#daily-article-reader"
+        }
+      },
       {
         "id": "2026-10-13-site-holding-a-program-in-ones-head",
         "channel": "site",
