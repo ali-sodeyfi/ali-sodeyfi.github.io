@@ -455,6 +455,36 @@ const articleCategories = [
 
 const articleCatalog = [
   {
+    "title": "How to Present to Investors",
+    "category": "funding",
+    "author": "Paul Graham",
+    "source": "Paul Graham",
+    "year": "2006",
+    "url": "https://paulgraham.com/investors.html",
+    "tags": {
+      "fa": [
+        "ارائه به سرمایه‌گذار",
+        "وضوح پیام",
+        "آزمون فهم"
+      ],
+      "en": [
+        "investor presentation",
+        "message clarity",
+        "comprehension testing"
+      ],
+      "ar": [
+        "عرض للمستثمرين",
+        "وضوح الرسالة",
+        "اختبار الفهم"
+      ]
+    },
+    "summary": {
+      "fa": "برداشتی کوتاه درباره روشن‌بودن ارائه، همراه با تمرین مستقل برای آزمودن برداشت مخاطب، ردیابی ادعاها و تبدیل ابهام‌های جلسه به کار مشخص.",
+      "en": "A brief adaptation on presentation clarity, with an independent exercise for testing audience understanding, tracing claims, and turning meeting ambiguities into assigned work.",
+      "ar": "معالجة موجزة حول وضوح العرض، مع تمرين مستقل لاختبار فهم الجمهور وتتبع الادعاءات وتحويل غموض الاجتماع إلى مهام محددة."
+    }
+  },
+  {
     "title": "The Trouble with the Segway",
     "category": "product",
     "author": "Paul Graham",
@@ -1605,6 +1635,71 @@ const articleCatalog = [
 ];
 
 const articleEssays = {
+  "How to Present to Investors": {
+    "fa": {
+      "paragraphs": [
+        "مخاطب باید بفهمد چه ساخته‌اید و چرا کسی آن را می‌خواهد. این برداشت کوتاه از مقاله، مبنای تمرین مستقل زیر است: چگونه پیش از جلسه، فهم مخاطب را آزمایش کنیم؟ سناریو، برگه بررسی و معیارهای بعدی پیشنهاد این نوشته‌اند و از تجربه نویسنده اصلی نقل نشده‌اند. فرض کنید تیمی ابزار هماهنگی تحویل سفارش برای کارگاه‌های کوچک ساخته است. قرار است در جلسه‌ای کوتاه درباره ادامه گفت‌وگو تصمیم گرفته شود، اما تیم هنوز نمی‌داند شنونده از توضیحاتش چه تصویری می‌سازد.",
+        "تمرین را با نوشتن پاسخ مورد انتظار شروع کنید. اگر پس از ارائه از شنونده بپرسیم چه کسی از ابزار استفاده می‌کند، هنگام چه کاری آن را باز می‌کند و چه خروجی می‌گیرد، پاسخ قابل قبول چیست؟ در مثال ما، مدیر کارگاه باید سفارش‌های آماده تحویل را ببیند و مسئول تحویل هر سفارش را تعیین کند. ممکن است مخاطب به‌اشتباه تصور کند تیم یک شرکت حمل‌ونقل ساخته یا قرار است راننده استخدام کند. این اختلاف فقط مشکل انتخاب واژه نیست؛ ممکن است انتظار او از هزینه، عملیات و مرحله بعدی شرکت را عوض کند. پیش از تمرین، پاسخ‌ها را ثبت کنید تا تیم بعداً هر برداشت مخاطب را موفقیت حساب نکند.",
+        "دو یا سه نفر بیرون از تیم را که با موضوع آشنایی یکسان ندارند دعوت کنید. ارائه را یک بار اجرا کنید و بلافاصله پس از آن، از هر نفر بخواهید بدون مشورت با دیگران پاسخ سه پرسش را بنویسد. در این مرحله توضیح تکمیلی ندهید؛ توضیح شما می‌تواند شکاف اصلی را پنهان کند. کنار پاسخ‌ها سه حالت بگذارید: درست فهمیده، ناقص فهمیده و برداشت دیگری ساخته است. اختلاف‌ها را به بخش مشخصی از ارائه وصل کنید. اگر همه محصول را شرکت حمل‌ونقل تصور کرده‌اند، عبارت آغازین یا تصویر گردش کار را بررسی کنید؛ افزودن شرح فناوری احتمالاً همان ابهام را برطرف نمی‌کند.",
+        "برای کنترل ادعاها، یک برگه داخلی جدا بسازید. هر ادعای ارائه باید مسئول، تاریخ بررسی و محل شاهد داشته باشد؛ مثلاً مشخص شود «استفاده هفتگی» از کدام رویداد ثبت‌شده به دست آمده و حساب‌های آزمایشی تیم در آن شمرده شده‌اند یا نه. اگر دو نفر عددهای متفاوت دارند، پیش از اصلاح نمودار تعریف را یکسان کنید. کنار وعده‌های آینده نیز علامت برنامه بگذارید تا با قابلیت فعال اشتباه نشوند. این برگه قرار نیست اسلاید تازه‌ای به جلسه تحمیل کند؛ وسیله‌ای است برای اینکه پاسخ پیگیری به حافظه یک نفر وابسته نباشد و ادعای قدیمی بی‌بررسی در نسخه بعدی نماند.",
+        "در دور دوم فقط یک ابهام مهم را اصلاح کنید و ارائه را برای شنونده تازه اجرا کنید. استفاده از همان افراد ممکن است نتیجه را بهتر نشان دهد، چون آن‌ها از دور اول موضوع را یاد گرفته‌اند. تعداد پاسخ‌های درست را همراه با متن پاسخ نگه دارید؛ در چنین نمونه کوچکی درصد چشمگیر می‌تواند گمراه‌کننده باشد. اگر نسخه تازه مفهوم محصول را روشن کرد اما پرسش جدیدی درباره مسئول تحویل ساخت، آن را شکست کامل حساب نکنید. اکنون یک تصمیم محصول یا عملیات آشکار شده است. مشخص کنید پرسش با تغییر بیان حل می‌شود یا واقعاً نیازمند تصمیم تیم درباره دامنه خدمت است.",
+        "پس از جلسه واقعی نیز همین روش را ادامه دهید. پرسش‌های دریافت‌شده را در سه گروه ثبت کنید: نفهمیدن توضیح، نبود شاهد و مخالفت با فرض کسب‌وکار. اولی به بازنویسی نیاز دارد، دومی به جمع‌آوری اطلاعات و سومی به بررسی خود فرض. برای هر مورد یک مسئول و موعد بگذارید و نسخه بعدی ارائه را به همان تغییر وصل کنید. معیار این تمرین، کاهش ابهام قابل مشاهده است؛ فهم درست به‌تنهایی علاقه یا تعهد به سرمایه‌گذاری را ثابت نمی‌کند. خروجی هفته می‌تواند یک ارائه اصلاح‌شده، برگه ادعاهای بررسی‌شده و یک پرسش باز با مسئول مشخص باشد."
+      ],
+      "takeaways": [
+        "پیش از تمرین، پاسخ مورد انتظار درباره کاربر، موقعیت استفاده و خروجی محصول را بنویسید.",
+        "پاسخ شنوندگان را جدا و پیش از هر توضیح تکمیلی جمع کنید.",
+        "برداشت اشتباه را به یک جمله یا تصویر مشخص در ارائه وصل کنید.",
+        "برای هر ادعا مسئول، تاریخ بررسی و محل شاهد ثبت کنید.",
+        "نسخه اصلاح‌شده را با شنونده تازه امتحان کنید تا اثر یادگیری قبلی کمتر شود.",
+        "ابهام توضیح، کمبود شاهد و مخالفت با فرض را به کارهای متفاوت تبدیل کنید."
+      ],
+      "advice": [
+        "برای جلسه تمرینی سه پرسش ثابت آماده کنید و پاسخ قابل قبول هرکدام را از قبل بنویسید.",
+        "در برگه ادعاها، حساب‌های آزمایشی و تعریف رویداد استفاده را مشخص کنید.",
+        "بعد از جلسه، برای یک پرسش حل‌نشده مسئول و موعد پاسخ تعیین کنید."
+      ]
+    },
+    "en": {
+      "paragraphs": [
+        "An audience needs to understand what you built and why anyone would want it. This brief adaptation introduces an independent exercise in testing that understanding. The scenario, worksheet, and checks below are proposals here, not cases from the original essay. Imagine a team building delivery coordination software for small workshops, preparing for a short meeting about whether to continue the conversation.",
+        "Before rehearsing, write the acceptable answers to three questions: who uses the tool, during which task, and what output they receive. Here, a workshop manager sees orders ready for dispatch and assigns responsibility for each delivery. A listener might instead imagine a transport operator that hires drivers. Ask two or three people outside the team to hear the presentation and answer independently, without clarification afterward. Label each response accurate, incomplete, or a different interpretation. Link a mistaken interpretation to a particular sentence or workflow image. Record the intended answers beforehand so the team cannot redefine success after seeing the results.",
+        "Maintain an internal claim worksheet with an owner, verification date, and evidence location for each assertion. For a weekly usage figure, record the event definition and whether internal test accounts were excluded. Resolve inconsistent definitions before editing a chart. Mark planned capabilities separately from active ones. The worksheet supports follow-up answers; it need not become another slide. Revise one important ambiguity, then repeat with a fresh listener, since previous participants have already learned about the product. Keep the actual answers and counts rather than impressive percentages from a tiny sample.",
+        "After the real meeting, distinguish an unclear explanation from missing evidence or disagreement with a business assumption. These call for different work: rewriting, gathering information, or examining the assumption itself. Assign an owner and due date to the unresolved question, and connect the next presentation revision to that work. Correct understanding does not establish investment interest or commitment. The useful weekly output is a revised presentation, checked claims, and one clearly owned open question."
+      ],
+      "takeaways": [
+        "Define acceptable answers about user, task, and output before rehearsing.",
+        "Collect independent listener answers before offering clarification.",
+        "Give each claim an owner, verification date, and evidence location.",
+        "Retest a specific revision with someone who has not heard the first version.",
+        "Assign different follow-up work to ambiguity, missing evidence, and disputed assumptions."
+      ],
+      "advice": [
+        "Use the same three comprehension questions in both rehearsal rounds.",
+        "Keep usage definitions and treatment of test accounts in the claim worksheet.",
+        "Leave the meeting with one unresolved question assigned to an owner and deadline."
+      ]
+    },
+    "ar": {
+      "paragraphs": [
+        "يحتاج الجمهور إلى فهم ما بنيته ولماذا قد يرغب فيه أحد. تنطلق هذه المعالجة الموجزة من ذلك إلى تمرين مستقل لاختبار الفهم. الحالة وورقة المراجعة والمقاييس التالية مقترحات هنا، وليست أمثلة من المقالة الأصلية. تخيل فريقا يبني أداة لتنسيق تسليم الطلبات في الورش الصغيرة ويستعد لاجتماع قصير لتحديد جدوى مواصلة الحوار.",
+        "قبل التدريب، اكتب الإجابات المقبولة عن ثلاثة أسئلة: من يستخدم الأداة، وأثناء أي مهمة، وما الناتج الذي يحصل عليه؟ في مثالنا يرى مدير الورشة الطلبات الجاهزة ويحدد مسؤول تسليم كل طلب. قد يفهم المستمع بدلا من ذلك أن الفريق يؤسس شركة نقل توظف سائقين. ادع شخصين أو ثلاثة من خارج الفريق للاستماع، ثم اجمع إجاباتهم منفصلة دون تقديم توضيح إضافي. صنف الإجابات إلى فهم صحيح أو ناقص أو تصور مختلف، واربط الخطأ بجملة أو صورة محددة. كتابة الإجابات المرجعية مسبقا تمنع الفريق من اعتبار أي تفسير نجاحا بعد انتهاء التجربة.",
+        "أنشئ ورقة داخلية للادعاءات، تتضمن مسؤولا وتاريخ تحقق ومكان الدليل لكل ادعاء. إذا ذكرت استخداما أسبوعيا، فسجل الحدث الذي يعد استخداما وهل استبعدت حسابات الفريق التجريبية. عالج اختلاف التعريف قبل تعديل الرسم، وميز القدرات المخططة من المتاحة فعليا. تساعد الورقة في الإجابة عن المتابعة ولا يلزم تحويلها إلى شريحة إضافية. عدل موضع غموض واحدا ثم اختبر العرض مع مستمع جديد؛ فالمشارك السابق تعلم عن المنتج في الجولة الأولى. احتفظ بنص الإجابات وأعدادها، لأن النسب الكبيرة من عينة صغيرة قد تعطي انطباعا مضللا.",
+        "بعد الاجتماع الفعلي، افصل غموض الشرح عن نقص الدليل وعن الاعتراض على فرضية العمل. الأول يحتاج إلى صياغة، والثاني إلى جمع معلومات، والثالث إلى فحص الفرضية نفسها. عين مسؤولا وموعدا للسؤال المفتوح واربط النسخة التالية بالعمل الناتج. الفهم الصحيح وحده لا يثبت اهتماما بالاستثمار أو التزاما به. يمكن أن تكون حصيلة الأسبوع عرضا معدلا وادعاءات جرى التحقق منها وسؤالا مفتوحا له مسؤول واضح."
+      ],
+      "takeaways": [
+        "حدد مسبقا الإجابات المقبولة عن المستخدم والمهمة والناتج.",
+        "اجمع إجابات المستمعين منفصلة قبل تقديم توضيحات.",
+        "اربط كل ادعاء بمسؤول وتاريخ تحقق ومكان دليل.",
+        "اختبر التعديل مع شخص لم يسمع النسخة السابقة.",
+        "حول غموض الشرح ونقص الدليل والاعتراض على الفرضية إلى مهام مختلفة."
+      ],
+      "advice": [
+        "استخدم أسئلة الفهم الثلاثة نفسها في جولتي التدريب.",
+        "سجل تعريف الاستخدام وطريقة التعامل مع الحسابات التجريبية في ورقة الادعاءات.",
+        "اختم الاجتماع بتحديد مسؤول وموعد لسؤال لم يحسم بعد."
+      ]
+    }
+  },
   "The Trouble with the Segway": {
     "fa": {
       "paragraphs": [
