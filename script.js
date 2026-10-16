@@ -455,6 +455,36 @@ const articleCategories = [
 
 const articleCatalog = [
   {
+    "title": "The Anatomy of Determination",
+    "category": "leadership",
+    "author": "Paul Graham",
+    "source": "Paul Graham",
+    "year": "2009",
+    "url": "https://paulgraham.com/determination.html",
+    "tags": {
+      "fa": [
+        "انضباط اجرایی",
+        "تعهدهای تیم",
+        "بازبینی تصمیم"
+      ],
+      "en": [
+        "execution discipline",
+        "team commitments",
+        "decision review"
+      ],
+      "ar": [
+        "انضباط التنفيذ",
+        "التزامات الفريق",
+        "مراجعة القرار"
+      ]
+    },
+    "summary": {
+      "fa": "برداشتی کوتاه درباره عزم و انضباط، همراه با تمرین مستقل برای ثبت تعهدهای تیم، آشکارکردن وابستگی‌ها و تصمیم درباره کارهای عقب‌افتاده.",
+      "en": "A brief adaptation on determination and discipline, with an independent exercise for recording team commitments, exposing dependencies, and deciding what to do with overdue work.",
+      "ar": "معالجة موجزة حول العزم والانضباط، مع تمرين مستقل لتسجيل التزامات الفريق وكشف الاعتماد بين المهام واتخاذ قرار بشأن العمل المتأخر."
+    }
+  },
+  {
     "title": "How to Present to Investors",
     "category": "funding",
     "author": "Paul Graham",
@@ -1635,6 +1665,68 @@ const articleCatalog = [
 ];
 
 const articleEssays = {
+  "The Anatomy of Determination": {
+    "fa": {
+      "paragraphs": [
+        "عزم فقط شدت خواستن نیست؛ اراده به انضباط نیاز دارد و بلندپروازی جهت آن را تعیین می‌کند. این برداشت کوتاه از مقاله، نقطه شروع تمرین مستقل زیر است. فرض کنید تیمی سه‌نفره ابزار ثبت سفارش عمده می‌سازد و هر هفته چند کار نیمه‌تمام به هفته بعد منتقل می‌شود. سناریو و روش بازبینی این نوشته پیشنهادهای مستقلی هستند، نه مثال یا دستورالعمل نقل‌شده از منبع. پرسش تمرین این است: چگونه بفهمیم تعهدی که تکرار می‌کنیم هنوز قابل اجراست؟",
+        "ابتدا از میان کارهای باز فقط یک تعهد مهم را انتخاب کنید و آن را به خروجی قابل مشاهده تبدیل کنید. «بهبود ورود مشتری» برای بازبینی کافی نیست؛ «یک مشتری آزمایشی بتواند فهرست کالاهایش را وارد کند و خطاهای هر ردیف را ببیند» روشن‌تر است. نام مسئول، موعد و کسی را که خروجی را بررسی می‌کند کنار همان جمله بنویسید. سپس مشخص کنید چه چیزهایی خارج از دامنه‌اند؛ مثلاً پاک‌سازی همه فایل‌های قدیمی مشتری یا پشتیبانی از هر قالب ممکن. این مرز به تیم کمک می‌کند هنگام مواجهه با درخواست تازه، درباره تعهد قبلی دوباره تصمیم بگیرد و بدون گفت‌وگو کار بیشتری را به همان موعد اضافه نکند.",
+        "پیش از شروع، وابستگی‌های تعهد را بررسی کنید. در مثال ما، توسعه‌دهنده به یک فایل واقعی و توضیح معنای ستون‌ها نیاز دارد؛ مسئول ارتباط با مشتری باید این دو را تهیه کند. اگر دسترسی به نمونه هنوز قطعی نیست، زمان تحویل قابلیت را قطعی اعلام نکنید. یک قدم مقدماتی با مسئول و موعد مستقل ثبت کنید: دریافت نمونه‌ای که اطلاعات حساس آن حذف شده باشد. برای هر مانع نیز زمان درخواست کمک تعیین کنید. منتظر ماندن تا جلسه پایان هفته، مسئله قابل حل روز اول را به تأخیر کل هفته تبدیل می‌کند. ثبت وابستگی کمک می‌کند تفاوت میان ناتمام ماندن اجرا و آماده نبودن پیش‌نیاز دیده شود.",
+        "در بازبینی، خروجی واقعی را کنار تعریف اولیه بگذارید. اگر واردکردن فایل کار می‌کند اما خطاها فقط در گزارش فنی دیده می‌شوند، تعهد هنوز کامل نشده است؛ در عین حال بخشی از کار واقعاً انجام شده و باید مشخص باشد. زمان صرف‌شده، مانع مشاهده‌شده و تغییر دامنه را جدا ثبت کنید. گزارش «خیلی تلاش کردیم» اطلاعات لازم برای تصمیم بعدی را نمی‌دهد. از سوی دیگر، یک تأخیر به‌تنهایی درباره شخصیت یا توانایی فرد حکم نمی‌دهد. ممکن است برآورد اشتباه بوده، کار فوری دیگری وارد شده یا تصمیم محصول مبهم مانده باشد. مسئول بازبینی باید علت قابل بررسی را پیدا کند، نه اینکه از اعضا دفاعیه بخواهد.",
+        "برای تعهد ناتمام یکی از سه تصمیم را ثبت کنید: ادامه با همان دامنه، کوچک‌کردن خروجی، یا کنارگذاشتن آن با دلیل روشن. انتقال خودکار به هفته بعد تصمیم محسوب نمی‌شود. اگر مشتری فقط به تشخیص ردیف‌های ناقص نیاز دارد، شاید نمایش شماره ردیف و پیام روشن برای آزمون اول کافی باشد و ویرایش داخل محصول به بعد موکول شود. اگر فایل مورد نیاز هنوز در دسترس نیست، یک موعد تازه بدون تغییر پیش‌نیاز ارزشی ندارد. تصمیم باید بگوید چه چیزی نسبت به دفعه قبل عوض شده، چه کسی آن را انجام می‌دهد و در چه زمانی دوباره بررسی می‌شود.",
+        "پس از چند نوبت بازبینی، به الگوی تعهدهای تکرارشونده نگاه کنید. اگر بیشتر تأخیرها از تأیید یک نفر می‌آیند، صف تصمیم آن فرد را کوتاه کنید؛ اگر دامنه مرتب بزرگ می‌شود، زمان مشخصی برای پذیرش درخواست تازه بگذارید. این داده را به جدول رتبه‌بندی افراد تبدیل نکنید، چون دشواری و وابستگی کارها یکسان نیست. خروجی مفید این تمرین، فهرست طولانی‌تری از کارها یا وعده تلاش بیشتر نیست؛ برای هر تعهد باز باید یک تصمیم تازه و قابل پیگیری وجود داشته باشد. در پایان هفته یک تغییر در روش کار انتخاب کنید و هفته بعد بررسی کنید آیا همان مانع دوباره رخ داده است."
+      ],
+      "takeaways": [
+        "یک تعهد مهم را با خروجی قابل مشاهده، مسئول، موعد و بررسی‌کننده ثبت کنید.",
+        "موارد خارج از دامنه را بنویسید تا درخواست تازه پنهانی به تعهد قبلی اضافه نشود.",
+        "برای پیش‌نیازهای ناموجود، قدم مقدماتی و زمان درخواست کمک تعیین کنید.",
+        "خروجی واقعی، زمان صرف‌شده و تغییر دامنه را جداگانه بررسی کنید.",
+        "هر کار عقب‌افتاده باید تصمیم صریح ادامه، کوچک‌سازی یا توقف داشته باشد.",
+        "از الگوی تأخیرها برای اصلاح روش کار استفاده کنید؛ دشواری کار افراد را یکسان فرض نکنید."
+      ],
+      "advice": [
+        "انضباط را تمرین کنید؛ خواستن به‌تنهایی کافی نیست.",
+        "با همتایانی معاشرت کنید که هدف‌های بلندپروازانه دارند."
+      ]
+    },
+    "en": {
+      "paragraphs": [
+        "Determination involves more than wanting something strongly: discipline supports will, while ambition sets its direction. This brief adaptation introduces an independent commitment review exercise. Imagine a three-person team building wholesale ordering software, repeatedly carrying unfinished work into the following week. The scenario and review procedure below are proposals here, not examples or instructions from the source.",
+        "Choose one important commitment and describe an observable result. Instead of “improve onboarding,” specify that a pilot customer can import a product list and see the errors in each row. Record the owner, deadline, reviewer, and exclusions, such as cleaning every historical file or supporting every format. Check dependencies before promising delivery. The developer may need a real file and explanations of its columns from the customer contact. If that input is unavailable, assign a separate preliminary action to obtain a sample with sensitive information removed. Set a time to request help before the end-of-week review.",
+        "At the review, compare the actual result with the agreed definition. An importer that only exposes errors in technical logs is partially complete, not finished. Record time spent, observed obstacles, and scope changes separately. An effort report cannot substitute for examining the result, and a missed date does not establish a character flaw. Identify whether the estimate, missing input, an urgent interruption, or an unresolved product decision explains the gap. Then explicitly continue, reduce, or stop the commitment. For a first trial, a row number and a clear error message might suffice; in-product editing could wait. A revised deadline should identify what has changed since the previous promise.",
+        "After several reviews, inspect recurring dependencies rather than ranking people by completed task counts. If one person must approve most work, reduce that decision queue; if requests keep expanding, agree when new scope can be accepted. Tasks differ in difficulty and dependencies, so their counts are not interchangeable performance measures. End each review with a traceable decision for every open commitment. Select one process change for the next week and check whether the same obstacle recurs."
+      ],
+      "takeaways": [
+        "Define one observable result with an owner, deadline, and reviewer.",
+        "Record exclusions and missing inputs before committing to delivery.",
+        "Compare results with the original definition and separate scope changes from execution.",
+        "Give overdue work an explicit continue, reduce, or stop decision.",
+        "Use recurring obstacles to choose one process change, not to rank people."
+      ],
+      "advice": [
+        "Practice discipline alongside willpower.",
+        "Spend time with peers who pursue ambitious goals."
+      ]
+    },
+    "ar": {
+      "paragraphs": [
+        "العزم يتجاوز قوة الرغبة؛ فالانضباط يدعم الإرادة والطموح يحدد وجهتها. تنطلق هذه المعالجة الموجزة إلى تمرين مستقل لمراجعة التزامات الفريق. تخيل فريقا من ثلاثة أشخاص يبني أداة لطلبات الجملة وينقل أعمالا غير مكتملة إلى الأسبوع التالي باستمرار. السيناريو وإجراءات المراجعة التالية مقترحات هنا، وليست أمثلة أو تعليمات منقولة عن المصدر.",
+        "اختر التزاما مهما واحدا وصف نتيجته القابلة للملاحظة. بدلا من «تحسين بدء استخدام العميل»، اكتب أن عميلا تجريبيا يستطيع استيراد قائمة منتجاته ورؤية أخطاء كل صف. سجل المسؤول والموعد والمراجع وما يقع خارج النطاق، مثل تنظيف كل الملفات القديمة أو دعم جميع الصيغ. افحص المتطلبات السابقة قبل الوعد بالتسليم؛ فقد يحتاج المطور إلى ملف حقيقي وتفسير أعمدته من مسؤول التواصل مع العميل. إذا لم يتوفر ذلك، حدد خطوة مستقلة للحصول على عينة أزيلت منها المعلومات الحساسة. عين موعدا لطلب المساعدة قبل اجتماع نهاية الأسبوع حتى لا يتحول نقص مبكر إلى تأخير للأسبوع كله.",
+        "قارن الناتج الفعلي بالتعريف المتفق عليه. إذا عمل الاستيراد لكن الأخطاء لم تظهر إلا في السجلات التقنية، فقد اكتمل جزء من الالتزام فقط. سجل الوقت المبذول والعوائق المرصودة وتغيرات النطاق بصورة منفصلة. تقرير الجهد لا يغني عن فحص الناتج، والتأخير وحده لا يثبت عيبا في شخصية المسؤول. ابحث عن تقدير خاطئ أو مدخل مفقود أو مقاطعة عاجلة أو قرار منتج لم يحسم. ثم اختر صراحة الاستمرار أو تقليص الناتج أو إيقاف العمل. قد يكفي في التجربة الأولى عرض رقم الصف ورسالة خطأ واضحة مع تأجيل التعديل داخل المنتج. يجب أن يبين الموعد الجديد ما الذي تغير منذ الوعد السابق.",
+        "بعد عدة مراجعات، افحص العوائق المتكررة. إذا كانت معظم الأعمال تنتظر موافقة شخص واحد، خفف قائمة القرارات المنتظرة لديه؛ وإذا اتسع النطاق باستمرار، حدد وقتا لقبول الطلبات الجديدة. لا تحول عدد المهام المنجزة إلى ترتيب للأفراد، فصعوبة الأعمال واعتمادها على غيرها يختلفان. ينبغي أن ينتهي الاجتماع بقرار قابل للمتابعة لكل التزام مفتوح، لا بمجرد نقله إلى أسبوع آخر. اختر تغييرا واحدا في طريقة العمل للأسبوع التالي، ثم تحقق مما إذا كان العائق نفسه قد تكرر."
+      ],
+      "takeaways": [
+        "حدد نتيجة قابلة للملاحظة ومسؤولا وموعدا ومراجعا.",
+        "سجل ما يقع خارج النطاق والمدخلات المفقودة قبل الالتزام بالتسليم.",
+        "قارن الناتج بالتعريف الأصلي وافصل تغير النطاق عن التنفيذ.",
+        "اتخذ قرارا صريحا بالاستمرار أو التقليص أو الإيقاف لكل عمل متأخر.",
+        "استخدم العوائق المتكررة لتعديل طريقة العمل لا لترتيب الأفراد."
+      ],
+      "advice": [
+        "درب الانضباط إلى جانب الإرادة.",
+        "خالط أقرانا يسعون إلى أهداف طموحة."
+      ]
+    }
+  },
   "How to Present to Investors": {
     "fa": {
       "paragraphs": [
