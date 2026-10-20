@@ -455,6 +455,36 @@ const articleCategories = [
 
 const articleCatalog = [
   {
+    "title": "Why to Not Not Start a Startup",
+    "category": "building",
+    "author": "Paul Graham",
+    "source": "Paul Graham",
+    "year": "2007",
+    "url": "https://paulgraham.com/notnot.html",
+    "tags": {
+      "fa": [
+        "آمادگی بنیان‌گذار",
+        "آزمایش محدود",
+        "تصمیم شروع"
+      ],
+      "en": [
+        "founder readiness",
+        "bounded experiments",
+        "starting decisions"
+      ],
+      "ar": [
+        "استعداد المؤسس",
+        "تجارب محدودة",
+        "قرار البدء"
+      ]
+    },
+    "summary": {
+      "fa": "برداشتی کوتاه درباره تفکیک تردیدهای شروع، همراه با تمرین مستقل برای ساخت برگه شواهد، تعیین مرز آزمایش و تصمیم روشن درباره قدم بعدی.",
+      "en": "A brief adaptation on separating doubts about starting, with an independent exercise for building an evidence sheet, bounding an experiment, and deciding the next step.",
+      "ar": "معالجة موجزة حول تفكيك التردد قبل البدء، مع تمرين مستقل لإعداد ورقة أدلة وتحديد حدود التجربة واتخاذ قرار بشأن الخطوة التالية."
+    }
+  },
+  {
     "title": "The Anatomy of Determination",
     "category": "leadership",
     "author": "Paul Graham",
@@ -1665,6 +1695,68 @@ const articleCatalog = [
 ];
 
 const articleEssays = {
+  "Why to Not Not Start a Startup": {
+    "fa": {
+      "paragraphs": [
+        "تردید درباره شروع شرکت یک مسئله واحد نیست. می‌توان آن را به نگرانی‌های جدا شکست و سنجید کدام‌یک دلیل موجهی برای شروع‌نکردن است. این برداشت کوتاه از مقاله، نقطه آغاز تمرین مستقل زیر است. فرض کنید دو نفر می‌خواهند ابزاری برای هماهنگی تعمیرات تجهیزات فروشگاه‌ها بسازند، اما هر گفت‌وگو با جمله «هنوز آماده نیستیم» تمام می‌شود. در این تمرین قرار نیست درباره شجاعت یا شخصیت آن‌ها حکم بدهیم؛ می‌خواهیم معلوم شود برای تصمیم بعدی چه اطلاعاتی کم است. سناریو، برگه شواهد و معیارهای آزمایش زیر پیشنهادهای مستقلی هستند و از مثال‌های منبع نقل نشده‌اند.",
+        "یک برگه با چهار ستون بسازید: ادعا، شاهد موجود، اطلاعات لازم و تصمیمی که پاسخ آن را تغییر می‌دهد. مثلاً «فروشگاه‌ها ابزار جدید نمی‌خواهند» هنوز شاهد نیست. شاهد ممکن است این باشد که مسئول یک شعبه دعوت جلسه را رد کرده؛ این مشاهده به‌تنهایی درباره همه فروشگاه‌ها چیزی ثابت نمی‌کند. در ستون سوم بنویسید باید آخرین مورد تأخیر تعمیر را با فردی که مسئول پیگیری بوده مرور کنید. در ستون چهارم مشخص کنید پاسخ چه اثری دارد: انتخاب یک نوع فروشگاه، تغییر مخاطب یا توقف بررسی این مسئله. اگر هیچ پاسخ ممکنی تصمیم شما را تغییر نمی‌دهد، احتمالاً پرسش خوبی برای این مرحله انتخاب نکرده‌اید.",
+        "از میان ردیف‌ها فقط یک ابهام را برای این نوبت انتخاب کنید. در مثال تعمیرات، شاید هنوز نمی‌دانید اطلاعات درخواست بین مدیر شعبه و تعمیرکار کجا گم می‌شود. یک مشاهده محدود طراحی کنید: با اجازه مسئول، مسیر یک درخواست بسته‌شده را از ثبت تا پایان روی کاغذ رسم کنید. زمان ارسال، زمان پاسخ و محل انتظار را جدا بنویسید. از این نقشه برای تشخیص یک نقطه مشخص استفاده کنید، مثلاً گم‌شدن تأیید زمان مراجعه. نتیجه این مشاهده نباید فوراً به فهرست ده قابلیت تبدیل شود؛ خروجی مناسب، جمله‌ای است که یک کاربر، یک موقعیت و یک مشکل قابل مشاهده را نام می‌برد.",
+        "حالا آزمایشی تعریف کنید که فقط همان نقطه را بررسی کند. برای نمونه، طی پنج روز و در یک شعبه، تأیید زمان مراجعه را با یک فرم ساده و پیگیری دستی انجام دهید. این تعداد و مدت، فرض این تمرین‌اند و معیار عمومی موفقیت نیستند. پیش از شروع، بنویسید چه کسی فرم را تکمیل می‌کند، چه داده‌ای لازم است و اگر کسی پاسخ نداد چه خواهید کرد. فقط اطلاعات ضروری کار را ثبت کنید. تعداد موارد کامل‌شده را همراه با کل موارد واجد شرایط گزارش دهید و کمک دستی خودتان را نیز بشمارید؛ وگرنه ممکن است کار پنهان تیم را با کارکرد محصول اشتباه بگیرید.",
+        "برای آزمایش، مرز تعهد را به اندازه خروجی روشن کنید. چه مقدار زمان می‌توانید صرف کنید، چه کسی پاسخ‌گوی شعبه است و در پایان چگونه وضعیت درخواست‌های باز را تحویل می‌دهید؟ آزمایش پنج‌روزه نباید بدون گفت‌وگو به پشتیبانی دائمی تبدیل شود. اگر مسئول پیگیری در این مدت در دسترس نیست، ابتدا زمان دیگری انتخاب کنید یا دامنه را کاهش دهید. همچنین پیش از مشاهده نتیجه، شرایط تکرار را بنویسید: مثلاً اگر بیشتر اطلاعات با کمک مستقیم شما تکمیل شد، نوبت بعد باید وابستگی به این کمک را بررسی کند. تعریف مرز کمک می‌کند نتیجه ضعیف را با تمدیدهای بی‌پایان پنهان نکنید.",
+        "در پایان، برگه اول را دوباره بخوانید و کنار هر ادعا یکی از سه عبارت را بنویسید: شاهد تازه داریم، هنوز نمی‌دانیم، یا پرسش دیگر اولویت ندارد. برای همین مثال، ممکن است تأیید زمان سریع‌تر شده باشد اما مدیر شعبه حاضر نباشد فرم را بدون پیگیری شما استفاده کند. این نتیجه، تصمیم برای ساخت محصول کامل را توجیه نمی‌کند؛ شاید قدم بعدی بررسی مسئولیت ثبت درخواست باشد. تصمیم پایانی باید یک کار مشخص، یک مسئول و یک موعد بازبینی داشته باشد. اگر آزمایش به تعهدهای فعلی شما نمی‌خورد، آن را با ذکر شرط بازگشت کنار بگذارید. هدف این برگه تولید پاسخ «حتماً شروع کن» نیست؛ باید بتوانید توضیح دهید چرا قدم بعدی را انتخاب کرده‌اید."
+      ],
+      "takeaways": [
+        "برای هر ادعا، شاهد موجود و تصمیمی را که پاسخ آن تغییر می‌دهد جدا ثبت کنید.",
+        "در هر نوبت فقط یک ابهام را با مشاهده یک فرایند واقعی بررسی کنید.",
+        "خروجی مشاهده را با کاربر، موقعیت و مشکل مشخص تعریف کنید.",
+        "پیش از آزمایش، مدت، دامنه، مسئول و شیوه تحویل کارهای باز را بنویسید.",
+        "نتایج را با مخرج روشن گزارش دهید و میزان کمک دستی تیم را پنهان نکنید.",
+        "بر پایه شواهد، قدم بعدی یا شرط بازگشت به ایده را با موعد بازبینی ثبت کنید."
+      ],
+      "advice": [
+        "دلیل‌های تردید را جداگانه بررسی کنید.",
+        "پیش از انتخاب هم‌بنیان‌گذار، تجربه کار مشترک داشته باشید."
+      ]
+    },
+    "en": {
+      "paragraphs": [
+        "Uncertainty about starting a company can be separated into specific concerns, including valid reasons to wait. That brief adaptation introduces the independent exercise below. Imagine two people considering a tool for coordinating equipment repairs across shops. Their conversations keep ending with “we are not ready.” The scenario, evidence sheet, and experiment rules here are original proposals, not examples from the source. The aim is to identify what information the next decision requires.",
+        "Create four columns: claim, current evidence, missing information, and the decision an answer would change. “Shops do not want another tool” is a claim; one branch manager declining a meeting is a narrower observation. Instead of treating it as a market verdict, ask to review one completed repair request with the person who coordinated it. Map submission, response, waiting, and completion. Choose one gap, such as a missing confirmation of the technician’s arrival time. End the observation with a specific user, situation, and problem rather than a feature list. If no possible answer would change your decision, revise the question.",
+        "Design a bounded trial around that gap: for example, five days in one branch, using a simple form and manual follow-up to confirm appointments. These numbers are assumptions for this exercise, not success benchmarks. Specify who fills in the form, which essential information is needed, and what happens when someone does not respond. Record completed cases against all eligible cases and count your manual interventions. Agree on available time, responsibility for responding to the branch, and how unresolved requests will be handed back. A short trial should not silently become an ongoing support commitment.",
+        "Before starting, write the condition for another trial. If most records require your help, the next trial might examine that dependency rather than add features. At the review, mark each original claim as having new evidence, still unknown, or no longer a priority. Faster confirmations combined with a manager who will not use the form without prompting do not justify building the whole product. Record one next action with an owner and review date, or set the condition for revisiting the idea later. The useful output is a decision you can explain from observations, not an automatic recommendation to start."
+      ],
+      "takeaways": [
+        "Separate each claim from its evidence and specify which decision the answer changes.",
+        "Observe one real workflow and choose one gap for a bounded trial.",
+        "Count eligible cases and manual interventions alongside completed cases.",
+        "Agree on time limits, responsibility, and handover of unresolved work.",
+        "Record a next action or revisit condition with an owner and review date."
+      ],
+      "advice": [
+        "Examine reasons for hesitation separately.",
+        "Work together before choosing a cofounder."
+      ]
+    },
+    "ar": {
+      "paragraphs": [
+        "يمكن تفكيك التردد بشأن تأسيس شركة إلى مخاوف محددة، وقد يكون بعضها سببا وجيها للانتظار. هذه المعالجة الموجزة تمهد للتمرين المستقل التالي. تخيل شخصين يفكران في أداة لتنسيق إصلاح المعدات في المتاجر، لكن كل نقاش ينتهي بعبارة «لسنا مستعدين بعد». السيناريو وورقة الأدلة وقواعد التجربة هنا مقترحات مستقلة، وليست أمثلة من المصدر. المطلوب هو تحديد المعلومات الناقصة لاتخاذ القرار التالي، لا إصدار حكم على شخصية المؤسسين.",
+        "أنشئ أربعة أعمدة: الادعاء، والدليل المتاح، والمعلومات الناقصة، والقرار الذي ستغيره الإجابة. عبارة «المتاجر لا تريد أداة أخرى» ادعاء؛ أما رفض مدير فرع واحد دعوة إلى اجتماع فهو ملاحظة أضيق. بدلا من اعتباره حكما على السوق، اطلب مراجعة طلب إصلاح مكتمل مع المسؤول عن متابعته. ارسم مراحل الإرسال والرد والانتظار والإغلاق، ثم اختر فجوة واحدة، مثل غياب تأكيد موعد وصول الفني. ينبغي أن تنتهي الملاحظة بتحديد مستخدم وموقف ومشكلة، لا بقائمة ميزات. وإذا لم توجد إجابة محتملة تغير القرار، فأعد صياغة السؤال.",
+        "صمم تجربة محدودة لهذه الفجوة، كاستخدام نموذج بسيط ومتابعة يدوية لتأكيد المواعيد في فرع واحد خلال خمسة أيام. هذه الأرقام افتراضات للتمرين وليست معايير عامة للنجاح. حدد من يملأ النموذج، والبيانات الضرورية، وما ستفعله عند غياب الرد. سجل الحالات المكتملة من إجمالي الحالات المؤهلة، واحسب تدخلاتك اليدوية حتى لا تنسب عمل الفريق الخفي إلى الأداة. اتفق مسبقا على الوقت المتاح، والمسؤول عن الرد على الفرع، وكيفية تسليم الطلبات المفتوحة عند النهاية. لا ينبغي أن تتحول التجربة القصيرة بصمت إلى التزام دعم دائم.",
+        "اكتب شرط تكرار التجربة قبل بدئها. إذا احتاجت معظم السجلات إلى مساعدتك، فقد تكون الخطوة التالية فحص هذا الاعتماد بدلا من إضافة ميزات. عند المراجعة، صنف كل ادعاء أولي: لدينا دليل جديد، أو ما زلنا لا نعرف، أو لم يعد السؤال أولوية. تسريع التأكيد مع رفض المدير استخدام النموذج دون تذكير لا يبرر بناء المنتج كله. سجل إجراء تاليا واحدا ومسؤولا وموعد مراجعة، أو شرطا واضحا للعودة إلى الفكرة لاحقا. الناتج المفيد هو قرار تستطيع تفسيره بالملاحظات، وليس توصية تلقائية بتأسيس الشركة."
+      ],
+      "takeaways": [
+        "افصل الادعاء عن الدليل وحدد القرار الذي ستغيره الإجابة.",
+        "راقب سير عمل حقيقيا واختر فجوة واحدة لتجربة محدودة.",
+        "احسب الحالات المؤهلة والتدخلات اليدوية إلى جانب الحالات المكتملة.",
+        "اتفق على حدود الوقت والمسؤولية وتسليم العمل المفتوح.",
+        "سجل خطوة تالية أو شرط عودة مع مسؤول وموعد مراجعة."
+      ],
+      "advice": [
+        "افحص أسباب التردد كل سبب على حدة.",
+        "اعمل مع الشخص قبل اختياره شريكا مؤسسا."
+      ]
+    }
+  },
   "The Anatomy of Determination": {
     "fa": {
       "paragraphs": [
