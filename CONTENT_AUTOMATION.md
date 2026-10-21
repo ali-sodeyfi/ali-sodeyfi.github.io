@@ -13,6 +13,12 @@
 
 Pending requests are not publication-ready items and must not be promoted by the five-minute publishing cron. A source access problem should be recorded on the request; it must not be silently treated as completion. Keep summaries within the source's permitted limits; do not reproduce a full copyrighted article to meet a paragraph target.
 
+### Book summaries
+
+The request list also accepts `contentType: "book-summary"`; existing requests without a type are articles. A book summary is distinct from an article or interview about that book: preserve both requests, use distinct titles, source URLs and slugs, and deduplicate within the source work rather than rejecting a book because its subject appeared in an article.
+
+When preparing a book request, retain `bookTitle`, author(s), publisher, publication year and ISBN when available. Display the localized content label (`خلاصهٔ کتاب` / `Book summary` / `ملخص كتاب`) on its card and reading page. Keep topic categories such as `growth` separate from the content type. Include the central argument, main concepts, useful applications and limits of the approach, with links to the book/publisher and supporting primary sources. Clearly distinguish editorial analysis from the authors' ideas. State when the synthesis relies on authorized excerpts and author explanations rather than full-book access. Use original concise prose, not a replacement translation or chapter-by-chapter reproduction. Prepare the supported languages and validate the generated pages through the normal workflow before marking a request completed.
+
 ## Primary scheduler
 
 The primary scheduler is the Liara server cron running `scripts/run-publishing-cron.sh`.

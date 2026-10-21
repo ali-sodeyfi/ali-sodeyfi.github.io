@@ -3,6 +3,7 @@
   "requests": [
     {
       "title": "Blitzscaling",
+      "contentType": "article",
       "url": "https://hbr.org/2016/04/blitzscaling",
       "author": "Tim Sullivan",
       "interviewee": "Reid Hoffman",
@@ -12,6 +13,26 @@
       "requestedAt": "2026-10-21",
       "status": "pending",
       "note": "User-requested priority for the next daily article selection. Prepare an original, concise attributed summary; do not reproduce or closely translate the full copyrighted interview."
+    },
+    {
+      "title": "Blitzscaling — Book Summary",
+      "contentType": "book-summary",
+      "bookTitle": "Blitzscaling: The Lightning-Fast Path to Building Massively Valuable Companies",
+      "url": "https://www.blitzscaling.com/",
+      "author": "Reid Hoffman and Chris Yeh",
+      "source": "Currency",
+      "sourceDate": "2018-10-09",
+      "isbn": "9781524761417",
+      "articleSlug": "blitzscaling-book-summary",
+      "requestedAt": "2026-10-21",
+      "status": "pending",
+      "supportingSources": [
+        "https://penguinrandomhousesecondaryeducation.com/book/?isbn=9781524761417",
+        "https://www.strategy-business.com/article/The-Blitzscaling-Basics",
+        "https://www.blitzscalingvc.com/post/the-blitzscalability-scorecard-identifying-future-market-winners",
+        "https://www.blitzscalingvc.com/post/learn-blitzscaling-and-how-openai-blitzscaled-in-20-minutes"
+      ],
+      "note": "First requested book summary. Distinct from the 2016 HBR interview. Display a localized Book summary label and credit both authors and the book year. Write a concise original synthesis with source links, distinguish editorial applications from the authors' claims, and state the source coverage honestly. Do not reproduce the book or present excerpts as a full-book reading."
     }
   ]
 }
