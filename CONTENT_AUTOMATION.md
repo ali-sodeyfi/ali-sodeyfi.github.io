@@ -7,6 +7,12 @@
 - `translations`: editable site copy.
 - `publishing.queue`: dated items with `publishAt`, `channel`, `target`, `articleSlug`, and `status`.
 
+## Requested articles
+
+`article-requests.json` holds user-requested source articles awaiting preparation. Before selecting a new daily source, process the oldest `pending` request whose title and URL are not already in `articleCatalog`. Prepare the attributed multilingual summary and generated pages, then add the site publishing item through the normal daily workflow. Mark the request `completed` with `completedAt` and `articleSlug` only after its article and publishing item exist. If the article already exists, link the request to it instead of creating a duplicate.
+
+Pending requests are not publication-ready items and must not be promoted by the five-minute publishing cron. A source access problem should be recorded on the request; it must not be silently treated as completion. Keep summaries within the source's permitted limits; do not reproduce a full copyrighted article to meet a paragraph target.
+
 ## Primary scheduler
 
 The primary scheduler is the Liara server cron running `scripts/run-publishing-cron.sh`.

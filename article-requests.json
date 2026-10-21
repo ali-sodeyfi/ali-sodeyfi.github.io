@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "requests": [
+    {
+      "title": "Blitzscaling",
+      "url": "https://hbr.org/2016/04/blitzscaling",
+      "author": "Tim Sullivan",
+      "interviewee": "Reid Hoffman",
+      "source": "Harvard Business Review",
+      "sourceDate": "2016-04",
+      "articleSlug": "blitzscaling",
+      "requestedAt": "2026-10-21",
+      "status": "pending",
+      "note": "User-requested priority for the next daily article selection. Prepare an original, concise attributed summary; do not reproduce or closely translate the full copyrighted interview."
+    }
+  ]
+}
