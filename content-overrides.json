@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-20T02:20:20Z",
+  "updatedAt": "2026-10-21T02:17:14.272Z",
   "translations": {
     "fa": {
       "documentTitle": "علی سدیفی | یادداشت‌هایی درباره ساخت کسب‌وکار",
@@ -225,6 +225,55 @@
   "publishing": {
     "timezone": "Asia/Tehran",
     "queue": [
+      {
+        "id": "2026-10-21-site-the-other-half-of-artists-ship",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "the-other-half-of-artists-ship",
+        "publishAt": "2026-10-21T05:47:14+03:30",
+        "status": "published",
+        "publishedAt": "2026-10-21T05:47:14+03:30"
+      },
+      {
+        "id": "2026-10-21-linkedin-the-other-half-of-artists-ship",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "the-other-half-of-artists-ship",
+        "publishAt": "2026-10-21T12:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-10-21T05:47:14+03:30",
+        "note": "Draft/preview only. Verified account/API or session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "صف انتشار باید صاحب تصمیم داشته باشد",
+          "en": "Give the release queue a decision owner",
+          "ar": "حدد صاحب القرار في طابور الإطلاق"
+        },
+        "body": {
+          "fa": "بدون مسئول پاسخ‌گو، زمان بازبینی قابل پیش‌بینی نیست.\nپیامد: تغییر آماده می‌ماند و پشتیبانی هزینه انتظار را می‌پردازد.\nاقدام بعدی: برای یک نوع تغییر، سؤال بازبینی، مسئول، جانشین و مسیر ارجاع را ثبت کنید.\nPaul Graham — https://paulgraham.com/artistsship.html\nhttps://alisodeyfi.ir/articles/the-other-half-of-artists-ship/fa/#daily-article-reader",
+          "en": "Without an accountable owner, review time is unpredictable.\nImplication: finished changes wait while support absorbs the delay.\nNext action: for one change type, record the review question, owner, backup, and escalation route.\nPaul Graham — https://paulgraham.com/artistsship.html\nhttps://alisodeyfi.ir/articles/the-other-half-of-artists-ship/en/#daily-article-reader",
+          "ar": "دون مسؤول عن الرد يصعب توقع مدة المراجعة.\nالأثر: تنتظر التغييرات الجاهزة ويتحمل الدعم تكلفة التأخير.\nالخطوة التالية: حدد لنوع واحد من التغييرات سؤال المراجعة والمسؤول وبديله ومسار التصعيد.\nPaul Graham — https://paulgraham.com/artistsship.html\nhttps://alisodeyfi.ir/articles/the-other-half-of-artists-ship/ar/#daily-article-reader"
+        }
+      },
+      {
+        "id": "2026-10-21-instagram-story-the-other-half-of-artists-ship",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "the-other-half-of-artists-ship",
+        "publishAt": "2026-10-21T20:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-10-21T05:47:14+03:30",
+        "note": "Draft/preview only. Verified account/API or session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "صف انتشار باید صاحب تصمیم داشته باشد",
+          "en": "Give the release queue a decision owner",
+          "ar": "حدد صاحب القرار في طابور الإطلاق"
+        },
+        "body": {
+          "fa": "اسلاید ۱: صف انتشار به مسئول تصمیم نیاز دارد.\nاسلاید ۲: برای یک نوع تغییر، مسئول و جانشین تعیین کنید؛ زمان انتظار را ثبت کنید.\nاسلاید ۳: برداشت کوتاه و راهنمای عملی مستقل\nPaul Graham — https://paulgraham.com/artistsship.html\nhttps://alisodeyfi.ir/articles/the-other-half-of-artists-ship/fa/#daily-article-reader",
+          "en": "Slide 1: a release queue needs a decision owner.\nSlide 2: assign an owner and backup for one change type; record waiting time.\nSlide 3: brief adaptation and independent practical guide\nPaul Graham — https://paulgraham.com/artistsship.html\nhttps://alisodeyfi.ir/articles/the-other-half-of-artists-ship/en/#daily-article-reader",
+          "ar": "الشريحة ١: طابور الإطلاق يحتاج إلى صاحب قرار.\nالشريحة ٢: حدد مسؤولا وبديله لنوع واحد من التغييرات وسجل وقت الانتظار.\nالشريحة ٣: معالجة موجزة ودليل عملي مستقل\nPaul Graham — https://paulgraham.com/artistsship.html\nhttps://alisodeyfi.ir/articles/the-other-half-of-artists-ship/ar/#daily-article-reader"
+        }
+      },
       {
         "id": "2026-10-20-site-why-to-not-not-start-a-startup",
         "channel": "site",

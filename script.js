@@ -455,6 +455,36 @@ const articleCategories = [
 
 const articleCatalog = [
   {
+    "title": "The Other Half of \"Artists Ship\"",
+    "category": "building",
+    "author": "Paul Graham",
+    "source": "Paul Graham",
+    "year": "2008",
+    "url": "https://paulgraham.com/artistsship.html",
+    "tags": {
+      "fa": [
+        "فرایند انتشار",
+        "اختیار تصمیم",
+        "بازبینی کنترل‌ها"
+      ],
+      "en": [
+        "release process",
+        "decision ownership",
+        "reviewing controls"
+      ],
+      "ar": [
+        "عملية الإطلاق",
+        "صلاحية القرار",
+        "مراجعة الضوابط"
+      ]
+    },
+    "summary": {
+      "fa": "برداشتی کوتاه درباره هزینه کنترل‌های سازمانی، همراه با راهنمای عملی مستقل برای ثبت صف انتشار، تعیین مسئول تصمیم و آزمایش یک مسیر محدود برای تغییرات برگشت‌پذیر.",
+      "en": "A brief adaptation on the cost of organizational checks, followed by an independent guide to mapping a release queue, assigning decision ownership, and testing a bounded path for reversible changes.",
+      "ar": "معالجة موجزة لتكلفة الضوابط التنظيمية، تتبعها خطوات مستقلة لرسم طابور الإطلاق وتحديد صاحب القرار وتجربة مسار محدود للتغييرات القابلة للتراجع."
+    }
+  },
+  {
     "title": "Why to Not Not Start a Startup",
     "category": "building",
     "author": "Paul Graham",
@@ -1695,6 +1725,63 @@ const articleCatalog = [
 ];
 
 const articleEssays = {
+  "The Other Half of \"Artists Ship\"": {
+    "fa": {
+      "paragraphs": [
+        "کنترل سازمانی هزینه دارد؛ محدودکردن امکان عرضه محصول می‌تواند سازندگان توانمند را از شرکت دور کند. این برداشت کوتاه از مقاله، مبنای راهنمای مستقل زیر است. فرض کنید تیمی نرم‌افزار هماهنگی ارسال سفارش می‌سازد و اصلاح یک پیام مبهم در صفحه پیگیری، چند روز در صف تأیید می‌ماند. در همین مدت پشتیبانی هر روز همان سؤال را پاسخ می‌دهد. سناریو و روش پیشنهادی این راهنما مثال‌های منبع نیستند؛ برای بررسی یک مسئله مشخص طراحی شده‌اند: چگونه بفهمیم انتظار در صف انتشار چه علتی دارد و کدام بخش فرایند را می‌توان با مسئولیت روشن تغییر داد؟",
+        "ابتدا مسیر سه تغییر اخیر را روی یک برگه ثبت کنید. برای هرکدام، زمان آماده‌شدن، زمان درخواست بازبینی، زمان دریافت پاسخ و زمان رسیدن به کاربر را بنویسید. این زمان‌ها را از سابقه واقعی کار استخراج کنید؛ تخمین کلی «معمولاً دو روز» ممکن است انتظار طولانی یک مورد را پنهان کند. کنار هر فاصله مشخص کنید کار فعال انجام شده یا درخواست منتظر مانده است. در مثال پیام پیگیری، شاید بازبینی فقط ده دقیقه طول کشیده، اما کسی مسئول پاسخ‌دادن در روز غیبت مدیر نبوده است. این مشاهده مسئله‌ای متفاوت از کندبودن برنامه‌نویسی را نشان می‌دهد و به تصمیم متفاوتی نیاز دارد.",
+        "سپس برای همان تغییر، یک برگه تصمیم کوتاه بسازید: کاربر چه چیزی خواهد دید، چه چیزی ممکن است اشتباه شود، اثر اشتباه تا کجا می‌رسد و بازگشت چگونه انجام می‌شود؟ اصلاح متن راهنمای پیگیری را با تغییر منطق محاسبه هزینه ارسال در یک گروه نگذارید. در اولی شاید بازگرداندن نسخه قبلی کافی باشد؛ در دومی ممکن است سفارش‌هایی با مبلغ نادرست ایجاد شوند که بازگشت کد آن‌ها را اصلاح نمی‌کند. دامنه اثر را بر اساس رفتار واقعی محصول بنویسید. برچسب «تغییر کوچک» بدون این توضیح، برای تعیین سطح بازبینی کافی نیست و اختلاف اعضای تیم را حل نمی‌کند.",
+        "برای تصمیم یک مسئول مشخص و یک جانشین تعیین کنید. درخواست بازبینی باید پرسش روشنی داشته باشد؛ مثلاً «آیا این عبارت برای سفارش چندبسته‌ای هم درست است؟» از بازبین نخواهید صرفاً روی یک تغییر علامت تأیید بزند. در برگه بنویسید پاسخ مورد انتظار چیست و اگر پاسخ در زمان توافق‌شده نرسید، درخواست به چه کسی ارجاع می‌شود. سکوت را تأیید حساب نکنید. اگر دو نفر درباره دو موضوع مستقل نظر می‌دهند، پرسش هرکدام را جدا کنید تا درخواست بین واحدها گردش مبهم نداشته باشد. این نظم کوتاه کمک می‌کند مسئول انتشار بداند چه زمانی اطلاعات کافی برای تصمیم دارد.",
+        "حالا یک آزمایش محدود اجرا کنید: برای یک هفته، فقط تغییر متن راهنمای پیگیری از مسیر تازه عبور کند. این مدت انتخاب سناریوست، نه معیار عمومی. پیش از انتشار، حالت‌های مرتبط مثل سفارش لغوشده و سفارش چندبسته‌ای را بررسی کنید؛ نسخه قبلی و مسئول بازگردانی هم مشخص باشند. تغییرهایی که مبلغ سفارش یا دسترسی به اطلاعات را عوض می‌کنند، وارد این آزمایش نشوند. زمان انتظار، تعداد رفت‌وبرگشت‌های بازبینی و نیاز به اصلاح پس از انتشار را برای هر مورد ثبت کنید. اگر تعداد تغییرها کم بود، نتیجه را با همان تعداد گزارش دهید؛ از یک انتشار موفق، حکم کلی درباره همه فرایندهای شرکت نسازید.",
+        "در پایان هفته، تیم باید درباره همان مسیر تصمیم بگیرد: ادامه، اصلاح یا بازگشت به روش قبلی. اگر انتظار کم شده اما سؤال‌های پشتیبانی بیشتر شده‌اند، نمونه پیام‌های مبهم را بررسی کنید و دامنه راهنما را اصلاح کنید. اگر تأخیر همچنان در پیدا کردن بازبین است، حذف یک فرم احتمالاً مسئله را حل نمی‌کند؛ باید پوشش مسئولیت بازبینی تغییر کند. نتیجه جلسه را در چند خط ثبت کنید: چه چیزی مشاهده شد، کدام قاعده تغییر می‌کند، مسئول آن کیست و چه زمانی دوباره بررسی می‌شود. یک مسیر انتشار مفید باید از تجربه‌های ثبت‌شده بهتر شود؛ تعداد امضاها به‌تنهایی چیزی درباره کیفیت تصمیم نمی‌گوید."
+      ],
+      "takeaways": [
+        "زمان آماده‌شدن، درخواست بازبینی، پاسخ و انتشار سه تغییر اخیر را جدا ثبت کنید.",
+        "برای هر تغییر، دامنه اثر و روش بازگشت را پیش از تعیین مسیر تأیید روشن کنید.",
+        "مسئول تصمیم، جانشین و مسیر ارجاع در صورت تأخیر را مشخص کنید.",
+        "از هر بازبین پاسخ به یک پرسش مشخص بخواهید؛ سکوت را تأیید نگیرید.",
+        "مسیر تازه را ابتدا برای یک نوع تغییر محدود آزمایش کنید و تعداد موارد را گزارش دهید.",
+        "در موعد بازبینی، بر اساس انتظار، رفت‌وبرگشت‌ها و اصلاحات بعدی درباره ادامه مسیر تصمیم بگیرید."
+      ],
+      "advice": [
+        "هنگام پیشنهاد یک کنترل تازه، فایده و هزینه آن را کنار هم توضیح دهید."
+      ]
+    },
+    "en": {
+      "paragraphs": [
+        "Organizational checks have costs; restricting the ability to ship can drive capable builders away. That brief adaptation introduces the independent guide below. Imagine a delivery coordination team whose correction to a confusing tracking message waits days for approval while support answers the same question repeatedly. This scenario and method are original proposals, not examples from the source. Start by recording when three recent changes became ready, entered review, received a response, and reached users. Separate active work from waiting. A ten-minute review delayed by an absent manager calls for a different intervention from slow implementation.",
+        "For the tracking-message change, write a short decision sheet: what users will see, what might go wrong, how far the effect could spread, and how to undo it. Do not group a wording correction with a change to delivery-price calculations simply because both involve few lines. Reverting code may restore a message, while incorrectly priced orders may require additional repair. Assign a decision owner and a backup. Give each reviewer a specific question, such as whether the wording remains accurate for a shipment containing several packages. Set a response window and an escalation route; silence should not count as approval.",
+        "Test the revised path for one week using only tracking-message edits. The duration is an assumption for this exercise, not a benchmark. Check relevant order states before release, identify who can restore the previous version, and exclude changes to prices or data access. Record waiting time, review exchanges, and corrections after release for every case. At the review, report the sample size and decide whether to continue, revise, or revert the process. If delays still come from unavailable reviewers, removing a form will not provide coverage. Write down the observation, the rule being changed, its owner, and the next review date."
+      ],
+      "takeaways": [
+        "Separate active work from waiting using timestamps from recent changes.",
+        "Define the impact and recovery steps before choosing a review path.",
+        "Assign an owner, backup, concrete review question, and escalation route.",
+        "Pilot one change type and report sample size alongside outcomes.",
+        "Use the review to decide which rule changes and who owns the follow-up."
+      ],
+      "advice": [
+        "Explain both the benefit and the cost when proposing a new check."
+      ]
+    },
+    "ar": {
+      "paragraphs": [
+        "للضوابط التنظيمية تكلفة؛ وتقييد القدرة على إطلاق المنتج قد يدفع المطورين الأكفاء إلى المغادرة. هذه المعالجة الموجزة تمهد للدليل المستقل التالي. تخيل فريقا يبني أداة لتنسيق توصيل الطلبات، بينما ينتظر تصحيح عبارة مربكة في صفحة التتبع أياما للحصول على الموافقة. خلال ذلك يجيب الدعم عن السؤال نفسه. السيناريو والطريقة هنا مقترحان مستقلان وليسا من أمثلة المصدر. ابدأ بتسجيل توقيت جاهزية ثلاثة تغييرات سابقة، وطلب مراجعتها، ووصول الرد، وإتاحتها للمستخدم. افصل العمل الفعلي عن الانتظار؛ فمراجعة تستغرق عشر دقائق وتتأخر بسبب غياب المسؤول تحتاج إلى معالجة تختلف عن بطء البرمجة.",
+        "اكتب ورقة قرار قصيرة لتعديل رسالة التتبع: ماذا سيرى المستخدم، وما الخطأ المحتمل، وما نطاق أثره، وكيف يمكن التراجع؟ لا تضع تصحيح العبارة وتعديل حساب رسوم التوصيل في فئة واحدة لمجرد قلة الأسطر المعدلة. قد تعيد النسخة السابقة النص إلى حالته، لكنها لن تصلح تلقائيا طلبات احتسبت برسوم خاطئة. حدد صاحب القرار وبديله، واجعل لكل مراجع سؤالا محددا، مثل دقة العبارة عندما يتكون الطلب من عدة طرود. اتفق على مهلة للرد ومسار للتصعيد عند التأخر. لا تعتبر الصمت موافقة، ولا ترسل طلبا عاما يدور بين الأقسام دون معرفة القرار المطلوب من كل شخص.",
+        "جرب المسار المعدل أسبوعا واحدا على تعديلات نص التتبع فقط. هذه المدة افتراض للتمرين وليست معيارا عاما. افحص حالات الطلب ذات الصلة قبل الإطلاق، وحدد من يستطيع استعادة النسخة السابقة، واستبعد تغييرات الأسعار أو صلاحيات الوصول إلى البيانات. سجل وقت الانتظار وعدد جولات المراجعة والتصحيحات اللاحقة لكل حالة. في نهاية التجربة اذكر عدد الحالات ثم قرر الاستمرار أو التعديل أو العودة إلى المسار السابق. إذا بقي التأخير مرتبطا بعدم توفر المراجع، فلن يعالج حذف نموذج نقص التغطية. سجل الملاحظة والقاعدة التي ستتغير والمسؤول عنها وموعد المراجعة التالية."
+      ],
+      "takeaways": [
+        "افصل وقت العمل عن الانتظار باستخدام توقيتات تغييرات فعلية.",
+        "حدد نطاق الأثر وخطوات التراجع قبل اختيار مسار المراجعة.",
+        "عين صاحب قرار وبديله وسؤال مراجعة واضحا ومسار تصعيد.",
+        "جرب المسار على نوع واحد من التغييرات واذكر عدد الحالات مع النتائج.",
+        "اختم المراجعة بقاعدة محددة ومسؤول وموعد متابعة."
+      ],
+      "advice": [
+        "عند اقتراح ضابط جديد، وضح فائدته وتكلفته معا."
+      ]
+    }
+  },
   "Why to Not Not Start a Startup": {
     "fa": {
       "paragraphs": [
