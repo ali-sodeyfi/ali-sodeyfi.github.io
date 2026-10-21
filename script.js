@@ -7,6 +7,10 @@ const dailyArticleContainer = document.querySelector("[data-daily-article]");
 const articleListContainer = document.querySelector("[data-article-list]");
 const articleFiltersContainer = document.querySelector("[data-article-filters]");
 const articleResultsStatus = document.querySelector("[data-article-results]");
+const articleAdvisor = document.querySelector("[data-article-advisor]");
+const advisorLog = articleAdvisor?.querySelector("[data-advisor-log]");
+const advisorInput = articleAdvisor?.querySelector("[data-advisor-input]");
+const advisorError = articleAdvisor?.querySelector("[data-advisor-error]");
 const html = document.documentElement;
 const liveSiteUrl = "https://alisodeyfi.ir/";
 const defaultShareImageUrl = `${liveSiteUrl}assets/ali-sodeyfi.jpg`;
@@ -110,6 +114,17 @@ const translations = {
     articlesTitle: "مقاله‌هایی برای تصمیم‌های واقعی",
     articlesIntro:
       "ترجمه و برداشت آزاد از مقاله‌های معتبر درباره کارآفرینی، محصول و ساخت شرکت؛ هر مطلب با خلاصهٔ اجرایی، نکات کاربردی و لینک منبع اصلی.",
+    advisorLabel: "راهنمای مطالعه",
+    advisorTitle: "مسئله‌ات را بگو، مقالهٔ مرتبط پیدا کن",
+    advisorGreeting: "الان برای کدام تصمیم یا چالش دنبال دیدگاه می‌گردی؟",
+    advisorInputLabel: "مسئله یا سؤال تو",
+    advisorPrivacy: "این سایت متن را ارسال یا ذخیره نمی‌کند؛ تطبیق در مرورگر انجام می‌شود.",
+    advisorSubmit: "پیشنهاد مقاله",
+    advisorEmpty: "مسئله‌ات را در یک جمله بنویس.",
+    advisorMatches: "این مقاله‌ها ممکن است برای مسئله‌ات مفید باشند:",
+    advisorNoMatch: "هنوز مقالهٔ مرتبطی پیدا نکردم. موضوع یا تصمیمی را که پیش رویت است دقیق‌تر بگو.",
+    advisorTopic: "موضوع",
+    advisorRefine: "اگر منظورت چیز دیگری است، جزئیات بیشتری بگو تا پیشنهادها را دقیق‌تر کنم.",
     articleTodayLabel: "انتخاب امروز",
     articleSelectedLabel: "ترجمه منتخب",
     articleArchiveLabel: "آرشیو مقاله‌ها",
@@ -252,6 +267,17 @@ const translations = {
     articlesTitle: "Articles for real decisions",
     articlesIntro:
       "Readable adaptations of credible work on entrepreneurship, products, and company building, with practical takeaways and a clear original source.",
+    advisorLabel: "Reading guide",
+    advisorTitle: "Describe your challenge, find a relevant article",
+    advisorGreeting: "What decision or challenge are you working through?",
+    advisorInputLabel: "Your challenge or question",
+    advisorPrivacy: "This site does not send or store your text; matching happens in your browser.",
+    advisorSubmit: "Find articles",
+    advisorEmpty: "Describe your challenge in a sentence.",
+    advisorMatches: "These articles may help with your challenge:",
+    advisorNoMatch: "I couldn't find a close match yet. Tell me more about the topic or decision you're facing.",
+    advisorTopic: "Topic",
+    advisorRefine: "If I missed the point, add a little context and I'll refine the suggestions.",
     articleTodayLabel: "Today's pick",
     articleSelectedLabel: "Selected translation",
     articleArchiveLabel: "Article archive",
@@ -394,6 +420,17 @@ const translations = {
     articlesTitle: "مقالات لقرارات حقيقية",
     articlesIntro:
       "ترجمات ومعالجات مقروءة لمصادر موثوقة عن ريادة الأعمال والمنتج وبناء الشركات، مع نقاط عملية ورابط واضح إلى المصدر الأصلي.",
+    advisorLabel: "دليل القراءة",
+    advisorTitle: "اشرح مشكلتك لتجد مقالا مناسبا",
+    advisorGreeting: "ما القرار أو التحدي الذي تعمل عليه الآن؟",
+    advisorInputLabel: "مشكلتك أو سؤالك",
+    advisorPrivacy: "لا يرسل هذا الموقع نصك ولا يخزنه؛ تتم المطابقة داخل متصفحك.",
+    advisorSubmit: "اقتراح مقالات",
+    advisorEmpty: "اكتب مشكلتك في جملة واحدة.",
+    advisorMatches: "قد تفيدك هذه المقالات في مشكلتك:",
+    advisorNoMatch: "لم أجد مقالا قريبا بعد. وضح الموضوع أو القرار الذي تواجهه.",
+    advisorTopic: "الموضوع",
+    advisorRefine: "إن لم تكن هذه هي المشكلة، أضف بعض التفاصيل لتحسين الاقتراحات.",
     articleTodayLabel: "اختيار اليوم",
     articleSelectedLabel: "ترجمة مختارة",
     articleArchiveLabel: "أرشيف المقالات",
@@ -6689,9 +6726,160 @@ function showArticle(index, options = {}) {
   }
 }
 
+const advisorCategoryCues = {
+  ideas: ["ایده", "اعتبارسنجی", "فرضیه", "آزمایش بازار", "idea", "validate", "validation", "hypothesis", "فكرة", "التحقق", "فرضية"],
+  product: ["محصول", "کاربر", "مصاحبه", "نیاز مشتری", "product", "user", "interview", "usage", "المنتج", "المستخدم", "مقابلة"],
+  growth: ["رشد", "فروش", "مشتری", "جذب مشتری", "بازاریابی", "درآمد", "نگهداشت", "growth", "sales", "customer", "customer acquisition", "retention", "marketing", "النمو", "المبيعات", "العملاء", "اكتساب العملاء"],
+  funding: ["سرمایه", "سرمایه گذار", "سهام", "ارزش گذاری", "funding", "investor", "equity", "fundraising", "التمويل", "المستثمر", "الأسهم"],
+  building: ["ساخت شرکت", "راه اندازی", "شروع کسب", "بنیانگذار", "فرایند", "company building", "founder", "launch", "process", "بناء الشركة", "تأسيس", "عملية"],
+  leadership: ["تیم", "مدیریت", "تمرکز", "استخدام", "اولویت", "اختلاف", "team", "leadership", "focus", "hiring", "priority", "disagreement", "الفريق", "القيادة", "التركيز", "التوظيف"],
+};
+
+const advisorIntentBoosts = [
+  {
+    concepts: [
+      ["مشتری", "customer", "customers", "العملاء"],
+      ["پیدا", "جذب", "اولین", "first", "find", "get", "acquire", "اجد", "العثور", "اوائل", "الاوائل", "اكتساب"],
+    ],
+    title: "How to Get Your First Customers",
+    bonus: 8,
+  },
+];
+
+const advisorStopWords = new Set([
+  "برای", "چطور", "چگونه", "دارم", "داریم", "کردن", "کنم", "کنیم", "نیست", "است", "این", "اون", "باید", "اما", "درباره", "میشه", "میشود", "مشکل", "مسئله", "سوال", "استارتاپ", "شرکت",
+  "the", "and", "for", "with", "how", "what", "why", "our", "your", "that", "this", "from", "have", "about", "problem", "challenge", "startup", "company", "business",
+  "كيف", "ماذا", "لماذا", "على", "إلى", "عند", "هذه", "هذا", "لدينا", "مشكلة", "سؤال", "شركة",
+]);
+
+function normalizeAdvisorText(value) {
+  return String(value)
+    .normalize("NFKC")
+    .toLowerCase()
+    .replace(/[يى]/g, "ی")
+    .replace(/ك/g, "ک")
+    .replace(/[أإآ]/g, "ا")
+    .replace(/[\u064b-\u065f\u0670]/g, "")
+    .replace(/[\u200c\u200d]/g, " ")
+    .replace(/[^\p{L}\p{N}]+/gu, " ")
+    .trim();
+}
+
+function getAdvisorTokens(value) {
+  return [...new Set(normalizeAdvisorText(value).split(/\s+/).filter(
+    (token) => token.length >= 3 && !advisorStopWords.has(token),
+  ))];
+}
+
+function advisorTokenMatches(left, right) {
+  if (left === right) return true;
+  const shorter = left.length < right.length ? left : right;
+  const longer = left.length < right.length ? right : left;
+  return shorter.length >= 4 && longer.length - shorter.length <= 4 && longer.startsWith(shorter);
+}
+
+function countAdvisorMatches(queryTokens, value) {
+  const contentTokens = getAdvisorTokens(value);
+  return queryTokens.filter((queryToken) => contentTokens.some(
+    (contentToken) => advisorTokenMatches(queryToken, contentToken),
+  )).length;
+}
+
+function rankAdvisorArticles(query, limit = 3) {
+  const queryTokens = getAdvisorTokens(query);
+  if (!queryTokens.length) return [];
+
+  const categoryScores = Object.fromEntries(Object.entries(advisorCategoryCues).map(([id, cues]) => {
+    const matches = cues.filter((cue) => {
+      const cueTokens = getAdvisorTokens(cue);
+      return cueTokens.length && cueTokens.every((token) => queryTokens.some(
+        (queryToken) => advisorTokenMatches(token, queryToken),
+      ));
+    }).length;
+    return [id, Math.min(matches * 3, 9)];
+  }));
+
+  return articleCatalog.map((article, index) => {
+    const tags = Object.values(article.tags).flat();
+    const summaries = Object.values(article.summary).join(" ");
+    const tagMatches = tags.filter((tag) => countAdvisorMatches(queryTokens, tag) > 0).length;
+    const intentBonus = advisorIntentBoosts.reduce((bonus, intent) => {
+      if (intent.title !== article.title) return bonus;
+      const matches = intent.concepts.every((alternatives) => alternatives.some((term) =>
+        getAdvisorTokens(term).some((token) => queryTokens.some((queryToken) =>
+          advisorTokenMatches(token, queryToken),
+        )),
+      ));
+      return bonus + (matches ? intent.bonus : 0);
+    }, 0);
+    const score = (categoryScores[article.category] ?? 0)
+      + Math.min(tagMatches, 3) * 4
+      + Math.min(countAdvisorMatches(queryTokens, article.title), 3) * 2
+      + Math.min(countAdvisorMatches(queryTokens, summaries), 4)
+      + intentBonus;
+    return { article, index, score };
+  })
+    .filter((result) => result.score >= 3)
+    .sort((a, b) => b.score - a.score || a.index - b.index)
+    .slice(0, limit);
+}
+
+function appendAdvisorMessage(message, className) {
+  const node = document.createElement("div");
+  node.className = `article-advisor-message ${className}`;
+  node.textContent = message;
+  advisorLog.append(node);
+  return node;
+}
+
+function renderAdvisorReply(results, language) {
+  const dictionary = translations[language] ?? translations.fa;
+  if (!results.length) {
+    appendAdvisorMessage(dictionary.advisorNoMatch, "article-advisor-message-guide");
+    return;
+  }
+
+  const reply = document.createElement("div");
+  reply.className = "article-advisor-message article-advisor-message-guide";
+  const intro = document.createElement("p");
+  intro.textContent = dictionary.advisorMatches;
+  reply.append(intro);
+  const list = document.createElement("ol");
+  list.className = "article-advisor-results";
+
+  for (const { article } of results) {
+    const item = document.createElement("li");
+    const link = document.createElement("a");
+    link.href = getArticlePageUrl(article, language);
+    link.textContent = article.title;
+    const topic = document.createElement("span");
+    topic.className = "article-advisor-topic";
+    topic.textContent = `${dictionary.advisorTopic}: ${getArticleCategory(article).label[language]}`;
+    const summary = document.createElement("p");
+    summary.textContent = article.summary[language] ?? article.summary.en;
+    item.append(link, topic, summary);
+    list.append(item);
+  }
+
+  const refine = document.createElement("p");
+  refine.className = "article-advisor-refine";
+  refine.textContent = dictionary.advisorRefine;
+  reply.append(list, refine);
+  advisorLog.append(reply);
+}
+
+function resetAdvisorConversation(language) {
+  if (!advisorLog) return;
+  advisorLog.replaceChildren();
+  appendAdvisorMessage(translations[language].advisorGreeting, "article-advisor-message-guide");
+  if (advisorInput) advisorInput.value = "";
+  if (advisorError) advisorError.textContent = "";
+}
+
 function applyLanguage(language) {
   const selectedLanguage = translations[language] ? language : "fa";
   const dictionary = translations[selectedLanguage];
+  const previousLanguage = html.lang;
 
   html.lang = selectedLanguage;
   html.dir = selectedLanguage === "en" ? "ltr" : "rtl";
@@ -6702,6 +6890,10 @@ function applyLanguage(language) {
       node.textContent = dictionary[key];
     }
   });
+
+  if (previousLanguage !== selectedLanguage) {
+    resetAdvisorConversation(selectedLanguage);
+  }
 
   languageButtons.forEach((button) => {
     button.setAttribute(
@@ -6845,6 +7037,32 @@ languageButtons.forEach((button) => {
     applyLanguage(button.dataset.lang);
   });
 });
+
+function submitAdvisorQuery(event) {
+  event.preventDefault();
+  if (!advisorLog || !advisorInput) return;
+
+  const language = html.lang || "fa";
+  const query = advisorInput.value.trim();
+  if (!query) {
+    if (advisorError) advisorError.textContent = translations[language].advisorEmpty;
+    advisorInput.focus();
+    return;
+  }
+
+  if (advisorError) advisorError.textContent = "";
+  const userMessage = appendAdvisorMessage(query, "article-advisor-message-user");
+  renderAdvisorReply(rankAdvisorArticles(query), language);
+  while (advisorLog.children.length > 7) {
+    advisorLog.children[1].remove();
+  }
+  advisorLog.scrollTop += userMessage.getBoundingClientRect().top
+    - advisorLog.getBoundingClientRect().top - 8;
+  advisorInput.value = "";
+}
+
+articleAdvisor?.addEventListener("submit", submitAdvisorQuery);
+articleAdvisor?.querySelector("[data-advisor-submit]")?.addEventListener("click", submitAdvisorQuery);
 
 dailyArticleContainer?.addEventListener("click", (event) => {
   const target = event.target instanceof Element ? event.target : null;

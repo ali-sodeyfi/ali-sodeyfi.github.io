@@ -35,7 +35,7 @@
     <title>علی سدیفی | یادداشت‌هایی درباره ساخت کسب‌وکار</title>
     <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
     <meta name="google-site-verification" content="Q6Qpsd0tDDtDIqz8T6yrblTL6ehPZotrE9IXDDj8Nvg" />
-  <link rel="stylesheet" href="./styles.css?v=20261008-home-ux" />
+  <link rel="stylesheet" href="./styles.css?v=20261021-article-advisor" />
     <script type="application/ld+json" id="structured-data-person">
       {
         "@context": "https://schema.org",
@@ -375,6 +375,25 @@
             ترجمه و برداشت آزاد از مقاله‌های معتبر درباره کارآفرینی، محصول و ساخت شرکت؛ هر مطلب با خلاصهٔ اجرایی، نکات کاربردی و لینک منبع اصلی.
           </p>
         </div>
+
+        <section class="article-advisor" id="article-advisor" data-article-advisor aria-labelledby="article-advisor-title">
+          <div class="article-advisor-heading">
+            <p class="eyebrow" data-i18n="advisorLabel">راهنمای مطالعه</p>
+            <h3 id="article-advisor-title" data-i18n="advisorTitle">مسئله‌ات را بگو، مقالهٔ مرتبط پیدا کن</h3>
+          </div>
+          <div class="article-advisor-log" data-advisor-log role="log" aria-live="polite" aria-relevant="additions">
+            <p class="article-advisor-message article-advisor-message-guide" data-i18n="advisorGreeting">الان برای کدام تصمیم یا چالش دنبال دیدگاه می‌گردی؟</p>
+          </div>
+          <form class="article-advisor-form" data-advisor-form>
+            <label for="article-advisor-input" data-i18n="advisorInputLabel">مسئله یا سؤال تو</label>
+            <textarea id="article-advisor-input" name="problem" data-advisor-input rows="2" maxlength="500"></textarea>
+            <div class="article-advisor-footer">
+              <p data-i18n="advisorPrivacy">این سایت متن را ارسال یا ذخیره نمی‌کند؛ تطبیق در مرورگر انجام می‌شود.</p>
+              <button class="button primary" type="button" data-advisor-submit data-i18n="advisorSubmit">پیشنهاد مقاله</button>
+            </div>
+            <p class="article-advisor-error" data-advisor-error role="status"></p>
+          </form>
+        </section>
 
         <a class="article-archive-jump" href="#article-archive" data-i18n="articleBrowseTopicsLabel">انتخاب موضوع</a>
         <article class="daily-article" data-daily-article aria-live="polite"></article>
@@ -1327,6 +1346,6 @@
       <span data-i18n="footerText">Notes, work, and essays on building.</span>
     </footer>
 
-  <script src="./script.js?v=20261008-home-ux"></script>
+  <script src="./script.js?v=20261021-article-advisor"></script>
   </body>
 </html>

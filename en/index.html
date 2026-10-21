@@ -35,7 +35,7 @@
     <title>Ali Sodeyfi | Notes on building companies</title>
     <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
     <meta name="google-site-verification" content="Q6Qpsd0tDDtDIqz8T6yrblTL6ehPZotrE9IXDDj8Nvg" />
-  <link rel="stylesheet" href="../styles.css?v=20261008-home-ux" />
+  <link rel="stylesheet" href="../styles.css?v=20261021-article-advisor" />
     <script type="application/ld+json" id="structured-data-person">
       {
         "@context": "https://schema.org",
@@ -367,6 +367,25 @@
           </div>
           <p class="section-note" data-i18n="articlesIntro">Readable adaptations of credible work on entrepreneurship, products, and company building, with practical takeaways and a clear original source.</p>
         </div>
+
+        <section class="article-advisor" id="article-advisor" data-article-advisor aria-labelledby="article-advisor-title">
+          <div class="article-advisor-heading">
+            <p class="eyebrow" data-i18n="advisorLabel">Reading guide</p>
+            <h3 id="article-advisor-title" data-i18n="advisorTitle">Describe your challenge, find a relevant article</h3>
+          </div>
+          <div class="article-advisor-log" data-advisor-log role="log" aria-live="polite" aria-relevant="additions">
+            <p class="article-advisor-message article-advisor-message-guide" data-i18n="advisorGreeting">What decision or challenge are you working through?</p>
+          </div>
+          <form class="article-advisor-form" data-advisor-form>
+            <label for="article-advisor-input" data-i18n="advisorInputLabel">Your challenge or question</label>
+            <textarea id="article-advisor-input" name="problem" data-advisor-input rows="2" maxlength="500"></textarea>
+            <div class="article-advisor-footer">
+              <p data-i18n="advisorPrivacy">This site does not send or store your text; matching happens in your browser.</p>
+              <button class="button primary" type="button" data-advisor-submit data-i18n="advisorSubmit">Find articles</button>
+            </div>
+            <p class="article-advisor-error" data-advisor-error role="status"></p>
+          </form>
+        </section>
 
         <a class="article-archive-jump" href="#article-archive" data-i18n="articleBrowseTopicsLabel">Browse topics</a>
         <article class="daily-article" data-daily-article aria-live="polite"></article>
@@ -1316,6 +1335,6 @@
       <span data-i18n="footerText">Notes and field lessons on building.</span>
     </footer>
 
-  <script src="../script.js?v=20261008-home-ux"></script>
+  <script src="../script.js?v=20261021-article-advisor"></script>
   </body>
 </html>

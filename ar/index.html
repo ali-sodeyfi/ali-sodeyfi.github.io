@@ -35,7 +35,7 @@
     <title>علي سديفي | ملاحظات عن بناء الشركات</title>
     <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
     <meta name="google-site-verification" content="Q6Qpsd0tDDtDIqz8T6yrblTL6ehPZotrE9IXDDj8Nvg" />
-  <link rel="stylesheet" href="../styles.css?v=20261008-home-ux" />
+  <link rel="stylesheet" href="../styles.css?v=20261021-article-advisor" />
     <script type="application/ld+json" id="structured-data-person">
       {
         "@context": "https://schema.org",
@@ -367,6 +367,25 @@
           </div>
           <p class="section-note" data-i18n="articlesIntro">ترجمات ومعالجات مقروءة لمصادر موثوقة عن ريادة الأعمال والمنتج وبناء الشركات، مع نقاط عملية ورابط واضح إلى المصدر الأصلي.</p>
         </div>
+
+        <section class="article-advisor" id="article-advisor" data-article-advisor aria-labelledby="article-advisor-title">
+          <div class="article-advisor-heading">
+            <p class="eyebrow" data-i18n="advisorLabel">دليل القراءة</p>
+            <h3 id="article-advisor-title" data-i18n="advisorTitle">اشرح مشكلتك لتجد مقالا مناسبا</h3>
+          </div>
+          <div class="article-advisor-log" data-advisor-log role="log" aria-live="polite" aria-relevant="additions">
+            <p class="article-advisor-message article-advisor-message-guide" data-i18n="advisorGreeting">ما القرار أو التحدي الذي تعمل عليه الآن؟</p>
+          </div>
+          <form class="article-advisor-form" data-advisor-form>
+            <label for="article-advisor-input" data-i18n="advisorInputLabel">مشكلتك أو سؤالك</label>
+            <textarea id="article-advisor-input" name="problem" data-advisor-input rows="2" maxlength="500"></textarea>
+            <div class="article-advisor-footer">
+              <p data-i18n="advisorPrivacy">لا يرسل هذا الموقع نصك ولا يخزنه؛ تتم المطابقة داخل متصفحك.</p>
+              <button class="button primary" type="button" data-advisor-submit data-i18n="advisorSubmit">اقتراح مقالات</button>
+            </div>
+            <p class="article-advisor-error" data-advisor-error role="status"></p>
+          </form>
+        </section>
 
         <a class="article-archive-jump" href="#article-archive" data-i18n="articleBrowseTopicsLabel">تصفح المواضيع</a>
         <article class="daily-article" data-daily-article aria-live="polite"></article>
@@ -1316,6 +1335,6 @@
       <span data-i18n="footerText">ملاحظات وتجارب ميدانية عن البناء.</span>
     </footer>
 
-  <script src="../script.js?v=20261008-home-ux"></script>
+  <script src="../script.js?v=20261021-article-advisor"></script>
   </body>
 </html>
