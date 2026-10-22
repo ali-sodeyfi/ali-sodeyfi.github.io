@@ -492,6 +492,36 @@ const articleCategories = [
 
 const articleCatalog = [
   {
+    "title": "The Airbnbs",
+    "category": "product",
+    "author": "Paul Graham",
+    "source": "Paul Graham",
+    "year": "2020",
+    "url": "https://paulgraham.com/airbnbs.html",
+    "tags": {
+      "fa": [
+        "مشاهده مشتری",
+        "آزمایش محصول",
+        "ثبت شواهد"
+      ],
+      "en": [
+        "customer observation",
+        "product experiments",
+        "evidence logs"
+      ],
+      "ar": [
+        "ملاحظة العملاء",
+        "تجارب المنتج",
+        "تسجيل الأدلة"
+      ]
+    },
+    "summary": {
+      "fa": "برداشتی کوتاه از تجربه بنیان‌گذاران Airbnb، همراه با راهنمای مستقل برای مشاهده کار مشتری، جداکردن واقعیت از تفسیر و سنجش یک تغییر محدود در محصول.",
+      "en": "A brief adaptation of the Airbnb founders’ experience, followed by an independent guide to observing customer work, separating facts from interpretations, and evaluating a bounded product change.",
+      "ar": "معالجة موجزة لتجربة مؤسسي Airbnb، تتبعها خطوات مستقلة لملاحظة عمل العميل وفصل الوقائع عن التفسير وتقييم تغيير محدود في المنتج."
+    }
+  },
+  {
     "title": "The Other Half of \"Artists Ship\"",
     "category": "building",
     "author": "Paul Graham",
@@ -1762,6 +1792,65 @@ const articleCatalog = [
 ];
 
 const articleEssays = {
+  "The Airbnbs": {
+    "fa": {
+      "paragraphs": [
+        "در روایت منبع، بنیان‌گذاران Airbnb پیشنهادها را سریع به عمل تبدیل می‌کردند و تماس مستقیم با میزبان‌ها به یادگیری آن‌ها کمک می‌کرد. ادامه این نوشته یک تمرین مستقل است، نه بازگویی جزئیات آن شرکت: فرض کنید نرم‌افزاری برای ثبت سفارش یک کارگاه خیاطی ساخته‌اید، اما کارکنان هنوز اندازه‌ها و زمان تحویل را روی کاغذ می‌نویسند. مدیر کارگاه از محصول تعریف می‌کند و تیم تصور می‌کند فقط آموزش بیشتری لازم است. پیش از ساخت دوره آموزشی، باید ببینید در یک سفارش واقعی چه اتفاقی می‌افتد. هدف بازدید، پیدا کردن تصمیم بعدی محصول است؛ رضایت میزبان جلسه به‌تنهایی پاسخ این پرسش نیست.",
+        "دامنه مشاهده را پیش از جلسه محدود کنید. از یکی از کارکنان بخواهید مسیر آخرین سفارش را از دریافت درخواست تا ثبت موعد تحویل نشان دهد. اگر مشتری حضور دارد، با اجازه افراد درگیر مشاهده کنید و اطلاعات شخصی غیرضروری را ثبت نکنید. هر جا کاربر بین دفتر کاغذی، پیام‌رسان و نرم‌افزار جابه‌جا می‌شود، بپرسید چه اطلاعاتی کم بوده است. توضیح محصول را به پایان مشاهده موکول کنید؛ راهنمایی لحظه‌ای ممکن است همان مشکلی را بپوشاند که برای دیدنش آمده‌اید. خروجی جلسه باید چند رخداد مشخص باشد، مثل دوباره‌نویسی اندازه‌ها یا تماس برای تأیید تاریخی که در سامانه روشن نیست.",
+        "یادداشت‌ها را در سه ستون بنویسید: آنچه رخ داد، برداشت تیم و پرسشی که هنوز پاسخ ندارد. مثلاً کاربر تاریخ را روی کاغذ نوشته است؛ این یک مشاهده است. اینکه تقویم نرم‌افزار نامفهوم است، هنوز یک فرضیه است. شاید کارگاه تاریخ تحویل را پس از تأیید مسئول برش نهایی می‌کند و سامانه فقط یک تاریخ قطعی می‌پذیرد. برای تشخیص این دو، همان مرحله را در سفارش دیگری دنبال کنید و از مسئول بعدی فرایند هم توضیح بخواهید. با این تفکیک، یک شکایت مبهم درباره «سخت بودن برنامه» به پرسشی قابل بررسی تبدیل می‌شود و تیم زودتر از شواهد به راه‌حل متعهد نمی‌شود.",
+        "یک مداخله کوچک انتخاب کنید که مستقیماً یکی از فرضیه‌ها را بررسی کند. در این مثال می‌توان برای چند سفارش آزمایشی، موعد را با دو وضعیت «پیشنهادی» و «تأییدشده» نمایش داد؛ این پیشنهاد مربوط به سناریوی ماست. قبل از شروع بنویسید چه رفتاری انتظار دارید تغییر کند: آیا کارکنان بدون پرسش دوباره می‌فهمند کدام تاریخ را به مشتری اعلام کنند؟ تعداد اصلاح موعد، تماس‌های توضیحی و سفارش‌های دارای اطلاعات ناقص را ثبت کنید. اگر هم‌زمان آموزش، طراحی فرم و شیوه تخصیص کار را تغییر دهید، تشخیص علت نتیجه دشوار می‌شود. برای هر مشاهده، شرایط اجرای آن را هم نگه دارید.",
+        "کمک دستی تیم محصول را جداگانه حساب کنید. اگر بنیان‌گذار هر روز موعدها را با مسئول کارگاه تطبیق می‌دهد، کاهش خطا ممکن است از حضور او آمده باشد. برای هر سفارش بنویسید چه کسی مداخله کرد، چند دقیقه وقت گذاشت و کدام تصمیم را به‌جای کاربر گرفت. سپس در چند مورد مشابه، با امکان کمک در صورت نیاز، اجازه دهید کارکنان کار را خودشان انجام دهند. مقایسه این دو وضعیت کمک می‌کند معلوم شود محصول چه چیزی را حل کرده و چه کاری هنوز خدمت دستی است. این اطلاعات برای تصمیم درباره توسعه محصول، قیمت‌گذاری یا ظرفیت پشتیبانی لازم است؛ حذف آن‌ها تصویر نادرستی از پیشرفت می‌سازد.",
+        "جلسه جمع‌بندی را با یک تصمیم مشخص تمام کنید: تغییر را حفظ کنیم، فرضیه را اصلاح کنیم یا آزمایش را متوقف کنیم؟ تعداد سفارش‌های دیده‌شده، موارد ناموفق و هزینه کمک دستی را کنار نتیجه بنویسید. اگر فقط یک کارگاه در آزمایش بوده، نتیجه را به همان محیط محدود کنید و برای محیط متفاوت، مشاهده تازه برنامه‌ریزی کنید. مسئول اقدام بعدی و موعد بازبینی را تعیین کنید و نتیجه را به کارکنانی که وقت گذاشته‌اند برگردانید. این کار نشان می‌دهد کدام بازخورد به تغییر منجر شده و کدام پرسش هنوز باز است. جلسه مشتری زمانی به کار ساخت شرکت می‌آید که پس از آن، تصمیمی با شواهد روشن‌تر گرفته شود."
+      ],
+      "takeaways": [
+        "در بازدید مشتری، یک مسیر واقعی و محدود را از ابتدا تا انتها مشاهده کنید.",
+        "رخداد مشاهده‌شده، برداشت تیم و پرسش باز را جدا ثبت کنید.",
+        "پیش از تغییر محصول، توضیح جایگزین برای رفتار کاربر را بررسی کنید.",
+        "برای آزمایش، رفتار مورد انتظار و شیوه ثبت خطاها را از قبل مشخص کنید.",
+        "زمان و نوع کمک دستی تیم را از نتیجه خود محصول جدا گزارش دهید.",
+        "نتیجه را همراه با تعداد موارد، شرایط اجرا، مسئول اقدام بعدی و موعد بازبینی ثبت کنید."
+      ],
+      "advice": [
+        "هنگام شنیدن پیشنهاد یادداشت بردارید و نتیجه پیگیری را در گفت‌وگوی بعدی روشن کنید."
+      ]
+    },
+    "en": {
+      "paragraphs": [
+        "In the source account, Airbnb’s founders acted quickly on suggestions and learned through direct contact with hosts. The following exercise is independent editorial guidance, not a reconstruction of that company. Imagine building order software for a tailoring workshop whose staff still record measurements and delivery dates on paper. The manager praises the software, so your team proposes more training. Before producing a course, observe one real order from intake to the delivery commitment. Ask permission, avoid collecting unnecessary personal information, and save the product demonstration until after observation. Helping at every step may conceal the difficulty you came to understand.",
+        "Keep three columns: observed event, team interpretation, and unanswered question. A worker writing a date on paper is an event. An unusable calendar is one possible explanation. Another is that the cutting supervisor must approve the date, while the software accepts only a final commitment. Follow another order and ask the next person in the workflow what they need. Choose a small intervention that tests one explanation. In this invented scenario, showing a date as proposed or confirmed could be useful. Define the expected behavior first: can staff identify the date they may promise without asking again?",
+        "Record date corrections, clarification calls, and incomplete orders during the trial. Avoid changing the form, training, and work allocation together if the aim is to understand one mechanism. Record the circumstances of each case as well. Track founder assistance separately: minutes spent, decisions made for the worker, and information checked manually. Then observe comparable cases handled by staff, with help available if needed. If improvement depends on a founder checking every date, the trial has revealed a service requirement. That matters for support capacity and pricing, even if the apparent error rate looks encouraging.",
+        "End the review with a decision to retain the change, revise the explanation, or stop the trial. Include the number of orders observed, unsuccessful cases, and assistance required. Evidence from one workshop supports a conclusion about that setting; testing a different setting requires another observation plan. Assign the next action and review date, then report back to the participating staff. Explain which observation changed the product and which question remains unresolved. This closes the practical loop between a customer conversation and a product decision without treating praise or a single successful demonstration as sufficient evidence."
+      ],
+      "takeaways": [
+        "Observe one complete customer task before proposing more training.",
+        "Separate observed events, interpretations, and unanswered questions.",
+        "Specify the expected behavior before testing one product change.",
+        "Report manual assistance alongside results and sample size.",
+        "Finish with a decision, an owner, a review date, and feedback to participants."
+      ],
+      "advice": [
+        "Take notes on suggestions and explain the follow-up at the next conversation."
+      ]
+    },
+    "ar": {
+      "paragraphs": [
+        "في رواية المصدر، حوّل مؤسسو Airbnb الاقتراحات بسرعة إلى عمل وتعلموا من التواصل المباشر مع المضيفين. التمرين التالي دليل تحريري مستقل، وليس إعادة سرد لتفاصيل الشركة. تخيل أنك تبني برنامجا لطلبات ورشة خياطة، بينما يواصل الموظفون كتابة المقاسات ومواعيد التسليم على الورق. يثني المدير على البرنامج فيقترح فريقك مزيدا من التدريب. قبل إعداد دورة، راقب طلبا حقيقيا من استقباله حتى تحديد موعده. احصل على موافقة المشاركين وتجنب تسجيل بيانات شخصية غير ضرورية، وأجل شرح المنتج إلى ما بعد الملاحظة. قد تخفي المساعدة المستمرة الصعوبة التي جئت لفهمها.",
+        "استخدم ثلاثة أعمدة للملاحظات: الحدث المشاهد، وتفسير الفريق، والسؤال المفتوح. كتابة الموظف موعدا على الورق واقعة؛ أما صعوبة التقويم فهي تفسير محتمل. قد يكون السبب أن مسؤول القص يجب أن يعتمد الموعد أولا، بينما لا يقبل البرنامج إلا تاريخا نهائيا. تابع طلبا آخر واسأل الشخص التالي في سير العمل عما يحتاجه. اختر تغييرا صغيرا يختبر تفسيرا واحدا. في هذا السيناريو الافتراضي يمكن إظهار الموعد بحالة مقترحة أو مؤكدة. حدد السلوك المتوقع قبل التجربة: هل يستطيع الموظف معرفة الموعد الذي يجوز إبلاغ العميل به دون سؤال إضافي؟",
+        "سجل تصحيحات المواعيد ومكالمات الاستيضاح والطلبات الناقصة أثناء التجربة، مع ظروف كل حالة. إذا غيرت النموذج والتدريب وتوزيع العمل معا، سيصعب تفسير النتيجة. احسب تدخل الفريق يدويا في سجل منفصل: الوقت المستغرق والقرار الذي اتخذه بدلا من الموظف والمعلومة التي تحقق منها. ثم راقب حالات مشابهة ينفذها الموظفون بأنفسهم مع إتاحة المساعدة عند الحاجة. إذا كان تحسن النتائج يعتمد على مراجعة المؤسس لكل موعد، فقد كشفت التجربة عن خدمة يدوية لازمة. يؤثر ذلك في قدرة الدعم والتسعير، حتى لو بدا معدل الأخطاء منخفضا.",
+        "اختم المراجعة بقرار واضح: الإبقاء على التغيير أو تعديل التفسير أو إيقاف التجربة. أرفق عدد الطلبات والحالات غير الناجحة وحجم المساعدة المطلوبة. نتائج ورشة واحدة تخص تلك البيئة؛ أما الانتقال إلى بيئة مختلفة فيحتاج إلى خطة ملاحظة جديدة. حدد مسؤول الخطوة التالية وموعد مراجعتها، وأبلغ الموظفين المشاركين بالنتيجة. وضح أي ملاحظة أدت إلى تعديل المنتج وأي سؤال ما زال مفتوحا. بذلك ترتبط محادثة العميل بقرار عملي، دون اعتبار الثناء أو نجاح عرض واحد دليلا كافيا على حل المشكلة."
+      ],
+      "takeaways": [
+        "راقب مهمة عميل كاملة قبل اقتراح تدريب إضافي.",
+        "افصل الوقائع المشاهدة عن التفسيرات والأسئلة المفتوحة.",
+        "حدد السلوك المتوقع قبل اختبار تغيير واحد في المنتج.",
+        "اذكر حجم المساعدة اليدوية وعدد الحالات إلى جانب النتائج.",
+        "اختم بقرار ومسؤول وموعد مراجعة وإبلاغ المشاركين بالنتيجة."
+      ],
+      "advice": [
+        "دوّن الاقتراحات ووضح نتيجة متابعتها في المحادثة التالية."
+      ]
+    }
+  },
   "The Other Half of \"Artists Ship\"": {
     "fa": {
       "paragraphs": [

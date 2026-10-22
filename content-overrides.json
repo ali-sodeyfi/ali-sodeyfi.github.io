@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T02:17:14.272Z",
+  "updatedAt": "2026-10-22T05:50:42.014+03:30",
   "translations": {
     "fa": {
       "documentTitle": "علی سدیفی | یادداشت‌هایی درباره ساخت کسب‌وکار",
@@ -225,6 +225,55 @@
   "publishing": {
     "timezone": "Asia/Tehran",
     "queue": [
+      {
+        "id": "2026-10-22-site-the-airbnbs",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "the-airbnbs",
+        "publishAt": "2026-10-22T05:50:42+03:30",
+        "status": "published",
+        "publishedAt": "2026-10-22T05:50:42+03:30"
+      },
+      {
+        "id": "2026-10-22-linkedin-the-airbnbs",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "the-airbnbs",
+        "publishAt": "2026-10-22T12:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-10-22T05:50:42+03:30",
+        "note": "Draft/preview only. Verified account/API or session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "مشاهده مشتری باید به تصمیم برسد",
+          "en": "Turn customer observation into a decision",
+          "ar": "حوّل ملاحظة العميل إلى قرار"
+        },
+        "body": {
+          "fa": "تعریف مشتری از محصول، علت استفاده‌نکردن او را توضیح نمی‌دهد.\nپیامد: آموزش بیشتر ممکن است هزینه را بالا ببرد و گره فرایند را حفظ کند.\nاقدام بعدی: یک سفارش واقعی را مشاهده کنید؛ رخداد، تفسیر و پرسش باز را جدا بنویسید و یک تغییر محدود را بسنجید.\nPaul Graham — https://paulgraham.com/airbnbs.html\nhttps://alisodeyfi.ir/articles/the-airbnbs/fa/#daily-article-reader",
+          "en": "Customer praise does not explain non-use.\nImplication: more training may add cost while leaving the workflow problem intact.\nNext action: observe one real order, separate events from interpretations and open questions, and test one bounded change.\nPaul Graham — https://paulgraham.com/airbnbs.html\nhttps://alisodeyfi.ir/articles/the-airbnbs/en/#daily-article-reader",
+          "ar": "ثناء العميل لا يفسر عدم استخدامه للمنتج.\nالأثر: قد يزيد التدريب التكلفة وتبقى مشكلة سير العمل.\nالخطوة التالية: راقب طلبا حقيقيا وافصل الوقائع والتفسيرات والأسئلة المفتوحة، ثم اختبر تغييرا محدودا.\nPaul Graham — https://paulgraham.com/airbnbs.html\nhttps://alisodeyfi.ir/articles/the-airbnbs/ar/#daily-article-reader"
+        }
+      },
+      {
+        "id": "2026-10-22-instagram-story-the-airbnbs",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "the-airbnbs",
+        "publishAt": "2026-10-22T20:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-10-22T05:50:42+03:30",
+        "note": "Draft/preview only. Verified account/API or session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "مشاهده مشتری باید به تصمیم برسد",
+          "en": "Turn customer observation into a decision",
+          "ar": "حوّل ملاحظة العميل إلى قرار"
+        },
+        "body": {
+          "fa": "اسلاید ۱: تعریف مشتری، شاهد حل مسئله نیست.\nاسلاید ۲: یک سفارش را مشاهده کنید؛ یک تغییر را بسنجید و کمک دستی را جدا ثبت کنید.\nاسلاید ۳: برداشت کوتاه و تمرین مستقل\nPaul Graham — https://paulgraham.com/airbnbs.html\nhttps://alisodeyfi.ir/articles/the-airbnbs/fa/#daily-article-reader",
+          "en": "Slide 1: customer praise is not evidence that the problem is solved.\nSlide 2: observe one order, test one change, and record manual help separately.\nSlide 3: brief adaptation and independent exercise\nPaul Graham — https://paulgraham.com/airbnbs.html\nhttps://alisodeyfi.ir/articles/the-airbnbs/en/#daily-article-reader",
+          "ar": "الشريحة ١: ثناء العميل لا يثبت حل المشكلة.\nالشريحة ٢: راقب طلبا واختبر تغييرا وسجل المساعدة اليدوية منفصلة.\nالشريحة ٣: معالجة موجزة وتمرين مستقل\nPaul Graham — https://paulgraham.com/airbnbs.html\nhttps://alisodeyfi.ir/articles/the-airbnbs/ar/#daily-article-reader"
+        }
+      },
       {
         "id": "2026-10-21-site-the-other-half-of-artists-ship",
         "channel": "site",
