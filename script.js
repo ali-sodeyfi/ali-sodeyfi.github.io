@@ -492,6 +492,36 @@ const articleCategories = [
 
 const articleCatalog = [
   {
+    "title": "Why to Start a Startup in a Bad Economy",
+    "category": "building",
+    "author": "Paul Graham",
+    "source": "Paul Graham",
+    "year": "2008",
+    "url": "https://paulgraham.com/badeconomy.html",
+    "tags": {
+      "fa": [
+        "آزمایش تقاضا",
+        "بودجه مشتری",
+        "تصمیم پایلوت"
+      ],
+      "en": [
+        "demand tests",
+        "customer budgets",
+        "pilot decisions"
+      ],
+      "ar": [
+        "اختبار الطلب",
+        "ميزانية العميل",
+        "قرارات التجربة"
+      ]
+    },
+    "summary": {
+      "fa": "برداشتی کوتاه از مقاله‌ای درباره شروع شرکت در رکود، همراه با تمرین مستقل برای تفکیک نیاز مشتری از توان خرید و تعیین شرایط ادامه یک پایلوت.",
+      "en": "A brief adaptation of an essay on starting during a downturn, followed by an independent exercise on separating customer need from buying capacity and setting pilot decision criteria.",
+      "ar": "معالجة موجزة لمقال عن تأسيس شركة أثناء الركود، تتبعها تجربة مستقلة لفصل حاجة العميل عن قدرته على الشراء وتحديد شروط استمرار مشروع تجريبي."
+    }
+  },
+  {
     "title": "The Airbnbs",
     "category": "product",
     "author": "Paul Graham",
@@ -1792,6 +1822,68 @@ const articleCatalog = [
 ];
 
 const articleEssays = {
+  "Why to Start a Startup in a Bad Economy": {
+    "fa": {
+      "paragraphs": [
+        "استدلال محوری منبع این است که وضعیت اقتصاد به‌تنهایی معیار کافی برای شروع شرکت نیست و کیفیت تیم اهمیت زیادی دارد. ادامه این نوشته یک تمرین مستقل برای تصمیم‌گیری است، نه شرح تجربه نویسنده یا پیش‌بینی اقتصاد: فرض کنید دو نفر ابزاری برای برنامه‌ریزی سرویس دستگاه‌های کارگاهی ساخته‌اند. چند مدیر از خرابی ناگهانی دستگاه‌ها شکایت دارند، اما هیچ‌کس هنوز درباره خرید تصمیم نگرفته است. پرسش مفید برای این تیم این است که پیش از تعهد به ساخت نسخه کامل، کدام مجهول را باید روشن کند. پاسخ را نمی‌توان فقط از خبرهای اقتصاد یا اشتیاق مدیران به یک نمایش محصول به دست آورد.",
+        "سه پرسش را در مصاحبه‌ها از هم جدا کنید: مشکل چقدر تکرار می‌شود، حل آن چه ارزشی دارد و چه کسی اختیار پرداخت دارد؟ ممکن است مسئول تعمیرات با اشتیاق پایلوت را بپذیرد، ولی مدیر خرید فقط در دوره مشخصی اجازه عقد قرارداد داشته باشد. از مشتری بخواهید آخرین خرابی، اقدام انجام‌شده و مسیر تأیید هزینه تعمیر را توضیح دهد. اگر ارقام دقیق در دسترس نیست، ندانستن آن‌ها را ثبت کنید؛ برآورد شفاهی را به عدد قطعی در ارائه فروش تبدیل نکنید. خروجی گفت‌وگو باید نقشه‌ای از مسئله و تصمیم خرید باشد، نه فهرستی از کسانی که گفته‌اند ایده جالب است.",
+        "در این سناریو، یک پایلوت محدود می‌تواند فقط برنامه سرویس یک دستگاه را برای مدت توافق‌شده پوشش دهد. قبل از شروع، با مسئول کارگاه مشخص کنید چه داده‌ای ثبت می‌شود، چه کسی برنامه را به‌روز می‌کند و موفقیت چگونه بررسی خواهد شد. برای مثال، ثبت به‌موقع کارهای سرویس در این بازه قابل مشاهده است؛ کاهش خرابی‌های نادر شاید در چنین مدت کوتاهی قابل سنجش نباشد. بنابراین درباره چیزی قول بدهید که امکان مشاهده‌اش وجود دارد. مسئولیت فنی تعمیرات همچنان باید روشن بماند و ابزار آزمایشی جای دستورالعمل ایمنی یا نظر متخصص نگهداری را نگیرد. این مرزبندی جزئی از طراحی همین تمرین است.",
+        "برای ارزیابی نتیجه، یک برگه ساده با چهار ستون بسازید: وضعیت قبل، وضعیت پایلوت، هزینه اجرای تغییر و پرسش باقی‌مانده. اگر سرپرست برای واردکردن داده‌ها هر روز وقت بیشتری می‌گذارد، آن زمان باید کنار منافع احتمالی دیده شود. اگر تیم محصول پشت صحنه یادآوری‌ها را دستی ارسال می‌کند، این کار را نیز ثبت کنید. تعداد سرویس‌های انجام‌شده بدون توجه به تعداد سرویس‌های لازم معنی کاملی ندارد؛ مخرج مقایسه را مشخص نگه دارید. نتیجه مطلوب این مرحله، ادعای بزرگ درباره صرفه‌جویی نیست؛ داشتن گزارشی است که مشتری بتواند با اتکا به آن درباره قدم بعدی گفت‌وگو کند.",
+        "از همان ابتدا جلسه پایان پایلوت را با فردی تنظیم کنید که اختیار تصمیم دارد. در آن جلسه استفاده واقعی، بار اجرایی و مسیر خرید را جدا بررسی کنید. سه نتیجه ممکن را از پیش تعریف کنید: پیشنهاد قرارداد با دامنه روشن، تمدید محدود برای پاسخ به یک پرسش مشخص، یا پایان آزمایش. اگر محصول استفاده شده اما خرید تا فصل بعد ممکن نیست، آن فرصت را با تاریخ پیگیری ثبت کنید؛ آن را قرارداد قطعی یا شکست محصول حساب نکنید. اگر هیچ‌کس حاضر نیست مسئول ادامه کار شود، افزودن قابلیت تازه لزوماً مشکل را حل نمی‌کند. ابتدا معلوم کنید مانع مربوط به ارزش، اجرا یا اختیار خرید است.",
+        "در پایان هفته، بنیان‌گذاران یک یادداشت تصمیم مشترک بنویسند: چه چیزی دیده شد، کدام فرض رد شد و اقدام بعدی به چه شاهدی وابسته است؟ برای مثال، تصمیم ادامه توسعه می‌تواند به تکمیل داده‌های پایلوت و حضور صاحب اختیار خرید در جلسه بعد وابسته باشد؛ این شرط باید پیش از نتیجه‌گیری نوشته شود. اختلاف اعضای تیم را نیز دقیق ثبت کنید: آیا درباره داده اختلاف دارند یا درباره حد قابل قبول نتیجه؟ این تفکیک کمک می‌کند جلسه بعد به تکرار نظرها تبدیل نشود. شروع کوچک زمانی ارزش دارد که هر مرحله، تصمیم بعدی را روشن‌تر کند و تعهد تازه‌ای بدون شاهد به برنامه اضافه نشود."
+      ],
+      "takeaways": [
+        "شدت مسئله، ارزش راه‌حل و اختیار خرید را در سه پرسش جدا بررسی کنید.",
+        "آخرین رخداد واقعی و مسیر تأیید هزینه را ثبت کنید؛ تعریف از ایده را تعهد خرید ندانید.",
+        "پایلوت را به یک دامنه مشخص محدود کنید و معیار قابل مشاهده را پیش از شروع توافق کنید.",
+        "بار ورود داده و کمک دستی تیم را در ارزیابی نتیجه حساب کنید.",
+        "برای مقایسه، تعداد کل موارد واجد شرایط را کنار تعداد موفقیت‌ها بنویسید.",
+        "جلسه پایان پایلوت را با صاحب اختیار تصمیم تنظیم کنید و سه گزینه ادامه، تمدید محدود یا توقف داشته باشید.",
+        "در یادداشت تصمیم، شواهد لازم برای تعهد بعدی و موعد پیگیری را مشخص کنید."
+      ],
+      "advice": [
+        "پیشنهاد منبع: انتخاب هم‌بنیان‌گذار را جدی بگیرید."
+      ]
+    },
+    "en": {
+      "paragraphs": [
+        "The source argues that economic conditions alone are an inadequate reason to start or postpone a company, emphasizing the founding team. What follows is an independent decision exercise, not the author’s case study or an economic forecast. Imagine two founders building maintenance scheduling software for workshops. Several managers describe unexpected equipment failures, but none has committed to purchasing. Before building a complete product, the team needs to identify the uncertainty that determines its next commitment. A compelling demo and an enthusiastic conversation have not yet established how a purchase would happen.",
+        "Separate three questions: how often does the problem occur, what would solving it be worth, and who can authorize payment? Ask a maintenance lead to describe the latest incident and the actual approval path for repair spending. Mark missing numbers as unknown rather than treating estimates as measured savings. For this exercise, scope a pilot to one machine and an agreed period. Specify who enters information and what behavior can be observed. Timely completion of scheduled tasks might be measurable; a reduction in rare breakdowns may require a longer observation period. Keep technical maintenance responsibility and safety procedures explicit throughout the trial.",
+        "Use four columns to review the pilot: the previous workflow, the trial workflow, implementation effort, and unanswered questions. Include the supervisor’s data-entry time and any reminders sent manually by the product team. Report completed service tasks alongside the number actually required, so the comparison has a clear denominator. Schedule the closing discussion with the person who can authorize a next step. Distinguish useful adoption from purchasing readiness: a workshop that uses the tool but cannot buy until its next budget cycle is a dated follow-up opportunity, not a signed contract.",
+        "Agree on three possible pilot outcomes: a proposal with defined scope, a bounded extension to answer a specific question, or closure. If nobody will own the next step, investigate whether the obstacle is value, implementation, or purchasing authority before adding features. End the founders’ weekly review with a shared decision note: observations, rejected assumptions, and the evidence required for the next commitment. Record whether disagreements concern the evidence or the acceptance threshold. These are editorial tools for the workshop scenario; their purpose is to make each additional commitment depend on something the team has actually learned."
+      ],
+      "takeaways": [
+        "Investigate problem frequency, solution value, and purchasing authority separately.",
+        "Define a bounded pilot and an observable success criterion before starting.",
+        "Include data-entry effort and manual assistance in the evaluation.",
+        "Report completed tasks alongside the total number required.",
+        "Close the pilot with an authorized decision maker and explicit next-step options.",
+        "Write down the evidence required for the next commitment and a follow-up date."
+      ],
+      "advice": [
+        "Source suggestion: give cofounder selection serious attention."
+      ]
+    },
+    "ar": {
+      "paragraphs": [
+        "يرى المصدر أن حالة الاقتصاد وحدها لا تكفي للحكم على توقيت تأسيس شركة، ويؤكد أهمية فريق المؤسسين. ما يلي تمرين مستقل لاتخاذ القرار، وليس دراسة حالة من الكاتب أو توقعا اقتصاديا. تخيل مؤسسين يبنيان أداة لتنظيم صيانة آلات الورش. يشكو مديرون من الأعطال المفاجئة، لكن أحدا لم يلتزم بالشراء بعد. قبل تطوير منتج كامل، يحتاج الفريق إلى تحديد المجهول الذي يتوقف عليه التزامه التالي. الإعجاب بعرض المنتج لا يوضح كيف سيتخذ العميل قرار الشراء، ولا يكشف من يملك صلاحية اتخاذه.",
+        "افصل بين ثلاثة أسئلة: كم تتكرر المشكلة، وما قيمة حلها، ومن يستطيع الموافقة على الدفع؟ اطلب من مسؤول الصيانة وصف آخر عطل ومسار الموافقة الفعلي على نفقات إصلاحه. سجل الأرقام المفقودة بوصفها مجهولة، ولا تحول تقديرا شفهيا إلى وفر مؤكد. في هذا التمرين، يمكن حصر التجربة في آلة واحدة ولمدة متفق عليها. حدد من يدخل البيانات وما السلوك الذي يمكن رصده. قد يمكن قياس إنجاز أعمال الصيانة المجدولة في موعدها، بينما يحتاج قياس انخفاض الأعطال النادرة إلى وقت أطول. أبق المسؤولية الفنية وإجراءات السلامة واضحة أثناء التجربة.",
+        "راجع التجربة بأربعة أعمدة: طريقة العمل السابقة، وطريقة العمل أثناء الاختبار، وجهد التنفيذ، والأسئلة المتبقية. احسب وقت المشرف في إدخال البيانات والتذكيرات التي يرسلها فريق المنتج يدويا. اذكر عدد أعمال الصيانة المطلوبة إلى جانب عدد الأعمال المنجزة حتى تكون المقارنة مفهومة. رتب اجتماع النهاية مع صاحب صلاحية القرار. إذا استخدمت الورشة الأداة لكنها لا تستطيع الشراء قبل دورة الميزانية المقبلة، فسجلها فرصة متابعة بتاريخ محدد؛ لا تعاملها كعقد موقع أو كدليل كاف على فشل المنتج.",
+        "اتفق مسبقا على ثلاث نتائج محتملة: عرض تعاقد بنطاق واضح، أو تمديد محدود للإجابة عن سؤال معين، أو إنهاء التجربة. إذا لم يقبل أحد مسؤولية الخطوة التالية، تحقق مما إذا كانت العقبة في القيمة أو التنفيذ أو صلاحية الشراء قبل إضافة مزايا. اختم مراجعة المؤسسين الأسبوعية بمذكرة مشتركة تسجل الملاحظات والافتراضات المرفوضة والشاهد المطلوب قبل الالتزام التالي. وعند الاختلاف، حدد هل الخلاف حول البيانات أم حول معيار قبول النتيجة. هذه أدوات تحريرية لسيناريو الورشة، وغايتها ربط كل التزام جديد بتعلم يمكن للفريق وصفه والتحقق منه."
+      ],
+      "takeaways": [
+        "افحص تكرار المشكلة وقيمة الحل وصلاحية الشراء كلّا على حدة.",
+        "حدد نطاق التجربة ومعيار نجاح قابل للرصد قبل البدء.",
+        "احسب جهد إدخال البيانات والمساعدة اليدوية ضمن التقييم.",
+        "قارن الأعمال المنجزة بإجمالي الأعمال المطلوبة.",
+        "اختم التجربة مع صاحب صلاحية القرار وخيارات واضحة للخطوة التالية.",
+        "سجل الدليل المطلوب قبل الالتزام التالي وموعد المتابعة."
+      ],
+      "advice": [
+        "اقتراح المصدر: أعط اختيار الشريك المؤسس اهتماما جادا."
+      ]
+    }
+  },
   "The Airbnbs": {
     "fa": {
       "paragraphs": [
