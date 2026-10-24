@@ -226,6 +226,55 @@
     "timezone": "Asia/Tehran",
     "queue": [
       {
+        "id": "2026-10-24-site-how-to-lose-time-and-money",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "how-to-lose-time-and-money",
+        "publishAt": "2026-10-24T05:45:10+03:30",
+        "status": "published",
+        "publishedAt": "2026-10-24T05:45:10+03:30"
+      },
+      {
+        "id": "2026-10-24-linkedin-how-to-lose-time-and-money",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "how-to-lose-time-and-money",
+        "publishAt": "2026-10-24T12:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-10-24T05:45:10+03:30",
+        "note": "Draft/preview only. Verified account/API or session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "هر گزارش باید به یک تصمیم وصل باشد",
+          "en": "Connect each report to a decision",
+          "ar": "اربط كل تقرير بقرار"
+        },
+        "body": {
+          "fa": "گزارش بدون کاربرد روشن، ظرفیت تیم را مصرف می‌کند.\nپیامد: کاهش حجم گزارش فقط وقتی مفید است که ابهام و دوباره‌کاری بیشتر نشود.\nاقدام بعدی: یک گزارش را برای دو نوبت با فهرست تصمیم‌های لازم شروع کنید و نتیجه را بسنجید.\nPaul Graham — https://paulgraham.com/selfindulgence.html\nhttps://alisodeyfi.ir/articles/how-to-lose-time-and-money/fa/#daily-article-reader",
+          "en": "A report without a clear use consumes team capacity.\nImplication: a shorter report helps only if confusion and rework do not rise.\nNext action: start one report with decisions needed for two cycles and review the outcome.\nPaul Graham — https://paulgraham.com/selfindulgence.html\nhttps://alisodeyfi.ir/articles/how-to-lose-time-and-money/en/#daily-article-reader",
+          "ar": "التقرير بلا استخدام واضح يستهلك قدرة الفريق.\nالأثر: يفيد اختصاره حين لا يزيد الغموض وإعادة العمل.\nالخطوة التالية: ابدأ تقريرا بالقرارات المطلوبة لدورتين ثم راجع النتيجة.\nPaul Graham — https://paulgraham.com/selfindulgence.html\nhttps://alisodeyfi.ir/articles/how-to-lose-time-and-money/ar/#daily-article-reader"
+        }
+      },
+      {
+        "id": "2026-10-24-instagram-story-how-to-lose-time-and-money",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "how-to-lose-time-and-money",
+        "publishAt": "2026-10-24T20:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-10-24T05:45:10+03:30",
+        "note": "Draft/preview only. Verified account/API or session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "هر گزارش باید به یک تصمیم وصل باشد",
+          "en": "Connect each report to a decision",
+          "ar": "اربط كل تقرير بقرار"
+        },
+        "body": {
+          "fa": "اسلاید ۱: گزارش باید تصمیم مشخصی را پشتیبانی کند.\nاسلاید ۲: دو نوبت، تصمیم‌های لازم را اول گزارش بیاورید و دوباره‌کاری را بسنجید.\nاسلاید ۳: برداشت کوتاه و تمرین مستقل\nPaul Graham — https://paulgraham.com/selfindulgence.html\nhttps://alisodeyfi.ir/articles/how-to-lose-time-and-money/fa/#daily-article-reader",
+          "en": "Slide 1: a report should support a specific decision.\nSlide 2: lead with decisions needed for two cycles; review rework.\nSlide 3: brief adaptation and independent exercise\nPaul Graham — https://paulgraham.com/selfindulgence.html\nhttps://alisodeyfi.ir/articles/how-to-lose-time-and-money/en/#daily-article-reader",
+          "ar": "الشريحة ١: ينبغي أن يدعم التقرير قرارا محددا.\nالشريحة ٢: قدم القرارات المطلوبة لدورتين وراجع إعادة العمل.\nالشريحة ٣: معالجة موجزة وتمرين مستقل\nPaul Graham — https://paulgraham.com/selfindulgence.html\nhttps://alisodeyfi.ir/articles/how-to-lose-time-and-money/ar/#daily-article-reader"
+        }
+      },
+      {
         "id": "2026-10-23-site-why-to-start-a-startup-in-a-bad-economy",
         "channel": "site",
         "target": "site",

@@ -492,6 +492,36 @@ const articleCategories = [
 
 const articleCatalog = [
   {
+    "title": "How to Lose Time and Money",
+    "category": "building",
+    "author": "Paul Graham",
+    "source": "Paul Graham",
+    "year": "2010",
+    "url": "https://paulgraham.com/selfindulgence.html",
+    "tags": {
+      "fa": [
+        "اولویت تیم",
+        "خروجی قابل بررسی",
+        "بازبینی کار"
+      ],
+      "en": [
+        "team priorities",
+        "reviewable outcomes",
+        "work reviews"
+      ],
+      "ar": [
+        "أولويات الفريق",
+        "نتائج قابلة للمراجعة",
+        "مراجعة العمل"
+      ]
+    },
+    "summary": {
+      "fa": "برداشتی کوتاه درباره کارهایی که ظاهر مفید دارند، همراه با تمرین مستقل برای بررسی خروجی جلسه‌ها، گزارش‌ها و درخواست‌های داخلی تیم.",
+      "en": "A brief adaptation about apparently useful work, followed by an independent exercise for reviewing team meetings, reports, and internal requests.",
+      "ar": "معالجة موجزة للعمل الذي يبدو مفيدا، مع تمرين مستقل لمراجعة نتائج اجتماعات الفريق وتقاريره وطلباته الداخلية."
+    }
+  },
+  {
     "title": "Why to Start a Startup in a Bad Economy",
     "category": "building",
     "author": "Paul Graham",
@@ -1822,6 +1852,67 @@ const articleCatalog = [
 ];
 
 const articleEssays = {
+  "How to Lose Time and Money": {
+    "fa": {
+      "paragraphs": [
+        "ایده محوری منبع این است که ظاهر مسئولانه یک فعالیت می‌تواند اتلاف منابع را پنهان کند؛ مشغول‌بودن به کاری شبیه کار واقعی، لزوماً پیشرفت نیست. ادامه این نوشته یک تمرین مستقل برای تیم‌های کوچک است، نه روایت یا دستورالعمل نویسنده. فرض کنید یک تیم نرم‌افزاری هر هفته گزارش وضعیت می‌نویسد، جلسه هماهنگی برگزار می‌کند و به درخواست‌های داخلی پاسخ می‌دهد، اما تحویل قابلیت اصلی مرتب عقب می‌افتد. مسئله را با متهم‌کردن افراد به کم‌کاری شروع نکنید. ابتدا ببینید هر فعالیت قرار است کدام تصمیم، تعهد یا نیاز عملی را پوشش دهد و چه مدرکی از انجام آن باقی می‌ماند.",
+        "برای یک هفته، فهرستی از کارهای تکراری تهیه کنید و کنار هر مورد سه چیز بنویسید: دریافت‌کننده، کاربرد مورد انتظار و نمونه خروجی اخیر. برای گزارش هفتگی، صرف نام مدیر کافی نیست؛ معلوم کنید مدیر با خواندن آن چه تصمیمی می‌گیرد. برای جلسه، تصمیم ثبت‌شده یا مانعی که برطرف شده را پیدا کنید. اگر پاسخ مشخصی ندارید، آن مورد را «نیازمند بررسی» بگذارید، نه «بی‌فایده». بعضی فعالیت‌ها ارزش خود را در جلوگیری از خطا نشان می‌دهند و نبود حادثه به‌تنهایی ثابت نمی‌کند که آن کار لازم نبوده است. هدف این فهرست، قابل بحث‌کردن کارهاست، نه رتبه‌بندی افراد بر اساس سرعت.",
+        "در مثال فرضی ما، گزارش هفتگی شامل وضعیت همه پروژه‌هاست، اما مدیر عملیات فقط برای تأخیرهای دارای وابستگی بیرونی تصمیم می‌گیرد. یک آزمایش محدود طراحی کنید: در دو نوبت آینده، گزارش با فهرست موارد نیازمند تصمیم شروع شود و جزئیات دیگر در پیوست بماند. هر مورد باید پرسش، مسئول پاسخ و آخرین زمان مفید برای تصمیم را مشخص کند. پیش از آزمایش، با دریافت‌کننده توافق کنید که تصمیم به‌موقع و نیاز به توضیح تکمیلی را بررسی خواهید کرد. این شکل گزارش یک پیشنهاد تحریری برای همین مثال است؛ اگر نیاز تیم متفاوت باشد، قالب نیز باید تغییر کند.",
+        "برای جلسه هماهنگی هم به‌جای حذف فوری، دامنه را روشن کنید. اگر هدف حل وابستگی بین دو نفر است، لازم نیست همه تیم در تمام بحث حاضر باشند. پیش از جلسه، موضوع تصمیم و اطلاعات موجود را بنویسید؛ در پایان، تصمیم، مسئول اقدام و موعد پیگیری را ثبت کنید. ممکن است یک گفت‌وگوی کوتاه از چندین رفت‌وبرگشت متنی جلوگیری کند، پس کوتاه‌ترشدن تقویم به‌تنهایی معیار موفقیت نیست. زمان آماده‌سازی، پرسش‌های پس از جلسه و دوباره‌کاری ناشی از ابهام را کنار مدت جلسه ببینید. فقط انتقال بار از تقویم یک نفر به پیام‌های بقیه، بهبود فرآیند محسوب نمی‌شود.",
+        "کارهای نگهداری، پشتیبانی و کنترل کیفیت را از این بررسی حذف نکنید، اما معیار متناسب با نقش آن‌ها بگذارید. مثلاً برای بررسی نسخه پشتیبان، خروجی قابل بررسی می‌تواند نتیجه یک آزمون بازیابی باشد؛ برای پاسخ پشتیبانی، روشن‌شدن قدم بعدی مشتری اهمیت دارد. نگذارید الزام به خروجی نمایشی، کار پیشگیرانه را بی‌ارزش نشان دهد. در عین حال، فعالیتی که فقط با عبارت «همیشه همین‌طور انجام داده‌ایم» دفاع می‌شود، به مالک و دلیل روشن نیاز دارد. هر تغییر در روال ضروری را با مسئول آن هماهنگ کنید و امکان بازگشت داشته باشید. این بررسی قرار است ظرفیت تیم را آزاد کند، نه کنترل‌های لازم را بی‌صاحب بگذارد.",
+        "در پایان آزمایش، یک صفحه تصمیم بنویسید: چه چیزی تغییر کرد، چه شواهدی جمع شد، چه هزینه‌ای به دیگران منتقل شد و کدام پرسش باز ماند؟ برای هر روال یکی از سه تصمیم را بگیرید: ادامه با همین شکل، اصلاح دوباره یا توقف با مسئول مشخص برای پیامدها. زمان آزادشده را هم به یک کار اولویت‌دار اختصاص دهید؛ در غیر این صورت ممکن است درخواست‌های تازه بی‌برنامه جای آن را بگیرند. مثلاً دو بازه مشخص برای رفع مانع تحویل قابلیت اصلی رزرو کنید و در بازبینی بعد ببینید آن مانع واقعاً کمتر شده است یا نه. معیار نهایی این تمرین، تصمیم و تحویل روشن‌تر است، نه صرفاً کمترشدن تعداد جلسه‌ها."
+      ],
+      "takeaways": [
+        "برای هر کار تکراری، دریافت‌کننده، کاربرد و نمونه خروجی اخیر را مشخص کنید.",
+        "ابهام در ارزش یک فعالیت را ثبت کنید؛ فوراً آن را بی‌فایده اعلام نکنید.",
+        "گزارش را با پرسش‌های نیازمند تصمیم، مسئول پاسخ و موعد مفید شروع کنید.",
+        "برای جلسه، تصمیم نهایی و مالک اقدام را ثبت کنید و هزینه پیگیری را نیز بسنجید.",
+        "کار پیشگیرانه را با شاهد مناسب، مثل آزمون بازیابی، بررسی کنید.",
+        "هر تغییر را در دامنه محدود آزمایش کنید و امکان بازگشت بگذارید.",
+        "زمان آزادشده را به یک مانع مشخص در اولویت اصلی تیم اختصاص دهید."
+      ],
+      "advice": [
+        "تمرین پیشنهادی تحریری: یک گزارش تکراری را انتخاب کنید و از دریافت‌کننده بخواهید آخرین تصمیمی را که با آن گرفته نشان دهد.",
+        "برای بازبینی بعد، هم زمان صرف‌شده و هم دوباره‌کاری ناشی از تغییر را ثبت کنید."
+      ]
+    },
+    "en": {
+      "paragraphs": [
+        "The source warns that responsible-looking activity can conceal wasted resources: apparent work does not necessarily mean progress. The following is an independent team exercise, not the author’s case study. Imagine a software team whose weekly reports and coordination meetings continue while an important delivery slips. List recurring activities for one week. For each, identify a recipient, an intended use, and a recent output. Ask what decision a report enables or what dependency a meeting resolves. Where the answer is unclear, mark it for investigation. Do not equate uncertain value with useless work, or use the list to rank individual employees.",
+        "In this invented example, an operations manager uses the weekly report mainly to resolve external dependencies. Test a revised format over two reporting cycles: put decisions needed first, with a question, an owner, and the latest useful response date; retain other details in an appendix. Agree beforehand to review timely decisions and requests for clarification. For coordination meetings, record the decision, action owner, and follow-up date. Count preparation, subsequent messages, and rework alongside meeting duration. A shorter meeting that transfers confusion to everyone’s inbox has not necessarily improved the workflow. These are editorial suggestions for this scenario, to be adjusted to the team’s actual needs.",
+        "Include maintenance and prevention, using evidence appropriate to their purpose: a recovery exercise can make backup work reviewable, while a support response should clarify the customer’s next step. Do not require a visible new feature as proof that every activity matters. Coordinate changes with the responsible owner and keep a way to revert. Close the experiment with a one-page decision: observations, transferred effort, remaining uncertainty, and whether to retain, revise, or stop the new routine. Assign released capacity to a named delivery obstacle, then check whether that obstacle actually shrank. The aim is clearer decisions and delivery, not a smaller meeting count for its own sake."
+      ],
+      "takeaways": [
+        "Identify the recipient, purpose, and recent output of each recurring activity.",
+        "Test a decision-first report over a bounded period and review clarification costs.",
+        "Count preparation and rework alongside meeting time.",
+        "Evaluate preventive work with evidence suited to its purpose.",
+        "Assign released capacity to a specific delivery obstacle and review the result."
+      ],
+      "advice": [
+        "Editorial exercise: ask a report recipient to show the last decision the report supported.",
+        "Keep a named owner and a reversal path for changes to essential routines."
+      ]
+    },
+    "ar": {
+      "paragraphs": [
+        "تحذر الفكرة الأساسية للمصدر من أن المظهر المسؤول للنشاط قد يخفي هدر الموارد؛ فالانشغال بما يشبه العمل لا يثبت التقدم. ما يلي تمرين مستقل لفريق صغير، وليس حالة دراسية من الكاتب. تخيل فريق برمجيات تتأخر مهمته الأساسية رغم انتظام التقارير والاجتماعات. سجّل الأنشطة المتكررة لأسبوع، وحدد لكل نشاط المستفيد والاستخدام المقصود ومثالا حديثا على الناتج. ما القرار الذي يساعد التقرير على اتخاذه؟ وما العائق الذي يعالجه الاجتماع؟ إذا غابت الإجابة، ضع علامة للمراجعة دون إعلان أن النشاط بلا قيمة. الغرض هو فهم العمل، وليس ترتيب الموظفين حسب سرعتهم.",
+        "في هذا المثال الافتراضي، يحتاج مدير العمليات إلى التقرير لحسم التبعيات الخارجية. جرّب خلال دورتين أن يبدأ التقرير بالقرارات المطلوبة، مع سؤال واضح ومسؤول عن الإجابة وآخر موعد مفيد لها، وأن تبقى التفاصيل الأخرى في ملحق. اتفق مسبقا على مراجعة توقيت القرار والحاجة إلى توضيحات إضافية. وفي اجتماع التنسيق، سجّل القرار وصاحب الإجراء وموعد المتابعة. احسب التحضير والرسائل اللاحقة وإعادة العمل إلى جانب مدة الاجتماع؛ فقد ينقل تقصير الاجتماع العبء إلى الآخرين بدلا من تخفيفه. هذه أدوات تحريرية مقترحة لهذا السيناريو، ويجب تعديلها بحسب حاجة الفريق الفعلية.",
+        "أدخل أعمال الصيانة والوقاية في المراجعة بمعايير تناسبها؛ فقد يكون اختبار الاستعادة دليلا مناسبا على فاعلية النسخ الاحتياطي، بينما توضح إجابة الدعم الخطوة التالية للعميل. لا تجعل إضافة ميزة جديدة الدليل الوحيد على قيمة العمل. نسّق تغيير الإجراءات الضرورية مع المسؤول عنها واترك طريقا للرجوع. اختم التجربة بصفحة قرار تسجل الملاحظات والجهد المنقول للآخرين والأسئلة الباقية، ثم تحدد الاستمرار أو التعديل أو التوقف. خصص الوقت المتاح لعائق محدد أمام التسليم، وتحقق لاحقا من انخفاضه. نجاح التمرين يقاس بوضوح القرارات والتسليم، وليس بعدد اجتماعات أقل فقط."
+      ],
+      "takeaways": [
+        "حدد المستفيد والاستخدام وناتجا حديثا لكل نشاط متكرر.",
+        "اختبر تقريرا يبدأ بالقرارات المطلوبة ضمن فترة محددة.",
+        "احسب التحضير وإعادة العمل مع وقت الاجتماع.",
+        "راجع العمل الوقائي بأدلة تناسب هدفه.",
+        "خصص الوقت المتاح لعائق محدد وتابع النتيجة."
+      ],
+      "advice": [
+        "تمرين تحريري: اطلب من مستفيد التقرير توضيح آخر قرار اتخذه اعتمادا عليه.",
+        "حدد مسؤولا وطريقة للرجوع قبل تعديل إجراء ضروري."
+      ]
+    }
+  },
   "Why to Start a Startup in a Bad Economy": {
     "fa": {
       "paragraphs": [
