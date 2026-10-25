@@ -226,6 +226,55 @@
     "timezone": "Asia/Tehran",
     "queue": [
       {
+        "id": "2026-10-25-site-what-we-look-for-in-founders",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "what-we-look-for-in-founders",
+        "publishAt": "2026-10-25T05:46:42+03:30",
+        "status": "published",
+        "publishedAt": "2026-10-25T05:46:42+03:30"
+      },
+      {
+        "id": "2026-10-25-linkedin-what-we-look-for-in-founders",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "what-we-look-for-in-founders",
+        "publishAt": "2026-10-25T12:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-10-25T05:46:42+03:30",
+        "note": "Draft/preview only. Verified account/API or session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "همکاری را پیش از تعهد بلندمدت آزمایش کنید",
+          "en": "Test collaboration before a long-term commitment",
+          "ar": "اختبروا التعاون قبل الالتزام الطويل"
+        },
+        "body": {
+          "fa": "سازگاری شرکا باید در کار مشترک دیده شود.\nپیامد: رزومه و توافق در جلسه، نحوه برخورد با مانع را نشان نمی‌دهد.\nاقدام بعدی: یک همکاری ده‌روزه با خروجی مشخص اجرا کنید و تعهدها و تصمیم‌ها را مرور کنید.\nPaul Graham — https://paulgraham.com/founders.html\nhttps://alisodeyfi.ir/articles/what-we-look-for-in-founders/fa/#daily-article-reader",
+          "en": "Partner compatibility needs evidence from shared work.\nImplication: résumés and meeting agreement do not show how obstacles are handled.\nNext action: run a ten-day trial with a defined output and review commitments and decisions.\nPaul Graham — https://paulgraham.com/founders.html\nhttps://alisodeyfi.ir/articles/what-we-look-for-in-founders/en/#daily-article-reader",
+          "ar": "توافق الشركاء يحتاج إلى دليل من العمل المشترك.\nالأثر: السيرة والاتفاق في الاجتماع لا يكشفان التعامل مع العوائق.\nالخطوة التالية: نفذوا تجربة لعشرة أيام بمخرج محدد ثم راجعوا الالتزامات والقرارات.\nPaul Graham — https://paulgraham.com/founders.html\nhttps://alisodeyfi.ir/articles/what-we-look-for-in-founders/ar/#daily-article-reader"
+        }
+      },
+      {
+        "id": "2026-10-25-instagram-story-what-we-look-for-in-founders",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "what-we-look-for-in-founders",
+        "publishAt": "2026-10-25T20:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-10-25T05:46:42+03:30",
+        "note": "Draft/preview only. Verified account/API or session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "همکاری را پیش از تعهد بلندمدت آزمایش کنید",
+          "en": "Test collaboration before a long-term commitment",
+          "ar": "اختبروا التعاون قبل الالتزام الطويل"
+        },
+        "body": {
+          "fa": "اسلاید ۱: سازگاری شریک را در کار مشترک بسنجید.\nاسلاید ۲: یک خروجی ده‌روزه تعیین کنید؛ تعهدها و تصمیم‌ها را ثبت و مرور کنید.\nاسلاید ۳: برداشت کوتاه و تمرین مستقل\nPaul Graham — https://paulgraham.com/founders.html\nhttps://alisodeyfi.ir/articles/what-we-look-for-in-founders/fa/#daily-article-reader",
+          "en": "Slide 1: evaluate partner compatibility through shared work.\nSlide 2: define a ten-day output; log and review commitments and decisions.\nSlide 3: brief adaptation and independent exercise\nPaul Graham — https://paulgraham.com/founders.html\nhttps://alisodeyfi.ir/articles/what-we-look-for-in-founders/en/#daily-article-reader",
+          "ar": "الشريحة ١: قيموا توافق الشركاء بالعمل المشترك.\nالشريحة ٢: حددوا مخرجا لعشرة أيام وسجلوا الالتزامات والقرارات وراجعوها.\nالشريحة ٣: معالجة موجزة وتمرين مستقل\nPaul Graham — https://paulgraham.com/founders.html\nhttps://alisodeyfi.ir/articles/what-we-look-for-in-founders/ar/#daily-article-reader"
+        }
+      },
+      {
         "id": "2026-10-24-site-how-to-lose-time-and-money",
         "channel": "site",
         "target": "site",

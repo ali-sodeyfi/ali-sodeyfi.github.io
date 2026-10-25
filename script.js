@@ -492,6 +492,36 @@ const articleCategories = [
 
 const articleCatalog = [
   {
+    "title": "What We Look for in Founders",
+    "category": "leadership",
+    "author": "Paul Graham",
+    "source": "Paul Graham",
+    "year": "2010",
+    "url": "https://paulgraham.com/founders.html",
+    "tags": {
+      "fa": [
+        "هم‌بنیان‌گذار",
+        "همکاری آزمایشی",
+        "تصمیم مشترک"
+      ],
+      "en": [
+        "cofounders",
+        "trial collaboration",
+        "shared decisions"
+      ],
+      "ar": [
+        "الشركاء المؤسسون",
+        "تعاون تجريبي",
+        "قرارات مشتركة"
+      ]
+    },
+    "summary": {
+      "fa": "برداشتی کوتاه درباره ویژگی‌های بنیان‌گذاران، همراه با تمرین مستقل برای سنجیدن همکاری، پیگیری و تصمیم‌گیری مشترک پیش از شروع شرکت.",
+      "en": "A brief adaptation on founder qualities, with an independent exercise for evaluating collaboration, follow-through, and shared decisions before starting a company.",
+      "ar": "معالجة موجزة لصفات المؤسسين، مع تمرين مستقل لتقييم التعاون والمتابعة واتخاذ القرارات المشتركة قبل تأسيس الشركة."
+    }
+  },
+  {
     "title": "How to Lose Time and Money",
     "category": "building",
     "author": "Paul Graham",
@@ -1852,6 +1882,69 @@ const articleCatalog = [
 ];
 
 const articleEssays = {
+  "What We Look for in Founders": {
+    "fa": {
+      "paragraphs": [
+        "منبع پنج ویژگی را در بنیان‌گذاران برجسته می‌کند: پشتکار، انعطاف، تخیل، فاصله‌گرفتن از عرف‌های غیرضروری و رابطه محکم میان شرکا. تأکیدش این است که پیگیری هدف باید با تغییر مسیر سازگار باشد. ادامه این نوشته، تمرین مستقلی برای ارزیابی همکاری پیش از تأسیس شرکت است؛ مثال‌ها و روش اجرا پیشنهاد تحریری‌اند.",
+        "فرض کنید دو نفر قصد دارند برای فروشگاه‌های کوچک ابزاری بسازند که سفارش‌های عقب‌افتاده را مشخص کند. یکی تجربه فروش دارد و دیگری توسعه‌دهنده است. به‌جای اینکه سازگاری را فقط از روی رزومه یا چند گفت‌وگوی خوشایند نتیجه بگیرند، یک همکاری آزمایشی ده‌روزه تعریف می‌کنند. خروجی را کوچک و قابل بررسی می‌گذارند: مشاهده روش فعلی دو فروشگاه و ساخت یک نمونه با داده ساختگی. در شروع، هر نفر زمان در دسترس، مسئولیت خود و محدودیت‌هایی را که ممکن است باعث تأخیر شود می‌نویسد. این قرارداد کاری کوتاه قرار نیست موفقیت شرکت آینده را پیش‌بینی کند؛ فقط فرصتی می‌سازد تا رفتار واقعی دو نفر در برابر تعهد مشترک دیده شود.",
+        "در روزهای نخست، رفتار هنگام برخورد با مانع را ثبت کنید. اگر فروشگاه اول وقت مصاحبه نمی‌دهد، مسئول ارتباط چه می‌کند: زمان دیگری پیشنهاد می‌دهد، به فروشگاه دوم مراجعه می‌کند یا مسئله را بی‌خبر رها می‌کند؟ پاسخ درست همیشه تماس بیشتر نیست؛ ممکن است آن مشتری برای آزمون مناسب نباشد. یک یادداشت سه‌خطی کافی است: مانع چه بود، چه گزینه‌هایی داشتیم و چرا این اقدام را انتخاب کردیم؟ طرف مقابل باید بتواند منطق تصمیم را بفهمد، حتی اگر با آن موافق نباشد. همچنین ثبت کنید درخواست کمک چه زمانی مطرح شد؛ پنهان‌کردن گرفتاری تا روز تحویل، هزینه تصمیم را به شریک منتقل می‌کند.",
+        "در میانه کار، یک مشاهده تازه را وارد تصمیم محصول کنید. مثلاً معلوم شود فروشگاه به‌جای فهرست سفارش‌های عقب‌افتاده، بیشتر به مشخص‌شدن مسئول پیگیری هر سفارش نیاز دارد. پیش از افزودن قابلیت، هر دو نفر توضیح دهند کدام بخش مشاهده شده و کدام بخش هنوز فرض است. سپس دو راه کوچک پیشنهاد دهند: اصلاح نمونه موجود یا اجرای دستی یک فهرست پیگیری. هزینه، زمان و شاهد مورد انتظار هر راه را کنار هم بگذارید. هدف این تمرین انتخاب عجیب‌ترین ایده نیست؛ می‌خواهید ببینید آیا می‌توانید یک راه جایگزین را بدون دفاع شخصی از کار قبلی بررسی کنید و درباره آزمون بعدی توافق مشخص داشته باشید.",
+        "اختلاف را هم به بخشی قابل بررسی از همکاری تبدیل کنید. اگر یک نفر می‌خواهد سریع نمونه را نشان دهد و دیگری نگران خطاست، موضوع را به «سرعت در برابر وسواس» تقلیل ندهید. بنویسید خطای مورد بحث چیست، به چه کسی آسیب می‌زند و آیا با داده ساختگی یا محدودکردن نمایش قابل کنترل است. مرزهای این آزمایش را روشن نگه دارید: اطلاعات واقعی مشتری بدون اجازه وارد نمونه نمی‌شود و درباره قابلیت آماده‌نشده وعده قطعی داده نمی‌شود. برای تصمیم‌های برگشت‌پذیر یک مسئول و موعد بازبینی تعیین کنید؛ تصمیمی که تعهد تازه برای هر دو نفر ایجاد می‌کند باید تأیید مشترک داشته باشد. این قواعد پیشنهادی، موضوع اختلاف را از شخصیت افراد جدا می‌کنند.",
+        "در پایان ده روز، هر نفر جداگانه سه چیز بنویسد: یک تعهد انجام‌شده، یک موقعیت دشوار و یک تغییری که برای ادامه همکاری لازم می‌بیند. سپس یادداشت‌ها را کنار خروجی واقعی بررسی کنید. حجم کد یا تعداد تماس‌ها به‌تنهایی معیار کافی نیست؛ روشن‌بودن اطلاع‌رسانی، تقسیم بار کار و امکان حل اختلاف نیز مهم است. نتیجه می‌تواند شروع یک آزمایش دوم با دامنه مشخص، اصلاح تقسیم مسئولیت یا پایان محترمانه همکاری باشد. از یک تجربه کوتاه برچسب شخصیتی نسازید؛ محدودیت زمان، تجربه و شرایط هر نفر را ثبت کنید. اگر ادامه می‌دهید، تنها یک تغییر عملی را برای دور بعد انتخاب کنید تا معلوم شود بازخورد واقعاً به رفتار تبدیل می‌شود یا فقط در جلسه پذیرفته شده است."
+      ],
+      "takeaways": [
+        "پیش از تعهد بلندمدت، یک همکاری کوتاه با خروجی و زمان در دسترس مشخص تعریف کنید.",
+        "برای هر مانع، گزینه‌ها، تصمیم و زمان درخواست کمک را ثبت کنید.",
+        "داده مشاهده‌شده را از برداشت شخصی جدا کنید و تغییر محصول را به یک آزمون کوچک وصل کنید.",
+        "برای دو راه‌حل جایگزین، هزینه و شاهد مورد انتظار را کنار هم بنویسید.",
+        "اختلاف را با نام‌بردن از خطا و پیامد آن بررسی کنید، نه با برچسب‌زدن به شریک.",
+        "مرز استفاده از داده مشتری و وعده‌های محصول را پیش از آزمایش تعیین کنید.",
+        "در پایان، شواهد همکاری را مرور و فقط یک تغییر رفتاری برای دور بعد انتخاب کنید."
+      ],
+      "advice": [
+        "تمرین تحریری: یک برگه مشترک با ستون‌های تعهد، مسئول، موعد، مانع و تصمیم بعدی بسازید.",
+        "در بازبینی پایانی، هر نفر یک نمونه مشخص از بازخوردی بیاورد که باعث تغییر کارش شده است."
+      ]
+    },
+    "en": {
+      "paragraphs": [
+        "The source highlights determination, flexibility, imagination, questioning unnecessary conventions, and strong founder relationships. Persistence needs room for changing direction. The following trial-collaboration exercise is independent editorial guidance; its fictional scenario and procedures are not the author’s case study.",
+        "Imagine two prospective cofounders building an order-follow-up tool for small shops. Run a ten-day collaboration with a narrow output: observe two shops and make a prototype using invented data. Each person records available time, responsibilities, and likely constraints. When access to a shop falls through, note the obstacle, alternatives, chosen action, and when help was requested. More calls are not automatically better; the shop may be a poor fit for the trial. The point is to make decisions and missed commitments visible while there is still time to respond.",
+        "Midway through, suppose observation suggests that assigning a follow-up owner matters more than listing overdue orders. Separate observations from assumptions. Compare adapting the prototype with running a manual follow-up list, including effort and expected evidence. When partners disagree about showing unfinished work, identify the particular error and its consequences. Consider whether synthetic data or a smaller demonstration addresses the concern. Agree on permission for customer data and avoid promises about unfinished capabilities. Give reversible decisions an owner and review date; require joint agreement for new shared commitments.",
+        "At the end, each person writes down one completed commitment, one difficult moment, and one change needed for another trial. Compare these notes with the actual output, including communication and workload distribution. Decide whether to run another bounded trial, revise responsibilities, or stop working together. A short project cannot establish a permanent personality judgment; record situational constraints too. If collaboration continues, choose one observable adjustment and check it next time. This makes the review a test of how feedback changes work, rather than a conversation both people simply agree with."
+      ],
+      "takeaways": [
+        "Define a short collaboration with explicit availability and an inspectable output.",
+        "Record obstacles, alternatives, decisions, and requests for help.",
+        "Compare two small tests using effort and expected evidence.",
+        "Discuss specific consequences of disagreement and set decision ownership.",
+        "Review communication as well as output, then test one behavioral adjustment."
+      ],
+      "advice": [
+        "Editorial exercise: keep a shared commitment log with owner, deadline, obstacle, and next decision.",
+        "At the final review, bring a concrete example of feedback that changed your work."
+      ]
+    },
+    "ar": {
+      "paragraphs": [
+        "يبرز المصدر الإصرار والمرونة والخيال وتجاوز الأعراف غير الضرورية وقوة العلاقة بين المؤسسين. ويقرن متابعة الهدف بالقدرة على تغيير المسار. ما يلي تمرين تحريري مستقل لتقييم التعاون؛ المثال وخطوات التطبيق ليسا دراسة حالة من الكاتب.",
+        "تخيل شريكين محتملين يريدان بناء أداة لمتابعة طلبات المتاجر الصغيرة. يحددان تجربة عمل لعشرة أيام، بمخرج محدود: ملاحظة طريقة العمل في متجرين وبناء نموذج ببيانات افتراضية. يكتب كل منهما الوقت المتاح والمسؤوليات والقيود المتوقعة. إذا تعذر لقاء المتجر الأول، يسجل مسؤول التواصل العائق والبدائل والقرار ووقت طلب المساعدة. تكرار الاتصال ليس دائما الحل المناسب؛ قد لا يصلح المتجر لهذه التجربة. الغرض هو إظهار القرارات والتعثر مبكرا حتى يستطيع الشريك الآخر المشاركة في المعالجة.",
+        "لنفترض أن الملاحظة كشفت أهمية تحديد مسؤول متابعة الطلب أكثر من عرض قائمة المتأخرات. افصلا ما شوهد فعلا عما لا يزال افتراضا، ثم قارنا تعديل النموذج بتشغيل قائمة متابعة يدوية، مع الجهد والدليل المتوقع من كل خيار. وعند الاختلاف حول عرض عمل غير مكتمل، حددا الخطأ المقصود وأثره وإمكان تقليصه ببيانات افتراضية أو عرض أضيق. اتفقا على ضوابط استخدام بيانات العملاء وعلى تجنب الوعود بشأن قدرات غير جاهزة. عينا مسؤولا وموعد مراجعة للقرار القابل للتراجع، واشترطا اتفاقا مشتركا لأي التزام جديد يخصكما معا.",
+        "في نهاية التجربة، يكتب كل طرف التزاما أنجزه وموقفا صعبا وتغييرا يراه ضروريا للاستمرار. قارنا الملاحظات بالمخرج الفعلي، مع مراجعة التواصل وتوزيع عبء العمل. يمكن أن تكون النتيجة تجربة ثانية محددة أو تعديل المسؤوليات أو إنهاء التعاون باحترام. لا تحولا تجربة قصيرة إلى حكم دائم على شخصية الآخر؛ سجلا أيضا ظروف الوقت والخبرة. إذا قررتما الاستمرار، اختارا تعديلا سلوكيا واحدا قابلا للملاحظة وراجعاه في الجولة التالية. بذلك يصبح النقاش وسيلة لفحص أثر الملاحظات على العمل، لا مجرد اتفاق لفظي في نهاية الاجتماع."
+      ],
+      "takeaways": [
+        "حددا تجربة تعاون قصيرة بوقت متاح ومخرج قابل للمراجعة.",
+        "سجلا العوائق والبدائل والقرارات وتوقيت طلب المساعدة.",
+        "قارنا اختبارين صغيرين بحسب الجهد والدليل المتوقع.",
+        "ناقشا آثار الخطأ المحدد وحددا صاحب القرار وموعد مراجعته.",
+        "راجعا التواصل والمخرج معا، ثم اختبرا تعديلا سلوكيا واحدا."
+      ],
+      "advice": [
+        "تمرين تحريري: أنشئا سجلا مشتركا للالتزام والمسؤول والموعد والعائق والقرار التالي.",
+        "في المراجعة الختامية، قدما مثالا محددا على ملاحظة أدت إلى تغيير العمل."
+      ]
+    }
+  },
   "How to Lose Time and Money": {
     "fa": {
       "paragraphs": [
