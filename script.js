@@ -492,6 +492,36 @@ const articleCategories = [
 
 const articleCatalog = [
   {
+    "title": "Novelty and Heresy",
+    "category": "ideas",
+    "author": "Paul Graham",
+    "source": "Paul Graham",
+    "year": "2019",
+    "url": "https://paulgraham.com/nov.html",
+    "tags": {
+      "fa": [
+        "فرض محصول",
+        "آزمایش محدود",
+        "شواهد مشتری"
+      ],
+      "en": [
+        "product assumptions",
+        "bounded experiments",
+        "customer evidence"
+      ],
+      "ar": [
+        "افتراضات المنتج",
+        "تجارب محدودة",
+        "أدلة العملاء"
+      ]
+    },
+    "summary": {
+      "fa": "برداشتی کوتاه از نوآوری و مخالفت با باورهای جاافتاده، همراه با تمرین مستقل برای سنجیدن یک فرض محصول پیش از سرمایه‌گذاری روی آن.",
+      "en": "A brief adaptation on novelty and established beliefs, with an independent exercise for testing a product assumption before investing in it.",
+      "ar": "معالجة موجزة للجديد والمعتقدات الراسخة، مع تمرين مستقل لاختبار افتراض عن المنتج قبل الاستثمار فيه."
+    }
+  },
+  {
     "title": "What We Look for in Founders",
     "category": "leadership",
     "author": "Paul Graham",
@@ -1882,6 +1912,69 @@ const articleCatalog = [
 ];
 
 const articleEssays = {
+  "Novelty and Heresy": {
+    "fa": {
+      "paragraphs": [
+        "ایده اصلی منبع این است که بعضی فرصت‌های تازه پشت فرض‌های نادرست اما محبوب پنهان می‌مانند. محیطی که مخالفت با آن فرض‌ها را تنبیه می‌کند، راه کشف را هم می‌بندد. ادامه این نوشته یک تمرین مستقل برای تیم محصول است: چگونه ادعایی جاافتاده را به پرسشی قابل آزمایش تبدیل کنیم؟ مثال، معیارها و روش اجرای زیر پیشنهاد تحریری‌اند و در مقاله اصلی نیامده‌اند.",
+        "فرض کنید تیمی نرم‌افزار برنامه‌ریزی شیفت برای کارگاه‌های کوچک می‌سازد. در جلسه‌ها جمله‌ای تکرار می‌شود: «این مشتری‌ها حتماً داشبورد کامل می‌خواهند.» پیش از ساختن صفحه‌های بیشتر، منشأ این اطمینان را پیدا کنید. آیا سه مشتری مشخص چنین درخواستی کرده‌اند، فروشنده آن را از یک مذاکره برداشت کرده یا فقط در محصول رقیب دیده شده است؟ جمله را به یک ادعای محدود تبدیل کنید: «مسئول شیفت برای تأیید برنامه فردا به نمایش هم‌زمان همه کارکنان نیاز دارد.» اکنون می‌توان درباره کار معین یک فرد معین تحقیق کرد. واژه‌هایی مثل همه، همیشه و حتماً را با موقعیت، کاربر و کاری که باید انجام دهد جایگزین کنید؛ این کار اندازه پرسش را قابل مدیریت می‌کند.",
+        "برای شناخت مسئله، از مسئول شیفت بخواهید آخرین بارِ تنظیم برنامه را بازسازی کند. چه اطلاعاتی داشت، کجا منتظر پاسخ ماند و کدام تصمیم را تغییر داد؟ به‌جای پرسیدن اینکه «داشبورد می‌خواهید؟»، جریان همان کار را روی کاغذ ترسیم کنید. ممکن است مشکل اصلی پیدا کردن جایگزین برای فرد غایب باشد، یا شاید واقعاً دیدن همه شیفت‌ها ضروری باشد. این دو احتمال را باز نگه دارید. یک مشاهده و یک تفسیر را در دو ستون جدا بنویسید: «سه بار برای تأیید تماس گرفت» مشاهده است؛ «به ابزار پیام‌رسان نیاز دارد» هنوز تفسیر است. از ثبت اطلاعات شخصی کارکنان صرف‌نظر کنید؛ برای طراحی آزمون، نقش‌ها و ترتیب کار کافی است.",
+        "حالا یک مقایسه کوچک طراحی کنید. با داده ساختگیِ یک هفته، دو نمونه بسازید: نمای کامل برنامه و فهرست کوتاه تغییرهای نیازمند تأیید. از چند مسئول شیفت بخواهید در هر دو نمونه یک غیبت را جبران کنند و برنامه نهایی را توضیح دهند. ترتیب نمایش نمونه‌ها را عوض کنید تا آشنایی با مسئله فقط به نفع نمونه دوم نباشد. زمان انجام، خطا و درخواست کمک را ثبت کنید؛ بعد بپرسید چه اطلاعاتی کم بود. این آزمون اولیه برای پیدا کردن نقص‌های آشکار است و از چند مشاهده نمی‌توان ترجیح کل بازار را نتیجه گرفت. اگر فهرست کوتاه باعث جاافتادن یک شیفت شود، سادگی ظاهری آن به‌تنهایی امتیاز محسوب نمی‌شود.",
+        "پیش از دیدن نتیجه، بنویسید چه شواهدی تصمیم را تغییر می‌دهد. مثلاً ادامه بررسی نمونه کوتاه را مشروط کنید به اینکه هیچ شیفتی از قلم نیفتد و کاربر بتواند تصمیم خود را بدون توضیح تیم بازگو کند. اگر هر دو نمونه شکست خوردند، سؤال بعدی درباره اطلاعات لازم است، نه انتخاب رنگ و چیدمان. یک نفر مسئول جمع‌کردن نتیجه‌ها باشد و نفر دیگری تلاش کند توضیح رقیبی برای آن‌ها پیدا کند؛ شاید تجربه قبلی کاربران یا ابهام متن دستور بر نتیجه اثر گذاشته باشد. سقف زمان این دور را هم تعیین کنید تا تحقیق به تعویق دائمی تصمیم تبدیل نشود. معیارها را وسط آزمون برای برنده‌شدن نمونه محبوب تغییر ندهید؛ هر تغییر را جدا ثبت و در دور بعد بررسی کنید.",
+        "در پایان، یک یادداشت تصمیم کوتاه منتشر کنید: فرض اولیه، مشاهده‌ها، محدودیت آزمون و اقدام بعدی. اگر نمای کامل لازم بود، همان را با دامنه روشن بسازید؛ اگر فهرست تغییرها جواب داد، آن را با اجازه مشتری در یک موقعیت واقعی و محدود امتحان کنید و راه بازگشت را نگه دارید. نتیجه نامشخص هم خروجی معتبر است، به شرط آنکه دقیقاً معلوم باشد کدام ابهام باقی مانده است. موفقیت این تمرین را با تعداد مخالفت‌ها یا عجیب‌بودن ایده نسنجید. معیار پیشنهادی این است که آیا تیم توانست یک تصمیم واقعی را با شواهد قابل بررسی بگیرد و هزینه آزمون را محدود نگه دارد. تاریخ بازبینی بگذارید تا تغییر مشتری یا شیوه کار، تصمیم قدیمی را دوباره قابل پرسش کند."
+      ],
+      "takeaways": [
+        "یک ادعای کلی را به کاربر، موقعیت و کار مشخص محدود کنید.",
+        "منشأ فرض را ثبت کنید: مشاهده مشتری، برداشت فروش یا تقلید از رقیب.",
+        "در مصاحبه، آخرین تجربه واقعی را بازسازی و مشاهده را از تفسیر جدا کنید.",
+        "دو نمونه را با یک مسئله مشابه و ترتیب نمایش متفاوت مقایسه کنید.",
+        "خطا، درخواست کمک و اطلاعات ازدست‌رفته را کنار زمان انجام بسنجید.",
+        "پیش از آزمون، معیار تصمیم و سقف زمان را بنویسید؛ نتیجه چند نفر را به کل بازار تعمیم ندهید.",
+        "تصمیم، محدودیت شواهد و تاریخ بازبینی را در یک یادداشت کوتاه نگه دارید."
+      ],
+      "advice": [
+        "تمرین تحریری: یک برگه با ستون‌های فرض، شاهد فعلی، آزمون بعدی، مسئول و موعد تصمیم بسازید.",
+        "تمرین تحریری: از یک همکار بخواهید برای نتیجه آزمایش توضیح جایگزین بنویسد و فقط مهم‌ترین ابهام را در دور بعد بررسی کنید."
+      ]
+    },
+    "en": {
+      "paragraphs": [
+        "The source argues that promising discoveries can hide behind cherished false assumptions. Punishing challenges to those assumptions can obstruct discovery. The following product-team exercise is independent editorial guidance; its scenario, measurements, and procedures are not examples from the original essay.",
+        "Imagine a team building shift-planning software for small workshops. Someone insists that customers require a complete dashboard. Trace that claim to its evidence: a particular customer request, a salesperson’s interpretation, or a competitor’s interface. Narrow it to a task: does the shift supervisor need to see every worker at once to approve tomorrow’s schedule? Ask supervisors to reconstruct their most recent scheduling task. Record what happened separately from your interpretation. Repeated phone calls might indicate missing information, uncertainty over responsibility, or another problem; they do not yet establish demand for a messaging feature. Roles and task sequences are sufficient for this exercise, so avoid collecting employees’ personal details.",
+        "Build two small prototypes using invented weekly schedules: a complete view and a list of changes awaiting approval. Ask several supervisors to resolve the same absence in both versions, varying which version they see first. Record errors, help requests, and completion time, then ask what information was missing. Decide beforehand what would justify another trial; for example, no shift can disappear and users must explain their decision without coaching. A small usability exercise can expose obvious problems, but it cannot establish market-wide preference. If both versions fail, investigate the information needed before polishing either interface. Give the exercise a time limit and keep any changed criteria separate for the next round.",
+        "Write a decision note with the initial claim, observations, limitations, and next action. Ask a colleague to propose an alternative explanation for the results, such as participants’ prior experience or unclear instructions. If the full view is necessary, build it with a clear scope. If the short list works, test it in one real situation with customer permission and a fallback. An inconclusive result should identify the uncertainty that remains. Review the decision on a named date. The proposed measure of success is a better-supported product decision within a bounded effort, rather than the number of objections raised in a meeting."
+      ],
+      "takeaways": [
+        "Turn a broad claim into a specific user, situation, and task.",
+        "Trace the evidence and separate observations from interpretations.",
+        "Compare prototypes with the same task and vary presentation order.",
+        "Set decision criteria and a time limit before observing results.",
+        "Document limitations, an alternative explanation, and a review date."
+      ],
+      "advice": [
+        "Editorial exercise: keep one sheet for the assumption, current evidence, next test, owner, and decision date.",
+        "Editorial exercise: carry only the most consequential unresolved question into the next trial."
+      ]
+    },
+    "ar": {
+      "paragraphs": [
+        "يرى المصدر أن بعض الاكتشافات الواعدة تختبئ خلف افتراضات خاطئة يتمسك بها الناس. ومعاقبة الاعتراض عليها قد تعرقل الاكتشاف. ما يلي تمرين تحريري مستقل لفريق المنتج؛ المثال ومعايير القياس وخطوات التنفيذ ليست حالات واردة في المقال الأصلي.",
+        "تخيل فريقا يبني برنامجا لتنظيم الورديات في ورش صغيرة. تتكرر عبارة أن العملاء يحتاجون حتما إلى لوحة شاملة. ابحث عن أصل هذا الادعاء: طلب عميل محدد، أم تفسير موظف مبيعات، أم واجهة منتج منافس؟ حوله إلى مهمة محدودة: هل يحتاج مسؤول الورديات إلى رؤية جميع العاملين معا لاعتماد جدول الغد؟ اطلب منه إعادة سرد آخر مرة أعد فيها الجدول. سجل ما حدث في عمود وتفسيرك في عمود آخر. تكرار الاتصالات قد يشير إلى نقص المعلومات أو غموض المسؤولية؛ لا يثبت وحده الحاجة إلى ميزة مراسلة. تكفي الأدوار وتسلسل العمل لهذا التمرين، فلا تجمع بيانات العاملين الشخصية.",
+        "اصنع نموذجين صغيرين بجدول أسبوعي وهمي: عرض كامل، وقائمة بالتغييرات التي تنتظر الموافقة. اطلب من عدة مسؤولين معالجة غياب واحد في النموذجين، مع تغيير ترتيب عرضهما. سجل الأخطاء وطلبات المساعدة والوقت، ثم اسأل عن المعلومات الناقصة. حدد مسبقا ما يبرر تجربة أخرى، مثل عدم إغفال أي وردية وقدرة المستخدم على شرح قراره دون توجيه. يمكن لتجربة استخدام صغيرة كشف عيوب واضحة، لكنها لا تثبت تفضيل السوق كله. إذا فشل النموذجان فابحث في المعلومات المطلوبة قبل تحسين الواجهة. ضع حدا زمنيا للتجربة، وسجل أي تعديل في المعايير لاختباره في جولة لاحقة.",
+        "اكتب مذكرة قرار تتضمن الادعاء الأول والملاحظات وحدود الاختبار والخطوة التالية. اطلب من زميل اقتراح تفسير بديل للنتائج، مثل خبرة المشاركين السابقة أو غموض التعليمات. إذا كان العرض الكامل ضروريا فابنه بنطاق محدد؛ وإذا نجحت القائمة المختصرة فجربها في حالة حقيقية واحدة بإذن العميل ومع إمكانية العودة إلى الطريقة السابقة. النتيجة غير الحاسمة مفيدة عندما تحدد السؤال المتبقي بدقة. عين موعدا لمراجعة القرار. المقياس المقترح لنجاح التمرين هو اتخاذ قرار منتج تسنده أدلة قابلة للفحص ضمن جهد محدود، وليس عدد الاعتراضات في الاجتماع."
+      ],
+      "takeaways": [
+        "حدد مستخدما وموقفا ومهمة بدلا من الادعاء العام.",
+        "تتبع مصدر الدليل وافصل الملاحظات عن التفسيرات.",
+        "قارن النموذجين بالمهمة نفسها وغير ترتيب العرض.",
+        "اكتب معايير القرار والحد الزمني قبل مشاهدة النتائج.",
+        "وثق حدود الاختبار وتفسيرا بديلا وموعد المراجعة."
+      ],
+      "advice": [
+        "تمرين تحريري: استخدم ورقة للافتراض والدليل الحالي والاختبار التالي والمسؤول وموعد القرار.",
+        "تمرين تحريري: انقل أهم سؤال غير محسوم فقط إلى الجولة التالية."
+      ]
+    }
+  },
   "What We Look for in Founders": {
     "fa": {
       "paragraphs": [

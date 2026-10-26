@@ -226,6 +226,55 @@
     "timezone": "Asia/Tehran",
     "queue": [
       {
+        "id": "2026-10-26-site-novelty-and-heresy",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "novelty-and-heresy",
+        "publishAt": "2026-10-26T05:50:43+03:30",
+        "status": "published",
+        "publishedAt": "2026-10-26T05:50:43+03:30"
+      },
+      {
+        "id": "2026-10-26-linkedin-novelty-and-heresy",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "novelty-and-heresy",
+        "publishAt": "2026-10-26T12:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-10-26T05:50:43+03:30",
+        "note": "Draft/preview only. Verified account/API or session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "فرض محصول را به یک آزمون محدود تبدیل کنید",
+          "en": "Turn a product assumption into a bounded test",
+          "ar": "حولوا افتراض المنتج إلى اختبار محدود"
+        },
+        "body": {
+          "fa": "درخواست یک قابلیت هنوز شاهد کافی برای ساختن آن نیست.\nپیامد: باید کار واقعی مشتری و اطلاعات لازم برای انجامش روشن شود.\nاقدام بعدی: دو نمونه را با یک مسئله مشابه مقایسه کنید و پیش از آزمون، معیار تصمیم را بنویسید.\nPaul Graham — https://paulgraham.com/nov.html\nhttps://alisodeyfi.ir/articles/novelty-and-heresy/fa/#daily-article-reader",
+          "en": "A feature request is not yet sufficient evidence to build it.\nImplication: establish the customer’s actual task and the information it requires.\nNext action: compare two prototypes on the same task and write decision criteria before the test.\nPaul Graham — https://paulgraham.com/nov.html\nhttps://alisodeyfi.ir/articles/novelty-and-heresy/en/#daily-article-reader",
+          "ar": "طلب ميزة لا يكفي وحده لاتخاذ قرار بنائها.\nالأثر: حددوا مهمة العميل الفعلية والمعلومات اللازمة لها.\nالخطوة التالية: قارنوا نموذجين بالمهمة نفسها واكتبوا معايير القرار قبل الاختبار.\nPaul Graham — https://paulgraham.com/nov.html\nhttps://alisodeyfi.ir/articles/novelty-and-heresy/ar/#daily-article-reader"
+        }
+      },
+      {
+        "id": "2026-10-26-instagram-story-novelty-and-heresy",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "novelty-and-heresy",
+        "publishAt": "2026-10-26T20:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-10-26T05:50:43+03:30",
+        "note": "Draft/preview only. Verified account/API or session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "فرض محصول را به یک آزمون محدود تبدیل کنید",
+          "en": "Turn a product assumption into a bounded test",
+          "ar": "حولوا افتراض المنتج إلى اختبار محدود"
+        },
+        "body": {
+          "fa": "اسلاید ۱: درخواست قابلیت را به شاهد انجام کار وصل کنید.\nاسلاید ۲: دو نمونه، یک مسئله؛ خطا و نیاز به کمک را بسنجید و معیار تصمیم را از قبل بنویسید.\nاسلاید ۳: منبع و تمرین مستقل\nPaul Graham — https://paulgraham.com/nov.html\nhttps://alisodeyfi.ir/articles/novelty-and-heresy/fa/#daily-article-reader",
+          "en": "Slide 1: connect feature requests to evidence from real tasks.\nSlide 2: two prototypes, one task; measure errors and help requests, with decision criteria set beforehand.\nSlide 3: source and independent exercise\nPaul Graham — https://paulgraham.com/nov.html\nhttps://alisodeyfi.ir/articles/novelty-and-heresy/en/#daily-article-reader",
+          "ar": "الشريحة ١: اربطوا طلب الميزة بدليل من مهمة فعلية.\nالشريحة ٢: نموذجان ومهمة واحدة؛ قيسوا الأخطاء وطلبات المساعدة وحددوا معايير القرار مسبقا.\nالشريحة ٣: المصدر والتمرين المستقل\nPaul Graham — https://paulgraham.com/nov.html\nhttps://alisodeyfi.ir/articles/novelty-and-heresy/ar/#daily-article-reader"
+        }
+      },
+      {
         "id": "2026-10-25-site-what-we-look-for-in-founders",
         "channel": "site",
         "target": "site",
