@@ -1909,6 +1909,24 @@ const articleCatalog = [
       ar: "بدلا من سؤال كيف نبيع أكثر فقط، اسأل ما الذي يجعل الشركة أقوى للعميل مع الوقت: من امتلاك العلاقة إلى البيانات والشبكات وقابلية التوسع.",
     },
   },
+  {
+    title: "Killing Your Startup By Listening to Customers",
+    category: "growth",
+    author: "Steve Blank",
+    source: "Steve Blank",
+    year: "2012",
+    url: "https://steveblank.com/2012/02/27/killing-your-startup-by-listening-to-customers/",
+    tags: {
+      fa: ["شناخت مشتری", "مدل درآمد", "قیمت‌گذاری"],
+      en: ["customer understanding", "revenue model", "pricing"],
+      ar: ["فهم العملاء", "نموذج الإيرادات", "التسعير"],
+    },
+    summary: {
+      fa: "شنیدن درخواست مشتری کافی نیست؛ باید بفهمیم کدام بخش مشتری، با چه مدل درآمدی و با چه قیمت‌گذاری‌ای می‌تواند یک کسب‌وکار تکرارپذیر بسازد.",
+      en: "Customer conversations are only useful when they sharpen the segment, revenue model, and pricing assumptions behind a repeatable business.",
+      ar: "لا تكفي محادثات العملاء وحدها؛ يجب أن توضح الشريحة ونموذج الإيرادات وافتراضات التسعير التي تبني عملا قابلا للتكرار.",
+    },
+  },
 ];
 
 const articleEssays = {
@@ -6043,6 +6061,80 @@ const articleEssays = {
         "اختبر بدء الاستخدام مع خمسة عملاء سريعي القرار وسجل زمن القرار وأول قيمة.",
         "اختر استخداما غير متوقعا وأجر مقابلات قبل بناء استراتيجية كاملة حوله.",
         "اشترط مقياسا لنتيجة العميل وشرط توقف لكل تجربة لبناء القوة.",
+      ],
+    },
+  },
+  "Killing Your Startup By Listening to Customers": {
+    fa: {
+      paragraphs: [
+        "استیو بلنک در منبع اصلی یک خطای رایج را بررسی می‌کند: تیم از ساختمان بیرون می‌رود، با مشتریان حرف می‌زند و بعد هر چیزی را که می‌شنود می‌سازد. شنیدن، شروع خوبی است اما هدف شناختن مشتری مناسب و پیدا کردن مدل کسب‌وکاری است که بتواند تکرار و مقیاس پیدا کند. این نوشته اقتباسی آزاد است؛ مثال‌ها و تمرین‌های عملی آن برای این صفحه طراحی شده‌اند.",
+        "فرض کنید تیمی ابزار ساده‌ای برای پیگیری کارهای روزانه ساخته است. چند کاربر می‌گویند گزارش‌های بیشتر، اتصال‌های تازه و گزینه‌های سفارشی می‌خواهند. اگر تیم همه درخواست‌ها را به محصول اضافه کند، شاید استفاده کوتاه‌مدت بالا برود اما هنوز معلوم نیست چه کسی برای نتیجه بهتر پول می‌دهد. هر درخواست را به یک کار واقعی وصل کنید: چه کسی، در چه موقعیتی، با کدام مانع روبه‌رو است و اکنون چه راهی برای حل آن دارد؟ کاربر، خریدار و پرداخت‌کننده ممکن است سه نفر متفاوت باشند.",
+        "گفت‌وگو و آزمایش باید به یک فرض مدل کسب‌وکار وصل شوند. برای یک بخش محدود بنویسید چه چیزی باید ثابت شود: آیا کاربر در هفته چند بار به نتیجه می‌رسد؟ آیا حاضر است برای صرفه‌جویی قابل مشاهده پول بدهد؟ آیا هزینه رسیدن به او از ارزش طول عمرش کمتر است؟ نظرسنجی درباره علاقه، به‌تنهایی، این پاسخ را نمی‌دهد. رفتار واقعی، ادامه استفاده، معرفی همکار یا پرداخت آزمایشی شواهد قوی‌تری هستند؛ با این حال هر کدام را در زمینه و اندازه نمونه خود تفسیر کنید.",
+        "قیمت‌گذاری و مدل فریمیوم هم فرضیه‌اند، نه جایزه‌ای برای پایان ساخت محصول. پیش از بازکردن دسترسی رایگان برای همه، مشخص کنید کدام گروه باید پول بدهد و چه لحظه‌ای ارزش را می‌بیند. یک آزمایش کوچک می‌تواند دو بسته قیمت، یک تعهد خرید یا یک پایلوت محدود داشته باشد. معیار را قبل از آزمون بنویسید: مثلاً مشتری باید در یک فرایند واقعی به نتیجه برسد و برای ادامه زمان یا بودجه مشخص کنار بگذارد. اگر کسی استفاده می‌کند اما برنمی‌گردد یا پرداخت را عقب می‌اندازد، این داده باید فرض محصول و بازار را تغییر دهد.",
+        "تمرکز یعنی انتخاب مشتریانی که با مدل شما سازگارند، نه تلاش برای راضی‌کردن همه. ممکن است لازم باشد بخشی از کاربران را کنار بگذارید تا تیم برای گروهی که مسئله فوری، اختیار تصمیم و توان پرداخت دارد خدمت بهتری بسازد. این حذف باید بر اساس شواهد باشد: نرخ بازگشت، کیفیت نتیجه، زمان فروش و هزینه پشتیبانی را برای بخش‌ها جدا کنید. عدد بزرگ ثبت‌نام، بدون فهم اینکه چه کسی می‌ماند و چرا، فقط اندازه فهرست است.",
+        "هر هفته یک یادداشت کوتاه مدل کسب‌وکار را به‌روزرسانی کنید: کدام بخش را هدف گرفته‌ایم، چه مسئله‌ای را حل می‌کنیم، چه کسی پرداخت می‌کند، کدام آزمایش اجرا شد و چه چیزی تصمیم بعدی را تغییر می‌دهد. درخواست‌های تازه را در یک صف نگه دارید و تا وقتی به فرضی قابل سنجش وصل نشده‌اند، به تعهد توسعه تبدیل نکنید. اگر شواهد مبهم است، دامنه آزمایش را کوچک‌تر کنید؛ اگر یک بخش بارها نتیجه و پرداخت نشان می‌دهد، سرمایه‌گذاری را به همان مسیر محدود و قابل بازگشت منتقل کنید.",
+      ],
+      takeaways: [
+        "هدف گفت‌وگوی مشتری، فهم بخش مناسب و مدل کسب‌وکار است؛ رضایت همه معیار کافی نیست.",
+        "هر درخواست ویژگی را به کاربر، موقعیت، مانع و نتیجه قابل مشاهده وصل کنید.",
+        "کاربر، خریدار و پرداخت‌کننده را جداگانه مشخص کنید و فرض رابطه میان آن‌ها را بیازمایید.",
+        "برای قیمت‌گذاری و فریمیوم معیار رفتاری و شرط تصمیم بنویسید، نه فقط تعداد ثبت‌نام.",
+        "بازگشت، نتیجه واقعی و پرداخت آزمایشی را در کنار هزینه جذب و پشتیبانی بسنجید.",
+        "بخش‌هایی را که با مدل شما سازگار نیستند با شواهد کنار بگذارید تا تمرکز تیم حفظ شود.",
+        "یادداشت هفتگی مدل کسب‌وکار را با هر آزمایش به‌روزرسانی و فرض‌های ضعیف را کوچک‌تر کنید.",
+      ],
+      advice: [
+        "تمرین تحریری: برای سه بخش مشتری، مسئله فوری، تصمیم‌گیرنده، پرداخت‌کننده، نتیجه مورد انتظار و شاهد بعدی را در یک جدول بنویسید.",
+        "یک پایلوت محدود طراحی کنید که در آن مشتری برای نتیجه واقعی زمان یا بودجه مشخصی متعهد شود؛ معیار ادامه را پیش از شروع تعیین کنید.",
+        "در پایان هر هفته فقط یک درخواست ویژگی را به آزمایش تبدیل کنید و بقیه را تا روشن‌شدن فرض در صف نگه دارید.",
+      ],
+    },
+    en: {
+      paragraphs: [
+        "Steve Blank examines a common failure: a team leaves the building, talks to customers, and then builds everything it hears. Listening is a useful start, but the goal is to understand which customers fit a repeatable, scalable business model. This is a free adaptation; the examples and exercises on this page are independent applications.",
+        "Imagine a team that built a simple tool for tracking daily work. Users ask for reports, integrations, and customization. Adding every request may increase short-term activity without showing who will pay for a better outcome. Tie each request to a real job: who has the problem, in what situation, what blocks them, and what do they do today? A user, buyer, and payer may be different people.",
+        "Conversations and experiments should sharpen a business-model hypothesis. For one narrow segment, write what must be true: how often does the user reach an outcome, will someone pay for measurable savings, and is the cost of reaching that customer lower than the value they create? Interest surveys cannot answer all of this. Repeated use, a referral, or a paid pilot is stronger evidence, interpreted within the limits of the test.",
+        "Pricing and freemium are hypotheses, not rewards for finishing the product. Decide which group pays and when it experiences value before opening free access to everyone. Test two packages, a purchase commitment, or a bounded pilot. Set the decision rule first: the customer should reach a real outcome and reserve a defined budget or amount of time to continue. If users try the product and disappear, update the product and market assumptions.",
+        "Focus means choosing customers who fit the model rather than trying to satisfy everyone. Some users may need to be dropped so the team can serve a segment with an urgent problem, decision authority, and ability to pay. Compare return rate, outcome quality, sales time, and support cost by segment. A large sign-up count without knowing who stays and why is only a list size.",
+        "Review the business model weekly: target segment, customer problem, payer, experiment, and the evidence that would change the next decision. Keep feature requests in a queue until they become testable hypotheses. When evidence is unclear, narrow the test. When one segment repeatedly shows outcomes and payment, move more effort into that path while keeping the next commitment reversible.",
+      ],
+      takeaways: [
+        "Use customer conversations to identify a segment and business model, not to please everyone.",
+        "Tie every feature request to a user, situation, obstacle, and observable outcome.",
+        "Separate user, buyer, and payer, then test the relationship among them.",
+        "Set behavioral criteria for pricing and freemium before measuring sign-ups.",
+        "Measure return, real outcomes, and payment alongside acquisition and support cost.",
+        "Drop segments that conflict with the model when the evidence supports that choice.",
+        "Update a short business-model memo after each experiment and shrink weak assumptions.",
+      ],
+      advice: [
+        "Map three customer segments with their urgent problem, decision-maker, payer, expected outcome, and next evidence.",
+        "Run a bounded pilot that requires a real outcome and a defined time or budget commitment; set the continuation rule first.",
+        "Turn one feature request per week into a test and keep the rest queued until its hypothesis is clear.",
+      ],
+    },
+    ar: {
+      paragraphs: [
+        "يفحص ستيف بلانك خطأ شائعا: يخرج الفريق من المكتب ويتحدث مع العملاء ثم يبني كل ما يسمعه. الاستماع بداية مفيدة، لكن الهدف هو فهم العملاء الذين يناسبون نموذجا تجاريا قابلا للتكرار والتوسع. هذه معالجة حرة للمصدر؛ الأمثلة والتمارين في هذه الصفحة تطبيقات مستقلة.",
+        "تخيلوا فريقا بنى أداة بسيطة لمتابعة العمل اليومي. يطلب المستخدمون تقارير وتكاملات وخيارات تخصيص. قد يزيد تنفيذ كل الطلبات النشاط القصير من دون أن يوضح من سيدفع مقابل نتيجة أفضل. اربطوا كل طلب بمهمة فعلية: من يواجه المشكلة، وفي أي موقف، وما العائق، وماذا يفعل اليوم؟ قد يكون المستخدم والمشتري والدافع أشخاصا مختلفين.",
+        "يجب أن توضح المحادثات والتجارب فرضية نموذج العمل. اختاروا شريحة ضيقة واكتبوا ما الذي يجب أن يكون صحيحا: كم مرة يصل المستخدم إلى نتيجة، وهل سيدفع أحد مقابل توفير قابل للقياس، وهل تكلفة الوصول إليه أقل من القيمة التي يولدها؟ لا تجيب استطلاعات الاهتمام عن كل ذلك. الاستخدام المتكرر أو الإحالة أو التجربة المدفوعة دليل أقوى، مع تفسيره ضمن حدود الاختبار.",
+        "التسعير وفريميوم فرضيتان وليسا مكافأة بعد إنهاء المنتج. حددوا من سيدفع ومتى يرى القيمة قبل فتح الوصول المجاني للجميع. اختبروا حزمتين أو التزام شراء أو تجربة محدودة. اكتبوا قاعدة القرار مسبقا: يجب أن يحقق العميل نتيجة حقيقية ويحجز وقتا أو ميزانية محددة للاستمرار. إذا جرب المستخدمون المنتج ثم اختفوا، فهذه إشارة لتحديث افتراضات المنتج والسوق.",
+        "التركيز يعني اختيار العملاء الملائمين للنموذج لا محاولة إرضاء الجميع. قد يلزم التخلي عن بعض المستخدمين حتى يخدم الفريق شريحة ذات مشكلة عاجلة وسلطة قرار وقدرة على الدفع. قارنوا معدل العودة وجودة النتيجة ومدة البيع وتكلفة الدعم بين الشرائح. كثرة التسجيلات بلا معرفة من يبقى ولماذا ليست إلا حجما لقائمة.",
+        "راجعوا نموذج العمل كل أسبوع: الشريحة المستهدفة، مشكلة العميل، الدافع، التجربة، والدليل الذي يغير القرار التالي. ضعوا طلبات الميزات في قائمة حتى تتحول إلى فرضيات قابلة للاختبار. عندما يكون الدليل غامضا صغروا التجربة. وعندما تظهر شريحة نتيجة ودفعا مرارا، انقلوا الجهد إليها مع إبقاء الالتزام التالي قابلا للتراجع.",
+      ],
+      takeaways: [
+        "استخدموا محادثات العملاء لاكتشاف الشريحة ونموذج العمل، لا لإرضاء الجميع.",
+        "اربطوا كل طلب ميزة بمستخدم وموقف وعائق ونتيجة يمكن ملاحظتها.",
+        "افصلوا بين المستخدم والمشتري والدافع ثم اختبروا العلاقة بينهم.",
+        "حددوا معايير سلوكية للتسعير وفريميوم قبل عد التسجيلات.",
+        "قيسوا العودة والنتيجة والدفع إلى جانب تكلفة الوصول والدعم.",
+        "اتركوا الشرائح التي تتعارض مع النموذج عندما يؤيد الدليل ذلك.",
+        "حدثوا مذكرة قصيرة لنموذج العمل بعد كل تجربة وصغروا الافتراضات الضعيفة.",
+      ],
+      advice: [
+        "ارسموا ثلاث شرائح مع المشكلة العاجلة وصاحب القرار والدافع والنتيجة المتوقعة والدليل التالي.",
+        "نفذوا تجربة محدودة تتطلب نتيجة حقيقية والتزاما بوقت أو ميزانية محددين، واكتبوا شرط الاستمرار قبل البدء.",
+        "حولوا طلب ميزة واحدا كل أسبوع إلى اختبار وأبقوا الباقي في القائمة حتى تتضح فرضيته.",
       ],
     },
   },

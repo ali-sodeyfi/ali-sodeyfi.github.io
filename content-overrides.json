@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-22T05:50:42.014+03:30",
+  "updatedAt": "2026-10-27T05:50:00+03:30",
   "translations": {
     "fa": {
       "documentTitle": "علی سدیفی | یادداشت‌هایی درباره ساخت کسب‌وکار",
@@ -225,6 +225,55 @@
   "publishing": {
     "timezone": "Asia/Tehran",
     "queue": [
+      {
+        "id": "2026-10-27-site-killing-your-startup-by-listening-to-customers",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "killing-your-startup-by-listening-to-customers",
+        "publishAt": "2026-10-27T05:50:00+03:30",
+        "status": "published",
+        "publishedAt": "2026-10-27T05:50:00+03:30"
+      },
+      {
+        "id": "2026-10-27-linkedin-killing-your-startup-by-listening-to-customers",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "killing-your-startup-by-listening-to-customers",
+        "publishAt": "2026-10-27T12:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-10-27T05:50:00+03:30",
+        "note": "Draft/preview only. Verified account/API or session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "شنیدن مشتری را به مدل کسب‌وکار وصل کنید",
+          "en": "Connect customer listening to the business model",
+          "ar": "اربطوا الاستماع إلى العملاء بنموذج العمل"
+        },
+        "body": {
+          "fa": "شنیدن درخواست مشتری فقط وقتی مفید است که به مدل کسب‌وکار وصل شود.\nپیامد: کاربر، خریدار و پرداخت‌کننده را جدا کنید و شواهد نتیجه واقعی را بسنجید.\nاقدام بعدی: یک پایلوت محدود با معیار پرداخت و شرط ادامه اجرا کنید.\nSteve Blank — https://steveblank.com/2012/02/27/killing-your-startup-by-listening-to-customers/\nhttps://alisodeyfi.ir/articles/killing-your-startup-by-listening-to-customers/fa/#daily-article-reader",
+          "en": "Customer listening matters only when it sharpens the business model.\nImplication: separate user, buyer, and payer, then measure evidence of a real outcome.\nNext action: run a bounded pilot with a payment criterion and continuation rule.\nSteve Blank — https://steveblank.com/2012/02/27/killing-your-startup-by-listening-to-customers/\nhttps://alisodeyfi.ir/articles/killing-your-startup-by-listening-to-customers/en/#daily-article-reader",
+          "ar": "يصبح الاستماع إلى العميل مفيدا عندما يوضح نموذج العمل.\nالأثر: افصلوا المستخدم والمشتري والدافع وقيسوا دليلا على نتيجة حقيقية.\nالخطوة التالية: نفذوا تجربة محدودة بقاعدة دفع واستمرار واضحة.\nSteve Blank — https://steveblank.com/2012/02/27/killing-your-startup-by-listening-to-customers/\nhttps://alisodeyfi.ir/articles/killing-your-startup-by-listening-to-customers/ar/#daily-article-reader"
+        }
+      },
+      {
+        "id": "2026-10-27-instagram-story-killing-your-startup-by-listening-to-customers",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "killing-your-startup-by-listening-to-customers",
+        "publishAt": "2026-10-27T20:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-10-27T05:50:00+03:30",
+        "note": "Draft/preview only. Verified account/API or session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "شنیدن مشتری را به مدل کسب‌وکار وصل کنید",
+          "en": "Connect customer listening to the business model",
+          "ar": "اربطوا الاستماع إلى العملاء بنموذج العمل"
+        },
+        "body": {
+          "fa": "اسلاید ۱: درخواست مشتری، به‌تنهایی، دلیل ساختن نیست.\nاسلاید ۲: کاربر، خریدار و پرداخت‌کننده را جدا کنید و یک پایلوت با معیار تصمیم بسنجید.\nاسلاید ۳: منبع و تمرین مستقل\nSteve Blank — https://steveblank.com/2012/02/27/killing-your-startup-by-listening-to-customers/\nhttps://alisodeyfi.ir/articles/killing-your-startup-by-listening-to-customers/fa/#daily-article-reader",
+          "en": "Slide 1: a customer request alone is not a build decision.\nSlide 2: separate user, buyer, and payer; test a pilot with a decision rule.\nSlide 3: source and independent exercise\nSteve Blank — https://steveblank.com/2012/02/27/killing-your-startup-by-listening-to-customers/\nhttps://alisodeyfi.ir/articles/killing-your-startup-by-listening-to-customers/en/#daily-article-reader",
+          "ar": "الشريحة ١: طلب العميل وحده ليس قرار بناء.\nالشريحة ٢: افصلوا المستخدم والمشتري والدافع واختبروا تجربة بقاعدة قرار.\nالشريحة ٣: المصدر والتمرين المستقل\nSteve Blank — https://steveblank.com/2012/02/27/killing-your-startup-by-listening-to-customers/\nhttps://alisodeyfi.ir/articles/killing-your-startup-by-listening-to-customers/ar/#daily-article-reader"
+        }
+      },
       {
         "id": "2026-10-26-site-novelty-and-heresy",
         "channel": "site",
