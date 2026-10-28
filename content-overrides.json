@@ -226,6 +226,55 @@
     "timezone": "Asia/Tehran",
     "queue": [
       {
+        "id": "2026-10-28-site-six-principles-for-making-new-things",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "six-principles-for-making-new-things",
+        "publishAt": "2026-10-28T05:46:48+03:30",
+        "status": "published",
+        "publishedAt": "2026-10-28T05:46:48+03:30"
+      },
+      {
+        "id": "2026-10-28-linkedin-six-principles-for-making-new-things",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "six-principles-for-making-new-things",
+        "publishAt": "2026-10-28T12:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-10-28T05:46:48+03:30",
+        "note": "Draft/preview only. Verified account/API or session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "نسخه اول باید یک تعهد روشن داشته باشد",
+          "en": "Give the first release a clear promise",
+          "ar": "حددوا وعدا واضحا للإصدار الأول"
+        },
+        "body": {
+          "fa": "نسخه اول باید یک کار مشخص را قابل اتکا انجام دهد.\nپیامد: کاهش تعداد قابلیت‌ها بدون اندازه‌گیری کمک تیم، هزینه واقعی را پنهان می‌کند.\nاقدام بعدی: برای یک آزمایش دو هفته‌ای، وعده محصول، زمان پشتیبانی و شرط ادامه را ثبت کنید.\nPaul Graham — https://paulgraham.com/newthings.html\nhttps://alisodeyfi.ir/articles/six-principles-for-making-new-things/fa/#daily-article-reader",
+          "en": "A first release needs one dependable task.\nImplication: cutting features without measuring team assistance hides the real cost.\nNext action: record the promise, support time, and continuation rule for a two-week trial.\nPaul Graham — https://paulgraham.com/newthings.html\nhttps://alisodeyfi.ir/articles/six-principles-for-making-new-things/en/#daily-article-reader",
+          "ar": "يحتاج الإصدار الأول إلى مهمة واحدة يمكن الاعتماد عليها.\nالأثر: تقليل الميزات دون قياس مساعدة الفريق يخفي الكلفة الفعلية.\nالخطوة التالية: سجلوا الوعد ووقت الدعم وشرط الاستمرار لتجربة مدتها أسبوعان.\nPaul Graham — https://paulgraham.com/newthings.html\nhttps://alisodeyfi.ir/articles/six-principles-for-making-new-things/ar/#daily-article-reader"
+        }
+      },
+      {
+        "id": "2026-10-28-instagram-story-six-principles-for-making-new-things",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "six-principles-for-making-new-things",
+        "publishAt": "2026-10-28T20:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-10-28T05:46:48+03:30",
+        "note": "Draft/preview only. Verified account/API or session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "نسخه اول باید یک تعهد روشن داشته باشد",
+          "en": "Give the first release a clear promise",
+          "ar": "حددوا وعدا واضحا للإصدار الأول"
+        },
+        "body": {
+          "fa": "اسلاید ۱: نسخه اول، یک تعهد روشن.\nاسلاید ۲: زمان کمک تیم را بسنجید؛ پیش از توسعه دامنه، یک مانع پرتکرار را رفع کنید.\nاسلاید ۳: منبع و تمرین مستقل\nPaul Graham — https://paulgraham.com/newthings.html\nhttps://alisodeyfi.ir/articles/six-principles-for-making-new-things/fa/#daily-article-reader",
+          "en": "Slide 1: one clear promise for the first release.\nSlide 2: measure team assistance; fix one recurring obstacle before expanding scope.\nSlide 3: source and independent exercise\nPaul Graham — https://paulgraham.com/newthings.html\nhttps://alisodeyfi.ir/articles/six-principles-for-making-new-things/en/#daily-article-reader",
+          "ar": "الشريحة ١: وعد واحد واضح للإصدار الأول.\nالشريحة ٢: قيسوا مساعدة الفريق وعالجوا عائقا متكررا قبل توسيع النطاق.\nالشريحة ٣: المصدر والتمرين المستقل\nPaul Graham — https://paulgraham.com/newthings.html\nhttps://alisodeyfi.ir/articles/six-principles-for-making-new-things/ar/#daily-article-reader"
+        }
+      },
+      {
         "id": "2026-10-27-site-killing-your-startup-by-listening-to-customers",
         "channel": "site",
         "target": "site",

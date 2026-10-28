@@ -492,6 +492,36 @@ const articleCategories = [
 
 const articleCatalog = [
   {
+    "title": "Six Principles for Making New Things",
+    "category": "product",
+    "author": "Paul Graham",
+    "source": "Paul Graham",
+    "year": "2008",
+    "url": "https://paulgraham.com/newthings.html",
+    "tags": {
+      "fa": [
+        "نسخه اولیه",
+        "دامنه محصول",
+        "یادگیری از استفاده"
+      ],
+      "en": [
+        "first release",
+        "product scope",
+        "learning from use"
+      ],
+      "ar": [
+        "الإصدار الأول",
+        "نطاق المنتج",
+        "التعلم من الاستخدام"
+      ]
+    },
+    "summary": {
+      "fa": "برداشتی کوتاه از شش اصل ساختن چیزهای تازه، همراه با تمرین مستقل برای طراحی و ارزیابی یک نسخه اولیه محدود.",
+      "en": "A brief adaptation of six principles for making new things, with an independent exercise for evaluating a limited first release.",
+      "ar": "معالجة موجزة لستة مبادئ لصنع أشياء جديدة، مع تمرين مستقل لتقييم إصدار أول محدود."
+    }
+  },
+  {
     "title": "Novelty and Heresy",
     "category": "ideas",
     "author": "Paul Graham",
@@ -1930,6 +1960,69 @@ const articleCatalog = [
 ];
 
 const articleEssays = {
+  "Six Principles for Making New Things": {
+    "fa": {
+      "paragraphs": [
+        "منبع، شش انتخاب را کنار هم می‌گذارد: راه‌حل ساده، مسئله نادیده‌مانده اما واقعی، ارائه بی‌تکلف، نسخه اول ابتدایی و اصلاح سریع. ظاهر کم‌زرق‌وبرق ممکن است ارزش کار را پنهان کند. ادامه، تمرین مستقل تحریریه برای یک تیم محصول است؛ مثال و معیارهای زیر از مقاله اصلی نقل نشده‌اند.",
+        "فرض کنید تیمی برای شرکت‌های خدماتی کوچک ابزار پیگیری تعمیر تجهیزات می‌سازد. مشتری می‌گوید «سامانه مدیریت کامل» لازم دارد، اما تیم هنوز نمی‌داند کدام تصمیم روزانه در کار او گیر می‌کند. یک هفته از کار مسئول هماهنگی را بررسی کنید: چه زمانی مجبور می‌شود تلفن بزند، کدام پاسخ دیر می‌رسد و این تأخیر چه کاری را متوقف می‌کند؟ خروجی این بررسی باید یک موقعیت مشخص باشد؛ مثلاً مشتری نمی‌داند قطعه رسیده و باید دستگاه را تحویل بدهد. این مثال فرضی است؛ تا شواهد واقعی جمع نشده، آن را مسئله قطعی بازار ندانید. نام قابلیت‌ها را فعلاً کنار بگذارید و رخداد، مسئول و پیامد را ثبت کنید.",
+        "اکنون برای اولین آزمایش، یک قرارداد کوتاه با کاربر بنویسید: «وقتی قطعه رسید، مسئول هماهنگی بتواند وضعیت پرونده را ثبت کند و مشتری زمان مراجعه را تأیید کند.» همین جمله مرز نسخه اول را تعیین می‌کند. گزارش مالی، مدیریت انبار و امتیازدهی تعمیرکار می‌توانند در فهرست بررسی بعدی بمانند. در عوض، ثبت وضعیت اشتباه یا ارسال پیام به فرد نادرست مستقیماً وعده همین نسخه را خراب می‌کند؛ این‌ها را به بهانه ابتدایی‌بودن محصول نادیده نگیرید. برای هر مرحله بنویسید اگر سیستم کار نکرد، چه کسی کار را دستی تکمیل می‌کند و چگونه جلوی دوباره‌کاری گرفته می‌شود. کوچک‌کردن دامنه باید تعداد تعهدها را کم کند و انجام تعهد باقی‌مانده را روشن‌تر سازد.",
+        "آزمایش را با یک مرکز و چند پرونده مجاز شروع کنید. قبل از آغاز، از سوابق همان مرکز یک خط مبنا بردارید: چند تماس برای هماهنگی هر تحویل لازم است و چند مشتری بدون آماده‌بودن دستگاه مراجعه می‌کنند؟ سپس همین دو مشاهده را در آزمایش ثبت کنید. پرونده‌های بسیار متفاوت را مستقیم با هم مقایسه نکنید؛ تفاوت در نوع تعمیر یا دسترسی مشتری می‌تواند نتیجه را عوض کند. زمان پشتیبانی تیم سازنده را هم بنویسید. اگر تماس‌ها فقط از دوش مرکز به دوش بنیان‌گذار منتقل شده باشند، کار حذف نشده است؛ فعلاً درباره محل انجام آن یاد گرفته‌اید. با این حجم کم داده، هدف تشخیص اشکال‌های روشن و ساختن سؤال بعدی است، نه اعلام موفقیت کل بازار.",
+        "در پایان هر روز، هر اتفاق را با سه جزء ثبت کنید: کاربر چه می‌خواست انجام دهد، واقعاً چه شد و برای رفع مانع چه دخالتی لازم بود. مثلاً «دکمه بهتر می‌خواهد» توضیح دقیقی نیست؛ «وضعیت را ثبت کرد اما نفهمید پیام ارسال شده یا نه و دوباره تماس گرفت» مسئله قابل بررسی است. برای دور بعد فقط یک مانع پرتکرار را انتخاب کنید و توضیح دهید تغییر پیشنهادی چگونه آن را کم می‌کند. درخواست‌های کم‌تکرار را حذف نکنید؛ آن‌ها را همراه زمینه نگه دارید تا بعدها الگوی مشترک پیدا شود. سرعت اصلاح را با تعداد انتشارها نسنجید؛ ببینید آیا پس از تغییر، همان کار با ابهام و کمک کمتری انجام می‌شود یا مسئله صرفاً به مرحله بعد منتقل شده است.",
+        "بعد از یک بازه از پیش تعیین‌شده، مثلاً دو هفته، درباره ادامه تصمیم بگیرید. اگر مسئول هماهنگی بدون یادآوری تیم از ابزار استفاده می‌کند و تماس‌های تکراری کمتر شده‌اند، یک مرکز مشابه را به آزمایش دعوت کنید. اگر استفاده فقط با پیگیری بنیان‌گذار رخ می‌دهد، ابتدا علت را بررسی کنید: شاید روال فعلی کافی است، شاید آموزش نامفهوم است یا مسئول اشتباهی را انتخاب کرده‌اید. برای ادامه، تغییر مسیر و توقف، شاهد لازم را روی یک برگه بنویسید. حتی نتیجه مثبت هم هنوز توان فروش و پشتیبانی در مقیاس بزرگ را اثبات نمی‌کند. تصمیم این دور محدود است: آیا شواهد کافی برای هزینه دور بعد داریم؟ این پرسش، نسخه اولیه را به ابزار تصمیم‌گیری تبدیل می‌کند."
+      ],
+      "takeaways": [
+        "یک رخداد واقعی، مسئول آن و هزینه تأخیر را پیش از نام‌گذاری قابلیت‌ها ثبت کنید.",
+        "وعده نسخه اول را در یک جمله بنویسید و هر قابلیت را با همان وعده بسنجید.",
+        "برای خطای وضعیت و پیام‌رسانی، مسئول جبران و روش جلوگیری از دوباره‌کاری تعیین کنید.",
+        "پیش از آزمایش، تعداد تماس‌های هماهنگی و مراجعه‌های بی‌نتیجه را به‌عنوان خط مبنا ثبت کنید.",
+        "زمان کمک بنیان‌گذار را حساب کنید تا انتقال کار با حذف کار اشتباه نشود.",
+        "در هر دور یک مانع پرتکرار را اصلاح و رفتار بعد از تغییر را مشاهده کنید.",
+        "موعد تصمیم و شواهد لازم برای ادامه، تغییر مسیر یا توقف را از پیش بنویسید."
+      ],
+      "advice": [
+        "تمرین تحریری: یک برگه با ستون‌های وعده، کار خارج از دامنه، خطای مهم و مسئول جبران آماده کنید.",
+        "تمرین تحریری: برای هر پرونده آزمایشی، تماس‌های هماهنگی، زمان کمک تیم و نتیجه تحویل را ثبت کنید؛ داده‌های شخصی غیرضروری را جمع نکنید."
+      ]
+    },
+    "en": {
+      "paragraphs": [
+        "The source combines six choices: simplicity, overlooked but real problems, informal delivery, a rough first version, and rapid improvement. An unimpressive appearance can conceal useful work. What follows is an independent editorial exercise; the service-business scenario and evaluation method are not examples from the original essay.",
+        "Imagine building repair-tracking software for small service companies. Before accepting a request for a complete management suite, observe a coordinator’s week. Record the event that triggers a call, the person waiting for an answer, and the work delayed. Suppose customers cannot tell when a replacement part has arrived. Write a narrow release promise: the coordinator records arrival and the customer confirms a visit. Leave inventory reporting and technician ratings for later investigation. Incorrect status updates and messages to the wrong person still undermine this limited promise. Assign someone to finish the task manually when the system fails and define how duplicate work will be prevented.",
+        "Run a small trial at one service center with permission. First establish a baseline for coordination calls per handover and visits made before a repair is ready. Record the same observations during the trial, along with the founders’ support time. If calls move from the coordinator to a founder, the workload has moved; it has not disappeared. Compare similar repair cases and record differences that might explain outcomes. These few observations can reveal obvious failures, but they cannot establish demand across the market. After each day, describe what the user attempted, what happened, and what intervention was necessary. Choose one recurring obstacle for the next revision.",
+        "Set a decision date, such as the end of a two-week trial. Voluntary use by the coordinator and fewer repeated calls may justify testing at another similar center. Use that depends on constant founder reminders calls for investigation: the existing workflow may be adequate, instructions may be unclear, or the wrong role may be using the tool. Write the evidence needed to continue, change the approach, or stop before reviewing results. Even a positive trial does not establish scalable sales or support. The decision is narrower: whether the next learning round merits its cost."
+      ],
+      "takeaways": [
+        "Record an actual event, the responsible role, and the consequence of delay.",
+        "Define a one-sentence release promise and the fallback for failures.",
+        "Compare coordination effort before and during the trial, including founder support.",
+        "Revise one recurring obstacle and observe whether the task becomes easier.",
+        "Set a review date and evidence requirements for the next investment of effort."
+      ],
+      "advice": [
+        "Editorial exercise: keep a release sheet with the promise, exclusions, failure cases, and responsible person.",
+        "Editorial exercise: log coordination calls, team support time, and handover outcomes without collecting unnecessary personal data."
+      ]
+    },
+    "ar": {
+      "paragraphs": [
+        "يجمع المصدر ستة اختيارات: البساطة، ومشكلة مهملة لكنها حقيقية، وتقديم بلا تكلف، وإصدار أول أولي، وتحسين سريع. قد يخفي المظهر المتواضع عملا مفيدا. وما يلي تمرين تحريري مستقل؛ مثال شركة الصيانة وطريقة التقييم ليسا من أمثلة المقال الأصلي.",
+        "تخيلوا فريقا يبني أداة لمتابعة الإصلاحات في شركات خدمات صغيرة. قبل قبول طلب «نظام إدارة شامل»، راقبوا أسبوع عمل منسق الصيانة. سجلوا الحدث الذي يستدعي اتصالا، ومن ينتظر الرد، والعمل الذي يتأخر. لنفترض أن العميل لا يعرف متى وصلت القطعة البديلة. حددوا وعد الإصدار الأول: يسجل المنسق وصول القطعة ويؤكد العميل موعد الزيارة. يمكن تأجيل تقارير المخزون وتقييم الفنيين إلى بحث لاحق. أما تحديث الحالة خطأ أو إرسال الرسالة إلى شخص آخر فيقوض هذا الوعد المحدود نفسه. عينوا مسؤولا يكمل المهمة يدويا عند التعطل، وحددوا كيف تمنعون تكرار العمل. تقليص النطاق ينبغي أن يجعل الالتزام المتبقي أوضح.",
+        "ابدؤوا تجربة صغيرة في مركز واحد وبموافقته. سجلوا أولا خط أساس لعدد اتصالات التنسيق لكل عملية تسليم، وعدد الزيارات قبل جاهزية الجهاز. تابعوا الملاحظتين نفسيهما أثناء التجربة، وأضيفوا وقت المساعدة الذي يقدمه المؤسسون. إذا انتقلت الاتصالات من المنسق إلى المؤسس فقد انتقل العمل ولم يختف. قارنوا حالات إصلاح متشابهة وسجلوا الفروق التي قد تفسر النتائج. تكشف هذه الملاحظات القليلة أعطالا واضحة، لكنها لا تثبت الطلب في السوق كله. في نهاية كل يوم، اكتبوا ما حاول المستخدم إنجازه، وما حدث فعلا، والتدخل الذي احتاجه. اختاروا عائقا متكررا واحدا للتعديل التالي، ثم راقبوا المهمة بعد التغيير.",
+        "حددوا موعدا للقرار، مثلا بعد أسبوعين. قد يبرر الاستخدام دون تذكير وانخفاض الاتصالات المتكررة تجربة الأداة في مركز مشابه. أما الاستخدام الذي يعتمد على متابعة المؤسس فيحتاج إلى تفسير: ربما تكفي الطريقة الحالية، أو تكون التعليمات غامضة، أو يكون الدور المستخدم للأداة غير مناسب. اكتبوا مسبقا الأدلة اللازمة للاستمرار أو تغيير النهج أو التوقف. النتيجة الإيجابية لا تثبت بعد قابلية توسيع المبيعات والدعم؛ القرار أضيق من ذلك: هل تستحق جولة التعلم التالية كلفتها؟ احتفظوا بملاحظات الطلبات الأقل تكرارا مع سياقها، حتى يمكن اكتشاف نمط مشترك لاحقا."
+      ],
+      "takeaways": [
+        "سجلوا حدثا فعليا والدور المسؤول عنه وأثر التأخير.",
+        "اكتبوا وعد الإصدار الأول في جملة وحددوا إجراء التعويض عند الفشل.",
+        "قارنوا جهد التنسيق قبل التجربة وأثناءها، بما فيه دعم المؤسسين.",
+        "عدلوا عائقا متكررا واحدا وراقبوا سهولة إتمام المهمة بعده.",
+        "حددوا موعد المراجعة والأدلة اللازمة قبل تخصيص جهد إضافي."
+      ],
+      "advice": [
+        "تمرين تحريري: أعدوا ورقة تتضمن الوعد وما يقع خارج النطاق وحالات الفشل والمسؤول عن المعالجة.",
+        "تمرين تحريري: سجلوا اتصالات التنسيق ووقت دعم الفريق ونتيجة التسليم دون جمع بيانات شخصية غير لازمة."
+      ]
+    }
+  },
   "Novelty and Heresy": {
     "fa": {
       "paragraphs": [
