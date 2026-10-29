@@ -226,6 +226,55 @@
     "timezone": "Asia/Tehran",
     "queue": [
       {
+        "id": "2026-10-29-site-why-smart-people-have-bad-ideas",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "why-smart-people-have-bad-ideas",
+        "publishAt": "2026-10-29T05:48:17+03:30",
+        "status": "published",
+        "publishedAt": "2026-10-29T05:48:17+03:30"
+      },
+      {
+        "id": "2026-10-29-linkedin-why-smart-people-have-bad-ideas",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "why-smart-people-have-bad-ideas",
+        "publishAt": "2026-10-29T12:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-10-29T05:48:17+03:30",
+        "note": "Draft/preview only. Verified account/API or session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "پیش از تعهد تیم، سه مسئله را مقایسه کنید",
+          "en": "Compare three problems before committing the team",
+          "ar": "قارنوا ثلاث مشكلات قبل التزام الفريق"
+        },
+        "body": {
+          "fa": "انتخاب فرصت به شواهد قابل مقایسه نیاز دارد.\nپیامد: استقبال کاربر بدون خریدار و مسئول اجرا، آزمایش را پیش نمی‌برد.\nاقدام بعدی: سه رخداد واقعی را ثبت کنید و برای یکی، آزمایش یک‌هفته‌ای با سقف ساعت و معیار تصمیم تعریف کنید.\nPaul Graham — https://paulgraham.com/bronze.html\nhttps://alisodeyfi.ir/articles/why-smart-people-have-bad-ideas/fa/#daily-article-reader",
+          "en": "Opportunity selection needs comparable evidence.\nImplication: user enthusiasm without a buyer and an implementation owner does not move a trial forward.\nNext action: record three real incidents and scope a one-week trial with an hour limit and decision criteria.\nPaul Graham — https://paulgraham.com/bronze.html\nhttps://alisodeyfi.ir/articles/why-smart-people-have-bad-ideas/en/#daily-article-reader",
+          "ar": "اختيار الفرصة يحتاج إلى أدلة قابلة للمقارنة.\nالأثر: حماس المستخدم دون مشتر ومسؤول تنفيذ لا يدفع التجربة إلى الأمام.\nالخطوة التالية: سجلوا ثلاث وقائع وحددوا تجربة لأسبوع بسقف ساعات ومعايير قرار.\nPaul Graham — https://paulgraham.com/bronze.html\nhttps://alisodeyfi.ir/articles/why-smart-people-have-bad-ideas/ar/#daily-article-reader"
+        }
+      },
+      {
+        "id": "2026-10-29-instagram-story-why-smart-people-have-bad-ideas",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "why-smart-people-have-bad-ideas",
+        "publishAt": "2026-10-29T20:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-10-29T05:48:17+03:30",
+        "note": "Draft/preview only. Verified account/API or session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "پیش از تعهد تیم، سه مسئله را مقایسه کنید",
+          "en": "Compare three problems before committing the team",
+          "ar": "قارنوا ثلاث مشكلات قبل التزام الفريق"
+        },
+        "body": {
+          "fa": "اسلاید ۱: فرصت‌ها را با شاهد مقایسه کنید.\nاسلاید ۲: خریدار و مسئول اجرا را مشخص کنید؛ یک آزمایش محدود تعریف کنید.\nاسلاید ۳: منبع و تمرین مستقل\nPaul Graham — https://paulgraham.com/bronze.html\nhttps://alisodeyfi.ir/articles/why-smart-people-have-bad-ideas/fa/#daily-article-reader",
+          "en": "Slide 1: compare opportunities with evidence.\nSlide 2: identify the buyer and implementation owner; scope one limited trial.\nSlide 3: source and independent exercise\nPaul Graham — https://paulgraham.com/bronze.html\nhttps://alisodeyfi.ir/articles/why-smart-people-have-bad-ideas/en/#daily-article-reader",
+          "ar": "الشريحة ١: قارنوا الفرص بالأدلة.\nالشريحة ٢: حددوا المشتري ومسؤول التنفيذ وتجربة محدودة.\nالشريحة ٣: المصدر والتمرين المستقل\nPaul Graham — https://paulgraham.com/bronze.html\nhttps://alisodeyfi.ir/articles/why-smart-people-have-bad-ideas/ar/#daily-article-reader"
+        }
+      },
+      {
         "id": "2026-10-28-site-six-principles-for-making-new-things",
         "channel": "site",
         "target": "site",

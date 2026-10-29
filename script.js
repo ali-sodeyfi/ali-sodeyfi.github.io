@@ -492,6 +492,36 @@ const articleCategories = [
 
 const articleCatalog = [
   {
+    "title": "Why Smart People Have Bad Ideas",
+    "category": "ideas",
+    "author": "Paul Graham",
+    "source": "Paul Graham",
+    "year": "2005",
+    "url": "https://paulgraham.com/bronze.html",
+    "tags": {
+      "fa": [
+        "انتخاب مسئله",
+        "مقایسه فرصت‌ها",
+        "شواهد خرید"
+      ],
+      "en": [
+        "problem selection",
+        "opportunity comparison",
+        "buying evidence"
+      ],
+      "ar": [
+        "اختيار المشكلة",
+        "مقارنة الفرص",
+        "أدلة الشراء"
+      ]
+    },
+    "summary": {
+      "fa": "برداشتی کوتاه درباره فاصله توان ساختن و انتخاب مسئله، همراه با تمرین مستقل برای مقایسه سه فرصت پیش از تعهد تیم.",
+      "en": "A brief adaptation on building ability and problem selection, followed by an independent exercise for comparing three opportunities before committing a team.",
+      "ar": "معالجة موجزة للفارق بين القدرة على البناء واختيار المشكلة، يتبعها تمرين مستقل لمقارنة ثلاث فرص قبل التزام الفريق."
+    }
+  },
+  {
     "title": "Six Principles for Making New Things",
     "category": "product",
     "author": "Paul Graham",
@@ -1960,6 +1990,67 @@ const articleCatalog = [
 ];
 
 const articleEssays = {
+  "Why Smart People Have Bad Ideas": {
+    "fa": {
+      "paragraphs": [
+        "توان فنی به‌تنهایی انتخاب مسئله مناسب را تضمین نمی‌کند. مقاله هشدار می‌دهد که علاقه به اولین ایده و زمانی که صرف آن شده، می‌تواند قضاوت را منحرف کند؛ دیدن مسئله از نگاه مشتری مهارتی آموختنی است. در ادامه، یک تمرین مستقل برای تصمیم‌گیری تیم می‌آید. سناریو، جدول مقایسه و قواعد آزمایش زیر پیشنهاد تحریریه‌اند و مثال‌های مقاله اصلی نیستند.",
+        "فرض کنید یک تیم دو نفره می‌خواهد برای توزیع‌کنندگان کوچک نرم‌افزار بسازد. در گفت‌وگوهای اولیه سه مشکل شنیده است: اصلاح سفارش‌های اشتباه، برنامه‌ریزی مسیر تحویل و پیگیری ظرف‌های برگشتی. هنوز هیچ‌کدام «ایده برنده» نیستند. برای هر مورد یک برگه جدا بسازید و فقط یک رخداد واقعی را شرح دهید: آخرین بار چه اتفاقی افتاد، چه کسی درگیر شد و کار چگونه به پایان رسید؟ اگر مشتری فقط می‌گوید «این قابلیت خوب است»، هنوز رخدادی ندارید. درخواست کنید یک نمونه بی‌نام از سفارش، برنامه یا رسید را نشان دهد. با رضایت او فرایند را بازسازی کنید و اطلاعات شخصی غیرضروری را نگه ندارید. هدف این مرحله، قابل مقایسه کردن مسئله‌هاست؛ سه عنوان جذاب به‌تنهایی مبنای تصمیم نیستند.",
+        "حالا برای هر مسئله چهار چیز را جدا ثبت کنید: دفعات وقوع در یک هفته معمول، زمان کارکنان، پیامد خطا و فردی که اختیار پرداخت دارد. جمع این موارد را بی‌دلیل به یک امتیاز دقیق تبدیل نکنید؛ اطلاعات نامطمئن با عددگذاری معتبر نمی‌شود. مثلاً اشتباه سفارش شاید هر روز رخ دهد اما با یک تماس کوتاه رفع شود؛ گم‌شدن ظرف کمتر رخ می‌دهد ولی ممکن است اختلاف حساب ایجاد کند. این‌ها فعلاً فرض‌های سناریو هستند و باید با نمونه واقعی سنجیده شوند. کنار هر ادعا بنویسید «مشاهده شد»، «مشتری گفت» یا «حدس تیم». اگر هزینه پیامد روشن نیست، بازه و علت عدم قطعیت را ثبت کنید. جدولی که جای خالی را نشان می‌دهد برای تصمیم از جدولی پر از تخمین‌های پنهان مفیدتر است.",
+        "در گام بعد، فاصله میان استفاده‌کننده و خریدار را بررسی کنید. مسئول انبار ممکن است از ابزاری استقبال کند که برای مدیر مالی اولویت ندارد؛ مدیر فروش هم شاید بودجه داشته باشد اما اجازه تغییر روال انبار را نداشته باشد. یک جلسه کوتاه با نقش‌های لازم ترتیب دهید و درباره اجرای آزمایش مشخص حرف بزنید: چه داده‌ای لازم است، چه کسی آن را آماده می‌کند، کدام کارمند وقت می‌گذارد و نتیجه را چه کسی می‌پذیرد؟ پاسخ مثبت شفاهی را با تعهد اجرایی یکسان ندانید. اگر دسترسی به نمونه داده یا معرفی مسئول مرتب عقب می‌افتد، علت را بپرسید؛ شاید مانع اعتماد یا اختیار باشد، نه بی‌اهمیت بودن مشکل. این تفاوت تعیین می‌کند قدم بعدی مصاحبه دیگری است یا آماده‌سازی یک پیشنهاد محدود.",
+        "برای فرصتی که شواهد روشن‌تری دارد، یک آزمایش کوچک با سقف زمان و مسئول مشخص تعریف کنید. در مثال ظرف‌های برگشتی، می‌توان با توافق مشتری یک مسیر توزیع و یک هفته را انتخاب کرد و رسیدهای برگشت را در پایان هر روز تطبیق داد. پیش از شروع، روش فعلی، تعداد موارد نامشخص و زمانی را که کارکنان صرف تطبیق می‌کنند ثبت کنید. در آزمایش هم همین موارد و زمان کمک تیم سازنده را بنویسید. اگر تعداد اختلاف‌ها کم شد ولی بنیان‌گذار هر شب چند ساعت کار اضافه کرد، هنوز هزینه خدمت روشن نشده است. خروجی آزمایش باید امکان بررسی داشته باشد: کدام اختلاف حل شد، با چه مدرکی و با چه مقدار کار؟ توافق بر یک خدمت محدود و هزینه روشن، اگر مشتری آماده آن باشد، شاهد دقیق‌تری از تحسین یک نمایش محصول فراهم می‌کند؛ بااین‌حال یک خریدار نماینده کل بازار نیست.",
+        "در جلسه پایان هفته، هر سه برگه فرصت را دوباره کنار هم بگذارید. زمان برنامه‌نویسی صرف‌شده را به‌عنوان سابقه نگه دارید، اما سؤال تصمیم را درباره دور بعد بپرسید: کدام ابهام با چه هزینه‌ای رفع می‌شود و چه کسی نتیجه را استفاده می‌کند؟ سه تصمیم ممکن را از پیش بنویسید: گسترش همان آزمایش، تغییر نقش یا فرایند هدف، یا توقف هزینه بیشتر. برای هر تصمیم یک شاهد قابل بررسی لازم است؛ مثلاً همراهی مسئول عملیات و کاهش موارد نامشخص بدون افزایش نامتناسب کار دستی. اگر داده کافی ندارید، فقط یک اقدام برای رفع مهم‌ترین ابهام تعیین کنید، نه یک ماه توسعه قابلیت. پایان این تمرین انتخاب همیشگی کسب‌وکار نیست؛ تصمیمی محدود درباره محل صرف زمان هفته آینده است که با شواهد تازه قابل بازبینی می‌ماند."
+      ],
+      "takeaways": [
+        "سه مسئله را با رخدادهای واقعی مقایسه کنید؛ عنوان قابلیت جای شرح اتفاق را نمی‌گیرد.",
+        "برای هر ادعا مشخص کنید مشاهده مستقیم است، گفته مشتری است یا حدس تیم.",
+        "تکرار، زمان، پیامد خطا و اختیار پرداخت را جدا ثبت کنید و عدم قطعیت را پنهان نکنید.",
+        "استفاده‌کننده، خریدار و مسئول تغییر فرایند را پیش از پیشنهاد آزمایش مشخص کنید.",
+        "تعهد اجرایی مثل آماده‌کردن داده و تعیین مسئول را از استقبال شفاهی جدا بسنجید.",
+        "در آزمایش، کار دستی بنیان‌گذار را کنار نتیجه مشتری اندازه بگیرید.",
+        "برای هزینه هفته بعد، شاهد ادامه، تغییر یا توقف و موعد بازبینی تعیین کنید."
+      ],
+      "advice": [
+        "تمرین مستقل: جدولی با سه ردیف فرصت و ستون‌های رخداد، شاهد، نقش خریدار، مانع اجرا و اقدام بعدی بسازید.",
+        "تمرین مستقل: پیش از آزمایش، سقف ساعت تیم و مسئول جمع‌آوری نتیجه را ثبت کنید؛ بعد از آن تفاوت پیش‌بینی و مشاهده را مرور کنید."
+      ]
+    },
+    "en": {
+      "paragraphs": [
+        "Technical ability does not guarantee good problem selection. The essay warns that attachment to a first idea and time already invested can distort judgment; learning the customer’s perspective matters. The following scenario and evaluation method are an independent editorial exercise, not examples from the source.",
+        "Imagine two founders considering software for small distributors. Interviews suggest three possible problems: incorrect orders, delivery planning, and tracking returnable containers. Create one sheet per problem, anchored in a recent incident. Record who was involved, what happened, and how the work ended. Ask to inspect an anonymized order or receipt with permission. Then separate frequency, staff time, consequences of errors, and purchasing authority. Label each claim as observed, reported, or assumed. Avoid collapsing uncertain inputs into a precise opportunity score. Daily order corrections might take little time while an occasional missing container creates a costly dispute; those are hypotheses to check, not established facts.",
+        "Identify the user, buyer, and person authorized to change the workflow. A warehouse employee may welcome a tool that the budget owner does not prioritize. Propose a specific trial and establish who will prepare sample data, assign staff time, and accept the result. Repeated delays are a reason to investigate access, trust, and authority. For a container-tracking trial, agree on one delivery route and one week. Compare unresolved returns and reconciliation time with the existing process, counting founder assistance as well. Fewer discrepancies achieved through hours of hidden manual work do not yet establish a sustainable service.",
+        "Review all three opportunity sheets at the end of the week. Choose between extending the trial, changing the target role or workflow, and stopping further spending. Define evidence for each decision in advance: for example, an operations owner willing to participate and fewer unresolved returns without disproportionate manual work. A clearly scoped paid trial, where appropriate, supplies evidence about one buyer rather than proof of an entire market. If evidence remains incomplete, assign one action to resolve the largest uncertainty. This exercise produces a revisable decision about next week’s effort, with a named owner and review date."
+      ],
+      "takeaways": [
+        "Compare recent incidents across three opportunities and label the evidence behind each claim.",
+        "Distinguish the user, budget owner, and person who can authorize workflow changes.",
+        "Count founder assistance alongside customer outcomes during a limited trial.",
+        "Agree on continuation, adjustment, and stopping evidence before reviewing results."
+      ],
+      "advice": [
+        "Independent exercise: use columns for incident, evidence, buyer, implementation barrier, and next action.",
+        "Independent exercise: set a team-hour limit and a result owner, then compare predictions with observations."
+      ]
+    },
+    "ar": {
+      "paragraphs": [
+        "القدرة التقنية لا تضمن اختيار مشكلة مناسبة. يحذر المقال من أن التعلق بالفكرة الأولى والوقت المبذول فيها قد يشوه الحكم؛ وفهم منظور العميل مهارة يمكن تعلمها. السيناريو وطريقة التقييم التالية تمرين تحريري مستقل، وليسا من أمثلة المصدر.",
+        "لنفترض أن مؤسسين يدرسان بناء برنامج لموزعين صغار. ظهرت ثلاث مشكلات في المقابلات: أخطاء الطلبات، وتخطيط التسليم، وتتبع العبوات المرتجعة. خصصوا ورقة لكل مشكلة، وانطلقوا من واقعة حديثة: من شارك، وماذا حدث، وكيف انتهى العمل؟ اطلبوا بإذن العميل الاطلاع على طلب أو إيصال بعد إزالة البيانات الشخصية غير الضرورية. سجلوا التكرار ووقت الموظفين وأثر الخطأ وصاحب صلاحية الشراء كلّا على حدة. ميزوا بين الملاحظة المباشرة وقول العميل وافتراض الفريق. لا تحولوا معلومات غير مؤكدة إلى درجة رقمية دقيقة؛ فقد يكون الخطأ المتكرر سهل التصحيح، بينما يسبب فقدان عبوة أحيانا خلافا مكلفا. هذه احتمالات تحتاج إلى دليل.",
+        "حددوا المستخدم وصاحب الميزانية والمسؤول المخول بتغيير سير العمل. قد يرحب موظف المستودع بأداة لا يعدها المشتري أولوية. ناقشوا تجربة محددة: من يجهز البيانات، ومن يخصص وقت الموظفين، ومن يقبل النتيجة؟ إذا تأخر الالتزام، تحققوا من عوائق الثقة والصلاحيات والوصول. في مثال العبوات، اتفقوا على مسار توزيع واحد وأسبوع واحد، وقارنوا الحالات غير المحسومة ووقت المطابقة بالطريقة الحالية. احسبوا أيضا ساعات مساعدة المؤسسين. انخفاض الخلافات مع زيادة كبيرة في العمل اليدوي لا يثبت بعد إمكان تقديم الخدمة بكلفة مناسبة.",
+        "راجعوا أوراق الفرص الثلاث في نهاية الأسبوع. حددوا مسبقا الأدلة اللازمة لتوسيع التجربة أو تغيير الدور المستهدف أو وقف الإنفاق الإضافي. قد تشمل الأدلة مشاركة مسؤول العمليات وانخفاض المرتجعات غير المحسومة دون زيادة غير متناسبة في الجهد اليدوي. الاتفاق على تجربة مدفوعة محدودة، عندما يناسب العميل، يقدم دليلا عن مشتر واحد ولا يثبت حجم السوق. إذا بقيت المعلومات ناقصة، كلفوا شخصا بخطوة واحدة لحسم أهم مجهول، مع موعد واضح. نتيجة التمرين قرار قابل للمراجعة بشأن وقت الأسبوع المقبل، وليست التزاما دائما بفرصة واحدة."
+      ],
+      "takeaways": [
+        "قارنوا وقائع حديثة لثلاث فرص، وحددوا نوع الدليل وراء كل ادعاء.",
+        "ميزوا بين المستخدم وصاحب الميزانية والمسؤول عن تغيير سير العمل.",
+        "احسبوا مساعدة المؤسسين إلى جانب نتائج العميل في التجربة المحدودة.",
+        "حددوا أدلة الاستمرار والتعديل والتوقف قبل مراجعة النتائج."
+      ],
+      "advice": [
+        "تمرين مستقل: أنشئوا أعمدة للواقعة والدليل والمشتري وعائق التنفيذ والخطوة التالية.",
+        "تمرين مستقل: حددوا سقف ساعات الفريق ومسؤول النتيجة، ثم قارنوا التوقعات بالملاحظات."
+      ]
+    }
+  },
   "Six Principles for Making New Things": {
     "fa": {
       "paragraphs": [
