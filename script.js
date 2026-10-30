@@ -492,6 +492,36 @@ const articleCategories = [
 
 const articleCatalog = [
   {
+    "title": "Mean People Fail",
+    "category": "leadership",
+    "author": "Paul Graham",
+    "source": "Paul Graham",
+    "year": "2014",
+    "url": "https://paulgraham.com/mean.html",
+    "tags": {
+      "fa": [
+        "مدیریت اختلاف",
+        "بازخورد",
+        "تصمیم انتشار"
+      ],
+      "en": [
+        "disagreement",
+        "feedback",
+        "release decisions"
+      ],
+      "ar": [
+        "إدارة الخلاف",
+        "الملاحظات",
+        "قرار الإطلاق"
+      ]
+    },
+    "summary": {
+      "fa": "برداشتی کوتاه درباره هزینه بدرفتاری در شرکت، همراه با تمرین مستقل برای رسیدگی به اختلاف و تصمیم انتشار محصول.",
+      "en": "A brief adaptation on the cost of meanness in a company, with an independent exercise for handling disagreement and release decisions.",
+      "ar": "معالجة موجزة لتكلفة سوء المعاملة في الشركة، مع تمرين مستقل لإدارة الخلاف واتخاذ قرار إطلاق المنتج."
+    }
+  },
+  {
     "title": "Why Smart People Have Bad Ideas",
     "category": "ideas",
     "author": "Paul Graham",
@@ -1990,6 +2020,67 @@ const articleCatalog = [
 ];
 
 const articleEssays = {
+  "Mean People Fail": {
+    "fa": {
+      "paragraphs": [
+        "مقاله استدلال می‌کند که بدرفتاری می‌تواند توان ساختن شرکت را تضعیف کند: نزاع توجه را مصرف می‌کند و همکاری با افراد توانمند دشوار می‌شود. این برداشت از تجربه نویسنده است، نه قانونی قطعی درباره موفقیت. ادامه متن یک تمرین مستقل تحریریه است؛ سناریو، فرم ثبت اختلاف و روش ارزیابی زیر از مقاله اصلی نقل نشده‌اند. هدف تمرین این است که تیم بتواند هم درباره کیفیت کار صریح باشد و هم تصمیم را بدون تحقیر افراد پیش ببرد.",
+        "فرض کنید یک شرکت شش‌نفره نرم‌افزار مدیریت سفارش می‌سازد و قرار است فردا نسخه تازه را برای سه مشتری آزمایشی فعال کند. در بررسی نهایی، مسئول پشتیبانی متوجه می‌شود که یک سفارش در شرایط خاص دو بار ثبت می‌شود. مدیر محصول موعد تحویل را به مشتری قول داده و توسعه‌دهنده هنوز خطا را بازتولید نکرده است. پیش از جلسه، هر نفر یک یادداشت کوتاه آماده کند: چه چیزی دیده، چه چیزی هنوز معلوم نیست و کدام تصمیم باید گرفته شود؟ عبارت «تیم فنی همیشه دیر می‌کند» قابل بررسی نیست؛ زمان مشاهده، مراحل انجام کار و نتیجه واقعی قابل بررسی‌اند. اطلاعات مشتری را در نمونه آزمایش با داده ساختگی جایگزین کنید تا تمرکز جلسه روی مسئله بماند.",
+        "جلسه را با یک سؤال محدود شروع کنید: آیا نسخه فردا برای همان سه مشتری فعال شود؟ یک نفر مسئول تصمیم و یک نفر مسئول ثبت شواهد باشد. مسئول پشتیبانی پنج دقیقه فرصت داشته باشد بدون قطع شدن، مسیر رخداد را نشان دهد؛ سپس توسعه‌دهنده برداشت خود را از مشکل بازگو کند تا اختلاف بر سر تعریف مسئله روشن شود. مدیر محصول هم تعهدی را که به مشتری داده، دقیق بیان کند. اگر بحث به نیت‌خوانی یا برچسب‌زدن رسید، اداره‌کننده جلسه آن جمله را به مشاهده و درخواست مشخص برگرداند. مثلاً به‌جای بحث درباره بی‌مسئولیتی، روشن شود چه کسی تا چه ساعتی نتیجه بازتولید خطا را ثبت می‌کند. ناتوانی در بازتولید، به‌تنهایی ثابت نمی‌کند گزارش اشتباه بوده است.",
+        "برای تصمیم، سه گزینه قابل اجرا بنویسید: تعویق کوتاه انتشار، محدود کردن قابلیت مسئله‌دار یا ادامه با کنترل مشخص. برای هر گزینه، مسئول اجرا، هزینه مشتری و شرط بازگشت را ثبت کنید. در این سناریوی فرضی، اگر ثبت دوباره سفارش قابل تشخیص نباشد یا راه بازگشت آزمایش نشده باشد، تیم می‌تواند انتشار را متوقف کند و زمان بررسی بعدی را اعلام کند. این معیار باید قبل از رأی‌گیری درباره افراد روشن شود. موافقت همه شرط پایان جلسه نیست؛ مسئول تصمیم باید دلیل انتخاب و ابهام باقی‌مانده را بنویسد. فرد مخالف هم بتواند شاهد خود را در همان یادداشت نگه دارد تا اگر اتفاق تازه‌ای افتاد، تیم مجبور نباشد بحث را از حافظه بازسازی کند.",
+        "بعد از جلسه، دو پیگیری جدا لازم است. پیگیری محصول مشخص می‌کند خطا رفع شده، کنترل‌ها کار می‌کنند و مشتری چه زمانی خبر می‌گیرد. پیگیری رفتار بررسی می‌کند آیا کسی با قطع مکرر صحبت، تمسخر یا تهدید، ارائه اطلاعات را دشوار کرده است. اگر مدیر چنین رفتاری داشته، باید همان رفتار مشخص را بپذیرد و راه اصلاحش را اعلام کند؛ دعوت کلی به «حرف‌زدن آزادانه» به‌تنهایی کافی نیست. بازخورد خصوصی می‌تواند با شرح موقعیت، اثر مشاهده‌شده و انتظار دفعه بعد شروع شود. برای تکرار رفتار، مسئول رسیدگی و مسیر گزارش روشن بگذارید؛ فردی که موضوع را گزارش می‌کند نباید مجبور باشد فقط به شخص مورد شکایت مراجعه کند.",
+        "یک هفته بعد، اثر این روش را با چند شاهد محدود مرور کنید: فاصله گزارش تا تصمیم، تعداد مسئله‌های دوباره بازشده به‌دلیل ابهام در مسئولیت و اقدام‌های اصلاحی انجام‌شده. کاهش تعداد گزارش‌ها را خودکار نشانه بهتر شدن تیم ندانید؛ شاید ثبت مشکل سخت‌تر شده باشد. با اعضا جداگانه بررسی کنید آیا توانسته‌اند یک نگرانی واقعی را مطرح کنند و پاسخ مشخص بگیرند. این سنجه‌ها ابزار بازبینی همین آزمایش‌اند، نه امتیاز شخصیت کارکنان. خروجی مرور باید فقط یک اصلاح قابل انجام برای هفته بعد داشته باشد؛ مثلاً تعیین جانشین مسئول تصمیم یا افزودن گام بازتولید خطا به فرم گزارش. ارزش تمرین در تصمیم روشن‌تر و پیگیری قابل مشاهده است."
+      ],
+      "takeaways": [
+        "اختلاف را با رخداد، شاهد و تصمیم مورد نیاز ثبت کنید؛ حدس درباره نیت افراد را جدا بگذارید.",
+        "پیش از جلسه، مسئول تصمیم و مسئول ثبت شواهد را مشخص کنید.",
+        "به گزارش‌دهنده فرصت نمایش کامل مسئله بدهید و برداشت طرف مقابل را بررسی کنید.",
+        "گزینه‌های انتشار را با هزینه مشتری، مسئول اجرا و شرط بازگشت مقایسه کنید.",
+        "دلیل تصمیم و شاهد مخالف را در یک یادداشت قابل مراجعه نگه دارید.",
+        "رفع خطای محصول و اصلاح رفتار آسیب‌زا را با مسئول و موعد جدا پیگیری کنید.",
+        "کم شدن گزارش‌ها را بدون بررسی امکان بیان نگرانی، نشانه بهبود فرض نکنید."
+      ],
+      "advice": [
+        "تمرین مستقل: برای جلسه بعد یک برگه با ستون‌های رخداد، شاهد، ابهام، گزینه، مسئول و موعد بازبینی بسازید.",
+        "تمرین مستقل: یک هفته پس از تصمیم، فقط یک تغییر در فرایند انتخاب کنید و مسئول انجام آن را بنویسید."
+      ]
+    },
+    "en": {
+      "paragraphs": [
+        "The essay argues that meanness can undermine company building by consuming attention in conflict and making capable collaborators harder to attract. This is an argument from experience, not a universal law of success. The scenario and decision process below are an independent editorial exercise, not examples or instructions from the source.",
+        "Imagine a six-person company preparing to release order-management software to three pilot customers tomorrow. Support has seen an order recorded twice, engineering cannot yet reproduce it, and the product lead has promised a delivery date. Before meeting, each person records what they observed, what remains unknown, and the decision needed. Use synthetic customer data to demonstrate the problem. Assign a decision owner and a note taker. Let support show the sequence without interruption, then ask engineering to restate its understanding. The product lead should specify the actual customer commitment. If someone labels a colleague irresponsible, bring the discussion back to an observable event and a concrete request. Failure to reproduce the defect does not by itself invalidate the report.",
+        "Compare a short delay, disabling the affected feature, and proceeding with an explicit control. For each option, record the customer consequence, implementation owner, and rollback condition. In this hypothetical trial, an undetectable duplicate order or an untested rollback could justify pausing release until the next review. The decision owner documents the choice, remaining uncertainty, and dissenting evidence. Track product remediation separately from behavior: interruptions, ridicule, or threats require a specific response and a reporting route beyond the person involved. A manager who behaved badly should acknowledge the concrete conduct and explain the correction. A general invitation to speak openly does not complete that work.",
+        "After one week, review report-to-decision time, issues reopened because ownership was unclear, and corrective actions completed. Treat these as checks on this experiment, not employee personality scores. Fewer reports may reflect a harder reporting process rather than fewer problems. Ask team members separately whether they could raise a real concern and obtain a clear response. Finish with one process change for the following week, such as assigning a backup decision owner or adding reproduction steps to the report template. Give that change an owner and review date."
+      ],
+      "takeaways": [
+        "Record observations, uncertainty, and the required decision before meeting.",
+        "Compare release options using customer consequences, ownership, and rollback conditions.",
+        "Preserve dissenting evidence alongside the decision rationale.",
+        "Track product fixes and behavior corrections separately; check whether concerns can still be raised."
+      ],
+      "advice": [
+        "Independent exercise: make a decision sheet with evidence, options, owner, and review date.",
+        "Independent exercise: choose one process correction after a week and assign responsibility."
+      ]
+    },
+    "ar": {
+      "paragraphs": [
+        "تطرح المقالة أن سوء المعاملة قد يضعف بناء الشركة، لأن النزاع يستهلك الانتباه ويصعّب التعاون مع أصحاب الكفاءة. هذا استدلال من الخبرة، وليس قانونا عاما للنجاح. السيناريو وطريقة اتخاذ القرار أدناه تمرين تحريري مستقل؛ لا يمثلان أمثلة أو تعليمات من النص الأصلي.",
+        "تخيلوا شركة من ستة أشخاص تستعد لإطلاق برنامج لإدارة الطلبات غدا لدى ثلاثة عملاء تجريبيين. لاحظ مسؤول الدعم تسجيل طلب مرتين، ولم يتمكن المطور بعد من إعادة إنتاج الخطأ، بينما وعد مسؤول المنتج العميل بموعد تسليم. قبل الاجتماع، يكتب كل شخص ما شاهده وما يجهله والقرار المطلوب. استخدموا بيانات اصطناعية لعرض المشكلة، وحددوا صاحب القرار ومسؤول تدوين الأدلة. امنحوا الدعم وقتا لعرض التسلسل دون مقاطعة، ثم اطلبوا من المطور إعادة شرح فهمه للمشكلة. يوضح مسؤول المنتج الالتزام الفعلي تجاه العميل. عند ظهور اتهام شخصي، أعيدوا النقاش إلى واقعة يمكن فحصها وطلب محدد. عدم إعادة إنتاج الخطأ لا يثبت وحده أن البلاغ غير صحيح.",
+        "قارنوا بين تأجيل قصير، وتعطيل الميزة المتأثرة، والإطلاق مع إجراء رقابي واضح. لكل خيار، سجلوا أثره على العميل ومسؤول تنفيذه وشرط التراجع. في هذه التجربة الافتراضية، قد يبرر تعذر كشف الطلب المكرر أو غياب اختبار التراجع إيقاف الإطلاق حتى المراجعة التالية. يكتب صاحب القرار اختياره وسببه وما بقي مجهولا، مع الاحتفاظ بدليل الشخص المعترض. تابعوا إصلاح المنتج ومعالجة السلوك في مسارين منفصلين. المقاطعة المتكررة أو السخرية أو التهديد تحتاج إلى استجابة محددة، ومسار للإبلاغ لا يقتصر على الشخص المعني بالشكوى. إذا صدر السلوك عن المدير، فعليه الاعتراف بالفعل المحدد وبيان كيفية تصحيحه؛ الدعوة العامة إلى الصراحة لا تنجز ذلك وحدها.",
+        "بعد أسبوع، راجعوا الوقت من البلاغ إلى القرار، والمشكلات التي أعيد فتحها بسبب غموض المسؤولية، والإجراءات التصحيحية المنجزة. هذه مؤشرات لمراجعة التجربة وليست درجات لشخصيات الموظفين. انخفاض البلاغات قد يعني صعوبة الإبلاغ، لذا اسألوا الأعضاء بصورة منفصلة إن استطاعوا طرح قلق حقيقي والحصول على جواب واضح. اختاروا تعديلا واحدا للأسبوع التالي، مثل تعيين بديل لصاحب القرار أو إضافة خطوات إعادة إنتاج الخطأ إلى نموذج البلاغ. حددوا مسؤول التعديل وموعد مراجعته حتى تنتهي المناقشة بإجراء يمكن متابعته."
+      ],
+      "takeaways": [
+        "سجلوا الملاحظات وما بقي مجهولا والقرار المطلوب قبل الاجتماع.",
+        "قارنوا خيارات الإطلاق بأثرها على العميل ومسؤول التنفيذ وشرط التراجع.",
+        "احتفظوا بالدليل المعارض إلى جانب مبررات القرار.",
+        "افصلوا إصلاح المنتج عن تصحيح السلوك، وتحققوا من إمكانية التعبير عن المخاوف."
+      ],
+      "advice": [
+        "تمرين مستقل: أنشئوا ورقة قرار تضم الأدلة والخيارات والمسؤول وموعد المراجعة.",
+        "تمرين مستقل: بعد أسبوع اختاروا تصحيحا واحدا للعملية وحددوا المسؤول عنه."
+      ]
+    }
+  },
   "Why Smart People Have Bad Ideas": {
     "fa": {
       "paragraphs": [

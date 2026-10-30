@@ -226,6 +226,55 @@
     "timezone": "Asia/Tehran",
     "queue": [
       {
+        "id": "2026-10-30-site-mean-people-fail",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "mean-people-fail",
+        "publishAt": "2026-10-30T05:47:25+03:30",
+        "status": "published",
+        "publishedAt": "2026-10-30T05:47:25+03:30"
+      },
+      {
+        "id": "2026-10-30-linkedin-mean-people-fail",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "mean-people-fail",
+        "publishAt": "2026-10-30T12:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-10-30T05:47:25+03:30",
+        "note": "Draft/preview only. Verified account/API or session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "اختلاف انتشار را به تصمیم قابل پیگیری تبدیل کنید",
+          "en": "Turn a release disagreement into a traceable decision",
+          "ar": "حوّلوا خلاف الإطلاق إلى قرار قابل للمتابعة"
+        },
+        "body": {
+          "fa": "تصمیم انتشار به شاهد و مسئول مشخص نیاز دارد.\nپیامد: ایراد محصول و رفتار جلسه باید جدا پیگیری شوند.\nاقدام بعدی: پیش از انتشار، گزینه‌ها، شرط بازگشت و موعد بازبینی را در یک برگه ثبت کنید.\nPaul Graham — https://paulgraham.com/mean.html\nhttps://alisodeyfi.ir/articles/mean-people-fail/fa/#daily-article-reader",
+          "en": "A release decision needs evidence and a named owner.\nImplication: track the product defect and meeting conduct separately.\nNext action: record options, rollback conditions, and a review date before release.\nPaul Graham — https://paulgraham.com/mean.html\nhttps://alisodeyfi.ir/articles/mean-people-fail/en/#daily-article-reader",
+          "ar": "قرار الإطلاق يحتاج إلى دليل ومسؤول محدد.\nالأثر: تابعوا عيب المنتج وسلوك الاجتماع بصورة منفصلة.\nالخطوة التالية: سجلوا الخيارات وشروط التراجع وموعد المراجعة قبل الإطلاق.\nPaul Graham — https://paulgraham.com/mean.html\nhttps://alisodeyfi.ir/articles/mean-people-fail/ar/#daily-article-reader"
+        }
+      },
+      {
+        "id": "2026-10-30-instagram-story-mean-people-fail",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "mean-people-fail",
+        "publishAt": "2026-10-30T20:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-10-30T05:47:25+03:30",
+        "note": "Draft/preview only. Verified account/API or session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "اختلاف انتشار را به تصمیم قابل پیگیری تبدیل کنید",
+          "en": "Turn a release disagreement into a traceable decision",
+          "ar": "حوّلوا خلاف الإطلاق إلى قرار قابل للمتابعة"
+        },
+        "body": {
+          "fa": "اسلاید ۱: هر تصمیم انتشار یک مسئول می‌خواهد.\nاسلاید ۲: شاهد مخالف و شرط بازگشت را ثبت کنید.\nاسلاید ۳: مقاله و تمرین مستقل\nPaul Graham — https://paulgraham.com/mean.html\nhttps://alisodeyfi.ir/articles/mean-people-fail/fa/#daily-article-reader",
+          "en": "Slide 1: every release decision needs an owner.\nSlide 2: record dissenting evidence and rollback conditions.\nSlide 3: article and independent exercise\nPaul Graham — https://paulgraham.com/mean.html\nhttps://alisodeyfi.ir/articles/mean-people-fail/en/#daily-article-reader",
+          "ar": "الشريحة ١: كل قرار إطلاق يحتاج إلى مسؤول.\nالشريحة ٢: سجلوا الدليل المعارض وشروط التراجع.\nالشريحة ٣: المقالة والتمرين المستقل\nPaul Graham — https://paulgraham.com/mean.html\nhttps://alisodeyfi.ir/articles/mean-people-fail/ar/#daily-article-reader"
+        }
+      },
+      {
         "id": "2026-10-29-site-why-smart-people-have-bad-ideas",
         "channel": "site",
         "target": "site",
