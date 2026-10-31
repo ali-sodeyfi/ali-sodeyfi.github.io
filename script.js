@@ -492,6 +492,36 @@ const articleCategories = [
 
 const articleCatalog = [
   {
+    "title": "Disconnecting Distraction",
+    "category": "leadership",
+    "author": "Paul Graham",
+    "source": "Paul Graham",
+    "year": "2008",
+    "url": "https://paulgraham.com/distraction.html",
+    "tags": {
+      "fa": [
+        "تمرکز تیم",
+        "پوشش پشتیبانی",
+        "آزمایش فرایند"
+      ],
+      "en": [
+        "team focus",
+        "support coverage",
+        "process experiments"
+      ],
+      "ar": [
+        "تركيز الفريق",
+        "تغطية الدعم",
+        "تجارب العمل"
+      ]
+    },
+    "summary": {
+      "fa": "برداشتی کوتاه از مقاله درباره حواس‌پرتی، با حفظ یادداشت اصلاحی نویسنده و تمرین مستقل برای آزمایش زمان تمرکز در یک تیم کوچک.",
+      "en": "A brief adaptation on distraction, preserving the author’s correction, with an independent exercise for testing focus time in a small team.",
+      "ar": "معالجة موجزة لمقالة عن التشتت، مع توضيح تصحيح الكاتب وتمرين مستقل لاختبار وقت التركيز في فريق صغير."
+    }
+  },
+  {
     "title": "Mean People Fail",
     "category": "leadership",
     "author": "Paul Graham",
@@ -2020,6 +2050,57 @@ const articleCatalog = [
 ];
 
 const articleEssays = {
+  "Disconnecting Distraction": {
+    "fa": {
+      "paragraphs": [
+        "حواس‌پرتی می‌تواند در ظاهر کار پنهان شود و به تعویق انداختن کار اصلی را آسان کند. مقاله جداسازی رایانه کار از اینترنت را شرح می‌دهد، اما نویسنده در یادداشت اصلاحی می‌گوید این راهکار دوام نیاورد. بنابراین آن را نسخه اثبات‌شده تلقی نکنید. ادامه متن تمرین مستقل تحریریه برای یک تیم کوچک است؛ سناریو، زمان‌بندی و معیارهای ارزیابی زیر از مقاله اصلی نقل نشده‌اند.",
+        "فرض کنید چهار نفر روی نرم‌افزار مدیریت موجودی کار می‌کنند و باید تا پایان هفته امکان ورود فایل مشتری را تکمیل کنند. هر بار که گفت‌وگوی پشتیبانی پیام می‌دهد، چند نفر کار را رها می‌کنند؛ با این حال هنوز نمی‌دانید وقفه‌ها علت اصلی تأخیرند یا تعریف مبهم قابلیت. دو روز فقط وضعیت موجود را مشاهده کنید. هر نفر برای یک نوبت کاری بنویسد چه خروجی‌ای قصد داشته، چه چیزی مانع شده و چه کاری نیمه‌تمام مانده است. ثبت علت کلی کافی است؛ نیازی به ضبط صفحه، محتوای پیام خصوصی یا رتبه‌بندی کارکنان نیست. در پایان این مرحله، مانع‌های مربوط به دسترسی، تصمیم محصول و پاسخ مشتری را جدا بشمارید تا برای همه مسائل یک راه‌حل یکسان نسازید.",
+        "برای آزمایش بعدی، یک خروجی کوچک و قابل بررسی انتخاب کنید: مثلاً ورود یک فایل نمونه با ستون‌های مورد توافق و نمایش خطای قابل فهم برای ردیف ناقص. پیش از شروع، فایل ساختگی، دسترسی لازم و فرد پاسخ‌گوی ابهام محصول آماده باشند. یک نوبت شصت‌دقیقه‌ای تعیین کنید و فقط دو عضو تیم را مسئول اجرای این کار بگذارید؛ این مدت پیشنهاد همین تمرین است و می‌تواند کوتاه‌تر شود. اگر تعریف خروجی هنوز محل اختلاف است، ابتدا همان اختلاف را حل کنید. بستن پیام‌رسان به خودی خود مسئله‌ای را که تصمیم نگرفته‌اید روشن نمی‌کند. پایان نوبت باید یک نمونه قابل نمایش یا یک مانع مشخص داشته باشد، نه صرفاً گزارش مدت حضور پشت میز.",
+        "در همان نوبت، یک نفر پوشش پشتیبانی را بر عهده بگیرد و نفر دیگری جانشین او باشد. پیش از شروع توافق کنید چه رخدادی اجازه قطع کار را دارد؛ مثلاً اختلالی که مانع ثبت سفارش مشتری فعال شده است. سؤال درباره رنگ دکمه یا درخواست قابلیت تازه می‌تواند در فهرست بررسی بعدی بماند. برای رخداد فوری، یک مسیر تماس مشخص و امکان رسیدن به مسئول فنی لازم است. مسئول پوشش باید بداند چه کاری را خودش می‌تواند انجام دهد و کجا باید کمک بخواهد. این توافق را با تعهد واقعی پاسخ‌گویی به مشتری هماهنگ کنید؛ آزمایش تمرکز نباید باعث شود کسی بی‌خبر منتظر بماند یا یک نفر هر روز تمام هزینه وقفه‌ها را تحمل کند.",
+        "پس از نوبت کاری، خروجی را با همان فایل نمونه بررسی کنید و علت کارهای باقی‌مانده را بنویسید. آیا خطای فایل شناسایی می‌شود؟ آیا برای تصمیم درباره قالب داده منتظر مانده‌اید؟ آیا درخواست فوری مشتری رسید و در زمان مورد توافق رسیدگی شد؟ اگر کار انجام نشد، نتیجه را خودکار به کمبود انضباط نسبت ندهید. ممکن است واحد کار بزرگ بوده یا وابستگی پنهانی آشکار شده باشد. برای نوبت بعد فقط یک عامل را تغییر دهید، مثل کوچک‌تر کردن دامنه یا آماده کردن پاسخ محصول. تغییر هم‌زمان مدت نوبت، نفرات و ابزارها تشخیص علت نتیجه را دشوار می‌کند. هدف این ثبت، انتخاب اقدام بعدی است، نه تولید گزارش مفصل درباره فعالیت افراد.",
+        "پس از یک هفته، نمونه‌های خروجی، دوباره‌کاری‌ها و درخواست‌های پشتیبانیِ خارج از موعد را کنار هم مرور کنید. اگر تحویل بهتر شده اما پوشش مشتری آسیب دیده، فرایند هنوز قابل قبول نیست؛ شاید به نوبت کوتاه‌تر یا تقسیم متفاوت مسئولیت نیاز داشته باشید. اگر مسئله اصلی منتظر ماندن برای تصمیم بوده، آزمایش بعدی را روی دسترسی به تصمیم‌گیرنده بگذارید. ادامه روش را مشروط به شواهد همین تیم کنید و یک تاریخ بازبینی دیگر تعیین کنید. توافقی که روی کاغذ خوب است ولی اعضا عملاً نمی‌توانند اجرا کنند باید اصلاح شود. تصمیم نهایی می‌تواند حفظ، تغییر یا کنار گذاشتن آزمایش باشد؛ هر سه نتیجه وقتی دلیل روشن و اقدام بعدی دارند، برای تیم مفیدند."
+      ],
+      "takeaways": [
+        "دو روز مانع‌های کار را با علت کلی ثبت کنید؛ داده شخصی و نظارت بر صفحه لازم نیست.",
+        "برای هر نوبت تمرکز، خروجی قابل نمایش و شرط پذیرش مشخص کنید.",
+        "فایل نمونه، دسترسی و پاسخ ابهام محصول را پیش از شروع آماده کنید.",
+        "پوشش پشتیبانی، جانشین و تعریف رخداد فوری را به فرد مشخص بسپارید.",
+        "در هر تکرار فقط یک عامل فرایند را تغییر دهید تا نتیجه قابل بررسی بماند.",
+        "تحویل و دوباره‌کاری را در کنار کیفیت پاسخ‌گویی به مشتری ارزیابی کنید.",
+        "پس از یک هفته درباره حفظ، تغییر یا توقف آزمایش تصمیم مستند بگیرید."
+      ]
+    },
+    "en": {
+      "paragraphs": [
+        "Distraction can resemble work and make postponement easier. The essay describes separating an offline work computer from internet use, but its author later added that the method did not last. Treat that correction as part of the argument. The scenario, schedule, and evaluation below are an independent editorial exercise, not instructions from the source.",
+        "Imagine a four-person inventory software team trying to finish customer file imports this week. Several people stop whenever support receives a message, but unclear requirements may also explain the delay. Observe two days first: record the intended deliverable, the broad cause of an interruption, and the unresolved task. Do not capture private messages or rank employees. Then choose a small acceptance check, such as importing an agreed sample file and reporting a missing field clearly. Prepare synthetic data, access, and a product decision contact before a sixty-minute trial with two team members. That duration is a proposed experiment, not a research-backed optimum. Finish with either a demonstrable result or a specific blocker.",
+        "Assign one teammate to support and another as backup. Define the interruption threshold beforehand: a live customer unable to record an order might require immediate engineering help; a request to change a button color can await review. Give the support owner a clear escalation route and enough authority to handle routine requests. Match coverage to actual customer response commitments and rotate the burden across trials. After the session, check the sample import and any urgent requests. If delivery failed, distinguish missing decisions, unexpected dependencies, and excessive scope from interruptions. Change one factor for the next session so the comparison remains interpretable.",
+        "At the end of a week, review accepted outputs, rework, and support requests that missed their response commitment together. Faster implementation with worse customer coverage is an incomplete result. Shorten the session or alter coverage if needed; if decision delays dominate, make decision access the next experiment. Record whether to keep, modify, or stop the trial and set another review date. A process that people cannot actually follow needs revision. These checks guide a team decision; they are not individual productivity scores or proof that the same arrangement will work elsewhere."
+      ],
+      "takeaways": [
+        "Observe broad causes of blocked work before changing the schedule.",
+        "Define a small acceptance check and prepare dependencies before a focus session.",
+        "Assign support coverage, backup, and a clear escalation threshold.",
+        "Change one process factor at a time; review delivery and customer response together.",
+        "Decide after a week whether to keep, modify, or stop the experiment."
+      ]
+    },
+    "ar": {
+      "paragraphs": [
+        "قد يبدو التشتت شبيها بالعمل ويسهّل تأجيل المهمة الأساسية. تصف المقالة فصل حاسوب العمل عن استخدام الإنترنت، لكن الكاتب أضاف لاحقا أن الطريقة لم تستمر. لذلك ينبغي قراءة التصحيح مع الفكرة الأصلية. ما يلي تمرين تحريري مستقل لفريق صغير؛ السيناريو والتوقيت ومعايير التقييم ليست تعليمات من المصدر.",
+        "تخيلوا فريقا من أربعة أشخاص يطور برنامجا لإدارة المخزون ويريد إنهاء استيراد ملفات العملاء هذا الأسبوع. يتوقف عدة أعضاء كلما وصلت رسالة للدعم، لكن غموض المتطلبات قد يكون سببا آخر للتأخير. راقبوا يومين أولا: سجلوا النتيجة المطلوبة والسبب العام للتوقف والمهمة التي بقيت معلقة، دون نسخ الرسائل الخاصة أو ترتيب الموظفين حسب نشاطهم. اختاروا بعدها اختبار قبول صغيرا، مثل استيراد ملف متفق عليه وإظهار رسالة واضحة عند غياب حقل مطلوب. جهزوا بيانات اصطناعية وصلاحيات العمل والشخص القادر على حسم أسئلة المنتج قبل جلسة تجريبية من ستين دقيقة لعضوين. هذه المدة اقتراح للتجربة وليست معيارا مثبتا. يجب أن تنتهي الجلسة بنتيجة قابلة للعرض أو عائق محدد.",
+        "كلفوا عضوا بتغطية الدعم وآخر بالبديل، وحددوا مسبقا ما يسمح بمقاطعة الجلسة. تعذر تسجيل طلب لدى عميل فعلي قد يستدعي مساعدة فنية فورية، أما اقتراح تغيير لون زر فيمكن تسجيله للمراجعة التالية. يحتاج مسؤول الدعم إلى مسار تصعيد واضح وصلاحية معالجة الطلبات المعتادة. اربطوا التغطية بالتزامات الرد الفعلية، ووزعوا عبء المقاطعات بين الأعضاء عبر التجارب. بعد الجلسة افحصوا استيراد الملف والطلبات العاجلة. إذا لم يكتمل العمل، ميزوا بين قرار ناقص واعتماد غير متوقع ونطاق أكبر من اللازم. عدلوا عاملا واحدا في الجلسة التالية حتى يمكن فهم سبب تغير النتيجة.",
+        "بعد أسبوع، راجعوا المخرجات المقبولة وإعادة العمل وطلبات الدعم التي تجاوزت موعد الرد معا. تسريع التنفيذ مع تراجع خدمة العميل نتيجة غير مكتملة. قد تحتاجون إلى جلسة أقصر أو توزيع مختلف للتغطية؛ وإذا كان انتظار القرار هو العائق الأكبر فاجعلوا الوصول إلى صاحب القرار موضوع التجربة التالية. وثقوا قرار الاستمرار أو التعديل أو الإيقاف وحددوا موعد مراجعة جديدا. الإجراء الذي لا يستطيع الأعضاء تطبيقه يحتاج إلى تعديل. هذه المؤشرات تساعد الفريق على الاختيار، ولا تمثل درجات لإنتاجية الأفراد أو دليلا على أن الترتيب نفسه سينجح في كل شركة."
+      ],
+      "takeaways": [
+        "سجلوا الأسباب العامة لتعطل العمل قبل تغيير الجدول.",
+        "حددوا اختبار قبول صغيرا وجهزوا الاعتمادات قبل جلسة التركيز.",
+        "عينوا مسؤول دعم وبديله وحدا واضحا للتصعيد الفوري.",
+        "غيروا عاملا واحدا في كل مرة وقيموا التسليم واستجابة العملاء معا.",
+        "قرروا بعد أسبوع الاستمرار في التجربة أو تعديلها أو إيقافها."
+      ]
+    }
+  },
   "Mean People Fail": {
     "fa": {
       "paragraphs": [

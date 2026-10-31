@@ -226,6 +226,55 @@
     "timezone": "Asia/Tehran",
     "queue": [
       {
+        "id": "2026-10-31-site-disconnecting-distraction",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "disconnecting-distraction",
+        "publishAt": "2026-10-31T05:45:33+03:30",
+        "status": "published",
+        "publishedAt": "2026-10-31T05:45:33+03:30"
+      },
+      {
+        "id": "2026-10-31-linkedin-disconnecting-distraction",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "disconnecting-distraction",
+        "publishAt": "2026-10-31T12:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-10-31T05:45:33+03:30",
+        "note": "Draft/preview only. Verified account/API or session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "زمان تمرکز را با پوشش مشتری آزمایش کنید",
+          "en": "Test focus time with customer coverage",
+          "ar": "اختبروا وقت التركيز مع تغطية العملاء"
+        },
+        "body": {
+          "fa": "زمان تمرکز به توافق درباره پوشش مشتری نیاز دارد.\nپیامد: سرعت تحویل را همراه با کیفیت پاسخ‌گویی بسنجید.\nاقدام بعدی: این هفته یک نوبت آزمایشی با خروجی مشخص، مسئول پشتیبانی و شرط قطع کار اجرا کنید.\nPaul Graham — https://paulgraham.com/distraction.html\nhttps://alisodeyfi.ir/articles/disconnecting-distraction/fa/#daily-article-reader",
+          "en": "Focus time needs an agreement on customer coverage.\nImplication: assess delivery speed alongside response quality.\nNext action: run one trial this week with an acceptance check, support owner, and interruption threshold.\nPaul Graham — https://paulgraham.com/distraction.html\nhttps://alisodeyfi.ir/articles/disconnecting-distraction/en/#daily-article-reader",
+          "ar": "وقت التركيز يحتاج إلى اتفاق على تغطية العملاء.\nالأثر: قيموا سرعة التسليم مع جودة الاستجابة.\nالخطوة التالية: نفذوا تجربة هذا الأسبوع بمعيار قبول ومسؤول دعم وحد واضح للمقاطعة.\nPaul Graham — https://paulgraham.com/distraction.html\nhttps://alisodeyfi.ir/articles/disconnecting-distraction/ar/#daily-article-reader"
+        }
+      },
+      {
+        "id": "2026-10-31-instagram-story-disconnecting-distraction",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "disconnecting-distraction",
+        "publishAt": "2026-10-31T20:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-10-31T05:45:33+03:30",
+        "note": "Draft/preview only. Verified account/API or session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "زمان تمرکز را با پوشش مشتری آزمایش کنید",
+          "en": "Test focus time with customer coverage",
+          "ar": "اختبروا وقت التركيز مع تغطية العملاء"
+        },
+        "body": {
+          "fa": "اسلاید ۱: زمان تمرکز، پوشش مشتری می‌خواهد.\nاسلاید ۲: یک خروجی مشخص؛ یک مسئول پشتیبانی؛ یک شرط قطع کار.\nاسلاید ۳: مقاله و تمرین مستقل\nPaul Graham — https://paulgraham.com/distraction.html\nhttps://alisodeyfi.ir/articles/disconnecting-distraction/fa/#daily-article-reader",
+          "en": "Slide 1: focus time needs customer coverage.\nSlide 2: one acceptance check; one support owner; one interruption threshold.\nSlide 3: article and independent exercise\nPaul Graham — https://paulgraham.com/distraction.html\nhttps://alisodeyfi.ir/articles/disconnecting-distraction/en/#daily-article-reader",
+          "ar": "الشريحة ١: وقت التركيز يحتاج إلى تغطية العملاء.\nالشريحة ٢: معيار قبول؛ مسؤول دعم؛ حد للمقاطعة.\nالشريحة ٣: المقالة والتمرين المستقل\nPaul Graham — https://paulgraham.com/distraction.html\nhttps://alisodeyfi.ir/articles/disconnecting-distraction/ar/#daily-article-reader"
+        }
+      },
+      {
         "id": "2026-10-30-site-mean-people-fail",
         "channel": "site",
         "target": "site",
