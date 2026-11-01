@@ -226,6 +226,55 @@
     "timezone": "Asia/Tehran",
     "queue": [
       {
+        "id": "2026-11-01-site-why-startup-hubs-work",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "why-startup-hubs-work",
+        "publishAt": "2026-11-01T05:46:28+03:30",
+        "status": "published",
+        "publishedAt": "2026-11-01T05:46:28+03:30"
+      },
+      {
+        "id": "2026-11-01-linkedin-why-startup-hubs-work",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "why-startup-hubs-work",
+        "publishAt": "2026-11-01T12:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-11-01T05:46:28+03:30",
+        "note": "Draft/preview only. Verified account/API or session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "ارزش جلسه را با تصمیم حاصل بسنجید",
+          "en": "Evaluate a meeting by the decision it improves",
+          "ar": "قيموا الجلسة بالقرار الذي تحسنه"
+        },
+        "body": {
+          "fa": "جلسه حرفه‌ای باید یک ابهام عملی را روشن کند.\nپیامد: تعداد آشنایی‌ها معیار کافی برای بودجه شبکه‌سازی نیست.\nاقدام بعدی: جلسه بعد را با یک تصمیم مشخص شروع و با مسئول و موعد آزمایش تمام کنید.\nPaul Graham — https://paulgraham.com/hubs.html\nhttps://alisodeyfi.ir/articles/why-startup-hubs-work/fa/#daily-article-reader",
+          "en": "A professional meeting should resolve a practical uncertainty.\nImplication: contact counts do not justify a networking budget.\nNext action: start the next meeting with a decision and finish with a test owner and deadline.\nPaul Graham — https://paulgraham.com/hubs.html\nhttps://alisodeyfi.ir/articles/why-startup-hubs-work/en/#daily-article-reader",
+          "ar": "ينبغي أن توضح الجلسة المهنية غموضا عمليا.\nالأثر: عدد المعارف لا يكفي لتبرير ميزانية التواصل.\nالخطوة التالية: ابدؤوا الجلسة بقرار مطلوب واختموها بمسؤول اختبار وموعد.\nPaul Graham — https://paulgraham.com/hubs.html\nhttps://alisodeyfi.ir/articles/why-startup-hubs-work/ar/#daily-article-reader"
+        }
+      },
+      {
+        "id": "2026-11-01-instagram-story-why-startup-hubs-work",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "why-startup-hubs-work",
+        "publishAt": "2026-11-01T20:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-11-01T05:46:28+03:30",
+        "note": "Draft/preview only. Verified account/API or session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "ارزش جلسه را با تصمیم حاصل بسنجید",
+          "en": "Evaluate a meeting by the decision it improves",
+          "ar": "قيموا الجلسة بالقرار الذي تحسنه"
+        },
+        "body": {
+          "fa": "اسلاید ۱: ارزش جلسه، تصمیم روشن‌تر است.\nاسلاید ۲: یک ابهام؛ یک آزمایش؛ یک مسئول و موعد.\nاسلاید ۳: مقاله و تمرین مستقل\nPaul Graham — https://paulgraham.com/hubs.html\nhttps://alisodeyfi.ir/articles/why-startup-hubs-work/fa/#daily-article-reader",
+          "en": "Slide 1: a meeting earns its value through a clearer decision.\nSlide 2: one uncertainty; one test; one owner and deadline.\nSlide 3: article and independent exercise\nPaul Graham — https://paulgraham.com/hubs.html\nhttps://alisodeyfi.ir/articles/why-startup-hubs-work/en/#daily-article-reader",
+          "ar": "الشريحة ١: قيمة الجلسة في قرار أوضح.\nالشريحة ٢: غموض واحد؛ اختبار واحد؛ مسؤول وموعد.\nالشريحة ٣: المقالة والتمرين المستقل\nPaul Graham — https://paulgraham.com/hubs.html\nhttps://alisodeyfi.ir/articles/why-startup-hubs-work/ar/#daily-article-reader"
+        }
+      },
+      {
         "id": "2026-10-31-site-disconnecting-distraction",
         "channel": "site",
         "target": "site",

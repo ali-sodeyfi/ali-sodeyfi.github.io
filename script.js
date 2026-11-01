@@ -492,6 +492,36 @@ const articleCategories = [
 
 const articleCatalog = [
   {
+    "title": "Why Startup Hubs Work",
+    "category": "building",
+    "author": "Paul Graham",
+    "source": "Paul Graham",
+    "year": "2011",
+    "url": "https://paulgraham.com/hubs.html",
+    "tags": {
+      "fa": [
+        "شبکه حرفه‌ای",
+        "حل مسئله",
+        "ارزیابی همکاری"
+      ],
+      "en": [
+        "professional networks",
+        "problem solving",
+        "evaluating collaboration"
+      ],
+      "ar": [
+        "الشبكات المهنية",
+        "حل المشكلات",
+        "تقييم التعاون"
+      ]
+    },
+    "summary": {
+      "fa": "برداشتی کوتاه درباره نقش جامعه کارآفرینی، همراه با تمرین مستقل برای ارزیابی یک جلسه حل مسئله و پیگیری نتیجه آن.",
+      "en": "A brief adaptation on startup communities, with an independent exercise for evaluating a problem-solving session and following through.",
+      "ar": "معالجة موجزة لدور مجتمع الشركات الناشئة، مع تمرين مستقل لتقييم جلسة حل مشكلة ومتابعة نتيجتها."
+    }
+  },
+  {
     "title": "Disconnecting Distraction",
     "category": "leadership",
     "author": "Paul Graham",
@@ -2050,6 +2080,62 @@ const articleCatalog = [
 ];
 
 const articleEssays = {
+  "Why Startup Hubs Work": {
+    "fa": {
+      "paragraphs": [
+        "ایده محوری مقاله این است که اجتماع کارآفرینان می‌تواند شروع کردن را طبیعی‌تر کند و احتمال آشنایی‌های کمک‌کننده را بالا ببرد؛ تراکم آدم‌ها و تمایل به همکاری اهمیت دارد. این استدلال تضمین موفقیت نیست. ادامه، تمرین مستقل تحریریه برای ارزیابی یک ارتباط حرفه‌ای است؛ سناریو، فرم جلسه و معیارهای پیشنهادی از متن اصلی نقل نشده‌اند.",
+        "فرض کنید تیمی پنج‌نفره نرم‌افزار نوبت‌دهی برای آموزشگاه‌ها ساخته است. ده آموزشگاه نسخه آزمایشی را شروع کرده‌اند، اما فقط سه مورد در هفته دوم دوباره از آن استفاده می‌کنند. تیم هنوز نمی‌داند مشکل از انتقال اطلاعات قبلی است، آموزش مسئول پذیرش یا کم‌ارزش بودن قابلیت اصلی. پیش از ثبت‌نام در رویداد بعدی، همین ابهام را در یک برگه بنویسید: چه رفتاری دیده‌اید، کدام توضیح‌ها ممکن است و چه تصمیمی باید بگیرید. خواسته جلسه را به یک خروجی محدود کنید؛ مثلاً طراحی روشی برای مشاهده اولین استفاده مشتری. درخواست کلیِ مشورت درباره رشد، پاسخ‌های کلی تولید می‌کند و تشخیص ارزش جلسه را دشوار می‌سازد.",
+        "حالا برای همین مسئله، فرد مناسبی پیدا کنید: کسی که راه‌اندازی نرم‌افزار در یک کسب‌وکار کوچک را تجربه کرده، مسئول پذیرش آموزشگاه یا سازنده محصولی با روند ورود مشابه. نام شرکت و تعداد دنبال‌کننده به‌تنهایی معیار انتخاب نباشد. در پیام دعوت، مسئله را در چند جمله توضیح دهید، زمان محدودی بخواهید و روشن کنید دنبال معرفی سرمایه‌گذار یا فروش خدمت نیستید. برای این آزمایش یک جلسه سی‌دقیقه‌ای کافی است؛ این زمان پیشنهاد تمرین است و می‌تواند تغییر کند. اگر طرف مقابل تجربه مرتبط ندارد، از او فقط یک معرفی مشخص بخواهید و ادامه گفت‌وگو را به تعارف طولانی تبدیل نکنید.",
+        "جلسه را با یک نمونه ساختگی از مسیر کار آغاز کنید. از مهمان بخواهید جاهایی را که نیاز به تصمیم یا ورود اطلاعات دارند مشخص کند؛ سپس پرسش او را از توصیه‌اش جدا ثبت کنید. اگر می‌گوید آموزش ویدئویی بسازید، بپرسید کدام مشاهده نشان می‌دهد کمبود آموزش مانع استفاده است. پیشنهاد معقول هنوز شاهد نیست. در پایان فقط یک اقدام قابل اجرا انتخاب کنید، مثل مشاهده ورود نخستین برنامه هفتگی توسط دو مشتری داوطلب. مسئول، موعد و نشانه پایان اقدام را بنویسید. اگر نتیجه جلسه صرفاً فهرستی از امکانات تازه بود، هنوز تصمیم عملی روشنی ندارید و باید دامنه آزمایش را کوچک‌تر کنید.",
+        "در نمونه پیشنهادی این تمرین، یکی از اعضای تیم تا سه‌شنبه دو جلسه مشاهده برگزار می‌کند و ثبت می‌کند کاربر در کدام مرحله متوقف شد، چه کمکی خواست و آیا توانست برنامه را ذخیره کند. دو مشاهده برای نتیجه‌گیری درباره کل بازار کافی نیست؛ هدف، یافتن مانعی است که بتوان آن را در آزمایش بعدی بررسی کرد. اطلاعات واقعی مشتری را بدون اجازه برای مشاور نفرستید؛ یک شرح بی‌نام از مسیر و خطاها معمولاً برای ادامه گفت‌وگو کافی است. پس از اجرا، نتیجه را در چند خط برای فرد کمک‌کننده بفرستید و مشخص کنید کدام توصیه اجرا شد، کدام اجرا نشد و چرا. این پیگیری به هر دو طرف امکان می‌دهد برداشت اولیه را اصلاح کنند.",
+        "پس از دو هفته، هزینه رفت‌وآمد، زمان جلسه و زمان اجرای اقدام را کنار خروجی بگذارید. آیا یک ابهام مهم روشن شد؟ آیا تصمیم محصول تغییر کرد یا یک آزمایش بی‌فایده کنار رفت؟ تعداد کارت ویزیت یا اعضای گروه پاسخ این پرسش‌ها نیست. اگر جلسه کمک کرد، نوبت بعد را حول مسئله تازه‌ای تنظیم کنید؛ اگر کمکی نکرد، میان انتخاب فرد نامناسب، درخواست مبهم و اجرا نکردن اقدام تفاوت بگذارید. پیش از خرید عضویت بلندمدت یا اجاره فضای کار، چند تعامل محدود را با همین روش بررسی کنید. تصمیم نهایی می‌تواند ادامه، تغییر شکل ارتباط یا توقف هزینه باشد؛ دلیل و موعد بازبینی آن را مکتوب نگه دارید."
+      ],
+      "takeaways": [
+        "پیش از درخواست جلسه، رفتار مشاهده‌شده، ابهام و تصمیم مورد نیاز را در یک برگه بنویسید.",
+        "هم‌صحبت را با تجربه مرتبط با مسئله انتخاب کنید و یک خروجی محدود بخواهید.",
+        "توصیه را از شاهد جدا کنید؛ برای هر پیشنهاد، فرض پشت آن را بپرسید.",
+        "جلسه را با یک اقدام، مسئول، موعد و نشانه پایان مشخص ببندید.",
+        "از دو مشاهده مشتری نتیجه عمومی نگیرید؛ از آن‌ها برای طراحی آزمایش بعدی استفاده کنید.",
+        "نتیجه اجرا را به فرد کمک‌کننده برگردانید و هزینه ارتباط را با تصمیم حاصل مقایسه کنید."
+      ],
+      "advice": [
+        "تمرین مستقل: برگه جلسه را با ستون‌های مشاهده، ابهام، پیشنهاد، شاهد لازم، مسئول و موعد بسازید.",
+        "تمرین مستقل: پیش از تعهد مالی بلندمدت، دو هفته تعامل محدود را ارزیابی و تصمیم ادامه یا توقف را ثبت کنید."
+      ]
+    },
+    "en": {
+      "paragraphs": [
+        "The essay argues that a startup community can make starting feel normal and increase helpful encounters; the concentration of people and their willingness to cooperate matter. This is not a guarantee of success. The following scenario and evaluation process are an independent editorial exercise, not a procedure from the source.",
+        "Imagine a five-person team building scheduling software for training centers. Ten centers start a trial, but only three return in week two. Before attending another event, write down the observed behavior, competing explanations, and the decision you need to make. Data migration, receptionist training, and weak product value are different hypotheses. Seek someone with experience introducing similar software, or a receptionist who understands the workflow. Ask for a bounded conversation about observing first use. During a proposed thirty-minute session, demonstrate a synthetic example and separate questions, recommendations, and evidence. If someone suggests a training video, ask what observation would support the training hypothesis. End with one action, an owner, a deadline, and a completion check rather than a feature wishlist.",
+        "For this exercise, an owner observes two consenting customers entering their first weekly schedule by Tuesday. Record where they stop, what help they request, and whether they save the schedule. Two observations cannot establish a market-wide conclusion; they can expose a candidate obstacle for the next test. Send the adviser an anonymized account of what happened and explain which recommendation you followed. After two weeks, compare travel, meeting, and execution time with the uncertainty resolved or decision changed. If the interaction did not help, distinguish a poor match from an unclear request or an action never carried out. Evaluate a few bounded interactions before committing to a long membership or workspace lease. Record whether to continue, change the arrangement, or stop spending."
+      ],
+      "takeaways": [
+        "Define an observed behavior, an uncertainty, and the decision before requesting a meeting.",
+        "Choose relevant experience and ask what evidence supports each recommendation.",
+        "Leave with one action, an owner, a deadline, and a completion check.",
+        "Report the result back; evaluate decisions improved against time and money spent."
+      ],
+      "advice": [
+        "Independent exercise: use a meeting sheet with observation, uncertainty, proposal, evidence needed, owner, and deadline."
+      ]
+    },
+    "ar": {
+      "paragraphs": [
+        "ترى المقالة أن مجتمع رواد الأعمال قد يجعل البدء أمرا مألوفا ويزيد فرص اللقاءات المفيدة؛ لكثافة الأشخاص واستعدادهم للتعاون دور مهم. هذا ليس ضمانا للنجاح. السيناريو وطريقة التقييم التالية تمرين تحريري مستقل، وليسا إجراءات منقولة من المصدر.",
+        "تخيلوا فريقا من خمسة أشخاص يطور برنامج مواعيد لمراكز التدريب. تبدأ عشرة مراكز تجربة البرنامج، لكن ثلاثة فقط تعود في الأسبوع الثاني. قبل حضور فعالية أخرى، اكتبوا السلوك المرصود والتفسيرات المحتملة والقرار المطلوب. نقل البيانات وتدريب موظف الاستقبال وضعف قيمة المنتج فرضيات مختلفة. ابحثوا عن شخص لديه خبرة بإدخال برنامج مشابه أو موظف يعرف سير العمل، واطلبوا جلسة محدودة لتصميم ملاحظة الاستخدام الأول. اعرضوا مثالا ببيانات اصطناعية، وسجلوا الأسئلة والتوصيات والأدلة بشكل منفصل. إذا اقترح الضيف فيديو تدريبيا، اسألوه عن الملاحظة التي تدعم فرضية نقص التدريب. اختموا الجلسة بإجراء واحد ومسؤول وموعد ومعيار إتمام، بدلا من قائمة مزايا جديدة.",
+        "في هذا التمرين، يراقب أحد أعضاء الفريق عميلين متطوعين أثناء إدخال أول جدول أسبوعي حتى يوم الثلاثاء. يسجل موضع التوقف والمساعدة المطلوبة وما إذا اكتمل الحفظ. لا تكفي ملاحظتان للحكم على السوق كله؛ قد تكشفان عائقا يستحق اختبارا لاحقا. أرسلوا للمستشار وصفا من دون هوية العملاء، ووضحوا التوصية التي نفذتموها والنتيجة. بعد أسبوعين، قارنوا وقت التنقل والاجتماع والتنفيذ بالغموض الذي اتضح أو القرار الذي تغير. إذا لم تفد الجلسة، ميزوا بين اختيار شخص غير مناسب وطلب غير واضح وإجراء لم ينفذ. اختبروا تفاعلات محدودة قبل الالتزام بعضوية طويلة أو إيجار مساحة عمل. سجلوا قرار الاستمرار أو تغيير الترتيب أو وقف الإنفاق مع موعد للمراجعة."
+      ],
+      "takeaways": [
+        "حددوا السلوك المرصود والغموض والقرار المطلوب قبل طلب الجلسة.",
+        "اختاروا خبرة مرتبطة بالمشكلة واسألوا عن الدليل وراء كل توصية.",
+        "اختتموا بإجراء واحد ومسؤول وموعد ومعيار إتمام.",
+        "أعيدوا النتيجة إلى الشخص المساعد وقارنوا القرار المحسن بالوقت والمال المبذولين."
+      ],
+      "advice": [
+        "تمرين مستقل: أعدوا ورقة للجلسة تتضمن الملاحظة والغموض والاقتراح والدليل المطلوب والمسؤول والموعد."
+      ]
+    }
+  },
   "Disconnecting Distraction": {
     "fa": {
       "paragraphs": [
