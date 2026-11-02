@@ -492,6 +492,36 @@ const articleCategories = [
 
 const articleCatalog = [
   {
+    "title": "The Python Paradox",
+    "category": "leadership",
+    "author": "Paul Graham",
+    "source": "Paul Graham",
+    "year": "2004",
+    "url": "https://paulgraham.com/pypar.html",
+    "tags": {
+      "fa": [
+        "استخدام فنی",
+        "شواهد مهارت",
+        "طراحی مصاحبه"
+      ],
+      "en": [
+        "technical hiring",
+        "skill evidence",
+        "interview design"
+      ],
+      "ar": [
+        "التوظيف التقني",
+        "أدلة المهارة",
+        "تصميم المقابلات"
+      ]
+    },
+    "summary": {
+      "fa": "برداشتی کوتاه از یک ایده تاریخی درباره انتخاب ابزار، همراه با تمرین مستقل برای طراحی مصاحبه فنی و ثبت شواهد مهارت.",
+      "en": "A brief adaptation of a historical idea about tool choice, with an independent exercise for designing technical interviews and recording evidence of skill.",
+      "ar": "معالجة موجزة لفكرة تاريخية عن اختيار الأدوات، مع تمرين مستقل لتصميم المقابلات التقنية وتسجيل أدلة المهارة."
+    }
+  },
+  {
     "title": "Why Startup Hubs Work",
     "category": "building",
     "author": "Paul Graham",
@@ -2080,6 +2110,64 @@ const articleCatalog = [
 ];
 
 const articleEssays = {
+  "The Python Paradox": {
+    "fa": {
+      "paragraphs": [
+        "مقاله در سال ۲۰۰۴ استدلال می‌کند که یادگیری داوطلبانه یک زبان کم‌تقاضا می‌تواند نشانه علاقه به برنامه‌نویسی باشد و انتخاب ابزار بر ترکیب متقاضیان استخدام اثر بگذارد. این ادعا را نباید به رتبه‌بندی امروز زبان‌ها تبدیل کرد. ادامه، تمرین مستقل تحریریه برای استخدام در یک تیم کوچک است؛ سناریو، امتیازدهی و مراحل مصاحبه از متن اصلی نقل نشده‌اند و باید متناسب با نقش آزمایش شوند.",
+        "فرض کنید یک شرکت نرم‌افزاری شش‌نفره برای نگهداری سامانه سفارش‌گیری به مهندس تازه نیاز دارد. مدیر فنی در آگهی نام هشت ابزار را نوشته، اما هنوز روشن نکرده فرد استخدام‌شده باید کدام مشکل را حل کند. پیش از انتشار آگهی، سه خروجی ماه اول را مشخص کنید: بازتولید یک خطای سفارش، افزودن بررسی ورودی و توضیح روش بازگشت یک تغییر. حالا برای هر خروجی بنویسید چه مهارتی از روز اول ضروری است و چه چیزی را می‌توان با همراهی تیم یاد گرفت. این تفکیک کمک می‌کند رزومه‌ها را با نیاز واقعی مقایسه کنید و فهرست ابزارها جای تعریف مسئولیت را نگیرد.",
+        "برای مصاحبه، نمونه‌ای ساختگی از ثبت سفارش تکراری آماده کنید: شرح کوتاه مسئله، چند گزارش خطا و قطعه‌ای کوچک از کد. از همه متقاضیان همان پرسش پایه را بپرسید: برای پیدا کردن علت، چه اطلاعات دیگری لازم دارید؟ سپس فرصت بدهید فرضیه بسازند، یک بررسی پیشنهاد کنند و محدودیت پاسخ خود را توضیح دهند. هدف این تمرین پیشنهادی، مشاهده مسیر تصمیم است. سرعت تایپ یا حفظ بودن دستور یک کتابخانه به‌تنهایی جواب مسئله استخدام نیست. پیشاپیش اعلام کنید چه منابع یا ابزارهای کمکی مجازند و در طول جلسه شرایط یکسانی فراهم کنید؛ اگر استفاده از ابزار کمکی آزاد است، از فرد بخواهید خروجی آن را بررسی و توجیه کند.",
+        "پیش از دیدن پاسخ‌ها، یک برگه ارزیابی کوتاه بسازید. برای این نقش می‌توان چهار محور گذاشت: روشن کردن ابهام، آزمودن فرضیه، تشخیص اثر تغییر و توضیح تصمیم برای همکار. کنار هر محور شاهد قابل مشاهده بنویسید؛ مثلاً فرد قبل از اصلاح کد بررسی کرد آیا دو درخواست شناسه یکسان دارند. ابتدا دو مصاحبه‌گر برداشت خود را جدا ثبت کنند و بعد درباره اختلاف‌ها حرف بزنند. امتیاز بدون شاهد فقط ظاهر دقیق به سلیقه می‌دهد. اگر کسی پاسخ متفاوتی ارائه کرد، آن را با شرایط مسئله بسنجید و از او بخواهید نشان دهد در چه وضعیتی راه‌حلش جواب نمی‌دهد.",
+        "نباید داشتن پروژه عمومی یا فعالیت شبانه را شرط اثبات مهارت قرار داد. متقاضی ممکن است سابقه مرتبطی داشته باشد که به‌دلیل محرمانگی قابل نمایش نیست، یا بیرون از ساعت کار مسئولیت دیگری داشته باشد. امکان شرح بی‌نام یک تجربه شغلی، تمرین کوتاه در جلسه یا ارائه نمونه غیرمحرمانه را فراهم کنید. برای کار طولانی‌تر، پیش از شروع درباره زمان و جبران خدمت توافق کنید و مسئله واقعی مشتری را به تکلیف رایگان تبدیل نکنید. در همان جلسه، شرایط شرکت را هم روشن توضیح دهید: حجم نگهداری، کیفیت مستندات، دسترسی به راهنما و مسئولیت پاسخ به خرابی. تصمیم استخدام به ارزیابی دوطرفه نیاز دارد.",
+        "پس از چند مصاحبه، کیفیت خود فرایند را مرور کنید: آیا سؤال‌ها تفاوت مرتبطی در پاسخ‌ها نشان دادند؟ آیا مصاحبه‌گران بر سر شواهد اختلاف داشتند یا تعریف نقش مبهم بود؟ پس از ورود فرد جدید، خروجی‌های ماه اول را همراه با میزان حمایت واقعی تیم بررسی کنید؛ تأخیر ناشی از نبود دسترسی را به ضعف فرد نسبت ندهید. چند استخدام برای اثبات اعتبار آماری روش کافی نیست، اما می‌تواند نقص روشن در سؤال یا آموزش اولیه را آشکار کند. یک نفر را مسئول اصلاح برگه و تعیین موعد بازبینی کنید تا مصاحبه بعدی از تجربه قبلی استفاده کند، بدون اینکه با هر سلیقه تازه کل معیارها عوض شوند."
+      ],
+      "takeaways": [
+        "پیش از نوشتن آگهی، سه خروجی ماه اول و مهارت ضروری هرکدام را مشخص کنید.",
+        "مهارت لازم در روز اول را از دانشی که تیم می‌تواند آموزش دهد جدا کنید.",
+        "برای همه متقاضیان یک مسئله پایه و قواعد روشن استفاده از ابزار فراهم کنید.",
+        "کنار هر امتیاز، رفتار یا پاسخ قابل مشاهده ثبت کنید و ارزیابی اولیه را مستقل انجام دهید.",
+        "برای نمایش مهارت، گزینه‌ای بدون نیاز به پروژه عمومی یا افشای اطلاعات کارفرمای قبلی بدهید.",
+        "با مرور مصاحبه و شروع کار، هم سؤال‌ها و هم کیفیت حمایت تیم را اصلاح کنید."
+      ],
+      "advice": [
+        "تمرین مستقل: برگه استخدام را با ستون‌های خروجی نقش، مهارت ضروری، سؤال، شاهد مشاهده‌شده و ابهام باقی‌مانده بسازید.",
+        "تمرین مستقل: پیش از مصاحبه بعدی، دو عضو تیم نمونه ساختگی را اجرا کنند و سؤال‌هایی را که پاسخ روشن ندارند اصلاح کنند."
+      ]
+    },
+    "en": {
+      "paragraphs": [
+        "The 2004 essay argues that voluntarily learning a language with little hiring demand can signal interest in programming, and that tool choices affect who applies. This is a historical argument, not a current ranking of languages. The following hiring scenario and assessment process are an independent editorial exercise, not instructions from the source.",
+        "Imagine a six-person software company hiring an engineer to maintain its ordering system. Before listing tools in a job advertisement, define three first-month outcomes: reproduce an order defect, add an input check, and explain how to reverse a change. Separate skills needed on arrival from knowledge the team can teach. Build a synthetic duplicate-order case with a short description, logs, and a small code sample. Give candidates the same starting question: what further information would you need? Let them propose a hypothesis, a check, and the limits of their answer. State the permitted reference materials and assistance tools beforehand. If assistance is allowed, ask candidates to verify and explain its output.",
+        "Create a rubric before seeing answers. For this exercise, assess clarification, hypothesis testing, awareness of change impact, and explanation to a colleague. Attach an observed behavior to every rating, such as checking whether two requests share an identifier before editing code. Have interviewers record their initial assessments separately, then discuss differences using those observations. Offer ways to demonstrate skill without public projects or confidential material: an anonymized work example, a short interview exercise, or a shareable sample. Agree on time and compensation before assigning longer work. Explain the actual maintenance load, documentation, mentoring, and incident responsibilities so the candidate can assess the role too.",
+        "Review whether the interviews produced relevant evidence or merely exposed an unclear role definition. After hiring, compare the first-month outcomes with the support the team actually supplied. Missing access and unavailable guidance are different from a skill gap. A few hires cannot validate a selection method statistically, but they can reveal a confusing question or a broken onboarding step. Assign an owner and review date for revisions. Keep a record of why a criterion changed so each interview benefits from the previous one without drifting with personal preferences."
+      ],
+      "takeaways": [
+        "Define first-month outcomes and distinguish essential skills from teachable knowledge.",
+        "Use a shared synthetic task and disclose which tools and resources are permitted.",
+        "Record observations beside ratings before interviewers compare assessments.",
+        "Offer alternatives to public portfolios and review onboarding support alongside performance."
+      ],
+      "advice": [
+        "Independent exercise: use columns for role outcome, essential skill, question, observed evidence, and remaining uncertainty."
+      ]
+    },
+    "ar": {
+      "paragraphs": [
+        "تطرح مقالة عام ٢٠٠٤ أن تعلم لغة قليلة الطلب الوظيفي طوعا قد يدل على الاهتمام بالبرمجة، وأن اختيار الأدوات يؤثر في المتقدمين للعمل. هذه حجة تاريخية وليست ترتيبا للغات اليوم. السيناريو وطريقة التقييم التالية تمرين تحريري مستقل، وليسا تعليمات من المصدر.",
+        "تخيلوا شركة برمجيات من ستة أشخاص توظف مهندسا لصيانة نظام الطلبات. قبل كتابة قائمة الأدوات في الإعلان، حددوا ثلاث نتائج للشهر الأول: إعادة إنتاج خلل في الطلب، وإضافة فحص للمدخلات، وشرح التراجع عن تعديل. افصلوا المهارات المطلوبة منذ البداية عن المعرفة التي يستطيع الفريق تعليمها. جهزوا حالة اصطناعية لطلب مكرر، مع وصف موجز وسجلات خطأ ومقطع صغير من الشيفرة. اطرحوا على الجميع السؤال الأول نفسه: ما المعلومات الإضافية اللازمة؟ امنحوا المتقدم فرصة لاقتراح فرضية وفحص وحدود للإجابة. وضحوا مسبقا المراجع وأدوات المساعدة المسموحة؛ وإذا سمحتم بالمساعدة فاطلبوا التحقق من مخرجاتها وتفسيرها.",
+        "ضعوا ورقة التقييم قبل رؤية الإجابات. لهذا التمرين يمكن تقييم توضيح الغموض واختبار الفرضية وفهم أثر التعديل وشرح القرار لزميل. سجلوا بجانب كل تقدير سلوكا مشاهدا، مثل التحقق من تطابق معرف طلبين قبل تغيير الشيفرة. ليكتب المقابلون تقييماتهم الأولية بصورة مستقلة ثم يناقشوا الفروق بالرجوع إلى الأدلة. أتيحوا عرض المهارة دون اشتراط مشروع علني أو كشف معلومات سرية: مثال مهني مجهول التفاصيل، أو تمرين قصير في الجلسة، أو نموذج قابل للمشاركة. اتفقوا على الوقت والتعويض قبل تكليف المتقدم بعمل أطول. واشرحوا حجم الصيانة وجودة التوثيق والإرشاد ومسؤولية الأعطال حتى يستطيع تقييم الوظيفة بدوره.",
+        "راجعوا هل أنتجت المقابلات أدلة مرتبطة بالعمل أم كشفت غموضا في تعريف الدور. بعد التوظيف، قارنوا نتائج الشهر الأول بالدعم الذي قدمه الفريق فعلا. غياب صلاحية الوصول أو المرشد يختلف عن نقص المهارة. لا تكفي بضعة تعيينات لإثبات صلاحية الطريقة إحصائيا، لكنها قد تكشف سؤالا مربكا أو خللا في التهيئة. عينوا مسؤولا وموعدا للمراجعة، وسجلوا سبب تعديل كل معيار. بهذه الطريقة تستفيد المقابلة التالية من السابقة دون أن تتبدل المقاييس مع كل تفضيل شخصي."
+      ],
+      "takeaways": [
+        "حددوا نتائج الشهر الأول وافصلوا المهارات الضرورية عن المعرفة القابلة للتعليم.",
+        "استخدموا مهمة اصطناعية مشتركة ووضحوا الموارد والأدوات المسموحة.",
+        "سجلوا السلوك المشاهد بجانب التقدير قبل مقارنة تقييمات المقابلين.",
+        "قدموا بدائل للمشاريع العلنية وراجعوا دعم التهيئة إلى جانب الأداء."
+      ],
+      "advice": [
+        "تمرين مستقل: أنشئوا أعمدة لنتيجة الدور والمهارة الضرورية والسؤال والدليل المشاهد والغموض المتبقي."
+      ]
+    }
+  },
   "Why Startup Hubs Work": {
     "fa": {
       "paragraphs": [

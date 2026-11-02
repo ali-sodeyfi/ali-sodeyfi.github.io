@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-27T05:50:00+03:30",
+  "updatedAt": "2026-11-02T05:53:19+03:30",
   "translations": {
     "fa": {
       "documentTitle": "علی سدیفی | یادداشت‌هایی درباره ساخت کسب‌وکار",
@@ -225,6 +225,55 @@
   "publishing": {
     "timezone": "Asia/Tehran",
     "queue": [
+      {
+        "id": "2026-11-02-site-the-python-paradox",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "the-python-paradox",
+        "publishAt": "2026-11-02T05:53:19+03:30",
+        "status": "published",
+        "publishedAt": "2026-11-02T05:53:19+03:30"
+      },
+      {
+        "id": "2026-11-02-linkedin-the-python-paradox",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "the-python-paradox",
+        "publishAt": "2026-11-02T12:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-11-02T05:53:19+03:30",
+        "note": "Draft/preview only. Verified account/API or session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "برای استخدام، شاهد مهارت ثبت کنید",
+          "en": "Record skill evidence when hiring",
+          "ar": "سجلوا أدلة المهارة عند التوظيف"
+        },
+        "body": {
+          "fa": "تصمیم استخدام به شاهد مرتبط با نقش نیاز دارد.\nپیامد: فهرست ابزارهای رزومه برای مقایسه متقاضیان کافی نیست.\nاقدام بعدی: سه خروجی ماه اول را مشخص کنید و برای هرکدام یک سؤال و شاهد قابل مشاهده بنویسید.\nPaul Graham — https://paulgraham.com/pypar.html\nhttps://alisodeyfi.ir/articles/the-python-paradox/fa/#daily-article-reader",
+          "en": "A hiring decision needs evidence tied to the role.\nImplication: a resume tool list is insufficient for comparing candidates.\nNext action: define three first-month outcomes and write a question and observable evidence for each.\nPaul Graham — https://paulgraham.com/pypar.html\nhttps://alisodeyfi.ir/articles/the-python-paradox/en/#daily-article-reader",
+          "ar": "قرار التوظيف يحتاج إلى دليل مرتبط بالدور.\nالأثر: قائمة الأدوات في السيرة لا تكفي لمقارنة المتقدمين.\nالخطوة التالية: حددوا ثلاث نتائج للشهر الأول وسؤالا ودليلا مشاهدا لكل منها.\nPaul Graham — https://paulgraham.com/pypar.html\nhttps://alisodeyfi.ir/articles/the-python-paradox/ar/#daily-article-reader"
+        }
+      },
+      {
+        "id": "2026-11-02-instagram-story-the-python-paradox",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "the-python-paradox",
+        "publishAt": "2026-11-02T20:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-11-02T05:53:19+03:30",
+        "note": "Draft/preview only. Verified account/API or session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "برای استخدام، شاهد مهارت ثبت کنید",
+          "en": "Record skill evidence when hiring",
+          "ar": "سجلوا أدلة المهارة عند التوظيف"
+        },
+        "body": {
+          "fa": "اسلاید ۱: استخدام به شاهد مهارت نیاز دارد.\nاسلاید ۲: سه خروجی ماه اول؛ برای هرکدام یک سؤال و شاهد.\nاسلاید ۳: مقاله و تمرین مستقل\nPaul Graham — https://paulgraham.com/pypar.html\nhttps://alisodeyfi.ir/articles/the-python-paradox/fa/#daily-article-reader",
+          "en": "Slide 1: hiring needs evidence of skill.\nSlide 2: three first-month outcomes; a question and evidence for each.\nSlide 3: article and independent exercise\nPaul Graham — https://paulgraham.com/pypar.html\nhttps://alisodeyfi.ir/articles/the-python-paradox/en/#daily-article-reader",
+          "ar": "الشريحة ١: التوظيف يحتاج إلى دليل مهارة.\nالشريحة ٢: ثلاث نتائج للشهر الأول؛ سؤال ودليل لكل منها.\nالشريحة ٣: المقالة والتمرين المستقل\nPaul Graham — https://paulgraham.com/pypar.html\nhttps://alisodeyfi.ir/articles/the-python-paradox/ar/#daily-article-reader"
+        }
+      },
       {
         "id": "2026-11-01-site-why-startup-hubs-work",
         "channel": "site",
