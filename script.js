@@ -492,6 +492,36 @@ const articleCategories = [
 
 const articleCatalog = [
   {
+    "title": "Frighteningly Ambitious Startup Ideas",
+    "category": "ideas",
+    "author": "Paul Graham",
+    "source": "Paul Graham",
+    "year": "2012",
+    "url": "https://paulgraham.com/ambitious.html",
+    "tags": {
+      "fa": [
+        "انتخاب مسئله",
+        "آزمون تقاضا",
+        "دامنه محصول"
+      ],
+      "en": [
+        "problem selection",
+        "demand testing",
+        "product scope"
+      ],
+      "ar": [
+        "اختيار المشكلة",
+        "اختبار الطلب",
+        "نطاق المنتج"
+      ]
+    },
+    "summary": {
+      "fa": "برداشت کوتاه از ایده مقاله، همراه با تمرین مستقل برای ارزیابی یک پایلوت خدماتی، هزینه اجرای آن و تصمیم ادامه یا توقف.",
+      "en": "A brief adaptation with an independent exercise for evaluating a service pilot, its delivery costs, and a decision to continue or stop.",
+      "ar": "معالجة موجزة مع تمرين مستقل لتقييم تجربة خدمية وتكلفة تنفيذها واتخاذ قرار الاستمرار أو التوقف."
+    }
+  },
+  {
     "title": "The Python Paradox",
     "category": "leadership",
     "author": "Paul Graham",
@@ -2110,6 +2140,66 @@ const articleCatalog = [
 ];
 
 const articleEssays = {
+  "Frighteningly Ambitious Startup Ideas": {
+    "fa": {
+      "paragraphs": [
+        "مقاله سال ۲۰۱۲ می‌گوید بزرگی یک فرصت ممکن است بنیان‌گذار را بترساند؛ شروع محدود می‌تواند راه ورود باشد، بدون اینکه آینده دقیقاً قابل پیش‌بینی باشد. ادامه، تمرین مستقل تحریریه است: سناریو، معیارها و مراحل پیشنهادی از متن اصلی نقل نشده‌اند.",
+        "فرض کنید تیمی سه‌نفره می‌خواهد خطاهای هماهنگی میان فروش و انبار را کاهش دهد. مشتری بالقوه از گم‌شدن درخواست‌ها شکایت دارد، اما هنوز معلوم نیست این مشکل به‌اندازه کافی تکرار می‌شود که کسی برای رفع آن هزینه کند. پیش از ساخت محصول، از مسئول عملیات بخواهید سه مورد اخیر را با ترتیب رخدادها توضیح دهد: درخواست از کجا آمد، چه کسی باید آن را تحویل می‌گرفت و چه چیزی دوباره انجام شد. فقط شرح فرایند و داده‌های لازم را ثبت کنید. خروجی جلسه باید یک مسئله مشخص باشد، مثلاً سفارش آماده است اما فروش از زمان تحویل خبر ندارد؛ عبارت کلی «هماهنگی ضعیف است» هنوز برای طراحی آزمون کافی نیست.",
+        "برای همین مسئله، یک پایلوت دو هفته‌ای با یک انبار و یک مسئول فروش پیشنهاد کنید. این بازه نسخه پیشنهادی تمرین است و بسته به تعداد سفارش‌ها باید تغییر کند. خدمت اولیه می‌تواند یک گزارش مشترک از وضعیت سفارش‌های همان روز باشد که تیم آن را با ابزار موجود آماده می‌کند. پیشاپیش بنویسید چه سفارش‌هایی پوشش داده می‌شوند، چه ساعتی گزارش آماده است و چه کسی خطای آن را اصلاح می‌کند. لازم نیست در این مرحله همه سامانه‌ها را به هم متصل کنید، اما مسئولیت تحویل و مرز خدمت باید روشن باشد. اگر مشتری انتظار پشتیبانی شبانه‌روزی دارد، همان ابتدا مشخص کنید تیم واقعاً چه پوششی می‌تواند ارائه کند.",
+        "قبل از شروع، وضع موجود را اندازه بگیرید. در چند روز کاری مشابه، زمان صرف‌شده برای پیگیری سفارش و تعداد موارد بی‌پاسخ را ثبت کنید. در پایلوت هم همان تعریف و همان روش ثبت را نگه دارید؛ اگر حجم کار عوض شد، آن را کنار نتیجه بنویسید. از مشتری بپرسید برای ادامه چه تعهدی می‌پذیرد: زمان یک مسئول، دسترسی مشخص یا یک قرارداد محدود با قیمت روشن. تعریف و تمجید از ایده جای این تعهد را نمی‌گیرد. کاهش زمان پیگیری هم به‌تنهایی اثبات خرید نیست؛ ممکن است کسی از گزارش استفاده کند ولی بودجه یا اختیار ادامه همکاری را نداشته باشد.",
+        "هزینه پشت صحنه را جدا ثبت کنید. اگر گزارش روزانه نیم ساعت از وقت مشتری کم کند ولی سه ساعت کار پنهان تیم بخواهد، هنوز یک خدمت قابل تکرار ساخته نشده است. این نتیجه لزوماً به معنی توقف فوری نیست؛ شاید بررسی دستیِ یک بخش فقط برای یادگیری لازم بوده باشد. کارها را به سه دسته تقسیم کنید: یادگیری موقت، فعالیت تکراری قابل ساده‌سازی و استثنایی که همیشه به نیروی انسانی نیاز دارد. سپس برآورد کنید با چند مشتری مشابه چه میزان زمان لازم می‌شود. تا وقتی معلوم نیست کدام هزینه حذف می‌شود، قیمت آینده را بر پایه خودکارسازی فرضی تعیین نکنید.",
+        "در پایان، تصمیم را با شواهد همان پایلوت بنویسید: ادامه با همین دامنه، اصلاح یک بخش یا توقف. برای نمونه، اگر مسئول فروش گزارش را مرتب می‌بیند اما همچنان برای هر سفارش تماس می‌گیرد، بپرسید چه اطلاعاتی برای تصمیم کم است؛ افزودن مشتری تازه پیش از حل این ابهام می‌تواند فقط حجم پیگیری را بیشتر کند. اگر ادامه می‌دهید، یک مسئول و یک موعد برای بررسی بعدی تعیین کنید و فقط یک تغییر مهم در خدمت بدهید تا اثر آن قابل مشاهده بماند. نتیجه یک انبار را به کل بازار تعمیم ندهید. این تمرین باید تصمیم بعدی را روشن کند، نه اینکه موفقیت نهایی شرکت را تضمین‌شده نشان دهد."
+      ],
+      "takeaways": [
+        "سه رخداد واقعی و اخیر را بررسی کنید تا مسئله از یک شکایت کلی به یک کار مشخص تبدیل شود.",
+        "برای پایلوت، مشتری، سفارش‌های تحت پوشش، زمان تحویل و مسئول اصلاح خطا را بنویسید.",
+        "روش اندازه‌گیری را پیش از اجرا مشخص کنید و تغییر حجم کار را کنار نتیجه ثبت کنید.",
+        "برای ادامه همکاری، تعهد مشخص بخواهید و اختیار تصمیم‌گیرنده را روشن کنید.",
+        "زمان اجرای دستی را ثبت کنید و هزینه موقت یادگیری را از هزینه تکرارشونده جدا نگه دارید.",
+        "پایان پایلوت را به تصمیم ادامه، اصلاح یا توقف با مسئول و موعد روشن تبدیل کنید."
+      ],
+      "advice": [
+        "تمرین مستقل: یک برگه با ستون‌های مسئله، دامنه خدمت، وضع موجود، نتیجه، تعهد مشتری و هزینه اجرا بسازید.",
+        "تمرین مستقل: پیش از شروع، با مشتری توافق کنید چه نتیجه‌ای ادامه پایلوت را توجیه می‌کند و در چه تاریخی آن را بررسی می‌کنید."
+      ]
+    },
+    "en": {
+      "paragraphs": [
+        "The 2012 essay suggests that large opportunities can intimidate founders and that a limited starting point can open a path without a precise forecast of the future. The scenario, measurements, and pilot process below are an independent editorial exercise.",
+        "Imagine a three-person team investigating coordination failures between sales and a warehouse. Ask an operations manager to reconstruct three recent incidents: where the request arrived, who needed to receive it, and what work was repeated. Turn the complaint into a specific task, such as telling sales when an order is ready. Offer a two-week pilot covering one warehouse and one sales contact, adjusting the duration to the order volume. A shared daily status report prepared with existing tools may be enough for this exercise. Agree on covered orders, delivery time, support availability, and responsibility for corrections before starting.",
+        "Record the existing time spent chasing orders and the number of unanswered requests during comparable working days. Use the same definitions during the pilot and note changes in workload. Ask what commitment the customer can make to continue: an assigned owner, defined access, or a limited paid agreement. Praise and time savings alone do not establish a buying decision; the person using the report may lack budget authority. Track the team’s delivery effort separately. Divide it into temporary learning, recurring work that could be simplified, and exceptions that will continue to require a person. Do not base future pricing on automation that has not been demonstrated.",
+        "At the review, choose whether to continue within the current scope, change one part, or stop. If sales reads the report but still calls about every order, investigate the missing information before adding another customer. Give the next decision an owner and a date, and change one important element at a time so its effect remains observable. Results from one warehouse do not establish demand across a market. The purpose of this exercise is to make the next operating decision concrete, including the possibility that the service is too expensive to deliver."
+      ],
+      "takeaways": [
+        "Reconstruct recent incidents and define the exact task the pilot will cover.",
+        "Agree on scope, delivery, corrections, and review criteria before starting.",
+        "Measure customer outcomes and team delivery effort separately.",
+        "Seek a concrete continuation commitment and identify who can authorize it.",
+        "End with a documented continue, change, or stop decision and a review owner."
+      ],
+      "advice": [
+        "Independent exercise: record the problem, scope, baseline, result, customer commitment, and delivery cost on one sheet."
+      ]
+    },
+    "ar": {
+      "paragraphs": [
+        "تقترح مقالة عام ٢٠١٢ أن الفرص الكبيرة قد تخيف المؤسسين، وأن بداية محدودة تفتح مسارا دون معرفة دقيقة بالمستقبل. السيناريو والمقاييس وخطوات التجربة التالية تمرين تحريري مستقل، وليست تعليمات من المصدر.",
+        "تخيلوا فريقا من ثلاثة أشخاص يدرس أخطاء التنسيق بين المبيعات والمستودع. اطلبوا من مسؤول العمليات وصف ثلاث وقائع حديثة: أين وصل الطلب، ومن كان يجب أن يستلمه، وما العمل الذي تكرر؟ حولوا الشكوى إلى مهمة محددة، مثل إبلاغ المبيعات بموعد جاهزية الطلب. اقترحوا تجربة لمدة أسبوعين مع مستودع واحد ومسؤول مبيعات واحد، وعدلوا المدة حسب حجم الطلبات. يمكن أن تكون الخدمة تقريرا يوميا مشتركا يعده الفريق بالأدوات المتاحة. حددوا الطلبات المشمولة وموعد التسليم وساعات الدعم ومسؤول تصحيح الخطأ قبل البدء، حتى تكون حدود الخدمة مفهومة للطرفين.",
+        "سجلوا الوقت المستخدم في متابعة الطلبات وعدد الاستفسارات التي لم تتلق جوابا خلال أيام عمل متقاربة في ظروفها. استخدموا التعريفات نفسها أثناء التجربة، وسجلوا أي تغير في حجم العمل. اسألوا العميل عن التزام ملموس للاستمرار: مسؤول مخصص، أو صلاحية وصول محددة، أو اتفاق مدفوع محدود. الإعجاب بالفكرة وتوفير الوقت لا يكفيان لإثبات قرار شراء؛ فقد لا يملك مستخدم التقرير سلطة الإنفاق. سجلوا جهد الفريق بشكل منفصل، وقسموه إلى تعلم مؤقت، وعمل متكرر قابل للتبسيط، وحالات استثنائية ستظل تحتاج إلى شخص. لا تحددوا سعرا مستقبليا على أساس أتمتة لم تثبت بعد.",
+        "في موعد المراجعة، اختاروا الاستمرار بالنطاق نفسه أو تعديل جزء واحد أو التوقف. إذا قرأ مسؤول المبيعات التقرير لكنه ظل يتصل بشأن كل طلب، ابحثوا عن المعلومات الناقصة قبل إضافة عميل آخر. حددوا مسؤولا وموعدا للقرار التالي، وغيروا عنصرا مهما واحدا في كل مرة حتى يمكن ملاحظة أثره. تجربة مستودع واحد لا تثبت وجود طلب في السوق كله. وظيفة هذا التمرين هي توضيح القرار التشغيلي المقبل، بما في ذلك احتمال أن تكون تكلفة تقديم الخدمة أعلى مما يبرر استمرارها."
+      ],
+      "takeaways": [
+        "راجعوا وقائع حديثة وحددوا المهمة الدقيقة التي ستغطيها التجربة.",
+        "اتفقوا مسبقا على النطاق والتسليم وتصحيح الأخطاء ومعايير المراجعة.",
+        "قيسوا نتيجة العميل وجهد التنفيذ لدى الفريق بشكل منفصل.",
+        "اطلبوا التزاما ملموسا للاستمرار وحددوا صاحب صلاحية الموافقة.",
+        "اختموا بقرار موثق للاستمرار أو التعديل أو التوقف، مع مسؤول وموعد للمراجعة."
+      ],
+      "advice": [
+        "تمرين مستقل: سجلوا المشكلة والنطاق والوضع السابق والنتيجة والتزام العميل وتكلفة التنفيذ في ورقة واحدة."
+      ]
+    }
+  },
   "The Python Paradox": {
     "fa": {
       "paragraphs": [

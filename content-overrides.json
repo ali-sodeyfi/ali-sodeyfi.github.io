@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-02T05:53:19+03:30",
+  "updatedAt": "2026-11-03T05:49:30+03:30",
   "translations": {
     "fa": {
       "documentTitle": "علی سدیفی | یادداشت‌هایی درباره ساخت کسب‌وکار",
@@ -225,6 +225,55 @@
   "publishing": {
     "timezone": "Asia/Tehran",
     "queue": [
+      {
+        "id": "2026-11-03-site-frighteningly-ambitious-startup-ideas",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "frighteningly-ambitious-startup-ideas",
+        "publishAt": "2026-11-03T05:49:30+03:30",
+        "status": "published",
+        "publishedAt": "2026-11-03T05:49:30+03:30"
+      },
+      {
+        "id": "2026-11-03-linkedin-frighteningly-ambitious-startup-ideas",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "frighteningly-ambitious-startup-ideas",
+        "publishAt": "2026-11-03T12:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-11-03T05:49:30+03:30",
+        "note": "Draft/preview only. Verified account/API or session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "پایلوت را با یک تصمیم مشخص تمام کنید",
+          "en": "End a pilot with a concrete decision",
+          "ar": "اختموا التجربة بقرار محدد"
+        },
+        "body": {
+          "fa": "پایلوت باید تصمیم بعدی را روشن کند.\nپیامد: رضایت مشتری بدون ثبت هزینه اجرا برای تصمیم ادامه کافی نیست.\nاقدام بعدی: پیش از شروع، معیار ادامه، مسئول بررسی و موعد تصمیم را بنویسید.\nPaul Graham — https://paulgraham.com/ambitious.html\nhttps://alisodeyfi.ir/articles/frighteningly-ambitious-startup-ideas/fa/#daily-article-reader",
+          "en": "A pilot should clarify the next decision.\nImplication: customer satisfaction without delivery-cost evidence is insufficient for deciding to continue.\nNext action: agree on continuation criteria, a review owner, and a decision date before starting.\nPaul Graham — https://paulgraham.com/ambitious.html\nhttps://alisodeyfi.ir/articles/frighteningly-ambitious-startup-ideas/en/#daily-article-reader",
+          "ar": "التجربة يجب أن توضح القرار التالي.\nالأثر: رضا العميل دون معرفة تكلفة التنفيذ لا يكفي لقرار الاستمرار.\nالخطوة التالية: حددوا معيار الاستمرار ومسؤول المراجعة وموعد القرار قبل البدء.\nPaul Graham — https://paulgraham.com/ambitious.html\nhttps://alisodeyfi.ir/articles/frighteningly-ambitious-startup-ideas/ar/#daily-article-reader"
+        }
+      },
+      {
+        "id": "2026-11-03-instagram-story-frighteningly-ambitious-startup-ideas",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "frighteningly-ambitious-startup-ideas",
+        "publishAt": "2026-11-03T20:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-11-03T05:49:30+03:30",
+        "note": "Draft/preview only. Verified account/API or session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "پایلوت را با یک تصمیم مشخص تمام کنید",
+          "en": "End a pilot with a concrete decision",
+          "ar": "اختموا التجربة بقرار محدد"
+        },
+        "body": {
+          "fa": "اسلاید ۱: پایلوت باید به یک تصمیم برسد.\nاسلاید ۲: نتیجه مشتری و هزینه اجرا را جدا ثبت کنید؛ موعد تصمیم را از ابتدا تعیین کنید.\nاسلاید ۳: مقاله و تمرین مستقل\nPaul Graham — https://paulgraham.com/ambitious.html\nhttps://alisodeyfi.ir/articles/frighteningly-ambitious-startup-ideas/fa/#daily-article-reader",
+          "en": "Slide 1: A pilot should end in a decision.\nSlide 2: Track customer results and delivery costs separately; set the decision date at the start.\nSlide 3: Essay and independent exercise\nPaul Graham — https://paulgraham.com/ambitious.html\nhttps://alisodeyfi.ir/articles/frighteningly-ambitious-startup-ideas/en/#daily-article-reader",
+          "ar": "الشريحة ١: التجربة يجب أن تنتهي بقرار.\nالشريحة ٢: سجلوا نتيجة العميل وتكلفة التنفيذ منفصلتين وحددوا موعد القرار مسبقا.\nالشريحة ٣: المقالة والتمرين المستقل\nPaul Graham — https://paulgraham.com/ambitious.html\nhttps://alisodeyfi.ir/articles/frighteningly-ambitious-startup-ideas/ar/#daily-article-reader"
+        }
+      },
       {
         "id": "2026-11-02-site-the-python-paradox",
         "channel": "site",
