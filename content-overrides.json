@@ -226,6 +226,55 @@
     "timezone": "Asia/Tehran",
     "queue": [
       {
+        "id": "2026-11-04-site-hiring-is-obsolete",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "hiring-is-obsolete",
+        "publishAt": "2026-11-04T05:45:10+03:30",
+        "status": "published",
+        "publishedAt": "2026-11-04T05:45:10+03:30"
+      },
+      {
+        "id": "2026-11-04-linkedin-hiring-is-obsolete",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "hiring-is-obsolete",
+        "publishAt": "2026-11-04T12:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-11-04T05:45:10+03:30",
+        "note": "Draft/preview only. Verified account/API or session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "توان تیم را با شواهد تحویل نشان دهید",
+          "en": "Show team capability through delivery evidence",
+          "ar": "أظهروا قدرة الفريق بأدلة التسليم"
+        },
+        "body": {
+          "fa": "ادعای توان تیم باید قابل بررسی باشد.\nپیامد: نمایش موفق، کیفیت اصلاح خطا و تحویل کار را نشان نمی‌دهد.\nاقدام بعدی: برای یک مسیر محصول، معیار پذیرش، یک خطای اصلاح‌شده و محدودیت باقی‌مانده را ثبت کنید.\nPaul Graham — https://paulgraham.com/hiring.html\nhttps://alisodeyfi.ir/articles/hiring-is-obsolete/fa/#daily-article-reader",
+          "en": "A claim about team capability should be inspectable.\nImplication: a successful demo does not show error recovery or handover quality.\nNext action: document acceptance criteria, one resolved failure, and a remaining limitation for one workflow.\nPaul Graham — https://paulgraham.com/hiring.html\nhttps://alisodeyfi.ir/articles/hiring-is-obsolete/en/#daily-article-reader",
+          "ar": "ادعاء قدرة الفريق يجب أن يكون قابلا للفحص.\nالأثر: العرض الناجح لا يوضح جودة إصلاح الأخطاء أو تسليم العمل.\nالخطوة التالية: وثقوا شروط القبول وخللا جرى إصلاحه وحدا باقيا لمسار واحد.\nPaul Graham — https://paulgraham.com/hiring.html\nhttps://alisodeyfi.ir/articles/hiring-is-obsolete/ar/#daily-article-reader"
+        }
+      },
+      {
+        "id": "2026-11-04-instagram-story-hiring-is-obsolete",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "hiring-is-obsolete",
+        "publishAt": "2026-11-04T20:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-11-04T05:45:10+03:30",
+        "note": "Draft/preview only. Verified account/API or session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "توان تیم را با شواهد تحویل نشان دهید",
+          "en": "Show team capability through delivery evidence",
+          "ar": "أظهروا قدرة الفريق بأدلة التسليم"
+        },
+        "body": {
+          "fa": "اسلاید ۱: توان تیم به شاهد قابل بررسی نیاز دارد.\nاسلاید ۲: نمایش موفق کافی نیست؛ یک خطای اصلاح‌شده و یک محدودیت را ثبت کنید.\nاسلاید ۳: مقاله و تمرین مستقل\nPaul Graham — https://paulgraham.com/hiring.html\nhttps://alisodeyfi.ir/articles/hiring-is-obsolete/fa/#daily-article-reader",
+          "en": "Slide 1: Team capability needs inspectable evidence.\nSlide 2: A demo is insufficient; record one resolved failure and one limitation.\nSlide 3: Essay and independent exercise\nPaul Graham — https://paulgraham.com/hiring.html\nhttps://alisodeyfi.ir/articles/hiring-is-obsolete/en/#daily-article-reader",
+          "ar": "الشريحة ١: قدرة الفريق تحتاج إلى دليل قابل للفحص.\nالشريحة ٢: العرض وحده لا يكفي؛ وثقوا خللا أصلحتموه وحدا باقيا.\nالشريحة ٣: المقالة والتمرين المستقل\nPaul Graham — https://paulgraham.com/hiring.html\nhttps://alisodeyfi.ir/articles/hiring-is-obsolete/ar/#daily-article-reader"
+        }
+      },
+      {
         "id": "2026-11-03-site-frighteningly-ambitious-startup-ideas",
         "channel": "site",
         "target": "site",

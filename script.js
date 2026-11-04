@@ -492,6 +492,36 @@ const articleCategories = [
 
 const articleCatalog = [
   {
+    "title": "Hiring is Obsolete",
+    "category": "building",
+    "author": "Paul Graham",
+    "source": "Paul Graham",
+    "year": "2005",
+    "url": "https://paulgraham.com/hiring.html",
+    "tags": {
+      "fa": [
+        "شواهد توان تیم",
+        "تحویل محصول",
+        "تیم تازه‌کار"
+      ],
+      "en": [
+        "team capability",
+        "product delivery",
+        "new teams"
+      ],
+      "ar": [
+        "قدرة الفريق",
+        "تسليم المنتج",
+        "فرق جديدة"
+      ]
+    },
+    "summary": {
+      "fa": "برداشت کوتاه از مقاله، همراه با تمرین مستقل برای ثبت شواهد توان یک تیم تازه‌کار در تحویل و نگهداری محصول.",
+      "en": "A brief adaptation with an independent exercise for documenting how a new team delivers and maintains a product.",
+      "ar": "معالجة موجزة مع تمرين مستقل لتوثيق قدرة فريق جديد على تسليم منتج وصيانته."
+    }
+  },
+  {
     "title": "Frighteningly Ambitious Startup Ideas",
     "category": "ideas",
     "author": "Paul Graham",
@@ -2140,6 +2170,66 @@ const articleCatalog = [
 ];
 
 const articleEssays = {
+  "Hiring is Obsolete": {
+    "fa": {
+      "paragraphs": [
+        "مقاله سال ۲۰۰۵ استدلال می‌کند که محصول واقعی می‌تواند توان سازندگان جوان را بهتر از سابقه شغلی آشکار کند؛ خرید یک استارتاپ هم گاهی راه جذب همان تیم است. ادامه، تمرین مستقل تحریریه درباره ثبت شواهد توان تیم است؛ سناریو و روش پیشنهادی از متن اصلی نقل نشده‌اند.",
+        "فرض کنید دو هم‌بنیان‌گذار کم‌سابقه ابزاری برای مدیریت رزرو یک کارگاه آموزشی ساخته‌اند. نمایش ثبت یک رزرو در جلسه معرفی آسان است، اما اداره یک روز شلوغ پرسش‌های دیگری دارد: اگر دو نفر هم‌زمان آخرین ظرفیت را بخواهند چه می‌شود؟ اگر مسئول کارگاه ثبت اشتباهی انجام دهد چگونه آن را اصلاح می‌کند؟ برای نشان‌دادن توان تیم، یک مسیر کامل از درخواست تا تأیید و اصلاح انتخاب کنید. دامنه را به یک نوع کلاس و یک مسئول محدود کنید تا بتوانید رفتار محصول را دقیق ببینید. در این تمرین، خروجی مورد انتظار یک مسیر قابل بررسی است؛ افزودن تقویم زیبا یا ده قابلیت تازه هنوز اولویت ندارد.",
+        "پیش از اجرا، یک برگه پذیرش بنویسید و مسئول کارگاه آن را مرور کند. برای مثال، درخواست تکراری نباید دو صندلی بگیرد، پرشدن ظرفیت باید به کاربر اعلام شود و لغو رزرو باید وضعیت صندلی را روشن کند. برای هر مورد، ورودی و نتیجه مورد انتظار را ثبت کنید و ابتدا با داده ساختگی امتحان کنید. سپس با توافق کارگاه، دامنه محدودی را در محیط واقعی اجرا کنید و روش جایگزین هنگام خرابی را آماده نگه دارید. تعداد کم رزروها را پنهان نکنید؛ گذراندن چند نمونه فقط همان رفتارهای آزموده‌شده را نشان می‌دهد و هنوز درباره تحمل بار بالا چیزی ثابت نمی‌کند.",
+        "در طول اجرا، هر اختلال را به یک یادداشت کوتاه تبدیل کنید: چه اتفاقی افتاد، چه کسی متوجه شد، اثر آن چه بود و تیم چه تغییری داد. اگر کاربر دوباره تماس گرفت، مشخص کنید علت ابهام متن بود یا خطای ثبت وضعیت. فقط تصویر نسخه نهایی را نگه ندارید؛ تفاوت قبل و بعد، همراه با توضیح تصمیم، نشان می‌دهد تیم چگونه با مسئله مواجه شده است. در گزارش قابل اشتراک، نام و اطلاعات تماس مشتری را حذف کنید و برای نمایش هر نمونه واقعی اجازه بگیرید. شواهد مفید باید تصمیم فنی و نتیجه آن را قابل فهم کند، نه اینکه اطلاعات مشتری را به ابزار تبلیغ تبدیل کند.",
+        "توان تیم با جمع‌کردن نمونه‌های موفق کامل نمی‌شود؛ وابستگی‌های پنهان را هم بررسی کنید. یک بار از هم‌بنیان‌گذاری که آن بخش را ننوشته بخواهید با راهنمای موجود نسخه آزمایشی را راه‌اندازی کند و یک رزرو خطادار را اصلاح کند. هرجا مجبور شد از سازنده اصلی توضیح شفاهی بگیرد، یک شکاف در تحویل کار پیدا شده است. راهنما را همان‌جا اصلاح کنید و مسئول پاسخ‌گویی به خرابی را روشن بنویسید. این تمرین پیشنهادی را در محیط آزمایشی انجام دهید. هدف آن دیدن کیفیت انتقال دانش است، نه ایجاد اختلال برای مشتری یا تبدیل سرعت فردی به معیار ارزش همکار.",
+        "در پایان دوره‌ای که از قبل تعیین کرده‌اید، یک پرونده کوتاه بسازید: مسئله، دامنه، معیار پذیرش، نمونه خطای اصلاح‌شده، محدودیت باقی‌مانده و تصمیم بعدی. اگر ظرفیت گاهی اشتباه محاسبه می‌شود، قدم بعدی رفع همان خطاست؛ اگر مسیر پایدار است ولی کارگاه از آن استفاده نمی‌کند، دلیل کنارگذاشتن آن را بررسی کنید. ادعای «تیم می‌تواند محصول را اداره کند» باید به این شواهد محدود و قابل بازبینی متکی باشد. این پرونده برای گفت‌وگو با همکار یا مشتری بعدی زمینه می‌دهد، اما تضمین قرارداد، سرمایه‌گذاری یا خرید شرکت نیست. مسئول و موعد بررسی بعدی را مشخص کنید تا پرونده با تغییر محصول به‌روز بماند."
+      ],
+      "takeaways": [
+        "یک مسیر کامل شامل درخواست، تأیید و اصلاح را انتخاب کنید و دامنه آن را محدود بنویسید.",
+        "معیار پذیرش را با مسئول استفاده از محصول مرور کنید و موارد شکست را هم در آن بیاورید.",
+        "پیش از اجرای محدود واقعی، حالت‌های تکرار درخواست، تکمیل ظرفیت و لغو را با داده ساختگی بررسی کنید.",
+        "برای هر اختلال، اثر، تغییر انجام‌شده و نتیجه قابل مشاهده را ثبت کنید.",
+        "تحویل کار را با راه‌اندازی نسخه آزمایشی توسط همکار دیگر بسنجید و شکاف‌های راهنما را اصلاح کنید.",
+        "در پرونده توان تیم، محدودیت‌ها و تصمیم بعدی را کنار نمونه‌های موفق نشان دهید."
+      ],
+      "advice": [
+        "تمرین مستقل: برای هر ادعای توانمندی، یک شاهد، یک محدودیت و تاریخ آخرین بررسی ثبت کنید.",
+        "تمرین مستقل: یک نمونه خطا را بدون اطلاعات هویتی مشتری بنویسید؛ همکار دیگری باید بتواند تصمیم و نتیجه را از روی آن توضیح دهد."
+      ]
+    },
+    "en": {
+      "paragraphs": [
+        "The 2005 essay argues that a working product can reveal young builders’ abilities better than employment history, and that acquiring a startup can also recruit its team. The following scenario and evidence process are an independent editorial exercise, not a process quoted from the essay.",
+        "Imagine two first-time founders building a booking tool for a workshop. A successful demonstration does not show what happens when two people request the last seat or an administrator corrects a mistake. Choose one complete path from request through confirmation and correction, restricted to one class type and one operator. Write acceptance criteria with that operator: a repeated request must not consume another seat, a full class must be identified, and cancellation must leave a clear capacity state. Check these cases using synthetic data before a limited live trial agreed with the workshop. Prepare a fallback procedure and state how few bookings were tested; those results say nothing yet about heavy traffic.",
+        "During the trial, record each failure, its effect, the change made, and the observed result. If someone calls again, distinguish confusing wording from an incorrect booking state. Preserve a short explanation of the decision alongside the before-and-after behavior. Remove customer names and contact details from anything shared, and obtain permission for real examples. Then ask the cofounder who did not build a component to start the test version and correct a faulty booking using the written instructions. Each need for an oral explanation identifies a handover gap. Fix the instructions and assign responsibility for responding to failures; do this exercise in a test environment.",
+        "At an agreed review date, assemble a small evidence file: problem, scope, acceptance criteria, one resolved failure, remaining limits, and the next decision. Incorrect capacity calls for a reliability fix; a stable workflow that nobody uses calls for an investigation into abandonment. The file supports a specific claim about what the team has demonstrated, with its limits attached. It can inform the next collaborator or customer conversation without promising a contract, investment, or acquisition. Give the file an owner and a review date so it remains useful as the product changes."
+      ],
+      "takeaways": [
+        "Define one complete workflow, including correction, and agree on acceptance criteria.",
+        "Test repeated requests, full capacity, and cancellations before a limited live trial.",
+        "Record failures, decisions, and outcomes without exposing customer identities.",
+        "Check handover by having another teammate follow the test-environment instructions.",
+        "Attach limits, an owner, and a next decision to the evidence file."
+      ],
+      "advice": [
+        "Independent exercise: connect each capability claim to one observation, one limitation, and a review date."
+      ]
+    },
+    "ar": {
+      "paragraphs": [
+        "تطرح مقالة عام ٢٠٠٥ أن المنتج العامل قد يكشف قدرة المطورين الشباب أكثر من سجلهم الوظيفي، وأن شراء شركة ناشئة قد يكون أيضا وسيلة لضم فريقها. السيناريو وطريقة التوثيق التالية تمرين تحريري مستقل، وليسا إجراء منقولا من المقالة.",
+        "لنتخيل مؤسسين جديدين يبنيان أداة لحجز مقاعد ورشة تعليمية. نجاح عرض حجز واحد لا يوضح ما يحدث عندما يطلب شخصان المقعد الأخير أو يصحح المسؤول خطأ في التسجيل. اختارا مسارا كاملا من الطلب إلى التأكيد والتصحيح، لنوع واحد من الدروس ومسؤول واحد. اكتبا معه شروط القبول: تكرار الطلب لا يحجز مقعدا إضافيا، واكتمال العدد يظهر للمستخدم، والإلغاء يترك حالة السعة واضحة. اختبرا هذه الحالات ببيانات مصطنعة قبل تجربة فعلية محدودة ومتفق عليها، مع إجراء بديل عند التعطل. اذكرا عدد الحجوزات التي اختبرتماها؛ نجاح عدد قليل لا يثبت قدرة النظام على تحمل ضغط كبير.",
+        "أثناء التجربة، سجلا كل خلل وأثره والتعديل الذي أجريتماه والنتيجة الملحوظة. إذا اتصل المستخدم مجددا، حددا هل السبب عبارة غامضة أم حالة حجز خاطئة. احتفظا بتفسير القرار مع وصف السلوك قبل التعديل وبعده، واحذفا أسماء العملاء وبيانات الاتصال من أي مادة مشتركة، واستأذنا قبل عرض مثال حقيقي. بعد ذلك، ليحاول الشريك الذي لم يطور الجزء تشغيل النسخة التجريبية وتصحيح حجز خاطئ بالاعتماد على الدليل المكتوب. كل حاجة إلى شرح شفهي تكشف فجوة في تسليم العمل. أصلحا الدليل وحددا مسؤول الاستجابة للأعطال، ونفذا هذا التمرين في بيئة اختبار.",
+        "في موعد مراجعة متفق عليه، جهزا ملفا صغيرا يتضمن المشكلة والنطاق وشروط القبول وخللا جرى إصلاحه والحدود الباقية والقرار التالي. الخطأ في حساب المقاعد يستدعي إصلاح الموثوقية؛ أما المسار المستقر الذي لا يستخدمه أحد فيستدعي فهم سبب تركه. يدعم الملف ادعاء محددا بشأن ما أثبته الفريق، مع بيان حدوده. ويمكن استخدامه في نقاش مع متعاون أو عميل جديد، لكنه لا يضمن عقدا أو تمويلا أو شراء الشركة. حددا مسؤولا وموعدا لتحديثه حتى يظل مواكبا لتغير المنتج."
+      ],
+      "takeaways": [
+        "حددا مسارا كاملا يشمل التصحيح واتفقا على شروط قبوله.",
+        "اختبرا تكرار الطلب واكتمال العدد والإلغاء قبل التجربة الفعلية المحدودة.",
+        "وثقا الأعطال والقرارات والنتائج دون كشف هوية العملاء.",
+        "اختبرا تسليم العمل بتشغيل زميل آخر لبيئة الاختبار وفق الدليل.",
+        "أرفقا حدود الأدلة ومسؤول المراجعة والقرار التالي بالملف."
+      ],
+      "advice": [
+        "تمرين مستقل: اربطا كل ادعاء عن قدرة الفريق بملاحظة وحد واضح وتاريخ مراجعة."
+      ]
+    }
+  },
   "Frighteningly Ambitious Startup Ideas": {
     "fa": {
       "paragraphs": [
