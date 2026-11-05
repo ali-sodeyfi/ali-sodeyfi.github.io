@@ -492,6 +492,36 @@ const articleCategories = [
 
 const articleCatalog = [
   {
+    "title": "What I've Learned from Users",
+    "category": "product",
+    "author": "Paul Graham",
+    "source": "Paul Graham",
+    "year": "2022",
+    "url": "https://paulgraham.com/users.html",
+    "tags": {
+      "fa": [
+        "تشخیص مسئله",
+        "ریزش کاربر",
+        "آزمون محصول"
+      ],
+      "en": [
+        "problem diagnosis",
+        "user abandonment",
+        "product experiments"
+      ],
+      "ar": [
+        "تشخيص المشكلة",
+        "تسرب المستخدمين",
+        "تجارب المنتج"
+      ]
+    },
+    "summary": {
+      "fa": "برداشتی کوتاه از یادگیری از کاربران، همراه با تمرین مستقل برای تشخیص علت رهاکردن محصول و طراحی یک آزمون قابل بررسی.",
+      "en": "A brief adaptation on learning from users, followed by an independent exercise in diagnosing abandonment and designing a reviewable experiment.",
+      "ar": "معالجة موجزة عن التعلم من المستخدمين، يتبعها تمرين مستقل لتشخيص ترك المنتج وتصميم تجربة قابلة للمراجعة."
+    }
+  },
+  {
     "title": "Hiring is Obsolete",
     "category": "building",
     "author": "Paul Graham",
@@ -2170,6 +2200,67 @@ const articleCatalog = [
 ];
 
 const articleEssays = {
+  "What I've Learned from Users": {
+    "fa": {
+      "paragraphs": [
+        "پرسش محوری این مقاله سال ۲۰۲۲ این است: از کاربران چه آموخته‌اید؟ برداشت کوتاه آن برای سازنده محصول این است که تشخیص اولیه بنیان‌گذار همیشه با مسئله واقعی یکی نیست و شناخت کاربر باید به تصمیم کمک کند. ادامه این نوشته یک تمرین مستقل تحریریه است، نه شرح تجربه‌های منبع: فرض کنید تیمی ابزار ثبت هزینه برای شرکت‌های کوچک ساخته و می‌بیند بسیاری از حساب‌ها پس از اولین ورود غیرفعال می‌شوند. مدیر فروش این اتفاق را به نامناسب‌بودن مشتریان ورودی نسبت می‌دهد و تیم محصول خواهان طراحی دوباره صفحه شروع است. پیش از انتخاب هرکدام، باید معلوم شود در فاصله ورود تا ثبت اولین هزینه واقعاً چه رخ می‌دهد.",
+        "اول مسیر را به چند رویداد قابل مشاهده تقسیم کنید: ساخت حساب، ورود به فرم، تلاش برای ثبت و ذخیره موفق. تعریف هر رویداد را کنار گزارش بنویسید؛ بازشدن فرم به معنی تلاش برای ثبت نیست. فرض کنید در نمونه‌ای ساختگی، از بیست حساب تازه دوازده حساب فرم را باز می‌کنند و فقط سه حساب هزینه‌ای ذخیره می‌کنند. این اعداد صرفاً محل بررسی را نشان می‌دهند و علت شکست را ثابت نمی‌کنند. ممکن است فرم خطا داشته باشد، کاربر سند لازم را همراه نداشته باشد یا اصلاً برای انجام این کار نیامده باشد. پیش از تصمیم درباره تبلیغات یا طراحی، از صحت ثبت رویدادها با یک حساب آزمایشی مطمئن شوید و حساب‌های آزمایشی تیم را از گزارش کنار بگذارید.",
+        "برای گفت‌وگو فقط سراغ سه کاربر موفق نروید. از میان کسانی که فرم را باز کرده‌اند اما چیزی ذخیره نکرده‌اند نیز چند نفر را دعوت کنید؛ اگر پاسخ ندادند، نبود پاسخ را تأیید فرضیه خود حساب نکنید. از فرد بخواهید آخرین تلاش واقعی‌اش را بازسازی کند: چه کاری می‌خواست انجام دهد، کجا متوقف شد و بعد به چه روشی کار را ادامه داد؟ با رضایت او مسیر را در محیطی بدون اطلاعات مالی واقعی ببینید. به جای پرسیدن «آیا فرم ساده‌تر کمک می‌کند؟»، بپرسید کدام اطلاعات را هنگام انجام کار در اختیار نداشت. عبارت دقیق کاربر، رفتار مشاهده‌شده و تفسیر خودتان را در سه ستون جدا نگه دارید تا برداشت تیم جای شواهد ننشیند.",
+        "حالا یک توضیح مشخص و قابل رد بنویسید. در این سناریوی فرضی ممکن است الزام بارگذاری رسید، کاربر را پیش از ثبت مبلغ متوقف کند؛ اما این فقط فرضیه است. پیشنهاد آزمایشی می‌تواند ذخیره پیش‌نویس بدون رسید باشد، با برچسب روشن که این رکورد هنوز آماده تأیید نیست. پیش از اجرا با مسئول فرایند مشتری بررسی کنید که چنین پیش‌نویسی اشتباهاً وارد گزارش نهایی نشود. دامنه را به گروه کوچکی از مشتریان موافق محدود کنید و مسیر بازگشت را مشخص نگه دارید. در همین دوره، هم‌زمان متن فرم، قیمت و پیام تبلیغ را عوض نکنید؛ تغییر چند عامل تشخیص علت نتیجه را دشوار می‌کند. اگر محدودیت فرایند اجازه پیش‌نویس نمی‌دهد، آزمون را در نمونه تعاملی انجام دهید.",
+        "معیار نتیجه را پیش از دیدن داده تازه تعیین کنید. فقط افزایش تعداد پیش‌نویس‌ها کافی نیست؛ باید ببینید چه تعداد بعداً کامل می‌شوند و آیا کار اضافی برای مسئول تأیید ایجاد شده است. برای هر حساب، زمان ثبت اولیه، زمان تکمیل و نیاز به پیگیری را با حداقل داده لازم ثبت کنید. دوره مشاهده را با ریتم واقعی مشتری هماهنگ کنید: اگر هزینه‌ها آخر هفته جمع می‌شوند، نتیجه یک روز معیار مناسبی نیست. تعداد کم کاربران و تفاوت نوع هزینه‌ها را در گزارش بنویسید و از درصدهای دقیق با نمونه کوچک نتیجه قطعی نگیرید. هدف این مرحله انتخاب تصمیم بعدی است؛ هنوز نمی‌توان بهبود یک گروه محدود را به همه مشتریان نسبت داد.",
+        "در جلسه مرور، چهار خروجی ممکن را از قبل روی میز بگذارید: ادامه آزمون، اصلاح همان فرضیه، بررسی علت دیگر یا کنارگذاشتن تغییر. اگر پیش‌نویس زیاد شده اما تکمیل پایین مانده، شاید فقط محل توقف را جابه‌جا کرده‌اید. اگر مسیر برای کاربران حاضر بهتر شده ولی بیشتر مشتریان ورودی اصلاً نیاز به ثبت هزینه ندارند، مسئله جذب همچنان باز است. یک یادداشت کوتاه بنویسید که شامل مشاهده، توضیح فعلی، شواهد مخالف و تصمیم بعدی باشد؛ مسئول اجرا و تاریخ مرور را هم اضافه کنید. این یادداشت به همکار تازه کمک می‌کند بفهمد چرا تصمیم گرفته‌اید و مانع آن می‌شود که چند هفته بعد، فرضیه‌ای موقت به واقعیتی اثبات‌شده در حافظه تیم تبدیل شود."
+      ],
+      "takeaways": [
+        "مسیر شروع استفاده را به رویدادهای مشخص تقسیم کنید و ثبت درست آن‌ها را با حساب آزمایشی بررسی کنید.",
+        "از کاربران متوقف‌شده نیز دعوت به گفت‌وگو کنید؛ سکوت آن‌ها را شاهد موافق فرضیه ندانید.",
+        "گفته کاربر، رفتار مشاهده‌شده و تفسیر تیم را جدا ثبت کنید.",
+        "یک فرضیه قابل رد و یک تغییر محدود انتخاب کنید؛ امکان بازگشت و مرز آزمایش را روشن بنویسید.",
+        "معیار تکمیل کار و هزینه پیگیری را کنار معیار شروع کار بسنجید.",
+        "بازه مشاهده را با ریتم مشتری هماهنگ کنید و محدودیت نمونه را در نتیجه بیاورید.",
+        "تصمیم بعدی، مسئول آن و شواهد مخالف را در یک یادداشت قابل بازبینی نگه دارید."
+      ],
+      "advice": [
+        "تمرین مستقل: برای یک نقطه ریزش، سه توضیح رقیب بنویسید و کنار هرکدام مشاهده‌ای را مشخص کنید که آن را ضعیف می‌کند.",
+        "تمرین مستقل: پیش از تغییر محصول، یک جمله بنویسید: اگر این فرضیه درست باشد، انتظار داریم کدام رفتار تغییر کند و کدام هزینه بیشتر نشود؟"
+      ]
+    },
+    "en": {
+      "paragraphs": [
+        "The 2022 essay asks what founders have learned from users. A brief takeaway is that a founder’s first diagnosis may miss the real problem; understanding users should inform decisions. The following expense-software scenario and investigation method are an independent editorial exercise, not an account of events in the source.",
+        "Imagine a small team whose new accounts go quiet after their first visit. Sales blames the incoming audience; product wants a new onboarding screen. Map account creation, form opening, attempted submission, and successful saving before choosing either explanation. Verify the events with a test account and exclude internal traffic. In an invented sample, twelve of twenty accounts open the form and three save an expense. That identifies a place to investigate, not a cause. Invite both successful users and people who stopped. Ask them to reconstruct their last attempt, what information they lacked, and how they finished the task elsewhere. With consent, observe a version containing no real financial information. Keep their words, observed behavior, and your interpretation in separate columns; unanswered invitations provide no evidence for your hypothesis.",
+        "One possible explanation is that a mandatory receipt blocks users who have the amount but not the document. Test saving an explicitly incomplete draft only after checking with the customer’s process owner that it cannot enter a final report accidentally. Limit the trial to a small consenting group and define a rollback. If the workflow cannot support drafts, test a prototype instead. Hold pricing, acquisition messages, and unrelated form changes steady. Choose success measures before results arrive: drafts subsequently completed, time to completion, and extra follow-up required by approvers. More drafts alone may simply move the obstruction. Match observation to the customer’s reporting rhythm, and record sample size and differences in expense types.",
+        "At review, choose whether to extend the trial, revise the hypothesis, examine another explanation, or remove the change. Better completion among existing users does not resolve an audience mismatch if other signups never needed expense tracking. Write a short decision record containing observations, your current explanation, contrary evidence, an owner, and a review date. Keep conclusions limited to what the sample demonstrates. This lets the next teammate see how the decision was reached and prevents a temporary explanation from becoming an unquestioned fact."
+      ],
+      "takeaways": [
+        "Validate event definitions before interpreting a drop-off.",
+        "Include users who stopped; separate statements, behavior, and interpretation.",
+        "Test one explanation with a limited change and a clear rollback.",
+        "Measure completed work and follow-up burden, not just starts.",
+        "Record contrary evidence, sample limits, the next decision, and its owner."
+      ],
+      "advice": [
+        "Independent exercise: write three competing explanations for one abandonment point and an observation that would weaken each."
+      ]
+    },
+    "ar": {
+      "paragraphs": [
+        "تسأل مقالة عام ٢٠٢٢ عما تعلمه المؤسسون من المستخدمين. والخلاصة الموجزة أن تشخيص المؤسس الأول قد لا يطابق المشكلة الفعلية، وأن فهم المستخدم ينبغي أن يساعد على اتخاذ القرار. السيناريو التالي عن برنامج تسجيل المصروفات وطريقة فحصه تمرين تحريري مستقل، وليس سردا لتجارب المصدر.",
+        "لنتخيل فريقا تتوقف حساباته الجديدة عن النشاط بعد الزيارة الأولى. يرى مسؤول المبيعات أن الجمهور غير مناسب، ويقترح فريق المنتج إعادة تصميم شاشة البداية. قبل الاختيار، حددوا أحداث إنشاء الحساب وفتح النموذج ومحاولة الإرسال والحفظ الناجح، وتحققوا من تسجيلها بحساب تجريبي مع استبعاد استخدام الفريق الداخلي. في عينة افتراضية، يفتح اثنا عشر حسابا من أصل عشرين النموذج، وتحفظ ثلاثة حسابات مصروفا. تحدد هذه الأرقام موضع البحث ولا تثبت سببه. ادعوا مستخدمين أكملوا المهمة وآخرين توقفوا، واسألوهم عن آخر محاولة فعلية، والمعلومات التي كانت تنقصهم، والطريقة التي أكملوا بها العمل لاحقا. بموافقتهم، شاهدوا المسار دون بيانات مالية حقيقية. افصلوا كلام المستخدم والسلوك المرصود وتفسير الفريق؛ وعدم الرد على الدعوة ليس دليلا يؤيد فرضيتكم.",
+        "قد تكون إحدى الفرضيات أن إلزام رفع الإيصال يمنع مستخدما يملك المبلغ ولا يملك الوثيقة بعد. جربوا حفظ مسودة موضحة بأنها غير مكتملة، بعد التأكد مع مسؤول إجراءات العميل من أنها لا تدخل التقرير النهائي بالخطأ. حددوا مجموعة صغيرة موافقة وطريقة للتراجع؛ وإذا لم تسمح الإجراءات بذلك، اختبروا نموذجا تفاعليا بدلا من التشغيل الفعلي. لا تغيروا السعر ورسالة الاستقطاب وأجزاء أخرى من النموذج في التجربة نفسها. حددوا مسبقا عدد المسودات التي تكتمل لاحقا، وزمن الإكمال، وعبء المتابعة على مسؤول الاعتماد. ارتفاع عدد المسودات وحده قد يعني انتقال موضع التعطل. اجعلوا فترة المراقبة مناسبة لدورة عمل العميل، وسجلوا حجم العينة واختلاف أنواع المصروفات.",
+        "في المراجعة، اختاروا تمديد التجربة أو تعديل الفرضية أو فحص تفسير آخر أو إزالة التغيير. تحسن الإكمال لدى المستخدمين الحاليين لا يحسم مشكلة الاستقطاب إذا كانت حسابات أخرى لا تحتاج أصلا إلى تسجيل المصروفات. اكتبوا مذكرة قصيرة تضم الملاحظات والتفسير الحالي والأدلة المخالفة والقرار التالي ومسؤوله وموعد مراجعته. قيدوا الاستنتاج بما تظهره العينة. تتيح هذه المذكرة للزميل الجديد فهم أساس القرار، وتمنع تحول تفسير مؤقت إلى حقيقة لا يناقشها الفريق."
+      ],
+      "takeaways": [
+        "تحققوا من تعريف الأحداث وتسجيلها قبل تفسير نقطة التسرب.",
+        "أشركوا من توقفوا، وافصلوا أقوالهم عن السلوك المرصود وتفسير الفريق.",
+        "اختبروا تفسيرا واحدا بتغيير محدود وطريقة واضحة للتراجع.",
+        "قيسوا اكتمال العمل وعبء المتابعة، لا عدد البدايات وحده.",
+        "وثقوا الأدلة المخالفة وحدود العينة والقرار التالي ومسؤوله."
+      ],
+      "advice": [
+        "تمرين مستقل: اكتبوا ثلاثة تفسيرات متنافسة لنقطة توقف واحدة، وملاحظة تضعف كل تفسير."
+      ]
+    }
+  },
   "Hiring is Obsolete": {
     "fa": {
       "paragraphs": [

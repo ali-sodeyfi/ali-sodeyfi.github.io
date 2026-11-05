@@ -226,6 +226,55 @@
     "timezone": "Asia/Tehran",
     "queue": [
       {
+        "id": "2026-11-05-site-what-ive-learned-from-users",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "what-ive-learned-from-users",
+        "publishAt": "2026-11-05T05:45:35+03:30",
+        "status": "published",
+        "publishedAt": "2026-11-05T05:45:35+03:30"
+      },
+      {
+        "id": "2026-11-05-linkedin-what-ive-learned-from-users",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "what-ive-learned-from-users",
+        "publishAt": "2026-11-05T12:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-11-05T05:45:35+03:30",
+        "note": "Draft/preview only. Verified account/API or session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "قبل از تغییر، علت ریزش را بررسی کنید",
+          "en": "Diagnose abandonment before changing the product",
+          "ar": "شخصوا التسرب قبل تغيير المنتج"
+        },
+        "body": {
+          "fa": "افزایش شروع کار، اثبات حل مسئله نیست.\nپیامد: امکان ذخیره پیش‌نویس ممکن است فقط نقطه توقف کاربر را جابه‌جا کند.\nاقدام بعدی: در یک آزمون محدود، تکمیل نهایی و زمان پیگیری را هم اندازه بگیرید.\nPaul Graham — https://paulgraham.com/users.html\nhttps://alisodeyfi.ir/articles/what-ive-learned-from-users/fa/#daily-article-reader",
+          "en": "More starts do not prove the problem is solved.\nImplication: saving drafts may simply move the point of abandonment.\nNext action: measure eventual completion and follow-up time in one limited trial.\nPaul Graham — https://paulgraham.com/users.html\nhttps://alisodeyfi.ir/articles/what-ive-learned-from-users/en/#daily-article-reader",
+          "ar": "زيادة البدايات لا تثبت حل المشكلة.\nالأثر: حفظ المسودات قد ينقل موضع التوقف فقط.\nالخطوة التالية: قيسوا الإكمال النهائي وزمن المتابعة في تجربة محدودة.\nPaul Graham — https://paulgraham.com/users.html\nhttps://alisodeyfi.ir/articles/what-ive-learned-from-users/ar/#daily-article-reader"
+        }
+      },
+      {
+        "id": "2026-11-05-instagram-story-what-ive-learned-from-users",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "what-ive-learned-from-users",
+        "publishAt": "2026-11-05T20:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-11-05T05:45:35+03:30",
+        "note": "Draft/preview only. Verified account/API or session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "قبل از تغییر، علت ریزش را بررسی کنید",
+          "en": "Diagnose abandonment before changing the product",
+          "ar": "شخصوا التسرب قبل تغيير المنتج"
+        },
+        "body": {
+          "fa": "اسلاید ۱: شروع بیشتر، الزاماً تکمیل بیشتر نیست.\nاسلاید ۲: در آزمون بعدی، تکمیل کار و هزینه پیگیری را بسنجید.\nاسلاید ۳: مقاله و تمرین مستقل\nPaul Graham — https://paulgraham.com/users.html\nhttps://alisodeyfi.ir/articles/what-ive-learned-from-users/fa/#daily-article-reader",
+          "en": "Slide 1: More starts do not necessarily mean more completions.\nSlide 2: Measure completion and follow-up cost in the next trial.\nSlide 3: Essay and independent exercise\nPaul Graham — https://paulgraham.com/users.html\nhttps://alisodeyfi.ir/articles/what-ive-learned-from-users/en/#daily-article-reader",
+          "ar": "الشريحة ١: البدايات الأكثر لا تعني إكمالا أكثر.\nالشريحة ٢: قيسوا الإكمال وكلفة المتابعة في التجربة التالية.\nالشريحة ٣: المقالة والتمرين المستقل\nPaul Graham — https://paulgraham.com/users.html\nhttps://alisodeyfi.ir/articles/what-ive-learned-from-users/ar/#daily-article-reader"
+        }
+      },
+      {
         "id": "2026-11-04-site-hiring-is-obsolete",
         "channel": "site",
         "target": "site",
