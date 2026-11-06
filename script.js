@@ -492,6 +492,36 @@ const articleCategories = [
 
 const articleCatalog = [
   {
+    "title": "How to Write Usefully",
+    "category": "building",
+    "author": "Paul Graham",
+    "source": "Paul Graham",
+    "year": "2020",
+    "url": "https://paulgraham.com/useful.html",
+    "tags": {
+      "fa": [
+        "یادداشت تصمیم",
+        "هماهنگی تیم",
+        "ثبت فرضیه"
+      ],
+      "en": [
+        "decision memos",
+        "team coordination",
+        "assumption tracking"
+      ],
+      "ar": [
+        "مذكرات القرار",
+        "تنسيق الفريق",
+        "تسجيل الافتراضات"
+      ]
+    },
+    "summary": {
+      "fa": "برداشت کوتاه از نوشتن مفید، همراه با تمرین مستقل برای تبدیل اختلاف فروش و محصول به یادداشت تصمیم، مسئول اجرا و زمان بازبینی.",
+      "en": "A brief adaptation on useful writing, with an independent exercise for turning a sales–product disagreement into a decision memo with an owner and review date.",
+      "ar": "معالجة موجزة عن الكتابة المفيدة، مع تمرين مستقل لتحويل خلاف المبيعات والمنتج إلى مذكرة قرار لها مسؤول وموعد مراجعة."
+    }
+  },
+  {
     "title": "What I've Learned from Users",
     "category": "product",
     "author": "Paul Graham",
@@ -2200,6 +2230,67 @@ const articleCatalog = [
 ];
 
 const articleEssays = {
+  "How to Write Usefully": {
+    "fa": {
+      "paragraphs": [
+        "نوشتن مفید باید ادعایی درست، مهم و تازه برای مخاطب را با دقت بیان کند؛ جمله‌ای مبهم ممکن است غلط نباشد، اما چیزی هم به خواننده ندهد. این برداشت کوتاه از مقاله، نقطه شروع تمرین مستقل زیر است: چطور یک تیم نوپا می‌تواند اختلاف درباره تعهد به مشتری را به تصمیمی قابل اجرا تبدیل کند؟ سناریو، اعداد و روش کار ادامه متن ساخته تحریریه‌اند و روایت منبع نیستند. فرض کنید فروش، اتصال اختصاصی به یک سامانه انبار را برای بستن قرارداد درخواست کرده و تیم محصول نگران عقب‌افتادن برنامه فعلی است. جلسه‌های قبلی با توافق کلی برای «مشتری‌محور بودن» تمام شده‌اند، اما هنوز هیچ‌کس نمی‌داند چه چیزی را باید تا چه زمانی تحویل دهد.",
+        "یادداشت را با انتخابی که واقعاً پیش رو دارید شروع کنید: آیا یک نفر از تیم فنی برای یک بررسی محدود آزاد شود یا درخواست تا دوره بعد منتظر بماند؟ تصویب بررسی با تعهد به ساخت اتصال فرق دارد. در این مثال فرضی، سه روز بررسی فقط قرار است دسترسی به محیط آزمایشی، قالب داده و امکان انتقال نمونه سفارش را روشن کند. کنار تصمیم بنویسید کدام کار جاری در این سه روز متوقف می‌شود و چه کسی اختیار تأیید این جابه‌جایی را دارد. اگر هزینه فرصت را ننویسید، هر واحد تصور می‌کند درخواست جدید بدون قربانی‌کردن برنامه قبلی انجام می‌شود و اختلاف در مرحله تحویل دوباره برمی‌گردد.",
+        "ضمیمه شواهد را از متن پیشنهاد جدا نگه دارید. یک جدول کوچک می‌تواند شامل درخواست ثبت‌شده مشتری، تاریخ گفت‌وگو، شخص پاسخ‌گو و پرسش‌های بی‌پاسخ باشد. اگر فروش می‌گوید قرارداد به اتصال وابسته است، روشن کنید این شرط را چه کسی در شرکت مشتری گفته و آیا اختیار تصمیم خرید دارد. وجود یک پیام مشتاقانه معادل توافق خرید نیست. تیم فنی نیز باید بین «قبلاً مشابهش را ساخته‌ایم» و «مستندات همین سامانه را بررسی کرده‌ایم» تفاوت بگذارد. نبود دسترسی به محیط آزمایشی را به‌عنوان وابستگی باز ثبت کنید؛ زمان تخمینی ساخت تا حل این وابستگی، تعهد تحویل محسوب نمی‌شود.",
+        "گزینه‌ها را با یک قالب مشترک مقایسه کنید: اقدام، ظرفیت مصرفی، کار عقب‌افتاده و نتیجه‌ای که اجازه مرحله بعد را می‌دهد. مثلاً گزینه اول بررسی سه‌روزه است، گزینه دوم انتقال دستی نمونه داده با موافقت مشتری و گزینه سوم موکول‌کردن درخواست به دوره بعد. انتقال دستی فقط وقتی گزینه واقعی است که مسئول عملیات مشتری آن را بپذیرد و نگهداری داده روشن باشد. هیچ گزینه‌ای را با نام جذاب و دیگری را با توصیف مبهم ننویسید. از هر واحد بخواهید یک دلیل علیه پیشنهاد خودش اضافه کند. این کار در این تمرین کمک می‌کند ملاحظه‌هایی که معمولاً بعد از تصمیم مطرح می‌شوند، پیش از تخصیص ظرفیت دیده شوند.",
+        "پیش از شروع بررسی، مسئول خروجی و شرط توقف را تعیین کنید. در سناریوی ما، مسئول فنی باید تا پایان روز سوم یک نمونه انتقال بدون داده واقعی مشتری، فهرست محدودیت‌ها و برآورد مرحله بعد ارائه دهد. اگر دسترسی لازم تا پایان روز اول فراهم نشد، بررسی متوقف می‌شود و تصمیم دوباره به صاحب اختیار برمی‌گردد؛ تقویم نباید بی‌صدا کش بیاید. فروش در این فاصله اجازه ندارد تاریخ تحویل اتصال را از تاریخ پایان بررسی استنتاج کند. متن قابل ارسال به مشتری را هم کنار یادداشت بگذارید تا وعده بیرونی با تصمیم داخلی هماهنگ بماند. یک نفر باید مسئول ابلاغ این مرز و ثبت پاسخ مشتری باشد.",
+        "در پایان بررسی، یادداشت اولیه را بازنویسی و پاک نکنید؛ نتیجه را با تاریخ به آن اضافه کنید تا تفاوت فرض و مشاهده باقی بماند. مشخص کنید چه چیزی آزمایش شد، چه چیزی هنوز نامعلوم است و آیا ادامه کار به تأیید تازه نیاز دارد. اگر اتصال شدنی بود اما زمان پشتیبانی آن از ظرفیت تیم بیشتر شد، تصمیم ممکن است همچنان تعویق باشد. اگر بررسی متوقف شد، فقط مقدار زمان مصرف‌شده و مانع را ثبت کنید؛ توقف به معنی ناممکن‌بودن فنی نیست. در مرور هفتگی، تصمیم‌های باز را از روی همین یادداشت‌ها دنبال کنید. معیار موفقیت این تمرین، داشتن سند بیشتر نیست؛ این است که فروش، محصول و فنی بتوانند تعهد بعدی و صاحب آن را یکسان توضیح دهند."
+      ],
+      "takeaways": [
+        "درخواست مشتری را به یک تصمیم مشخص درباره تخصیص ظرفیت تبدیل کنید.",
+        "تصویب بررسی را از تعهد به ساخت و تاریخ تحویل جدا ثبت کنید.",
+        "شواهد شرط خرید و اختیار فرد پاسخ‌گو در شرکت مشتری را بررسی کنید.",
+        "برای هر گزینه، کار عقب‌افتاده و شرط ورود به مرحله بعد را بنویسید.",
+        "مسئول خروجی، وابستگی باز و شرط توقف بررسی را پیش از شروع تعیین کنید.",
+        "متن وعده به مشتری را با محدوده تصمیم داخلی هماهنگ کنید.",
+        "نتیجه بررسی را با تاریخ به یادداشت اولیه بیفزایید و فرض‌های قبلی را حفظ کنید."
+      ],
+      "advice": [
+        "تمرین مستقل: یک درخواست باز مشتری را انتخاب کنید و نام تصمیم‌گیر، مسئول بررسی و مسئول ابلاغ به مشتری را در سه سطر بنویسید.",
+        "تمرین مستقل: از فروش و فنی بخواهید جداگانه تعهد فعلی را در یک جمله بنویسند؛ تفاوت دو جمله را پیش از شروع کار حل کنید."
+      ]
+    },
+    "en": {
+      "paragraphs": [
+        "Useful writing makes accurate, consequential claims that offer readers something new, expressed precisely. A vague sentence can avoid error without helping anyone. That brief adaptation introduces an independent editorial exercise below: a startup decision memo about a customer integration. The scenario and method are invented here, not reported from the source.",
+        "Imagine sales wants a warehouse integration to close a deal while product worries about an existing delivery. Define the immediate decision as allocating one engineer to a three-day investigation, not approving the entire integration. Name the work that would pause and the person authorized to accept that delay. Attach a small evidence register: who at the customer requested the integration, whether that person controls the purchase, and which dependencies remain unresolved. Enthusiasm in an email is not a purchase commitment. Previous experience with a similar system is not evidence that this system has been inspected. Access to a test environment remains an open dependency until it actually arrives.",
+        "Compare investigation, a customer-approved manual sample transfer, and postponement using the same fields: effort, displaced work, owner, and evidence needed for the next step. Ask each department to record one reason against its preferred option. For the investigation, require a transfer using synthetic data, a limitations list, and an estimate for the following stage. If access has not arrived by the end of day one, stop and return the allocation decision to its owner. Sales must not turn the investigation deadline into a customer delivery promise. Include the proposed customer message in the memo and assign someone to send it after internal agreement.",
+        "Append the outcome with a date instead of erasing the original assumptions. A technically successful sample can still lead to postponement if support exceeds available capacity; a stopped investigation does not establish technical impossibility. Record actual effort, unresolved questions, and whether continuation needs another decision. Review open memos weekly. The exercise succeeds when sales, product, and engineering can independently describe the same next commitment and its owner, rather than when the team produces more documents."
+      ],
+      "takeaways": [
+        "Separate approval to investigate from approval to build.",
+        "Record the displaced work and who can authorize the tradeoff.",
+        "Verify who stated the purchase condition and what remains untested.",
+        "Set an owner, an access dependency, and a stopping condition before allocating time.",
+        "Align the customer message with the internal commitment and append dated outcomes."
+      ],
+      "advice": [
+        "Independent exercise: ask sales and engineering to write the current commitment separately; resolve differences before work starts."
+      ]
+    },
+    "ar": {
+      "paragraphs": [
+        "الكتابة المفيدة تقدم ادعاء صحيحا ومهما وجديدا على القارئ بصياغة دقيقة؛ فقد تتجنب العبارة المبهمة الخطأ من دون أن تساعده. هذه معالجة قصيرة للفكرة، يليها تمرين تحريري مستقل عن مذكرة قرار في شركة ناشئة. السيناريو والأرقام وطريقة العمل التالية افتراضية وليست أحداثا واردة في المصدر.",
+        "تخيلوا أن المبيعات تطلب ربط المنتج بنظام مخازن لإتمام صفقة، بينما يخشى فريق المنتج تأخير التزام قائم. حددوا القرار الحالي: تخصيص مهندس لاستكشاف محدود مدته ثلاثة أيام، وليس الموافقة على بناء الربط كله. اكتبوا المهمة التي ستتوقف ومن يملك صلاحية قبول تأخيرها. أرفقوا سجلا صغيرا للأدلة: من طلب الربط لدى العميل، وهل يملك قرار الشراء، وما الاعتماديات التي لم تحسم؟ رسالة حماسية ليست التزاما بالشراء، والخبرة بنظام مشابه لا تعني فحص هذا النظام. يظل الوصول إلى بيئة الاختبار اعتمادا مفتوحا حتى يتاح فعليا.",
+        "قارنوا الاستكشاف، ونقل عينة يدويا بموافقة العميل، والتأجيل باستخدام الحقول نفسها: الجهد، والعمل المؤجل، والمسؤول، والدليل المطلوب للمرحلة التالية. اطلبوا من كل فريق ذكر سبب واحد يعارض خياره المفضل. حددوا مخرجات الاستكشاف: نقل تجريبي ببيانات اصطناعية، وقائمة قيود، وتقدير للمرحلة التالية. إذا لم تتوفر صلاحية الوصول بنهاية اليوم الأول، يتوقف الاستكشاف ويعود قرار تخصيص الوقت إلى صاحبه. لا يجوز تحويل موعد انتهاء الاستكشاف إلى وعد بتسليم الربط. أدرجوا نص الرسالة المقترحة للعميل في المذكرة وحددوا مسؤول إبلاغه بعد الاتفاق الداخلي.",
+        "أضيفوا النتيجة بتاريخها بدلا من محو الافتراضات الأولى. نجاح العينة تقنيا قد ينتهي بالتأجيل إذا تجاوز دعمها قدرة الفريق، وتوقف الاستكشاف لا يثبت استحالة التنفيذ. سجلوا الوقت المستهلك والأسئلة المفتوحة وما إذا كانت المتابعة تحتاج إلى قرار جديد. راجعوا المذكرات المفتوحة أسبوعيا. ينجح هذا التمرين عندما تستطيع المبيعات والمنتج والهندسة وصف الالتزام التالي وصاحبه بصورة متطابقة، لا عندما يزداد عدد المستندات."
+      ],
+      "takeaways": [
+        "افصلوا الموافقة على الاستكشاف عن الموافقة على البناء.",
+        "سجلوا العمل الذي سيتأخر وصاحب صلاحية قبول المفاضلة.",
+        "تحققوا ممن وضع شرط الشراء وما الذي لم يختبر بعد.",
+        "حددوا المسؤول واعتمادية الوصول وشرط التوقف قبل تخصيص الوقت.",
+        "طابقوا رسالة العميل مع الالتزام الداخلي وأضيفوا نتائج مؤرخة."
+      ],
+      "advice": [
+        "تمرين مستقل: اطلبوا من المبيعات والهندسة كتابة الالتزام الحالي كل على حدة؛ عالجوا الاختلاف قبل بدء العمل."
+      ]
+    }
+  },
   "What I've Learned from Users": {
     "fa": {
       "paragraphs": [

@@ -226,6 +226,55 @@
     "timezone": "Asia/Tehran",
     "queue": [
       {
+        "id": "2026-11-06-site-how-to-write-usefully",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "how-to-write-usefully",
+        "publishAt": "2026-11-06T05:47:39+03:30",
+        "status": "published",
+        "publishedAt": "2026-11-06T05:47:39+03:30"
+      },
+      {
+        "id": "2026-11-06-linkedin-how-to-write-usefully",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "how-to-write-usefully",
+        "publishAt": "2026-11-06T12:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-11-06T05:47:39+03:30",
+        "note": "Draft/preview only. Verified account/API or session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "بررسی فنی، وعده تحویل نیست",
+          "en": "Investigation is not a delivery promise",
+          "ar": "الاستكشاف ليس وعدا بالتسليم"
+        },
+        "body": {
+          "fa": "تأیید بررسی فنی، تعهد به ساخت نیست.\nپیامد: فروش نباید پایان بررسی را تاریخ تحویل به مشتری اعلام کند.\nاقدام بعدی: پیش از تخصیص مهندس، مسئول خروجی و شرط توقف را بنویسید.\nPaul Graham — https://paulgraham.com/useful.html\nhttps://alisodeyfi.ir/articles/how-to-write-usefully/fa/#daily-article-reader",
+          "en": "Approving an investigation does not commit the team to build.\nImplication: sales cannot present its end date as customer delivery.\nNext action: name the output owner and stopping condition before assigning an engineer.\nPaul Graham — https://paulgraham.com/useful.html\nhttps://alisodeyfi.ir/articles/how-to-write-usefully/en/#daily-article-reader",
+          "ar": "الموافقة على الاستكشاف لا تلزم الفريق بالبناء.\nالأثر: لا تستطيع المبيعات تقديم نهايته كموعد تسليم للعميل.\nالخطوة التالية: حددوا مسؤول المخرجات وشرط التوقف قبل تخصيص مهندس.\nPaul Graham — https://paulgraham.com/useful.html\nhttps://alisodeyfi.ir/articles/how-to-write-usefully/ar/#daily-article-reader"
+        }
+      },
+      {
+        "id": "2026-11-06-instagram-story-how-to-write-usefully",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "how-to-write-usefully",
+        "publishAt": "2026-11-06T20:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-11-06T05:47:39+03:30",
+        "note": "Draft/preview only. Verified account/API or session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "بررسی فنی، وعده تحویل نیست",
+          "en": "Investigation is not a delivery promise",
+          "ar": "الاستكشاف ليس وعدا بالتسليم"
+        },
+        "body": {
+          "fa": "اسلاید ۱: بررسی فنی، وعده تحویل نیست.\nاسلاید ۲: مسئول خروجی و شرط توقف را پیش از شروع تعیین کنید.\nاسلاید ۳: مقاله و تمرین مستقل\nPaul Graham — https://paulgraham.com/useful.html\nhttps://alisodeyfi.ir/articles/how-to-write-usefully/fa/#daily-article-reader",
+          "en": "Slide 1: Investigation is not a delivery promise.\nSlide 2: Define the output owner and stopping condition before starting.\nSlide 3: Essay and independent exercise\nPaul Graham — https://paulgraham.com/useful.html\nhttps://alisodeyfi.ir/articles/how-to-write-usefully/en/#daily-article-reader",
+          "ar": "الشريحة ١: الاستكشاف ليس وعدا بالتسليم.\nالشريحة ٢: حددوا مسؤول المخرجات وشرط التوقف قبل البدء.\nالشريحة ٣: المقالة والتمرين المستقل\nPaul Graham — https://paulgraham.com/useful.html\nhttps://alisodeyfi.ir/articles/how-to-write-usefully/ar/#daily-article-reader"
+        }
+      },
+      {
         "id": "2026-11-05-site-what-ive-learned-from-users",
         "channel": "site",
         "target": "site",
