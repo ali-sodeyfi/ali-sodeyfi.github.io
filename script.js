@@ -492,6 +492,36 @@ const articleCategories = [
 
 const articleCatalog = [
   {
+    "title": "The Submarine",
+    "category": "growth",
+    "author": "Paul Graham",
+    "source": "Paul Graham",
+    "year": "2005",
+    "url": "https://paulgraham.com/submarine.html",
+    "tags": {
+      "fa": [
+        "روابط عمومی",
+        "سنجش جذب",
+        "آزمایش کمپین"
+      ],
+      "en": [
+        "public relations",
+        "acquisition measurement",
+        "campaign experiments"
+      ],
+      "ar": [
+        "العلاقات العامة",
+        "قياس الاستقطاب",
+        "تجارب الحملات"
+      ]
+    },
+    "summary": {
+      "fa": "برداشت کوتاه از نقش روابط عمومی در خبر، همراه با راهنمای مستقل برای طراحی یک آزمایش رسانه‌ای و پیگیری مسیر مخاطب تا استفاده از محصول.",
+      "en": "A brief adaptation on public relations and news, followed by an independent guide to testing a media campaign and tracking the path to product use.",
+      "ar": "معالجة موجزة لدور العلاقات العامة في الأخبار، يتبعها دليل مستقل لاختبار حملة إعلامية وتتبع المسار إلى استخدام المنتج."
+    }
+  },
+  {
     "title": "How to Write Usefully",
     "category": "building",
     "author": "Paul Graham",
@@ -2230,6 +2260,69 @@ const articleCatalog = [
 ];
 
 const articleEssays = {
+  "The Submarine": {
+    "fa": {
+      "paragraphs": [
+        "در این مقاله قدیمی، پوشش خبری گاهی نتیجه کار روابط عمومی است؛ تکرار یک روایت نیز الزاماً تأیید مستقل آن نیست. این برداشت کوتاه، مقدمه یک راهنمای اجرایی مستقل است: تیم استارتاپ چگونه نتیجه حضور رسانه‌ای را بررسی کند؟ مثال، روش و معیارهای ادامه نوشته پیشنهاد تحریریه‌اند و از منبع نقل نشده‌اند. سناریوی فرضی ما یک نرم‌افزار برنامه‌ریزی نوبت برای تعمیرگاه‌هاست که تیمش می‌خواهد یک کمپین کوچک را پیش از افزایش هزینه امتحان کند. هدف تمرین، تصمیم‌گیری درباره همین کانال جذب است؛ نه داوری کلی درباره رسانه‌ها یا ارزش همه فعالیت‌های روابط عمومی.",
+        "پیش از تماس با رسانه، یک مخاطب و یک رفتار بعدی را انتخاب کنید. در این سناریو مخاطب، مدیر تعمیرگاهی است که هنوز نوبت‌ها را در دفتر ثبت می‌کند؛ رفتار بعدی می‌تواند درخواست یک نمایش کوتاه از محصول با داده ساختگی باشد. درخواست نمایش، ثبت‌نام و استفاده واقعی را در گزارش با هم جمع نکنید. یک مسئول برای پاسخ به درخواست‌ها تعیین کنید و ظرفیت روزانه او را بنویسید. اگر تیم فقط توان برگزاری چند نمایش را دارد، فرم نباید وعده پاسخ فوری به همه بدهد. معیار ادامه آزمایش را نیز از ابتدا به همین ظرفیت و نیاز واقعی کسب‌وکار وصل کنید، نه به عددی که پس از دیدن نتیجه جذاب به نظر می‌رسد.",
+        "برای این آزمایش یک صفحه ورود ساده بسازید که دقیقاً همان کار وعده‌داده‌شده را نشان دهد. مدیر تعمیرگاه باید بفهمد نمایش محصول چقدر طول می‌کشد، چه چیزی در آن می‌بیند و چه اطلاعاتی لازم است بفرستد. فرم کوتاه باشد و اطلاعات مشتریان تعمیرگاه را درخواست نکند. لینک مخصوص کمپین را با تلفن همراه باز کنید و ارسال فرم، پیام تأیید و رسیدن درخواست به مسئول پاسخ‌گو را تا انتها امتحان کنید. اگر مسیر خراب باشد، نبود درخواست هیچ چیزی درباره علاقه مخاطب ثابت نمی‌کند. پیش از شروع نیز مشخص کنید در صورت پرشدن ظرفیت، بازدیدکننده چطور زمان بعدی را انتخاب خواهد کرد.",
+        "ثبت رویدادها را به چند مرحله قابل تفسیر محدود کنید: ورود به صفحه، درخواست نمایش، حضور در جلسه و انجام نخستین کار واقعی در محصول. برای نرم‌افزار فرضی ما، مرحله آخر می‌تواند ثبت نخستین نوبت توسط خود مدیر باشد؛ تیم نباید این کار را به جای او انجام دهد و بعد آن را استفاده مستقل حساب کند. لینک اختصاصی فقط بخشی از مسیر را نشان می‌دهد، چون ممکن است فرد بعداً مستقیم برگردد یا لینک را برای همکارش بفرستد. یک سؤال اختیاری درباره نحوه آشنایی اضافه کنید و پاسخ آن را جدا از اطلاعات لینک نگه دارید. وقتی این دو شاهد متفاوت‌اند، اختلاف را ثبت کنید و با حدس حذف نکنید.",
+        "بازبینی را به چند روز پس از انتشار محدود نکنید؛ مهلتی بگذارید که درخواست‌های دریافت‌شده فرصت رسیدن به جلسه و استفاده را داشته باشند. در گزارش، تعداد هر مرحله را کنار زمان صرف‌شده تیم بیاورید. مثلاً زیادشدن درخواست‌ها همراه با غیبت در جلسه، بررسی پیام صفحه و فرایند هماهنگی را لازم می‌کند؛ هنوز دلیل کافی برای افزایش بودجه نیست. اگر جلسات برگزار می‌شوند اما مدیران نمی‌توانند نوبت اول را ثبت کنند، مشکل ممکن است در شروع استفاده باشد. این‌ها فرضیه‌اند و باید با مشاهده جلسه و گفت‌وگو بررسی شوند. نتیجه این آزمایش کوچک را به همه تعمیرگاه‌ها یا همه رسانه‌ها تعمیم ندهید.",
+        "در پایان یک تصمیم محدود بگیرید: تکرار با همان شرایط، اصلاح یک مرحله، توقف موقت یا آزمایش کانالی دیگر. برای دور بعد فقط یک تغییر اصلی انتخاب کنید تا مقایسه قابل فهم بماند. اگر وعده صفحه روشن نبود، ابتدا همان را اصلاح کنید و هم‌زمان مخاطب، قیمت و محصول را عوض نکنید. هزینه پاسخ‌گویی و زمان بنیان‌گذار را در کنار هزینه بیرونی نگه دارید؛ کانالی که درخواست زیاد می‌آورد ممکن است ظرفیت فعلی را مصرف کند بدون آنکه استفاده پایداری بسازد. خروجی جلسه مرور باید یک اقدام، یک مسئول و یک تاریخ بازبینی باشد. تعداد خبرها را می‌توان ثبت کرد، اما تصمیم ادامه این تمرین به مسیر واقعی استفاده وابسته است."
+      ],
+      "takeaways": [
+        "پیش از شروع کمپین، مخاطب مشخص و رفتار بعدی مورد انتظار را بنویسید.",
+        "ظرفیت پاسخ‌گویی و مسئول هر درخواست را پیش از جذب مخاطب تعیین کنید.",
+        "مسیر صفحه ورود تا دریافت درخواست را روی موبایل کامل آزمایش کنید.",
+        "درخواست، حضور در نمایش و نخستین استفاده مستقل را جدا بشمارید.",
+        "اطلاعات لینک و پاسخ خود مخاطب درباره نحوه آشنایی را دو شاهد جدا نگه دارید.",
+        "زمان تیم و محدودیت نمونه را کنار خروجی هر مرحله گزارش کنید.",
+        "برای دور بعد یک تغییر اصلی، یک مسئول و یک موعد بازبینی تعیین کنید."
+      ],
+      "advice": [
+        "تمرین مستقل: یک جدول چهارستونی برای ورود، درخواست، حضور و استفاده بسازید؛ تعریف دقیق هر مرحله را بالای همان ستون بنویسید.",
+        "تمرین مستقل: یک درخواست آزمایشی با موبایل بفرستید و زمان رسیدن آن به مسئول پاسخ‌گو را ثبت کنید؛ سپس داده آزمایشی را از گزارش واقعی کنار بگذارید."
+      ]
+    },
+    "en": {
+      "paragraphs": [
+        "This historical essay describes public relations behind some news coverage; repeated stories need not constitute independent confirmation. That brief adaptation introduces an independent editorial guide below. Its invented scenario, methods, and metrics are not taken from the source: a scheduling startup wants to test a small media campaign aimed at repair-shop managers.",
+        "Define one audience and one next action before starting. Here, the audience still manages appointments in a paper diary, and the action is requesting a short demonstration using synthetic data. Assign an owner to incoming requests and state how many sessions the team can support. Build a landing page explaining the session, its duration, and the information needed. Test the complete mobile journey, including the confirmation and delivery to the response owner. A broken form makes an absence of requests uninterpretable. Set the rule for continuing the experiment before results arrive, using the team’s actual capacity and business needs.",
+        "Track landing visits, demonstration requests, attendance, and the first appointment entered independently by a manager. Do not count work performed by your team as independent customer use. A campaign link is incomplete evidence: people may return directly or forward it. Keep an optional self-reported discovery answer separate from the link data, preserving disagreements instead of resolving them by guesswork. Allow enough follow-up time for requests to become sessions and use. Report counts at each stage alongside staff time; a small sample does not justify a general conclusion about all repair shops or media channels.",
+        "Use the review to choose a bounded next step. Many requests with poor attendance might call for examining the landing-page promise or scheduling process. Attended sessions without independent use might require an onboarding investigation. These are hypotheses to check, not diagnoses established by the funnel alone. Repeat, revise one stage, pause, or try another channel; give the decision an owner and a review date. Changing the audience, price, and page together makes comparison harder. Include founder time and response workload in the cost assessment before increasing campaign volume."
+      ],
+      "takeaways": [
+        "Define the audience, next action, response owner, and capacity before launch.",
+        "Test the entire mobile request journey and distinguish requests from actual use.",
+        "Keep campaign-link evidence separate from self-reported discovery.",
+        "Review stage counts and staff time after an adequate follow-up period.",
+        "Choose one main change for the next round, with an owner and review date."
+      ],
+      "advice": [
+        "Independent exercise: define visits, requests, attendance, and independent use in a four-column worksheet.",
+        "Independent exercise: send a mobile test request, verify its arrival, then exclude test data from the campaign report."
+      ]
+    },
+    "ar": {
+      "paragraphs": [
+        "تتناول هذه المقالة القديمة دور العلاقات العامة وراء بعض التغطيات الإخبارية؛ وتكرار الرواية لا يعني بالضرورة تأكيدا مستقلا. تلي هذه المعالجة الموجزة إرشادات تحريرية مستقلة. السيناريو والأساليب والمقاييس التالية مقترحة هنا وليست منقولة من المصدر: شركة ناشئة لجدولة مواعيد ورش الإصلاح تريد اختبار حملة إعلامية صغيرة قبل توسيعها.",
+        "حددوا جمهورا واحدا وخطوة تالية واضحة قبل البدء. في هذا المثال، الجمهور مدير ورشة ما زال يستخدم دفترا للمواعيد، والخطوة هي طلب عرض قصير ببيانات اصطناعية. عينوا مسؤولا عن الطلبات وحددوا عدد الجلسات التي يستطيع الفريق تقديمها. ينبغي أن تشرح صفحة الوصول مدة العرض ومحتواه والمعلومات المطلوبة، دون طلب بيانات زبائن الورشة. اختبروا المسار كاملا من الهاتف، بما في ذلك التأكيد ووصول الطلب إلى المسؤول. إذا كان النموذج معطلا، فلن يثبت غياب الطلبات غياب الاهتمام. ضعوا معيار استمرار التجربة مسبقا وفق احتياجات العمل وقدرة الفريق، وحددوا ما يحدث عند امتلاء المواعيد.",
+        "افصلوا بين زيارة الصفحة وطلب العرض وحضور الجلسة وتسجيل المدير أول موعد بنفسه. لا تعتبروا العمل الذي ينجزه فريقكم نيابة عنه استخداما مستقلا. رابط الحملة دليل جزئي، فقد يعود الزائر مباشرة أو يرسله إلى زميل. أضيفوا سؤالا اختياريا عن طريقة التعرف إلى المنتج، واحتفظوا بإجابته منفصلة عن بيانات الرابط؛ سجلوا الاختلاف بينهما بدلا من حسمه بالتخمين. امنحوا الطلبات وقتا كافيا للتحول إلى جلسات واستخدام فعلي. اعرضوا أعداد كل مرحلة مع وقت الفريق، واذكروا حدود العينة الصغيرة قبل استنتاج أي شيء عن جميع الورش أو القنوات الإعلامية.",
+        "اجعلوا المراجعة تنتهي بقرار محدود: تكرار التجربة، تعديل مرحلة، التوقف مؤقتا أو تجربة قناة أخرى. كثرة الطلبات مع ضعف الحضور قد تستدعي فحص وعد الصفحة أو تنسيق المواعيد؛ أما الحضور دون استخدام مستقل فقد يستدعي فحص البداية داخل المنتج. هذه فرضيات تحتاج إلى مشاهدة ومحادثة، وليست تشخيصا مؤكدا من الأرقام وحدها. اختاروا تغييرا رئيسيا واحدا للجولة التالية، وحددوا مسؤولا وموعد مراجعة. لا تغيروا الجمهور والسعر والصفحة معا. أضيفوا وقت المؤسس وعبء الرد إلى تكلفة الحملة قبل توسيعها، لأن استقبال طلبات أكثر قد يتجاوز قدرة الفريق على خدمتها."
+      ],
+      "takeaways": [
+        "حددوا الجمهور والخطوة التالية ومسؤول الرد والطاقة الاستيعابية قبل الإطلاق.",
+        "اختبروا مسار الطلب كاملا على الهاتف وافصلوا الطلب عن الاستخدام الفعلي.",
+        "احتفظوا ببيانات الرابط وإجابة الجمهور عن مصدر التعرف كدليلين منفصلين.",
+        "راجعوا أعداد المراحل ووقت الفريق بعد مهلة متابعة مناسبة.",
+        "اختاروا تغييرا رئيسيا واحدا للجولة التالية مع مسؤول وموعد مراجعة."
+      ],
+      "advice": [
+        "تمرين مستقل: أنشئوا جدولا بأربعة أعمدة للزيارات والطلبات والحضور والاستخدام المستقل، مع تعريف دقيق لكل مرحلة.",
+        "تمرين مستقل: أرسلوا طلبا تجريبيا من الهاتف وتحققوا من وصوله، ثم استبعدوا بيانات الاختبار من تقرير الحملة."
+      ]
+    }
+  },
   "How to Write Usefully": {
     "fa": {
       "paragraphs": [

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-03T05:49:30+03:30",
+  "updatedAt": "2026-11-07T05:43:03+03:30",
   "translations": {
     "fa": {
       "documentTitle": "علی سدیفی | یادداشت‌هایی درباره ساخت کسب‌وکار",
@@ -225,6 +225,55 @@
   "publishing": {
     "timezone": "Asia/Tehran",
     "queue": [
+      {
+        "id": "2026-11-07-site-the-submarine",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "the-submarine",
+        "publishAt": "2026-11-07T05:43:03+03:30",
+        "status": "published",
+        "publishedAt": "2026-11-07T05:43:03+03:30"
+      },
+      {
+        "id": "2026-11-07-linkedin-the-submarine",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "the-submarine",
+        "publishAt": "2026-11-07T12:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-11-07T05:43:03+03:30",
+        "note": "Draft/preview only. Verified account/API or session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "نتیجه کمپین را تا استفاده دنبال کنید",
+          "en": "Follow the campaign through to product use",
+          "ar": "تابعوا الحملة حتى استخدام المنتج"
+        },
+        "body": {
+          "fa": "درخواست نمایش محصول، استفاده از محصول نیست.\nپیامد: افزایش درخواست‌ها بدون ظرفیت پاسخ‌گویی می‌تواند فقط صف انتظار بسازد.\nاقدام بعدی: پیش از کمپین، مسئول پاسخ و معیار نخستین استفاده مستقل را تعیین کنید.\nPaul Graham — https://paulgraham.com/submarine.html\nhttps://alisodeyfi.ir/articles/the-submarine/fa/#daily-article-reader",
+          "en": "A demonstration request is not product use.\nImplication: more requests without response capacity can simply create a waiting list.\nNext action: assign a response owner and define first independent use before the campaign.\nPaul Graham — https://paulgraham.com/submarine.html\nhttps://alisodeyfi.ir/articles/the-submarine/en/#daily-article-reader",
+          "ar": "طلب عرض المنتج ليس استخداما له.\nالأثر: زيادة الطلبات دون قدرة على الرد قد تنتج قائمة انتظار فقط.\nالخطوة التالية: عينوا مسؤول الرد وحددوا أول استخدام مستقل قبل الحملة.\nPaul Graham — https://paulgraham.com/submarine.html\nhttps://alisodeyfi.ir/articles/the-submarine/ar/#daily-article-reader"
+        }
+      },
+      {
+        "id": "2026-11-07-instagram-story-the-submarine",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "the-submarine",
+        "publishAt": "2026-11-07T20:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-11-07T05:43:03+03:30",
+        "note": "Draft/preview only. Verified account/API or session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "نتیجه کمپین را تا استفاده دنبال کنید",
+          "en": "Follow the campaign through to product use",
+          "ar": "تابعوا الحملة حتى استخدام المنتج"
+        },
+        "body": {
+          "fa": "اسلاید ۱: درخواست نمایش، استفاده نیست.\nاسلاید ۲: پیش از کمپین، مسئول پاسخ و معیار استفاده را تعیین کنید.\nاسلاید ۳: منبع و راهنمای مستقل\nPaul Graham — https://paulgraham.com/submarine.html\nhttps://alisodeyfi.ir/articles/the-submarine/fa/#daily-article-reader",
+          "en": "Slide 1: A demo request is not product use.\nSlide 2: Set the response owner and use criterion before launch.\nSlide 3: Source and independent guide\nPaul Graham — https://paulgraham.com/submarine.html\nhttps://alisodeyfi.ir/articles/the-submarine/en/#daily-article-reader",
+          "ar": "الشريحة ١: طلب العرض ليس استخداما.\nالشريحة ٢: حددوا مسؤول الرد ومعيار الاستخدام قبل الحملة.\nالشريحة ٣: المصدر والدليل المستقل\nPaul Graham — https://paulgraham.com/submarine.html\nhttps://alisodeyfi.ir/articles/the-submarine/ar/#daily-article-reader"
+        }
+      },
       {
         "id": "2026-11-06-site-how-to-write-usefully",
         "channel": "site",
