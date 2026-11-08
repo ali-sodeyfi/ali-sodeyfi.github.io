@@ -226,6 +226,55 @@
     "timezone": "Asia/Tehran",
     "queue": [
       {
+        "id": "2026-11-08-site-a-students-guide-to-startups",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "a-students-guide-to-startups",
+        "publishAt": "2026-11-08T05:47:20+03:30",
+        "status": "published",
+        "publishedAt": "2026-11-08T05:47:20+03:30"
+      },
+      {
+        "id": "2026-11-08-linkedin-a-students-guide-to-startups",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "a-students-guide-to-startups",
+        "publishAt": "2026-11-08T12:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-11-08T05:47:20+03:30",
+        "note": "Draft/preview only. Verified account/API or session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "آزمایش باید استفاده مستقل را نشان دهد",
+          "en": "The trial must reveal independent use",
+          "ar": "ينبغي أن تكشف التجربة الاستخدام المستقل"
+        },
+        "body": {
+          "fa": "نمایش موفق، استفاده مستقل را ثابت نمی‌کند.\nپیامد: همراهی دائمی سازنده می‌تواند دشواری کار را پنهان کند.\nاقدام بعدی: در یک نوبت آزمایشی، ثبت و اصلاح یک امانت را بدون راهنمایی مشاهده کنید.\nPaul Graham — https://paulgraham.com/mit.html\nhttps://alisodeyfi.ir/articles/a-students-guide-to-startups/fa/#daily-article-reader",
+          "en": "A successful demo does not establish independent use.\nImplication: constant coaching can hide workflow difficulty.\nNext action: observe an operator record and correct one loan without guidance in a bounded trial.\nPaul Graham — https://paulgraham.com/mit.html\nhttps://alisodeyfi.ir/articles/a-students-guide-to-startups/en/#daily-article-reader",
+          "ar": "نجاح العرض لا يثبت الاستخدام المستقل.\nالأثر: الإرشاد المستمر قد يخفي صعوبة العمل.\nالخطوة التالية: راقبوا تسجيل إعارة وتصحيحها دون توجيه في تجربة محدودة.\nPaul Graham — https://paulgraham.com/mit.html\nhttps://alisodeyfi.ir/articles/a-students-guide-to-startups/ar/#daily-article-reader"
+        }
+      },
+      {
+        "id": "2026-11-08-instagram-story-a-students-guide-to-startups",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "a-students-guide-to-startups",
+        "publishAt": "2026-11-08T20:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-11-08T05:47:20+03:30",
+        "note": "Draft/preview only. Verified account/API or session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "آزمایش باید استفاده مستقل را نشان دهد",
+          "en": "The trial must reveal independent use",
+          "ar": "ينبغي أن تكشف التجربة الاستخدام المستقل"
+        },
+        "body": {
+          "fa": "اسلاید ۱: نمایش موفق، شاهد استفاده مستقل نیست.\nاسلاید ۲: ثبت و اصلاح یک امانت را بدون راهنمایی مشاهده کنید.\nاسلاید ۳: منبع و تمرین مستقل\nPaul Graham — https://paulgraham.com/mit.html\nhttps://alisodeyfi.ir/articles/a-students-guide-to-startups/fa/#daily-article-reader",
+          "en": "Slide 1: A successful demo does not prove independent use.\nSlide 2: Observe a loan entry and correction without coaching.\nSlide 3: Source and independent exercise\nPaul Graham — https://paulgraham.com/mit.html\nhttps://alisodeyfi.ir/articles/a-students-guide-to-startups/en/#daily-article-reader",
+          "ar": "الشريحة ١: نجاح العرض لا يثبت الاستخدام المستقل.\nالشريحة ٢: راقبوا تسجيل إعارة وتصحيحها دون إرشاد.\nالشريحة ٣: المصدر والتمرين المستقل\nPaul Graham — https://paulgraham.com/mit.html\nhttps://alisodeyfi.ir/articles/a-students-guide-to-startups/ar/#daily-article-reader"
+        }
+      },
+      {
         "id": "2026-11-07-site-the-submarine",
         "channel": "site",
         "target": "site",

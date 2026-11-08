@@ -492,6 +492,36 @@ const articleCategories = [
 
 const articleCatalog = [
   {
+    "title": "A Student's Guide to Startups",
+    "category": "building",
+    "author": "Paul Graham",
+    "source": "Paul Graham",
+    "year": "2006",
+    "url": "https://paulgraham.com/mit.html",
+    "tags": {
+      "fa": [
+        "پروژه دانشجویی",
+        "آزمایش کاربرد",
+        "همکاری تیمی"
+      ],
+      "en": [
+        "student projects",
+        "usage experiments",
+        "team collaboration"
+      ],
+      "ar": [
+        "مشاريع طلابية",
+        "تجارب الاستخدام",
+        "التعاون داخل الفريق"
+      ]
+    },
+    "summary": {
+      "fa": "برداشت کوتاه از مقاله‌ای درباره شروع کارآفرینی در دوران دانشجویی، همراه با راهنمای مستقل برای آزمایش یک ابزار امانت تجهیزات و تصمیم درباره ادامه آن.",
+      "en": "A brief adaptation about student entrepreneurship, followed by an independent guide to testing an equipment-loan tool and deciding whether to continue.",
+      "ar": "معالجة موجزة لمقالة عن ريادة الأعمال أثناء الدراسة، يتبعها دليل مستقل لاختبار أداة لإعارة المعدات واتخاذ قرار بشأن استمرارها."
+    }
+  },
+  {
     "title": "The Submarine",
     "category": "growth",
     "author": "Paul Graham",
@@ -2260,6 +2290,69 @@ const articleCatalog = [
 ];
 
 const articleEssays = {
+  "A Student's Guide to Startups": {
+    "fa": {
+      "paragraphs": [
+        "ایده محوری این مقاله تاریخی، تفاوت پروژه‌ای برای کلاس با محصولی برای کاربر است. فرصتی که محیط دانشگاه برای شناخت همکاران فراهم می‌کند، در کنار عادت به ساختن برای نیاز واقعی معنا پیدا می‌کند. ادامه این نوشته یک راهنمای مستقل تحریریه است؛ مثال و مراحل آن از منبع نقل نشده‌اند. فرض کنید دو دانشجو ابزاری برای امانت‌دادن تجهیزات یک کارگاه ساخته‌اند. نمایش برنامه در کلاس خوب پیش رفته، اما هنوز معلوم نیست مسئول کارگاه در روز شلوغ هم بتواند از آن استفاده کند. مسئله این تمرین، انتخاب یک آزمایش کوچک برای فهمیدن همین فاصله است، نه تصمیم فوری درباره تأسیس شرکت یا ترک تحصیل.",
+        "نقطه شروع را یک رخداد قابل مشاهده قرار دهید: مسئول کارگاه هنگام تحویل ابزار باید بداند چه کسی آن را گرفته و چه زمانی برمی‌گرداند. با اجازه او یک نوبت کاری را مشاهده کنید و مسیر فعلی را روی کاغذ بکشید. زمان انتظار، سؤال‌های تکراری و مواردی را که ثبت نمی‌شوند جدا بنویسید. ممکن است مشکل اصلی، یافتن وضعیت ابزار باشد؛ ممکن است ثبت تحویل از ابتدا ناقص انجام شود. پیش از افزودن قابلیت، مشخص کنید قرار است کدام یک را بررسی کنید. برای نمونه نخست از نام و اطلاعات تماس واقعی استفاده نکنید؛ شناسه‌های ساختگی برای آزمودن مسیر ثبت و جست‌وجو کافی‌اند.",
+        "آزمایش را به یک قفسه و یک نوبت کاری محدود کنید. مسئول کارگاه باید بتواند یک تحویل و یک بازگشت را بدون راهنمایی سازندگان ثبت کند و وضعیت نهایی را دوباره پیدا کند. پیش از آغاز، روش بازگشت به دفتر فعلی را مشخص کنید تا اختلال ابزار آزمایشی کارگاه را متوقف نکند. ثبت کنید کدام مرحله مستقل انجام شد، کجا توضیح لازم بود و کجا اطلاعات دوباره وارد شد. صرف اینکه برنامه خطا نداد، نشانه آسان‌بودن کار نیست؛ اگر سازنده مدام کنار کاربر بایستد، نتیجه درباره کاربرد مستقل محصول مبهم می‌ماند. داده آزمایش را نیز با دفتر عملیاتی مخلوط نکنید.",
+        "همین آزمایش می‌تواند کیفیت همکاری دو سازنده را آشکار کند، به شرط آنکه نقش‌ها روشن باشند. یک نفر مشاهده و ثبت بازخورد را بر عهده بگیرد و دیگری مسئول رفع اشکال نسخه آزمایشی باشد. برای تغییرات وسط جلسه یک قاعده بگذارید: خطایی که آزمایش را متوقف می‌کند بررسی شود، اما درخواست تازه در فهرست جدا بماند. پس از جلسه نقش‌ها را عوض کنید تا هر دو کار پشتیبانی و مشاهده را تجربه کنند. در مرور همکاری درباره رفتار مشخص حرف بزنید: آیا اشکال به‌موقع گزارش شد، آیا وعده خارج از ظرفیت داده شد، و آیا یادداشت‌ها برای نفر دیگر قابل استفاده بود؟ این شواهد از برداشت کلی درباره خوش‌فکری همکار کاربردی‌ترند.",
+        "زمان در دسترس را پیش از قول‌دادن به کارگاه حساب کنید. در هفته امتحان ممکن است هیچ‌کدام توان پاسخ فوری نداشته باشند؛ آن محدودیت باید در برنامه آزمایش دیده شود. یک بازه پاسخ‌گویی مشخص، یک مسئول تماس و یک روش توقف استفاده تعیین کنید. برای هر درخواست تازه بنویسید اجرای آن کدام کار فعلی را عقب می‌اندازد. اگر کارگاه فقط با حضور روزانه یکی از سازندگان می‌تواند کار کند، این هزینه زمانی بخشی از نتیجه آزمایش است. برای تصمیم بعدی، زمان مشاهده، رفع اشکال و پاسخ‌گویی را کنار هم بگذارید؛ ساعت برنامه‌نویسی به‌تنهایی تصویر کاملی از تعهد پروژه نمی‌دهد.",
+        "در پایان، گزارش کوتاهی بنویسید که واقعیت و تفسیر را جدا کند. واقعیت می‌تواند این باشد که مسئول کارگاه تحویل را مستقل ثبت کرد اما برای اصلاح اشتباه کمک خواست؛ تفسیر، این فرضیه است که مسیر اصلاح به توضیح روشن‌تری نیاز دارد. دور بعد فقط همان مسیر را تغییر دهید و دوباره امتحان کنید. اگر دسترسی به کاربر یا ظرفیت پشتیبانی فراهم نیست، توقف موقت با موعد بازبینی تصمیم قابل دفاعی است. اگر استفاده مستقل ممکن شد، گام بعد می‌تواند آزمایش در نوبتی دیگر باشد؛ هنوز شاهدی برای تعمیم به همه کارگاه‌ها ندارید. خروجی این تمرین یک تصمیم مستند درباره مرحله بعد است، نه صرفاً نسخه‌ای با قابلیت‌های بیشتر."
+      ],
+      "takeaways": [
+        "یک رخداد عملیاتی مشخص انتخاب کنید و مسیر فعلی انجام آن را با اجازه کاربر مشاهده کنید.",
+        "آزمایش نخست را به یک قفسه، یک نوبت و داده ساختگی محدود کنید.",
+        "ثبت مستقل، نیاز به کمک و ورود دوباره اطلاعات را جدا گزارش کنید.",
+        "پیش از شروع، راه بازگشت به روش فعلی کارگاه را مشخص کنید.",
+        "نقش مشاهده و رفع اشکال را تقسیم و سپس جابه‌جا کنید؛ همکاری را با رفتار قابل مشاهده بسنجید.",
+        "زمان پشتیبانی و محدودیت هفته امتحان را پیش از وعده‌دادن ثبت کنید.",
+        "در مرور، واقعیت را از فرضیه جدا کنید و دور بعد فقط یک مسیر را تغییر دهید."
+      ],
+      "advice": [
+        "تمرین مستقل: برگه‌ای با سه ستون «کار انجام‌شده»، «کمک لازم» و «تغییر پیشنهادی» آماده کنید؛ هنگام مشاهده فقط دو ستون اول را پر کنید.",
+        "تمرین مستقل: قبل از جلسه، یک ثبت اشتباه با داده ساختگی ایجاد کنید و ببینید کاربر چگونه آن را اصلاح می‌کند؛ پایان خوش مسیر عادی کافی نیست."
+      ]
+    },
+    "en": {
+      "paragraphs": [
+        "This historical essay distinguishes a class project from a product for users, and connects the opportunity to meet collaborators at university with building for actual needs. The following is an independent editorial exercise; its scenario and procedure are not taken from the source. Imagine two students testing an equipment-loan tool in a workshop after a successful classroom demonstration.",
+        "Start with one observable event: handing out a tool and recording its return. With permission, observe a shift and map the current process, separating waiting, repeated questions, and missing records. Pick one problem to investigate. Limit the trial to one shelf and one shift, using synthetic identifiers rather than personal information. Ask the workshop operator to record a loan, register its return, and retrieve the final status without coaching. Agree how to revert to the existing log if the trial fails. Record independent completion, requests for help, and duplicate entry separately. A session with no software crash still tells little about usability if a builder guides every step.",
+        "Use the trial to examine collaboration as well. One builder observes and records feedback; the other handles blocking defects. Keep new feature requests in a separate list, then exchange roles after the session. Discuss specific behavior: reporting a problem promptly, avoiding promises beyond capacity, and leaving notes the other person can use. Before promising another session, account for exams and support availability. Name a contact, a response window, and a way to stop the trial. Record observation, fixes, and support time together; coding hours alone understate the commitment. For each new request, identify the current task it would displace.",
+        "Close with a decision that separates evidence from interpretation. An operator completing the loan but needing help to correct a mistake is an observation; an unclear correction flow is a hypothesis. Change that flow alone for the next trial. If access or support capacity is unavailable, pause with a review date. If independent use works, try another shift before drawing conclusions about other workshops. An independent exercise is to create a synthetic entry error and observe recovery. Another is to keep a worksheet with task completed, assistance needed, and proposed change; fill the last column only after observation ends."
+      ],
+      "takeaways": [
+        "Bound the trial to one shelf and shift, with synthetic data and a fallback procedure.",
+        "Measure independent completion separately from coaching and duplicate entry.",
+        "Rotate observation and defect-handling roles, then review specific collaboration behavior.",
+        "Include support availability and exam commitments before agreeing to another session.",
+        "Separate observations from hypotheses and change one workflow in the next trial."
+      ],
+      "advice": [
+        "Independent exercise: test recovery from a synthetic entry error, not just successful entry.",
+        "Independent exercise: record completed tasks and assistance first; propose changes after the session."
+      ]
+    },
+    "ar": {
+      "paragraphs": [
+        "تميز هذه المقالة التاريخية بين مشروع للصف ومنتج للمستخدم، وتربط فرصة التعرف إلى شركاء في الجامعة بالبناء لحاجة فعلية. ما يلي تمرين تحريري مستقل؛ السيناريو والإجراءات ليست منقولة من المصدر. تخيلوا طالبين يختبران أداة لإعارة معدات ورشة بعد نجاح عرضها في الصف.",
+        "ابدؤوا بحدث يمكن ملاحظته: تسليم أداة وتسجيل عودتها. راقبوا نوبة عمل بإذن المسؤول وارسموا الطريقة الحالية، مع فصل الانتظار والأسئلة المتكررة والسجلات الناقصة. اختاروا مشكلة واحدة للفحص. احصروا التجربة في رف واحد ونوبة واحدة واستخدموا معرفات اصطناعية بدلا من المعلومات الشخصية. اطلبوا من المسؤول تسجيل الإعارة والعودة والعثور على الحالة النهائية دون إرشاد من المطورين. اتفقوا مسبقا على العودة إلى السجل الحالي إذا تعطلت التجربة. سجلوا الإنجاز المستقل والحاجة إلى المساعدة وإدخال البيانات مرتين كلًّا على حدة. غياب العطل البرمجي لا يثبت سهولة الاستخدام إذا كان أحد المطورين يشرح كل خطوة.",
+        "استفيدوا من التجربة لفحص التعاون أيضا. يتولى أحد الطالبين الملاحظة وتسجيل الملاحظات، ويتولى الآخر العيوب التي توقف الاختبار. ضعوا طلبات الميزات الجديدة في قائمة منفصلة، ثم تبادلوا الأدوار بعد الجلسة. ناقشوا سلوكا محددا: الإبلاغ عن المشكلة في وقتها، وتجنب الوعود التي تتجاوز القدرة، وكتابة ملاحظات يفهمها الزميل. قبل الوعد بجلسة أخرى، احسبوا الالتزامات الدراسية وفترة الامتحانات. حددوا جهة اتصال ووقت استجابة وطريقة لإيقاف التجربة. اجمعوا وقت الملاحظة والإصلاح والدعم؛ ساعات البرمجة وحدها لا تصف الالتزام الكامل. ولكل طلب جديد حددوا المهمة الحالية التي سيؤخرها.",
+        "اختموا بقرار يفصل الدليل عن التفسير. إنجاز المسؤول تسجيل الإعارة مع طلب المساعدة لتصحيح خطأ ملاحظة؛ أما غموض مسار التصحيح ففرضية. عدلوا هذا المسار وحده في التجربة التالية. إذا تعذر الوصول إلى المستخدم أو توفير الدعم، أوقفوا التجربة مؤقتا مع موعد للمراجعة. وإذا نجح الاستخدام المستقل، جربوا نوبة أخرى قبل التعميم على بقية الورش. تمرين مستقل مفيد هو إنشاء خطأ ببيانات اصطناعية ومراقبة تصحيحه. ويمكن أيضا إعداد ورقة بثلاثة أعمدة: المهمة المنجزة والمساعدة المطلوبة والتغيير المقترح، على أن يملأ العمود الأخير بعد انتهاء الملاحظة."
+      ],
+      "takeaways": [
+        "احصروا الاختبار في رف ونوبة مع بيانات اصطناعية وطريقة للعودة إلى السجل الحالي.",
+        "افصلوا الإنجاز المستقل عن الإرشاد وتكرار إدخال البيانات.",
+        "تبادلوا أدوار الملاحظة ومعالجة العيوب ثم راجعوا سلوكا تعاونيا محددا.",
+        "احسبوا الدعم والامتحانات قبل الالتزام بجلسة جديدة.",
+        "افصلوا الملاحظات عن الفرضيات وعدلوا مسارا واحدا في التجربة التالية."
+      ],
+      "advice": [
+        "تمرين مستقل: اختبروا تصحيح إدخال خاطئ ببيانات اصطناعية، إلى جانب المسار الناجح.",
+        "تمرين مستقل: سجلوا المهام والمساعدة أثناء الجلسة، واقترحوا التغييرات بعد انتهائها."
+      ]
+    }
+  },
   "The Submarine": {
     "fa": {
       "paragraphs": [
