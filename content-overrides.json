@@ -226,6 +226,55 @@
     "timezone": "Asia/Tehran",
     "queue": [
       {
+        "id": "2026-11-09-site-the-power-of-the-marginal",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "the-power-of-the-marginal",
+        "publishAt": "2026-11-09T05:44:07+03:30",
+        "status": "published",
+        "publishedAt": "2026-11-09T05:44:07+03:30"
+      },
+      {
+        "id": "2026-11-09-linkedin-the-power-of-the-marginal",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "the-power-of-the-marginal",
+        "publishAt": "2026-11-09T12:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-11-09T05:44:07+03:30",
+        "note": "Draft/preview only. Verified account/API or session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "مانع پذیرش را از نقص محصول جدا کنید",
+          "en": "Separate acceptance barriers from product defects",
+          "ar": "افصلوا عوائق القبول عن عيوب المنتج"
+        },
+        "body": {
+          "fa": "اعتراض به سابقه شرکت و خطای کار با محصول، دو مسئله جدا هستند.\nپیامد: افزودن قابلیت لزوماً شرط پذیرش همکاری را حل نمی‌کند.\nاقدام بعدی: در یک آزمایش سفارش چاپ، نتیجه کار اپراتور و شروط پذیرش مدیر را جدا ثبت کنید.\nPaul Graham — https://paulgraham.com/marginal.html\nhttps://alisodeyfi.ir/articles/the-power-of-the-marginal/fa/#daily-article-reader",
+          "en": "A concern about company history and a failed product task are separate problems.\nImplication: another feature may not resolve a cooperation requirement.\nNext action: record operator task results and manager acceptance conditions separately in one print-order trial.\nPaul Graham — https://paulgraham.com/marginal.html\nhttps://alisodeyfi.ir/articles/the-power-of-the-marginal/en/#daily-article-reader",
+          "ar": "الاعتراض على سجل الشركة وفشل مهمة داخل المنتج مشكلتان منفصلتان.\nالأثر: قد لا تعالج ميزة إضافية شرط قبول التعاون.\nالخطوة التالية: سجلوا نتيجة مهمة الموظف وشروط قبول المدير منفصلة في تجربة لطلب طباعة.\nPaul Graham — https://paulgraham.com/marginal.html\nhttps://alisodeyfi.ir/articles/the-power-of-the-marginal/ar/#daily-article-reader"
+        }
+      },
+      {
+        "id": "2026-11-09-instagram-story-the-power-of-the-marginal",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "the-power-of-the-marginal",
+        "publishAt": "2026-11-09T20:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-11-09T05:44:07+03:30",
+        "note": "Draft/preview only. Verified account/API or session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "مانع پذیرش را از نقص محصول جدا کنید",
+          "en": "Separate acceptance barriers from product defects",
+          "ar": "افصلوا عوائق القبول عن عيوب المنتج"
+        },
+        "body": {
+          "fa": "اسلاید ۱: مانع پذیرش همکاری را از نقص محصول جدا کنید.\nاسلاید ۲: نتیجه کار اپراتور و شروط مدیر را در دو ستون ثبت کنید.\nاسلاید ۳: منبع و تمرین مستقل\nPaul Graham — https://paulgraham.com/marginal.html\nhttps://alisodeyfi.ir/articles/the-power-of-the-marginal/fa/#daily-article-reader",
+          "en": "Slide 1: Separate cooperation barriers from product defects.\nSlide 2: Record operator results and manager requirements in separate columns.\nSlide 3: Source and independent exercise\nPaul Graham — https://paulgraham.com/marginal.html\nhttps://alisodeyfi.ir/articles/the-power-of-the-marginal/en/#daily-article-reader",
+          "ar": "الشريحة ١: افصلوا عوائق التعاون عن عيوب المنتج.\nالشريحة ٢: سجلوا نتائج الموظف وشروط المدير في عمودين منفصلين.\nالشريحة ٣: المصدر والتمرين المستقل\nPaul Graham — https://paulgraham.com/marginal.html\nhttps://alisodeyfi.ir/articles/the-power-of-the-marginal/ar/#daily-article-reader"
+        }
+      },
+      {
         "id": "2026-11-08-site-a-students-guide-to-startups",
         "channel": "site",
         "target": "site",

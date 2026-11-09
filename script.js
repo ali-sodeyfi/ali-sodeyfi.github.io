@@ -492,6 +492,36 @@ const articleCategories = [
 
 const articleCatalog = [
   {
+    "title": "The Power of the Marginal",
+    "category": "building",
+    "author": "Paul Graham",
+    "source": "Paul Graham",
+    "year": "2006",
+    "url": "https://paulgraham.com/marginal.html",
+    "tags": {
+      "fa": [
+        "تیم کوچک",
+        "آزمایش محصول",
+        "اعتماد مشتری"
+      ],
+      "en": [
+        "small teams",
+        "product experiments",
+        "customer trust"
+      ],
+      "ar": [
+        "فرق صغيرة",
+        "تجارب المنتج",
+        "ثقة العملاء"
+      ]
+    },
+    "summary": {
+      "fa": "برداشتی کوتاه درباره فرصت تیم‌های بیرون از جریان اصلی، همراه با تمرین مستقل برای آزمودن ابزار سفارش چاپ و تشخیص مانع اعتماد از نقص محصول.",
+      "en": "A brief adaptation about opportunities for outsiders, with an independent exercise for testing a print-order tool and separating trust barriers from product defects.",
+      "ar": "معالجة موجزة لفرص الفرق خارج التيار السائد، مع تمرين مستقل لاختبار أداة لطلبات الطباعة والتمييز بين عوائق الثقة وعيوب المنتج."
+    }
+  },
+  {
     "title": "A Student's Guide to Startups",
     "category": "building",
     "author": "Paul Graham",
@@ -2290,6 +2320,61 @@ const articleCatalog = [
 ];
 
 const articleEssays = {
+  "The Power of the Marginal": {
+    "fa": {
+      "paragraphs": [
+        "ایده محوری مقاله این است که بیرون‌بودن از حلقه شرکت‌های شناخته‌شده می‌تواند فضایی برای تجربه‌کردن فراهم کند؛ نداشتن جایگاه رسمی به‌تنهایی کیفیت کار را تعیین نمی‌کند. ادامه این نوشته یک تمرین مستقل تحریریه است و مثال‌ها و روش آن از منبع نقل نشده‌اند. فرض کنید تیمی دونفره برای چاپخانه‌های کوچک ابزار ثبت سفارش ساخته است. در گفت‌وگوهای اولیه، یک مدیر درباره سابقه شرکت می‌پرسد و مدیر دیگری می‌گوید اپراتورش نمی‌تواند مشخصات سفارش را اصلاح کند. هر دو پاسخ مهم‌اند، اما برای تصمیم درباره هفته بعد باید معلوم شود هرکدام دقیقاً به کدام مانع اشاره دارند.",
+        "پیش از پاسخ‌دادن به اعتراض‌ها، یک مسیر کامل سفارش را با مسئول چاپخانه روی کاغذ ترسیم کنید: دریافت مشخصات، تأیید نسخه، ثبت تغییر و تحویل به اپراتور. برای هر مرحله بنویسید چه کسی تصمیم می‌گیرد و چه اطلاعاتی باید همراه سفارش بماند. ممکن است خریدار ابزار مدیر باشد، ولی فردی که هر روز با آن کار می‌کند مسئول پذیرش باشد. یک گفت‌وگوی رضایت‌بخش با مدیر، نیاز اپراتور را روشن نمی‌کند. خروجی این بررسی یک فهرست قابلیت بلند نیست؛ یک سفارش نمونه و چند نقطه مشخص است که در آن‌ها امکان گم‌شدن اطلاعات یا دوباره‌کاری وجود دارد.",
+        "آزمایش نخست را روی نسخه‌ای ساختگی از یک سفارش اجرا کنید: برای نمونه، مشتری تعداد کارت‌ها را تغییر داده و اپراتور باید نسخه تأییدشده را تشخیص دهد. پیش از جلسه، پاسخ درست و معیار پایان را بنویسید؛ آیا کاربر بدون پرسیدن از سازنده می‌تواند تعداد نهایی و مسئول تأیید را پیدا کند؟ زمان شروع و پایان، تعداد سؤال‌ها و خطاهای باقی‌مانده را ثبت کنید. همان کار را با روش فعلی چاپخانه نیز انجام دهید تا معلوم شود ابزار تازه چه تغییری ایجاد کرده است. یک مشاهده برای حکم کلی کافی نیست، اما می‌تواند نشان دهد در نسخه بعد باید کدام مسیر را اصلاح کرد.",
+        "سؤال درباره سابقه شرکت را به یک نیاز مشخص تبدیل کنید. از مشتری بپرسید برای پذیرفتن یک آزمایش محدود چه شاهدی لازم دارد: نمونه خروجی، امکان گرفتن فایل داده‌ها، زمان پاسخ‌گویی یا معرفی مشتری قبلی؟ فقط مواردی را وعده دهید که واقعاً دارید. اگر معرفی مشتری قبلی ممکن نیست، آن را صریح بگویید و ببینید آیا آزمایش با داده ساختگی همچنان ارزش دارد. اگر مشتری به تضمینی نیاز دارد که تیم قادر به ارائه آن نیست، نتیجه را «مانع پذیرش» ثبت کنید. این نتیجه را با «مسیر اصلاح سفارش کار نمی‌کند» یکی نکنید؛ اولی درباره شرایط ورود به همکاری است و دومی درباره رفتار محصول.",
+        "برای هفته آزمایش سقف تعهد تعیین کنید: چند جلسه مشاهده، چند ساعت رفع اشکال و چه زمانی برای پاسخ به مشتری در دسترس است. یک نفر مسئول ثبت شواهد باشد و دیگری تغییر نسخه را انجام دهد؛ پیش از جلسه بعد، هر دو یادداشت‌ها را مرور کنند. درخواست تازه‌ای مثل اتصال به حسابداری را همراه هزینه زمانی و کاری که عقب می‌اندازد ثبت کنید. اگر برای فهمیدن مشکل ثبت سفارش به آن اتصال نیاز ندارید، در همین دور تعهد اجرای آن ندهید. این محدودیت باید با مشتری توافق شود تا آزمایش کوچک ناخواسته به استقرار کامل و پشتیبانی نامحدود تبدیل نشود.",
+        "در پایان هفته، تصمیم را در یک برگه بنویسید: چه چیزی مشاهده شد، کدام توضیح هنوز فرضیه است و گام بعد چه شاهد تازه‌ای می‌آورد؟ اگر کاربر نسخه درست را پیدا نکرد، مسیر نمایش تغییرات را اصلاح کنید و همان سناریو را دوباره بسنجید. اگر کار با محصول انجام شد ولی شرایط همکاری پذیرفته نشد، درباره مانع پذیرش تصمیم بگیرید؛ افزودن قابلیت شاید هیچ کمکی نکند. اگر تنها شاهد، اظهار علاقه در جلسه است، هنوز استفاده مستقل را نشان نداده‌اید. ادامه، بازطراحی یا توقف آزمایش باید به همین شواهد و ظرفیت تیم متصل باشد و برای هر تصمیم، مسئول و موعد بازبینی مشخص شود."
+      ],
+      "takeaways": [
+        "خریدار، کاربر روزانه و مسئول تأیید سفارش را جدا مشخص کنید.",
+        "یک سفارش نمونه را از دریافت تا تحویل ترسیم و محل گم‌شدن اطلاعات را ثبت کنید.",
+        "سناریوی تغییر تعداد را با داده ساختگی و پاسخ درستِ ازپیش‌تعیین‌شده آزمایش کنید.",
+        "زمان، سؤال‌های کاربر و خطاهای باقی‌مانده را در ابزار تازه و روش فعلی مقایسه کنید.",
+        "مانع پذیرش همکاری را جدا از نقص قابل مشاهده در محصول ثبت کنید.",
+        "برای جلسات، رفع اشکال و پاسخ‌گویی سقف زمانی توافق کنید.",
+        "هر تصمیم ادامه یا توقف را به شاهد مشخص، مسئول و موعد بازبینی وصل کنید."
+      ],
+      "advice": [
+        "تمرین مستقل: برگه بازخورد را به چهار ستون «گفته مشتری»، «مشاهده»، «فرضیه» و «آزمایش بعدی» تقسیم کنید؛ یک اعتراض کلی را بدون پرسش تکمیلی به درخواست قابلیت تبدیل نکنید.",
+        "تمرین مستقل: قبل از ارائه، تعداد سفارش را دو بار تغییر دهید و از همکار بخواهید نسخه نهایی و تأییدکننده آن را پیدا کند؛ مسیر اصلاح باید به اندازه مسیر ثبت اولیه روشن باشد."
+      ]
+    },
+    "en": {
+      "paragraphs": [
+        "The essay argues that being outside established circles can leave room to experiment; institutional standing alone does not determine the quality of work. What follows is an independent editorial exercise, not a procedure or example from the source. Imagine a two-person team testing an order-entry tool for small print shops. One manager asks about the company’s track record; another says an operator cannot correct an order. The next decision depends on understanding each objection precisely.",
+        "Map one order from receiving specifications through approval, revision, and handoff to an operator. Identify the buyer, daily user, and person who authorizes changes. Then create a synthetic order in which the customer changes the quantity. Write the correct final state before testing. Can the operator identify the approved quantity and approver without asking a builder? Record completion time, questions, and unresolved errors. Run the same task using the shop’s existing method. A single observation does not establish broad superiority, but it can identify a particular workflow to revise.",
+        "Ask what evidence the manager needs to accept a limited trial: a sample output, a data export, a response window, or a customer reference. Offer only what actually exists. If there is no previous customer, say so and determine whether a trial with synthetic data remains worthwhile. Record an unmet cooperation requirement separately from a failed product task. Agree a weekly limit for observation sessions, fixes, and support. Assign one person to evidence collection and another to the revision, with a joint review before the next session. Log the cost of an accounting integration request and what it would displace before making a commitment.",
+        "Close the week with a decision sheet: observed result, remaining hypothesis, next evidence needed, owner, and review date. If the operator chose the wrong revision, change that flow and repeat the scenario. If the task succeeded but the cooperation conditions were unacceptable, decide whether that acceptance barrier can be addressed; another feature may not help. Interest expressed in a meeting is still different evidence from independent task completion. An additional exercise is to revise the quantity twice before a demonstration and ask a colleague to locate the final approval. Another is to separate customer statement, observation, hypothesis, and next experiment into four feedback columns."
+      ],
+      "takeaways": [
+        "Identify the buyer, daily operator, and approver before designing the trial.",
+        "Compare the same synthetic revision task in the new tool and existing workflow.",
+        "Record cooperation requirements separately from observed product failures.",
+        "Agree a cap on trial sessions, fixes, and support before accepting extra work.",
+        "Give the next decision an evidence requirement, an owner, and a review date."
+      ]
+    },
+    "ar": {
+      "paragraphs": [
+        "تطرح المقالة أن العمل خارج الدوائر المعروفة قد يتيح مساحة للتجربة؛ فالمكانة المؤسسية وحدها لا تحدد جودة العمل. ما يلي تمرين تحريري مستقل، وليست أمثلته وخطواته منقولة من المصدر. تخيلوا فريقا من شخصين يختبر أداة لتسجيل الطلبات في مطابع صغيرة. يسأل مدير عن سجل الشركة، بينما يقول مدير آخر إن الموظف لا يستطيع تصحيح الطلب. يحتاج قرار الأسبوع المقبل إلى فهم كل اعتراض بدقة.",
+        "ارسموا مسار طلب واحد، من استلام المواصفات إلى الموافقة والتعديل وتسليمه إلى موظف التشغيل. حددوا المشتري والمستخدم اليومي وصاحب صلاحية اعتماد التغييرات. أنشئوا بعد ذلك طلبا ببيانات افتراضية يغير فيه العميل الكمية، واكتبوا النتيجة الصحيحة قبل الاختبار. هل يستطيع الموظف العثور على الكمية المعتمدة واسم المسؤول عن اعتمادها دون سؤال أحد المطورين؟ سجلوا زمن الإنجاز والأسئلة والأخطاء المتبقية، ثم نفذوا المهمة نفسها بالطريقة الحالية للمطبعة. لا تكفي ملاحظة واحدة لإثبات تفوق عام، لكنها قد تحدد مسارا يحتاج إلى تعديل واضح.",
+        "اسألوا المدير عن الدليل اللازم لقبول تجربة محدودة: نموذج للمخرجات، أو تصدير للبيانات، أو وقت استجابة معلوم، أو مرجع من عميل سابق. لا تعدوا إلا بما يتوفر فعلا. إن لم يوجد عميل سابق، اذكروا ذلك وحددوا ما إذا كانت تجربة ببيانات افتراضية تظل مفيدة. سجلوا شروط التعاون غير المتحققة منفصلة عن فشل مهمة داخل المنتج. اتفقوا على حد أسبوعي لجلسات الملاحظة والإصلاح والدعم. يتولى شخص جمع الشواهد ويتولى الآخر التعديل، ثم يراجعان النتائج معا قبل الجلسة التالية. عند طلب ربط الأداة بالمحاسبة، سجلوا الوقت المطلوب والعمل الذي سيؤجل قبل تقديم أي التزام.",
+        "اختتموا الأسبوع بورقة قرار تحدد النتيجة المشاهدة والفرضية المتبقية والدليل المطلوب لاحقا والمسؤول وموعد المراجعة. إذا اختار الموظف نسخة خاطئة، عدلوا مسار عرض التغييرات وأعيدوا السيناريو. وإذا نجحت المهمة ولم تقبل شروط التعاون، فقرروا إمكان معالجة عائق القبول؛ فقد لا تفيد ميزة إضافية. التعبير عن الاهتمام في اجتماع يظل دليلا مختلفا عن إنجاز المهمة باستقلال. تمرين إضافي: غيروا الكمية مرتين قبل العرض واطلبوا من زميل العثور على الاعتماد النهائي. وتمرين آخر: قسموا ورقة الملاحظات إلى قول العميل، والمشاهدة، والفرضية، والتجربة التالية."
+      ],
+      "takeaways": [
+        "حددوا المشتري والمستخدم اليومي وصاحب صلاحية الاعتماد قبل التجربة.",
+        "قارنوا مهمة التعديل نفسها ببيانات افتراضية في الأداة الجديدة والطريقة الحالية.",
+        "افصلوا شروط قبول التعاون عن إخفاقات المنتج التي تمت ملاحظتها.",
+        "اتفقوا على سقف للجلسات والإصلاح والدعم قبل قبول أعمال إضافية.",
+        "حددوا لكل قرار دليلا مطلوبا ومسؤولا وموعدا للمراجعة."
+      ]
+    }
+  },
   "A Student's Guide to Startups": {
     "fa": {
       "paragraphs": [
