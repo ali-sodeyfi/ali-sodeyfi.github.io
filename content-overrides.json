@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T05:43:03+03:30",
+  "updatedAt": "2026-11-10T05:48:08+03:30",
   "translations": {
     "fa": {
       "documentTitle": "علی سدیفی | یادداشت‌هایی درباره ساخت کسب‌وکار",
@@ -225,6 +225,55 @@
   "publishing": {
     "timezone": "Asia/Tehran",
     "queue": [
+      {
+        "id": "2026-11-10-site-the-high-res-society",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "the-high-res-society",
+        "publishAt": "2026-11-10T05:48:08+03:30",
+        "status": "published",
+        "publishedAt": "2026-11-10T05:48:08+03:30"
+      },
+      {
+        "id": "2026-11-10-linkedin-the-high-res-society",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "the-high-res-society",
+        "publishAt": "2026-11-10T12:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-11-10T05:48:08+03:30",
+        "note": "Draft/preview only. Verified account/API or session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "صف تصمیم را در مسیر فعال‌سازی پیدا کنید",
+          "en": "Find the decision queue in account setup",
+          "ar": "حددوا انتظار القرار في إعداد الحساب"
+        },
+        "body": {
+          "fa": "معطل‌ماندن تصمیم، فعال‌سازی مشتری را طولانی می‌کند.\nپیامد عملی: زمان انتظار داخلی باید جدا از زمان اجرای کار ثبت شود.\nگام بعد: پنج حساب اخیر را بررسی و برای یک توقف پرتکرار، صاحب تصمیم و حدود اختیار تعیین کنید.\nPaul Graham — https://paulgraham.com/highres.html\nhttps://alisodeyfi.ir/articles/the-high-res-society/fa/#daily-article-reader",
+          "en": "Waiting for a decision delays customer activation.\nImplication: record internal waiting separately from task execution.\nNext action: trace five recent accounts and assign a decision owner and authority boundary for one recurring pause.\nPaul Graham — https://paulgraham.com/highres.html\nhttps://alisodeyfi.ir/articles/the-high-res-society/en/#daily-article-reader",
+          "ar": "انتظار القرار يؤخر تفعيل العميل.\nالأثر العملي: سجلوا الانتظار الداخلي منفصلا عن وقت التنفيذ.\nالخطوة التالية: راجعوا خمسة حسابات حديثة وحددوا صاحب القرار وحدود صلاحيته لتوقف متكرر واحد.\nPaul Graham — https://paulgraham.com/highres.html\nhttps://alisodeyfi.ir/articles/the-high-res-society/ar/#daily-article-reader"
+        }
+      },
+      {
+        "id": "2026-11-10-instagram-story-the-high-res-society",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "the-high-res-society",
+        "publishAt": "2026-11-10T20:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-11-10T05:48:08+03:30",
+        "note": "Draft/preview only. Verified account/API or session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "صف تصمیم را در مسیر فعال‌سازی پیدا کنید",
+          "en": "Find the decision queue in account setup",
+          "ar": "حددوا انتظار القرار في إعداد الحساب"
+        },
+        "body": {
+          "fa": "اسلاید ۱: صف تصمیم، فعال‌سازی مشتری را کند می‌کند.\nاسلاید ۲: پنج حساب را بررسی کنید؛ زمان انتظار، صاحب تصمیم و حدود اختیار را ثبت کنید.\nاسلاید ۳: منبع و تمرین مستقل\nPaul Graham — https://paulgraham.com/highres.html\nhttps://alisodeyfi.ir/articles/the-high-res-society/fa/#daily-article-reader",
+          "en": "Slide 1: Decision queues slow customer activation.\nSlide 2: Trace five accounts; record waiting, decision owner, and authority.\nSlide 3: Source and independent exercise\nPaul Graham — https://paulgraham.com/highres.html\nhttps://alisodeyfi.ir/articles/the-high-res-society/en/#daily-article-reader",
+          "ar": "الشريحة ١: انتظار القرار يبطئ تفعيل العميل.\nالشريحة ٢: راجعوا خمسة حسابات وسجلوا الانتظار وصاحب القرار وصلاحيته.\nالشريحة ٣: المصدر والتمرين المستقل\nPaul Graham — https://paulgraham.com/highres.html\nhttps://alisodeyfi.ir/articles/the-high-res-society/ar/#daily-article-reader"
+        }
+      },
       {
         "id": "2026-11-09-site-the-power-of-the-marginal",
         "channel": "site",

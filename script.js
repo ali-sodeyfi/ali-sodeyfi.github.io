@@ -492,6 +492,36 @@ const articleCategories = [
 
 const articleCatalog = [
   {
+    "title": "The High-Res Society",
+    "category": "building",
+    "author": "Paul Graham",
+    "source": "Paul Graham",
+    "year": "2008",
+    "url": "https://paulgraham.com/highres.html",
+    "tags": {
+      "fa": [
+        "اختیار تصمیم",
+        "زمان انتظار",
+        "هماهنگی تیم"
+      ],
+      "en": [
+        "decision authority",
+        "waiting time",
+        "team coordination"
+      ],
+      "ar": [
+        "صلاحية القرار",
+        "وقت الانتظار",
+        "تنسيق الفريق"
+      ]
+    },
+    "summary": {
+      "fa": "برداشتی کوتاه درباره سرعت تیم‌های کوچک، همراه با تمرین مستقل برای تعیین اختیار تصمیم، اندازه‌گیری زمان انتظار و بهبود راه‌اندازی حساب مشتری.",
+      "en": "A brief adaptation about small-team speed, with an independent exercise on decision authority, waiting time, and customer account setup.",
+      "ar": "معالجة موجزة لسرعة الفرق الصغيرة، مع تمرين مستقل لتحديد صلاحية القرار وقياس الانتظار وتحسين إعداد حساب العميل."
+    }
+  },
+  {
     "title": "The Power of the Marginal",
     "category": "building",
     "author": "Paul Graham",
@@ -2320,6 +2350,61 @@ const articleCatalog = [
 ];
 
 const articleEssays = {
+  "The High-Res Society": {
+    "fa": {
+      "paragraphs": [
+        "ایده محوری این مقاله تاریخی این است که در محیط فناوریِ پرشتاب، سرعت گروه‌های کوچک می‌تواند از مزیت اندازه مهم‌تر شود. ادامه نوشته یک تمرین مستقل تحریریه است؛ سناریو، معیارها و دستور کار آن از منبع نقل نشده‌اند. فرض کنید شرکتی شش‌نفره نرم‌افزار مدیریت سفارش می‌سازد و فعال‌شدن حساب مشتریان جدید چند روز طول می‌کشد. همه مشغول‌اند، ولی هر تغییر متن راهنما باید از پشتیبانی به محصول و سپس به بنیان‌گذار برسد. پیش از استخدام یا تغییر ساختار، لازم است معلوم شود زمان در اجرای کار صرف می‌شود یا در انتظار تصمیم. کوچکی تعداد کارکنان به‌تنهایی پاسخ این پرسش را نمی‌دهد.",
+        "پنج حساب اخیر را انتخاب کنید و مسیر هرکدام را از تحویل اطلاعات تا ثبت نخستین سفارش دنبال کنید. برای هر مرحله، زمان شروع، پایان، انتظار و دلیل توقف را بنویسید. نمونه را هم از حساب‌های موفق و هم از حساب‌های متوقف‌شده بردارید؛ بررسی فقط مشتریان فعال، مانع‌های مهم را پنهان می‌کند. ممکن است ورود اطلاعات ده دقیقه زمان ببرد اما تأیید متن پیام دو روز معطل بماند. این اعداد در سناریوی ما فرضی‌اند و باید با ثبت واقعی جایگزین شوند. خروجی بررسی یک نقشه ساده از توقف‌هاست که نشان می‌دهد کدام تأخیر داخل شرکت است و کدام به پاسخ مشتری وابسته است.",
+        "برای یک هفته، یک نفر از پشتیبانی و یک نفر از محصول را مسئول بهبود همین مسیر کنید. در برگه مأموریت، نتیجه مورد انتظار و حدود اختیارشان را روشن بنویسید: اصلاح متن راهنمای موجود و جابه‌جایی ترتیب توضیحات مجاز است؛ تغییر قیمت، سطح دسترسی یا تعهد قراردادی نیازمند تصمیم جداگانه است. برای هر تصمیم خارج از محدوده، یک پاسخ‌گو و موعد پاسخ تعیین کنید. اگر تیم فقط مسئول نتیجه باشد اما برای کوچک‌ترین اصلاح اجازه بخواهد، همان صف قبلی با عنوان تازه ادامه پیدا می‌کند. اختیار باید به نوع تغییر متصل باشد و برای همکاران دیگر هم قابل مشاهده بماند.",
+        "معیار اصلی را فاصله دریافت اطلاعات کامل تا ثبت اولین سفارش صحیح قرار دهید. کنار آن، تعداد حساب‌های شروع‌شده، حساب‌های تمام‌نشده، خطاهای ثبت و دقیقه‌های پشتیبانی هر حساب را نگه دارید. سریع‌ترشدن چند مشتری آسان نباید مشکل مشتریان دشوار را از گزارش حذف کند. بازه انتظار پاسخ مشتری را نیز جدا ثبت کنید تا مسئولیت تیم با عاملی بیرون از اختیارش مخلوط نشود. در نمونه کوچک به یک میانگین دل نبندید؛ مسیر هر حساب را مرور کنید. هدف این دور، پیدا کردن یک گلوگاه قابل اصلاح است، نه اثبات قطعی اینکه روش جدید برای همه مشتریان بهتر است.",
+        "استقلال این دو نفر، نیاز به هماهنگی را از بین نمی‌برد. یک یادداشت مشترک کافی است که نسخه فعال راهنما، تغییر انجام‌شده، مسئول تغییر و روش برگشت را نشان دهد. پیش از شروع، فروش بداند کدام وعده‌ها تغییر نکرده و پشتیبانی بداند در صورت خطا از کدام نسخه استفاده کند. اگر تغییر در راه‌اندازی حساب، کار اضافی به تیم دیگری تحمیل می‌کند، زمان آن کار هم در ارزیابی ثبت شود. انتقال صف انتظار به همکار دیگر به معنای بهبود مسیر نیست. اگر پاسخ‌گو در دسترس نبود، تغییر خارج از محدوده متوقف می‌شود؛ نبود پاسخ نباید مجوز خودکار تلقی شود.",
+        "در پایان هفته، برای هر حساب نتیجه را با خط شروع مقایسه و تفاوت شرایط را ثبت کنید. شاید ترتیب توضیحات بهتر شده باشد، اما مشتریان این هفته تجربه بیشتری داشته‌اند؛ این احتمال را در تفسیر حفظ کنید. اگر یک توقف مشخص کوتاه شده و خطا یا فشار پشتیبانی بالا نرفته، همان حدود اختیار را برای یک دور دیگر نگه دارید. اگر تعداد اصلاحات اشتباه بیشتر شده، نسخه قبلی را برگردانید و علت را بررسی کنید. تصمیم نهایی باید یک تغییر روشن، مسئول مشخص و موعد مرور داشته باشد. ساختار تیم زمانی ارزش دارد که کار مشتری با هزینه قابل مشاهده پیش برود؛ تعداد جلسه‌های کمتر به‌تنهایی نتیجه محصول نیست."
+      ],
+      "takeaways": [
+        "پنج حساب اخیر، شامل حساب‌های متوقف‌شده، را مرحله‌به‌مرحله بررسی کنید.",
+        "زمان اجرای کار، انتظار داخلی و انتظار پاسخ مشتری را جدا ثبت کنید.",
+        "برای یک مسیر مشخص، مسئول نتیجه و حدود اختیار تصمیم را مکتوب کنید.",
+        "برای تصمیم‌های خارج از اختیار، پاسخ‌گو و موعد پاسخ تعیین کنید.",
+        "سرعت فعال‌سازی را کنار خطا، حساب‌های ناتمام و زمان پشتیبانی بسنجید.",
+        "هزینه‌ای را که تغییر به تیم‌های دیگر منتقل می‌کند در گزارش نگه دارید.",
+        "پس از یک هفته، ادامه یا بازگشت را با شاهد و موعد مرور بعدی ثبت کنید."
+      ],
+      "advice": [
+        "تمرین مستقل: برای هر توقف یک ردیف با «تصمیم لازم، صاحب تصمیم، زمان درخواست، زمان پاسخ» بسازید؛ عنوان کلی «منتظر هماهنگی» امکان اصلاح نمی‌دهد.",
+        "تمرین مستقل: پیش از تغییر راهنما، نسخه قبلی و مسئول بازگرداندن آن را مشخص کنید؛ آزمایش باید راه پایان روشن داشته باشد."
+      ]
+    },
+    "en": {
+      "paragraphs": [
+        "The historical essay argues that, in rapidly changing technology, small-group speed can outweigh advantages of size. The following is an independent editorial exercise; its scenario and procedure are not taken from the source. Imagine six people building order-management software. Customer account setup takes days because every help-text revision travels from support to product to a founder. Before hiring, investigate where the time goes: task execution, internal decisions, or customer responses.",
+        "Trace five recent accounts, including incomplete ones, from receiving the required information to the first correct order. Record work and waiting separately at each stage, with a specific reason for each pause. Give one support colleague and one product colleague a one-week assignment to improve this path. State their authority in writing: revising existing guidance and changing explanation order are allowed; pricing, access permissions, and contractual commitments require a separate decision. Name a responder and response deadline for exceptions. Responsibility without permission to make the relevant change leaves the original queue intact.",
+        "Measure elapsed time from complete input to the first correct order, alongside the number of started and unfinished accounts, errors, and support minutes per account. Separate customer-response delays from internal waiting. Review individual cases instead of relying on an average from a small sample. Keep a shared change note with the active version, owner, and rollback procedure. Include any extra work imposed on sales or support in the assessment. Moving a delay to another colleague is not a workflow improvement. If an exception has no available decision owner, hold it; silence is not authorization.",
+        "At the weekly review, compare cases with the baseline and document differences in customer experience or task difficulty. A faster week alone cannot establish causation. Retain the decision boundary for another trial if a particular delay shrank without increasing errors or support load. Restore the earlier version if errors increased and investigate before repeating. Record one next change, an owner, and a review date. Two practical worksheets help: a decision log with request and response timestamps, and a version record naming the person who can restore the previous guidance."
+      ],
+      "takeaways": [
+        "Trace both completed and incomplete accounts, separating work from waiting.",
+        "Write the permitted changes and assign an owner for exceptions.",
+        "Track activation time alongside errors, unfinished accounts, and support effort.",
+        "Count additional work imposed on other teams and preserve a rollback path.",
+        "Review individual evidence and customer differences before extending the trial."
+      ]
+    },
+    "ar": {
+      "paragraphs": [
+        "تطرح هذه المقالة التاريخية أن سرعة المجموعات الصغيرة قد تتفوق على مزايا الحجم عندما تتغير التكنولوجيا بسرعة. ما يلي تمرين تحريري مستقل؛ السيناريو والخطوات ليسا منقولين من المصدر. تخيلوا شركة من ستة أشخاص تبني برنامجا لإدارة الطلبات، ويستغرق إعداد حساب العميل عدة أيام لأن كل تعديل في نص المساعدة ينتقل من الدعم إلى المنتج ثم إلى المؤسس. قبل التوظيف، حددوا أين يذهب الوقت: تنفيذ المهمة أم انتظار قرار داخلي أم انتظار رد العميل.",
+        "تتبعوا خمسة حسابات حديثة، بينها حسابات لم تكمل الإعداد، من استلام المعلومات المطلوبة إلى تسجيل أول طلب صحيح. افصلوا العمل عن الانتظار في كل مرحلة وسجلوا سبب التوقف بدقة. كلفوا شخصا من الدعم وآخر من المنتج بتحسين المسار لمدة أسبوع. اكتبوا حدود الصلاحية: تعديل الإرشادات الحالية وترتيب الشرح مسموح، أما السعر وصلاحيات الوصول والالتزامات التعاقدية فتحتاج إلى قرار منفصل. حددوا مسؤولا وموعد رد لكل استثناء. تحميل الفريق مسؤولية النتيجة دون السماح بالتعديل المطلوب يبقي الانتظار السابق قائما.",
+        "قيسوا الزمن بين اكتمال المعلومات وتسجيل أول طلب صحيح، مع عدد الحسابات التي بدأت والتي لم تنته، وأخطاء التسجيل ودقائق الدعم لكل حساب. افصلوا انتظار العميل عن الانتظار الداخلي، وراجعوا كل حالة بدلا من الاعتماد على متوسط عينة صغيرة. احتفظوا بسجل مشترك يوضح النسخة الحالية والتغيير والمسؤول وطريقة العودة. احسبوا أيضا أي عمل إضافي ينقل إلى المبيعات أو الدعم؛ نقل التأخير إلى زميل آخر لا يحسن المسار. إذا تعذر الوصول إلى صاحب قرار الاستثناء، يظل التغيير معلقا؛ غياب الرد ليس موافقة.",
+        "في نهاية الأسبوع، قارنوا الحالات بخط البداية وسجلوا اختلاف خبرة العملاء وصعوبة المهام. أسبوع أسرع لا يثبت وحده سبب التحسن. أبقوا حدود الصلاحية لدورة أخرى إذا تقلص توقف محدد دون زيادة الأخطاء أو عبء الدعم. أعيدوا النسخة السابقة إذا زادت الأخطاء، ثم افحصوا السبب. وثقوا تغييرا تاليا واحدا ومسؤولا وموعد مراجعة. يفيد هنا سجل للقرار يضم وقت الطلب والرد، وسجل للنسخة يحدد من يستطيع استعادة الإرشادات السابقة. هذان نموذجان عمليان لهذا التمرين المستقل."
+      ],
+      "takeaways": [
+        "تتبعوا الحسابات المكتملة وغير المكتملة وافصلوا العمل عن الانتظار.",
+        "اكتبوا التغييرات المسموحة وحددوا صاحب قرار لكل استثناء.",
+        "قيسوا زمن التفعيل مع الأخطاء والحسابات غير المكتملة وجهد الدعم.",
+        "احسبوا العمل المنقول إلى الفرق الأخرى وحافظوا على طريقة للعودة.",
+        "راجعوا أدلة كل حالة واختلاف العملاء قبل توسيع التجربة."
+      ]
+    }
+  },
   "The Power of the Marginal": {
     "fa": {
       "paragraphs": [
