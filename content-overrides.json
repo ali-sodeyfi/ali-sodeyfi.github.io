@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T05:48:08+03:30",
+  "updatedAt": "2026-11-11T05:48:00+03:30",
   "translations": {
     "fa": {
       "documentTitle": "علی سدیفی | یادداشت‌هایی درباره ساخت کسب‌وکار",
@@ -225,6 +225,55 @@
   "publishing": {
     "timezone": "Asia/Tehran",
     "queue": [
+      {
+        "id": "2026-11-11-site-why-there-arent-more-googles",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "why-there-arent-more-googles",
+        "publishAt": "2026-11-11T05:48:00+03:30",
+        "status": "published",
+        "publishedAt": "2026-11-11T05:48:00+03:30"
+      },
+      {
+        "id": "2026-11-11-linkedin-why-there-arent-more-googles",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "why-there-arent-more-googles",
+        "publishAt": "2026-11-11T12:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-11-11T05:48:00+03:30",
+        "note": "Draft/preview only. Verified account/API or session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "مخالفت را به آزمون مشخص تبدیل کنید",
+          "en": "Turn objections into specific tests",
+          "ar": "حولوا الاعتراضات إلى اختبارات محددة"
+        },
+        "body": {
+          "fa": "مخالفت کلی، تصمیم محصول را روشن نمی‌کند.\nپیامد عملی: استفاده‌نکردن کاربر و خطای فنی به دو آزمون جدا نیاز دارند.\nگام بعد: یک اعتراض پرتکرار را انتخاب و پیش از آزمایش، شاهد لازم برای تغییر تصمیم را ثبت کنید.\nPaul Graham — https://paulgraham.com/googles.html\nhttps://alisodeyfi.ir/articles/why-there-arent-more-googles/fa/#daily-article-reader",
+          "en": "A broad objection does not clarify a product decision.\nImplication: non-use and technical errors require separate tests.\nNext action: choose one recurring objection and write the evidence that would change the decision before testing.\nPaul Graham — https://paulgraham.com/googles.html\nhttps://alisodeyfi.ir/articles/why-there-arent-more-googles/en/#daily-article-reader",
+          "ar": "الاعتراض العام لا يوضح قرار المنتج.\nالأثر العملي: عدم الاستخدام والخطأ التقني يحتاجان إلى اختبارين منفصلين.\nالخطوة التالية: اختاروا اعتراضا متكررا وحددوا الدليل الذي سيغير القرار قبل الاختبار.\nPaul Graham — https://paulgraham.com/googles.html\nhttps://alisodeyfi.ir/articles/why-there-arent-more-googles/ar/#daily-article-reader"
+        }
+      },
+      {
+        "id": "2026-11-11-instagram-story-why-there-arent-more-googles",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "why-there-arent-more-googles",
+        "publishAt": "2026-11-11T20:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-11-11T05:48:00+03:30",
+        "note": "Draft/preview only. Verified account/API or session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "مخالفت را به آزمون مشخص تبدیل کنید",
+          "en": "Turn objections into specific tests",
+          "ar": "حولوا الاعتراضات إلى اختبارات محددة"
+        },
+        "body": {
+          "fa": "اسلاید ۱: مخالفت کلی را به ادعای قابل بررسی تبدیل کنید.\nاسلاید ۲: یک اعتراض، یک آزمون؛ پیشاپیش بنویسید چه شاهدی تصمیم را تغییر می‌دهد.\nاسلاید ۳: منبع و تمرین مستقل\nPaul Graham — https://paulgraham.com/googles.html\nhttps://alisodeyfi.ir/articles/why-there-arent-more-googles/fa/#daily-article-reader",
+          "en": "Slide 1: Turn a broad objection into an observable claim.\nSlide 2: One objection, one test; define decision-changing evidence first.\nSlide 3: Source and independent exercise\nPaul Graham — https://paulgraham.com/googles.html\nhttps://alisodeyfi.ir/articles/why-there-arent-more-googles/en/#daily-article-reader",
+          "ar": "الشريحة ١: حولوا الاعتراض العام إلى ادعاء قابل للفحص.\nالشريحة ٢: اعتراض واحد واختبار واحد؛ حددوا دليل تغيير القرار مسبقا.\nالشريحة ٣: المصدر والتمرين المستقل\nPaul Graham — https://paulgraham.com/googles.html\nhttps://alisodeyfi.ir/articles/why-there-arent-more-googles/ar/#daily-article-reader"
+        }
+      },
       {
         "id": "2026-11-10-site-the-high-res-society",
         "channel": "site",

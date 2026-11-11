@@ -492,6 +492,36 @@ const articleCategories = [
 
 const articleCatalog = [
   {
+    "title": "Why There Aren't More Googles",
+    "category": "ideas",
+    "author": "Paul Graham",
+    "source": "Paul Graham",
+    "year": "2008",
+    "url": "https://paulgraham.com/googles.html",
+    "tags": {
+      "fa": [
+        "ارزیابی ایده",
+        "شواهد محصول",
+        "آزمون فرضیه"
+      ],
+      "en": [
+        "idea evaluation",
+        "product evidence",
+        "hypothesis testing"
+      ],
+      "ar": [
+        "تقييم الأفكار",
+        "أدلة المنتج",
+        "اختبار الفرضيات"
+      ]
+    },
+    "summary": {
+      "fa": "برداشتی کوتاه درباره دشواری ارزیابی ایده‌های ناآشنا، همراه با تمرین مستقل برای تبدیل مخالفت به آزمون محصول در یک کارگاه تعمیرات.",
+      "en": "A brief adaptation on evaluating unfamiliar ideas, with an independent repair-workshop exercise for turning objections into product tests.",
+      "ar": "معالجة موجزة لصعوبة تقييم الأفكار غير المألوفة، مع تمرين مستقل في ورشة إصلاح لتحويل الاعتراضات إلى اختبارات للمنتج."
+    }
+  },
+  {
     "title": "The High-Res Society",
     "category": "building",
     "author": "Paul Graham",
@@ -2350,6 +2380,67 @@ const articleCatalog = [
 ];
 
 const articleEssays = {
+  "Why There Aren't More Googles": {
+    "fa": {
+      "paragraphs": [
+        "ایده محوری این مقاله تاریخی این است که تکیه بر تأیید جمعی می‌تواند باعث نادیده‌گرفتن شرکت‌های نوآور شود. ادامه این نوشته تمرین مستقل تحریریه است؛ سناریو و روش آزمون آن از منبع نقل نشده‌اند. فرض کنید تیمی برای کارگاه‌های تعمیر لوازم خانگی، ابزار ثبت قطعه با پیام صوتی می‌سازد. در جلسه معرفی، یک نفر می‌گوید تعمیرکارها وقت ثبت اطلاعات ندارند و دیگری معتقد است دقت تشخیص نام قطعات کافی نیست. این دو مخالفت ظاهراً شبیه‌اند، اما تصمیم‌های متفاوتی می‌طلبند: اولی درباره رفتار کاربر است و دومی درباره عملکرد ابزار. پاسخ کلی «ایده ما آینده دارد» هیچ‌کدام را روشن نمی‌کند.",
+        "ابتدا هر مخالفت را به ادعایی تبدیل کنید که بتوان نشانه تأیید یا رد آن را دید. «کسی استفاده نمی‌کند» را به این پرسش محدود کنید: آیا تعمیرکار پس از پایان تعمیر، بدون یادآوری همکار، قطعه مصرف‌شده را ثبت می‌کند؟ «فناوری آماده نیست» را جدا بنویسید: آیا ابزار نام و تعداد قطعه را در صدای واقعی کارگاه درست تشخیص می‌دهد؟ برای هر پرسش، مشخص کنید چه مشاهده‌ای تصمیم تیم را تغییر خواهد داد. جمله‌ای که هیچ نتیجه‌ای نتواند آن را تغییر دهد، فعلاً مبنای خوبی برای آزمایش نیست. هدف جلسه توافق همه حاضران نیست؛ خروجی باید دو پرسش قابل بررسی باشد.",
+        "برای یک دور کوتاه، با رضایت مسئول کارگاه چند نوبت کاری را مشاهده کنید و روش فعلی ثبت قطعات را نگه دارید. اگر کسی هنوز دفتر را تکمیل می‌کند، ثبت صوتی نباید بی‌سروصدا جای آن را بگیرد و موجودی واقعی را خراب کند. نمونه اولیه می‌تواند فقط پیش‌نویس بسازد و تأیید نهایی با مسئول ثبت بماند. زمان ضبط، زمان اصلاح و موارد جاافتاده را جدا یادداشت کنید. این جزئیات نشان می‌دهد آیا ابزار واقعاً کاری را کوتاه کرده یا فقط زحمت را از تعمیرکار به مسئول انبار منتقل کرده است. تعداد نوبت‌ها و شرکت‌کنندگان را متناسب با ظرفیت کارگاه از پیش تعیین کنید.",
+        "قبل از مشاهده نتیجه، در یک برگه بنویسید «ادعا، شاهد لازم، مسئول جمع‌آوری و تصمیم بعدی». برای نمونه، اگر پیام‌ها مرتب ضبط می‌شوند ولی اصلاح نام قطعه زمان زیادی می‌گیرد، مسیر بعدی بهبود واژگان و نمایش پیش‌نویس است. اگر تشخیص دقیق است اما ضبط فقط با یادآوری انجام می‌شود، باید زمان و جایگاه ثبت در جریان کار را بررسی کرد. این نتیجه‌ها را با هم مخلوط نکنید و یک امتیاز کلی رضایت نسازید. همچنین تعداد فرصت‌های ثبت را در مخرج نگه دارید؛ پنج پیام درست از پنج فرصت با پنج پیام درست از پنجاه فرصت معنای یکسانی ندارد.",
+        "در مرور پایان دور، مخالفت اولیه را کنار مشاهده واقعی قرار دهید. نظر فرد باتجربه می‌تواند محل یک خطر را نشان دهد، ولی جای مشاهده را پر نمی‌کند؛ چند استفاده موفق هم مشکل همه کارگاه‌ها را حل‌شده نشان نمی‌دهد. مشخص کنید شرکت‌کنندگان چقدر با تیم آشنا بوده‌اند، ابزار چقدر کمک انسانی گرفته و محیط آزمایش چه تفاوتی با کار روزمره داشته است. اگر مسئول تیم هنگام هر ضبط کنار کاربر ایستاده، نتیجه را استفاده مستقل ننامید. این ثبت محدودیت‌ها به تیم کمک می‌کند دقیقاً بداند در دور بعد چه چیزی باید بدون همراهی امتحان شود.",
+        "تصمیم پایان آزمایش را به یک اقدام محدود تبدیل کنید: اصلاح تشخیص نام چند قطعه پرتکرار، جابه‌جایی زمان ثبت، اجرای دور مستقل یا توقف این مسیر. برای اقدام منتخب، یک مسئول و تاریخ مرور بگذارید و ادعاهای حل‌نشده را نگه دارید. اگر نتیجه برخلاف انتظار بود، متن ادعا را بعد از مشاهده عوض نکنید تا آزمایش موفق جلوه کند؛ نسخه تازه فرضیه باید دور تازه‌ای داشته باشد. ارزش این شیوه در قانع‌کردن همه منتقدان نیست. تیم باید بتواند نشان دهد کدام ابهام کمتر شده، کدام هزینه هنوز باقی است و چرا قدم بعدی به همین اندازه محدود انتخاب شده است."
+      ],
+      "takeaways": [
+        "مخالفت رفتاری و مخالفت فنی را به دو پرسش مستقل تبدیل کنید.",
+        "پیش از آزمون بنویسید چه مشاهده‌ای تصمیم شما را تغییر می‌دهد.",
+        "روش فعلی ثبت موجودی را در دوره آزمایشی حفظ کنید و خروجی ابزار را پیش‌نویس نگه دارید.",
+        "زمان ضبط، اصلاح و کار منتقل‌شده به مسئول انبار را جدا بسنجید.",
+        "تعداد ثبت‌های درست را همراه با کل فرصت‌های ثبت گزارش کنید.",
+        "کمک انسانی و یادآوری را ثبت کنید تا استفاده همراهی‌شده با استفاده مستقل اشتباه نشود.",
+        "پایان هر دور، یک اقدام، یک مسئول و تاریخ مرور مشخص کنید."
+      ],
+      "advice": [
+        "تمرین مستقل: جدولی با ستون‌های «مخالفت، فرضیه قابل مشاهده، شاهد، تصمیم بعدی» بسازید؛ برای هر ردیف فقط یک ادعا نگه دارید.",
+        "تمرین مستقل: پیش از شروع، نحوه تأیید پیش‌نویس و بازگشت به دفتر قبلی را با مسئول کارگاه روشن کنید."
+      ]
+    },
+    "en": {
+      "paragraphs": [
+        "The historical essay argues that reliance on consensus can cause innovative companies to be overlooked. What follows is an independent editorial exercise, not a procedure from the source. Imagine a team building voice-based parts logging for appliance repair workshops. One reviewer says mechanics will not record their work; another doubts recognition accuracy. These are different objections. Separate the question of whether a mechanic records a used part without reminders from the question of whether the tool correctly identifies its name and quantity in workshop noise.",
+        "Before a short trial, write the observation that would change each decision. With the workshop manager’s agreement, preserve the existing inventory record and let the prototype produce drafts for a person to approve. Track recording time, correction time, and missed entries. Count all opportunities to log a part, not just successful recordings. Five correct entries out of five opportunities mean something different from five out of fifty. Include effort transferred to the inventory clerk; faster recording can still leave the whole workflow slower.",
+        "Use a worksheet with one claim, required evidence, an owner, and a next decision per row. Frequent recordings with expensive corrections suggest investigating vocabulary or draft review. Accurate recognition with constant reminders suggests investigating when logging fits into the job. Record human assistance and participants’ familiarity with the team. Do not describe accompanied use as independent adoption, and do not generalize a small cooperative workshop trial to every customer. Compare observations with the original claims before rewriting any hypothesis.",
+        "End the trial with one bounded action: improve recognition for common parts, move the recording step, run an unassisted trial, or stop this approach. Assign an owner and review date. Keep unresolved claims visible instead of folding everything into a satisfaction score. A changed hypothesis needs a new test; changing the wording afterward does not rescue the old one. The useful output is a clear account of which uncertainty decreased, which workload remains, and what the next trial will establish."
+      ],
+      "takeaways": [
+        "Separate adoption objections from technical performance objections.",
+        "Define decision-changing evidence before collecting results.",
+        "Keep the existing inventory record and approve prototype drafts.",
+        "Measure all logging opportunities, correction effort, and human assistance.",
+        "Choose one next action with an owner and review date."
+      ],
+      "advice": [
+        "Independent exercise: use one row per claim and keep the original wording beside the observed result."
+      ]
+    },
+    "ar": {
+      "paragraphs": [
+        "ترى المقالة التاريخية أن الاعتماد على الإجماع قد يؤدي إلى إغفال شركات مبتكرة. ما يلي تمرين تحريري مستقل؛ السيناريو وخطواته ليسا من المصدر. تخيلوا فريقا يبني أداة لتسجيل قطع الغيار بالصوت في ورش إصلاح الأجهزة. يقول أحد المراجعين إن الفنيين لن يسجلوا القطع، ويشك آخر في دقة التعرف على أسمائها. افصلوا السؤال السلوكي عن التقني: هل يسجل الفني القطعة دون تذكير؟ وهل تستخرج الأداة الاسم والكمية بصورة صحيحة وسط ضجيج الورشة؟ لكل سؤال دليل مختلف وقرار مختلف.",
+        "حددوا قبل التجربة الملاحظة التي ستغير قراركم. باتفاق مع مسؤول الورشة، احتفظوا بسجل المخزون الحالي واجعلوا النموذج الأولي ينتج مسودات يراجعها شخص قبل اعتمادها. سجلوا وقت التسجيل والتصحيح والحالات المنسية. احسبوا جميع فرص تسجيل القطع؛ خمس عمليات صحيحة من خمس فرص تختلف عن خمس من خمسين. أضيفوا وقت العمل الذي انتقل إلى مسؤول المخزون، فقد تختصر الأداة وقت الفني وتزيد العبء الكلي. حددوا عدد المشاركين وفترات العمل مسبقا بحسب قدرة الورشة.",
+        "استخدموا ورقة فيها ادعاء واحد والدليل المطلوب والمسؤول والقرار التالي في كل صف. إذا تكررت التسجيلات لكن تصحيح أسماء القطع استغرق وقتا طويلا، فابحثوا في المفردات ومراجعة المسودة. إذا كانت الدقة جيدة والتسجيل يحتاج إلى تذكير مستمر، فراجعوا توقيت الخطوة داخل العمل. وثقوا المساعدة البشرية ومعرفة المشاركين بالفريق. الاستخدام بمرافقة الفريق ليس استخداما مستقلا، ونجاح تجربة صغيرة في ورشة متعاونة لا يثبت نجاحها في كل الورش. قارنوا النتائج بصياغة الادعاء الأصلية.",
+        "اختموا الجولة بإجراء محدود: تحسين التعرف على قطع متكررة، أو تغيير توقيت التسجيل، أو تجربة دون مساعدة، أو إيقاف هذا المسار. عينوا مسؤولا وموعد مراجعة، واحتفظوا بالأسئلة غير المحسومة. لا تجمعوا النتائج المختلفة في درجة رضا واحدة، ولا تعيدوا صياغة الفرضية بعد مشاهدة النتيجة لتبدو ناجحة؛ الفرضية الجديدة تحتاج إلى اختبار جديد. ينبغي أن يوضح القرار أي غموض انخفض، وأي عبء بقي، وما الذي ستكشفه الجولة التالية تحديدا."
+      ],
+      "takeaways": [
+        "افصلوا اعتراض تبني الاستخدام عن اعتراض الأداء التقني.",
+        "حددوا الدليل الذي سيغير القرار قبل بدء التجربة.",
+        "حافظوا على سجل المخزون الحالي واعتمدوا مسودات الأداة بعد مراجعتها.",
+        "احسبوا جميع فرص التسجيل ووقت التصحيح والمساعدة البشرية.",
+        "اختاروا إجراء تاليا واحدا مع مسؤول وموعد مراجعة."
+      ],
+      "advice": [
+        "تمرين مستقل: ضعوا ادعاء واحدا في كل صف واحتفظوا بصياغته الأصلية إلى جانب النتيجة المرصودة."
+      ]
+    }
+  },
   "The High-Res Society": {
     "fa": {
       "paragraphs": [
