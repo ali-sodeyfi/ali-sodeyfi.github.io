@@ -492,6 +492,36 @@ const articleCategories = [
 
 const articleCatalog = [
   {
+    "title": "You Weren't Meant to Have a Boss",
+    "category": "leadership",
+    "author": "Paul Graham",
+    "source": "Paul Graham",
+    "year": "2008",
+    "url": "https://paulgraham.com/boss.html",
+    "tags": {
+      "fa": [
+        "اختیار عمل",
+        "آزمایش محصول",
+        "مسئولیت تیم"
+      ],
+      "en": [
+        "initiative",
+        "product experiments",
+        "team ownership"
+      ],
+      "ar": [
+        "المبادرة",
+        "تجارب المنتج",
+        "مسؤولية الفريق"
+      ]
+    },
+    "summary": {
+      "fa": "برداشتی کوتاه درباره اختیار عمل در محیط کار، همراه با تمرین مستقل برای واگذاری یک آزمایش محصول با مرز تصمیم، مسئول و معیار روشن.",
+      "en": "A brief adaptation on initiative at work, followed by an independent exercise in delegating a product experiment with clear boundaries, ownership, and evidence.",
+      "ar": "معالجة موجزة للمبادرة في العمل، يتبعها تمرين مستقل لتفويض تجربة منتج بحدود واضحة ومسؤول ومعيار قابل للفحص."
+    }
+  },
+  {
     "title": "Why There Aren't More Googles",
     "category": "ideas",
     "author": "Paul Graham",
@@ -2380,6 +2410,64 @@ const articleCatalog = [
 ];
 
 const articleEssays = {
+  "You Weren't Meant to Have a Boss": {
+    "fa": {
+      "paragraphs": [
+        "ایده محوری این مقاله تاریخی این است که ساختار سلسله‌مراتبی می‌تواند اختیار عمل سازندگان را محدود کند؛ کوچک‌بودن شرکت هم به‌تنهایی آزادی عمل را تضمین نمی‌کند. از اینجا به بعد، سناریو و روش پیشنهادی یک تمرین مستقل تحریریه است، نه نقل یا دستورالعمل منبع. فرض کنید یک تیم نرم‌افزار سفارش‌گیری متوجه شده فروشگاه‌ها هنگام ورود فهرست کالا متوقف می‌شوند. طراح محصول می‌خواهد نمونه فایل ورودی را ساده‌تر کند، اما هر تغییر کوچک منتظر نظر بنیان‌گذار می‌ماند. مسئله‌ای که در این تمرین بررسی می‌کنیم این است: چگونه می‌توان اختیار اجرای یک آزمایش محدود را واگذار کرد و همچنان نتیجه را قابل بررسی نگه داشت؟",
+        "نقطه شروع، مشخص‌کردن خود تصمیم است. «بهبود تجربه ورود کالا» دامنه‌ای بسیار باز دارد؛ «آزمایش یک نمونه فایل ساده‌تر برای چند فروشگاه داوطلب» قابل واگذاری است. روی یک برگه بنویسید چه چیزی قابل تغییر است، چه چیزی باید ثابت بماند و چه زمانی تیم باید دوباره هماهنگ شود. در این مثال، متن راهنما و نمونه فایل در اختیار مسئول آزمایش است، اما تغییر داده واقعی مشتری یا قرارداد ورود اطلاعات در دامنه او نیست. این مرزبندی قرار نیست برای هر حرکت مجوز تازه بسازد؛ باید کمک کند فرد پیش از اقدام بداند کدام تصمیم واقعاً با خودش است.",
+        "مسئول آزمایش باید به شواهد همان مسئله دسترسی داشته باشد. اگر فقط بنیان‌گذار تماس مشتری را می‌شنود و بقیه یک خلاصه مبهم دریافت می‌کنند، اختیار واگذارشده بر اطلاعات ناقص تکیه دارد. برای این دور، مسئول محصول با رضایت فروشگاه یک نوبت ورود اطلاعات را مشاهده می‌کند و محل توقف، پرسش‌های کاربر و کمک لازم را ثبت می‌کند. اطلاعاتی که برای آزمایش لازم نیست جمع‌آوری نمی‌شود. سپس یک فرضیه مشخص می‌نویسد: آیا نمونه ساده‌تر، نیاز به توضیح شفاهی را کاهش می‌دهد؟ معیار موفقیت باید به همین پرسش پاسخ دهد، نه به تعداد صفحه‌هایی که تیم طراحی کرده است.",
+        "پیش از اجرا، شیوه مقایسه را روشن کنید. یک گروه کوچک و داوطلب برای یادگیری اولیه کافی است، اما نتیجه آن را به همه فروشگاه‌ها تعمیم ندهید. روش قبلی را در دسترس نگه دارید و مشخص کنید در صورت خطای فایل یا سردرگمی بیشتر، چه کسی آزمایش را متوقف می‌کند. تعداد کسانی که کار را شروع کرده‌اند، تعداد تکمیل‌ها و دفعات کمک انسانی را جدا ثبت کنید. اگر یکی از اعضای تیم فایل هر مشتری را دستی اصلاح کرده، تکمیل کار را موفقیت مستقل محصول ننامید. هدف این ثبت‌ها حساب‌کشی از شخص نیست؛ باید نشان دهد نمونه جدید کدام بخش کار را آسان کرده و چه زحمتی هنوز پنهان مانده است.",
+        "نقش بنیان‌گذار در طول دور باید از ابتدا معلوم باشد. اگر قرار است فقط هنگام عبور از مرز تعیین‌شده وارد تصمیم شود، بازنویسی سلیقه‌ای همه جزئیات در میانه آزمایش، مسئولیت را مبهم می‌کند. در مقابل، مسئول آزمایش هم نباید تغییر دامنه را پشت عبارت «اختیار دارم» پنهان کند. یک زمان مرور کوتاه تعیین کنید و برای موارد خارج از دامنه، مسیر ارجاع مشخص بگذارید. هنگام مرور، ابتدا مشاهده‌ها را ببینید و بعد درباره راه‌حل بحث کنید. اختلاف نظر درباره رنگ یا متن، بدون شاهدی از اثر آن بر انجام کار، نباید جای پرسش اصلی را بگیرد.",
+        "پایان دور باید یک تصمیم ثبت‌شده داشته باشد: ادامه با نمونه جدید، اصلاح یک بخش یا بازگشت به روش قبلی. کنار تصمیم بنویسید چه شواهدی داشتید، کدام ابهام باقی مانده و مسئول اقدام بعدی کیست. حتی اگر نمونه جدید بهتر نبود، بررسی کنید آیا فرد توانست در دامنه توافق‌شده تصمیم بگیرد یا همچنان همه چیز به تأیید بنیان‌گذار وابسته ماند. این دو نتیجه متفاوت‌اند: یکی درباره کیفیت راه‌حل است و دیگری درباره کیفیت واگذاری. برای دور بعد، فقط همان مرزی را اصلاح کنید که واقعاً مسئله ساخته است؛ یک آزمایش ناموفق نباید خودکار به لغو همه اختیارهای تیم تبدیل شود."
+      ],
+      "takeaways": [
+        "به‌جای واگذاری یک هدف مبهم، یک تصمیم محدود و قابل اجرا تعریف کنید.",
+        "دامنه تغییر، موارد ثابت و شرط ارجاع را پیش از شروع بنویسید.",
+        "مسئول تصمیم را به مشاهده مستقیم مسئله کاربر وصل کنید.",
+        "تکمیل کار، کل شروع‌ها و میزان کمک انسانی را جدا بسنجید.",
+        "مسیر بازگشت و مسئول توقف آزمایش را از قبل مشخص کنید.",
+        "کیفیت راه‌حل را جدا از کیفیت واگذاری اختیار بررسی کنید."
+      ],
+      "advice": [
+        "تمرین مستقل: برگه‌ای با شش خانه بسازید: تصمیم، مسئول، دامنه، شاهد مورد انتظار، شرط توقف و تاریخ مرور.",
+        "تمرین مستقل: در جلسه مرور، یک مورد انتظار برای تأیید را بررسی کنید و روشن کنید آیا واقعاً خارج از دامنه توافق بوده است."
+      ]
+    },
+    "en": {
+      "paragraphs": [
+        "The historical essay argues that hierarchy can constrain builders’ initiative, while a small company does not automatically guarantee autonomy. The following scenario and method are an independent editorial exercise, not instructions from the source. Imagine a team building ordering software for shops. Users stall while importing a product list, and a designer wants to try a simpler example file. Instead of delegating the broad goal of improving onboarding, delegate one bounded decision: testing that file with a few willing shops. Write what the experiment owner may change, what must remain fixed, and when coordination is required. Example text can change; altering live customer records is outside this experiment.",
+        "The owner needs access to evidence, not just a founder’s summary. With a shop’s agreement, observe an import attempt and record stopping points, questions, and assistance, without collecting unnecessary information. Ask whether the simpler example reduces verbal explanation. Before testing, define the comparison, keep the previous method available, and name the person who can stop the trial if errors or confusion increase. Count starts, completions, and human interventions separately. If a teammate manually repairs every file, completion is not evidence of independent product use. A small cooperative trial can inform the next experiment without representing every shop.",
+        "Agree on the founder’s role during the trial and set a short review meeting. Constantly overriding details within the agreed scope makes ownership ambiguous; expanding the scope without coordination does the same. Review observations before preferences, then record one decision: continue, revise a specific part, or return to the previous method. Name the evidence, unresolved questions, and next owner. Evaluate the proposed solution separately from the delegation process. A disappointing file design does not itself show that delegation failed; a useful design does not prove autonomy if every step still required permission. Change only the boundary that the trial showed to be inadequate."
+      ],
+      "takeaways": [
+        "Delegate a bounded decision with an owner and explicit exclusions.",
+        "Give the owner direct access to user evidence.",
+        "Measure assistance alongside starts and completions.",
+        "Agree on a stop condition and a way back before testing.",
+        "Review solution quality separately from the delegation process."
+      ],
+      "advice": [
+        "Independent exercise: document the decision, owner, scope, expected evidence, stop condition, and review date on one page."
+      ]
+    },
+    "ar": {
+      "paragraphs": [
+        "ترى المقالة التاريخية أن التسلسل الإداري قد يقيد مبادرة من يبنون المنتجات، وأن صغر الشركة لا يضمن حرية العمل. السيناريو والطريقة التالية تمرين تحريري مستقل وليسا تعليمات من المصدر. تخيلوا فريقا يطور برنامج طلبات للمتاجر، ويلاحظ تعثر المستخدمين عند استيراد قائمة المنتجات. يريد المصمم تجربة ملف إرشادي أبسط. بدلا من تفويض هدف واسع مثل تحسين البداية، فوضوا قرارا محددا: اختبار الملف مع بضعة متاجر متطوعة. اكتبوا ما يستطيع مسؤول التجربة تغييره، وما يجب تثبيته، ومتى يحتاج إلى التنسيق. يمكن تغيير الشرح والمثال، بينما تعديل سجلات العملاء الفعلية خارج نطاق هذه التجربة.",
+        "يحتاج المسؤول إلى دليل مباشر، لا إلى ملخص غامض من المؤسس. بموافقة المتجر، راقبوا محاولة استيراد وسجلوا مواضع التوقف والأسئلة والمساعدة اللازمة، دون جمع معلومات غير ضرورية. اسألوا هل يقلل المثال الأبسط الحاجة إلى الشرح الشفهي. حددوا طريقة المقارنة مسبقا، وأبقوا المسار السابق متاحا، وعينوا من يوقف التجربة إذا زادت الأخطاء أو الحيرة. احسبوا محاولات البدء والإكمال والتدخل البشري بصورة منفصلة. إذا أصلح أحد أفراد الفريق كل ملف يدويا، فلا تسموا الإكمال استخداما مستقلا للمنتج. التجربة الصغيرة المتعاونة تساعد في اختيار الخطوة التالية ولا تمثل جميع المتاجر.",
+        "اتفقوا على دور المؤسس خلال التجربة وحددوا موعد مراجعة قصيرا. تغيير كل تفصيل ضمن النطاق المتفق عليه يربك المسؤولية، وكذلك توسيع النطاق دون تنسيق. راجعوا المشاهدات قبل التفضيلات، ثم سجلوا قرارا واحدا: الاستمرار أو تعديل جزء معين أو العودة للطريقة السابقة. اكتبوا الأدلة والأسئلة الباقية ومسؤول الخطوة التالية. افصلوا جودة الحل عن جودة التفويض؛ ضعف تصميم الملف لا يثبت وحده فشل التفويض، ونجاحه لا يثبت الاستقلال إذا احتاجت كل خطوة إلى إذن. عدلوا في الجولة التالية الحد الذي كشفت التجربة قصوره، بدلا من إلغاء صلاحيات الفريق كلها."
+      ],
+      "takeaways": [
+        "فوضوا قرارا محددا مع مسؤول واستثناءات واضحة.",
+        "أتيحوا للمسؤول مشاهدة مشكلة المستخدم مباشرة.",
+        "احسبوا المساعدة البشرية إلى جانب البدء والإكمال.",
+        "حددوا شرط التوقف وطريق العودة قبل الاختبار.",
+        "راجعوا جودة الحل بصورة منفصلة عن عملية التفويض."
+      ],
+      "advice": [
+        "تمرين مستقل: وثقوا القرار والمسؤول والنطاق والدليل المتوقع وشرط التوقف وموعد المراجعة في صفحة واحدة."
+      ]
+    }
+  },
   "Why There Aren't More Googles": {
     "fa": {
       "paragraphs": [

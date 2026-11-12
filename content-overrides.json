@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-11T05:48:00+03:30",
+  "updatedAt": "2026-11-12T08:04:16+03:30",
   "translations": {
     "fa": {
       "documentTitle": "علی سدیفی | یادداشت‌هایی درباره ساخت کسب‌وکار",
@@ -225,6 +225,55 @@
   "publishing": {
     "timezone": "Asia/Tehran",
     "queue": [
+      {
+        "id": "2026-11-12-site-you-werent-meant-to-have-a-boss",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "you-werent-meant-to-have-a-boss",
+        "publishAt": "2026-11-12T08:04:16+03:30",
+        "status": "published",
+        "publishedAt": "2026-11-12T08:04:16+03:30"
+      },
+      {
+        "id": "2026-11-12-linkedin-you-werent-meant-to-have-a-boss",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "you-werent-meant-to-have-a-boss",
+        "publishAt": "2026-11-12T12:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-11-12T08:04:16+03:30",
+        "note": "Draft/preview only. Verified account/API or session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "اختیار را به یک تصمیم روشن وصل کنید",
+          "en": "Tie ownership to a clear decision",
+          "ar": "اربطوا الصلاحية بقرار واضح"
+        },
+        "body": {
+          "fa": "واگذاری هدف مبهم، اختیار عملی نمی‌سازد.\nپیامد عملی: مسئول آزمایش باید بداند چه چیزی را می‌تواند تغییر دهد و چه زمانی هماهنگی لازم است.\nگام بعد: برای آزمایش ورود اطلاعات، دامنه تصمیم، شرط توقف و تاریخ مرور را روی یک برگه ثبت کنید.\nPaul Graham — https://paulgraham.com/boss.html\nhttps://alisodeyfi.ir/articles/you-werent-meant-to-have-a-boss/fa/#daily-article-reader",
+          "en": "Delegating a vague goal does not establish usable authority.\nImplication: the experiment owner needs clear change boundaries and a coordination trigger.\nNext action: document the import trial’s decision scope, stop condition, and review date on one page.\nPaul Graham — https://paulgraham.com/boss.html\nhttps://alisodeyfi.ir/articles/you-werent-meant-to-have-a-boss/en/#daily-article-reader",
+          "ar": "تفويض هدف غامض لا يمنح صلاحية قابلة للاستخدام.\nالأثر العملي: يحتاج مسؤول التجربة إلى حدود للتغيير وشرط واضح للتنسيق.\nالخطوة التالية: وثقوا نطاق قرار تجربة الاستيراد وشرط توقفها وموعد مراجعتها في صفحة واحدة.\nPaul Graham — https://paulgraham.com/boss.html\nhttps://alisodeyfi.ir/articles/you-werent-meant-to-have-a-boss/ar/#daily-article-reader"
+        }
+      },
+      {
+        "id": "2026-11-12-instagram-story-you-werent-meant-to-have-a-boss",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "you-werent-meant-to-have-a-boss",
+        "publishAt": "2026-11-12T20:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-11-12T08:04:16+03:30",
+        "note": "Draft/preview only. Verified account/API or session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "اختیار را به یک تصمیم روشن وصل کنید",
+          "en": "Tie ownership to a clear decision",
+          "ar": "اربطوا الصلاحية بقرار واضح"
+        },
+        "body": {
+          "fa": "اسلاید ۱: اختیار بدون مرز تصمیم، مبهم می‌ماند.\nاسلاید ۲: پیش از آزمایش، مسئول، دامنه تغییر و شرط توقف را ثبت کنید.\nاسلاید ۳: منبع و تمرین مستقل\nPaul Graham — https://paulgraham.com/boss.html\nhttps://alisodeyfi.ir/articles/you-werent-meant-to-have-a-boss/fa/#daily-article-reader",
+          "en": "Slide 1: Authority needs clear decision boundaries.\nSlide 2: Before the trial, name the owner, scope, and stop condition.\nSlide 3: Source and independent exercise\nPaul Graham — https://paulgraham.com/boss.html\nhttps://alisodeyfi.ir/articles/you-werent-meant-to-have-a-boss/en/#daily-article-reader",
+          "ar": "الشريحة ١: الصلاحية تحتاج إلى حدود قرار واضحة.\nالشريحة ٢: حددوا المسؤول والنطاق وشرط التوقف قبل التجربة.\nالشريحة ٣: المصدر والتمرين المستقل\nPaul Graham — https://paulgraham.com/boss.html\nhttps://alisodeyfi.ir/articles/you-werent-meant-to-have-a-boss/ar/#daily-article-reader"
+        }
+      },
       {
         "id": "2026-11-11-site-why-there-arent-more-googles",
         "channel": "site",
