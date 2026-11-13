@@ -226,6 +226,55 @@
     "timezone": "Asia/Tehran",
     "queue": [
       {
+        "id": "2026-11-13-site-design-and-research",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "design-and-research",
+        "publishAt": "2026-11-13T05:48:55+03:30",
+        "status": "published",
+        "publishedAt": "2026-11-13T05:48:55+03:30"
+      },
+      {
+        "id": "2026-11-13-linkedin-design-and-research",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "design-and-research",
+        "publishAt": "2026-11-13T18:00:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-11-13T05:48:55+03:30",
+        "note": "Draft/preview only. Verified account/API or session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "درخواست گزارش را به تصمیم وصل کنید",
+          "en": "Connect the report to a decision",
+          "ar": "اربطوا التقرير بقرار"
+        },
+        "body": {
+          "fa": "هر ستون گزارش باید تصمیم یا الزام روشنی را پشتیبانی کند.\nپیامد عملی: ساخت گزارش بدون شناخت کاربرد ستون‌ها، هزینه نگهداری داده را پنهان می‌کند.\nگام بعد: پیش از ساخت، هر ستون را به تصمیم مرتبط و مسئول به‌روزرسانی آن وصل کنید.\nPaul Graham — https://paulgraham.com/desres.html\nhttps://alisodeyfi.ir/articles/design-and-research/fa/#daily-article-reader",
+          "en": "Every report field needs a decision or an explicit requirement behind it.\nImplication: building without that mapping hides data maintenance costs.\nNext action: connect each field to its decision and maintenance owner before implementation.\nPaul Graham — https://paulgraham.com/desres.html\nhttps://alisodeyfi.ir/articles/design-and-research/en/#daily-article-reader",
+          "ar": "يحتاج كل حقل في التقرير إلى قرار أو متطلب واضح.\nالأثر العملي: البناء دون هذا الربط يخفي تكلفة تحديث البيانات.\nالخطوة التالية: اربطوا كل حقل بقراره ومسؤول تحديثه قبل التنفيذ.\nPaul Graham — https://paulgraham.com/desres.html\nhttps://alisodeyfi.ir/articles/design-and-research/ar/#daily-article-reader"
+        }
+      },
+      {
+        "id": "2026-11-13-instagram-story-design-and-research",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "design-and-research",
+        "publishAt": "2026-11-13T20:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-11-13T05:48:55+03:30",
+        "note": "Draft/preview only. Verified account/API or session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "درخواست گزارش را به تصمیم وصل کنید",
+          "en": "Connect the report to a decision",
+          "ar": "اربطوا التقرير بقرار"
+        },
+        "body": {
+          "fa": "اسلاید ۱: گزارش باید یک تصمیم مشخص را پشتیبانی کند.\nاسلاید ۲: برای هر ستون، کاربرد و مسئول به‌روزرسانی را ثبت کنید.\nاسلاید ۳: منبع و تمرین مستقل\nPaul Graham — https://paulgraham.com/desres.html\nhttps://alisodeyfi.ir/articles/design-and-research/fa/#daily-article-reader",
+          "en": "Slide 1: A report needs a specific decision to support.\nSlide 2: Map each field to its use and maintenance owner.\nSlide 3: Source and independent exercise\nPaul Graham — https://paulgraham.com/desres.html\nhttps://alisodeyfi.ir/articles/design-and-research/en/#daily-article-reader",
+          "ar": "الشريحة ١: يجب أن يدعم التقرير قرارا محددا.\nالشريحة ٢: وثقوا استخدام كل حقل ومسؤول تحديثه.\nالشريحة ٣: المصدر والتمرين المستقل\nPaul Graham — https://paulgraham.com/desres.html\nhttps://alisodeyfi.ir/articles/design-and-research/ar/#daily-article-reader"
+        }
+      },
+      {
         "id": "2026-11-12-site-you-werent-meant-to-have-a-boss",
         "channel": "site",
         "target": "site",

@@ -492,6 +492,36 @@ const articleCategories = [
 
 const articleCatalog = [
   {
+    "title": "Design and Research",
+    "category": "product",
+    "author": "Paul Graham",
+    "source": "Paul Graham",
+    "year": "2003",
+    "url": "https://paulgraham.com/desres.html",
+    "tags": {
+      "fa": [
+        "طراحی محصول",
+        "درخواست مشتری",
+        "آزمون کاربردپذیری"
+      ],
+      "en": [
+        "product design",
+        "customer requests",
+        "usability testing"
+      ],
+      "ar": [
+        "تصميم المنتج",
+        "طلبات العملاء",
+        "اختبار الاستخدام"
+      ]
+    },
+    "summary": {
+      "fa": "برداشتی کوتاه درباره طراحی برای نیاز کاربر، همراه با تمرین مستقل برای بررسی درخواست گزارش در نرم‌افزار مدیریت موجودی.",
+      "en": "A brief adaptation on designing for user needs, with an independent exercise for assessing a reporting request in inventory software.",
+      "ar": "معالجة موجزة للتصميم وفق حاجة المستخدم، مع تمرين مستقل لفحص طلب تقرير في برنامج لإدارة المخزون."
+    }
+  },
+  {
     "title": "You Weren't Meant to Have a Boss",
     "category": "leadership",
     "author": "Paul Graham",
@@ -2410,6 +2440,66 @@ const articleCatalog = [
 ];
 
 const articleEssays = {
+  "Design and Research": {
+    "fa": {
+      "paragraphs": [
+        "تمایز محوری مقاله این است که طراحی با مفیدبودن برای کاربر سنجیده می‌شود، نه صرفاً تازگی ایده؛ و نیاز کاربر همیشه با راه‌حلی که درخواست می‌کند یکی نیست. ادامه این نوشته یک تمرین مستقل تحریریه است، نه شرح مثال‌های منبع. فرض کنید تیمی نرم‌افزار مدیریت موجودی می‌سازد و یکی از مشتریان می‌گوید «یک گزارش روزانه با دوازده ستون می‌خواهم». بنیان‌گذار باید تصمیم بگیرد این درخواست وارد برنامه ساخت شود یا نه. برای رسیدن به تصمیم، ابتدا باید روشن شود گزارش قرار است کدام اقدام کاری را ممکن کند و اکنون چه مانعی در مسیر آن وجود دارد.",
+        "در این سناریو، مشتری هر عصر باید کالاهایی را که فردا نیاز به سفارش دارند مشخص کند. او نام گزارش را می‌گوید، چون امروز همین کار را با یک فایل انجام می‌دهد. از او بخواهید با داده ساختگی، آخرین نوبت انجام کار را بازسازی کند: اطلاعات را از کجا آورد، کدام ستون را واقعاً خواند و بعد چه تصمیمی گرفت؟ روی کاغذ، هر داده را به تصمیمی که پشتیبانی می‌کند وصل کنید. ستونی که هیچ تصمیم یا الزام مشخصی پشت آن نیست فعلاً یک پرسش باز است. حذف فوری آن هم زودهنگام است؛ ممکن است کاربردی داشته باشد که در اجرای روزانه دیده نشده است.",
+        "حالا دو مسیر محدود برای بررسی دارید: گزارش درخواستی و فهرستی کوتاه از کالاهای نیازمند بررسی. پیش از ساخت، یک مجموعه نمونه مشترک آماده کنید؛ مثلاً چند قلم با موجودی کافی، چند قلم کم‌موجود و یک قلم با اطلاعات ناقص. از کاربر بخواهید در هر نسخه انتخاب کند برای کدام کالا باید اقدام کند و دلیلش را توضیح دهد. فقط سرعت را نسنجید. انتخاب اشتباه، نادیده‌گرفتن داده ناقص و میزان توضیح شفاهی تیم هم مهم‌اند. نمونه‌های این تمرین قرار نیست سفارش واقعی ثبت کنند؛ هدف، دیدن کیفیت تصمیم با دو شیوه نمایش است.",
+        "نتیجه را به سطح همان مشاهده محدود نگه دارید. اگر مسئول خرید باتجربه با فهرست کوتاه بهتر کار کرد، هنوز نمی‌دانید همکار تازه‌واردش یا مدیر شعبه چه می‌کند. نقش، دفعات استفاده و وظیفه هر شرکت‌کننده را ثبت کنید. اگر دو نفر نتیجه متفاوتی دارند، پیش از افزودن تنظیمات متعدد بپرسید آیا واقعاً کار یکسانی انجام می‌دهند. ممکن است یکی سفارش روز بعد را آماده کند و دیگری برای بررسی ماهانه به جزئیات نیاز داشته باشد. در این حالت، تلاش برای جا دادن هر دو کار در یک صفحه می‌تواند تصمیم روزانه را دشوارتر کند.",
+        "هنگام مرور نتیجه، هزینه عملیاتی هر گزینه را هم آشکار کنید. دوازده ستون ممکن است به داده‌هایی وابسته باشد که هیچ‌کس مسئول به‌روزرسانی آن‌ها نیست؛ فهرست کوتاه هم شاید به قاعده‌ای وابسته باشد که موجودی ناقص را درست تشخیص نمی‌دهد. برای هر گزینه بنویسید چه داده‌ای لازم است، چه کسی آن را نگه می‌دارد و کاربر در صورت نبودن داده چه می‌بیند. اگر نسخه ساده‌تر فقط به این دلیل خوب به نظر رسیده که تیم پیشاپیش داده‌ها را تمیز کرده، این کمک را در گزارش نتیجه ثبت کنید. کار پنهان تیم بخشی از هزینه راه‌حل است.",
+        "تصمیم پایان این دور باید قابل بازبینی باشد. می‌توانید ساخت گزارش را بپذیرید، یک فهرست محدود را امتحان کنید یا به‌دلیل ابهام در داده فعلاً ساخت را عقب بیندازید. کنار تصمیم، شواهد و پرسش حل‌نشده را بنویسید و یک موعد بررسی بگذارید. در تماس بعدی از مشتری فقط درباره رضایت از ظاهر نپرسید؛ یک نوبت تصمیم خرید را دوباره مرور کنید و ببینید اطلاعات لازم در زمان مناسب در دسترس بوده یا نه. حاصل این تمرین یک پاسخ عملی به درخواست مشخص است: چه چیزی ساخته می‌شود، برای کدام کار، با چه معیار پذیرشی و با مسئولیت نگهداری چه کسی."
+      ],
+      "takeaways": [
+        "درخواست گزارش را به تصمیم کاری مشخص، زمان انجام و مسئول آن وصل کنید.",
+        "برای هر ستون، کاربرد یا الزام واقعی را ثبت کنید؛ موارد نامعلوم را باز نگه دارید.",
+        "دو نسخه را با داده نمونه مشترک و بدون ثبت سفارش واقعی مقایسه کنید.",
+        "خطای انتخاب و نیاز به راهنمایی را کنار زمان انجام کار بسنجید.",
+        "نتایج کاربران با نقش‌های متفاوت را یکسان تفسیر نکنید.",
+        "مالک داده و رفتار محصول هنگام ناقص‌بودن اطلاعات را مشخص کنید."
+      ],
+      "advice": [
+        "تمرین مستقل: جدولی با ستون‌های داده، تصمیم مرتبط، مالک داده و رفتار هنگام نبود داده بسازید.",
+        "تمرین مستقل: پیش از جلسه مرور، برای هر گزینه یک نمونه تصمیم درست، یک خطا و یک ابهام ثبت کنید."
+      ]
+    },
+    "en": {
+      "paragraphs": [
+        "The essay treats design as usefulness for an intended user rather than novelty alone, and distinguishes a need from a requested solution. What follows is an independent editorial exercise, not an example from the source. Imagine an inventory software customer requesting a daily twelve-column report. Before scheduling development, identify the decision the report is meant to support: choosing which products require replenishment tomorrow. Ask the customer to reconstruct a recent workflow using fictional data, showing where each input came from and what action followed.",
+        "Map each requested column to a decision or an explicit requirement. Leave unexplained columns as questions rather than deleting them immediately. Compare two limited options: the requested report and a shorter review list. Use the same sample products, including adequate stock, low stock, and a missing value. Ask the participant to choose an action and explain it. Record wrong selections, overlooked missing information, and verbal assistance alongside completion time. Neither prototype should place real orders during this exercise.",
+        "Keep observations tied to participant roles. An experienced buyer and a new branch manager may be doing different jobs, even when they ask for the same screen. Record their responsibilities and frequency of use before combining findings. Also expose each option’s operating costs: required data, its maintenance owner, and what appears when information is unavailable. If the team cleaned every record before the session, document that assistance. A successful demonstration can conceal work that customers would otherwise have to perform.",
+        "Close the review with a documented choice: build the report, trial a limited list, or defer construction while resolving a data question. State the evidence, remaining uncertainty, owner, and review date. During the follow-up, reconstruct another purchasing decision rather than asking only whether the screen looks better. Check whether necessary information arrived at the right moment. The output is a specific implementation decision with an acceptance criterion and a named owner for the data it depends on."
+      ],
+      "takeaways": [
+        "Connect the report request to a named operational decision.",
+        "Compare alternatives using the same fictional records, including missing data.",
+        "Record selection errors and assistance as well as elapsed time.",
+        "Separate findings by role and document data maintenance costs.",
+        "End with a decision, unresolved question, owner, and review date."
+      ],
+      "advice": [
+        "Independent exercise: map each field to its decision, maintenance owner, and behavior when unavailable."
+      ]
+    },
+    "ar": {
+      "paragraphs": [
+        "تربط المقالة جودة التصميم بفائدته للمستخدم المقصود، لا بالجدة وحدها، وتميز بين الحاجة والحل المطلوب. ما يلي تمرين تحريري مستقل وليس مثالا من المصدر. تخيلوا عميلا لبرنامج مخزون يطلب تقريرا يوميا من اثني عشر عمودا. قبل إدراجه في خطة التطوير، حددوا القرار الذي سيدعمه: اختيار السلع التي تحتاج إلى إعادة الطلب غدا. اطلبوا من العميل إعادة بناء سير عمل حديث ببيانات افتراضية، موضحا مصدر كل معلومة والخطوة التي اتخذها بعدها.",
+        "اربطوا كل عمود بقرار أو متطلب واضح، واتركوا الأعمدة غير المفهومة كأسئلة مفتوحة بدلا من حذفها مباشرة. قارنوا خيارين محدودين: التقرير المطلوب وقائمة أقصر للسلع التي تحتاج إلى مراجعة. استخدموا السلع النموذجية نفسها، ومنها مخزون كاف ومخزون منخفض وقيمة مفقودة. اطلبوا من المشارك اختيار الإجراء وشرح سببه. سجلوا الاختيارات الخاطئة وتجاهل المعلومات الناقصة والحاجة إلى الشرح، إلى جانب الوقت المستغرق. يجب ألا ينفذ أي نموذج طلبات شراء فعلية في هذا التمرين.",
+        "اربطوا الملاحظات بأدوار المشاركين. قد يؤدي مسؤول مشتريات خبير ومدير فرع جديد مهمتين مختلفتين رغم طلبهما الشاشة نفسها. سجلوا المسؤولية وتكرار الاستخدام قبل جمع النتائج. افحصوا أيضا تكلفة تشغيل كل خيار: البيانات اللازمة، ومن يحدثها، وما يظهر عند غيابها. إذا نظف الفريق جميع السجلات قبل الجلسة، فسجلوا هذه المساعدة. قد يبدو العرض ناجحا بينما يخفي عملا سيضطر العميل إلى القيام به لاحقا.",
+        "اختموا المراجعة بقرار موثق: بناء التقرير، أو تجربة قائمة محدودة، أو تأجيل البناء لحسم سؤال عن البيانات. اكتبوا الأدلة والغموض المتبقي والمسؤول وموعد المراجعة. في المتابعة، أعيدوا فحص قرار شراء آخر بدلا من السؤال عن جمال الشاشة فقط. تحققوا من وصول المعلومات اللازمة في الوقت المناسب. مخرج التمرين قرار تنفيذ محدد، ومعيار قبول واضح، ومسؤول عن صيانة البيانات التي يعتمد عليها الحل."
+      ],
+      "takeaways": [
+        "اربطوا طلب التقرير بقرار تشغيلي محدد ومسؤول عنه.",
+        "قارنوا البدائل بسجلات افتراضية مشتركة تتضمن بيانات ناقصة.",
+        "قيسوا أخطاء الاختيار والمساعدة إلى جانب زمن الإنجاز.",
+        "افصلوا النتائج بحسب الدور ووثقوا تكلفة تحديث البيانات.",
+        "سجلوا القرار والسؤال المفتوح والمسؤول وموعد المراجعة."
+      ],
+      "advice": [
+        "تمرين مستقل: اربطوا كل حقل بالقرار الذي يدعمه ومسؤول تحديثه وسلوك المنتج عند غيابه."
+      ]
+    }
+  },
   "You Weren't Meant to Have a Boss": {
     "fa": {
       "paragraphs": [
