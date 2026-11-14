@@ -492,6 +492,36 @@ const articleCategories = [
 
 const articleCatalog = [
   {
+    "title": "Great Hackers",
+    "category": "building",
+    "author": "Paul Graham",
+    "source": "Paul Graham",
+    "year": "2004",
+    "url": "https://paulgraham.com/gh.html",
+    "tags": {
+      "fa": [
+        "استخدام فنی",
+        "همکاری تیمی",
+        "ارزیابی مهارت"
+      ],
+      "en": [
+        "technical hiring",
+        "team collaboration",
+        "skill assessment"
+      ],
+      "ar": [
+        "التوظيف التقني",
+        "تعاون الفريق",
+        "تقييم المهارات"
+      ]
+    },
+    "summary": {
+      "fa": "برداشتی کوتاه از شناخت توانایی برنامه‌نویسان، همراه با تمرین مستقل برای طراحی یک جلسه همکاری فنی و تصمیم استخدام مبتنی بر شواهد.",
+      "en": "A brief adaptation on recognizing programming ability, followed by an independent exercise for a technical collaboration session and an evidence-based hiring decision.",
+      "ar": "معالجة موجزة للتعرف على قدرة المبرمجين، يتبعها تمرين مستقل لتصميم جلسة تعاون تقني وقرار توظيف يستند إلى الأدلة."
+    }
+  },
+  {
     "title": "Design and Research",
     "category": "product",
     "author": "Paul Graham",
@@ -2440,6 +2470,69 @@ const articleCatalog = [
 ];
 
 const articleEssays = {
+  "Great Hackers": {
+    "fa": {
+      "paragraphs": [
+        "یکی از ایده‌های مقاله این است که توانایی برنامه‌نویس را به‌سختی می‌توان از گفت‌وگوی نخست یا رزومه شناخت؛ همکاری روی یک مسئله، اطلاعات بیشتری می‌دهد. ادامه این نوشته تمرینی مستقل برای به‌کارگیری همین پرسش در یک تیم کوچک است، نه بازگویی کامل مقاله یا نسخه‌ای قطعی برای استخدام. فرض کنید محصولی برای نوبت‌دهی ساخته‌اید و می‌خواهید نخستین همکار فنی را جذب کنید. در مصاحبه‌ها، افراد درباره معماری خوب حرف می‌زنند، اما هنوز نمی‌دانید هنگام مواجهه با یک خطای مبهم چگونه مسئله را بررسی می‌کنند. تصمیم شما باید بر مشاهده کاری نزدیک به نیاز نقش تکیه کند، با دامنه و زمانی که از ابتدا برای دو طرف روشن باشد.",
+        "پیش از دعوت داوطلب، یک موقعیت کوچک و ساختگی آماده کنید: در برنامه نمونه، گاهی دو درخواست هم‌زمان برای یک نوبت پذیرفته می‌شود. داده واقعی مشتری را وارد تمرین نکنید و از داوطلب هم نخواهید بخشی از محصول تجاری شما را رایگان بسازد. یک جلسه کوتاه با زمان توافق‌شده تعریف کنید؛ اگر تکلیف مفصل‌تر است، شرایط جبران زمان را پیشاپیش مشخص کنید. هدف جلسه می‌تواند پیدا کردن مسیر بازتولید خطا و پیشنهاد یک اصلاح محدود باشد. انتظار ساخت سامانه کامل، سنجش همان نقشی را که قصد استخدامش را دارید دشوار می‌کند و وقت دو طرف را صرف حدس‌زدن خواسته مصاحبه‌کننده می‌کند.",
+        "پیش از جلسه، برگه ارزیابی بنویسید. در این مثال چهار مشاهده کافی است: فرد چگونه ابهام را روشن می‌کند، با چه آزمایشی فرضیه‌اش را می‌سنجد، چگونه اثر جانبی اصلاح را بررسی می‌کند و چطور نتیجه را به همکار بعدی تحویل می‌دهد. برای هر مورد یک شاهد قابل ثبت بخواهید؛ مثلاً تستی که خطا را نشان می‌دهد یا توضیحی درباره شرایطی که هنوز پوشش داده نشده است. معیار را در میانه جلسه عوض نکنید. اگر آشنایی با ابزار خاص برای نقش ضروری نیست، زمان آشنایی یا راهنمای کوتاه در اختیار همه بگذارید. کندی اولیه در محیط ناآشنا باید از کیفیت استدلال درباره مسئله جدا ثبت شود.",
+        "در طول همکاری، کمک مصاحبه‌کننده را هم بخشی از داده بدانید. اگر مسیر خطا را خودتان نشان دادید، در یادداشت بنویسید؛ بعداً نتیجه را کشف مستقل داوطلب حساب نکنید. وقتی فرد فرضیه‌ای مطرح می‌کند، از او بخواهید بگوید چه مشاهده‌ای آن را رد خواهد کرد. اگر راه‌حل اول شکست خورد، ببینید چگونه اطلاعات تازه را وارد تصمیم بعدی می‌کند. تعداد خط‌های کد یا سرعت تایپ پاسخ این پرسش‌ها را نمی‌دهد. در پایان، چند دقیقه برای تحویل کار بگذارید: چه چیزی تغییر کرد، چه چیزی بررسی شد و کدام خطر باقی ماند؟ این تحویل کوچک می‌تواند شکاف‌هایی را آشکار کند که در نمایش موفق برنامه دیده نمی‌شوند.",
+        "پس از جلسه، هر ارزیاب پیش از گفت‌وگوی جمعی یادداشت خود را ثبت کند. جمله «خیلی قوی بود» را به شاهد تبدیل کنید: کدام تصمیم مناسب بود و چرا؟ جمله «با تیم جور نبود» هم باید به رفتار مشخص مرتبط با نقش تبدیل شود؛ تفاوت در لحن یا سبک صحبت به‌تنهایی شاهد ضعف همکاری نیست. نتیجه یک جلسه را محدود به همان موقعیت بدانید. ممکن است درباره رفع خطا اطلاعات خوبی داشته باشید و درباره طراحی بلندمدت هیچ شاهدی جمع نکرده باشید. اگر آن توانایی برای نقش ضروری است، پرسش بعدی را برای همان خلأ طراحی کنید، نه اینکه کل فرایند را بی‌هدف طولانی‌تر کنید.",
+        "خروجی نهایی تمرین یک تصمیم با دلیل و محدودیت است: ادامه فرایند، توقف یا جمع‌آوری یک شاهد تکمیلی. برای فردی که به تیم می‌پیوندد، دو انتظار روشن برای ماه نخست ثبت کنید؛ مثلاً تحویل یک اصلاح قابل بازبینی و توضیح مسیر بررسی یک خطا به همکار دیگر. سپس مقایسه کنید کدام مشاهده مصاحبه در کار واقعی تکرار شد و کدام پیش‌بینی شما درست نبود. این مرور درباره کیفیت ابزار انتخاب شماست، نه ساختن برچسب دائمی برای فرد. با چند استخدام، می‌توانید پرسش‌هایی را که اطلاعات مفید نداده‌اند حذف کنید و زمان بیشتری به شواهدی بدهید که به نیاز واقعی نقش مربوط بوده‌اند."
+      ],
+      "takeaways": [
+        "برای جلسه همکاری، یک مسئله ساختگی نزدیک به نیاز نقش و زمان مشخص تعیین کنید.",
+        "معیار ارزیابی را پیش از جلسه بنویسید و آن را برای همه ثابت نگه دارید.",
+        "کیفیت استدلال را از آشنایی قبلی با ابزار و سرعت تایپ جدا بسنجید.",
+        "راهنمایی‌های مصاحبه‌کننده را ثبت کنید تا نتیجه بیش از شواهد تفسیر نشود.",
+        "از داوطلب تحویلی شامل تغییر، روش بررسی و خطر باقی‌مانده بخواهید.",
+        "پیش از جمع‌بندی گروهی، مشاهده‌های هر ارزیاب را مستقل ثبت کنید.",
+        "پیش‌بینی‌های مصاحبه را با کار ماه نخست مقایسه و فرایند انتخاب را اصلاح کنید."
+      ],
+      "advice": [
+        "برگه تمرین پیشنهادی: هدف نقش، مسئله نمونه، زمان توافق‌شده، چهار معیار مشاهده و حدود کمک مجاز را در یک صفحه بنویسید.",
+        "برای هر نتیجه استخدام، سه ستون نگه دارید: شاهد مشاهده‌شده، پرسش بی‌پاسخ و تصمیم بعدی. نبود شاهد را معادل نبود توانایی نگیرید."
+      ]
+    },
+    "en": {
+      "paragraphs": [
+        "One idea in this essay is that an initial conversation or résumé reveals programming ability poorly; working together on a problem offers better evidence. What follows is an independent hiring exercise, rather than a full retelling or a guaranteed selection method. Imagine a small appointment-booking company hiring its first engineer. Candidates can discuss architecture fluently, but the team still needs to understand how they investigate an ambiguous failure. Define what the role needs before designing the session.",
+        "Prepare a small fictional program that sometimes accepts two simultaneous requests for one appointment. Agree on a short session and a bounded objective: reproduce the failure and propose a limited correction. Keep customer data and unpaid commercial deliverables out of the exercise; agree compensation in advance for more substantial work. Write four observation criteria beforehand: clarifying uncertainty, testing a hypothesis, checking side effects, and handing the work to a colleague. Provide consistent setup guidance when familiarity with a particular tool is not essential to the role.",
+        "During the session, record the interviewer’s assistance as carefully as the candidate’s actions. A diagnosis supplied by the interviewer is not an independent discovery. Ask which observation would disprove a proposed explanation, and watch what happens when the first attempt fails. Close with a handoff describing the change, its verification, and remaining uncertainty. Each evaluator should record observations before the group discussion. Replace broad impressions with specific behavior relevant to the role, and distinguish an untested ability from a demonstrated weakness.",
+        "Make the next decision explicit: proceed, stop, or gather one missing piece of evidence. A debugging exercise may tell you little about long-term design; add a focused follow-up only when that skill matters to the role. For a new hire, record two concrete first-month expectations and later compare actual work with interview predictions. Use the comparison to improve the selection process, removing questions that produced little useful information. Treat the interview as a limited sample of work, not a permanent label attached to a person."
+      ],
+      "takeaways": [
+        "Agree on the scope, duration, and conditions of a fictional collaboration exercise.",
+        "Define observable criteria before interviewing and separate reasoning from tool familiarity.",
+        "Record interviewer help and request a handoff covering verification and unresolved risks.",
+        "Write individual observations before discussing the candidate as a group.",
+        "Compare interview predictions with first-month work to improve future decisions."
+      ],
+      "advice": [
+        "Independent worksheet: role objective, sample problem, agreed duration, observation criteria, and permitted assistance.",
+        "For the decision record, use three columns: observed evidence, unanswered question, and next action."
+      ]
+    },
+    "ar": {
+      "paragraphs": [
+        "من أفكار المقال أن المحادثة الأولى أو السيرة الذاتية لا تكشفان قدرة المبرمج بسهولة؛ فالعمل المشترك على مشكلة يقدم أدلة أفضل. ما يلي تمرين مستقل للتوظيف، وليس إعادة سرد كاملة للمقال أو طريقة مضمونة للاختيار. تخيلوا شركة صغيرة لحجز المواعيد تريد توظيف أول مهندس. يستطيع المرشحون الحديث عن بنية الأنظمة، لكن الفريق يحتاج إلى معرفة كيفية فحصهم لخلل غامض. ابدؤوا بتحديد العمل الذي يحتاجه الدور، ثم صمموا الجلسة حوله.",
+        "أعدوا برنامجا افتراضيا صغيرا يقبل أحيانا طلبين متزامنين للموعد نفسه. اتفقوا على مدة قصيرة وهدف محدود: إعادة إنتاج الخلل واقتراح تعديل ضيق. لا تستخدموا بيانات العملاء أو تطلبوا إنتاج جزء تجاري مجاني؛ واتفقوا مسبقا على التعويض إذا تطلب التمرين عملا أطول. اكتبوا أربعة معايير للملاحظة: توضيح الغموض، واختبار الفرضية، وفحص الآثار الجانبية، وتسليم العمل لزميل. قدموا إرشادات متساوية لإعداد البيئة حين لا تكون الخبرة بأداة محددة شرطا أساسيا للدور.",
+        "سجلوا مساعدة المحاور إلى جانب خطوات المرشح؛ فالتشخيص الذي قدمتموه ليس اكتشافا مستقلا منه. اسألوا عن الملاحظة التي قد تنفي تفسيره، وراقبوا كيف يتغير قراره عندما تفشل المحاولة الأولى. اختموا بتسليم موجز يشرح التعديل، وطريقة التحقق، وما بقي غير محسوم. يكتب كل مقيم ملاحظاته قبل النقاش الجماعي. استبدلوا الانطباعات العامة بسلوك محدد مرتبط بالدور، وميزوا بين قدرة لم تختبروها وضعف ظهرت عليه أدلة.",
+        "حددوا القرار التالي بوضوح: الاستمرار، أو التوقف، أو جمع دليل تكميلي واحد. قد تكشف جلسة إصلاح الخلل القليل عن التصميم طويل الأمد؛ أضيفوا متابعة محددة فقط إذا كانت تلك المهارة ضرورية. عند انضمام الشخص، سجلوا توقعين عمليين للشهر الأول، ثم قارنوا العمل الفعلي بتوقعات المقابلة. استخدموا المقارنة لتحسين عملية الاختيار وحذف الأسئلة قليلة الفائدة. الجلسة عينة محدودة من العمل، وليست حكما دائما على الشخص."
+      ],
+      "takeaways": [
+        "اتفقوا مسبقا على نطاق تمرين التعاون ومدته وشروطه.",
+        "حددوا معايير قابلة للملاحظة وافصلوا الاستدلال عن الألفة بالأداة.",
+        "وثقوا مساعدة المحاور واطلبوا تسليما يوضح التحقق والمخاطر المتبقية.",
+        "سجلوا ملاحظات المقيمين بشكل مستقل قبل النقاش الجماعي.",
+        "قارنوا توقعات المقابلة بعمل الشهر الأول لتحسين قرارات الاختيار."
+      ],
+      "advice": [
+        "ورقة تمرين مستقلة: هدف الدور، والمشكلة الافتراضية، والمدة المتفق عليها، ومعايير الملاحظة، وحدود المساعدة.",
+        "استخدموا ثلاثة أعمدة للقرار: الدليل الملحوظ، والسؤال غير المحسوم، والخطوة التالية."
+      ]
+    }
+  },
   "Design and Research": {
     "fa": {
       "paragraphs": [
