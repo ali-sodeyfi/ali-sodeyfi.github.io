@@ -492,6 +492,36 @@ const articleCategories = [
 
 const articleCatalog = [
   {
+    "title": "Keep Your Identity Small",
+    "category": "building",
+    "author": "Paul Graham",
+    "source": "Paul Graham",
+    "year": "2009",
+    "url": "https://paulgraham.com/identity.html",
+    "tags": {
+      "fa": [
+        "تصمیم‌گیری تیمی",
+        "فرضیه محصول",
+        "بازنگری تصمیم"
+      ],
+      "en": [
+        "team decisions",
+        "product hypotheses",
+        "decision review"
+      ],
+      "ar": [
+        "قرارات الفريق",
+        "فرضيات المنتج",
+        "مراجعة القرار"
+      ]
+    },
+    "summary": {
+      "fa": "برداشتی کوتاه درباره اثر هویت بر گفت‌وگو، همراه با تمرینی مستقل برای تبدیل اختلاف بر سر مسیر محصول به یک تصمیم قابل‌آزمون.",
+      "en": "A brief adaptation on identity and discussion, followed by an independent exercise for turning a product disagreement into a testable decision.",
+      "ar": "معالجة موجزة لأثر الهوية في النقاش، يتبعها تمرين مستقل لتحويل خلاف حول مسار المنتج إلى قرار قابل للاختبار."
+    }
+  },
+  {
     "title": "Great Hackers",
     "category": "building",
     "author": "Paul Graham",
@@ -2470,6 +2500,67 @@ const articleCatalog = [
 ];
 
 const articleEssays = {
+  "Keep Your Identity Small": {
+    "fa": {
+      "paragraphs": [
+        "ایده محوری مقاله این است که وقتی یک نظر بخشی از هویت ما می‌شود، بررسی بی‌طرفانه آن دشوارتر می‌شود. ادامه این نوشته تمرینی مستقل برای تصمیم‌گیری در یک شرکت کوچک است، نه بازگویی کامل مقاله. فرض کنید تیمی نرم‌افزار مدیریت سفارش می‌سازد و درباره راه‌اندازی مشتری اختلاف دارد. یک نفر بر ثبت‌نام کاملاً خودکار تأکید می‌کند و دیگری خواهان جلسه آموزشی است. جلسه‌های متوالی تمام می‌شوند، اما تصمیمی گرفته نمی‌شود؛ چون هنوز معلوم نیست دقیقاً کدام مشکل باید حل شود. نقطه شروع تمرین، تعریف یک تصمیم محدود است: در دو هفته آینده، برای مشتریان تازه یک مسیر راه‌اندازی مشخص را امتحان کنیم و مسئول اجرا و زمان مرور نتیجه را از ابتدا بدانیم.",
+        "ابتدا اختلاف را روی یک برگه به سه پرسش تبدیل کنید. مشتری در کدام مرحله متوقف می‌شود؟ تیم چه نشانه‌ای از این توقف دارد؟ هر پیشنهاد قرار است کدام مانع را برطرف کند؟ ممکن است یک مشتری در ورود فهرست کالا گیر کند و مشتری دیگری اختیار اتصال حساب شرکت را نداشته باشد. جلسه آموزشی برای این دو مسئله اثر یکسانی ندارد. چند مورد اخیر را با اجازه مشتری مرور کنید و رخداد واقعی، حدس تیم و اطلاعات ناموجود را جدا بنویسید. اگر تنها شاهد شما تعداد ثبت‌نام است، هنوز درباره تکمیل راه‌اندازی اطلاعات کافی ندارید. از همان ابتدا رویداد پایان را روشن کنید؛ مثلاً ثبت و پیگیری نخستین سفارش واقعی توسط مشتری.",
+        "اکنون هر پیشنهاد باید یک پیش‌بینی قابل بررسی داشته باشد. حامی آموزش می‌تواند پیش‌بینی کند که یک جلسه کوتاه، خطاهای ورود کالا را کم می‌کند؛ حامی مسیر خودکار می‌تواند پیش‌بینی کند که راهنمای داخل محصول همان نتیجه را با زمان پشتیبانی کمتر به دست می‌دهد. این پیش‌بینی‌ها را پیش از اجرا ثبت کنید و کنار هرکدام بنویسید چه مشاهده‌ای باعث بازنگری خواهد شد. دو گزینه را تا حد ممکن برای مشتریانی با مسئله و شرایط مشابه بررسی کنید. اگر تعداد مشتریان کم است یا گروه‌ها تفاوت مهمی دارند، نتیجه را شاهد مقدماتی بدانید. چند تجربه موفق، به‌تنهایی اثبات نمی‌کند که مسیر انتخابی برای همه مشتریان بهتر است.",
+        "برای اجرای آزمایش، هزینه‌های پنهان را هم ثبت کنید. ممکن است مشتری ظاهراً بدون کمک راه‌اندازی شود، اما همکار پشتیبانی پیش‌تر فایل او را اصلاح کرده باشد. ممکن است جلسه آموزشی نتیجه خوبی بدهد، ولی زمان آماده‌سازی آن در گزارش نیامده باشد. در یک جدول ساده، زمان تیم، تعداد رفت‌وبرگشت، تکمیل نخستین سفارش و مشکل باقی‌مانده را نگه دارید. معیار تصمیم را نیز از قبل تعیین کنید: تیم حاضر است چه میزان زمان برای رفع این مانع صرف کند و چه کیفیتی باید حفظ شود؟ عدد مناسب به ظرفیت و مدل کسب‌وکار شما بستگی دارد؛ یک آستانه عمومی را بدون بررسی وارد تصمیم نکنید.",
+        "در جلسه مرور، مسئول اجرا ابتدا مشاهدات را ارائه کند و سپس هر نفر توضیح دهد کدام پیش‌بینی‌اش تأیید یا تضعیف شده است. از شرکت‌کنندگان بخواهید پیش از بحث جمعی، برداشت خود را کوتاه بنویسند تا صدای نخست جلسه مسیر همه پاسخ‌ها را تعیین نکند. اگر داده کافی ندارید، به‌جای تکرار همان بحث، دقیقاً یک پرسش باز و راه جمع‌آوری شاهد بعدی را انتخاب کنید. نتیجه ممکن است ترکیبی باشد: راهنمای داخل محصول برای ورود ساده کالا و جلسه محدود برای مشتریان با نیاز پیچیده. چنین نتیجه‌ای باید با هزینه نگهداری هر دو مسیر سنجیده شود؛ افزودن گزینه‌های بیشتر هم برای تیم تعهد عملی ایجاد می‌کند.",
+        "در پایان، یک یادداشت تصمیم ثبت کنید: چه مسیری برای کدام مشتری انتخاب شد، چه شواهدی داشتید، چه محدودیتی باقی ماند و چه زمانی دوباره آن را بررسی می‌کنید. مسئول اجرای تصمیم باید روشن باشد؛ توافق همه افراد روی تمام جزئیات شرط شروع کار نیست. در مرور بعدی، هزینه واقعی پشتیبانی و رفتار مشتری را با پیش‌بینی‌ها مقایسه کنید. اگر نتیجه تغییر کرد، نسخه تازه تصمیم را کنار نسخه قبلی نگه دارید تا تیم بداند چه چیزی آموخته است. خروجی این تمرین صرفاً یک جلسه آرام‌تر نیست؛ یک روش راه‌اندازی قابل اجرا، یک مسئول مشخص و سابقه‌ای است که تصمیم بعدی را از نقطه بهتری آغاز می‌کند."
+      ],
+      "takeaways": [
+        "اختلاف کلی را به یک تصمیم محدود با مسئول و موعد مرور تبدیل کنید.",
+        "برای هر مانع مشتری، رخداد مشاهده‌شده را از حدس و اطلاعات ناموجود جدا کنید.",
+        "پیش‌بینی هر گزینه و شرط بازنگری آن را پیش از اجرا بنویسید.",
+        "زمان آماده‌سازی و کمک پنهان تیم را در هزینه آزمایش حساب کنید.",
+        "در نمونه کوچک یا گروه‌های متفاوت، نتیجه را مقدماتی گزارش کنید.",
+        "پیش از بحث جمعی، برداشت مستقل افراد از نتیجه را ثبت کنید.",
+        "یادداشت تصمیم را با دامنه کاربرد، محدودیت و زمان بررسی بعدی نگه دارید."
+      ],
+      "advice": [
+        "تمرین پیشنهادی: برای اختلاف بعدی تیم یک برگه با پنج خانه آماده کنید: تصمیم، شاهد موجود، پیش‌بینی، مسئول اجرا و تاریخ مرور.",
+        "در گزارش راه‌اندازی، کنار نتیجه مشتری بنویسید چه کمکی دریافت کرده است؛ نتیجه بدون این زمینه قابل مقایسه نیست."
+      ]
+    },
+    "en": {
+      "paragraphs": [
+        "The essay argues that examining an opinion becomes harder when it is part of our identity. The following is an independent company exercise, rather than a full retelling. Imagine an order-management startup debating customer onboarding. One colleague wants a fully automated signup flow; another wants a training session. Define a bounded decision: which onboarding approach will the team try with new customers over the next two weeks, who will run it, and when will the result be reviewed?",
+        "Start with recent customer experiences. Record the observed obstacle, the team’s explanation, and the missing information separately. Difficulty importing a product list and lacking permission to connect a company account are different problems. Define completion as a meaningful event, such as processing the first real order. Each proposed approach should include a prediction and an observation that would prompt revision. Compare customers with similar needs where possible; small samples or important differences between groups make the result preliminary.",
+        "Count the work that is easy to hide. An apparently independent customer may have received a cleaned spreadsheet from support. A successful training session may have required extensive preparation. Record staff time, back-and-forth messages, first-order completion, and unresolved obstacles. Agree beforehand how much effort the company can afford and which service quality must be preserved. Choose those limits from the team’s actual capacity rather than borrowing a universal benchmark.",
+        "Before discussing results together, ask each participant to write a short interpretation. Then review which predictions were supported and which remain uncertain. A mixed approach may be appropriate, but maintaining two paths also costs time. Close with a decision record naming the customer group, selected approach, evidence, limitations, owner, and review date. Compare subsequent support work and customer behavior with the original predictions. Keep earlier versions of the decision so the next review can show what the team actually learned."
+      ],
+      "takeaways": [
+        "Define the decision, responsible person, and review date before running an experiment.",
+        "Separate customer observations from explanations and missing evidence.",
+        "Write predictions and revision conditions before seeing results.",
+        "Include preparation and hidden assistance in operating costs.",
+        "Record uncertainty and the customer segment to which the decision applies."
+      ],
+      "advice": [
+        "Use a five-field worksheet: decision, existing evidence, prediction, owner, and review date."
+      ]
+    },
+    "ar": {
+      "paragraphs": [
+        "ترى المقالة أن فحص الرأي بموضوعية يصبح أصعب عندما يدخل في تعريفنا لأنفسنا. ما يلي تمرين مستقل لاتخاذ قرار داخل شركة صغيرة، وليس إعادة سرد كاملة للمقالة. تخيلوا فريقا يبني برنامجا لإدارة الطلبات ويختلف حول تهيئة العملاء: هل يعتمد على التسجيل الآلي أم على جلسة تدريب؟ حددوا قرارا ضيقا: أي مسار سيجربه الفريق مع العملاء الجدد خلال أسبوعين، ومن سينفذه، ومتى ستراجع النتيجة؟",
+        "ابدؤوا بحالات حديثة من تجربة العملاء، وافصلوا بين العائق الملحوظ وتفسير الفريق والمعلومات الناقصة. صعوبة استيراد قائمة المنتجات تختلف عن غياب صلاحية ربط حساب الشركة. حددوا حدثا يدل على اكتمال التهيئة، مثل معالجة أول طلب حقيقي. على كل اقتراح أن يتضمن توقعا وملاحظة تستدعي مراجعته. قارنوا، قدر الإمكان، عملاء لهم احتياجات وظروف متشابهة. إذا كانت العينة صغيرة أو اختلفت المجموعات في عوامل مهمة، فاعرضوا النتيجة بوصفها دليلا أوليا.",
+        "احسبوا العمل الذي قد يختفي من التقرير. ربما بدا العميل مستقلا لأن موظف الدعم أصلح ملفه مسبقا، وربما احتاجت جلسة التدريب الناجحة إلى إعداد طويل. سجلوا وقت الفريق، وعدد الرسائل المتبادلة، وإتمام الطلب الأول، والعائق المتبقي. اتفقوا قبل التجربة على مقدار الجهد الذي تستطيع الشركة تحمله ومستوى الخدمة الذي يجب الحفاظ عليه. استمدوا هذه الحدود من القدرة الفعلية للفريق؛ لا تنقلوا رقما عاما إلى قراركم دون فحص.",
+        "قبل النقاش الجماعي، اطلبوا من كل مشارك كتابة تفسير قصير للنتائج. راجعوا بعد ذلك التوقعات التي دعمتها المشاهدات والأسئلة التي بقيت مفتوحة. قد يناسب العملاء مساران مختلفان، لكن صيانتهما معا تضيف تكلفة تشغيلية. اختموا بسجل قرار يوضح فئة العملاء والمسار المختار والأدلة والحدود والمسؤول وموعد المراجعة. قارنوا العمل الفعلي للدعم وسلوك العملاء بالتوقعات في الموعد التالي، واحتفظوا بالنسخ السابقة حتى يظهر ما تعلمه الفريق بوضوح."
+      ],
+      "takeaways": [
+        "حددوا القرار والمسؤول وموعد المراجعة قبل بدء التجربة.",
+        "افصلوا مشاهدات العملاء عن التفسيرات والمعلومات الناقصة.",
+        "اكتبوا التوقع وشرط مراجعته قبل الاطلاع على النتائج.",
+        "أدرجوا وقت الإعداد والمساعدة الخفية ضمن تكلفة التشغيل.",
+        "سجلوا حدود النتيجة وفئة العملاء التي ينطبق عليها القرار."
+      ],
+      "advice": [
+        "استخدموا ورقة بخمس خانات: القرار، والدليل المتاح، والتوقع، والمسؤول، وموعد المراجعة."
+      ]
+    }
+  },
   "Great Hackers": {
     "fa": {
       "paragraphs": [

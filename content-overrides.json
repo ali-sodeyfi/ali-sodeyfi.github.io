@@ -226,6 +226,55 @@
     "timezone": "Asia/Tehran",
     "queue": [
       {
+        "id": "2026-11-15-site-keep-your-identity-small",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "keep-your-identity-small",
+        "publishAt": "2026-11-15T05:46:05+03:30",
+        "status": "published",
+        "publishedAt": "2026-11-15T05:46:05+03:30"
+      },
+      {
+        "id": "2026-11-15-linkedin-keep-your-identity-small",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "keep-your-identity-small",
+        "publishAt": "2026-11-15T18:00:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-11-15T05:46:05+03:30",
+        "note": "Draft/preview only. Verified account/API or session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "اختلاف محصول را به آزمایش تبدیل کنید",
+          "en": "Turn product disagreement into an experiment",
+          "ar": "حولوا خلاف المنتج إلى تجربة"
+        },
+        "body": {
+          "fa": "اختلاف بر سر مسیر محصول باید به پیش‌بینی قابل بررسی برسد.\nپیامد عملی: نتیجه مشتری را همراه با زمان پشتیبانی و کمک پنهان تیم بسنجید.\nگام بعد: پیش از آزمایش بعدی، شرط بازنگری و موعد تصمیم را بنویسید.\nPaul Graham — https://paulgraham.com/identity.html\nhttps://alisodeyfi.ir/articles/keep-your-identity-small/fa/#daily-article-reader",
+          "en": "A product disagreement needs a testable prediction.\nImplication: assess customer outcomes alongside support time and hidden assistance.\nNext action: write the revision condition and decision date before the next experiment.\nPaul Graham — https://paulgraham.com/identity.html\nhttps://alisodeyfi.ir/articles/keep-your-identity-small/en/#daily-article-reader",
+          "ar": "يحتاج خلاف المنتج إلى توقع قابل للاختبار.\nالأثر العملي: قيسوا نتيجة العميل مع وقت الدعم والمساعدة الخفية.\nالخطوة التالية: اكتبوا شرط المراجعة وموعد القرار قبل التجربة التالية.\nPaul Graham — https://paulgraham.com/identity.html\nhttps://alisodeyfi.ir/articles/keep-your-identity-small/ar/#daily-article-reader"
+        }
+      },
+      {
+        "id": "2026-11-15-instagram-story-keep-your-identity-small",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "keep-your-identity-small",
+        "publishAt": "2026-11-15T20:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-11-15T05:46:05+03:30",
+        "note": "Draft/preview only. Verified account/API or session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "اختلاف محصول را به آزمایش تبدیل کنید",
+          "en": "Turn product disagreement into an experiment",
+          "ar": "حولوا خلاف المنتج إلى تجربة"
+        },
+        "body": {
+          "fa": "اسلاید ۱: اختلاف محصول به پیش‌بینی قابل بررسی نیاز دارد.\nاسلاید ۲: هزینه کمک تیم را ثبت کنید؛ پیش از آزمایش، شرط بازنگری بنویسید.\nاسلاید ۳: منبع و تمرین مستقل\nPaul Graham — https://paulgraham.com/identity.html\nhttps://alisodeyfi.ir/articles/keep-your-identity-small/fa/#daily-article-reader",
+          "en": "Slide 1: Product disagreements need testable predictions.\nSlide 2: Count staff assistance; write revision conditions before testing.\nSlide 3: Source and independent exercise\nPaul Graham — https://paulgraham.com/identity.html\nhttps://alisodeyfi.ir/articles/keep-your-identity-small/en/#daily-article-reader",
+          "ar": "الشريحة ١: يحتاج خلاف المنتج إلى توقع قابل للاختبار.\nالشريحة ٢: احسبوا مساعدة الفريق واكتبوا شرط المراجعة قبل التجربة.\nالشريحة ٣: المصدر والتمرين المستقل\nPaul Graham — https://paulgraham.com/identity.html\nhttps://alisodeyfi.ir/articles/keep-your-identity-small/ar/#daily-article-reader"
+        }
+      },
+      {
         "id": "2026-11-14-site-great-hackers",
         "channel": "site",
         "target": "site",
