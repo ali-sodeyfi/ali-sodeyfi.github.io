@@ -492,6 +492,41 @@ const articleCategories = [
 
 const articleCatalog = [
   {
+    "title": "A Project of One's Own",
+    "category": "building",
+    "author": "Paul Graham",
+    "source": "Paul Graham",
+    "year": "2021",
+    "url": "https://paulgraham.com/own.html",
+    "tags": {
+      "fa": [
+        "پروژه شخصی",
+        "نمونه اولیه",
+        "اعتبارسنجی تقاضا"
+      ],
+      "en": [
+        "personal projects",
+        "prototypes",
+        "demand validation"
+      ],
+      "ar": [
+        "مشاريع شخصية",
+        "نماذج أولية",
+        "اختبار الطلب"
+      ]
+    },
+    "summary": {
+      "fa": "برداشتی کوتاه درباره حس مالکیت بر کار، همراه با تمرین مستقل برای بررسی اینکه یک ابزار شخصی چه زمانی ارزش تبدیل‌شدن به محصول را دارد.",
+      "en": "A brief adaptation on ownership of work, with an independent exercise for deciding when a personal tool deserves to become a product.",
+      "ar": "معالجة موجزة للشعور بملكية العمل، مع تمرين مستقل لتحديد متى تستحق أداة شخصية أن تتحول إلى منتج."
+    },
+    "seoTitle": {
+      "fa": "پروژه‌ای از آن خود؛ از ابزار شخصی تا تصمیم محصول",
+      "en": "A Project of One’s Own | From Personal Tool to Product Decision",
+      "ar": "مشروع خاص بك؛ من أداة شخصية إلى قرار منتج"
+    }
+  },
+  {
     "title": "Keep Your Identity Small",
     "category": "building",
     "author": "Paul Graham",
@@ -2500,6 +2535,69 @@ const articleCatalog = [
 ];
 
 const articleEssays = {
+  "A Project of One's Own": {
+    "fa": {
+      "paragraphs": [
+        "ایده محوری مقاله این است که احساس مالکیت بر یک پروژه و اختیار در پیش‌بردن آن می‌تواند انگیزه عمیقی برای کار ایجاد کند؛ چنین کاری الزاماً انفرادی نیست. ادامه این نوشته یک تمرین مستقل برای بنیان‌گذاران است، نه بازگویی کامل مقاله: چگونه درباره تبدیل یک ابزار شخصی به محصول تصمیم بگیریم؟ فرض کنید یکی از اعضای یک شرکت کوچک، ابزاری ساخته که داده‌های هفتگی چند فایل را به گزارش وضعیت سفارش‌ها تبدیل می‌کند. ابزار برای خودش مفید است و چند همکار هم به آن علاقه نشان داده‌اند. پیش از ساخت صفحه فروش یا اضافه‌کردن ده قابلیت، باید معلوم شود چه چیزی واقعاً ارزش توسعه دارد و چه چیزی فقط در محیط فعلی خوب کار می‌کند.",
+        "ابتدا یک نوبت واقعی تهیه گزارش را ثبت کنید. ورودی از کجا می‌آید، چه کسی آن را اصلاح می‌کند و گیرنده گزارش با آن چه تصمیمی می‌گیرد؟ ممکن است سرعت جمع‌کردن داده بهتر شده باشد، اما بخش دشوار کار هنوز تطبیق نام فروشندگان یا توضیح سفارش‌های استثنایی باشد. زمان این کارهای دستی را هم بنویسید. سپس با چند نفر که گزارش مشابه تهیه می‌کنند، درباره آخرین تجربه‌شان صحبت کنید؛ از آن‌ها نمونه بی‌نام یا شرح مراحل بخواهید. تعریف مسئله باید به کاری برسد که تکرار می‌شود و هزینه دارد. علاقه به ظاهر خروجی یا تعریف همکاران، به‌تنهایی نشان نمی‌دهد شخص دیگری حاضر است روش فعلی‌اش را کنار بگذارد.",
+        "برای مرحله بعد، یک نمونه محدود تعریف کنید: مثلاً دریافت یک قالب مشخص فایل و ساخت گزارشی که یک تصمیم معین را آسان کند. این دامنه انتخاب شماست و باید با شواهد مرحله قبل سازگار باشد. زمان کار را در برنامه واقعی تیم جا دهید و هزینه فرصتش را روشن کنید؛ قرار نیست پروژه صرفاً با کار پنهان بعد از ساعت اداری پیش برود. معیار پایان نیز تحویل مجموعه‌ای از قابلیت‌ها نباشد: گیرنده باید بتواند یک گزارش معتبر را در جریان کار خود استفاده کند. اگر سازنده برای هر اجرا فایل‌ها را دستی ترمیم می‌کند، آن کمک را در نتیجه ثبت کنید. نمونه‌ای که با کمک کار می‌کند هنوز می‌تواند آموزنده باشد، به شرط آنکه هزینه‌اش دیده شود.",
+        "وقتی نفر دوم به پروژه می‌پیوندد، همکاری را با یک توافق کوتاه قابل اجرا کنید. در همین مثال، یک نفر می‌تواند مسئول آماده‌سازی داده و دیگری مسئول نمایش گزارش باشد. قالب ورودی، رفتار هنگام خطا و کسی که پاسخ پرسش کاربر را می‌دهد باید معلوم باشند؛ انتخاب جزئیات هر بخش را تا جای ممکن به مسئول همان بخش بسپارید. یک فایل نمونه مشترک کمک می‌کند دو بخش را پیش از کامل‌شدن کنار هم امتحان کنید. اگر درخواست تازه‌ای وارد شد، آن را مستقیماً به فهرست کار همه اضافه نکنید؛ ابتدا معلوم کنید کدام مسئله را حل می‌کند و چه چیزی را از دامنه فعلی خارج خواهد کرد. هدف این توافق، کم‌کردن انتظار و بازکاری است.",
+        "اکنون دو تصمیم جدا دارید: آیا ادامه این پروژه برای یادگیری یا استفاده داخلی ارزش دارد، و آیا باید برای مشتری بیرونی محصول بسازید؟ برای تصمیم دوم، یک استفاده آزمایشی با دامنه و مسئول مشخص پیشنهاد کنید. ببینید آیا مخاطب حاضر است زمان بگذارد، داده مناسب فراهم کند و گزارش را در یک تصمیم واقعی به کار ببرد. اگر قیمت پیشنهادی مطرح می‌کنید، پاسخ به قیمت را جدا از تعریف درباره نمونه ثبت کنید؛ پذیرش آزمایش رایگان معادل خرید نیست. یک تجربه مثبت هم اندازه بازار را معلوم نمی‌کند. در یادداشت نتیجه بنویسید چه چیزی دیده‌اید و چه چیزی هنوز فرض است، از جمله تفاوت میان شرایط مشتری آزمایشی و سایر مشتریان احتمالی.",
+        "در پایان دوره، سه مسیر را روی میز بگذارید: نگه‌داشتن ابزار برای استفاده داخلی، اجرای آزمایش محدود بعدی یا شروع توسعه محصول با تعهد پشتیبانی روشن. هزینه نگهداری، تغییر قالب داده و پاسخ به خطا را کنار منفعت مشاهده‌شده مقایسه کنید. اگر تصمیم به توقف گرفتید، فایل نمونه، آموخته‌ها و دلیل توقف را نگه دارید تا تجربه قابل استفاده بماند. اگر ادامه دادید، مسئول نسخه بعد، محدوده استفاده و زمان بازبینی را مشخص کنید. ارزش این تمرین در این است که علاقه سازنده و نیاز مشتری هر دو دیده شوند؛ هیچ‌کدام به‌تنهایی جواب تصمیم تجاری نیست. خروجی مطلوب، یک تعهد کوچک و قابل بررسی است که تیم بتواند واقعاً آن را انجام دهد."
+      ],
+      "takeaways": [
+        "یک نوبت واقعی انجام کار را با ورودی، اصلاح دستی و تصمیم نهایی ثبت کنید.",
+        "در گفت‌وگو با مخاطب، تجربه اخیر و هزینه روش فعلی را بررسی کنید.",
+        "نمونه را به یک قالب ورودی و یک کاربرد مشخص محدود کنید.",
+        "زمان پروژه و کمک دستی سازنده را در هزینه واقعی حساب کنید.",
+        "برای همکاری، قالب تبادل داده و مسئول خطا و پشتیبانی را روشن کنید.",
+        "استفاده آزمایشی، پذیرش قیمت و خرید را سه شاهد متفاوت بدانید.",
+        "ادامه داخلی، آزمایش بعدی و تبدیل به محصول را جداگانه ارزیابی کنید."
+      ],
+      "advice": [
+        "تمرین مستقل: یک برگه با این خانه‌ها بسازید: کار تکراری، استفاده‌کننده، شاهد موجود، دامنه نمونه، هزینه نگهداری و تصمیم بعدی.",
+        "پیش از پذیرش درخواست تازه، مشخص کنید چه کاری از برنامه فعلی حذف یا عقب انداخته می‌شود."
+      ]
+    },
+    "en": {
+      "paragraphs": [
+        "The essay connects deep engagement with feeling that a project is your own and having autonomy over it; collaboration can preserve that feeling. What follows is an independent founder exercise, not a full retelling. Imagine a colleague builds a tool that turns weekly spreadsheets into an order-status report. It helps its creator and attracts interest from coworkers. Before turning it into a product, investigate which part of the benefit survives outside that particular workflow.",
+        "Observe one actual reporting cycle. Record where the data comes from, who repairs it, and which decision the report enables. Include time spent reconciling names and explaining exceptions. Ask prospective users about their most recent reporting experience and request an anonymized example or a description of the steps. Define a narrow prototype around one input format and one decision. Schedule the work within the team’s real capacity, including its opportunity cost. If the creator manually prepares every input, record that assistance rather than treating the output as an unattended result.",
+        "When another person joins, agree on the boundary between their contributions: input format, error behavior, and responsibility for user questions. A shared sample file lets the team test the connection before both parts are complete. Evaluate new requests against the problem being tested and name the work they would displace. For an external trial, ask for a concrete commitment: someone responsible, suitable data, and a real occasion to use the report. Record reactions to a proposed price separately from compliments about the prototype. A free trial is not a purchase, and one successful trial does not establish market size.",
+        "At review, distinguish three choices: maintain an internal tool, run another bounded trial, or build a product with an explicit support commitment. Compare observed benefit with maintenance, changing data formats, and error-handling work. Keep examples and learning even if the experiment stops. If it continues, name the next owner, scope, and review date. The creator’s interest and evidence of customer demand both deserve attention; neither alone settles the commercial decision. The outcome should be a small commitment the team can actually deliver."
+      ],
+      "takeaways": [
+        "Observe a complete work cycle, including manual repair and the resulting decision.",
+        "Limit the prototype to one input format and one concrete use.",
+        "Count creator assistance and maintenance in the cost of the trial.",
+        "Agree on data interfaces and responsibility for errors before splitting work.",
+        "Distinguish trial participation, price acceptance, and actual purchase.",
+        "Decide separately whether to keep an internal tool or develop an external product."
+      ],
+      "advice": [
+        "Independent exercise: document the recurring task, user, evidence, prototype scope, maintenance cost, and next decision on one page."
+      ]
+    },
+    "ar": {
+      "paragraphs": [
+        "تربط فكرة المقال بين الانخراط العميق في العمل والشعور بأن المشروع يخصك مع امتلاك حرية في تنفيذه؛ ويمكن أن يستمر هذا الشعور مع التعاون. ما يلي تمرين مستقل للمؤسسين، وليس إعادة سرد كاملة للمقال. تخيلوا أن زميلا صنع أداة تحول ملفات أسبوعية إلى تقرير عن حالة الطلبات. أفادته الأداة وأثارت اهتمام زملائه. قبل تحويلها إلى منتج، يجب معرفة أي جزء من فائدتها يمكن أن ينتقل إلى بيئة أخرى، وأي جزء يعتمد على معرفته الشخصية بطريقة العمل الحالية.",
+        "راقبوا دورة فعلية لإعداد التقرير: مصدر البيانات، ومن يصححها، والقرار الذي يساعد التقرير على اتخاذه. احسبوا وقت مطابقة الأسماء وشرح الحالات الاستثنائية. اسألوا مستخدمين محتملين عن آخر تجربة لهم، واطلبوا مثالا منزوع الهوية أو وصفا للخطوات. حددوا النموذج الأولي بصيغة إدخال واحدة واستخدام معين، وخصصوا له وقتا ضمن قدرة الفريق الفعلية مع توضيح العمل الذي سيتأخر بسببه. إذا كان صاحب الأداة يصلح الملفات يدويا في كل مرة، فسجلوا هذه المساعدة ضمن النتيجة؛ نجاح المخرج لا يثبت أن العملية تعمل دون تدخل.",
+        "عندما ينضم شخص آخر، اتفقوا على الحدود بين مساهمتيهما: صيغة البيانات، والتصرف عند الخطأ، والمسؤول عن أسئلة المستخدم. يتيح ملف نموذجي مشترك اختبار اتصال الجزأين قبل اكتمالهما. افحصوا كل طلب جديد على أساس المشكلة الجاري اختبارها والعمل الذي سيزيحه من الخطة. وللتجربة الخارجية، اطلبوا التزاما محددا: شخصا مسؤولا وبيانات مناسبة وموعدا لاستخدام التقرير في قرار حقيقي. سجلوا الرد على السعر المقترح بصورة منفصلة عن الإعجاب بالنموذج. قبول تجربة مجانية ليس شراء، وتجربة ناجحة واحدة لا تحدد حجم السوق.",
+        "عند المراجعة، افصلوا بين ثلاثة مسارات: الاحتفاظ بأداة داخلية، أو إجراء تجربة محدودة أخرى، أو تطوير منتج مع التزام واضح بالدعم. قارنوا الفائدة المرصودة بتكلفة الصيانة وتغير صيغ البيانات ومعالجة الأخطاء. احتفظوا بالأمثلة والتعلم حتى إذا توقف المشروع. وإذا استمر، فحددوا مسؤول النسخة التالية ونطاق استخدامها وموعد مراجعتها. اهتمام صاحب المشروع ودليل حاجة العميل يستحقان النظر معا؛ لا يكفي أي منهما وحده لحسم القرار التجاري. النتيجة المطلوبة التزام صغير يستطيع الفريق تنفيذه ومراجعة أثره."
+      ],
+      "takeaways": [
+        "راقبوا دورة عمل كاملة تشمل التصحيح اليدوي والقرار الناتج.",
+        "احصروا النموذج الأولي في صيغة إدخال واحدة واستخدام محدد.",
+        "احسبوا مساعدة صاحب الأداة والصيانة ضمن تكلفة التجربة.",
+        "حددوا صيغة تبادل البيانات ومسؤولية الأخطاء قبل تقسيم العمل.",
+        "ميزوا بين المشاركة في التجربة وقبول السعر والشراء الفعلي.",
+        "افصلوا قرار الاحتفاظ بأداة داخلية عن قرار تطوير منتج خارجي."
+      ],
+      "advice": [
+        "تمرين مستقل: وثقوا المهمة المتكررة والمستخدم والدليل ونطاق النموذج وتكلفة الصيانة والقرار التالي في صفحة واحدة."
+      ]
+    }
+  },
   "Keep Your Identity Small": {
     "fa": {
       "paragraphs": [

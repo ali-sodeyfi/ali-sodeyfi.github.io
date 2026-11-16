@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T08:04:16+03:30",
+  "updatedAt": "2026-11-16T05:44:59+03:30",
   "translations": {
     "fa": {
       "documentTitle": "علی سدیفی | یادداشت‌هایی درباره ساخت کسب‌وکار",
@@ -225,6 +225,55 @@
   "publishing": {
     "timezone": "Asia/Tehran",
     "queue": [
+      {
+        "id": "2026-11-16-site-a-project-of-ones-own",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "a-project-of-ones-own",
+        "publishAt": "2026-11-16T05:44:59+03:30",
+        "status": "published",
+        "publishedAt": "2026-11-16T05:44:59+03:30"
+      },
+      {
+        "id": "2026-11-16-linkedin-a-project-of-ones-own",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "a-project-of-ones-own",
+        "publishAt": "2026-11-16T18:00:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-11-16T05:44:59+03:30",
+        "note": "Draft/preview only. Verified account/API or session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "ابزار مفید، هنوز تصمیم محصول نیست",
+          "en": "A useful tool still needs a product decision",
+          "ar": "الأداة المفيدة تحتاج إلى قرار منتج"
+        },
+        "body": {
+          "fa": "موفقیت یک ابزار داخلی، تقاضای بیرونی را ثابت نمی‌کند.\nپیامد عملی: زمان اصلاح داده و پشتیبانی را کنار فایده گزارش حساب کنید.\nگام بعد: یک استفاده واقعی با مسئول مشخص تعریف کنید و پاسخ به قیمت را جدا از تعریف درباره نمونه ثبت کنید.\nPaul Graham — https://paulgraham.com/own.html\nhttps://alisodeyfi.ir/articles/a-project-of-ones-own/fa/#daily-article-reader",
+          "en": "An internal tool’s success does not establish external demand.\nImplication: count data repair and support alongside the report’s benefit.\nNext action: arrange one real use with a named owner and record price responses separately from prototype compliments.\nPaul Graham — https://paulgraham.com/own.html\nhttps://alisodeyfi.ir/articles/a-project-of-ones-own/en/#daily-article-reader",
+          "ar": "نجاح أداة داخلية لا يثبت الطلب الخارجي.\nالأثر العملي: احسبوا إصلاح البيانات والدعم إلى جانب فائدة التقرير.\nالخطوة التالية: حددوا استخداما فعليا بمسؤول واضح وسجلوا الرد على السعر منفصلا عن الإعجاب بالنموذج.\nPaul Graham — https://paulgraham.com/own.html\nhttps://alisodeyfi.ir/articles/a-project-of-ones-own/ar/#daily-article-reader"
+        }
+      },
+      {
+        "id": "2026-11-16-instagram-story-a-project-of-ones-own",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "a-project-of-ones-own",
+        "publishAt": "2026-11-16T20:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-11-16T05:44:59+03:30",
+        "note": "Draft/preview only. Verified account/API or session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "ابزار مفید، هنوز تصمیم محصول نیست",
+          "en": "A useful tool still needs a product decision",
+          "ar": "الأداة المفيدة تحتاج إلى قرار منتج"
+        },
+        "body": {
+          "fa": "اسلاید ۱: ابزار داخلی موفق، هنوز شاهد تقاضای بیرونی نیست.\nاسلاید ۲: هزینه اصلاح داده را حساب کنید؛ یک استفاده واقعی با مسئول مشخص ترتیب دهید.\nاسلاید ۳: منبع و تمرین مستقل\nPaul Graham — https://paulgraham.com/own.html\nhttps://alisodeyfi.ir/articles/a-project-of-ones-own/fa/#daily-article-reader",
+          "en": "Slide 1: Internal tool success does not establish external demand.\nSlide 2: Count data repair; arrange a real use with a named owner.\nSlide 3: Source and independent exercise\nPaul Graham — https://paulgraham.com/own.html\nhttps://alisodeyfi.ir/articles/a-project-of-ones-own/en/#daily-article-reader",
+          "ar": "الشريحة ١: نجاح الأداة داخليا لا يثبت الطلب الخارجي.\nالشريحة ٢: احسبوا إصلاح البيانات وحددوا استخداما فعليا بمسؤول واضح.\nالشريحة ٣: المصدر والتمرين المستقل\nPaul Graham — https://paulgraham.com/own.html\nhttps://alisodeyfi.ir/articles/a-project-of-ones-own/ar/#daily-article-reader"
+        }
+      },
       {
         "id": "2026-11-15-site-keep-your-identity-small",
         "channel": "site",
