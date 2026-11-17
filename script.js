@@ -492,6 +492,41 @@ const articleCategories = [
 
 const articleCatalog = [
   {
+    "title": "Persuade xor Discover",
+    "category": "leadership",
+    "author": "Paul Graham",
+    "source": "Paul Graham",
+    "year": "2009",
+    "url": "https://paulgraham.com/discover.html",
+    "tags": {
+      "fa": [
+        "یادداشت تصمیم",
+        "گزارش آزمایش",
+        "یادگیری تیم"
+      ],
+      "en": [
+        "decision memos",
+        "experiment reports",
+        "team learning"
+      ],
+      "ar": [
+        "مذكرات القرار",
+        "تقارير التجارب",
+        "تعلم الفريق"
+      ]
+    },
+    "summary": {
+      "fa": "برداشتی کوتاه درباره نوشتن برای کشف، همراه با مثال مستقل برای تبدیل گزارش آزمایش محصول به یک تصمیم قابل پیگیری.",
+      "en": "A brief adaptation on writing to discover, with an independent example of turning a product experiment report into a decision the team can follow up.",
+      "ar": "معالجة موجزة للكتابة بهدف الاكتشاف، مع مثال مستقل لتحويل تقرير تجربة منتج إلى قرار يمكن للفريق متابعته."
+    },
+    "seoTitle": {
+      "fa": "نوشتن برای کشف؛ گزارش آزمایش را به تصمیم تبدیل کنیم",
+      "en": "Persuade xor Discover | Turn Experiment Reports into Decisions",
+      "ar": "الكتابة للاكتشاف؛ تحويل تقرير التجربة إلى قرار"
+    }
+  },
+  {
     "title": "A Project of One's Own",
     "category": "building",
     "author": "Paul Graham",
@@ -2535,6 +2570,65 @@ const articleCatalog = [
 ];
 
 const articleEssays = {
+  "Persuade xor Discover": {
+    "fa": {
+      "paragraphs": [
+        "ایده محوری مقاله این است که نوشتن برای کشف یک پاسخ، با نوشتن برای جلب موافقت خواننده هدف یکسانی ندارد؛ تلاش زودهنگام برای پذیرفتنی‌کردن نتیجه می‌تواند مسیر فکر را عوض کند. ادامه این نوشته کاربردی مستقل برای کار تیمی است: گزارش یک آزمایش محصول را چگونه بنویسیم؟ فرض کنید تیمی در نرم‌افزار مدیریت سفارش، امکان ورود گروهی کالا را آزمایش کرده است. پس از دو هفته، مدیر محصول باید درباره گسترش آن تصمیم بگیرد. تیم برای ساخت قابلیت زحمت کشیده و چند مشتری هم راضی بوده‌اند، اما این دو واقعیت هنوز نمی‌گویند نسخه فعلی برای عرضه گسترده آماده است. گزارش باید اطلاعات لازم برای همین تصمیم محدود را فراهم کند.",
+        "پیش از نوشتن متن، پرسش تصمیم را در بالای صفحه بیاورید: آیا ورود گروهی کالا را برای همه مشتریان فعال کنیم، فقط برای یک گروه مشخص نگه داریم یا ابتدا آن را اصلاح کنیم؟ سپس دامنه آزمایش را ثبت کنید. در این مثال فرضی، از دوازده مشتری دعوت‌شده، هشت نفر شروع کردند و پنج نفر بدون دخالت تیم کار را تمام کردند. دو نفر فقط پس از اصلاح فایل به دست پشتیبانی موفق شدند و یک نفر نیمه‌کاره کنار کشید. چهار مشتری دیگر اصلاً شروع نکردند. عبارت «هفت مشتری موفق شدند» بخشی از ماجرا را می‌گوید، اما کمک دستی و عدم شروع را پنهان می‌کند. تعدادها را با تعریف دقیق هر مرحله بنویسید؛ این اعداد صرفاً برای روشن‌شدن مثال‌اند، نه معیار موفقیت عمومی.",
+        "حالا گزارش را به سه بخش مشاهدات، تفسیرها و پرسش‌های باز تقسیم کنید. مشاهده می‌تواند این باشد که دو فایل نیاز به اصلاح داشته‌اند؛ تفسیر ممکن است ضعف راهنمای قالب باشد؛ پرسش باز این است که آیا مشتری با یک نمونه روشن‌تر می‌تواند فایل را خودش آماده کند. برای هر تفسیر، توضیح رقیب محتملی هم ثبت کنید. شاید ساختار داده مشتری با محصول سازگار نیست و راهنما مسئله را حل نمی‌کند. از همکار پشتیبانی بخواهید یک مورد شکست و یک مورد موفقیت بدون کمک را با حذف اطلاعات حساس مرور کند. هدف این مرور، یافتن اختلاف میان روایت گزارش و کار واقعی است، نه تهیه چند نقل‌قول تأییدکننده.",
+        "هزینه و کیفیت نتیجه را کنار تعداد تکمیل‌ها بیاورید. برای اصلاح دو فایل چه مقدار زمان صرف شد؟ آیا داده پس از ورود درست بود یا مشتری بعداً موجودی را دستی تصحیح کرد؟ ممکن است قابلیت در ظاهر استفاده شود اما هزینه تازه‌ای به عملیات تحمیل کند. در همین مثال، یک جدول کوچک می‌تواند نوع فایل، تکمیل مستقل، زمان کمک و خطای باقی‌مانده را نشان دهد. داده کم را با درصدهای دقیق‌تر از ظرفیتش تزئین نکنید؛ تعداد موارد و محدودیت انتخاب مشتریان را آشکار بنویسید. مشتریانی که داوطلب آزمایش بوده‌اند ممکن است با بقیه مشتریان فرق داشته باشند. گزارش باید نشان دهد کدام نتیجه قابل اتکاست و کدام هنوز نیاز به بررسی دارد.",
+        "بر اساس این شواهد، یک اقدام محدود پیشنهاد کنید و مسئول آن را مشخص سازید. مثلاً راهنمای قالب را اصلاح کنید و در نوبت بعد بررسی کنید مشتریان مشابه بدون اصلاح پنهان فایل چه می‌کنند. پیش از شروع، تیم تعیین کند چه میزان زمان پشتیبانی و چه نوع خطایی برای این کاربرد پذیرفتنی است. این حدود باید از ظرفیت واقعی و پیامد خطا بیایند. اگر مشکل از ساختار متفاوت داده است، شاید محدودکردن قابلیت به قالب‌های پشتیبانی‌شده تصمیم بهتری باشد. در یادداشت، شرایطی را که باعث گسترش، اصلاح یا توقف خواهند شد ثبت کنید تا جلسه بعد فقط به دفاع از تصمیم قبلی تبدیل نشود.",
+        "نسخه نهایی گزارش را کوتاه اما قابل پیگیری نگه دارید: تصمیم موردنیاز، شواهد، محدودیت، اقدام و زمان مرور. برای خواننده مدیریتی می‌توانید خلاصه‌ای در ابتدای همان سند بنویسید؛ تعداد مشتریان، تعریف موفقیت و هزینه کمک باید در همه نسخه‌ها یکسان بماند. در جلسه مرور بعد، مسئول آزمایش نتیجه را با پیش‌بینی قبلی مقایسه کند و تغییر تصمیم را همراه با دلیل ثبت کند. این روش به تیم اجازه می‌دهد زحمت ساخت را محترم بشمارد و هم‌زمان درباره ادامه کار دقیق باشد. خروجی مطلوب یک گزارش خوش‌ظاهر نیست؛ یک اقدام مشخص است که نتیجه‌اش در نوبت بعد قابل بررسی خواهد بود."
+      ],
+      "takeaways": [
+        "گزارش را با تصمیم مشخص و گزینه‌های قابل اجرا آغاز کنید.",
+        "دعوت‌شده، شروع‌کننده و تکمیل‌کننده مستقل را جدا بشمارید.",
+        "مشاهده، تفسیر و پرسش باز را در سه بخش ثبت کنید.",
+        "برای هر تفسیر مهم، یک توضیح رقیب و راه بررسی آن بنویسید.",
+        "زمان کمک پشتیبانی و خطای پس از تکمیل را جزو نتیجه حساب کنید.",
+        "برای نمونه کوچک، تعداد موارد و محدودیت انتخاب مشتریان را نشان دهید.",
+        "مسئول اقدام بعد، شرط تغییر تصمیم و زمان مرور را مشخص کنید."
+      ],
+      "advice": [
+        "تمرین مستقل: آخرین گزارش آزمایش را باز کنید و کنار هر ادعا، مشاهده پشتیبان و اطلاعات ناموجود را بنویسید.",
+        "پیش از جلسه، یک مورد شکست و یک موفقیت بدون کمک را با همکار پشتیبانی مرور کنید؛ داده حساس مشتری را از یادداشت حذف کنید."
+      ]
+    },
+    "en": {
+      "paragraphs": [
+        "The essay distinguishes writing to discover an answer from writing to gain agreement: anticipating acceptance can reshape the thinking itself. The following is an independent application to product experiment reports. Imagine a team testing bulk item import in an order management tool. After two weeks, the product lead must choose whether to expand availability, retain a limited trial, or revise the feature. Start the report with that decision. In this fictional example, twelve customers were invited, eight started, and five completed without help. Two more completed after support repaired their files; one abandoned the process, and four never started. These counts illustrate reporting choices, not a universal success benchmark.",
+        "Separate observations, interpretations, and unanswered questions. Two repaired files are an observation; inadequate instructions are one interpretation. A competing explanation is that the customers’ data does not fit the supported structure. Review one failed attempt and one independent completion with a support colleague, removing sensitive customer details. Record assistance time and errors discovered after import as well as completion counts. A successful import that creates inventory corrections elsewhere may add operational work. Keep the small sample visible and state how participants were selected; volunteers may differ from the wider customer base. Extra decimal places cannot resolve those limitations.",
+        "Propose a bounded next action with an owner. The team might revise the sample file and observe comparable customers using it without hidden repairs. Agree in advance on acceptable support effort and error consequences for this workflow, using actual capacity rather than an arbitrary benchmark. If incompatible data is the problem, limiting supported formats may be more appropriate. Document the evidence that would trigger expansion, revision, or stopping, and set a review date. A short management summary can sit above the detailed report, with identical counts and success definitions. At review, compare the prediction with what happened and record why the decision changed. The report should leave a traceable action and an honest account of what remains unknown."
+      ],
+      "takeaways": [
+        "Name the decision and its feasible options before drafting the report.",
+        "Count invitations, starts, independent completions, and assisted completions separately.",
+        "Separate observations from explanations and open questions.",
+        "Include support time and downstream corrections in the outcome.",
+        "Assign the next action, review date, and conditions for changing course."
+      ],
+      "advice": [
+        "Independent exercise: annotate each claim in the latest experiment report with its supporting observation and missing information."
+      ]
+    },
+    "ar": {
+      "paragraphs": [
+        "يميز المقال بين الكتابة لاكتشاف إجابة والكتابة لكسب موافقة القارئ؛ فتوقع القبول قد يغير مسار التفكير نفسه. ما يلي تطبيق مستقل على تقارير تجارب المنتج. تخيلوا فريقا يختبر إدخال الأصناف دفعة واحدة في نظام لإدارة الطلبات. بعد أسبوعين، عليه الاختيار بين توسيع الاستخدام أو إبقاء التجربة محدودة أو تعديل الخاصية. ابدأوا التقرير بهذا القرار. في هذا المثال الافتراضي، دعي اثنا عشر عميلا، وبدأ ثمانية، وأكمل خمسة دون مساعدة. أكمل اثنان آخران بعد إصلاح ملفيهما بواسطة الدعم، وتوقف واحد أثناء العملية، ولم يبدأ أربعة أصلا. توضح هذه الأعداد طريقة إعداد التقرير، ولا تمثل معيارا عاما للنجاح.",
+        "افصلوا بين المشاهدات والتفسيرات والأسئلة المفتوحة. الحاجة إلى إصلاح ملفين مشاهدة؛ وضعف التعليمات تفسير محتمل. هناك تفسير آخر: ربما لا تتوافق بنية بيانات العميل مع الصيغة المدعومة. راجعوا محاولة فاشلة وأخرى اكتملت دون مساعدة مع زميل من الدعم، بعد إزالة معلومات العميل الحساسة. سجلوا وقت المساعدة والأخطاء التي ظهرت بعد الإدخال إلى جانب عدد مرات الإكمال. فقد ينجح الإدخال ظاهريا ثم يتطلب تصحيح المخزون يدويا في مكان آخر. أظهروا صغر العينة وطريقة اختيار المشاركين؛ المتطوعون للتجربة قد يختلفون عن بقية العملاء. زيادة دقة النسب لا تعالج هذه الحدود ولا تثبت صلاحية النتيجة للجميع.",
+        "اقترحوا خطوة محدودة بمسؤول واضح. يمكن للفريق تعديل ملف المثال، ثم مراقبة عملاء ذوي ظروف مشابهة وهم يستخدمونه دون إصلاح خفي من الدعم. اتفقوا مسبقا على جهد الدعم المقبول وعواقب الأخطاء لهذا الاستخدام، استنادا إلى القدرة الفعلية. إذا كانت المشكلة اختلاف بنية البيانات، فقد يكون حصر الخاصية في صيغ مدعومة أنسب من تعديل التعليمات وحدها. سجلوا الأدلة التي ستؤدي إلى التوسع أو التعديل أو التوقف، وحددوا موعد المراجعة. يمكن وضع ملخص للإدارة في بداية الوثيقة، مع الحفاظ على الأعداد وتعريف النجاح في جميع النسخ. عند المراجعة، قارنوا المتوقع بما حدث، وسجلوا سبب تغيير القرار. النتيجة المطلوبة خطوة قابلة للمتابعة ووصف واضح لما لا يزال مجهولا."
+      ],
+      "takeaways": [
+        "حددوا القرار وخياراته القابلة للتنفيذ قبل كتابة التقرير.",
+        "افصلوا أعداد المدعوين ومن بدأوا ومن أكملوا باستقلال أو بمساعدة.",
+        "ميزوا بين المشاهدات والتفسيرات والأسئلة المفتوحة.",
+        "احسبوا وقت الدعم والتصحيحات اللاحقة ضمن النتيجة.",
+        "حددوا مسؤول الخطوة التالية وموعد المراجعة وشروط تغيير القرار."
+      ],
+      "advice": [
+        "تمرين مستقل: أضيفوا إلى كل ادعاء في أحدث تقرير تجربة المشاهدة التي تدعمه والمعلومات التي لا تزال ناقصة."
+      ]
+    }
+  },
   "A Project of One's Own": {
     "fa": {
       "paragraphs": [

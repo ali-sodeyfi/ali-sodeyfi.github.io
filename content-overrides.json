@@ -226,6 +226,55 @@
     "timezone": "Asia/Tehran",
     "queue": [
       {
+        "id": "2026-11-17-site-persuade-xor-discover",
+        "channel": "site",
+        "target": "site",
+        "articleSlug": "persuade-xor-discover",
+        "publishAt": "2026-11-17T05:48:37+03:30",
+        "status": "published",
+        "publishedAt": "2026-11-17T05:48:37+03:30"
+      },
+      {
+        "id": "2026-11-17-linkedin-persuade-xor-discover",
+        "channel": "linkedin",
+        "target": "external",
+        "articleSlug": "persuade-xor-discover",
+        "publishAt": "2026-11-17T18:00:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-11-17T05:48:37+03:30",
+        "note": "Draft/preview only. Verified account/API or session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "تکمیل با کمک را جدا گزارش کنید",
+          "en": "Report assisted completion separately",
+          "ar": "سجلوا الإكمال بمساعدة بصورة منفصلة"
+        },
+        "body": {
+          "fa": "تکمیل کار با کمک پشتیبانی، هزینه عرضه گسترده را پنهان می‌کند اگر جدا گزارش نشود.\nپیامد عملی: تکمیل مستقل، زمان کمک و خطای پس از ورود داده را کنار هم ثبت کنید.\nگام بعد: پیش از گسترش قابلیت، یک آزمایش محدود با مسئول و شرط بازنگری مشخص اجرا کنید.\nPaul Graham — https://paulgraham.com/discover.html\nhttps://alisodeyfi.ir/articles/persuade-xor-discover/fa/#daily-article-reader",
+          "en": "Assisted completion hides rollout costs when reported as independent success.\nImplication: track independent completion, support time, and errors after import together.\nNext action: run a bounded trial with a named owner and revision criteria before expanding access.\nPaul Graham — https://paulgraham.com/discover.html\nhttps://alisodeyfi.ir/articles/persuade-xor-discover/en/#daily-article-reader",
+          "ar": "إخفاء المساعدة ضمن الإكمال المستقل يحجب تكلفة التوسع.\nالأثر العملي: سجلوا الإكمال المستقل ووقت الدعم وأخطاء ما بعد الإدخال معا.\nالخطوة التالية: نفذوا تجربة محدودة بمسؤول وشروط مراجعة واضحة قبل توسيع الاستخدام.\nPaul Graham — https://paulgraham.com/discover.html\nhttps://alisodeyfi.ir/articles/persuade-xor-discover/ar/#daily-article-reader"
+        }
+      },
+      {
+        "id": "2026-11-17-instagram-story-persuade-xor-discover",
+        "channel": "instagram-story",
+        "target": "external",
+        "articleSlug": "persuade-xor-discover",
+        "publishAt": "2026-11-17T20:30:00+03:30",
+        "status": "blocked/needs-login",
+        "readyAt": "2026-11-17T05:48:37+03:30",
+        "note": "Draft/preview only. Verified account/API or session access and explicit approval for this item have not been established; no social publishing was attempted.",
+        "title": {
+          "fa": "تکمیل با کمک را جدا گزارش کنید",
+          "en": "Report assisted completion separately",
+          "ar": "سجلوا الإكمال بمساعدة بصورة منفصلة"
+        },
+        "body": {
+          "fa": "اسلاید ۱: تکمیل با کمک، هزینه‌ای دارد که باید در گزارش دیده شود.\nاسلاید ۲: زمان حمایت و خطای بعدی را ثبت کنید؛ سپس درباره گسترش تصمیم بگیرید.\nاسلاید ۳: منبع و کاربرد مستقل\nPaul Graham — https://paulgraham.com/discover.html\nhttps://alisodeyfi.ir/articles/persuade-xor-discover/fa/#daily-article-reader",
+          "en": "Slide 1: Assisted completion has a cost the report must show.\nSlide 2: Record support time and later errors before deciding to expand.\nSlide 3: Source and independent application\nPaul Graham — https://paulgraham.com/discover.html\nhttps://alisodeyfi.ir/articles/persuade-xor-discover/en/#daily-article-reader",
+          "ar": "الشريحة ١: للإكمال بمساعدة تكلفة يجب إظهارها في التقرير.\nالشريحة ٢: سجلوا وقت الدعم والأخطاء اللاحقة قبل قرار التوسع.\nالشريحة ٣: المصدر والتطبيق المستقل\nPaul Graham — https://paulgraham.com/discover.html\nhttps://alisodeyfi.ir/articles/persuade-xor-discover/ar/#daily-article-reader"
+        }
+      },
+      {
         "id": "2026-11-16-site-a-project-of-ones-own",
         "channel": "site",
         "target": "site",
